@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:31:32.939777+00:00",
+ "updated_at": "2026-09-05T20:32:02.990119+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 68,
+ "minute": 69,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -122,6 +122,18 @@
    "related": "Nikolas Agrafiotis",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157797202,
+   "minute": 69,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "St. Mirren",
+   "player": "Luke Thomas",
+   "related": "Chris Mochrie",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -130,8 +142,8 @@
    "away": 10
   },
   "Ball Possession %": {
-   "home": 35,
-   "away": 65
+   "home": 36,
+   "away": 64
   },
   "Goals": {
    "home": 1,
@@ -342,5 +354,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 128
+ "rate_remaining": 127
 }
