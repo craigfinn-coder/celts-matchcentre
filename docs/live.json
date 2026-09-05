@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T19:17:51.530967+00:00",
+ "updated_at": "2026-09-05T19:18:21.546512+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -55,7 +55,7 @@
   },
   "Successful Dribbles Percentage": {
    "home": 0,
-   "away": 20
+   "away": 33
   }
  },
  "next_fixtures": [
@@ -254,5 +254,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 153
+ "rate_remaining": 152
 }
