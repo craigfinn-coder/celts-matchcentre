@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:56:02.969995+00:00",
+ "updated_at": "2026-09-05T20:57:02.891808+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 93,
+ "minute": 94,
  "minute_estimated": false,
  "added_time": 4,
  "score": {
@@ -215,7 +215,7 @@
    "side": "away",
    "team": "Celtic",
    "player": "Shumaira Mheuka",
-   "related": null,
+   "related": "Benjamin Nygren",
    "result": "1-3",
    "info": "Right foot shot"
   }
@@ -438,5 +438,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 79
+ "rate_remaining": 77
 }
