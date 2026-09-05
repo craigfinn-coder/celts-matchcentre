@@ -132,23 +132,24 @@ def get_standings():
         st, _ = get(f"standings/seasons/{season}", include="participant;details.type")
         rows = []
         for r in st.get("data", []):
-            played = won = drawn = lost = gf = ga = None
+            vals = {}
             for d in r.get("details", []):
-                name = ((d.get("type") or {}).get("name") or "").lower()
-                v = d.get("value")
-                if name == "overall matches played": played = v
-                elif name == "overall won": won = v
-                elif name == "overall draw": drawn = v
-                elif name == "overall lost": lost = v
-                elif name == "overall goals scored": gf = v
-                elif name == "overall goals conceded": ga = v
+                code = ((d.get("type") or {}).get("code") or "").lower()
+                vals[code] = d.get("value")
+            gf, ga = vals.get("overall-goals-for"), vals.get("overall-goals-against")
+            gd = vals.get("goal-difference")
+            if gd is None and isinstance(gf, int) and isinstance(ga, int):
+                gd = gf - ga
             rows.append({
                 "pos": r.get("position"),
                 "team": (r.get("participant") or {}).get("name"),
                 "team_id": r.get("participant_id"),
                 "pts": r.get("points"),
-                "p": played, "w": won, "d": drawn, "l": lost,
-                "gd": (gf - ga) if isinstance(gf, int) and isinstance(ga, int) else None,
+                "p": vals.get("overall-matches-played"),
+                "w": vals.get("overall-won"),
+                "d": vals.get("overall-draw"),
+                "l": vals.get("overall-lost"),
+                "gf": gf, "ga": ga, "gd": gd,
             })
         return sorted(rows, key=lambda x: (x["pos"] or 99))
     except SystemExit:
@@ -275,8 +276,17 @@ def main():
             "next_fixtures": [fixture_summary(f) for f in upcoming],
             "standings": get_standings(),
         }
+        # If the next game is later today (UK time), show it as a pre-match board
+        if upcoming:
+            from zoneinfo import ZoneInfo
+            uk = ZoneInfo("Europe/London")
+            ko_local = parse_ts(upcoming[0]["starting_at"]).astimezone(uk).date()
+            if ko_local == now.astimezone(uk).date():
+                payload.update({"state": "NS", "state_name": "Not started",
+                                "fixture": fixture_summary(upcoming[0]),
+                                "score": {"home": 0, "away": 0}, "events": [], "stats": {}})
         write_json(OUT, payload)
-        commit_push("No match today - refresh next fixtures", [OUT])
+        commit_push("Refresh next fixtures", [OUT])
         return
 
     meta = fixture_summary(fx)
