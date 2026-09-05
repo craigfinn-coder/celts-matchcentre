@@ -1,272 +1,8 @@
 {
- "updated_at": "2026-09-05T21:00:33.062476+00:00",
+ "updated_at": "2026-09-05T21:03:35.492106+00:00",
  "live": false,
- "fixture": {
-  "id": 19722788,
-  "kickoff_utc": "2026-09-05 19:00:00",
-  "league": "Premiership",
-  "venue": "The Smisa Stadium",
-  "home": "St. Mirren",
-  "away": "Celtic",
-  "home_id": 496,
-  "away_id": 53,
-  "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-  "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
- },
- "state": "FT",
- "state_name": "Full Time",
- "minute": null,
- "minute_estimated": false,
- "added_time": null,
- "score": {
-  "home": 1,
-  "away": 2
- },
- "half_time": {
-  "home": 1,
-  "away": 0
- },
- "events": [
-  {
-   "id": 157795107,
-   "minute": 8,
-   "extra": null,
-   "type": "Yellowcard",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Colby Donovan",
-   "related": null,
-   "result": null,
-   "info": "Foul"
-  },
-  {
-   "id": 157795466,
-   "minute": 22,
-   "extra": null,
-   "type": "Penalty",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Nikolas Agrafiotis",
-   "related": null,
-   "result": "1-0",
-   "info": "Right foot shot"
-  },
-  {
-   "id": 157795765,
-   "minute": 31,
-   "extra": null,
-   "type": "VAR",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Camilo Durán",
-   "related": null,
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157795921,
-   "minute": 37,
-   "extra": null,
-   "type": "Yellowcard",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Calvin Ramsay",
-   "related": null,
-   "result": null,
-   "info": "Foul"
-  },
-  {
-   "id": 157796818,
-   "minute": 51,
-   "extra": null,
-   "type": "Goal",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Liam Scales",
-   "related": "Benjamin Nygren",
-   "result": "1-1",
-   "info": "Header"
-  },
-  {
-   "id": 157797063,
-   "minute": 62,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Samuel Ramos",
-   "related": "Fraser Taylor",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797181,
-   "minute": 68,
-   "extra": null,
-   "type": "Goal",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Hyun-jun Yang",
-   "related": "Camilo Durán",
-   "result": "1-2",
-   "info": "Right foot shot"
-  },
-  {
-   "id": 157797196,
-   "minute": 68,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Eseosa Sule",
-   "related": "Nikolas Agrafiotis",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797202,
-   "minute": 69,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Luke Thomas",
-   "related": "Chris Mochrie",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797277,
-   "minute": 72,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "James Forrest",
-   "related": "Haissem Hassan",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797278,
-   "minute": 73,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Oliver Sørensen",
-   "related": "Mika Baur",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797282,
-   "minute": 73,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Sebastian Tounekti",
-   "related": "Hyun-jun Yang",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797457,
-   "minute": 83,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Shumaira Mheuka",
-   "related": "Camilo Durán",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797470,
-   "minute": 83,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Jake Young",
-   "related": "Ryan Carr",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797521,
-   "minute": 87,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Dane Murray",
-   "related": "Colby Donovan",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797612,
-   "minute": 90,
-   "extra": 5,
-   "type": "VAR",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Shumaira Mheuka",
-   "related": null,
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797620,
-   "minute": 90,
-   "extra": 6,
-   "type": "Yellowcard",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Eseosa Sule",
-   "related": null,
-   "result": null,
-   "info": "Unsportsmanlike conduct"
-  }
- ],
- "stats": {
-  "Corners": {
-   "home": 6,
-   "away": 10
-  },
-  "Ball Possession %": {
-   "home": 40,
-   "away": 60
-  },
-  "Goals": {
-   "home": 1,
-   "away": 2
-  },
-  "Yellowcards": {
-   "home": 2,
-   "away": 1
-  },
-  "Successful Dribbles Percentage": {
-   "home": 42,
-   "away": 36
-  }
- },
+ "state": "NONE",
  "next_fixtures": [
-  {
-   "id": 19722788,
-   "kickoff_utc": "2026-09-05 19:00:00",
-   "league": "Premiership",
-   "venue": "The Smisa Stadium",
-   "home": "St. Mirren",
-   "away": "Celtic",
-   "home_id": 496,
-   "away_id": 53,
-   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
-  },
   {
    "id": 19722806,
    "kickoff_utc": "2026-09-09 19:00:00",
@@ -286,14 +22,14 @@
    "team": "Celtic",
    "team_id": 53,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "pts": 12,
-   "p": 4,
-   "w": 4,
+   "pts": 15,
+   "p": 5,
+   "w": 5,
    "d": 0,
    "l": 0,
-   "gf": 11,
-   "ga": 2,
-   "gd": 9
+   "gf": 13,
+   "ga": 3,
+   "gd": 10
   },
   {
    "pos": 2,
@@ -301,13 +37,13 @@
    "team_id": 496,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
    "pts": 10,
-   "p": 4,
+   "p": 5,
    "w": 3,
    "d": 1,
-   "l": 0,
-   "gf": 7,
-   "ga": 3,
-   "gd": 4
+   "l": 1,
+   "gf": 8,
+   "ga": 5,
+   "gd": 3
   },
   {
    "pos": 3,
@@ -449,6 +185,5 @@
    "ga": 14,
    "gd": -10
   }
- ],
- "rate_remaining": 70
+ ]
 }
