@@ -36,6 +36,12 @@
   .teams{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;position:relative}
   .team{font:800 24px/1.05 var(--display);text-transform:uppercase;letter-spacing:.02em;text-align:center}
   .team.home{text-align:right}.team.away{text-align:left}
+  .team{display:flex;flex-direction:column;align-items:center;gap:8px}
+  .team.home,.team.away{text-align:center}
+  .badge{object-fit:contain;vertical-align:middle}
+  .badge.big{width:64px;height:64px;filter:drop-shadow(0 4px 10px rgba(0,0,0,.35))}
+  .badge.sm{width:20px;height:20px;margin-right:7px;position:relative;top:-1px}
+  @media(max-width:400px){.badge.big{width:48px;height:48px}.team{font-size:20px}}
   .team small{display:block;font:600 11px/1.4 var(--body);letter-spacing:.08em;opacity:.7;text-transform:uppercase;margin-top:4px}
   .score{font:800 64px/1 var(--display);letter-spacing:.02em;font-variant-numeric:tabular-nums;white-space:nowrap;padding:0 6px;text-shadow:0 2px 0 rgba(0,0,0,.25)}
   .score.flash{animation:flash 1.6s ease-out}
@@ -115,6 +121,9 @@
   const $=id=>document.getElementById(id);
   const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const CELTIC=/celtic/i;
+  const CREST={'Celtic':'21/53','St. Mirren':'16/496','Hearts':'26/314','Motherwell':'21/309','Dundee':'28/284','Rangers':'30/62','Hibernian':'2/66','St. Johnstone':'30/734','Dundee United':'26/282','Aberdeen':'17/273','Falkirk':'2/770','Kilmarnock':'20/180'};
+  const crest=(name,url)=>url||(CREST[name]?'https://cdn.sportmonks.com/images/soccer/teams/'+CREST[name]+'.png':null);
+  const badge=(name,url,cls)=>{const u=crest(name,url);return u?`<img class="badge ${cls||''}" src="${u}" alt="" loading="lazy" onerror="this.style.display='none'">`:'';};
   let lastGood=null, lastScoreKey=null, lastGoalIds=null, firstRender=true;
 
   const ukDate=(utc,opts)=>new Date(utc.replace(' ','T')+'Z').toLocaleString('en-GB',{timeZone:'Europe/London',...opts});
@@ -159,9 +168,9 @@
       $('board').innerHTML=
         `<div class="comp">${esc(fx.league||'')}${fx.venue?' · '+esc(fx.venue):''}</div>
          <div class="teams">
-           <div class="team home">${esc(fx.home)}<small>Home</small></div>
+           <div class="team home">${badge(fx.home,fx.home_logo,'big')}<span>${esc(fx.home)}<small>Home</small></span></div>
            <div class="score ${flash?'flash':''}">${ns?'v':sc.home+'–'+sc.away}</div>
-           <div class="team away">${esc(fx.away)}<small>Away</small></div>
+           <div class="team away">${badge(fx.away,fx.away_logo,'big')}<span>${esc(fx.away)}<small>Away</small></span></div>
          </div>
          <div class="status"><span class="pill ${live?'live':''}">${esc(status)}</span>
            ${d.half_time&&d.half_time.home!=null&&!ns?`<span class="ht">HT ${d.half_time.home}–${d.half_time.away}</span>`:''}${extra}</div>
@@ -205,13 +214,13 @@
     $('table').hidden=!st.length;
     if(st.length){
       $('table').innerHTML='<h2>Premiership</h2><table><tr><th>#</th><th>Team</th><th>P</th><th class="wdl">W</th><th class="wdl">D</th><th class="wdl">L</th><th>GD</th><th>Pts</th></tr>'+
-        st.map(r=>`<tr class="${CELTIC.test(r.team)?'celtic':''}"><td>${r.pos}</td><td>${esc(r.team)}</td><td>${r.p??''}</td><td class="wdl">${r.w??''}</td><td class="wdl">${r.d??''}</td><td class="wdl">${r.l??''}</td><td>${r.gd!=null?(r.gd>0?'+':'')+r.gd:''}</td><td><b>${r.pts}</b></td></tr>`).join('')+'</table>';
+        st.map(r=>`<tr class="${CELTIC.test(r.team)?'celtic':''}"><td>${r.pos}</td><td>${badge(r.team,r.logo,'sm')}${esc(r.team)}</td><td>${r.p??''}</td><td class="wdl">${r.w??''}</td><td class="wdl">${r.d??''}</td><td class="wdl">${r.l??''}</td><td>${r.gd!=null?(r.gd>0?'+':'')+r.gd:''}</td><td><b>${r.pts}</b></td></tr>`).join('')+'</table>';
     }
 
     const nx=(d.next_fixtures||[]).filter(f=>!fx||f.id!==fx.id);
     $('next').hidden=!nx.length;
     if(nx.length){
-      $('next').innerHTML='<h2>Coming up</h2>'+nx.map(f=>`<div class="fx"><span><b>${esc(f.home)}</b> v <b>${esc(f.away)}</b><br><span class="sub" style="color:var(--muted);font-size:12px">${esc(f.league||'')}</span></span><span class="when">${fmtKO(f.kickoff_utc)}</span></div>`).join('');
+      $('next').innerHTML='<h2>Coming up</h2>'+nx.map(f=>`<div class="fx"><span>${badge(f.home,f.home_logo,'sm')}<b>${esc(f.home)}</b> v ${badge(f.away,f.away_logo,'sm')}<b>${esc(f.away)}</b><br><span class="sub" style="color:var(--muted);font-size:12px">${esc(f.league||'')}</span></span><span class="when">${fmtKO(f.kickoff_utc)}</span></div>`).join('');
     }
     firstRender=false;
   }
