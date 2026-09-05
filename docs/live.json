@@ -1,6 +1,8 @@
 {
- "updated_at": "2026-09-05T19:12:34.148307+00:00",
- "live": true,
+ "updated_at": "2026-09-05T19:13:18.142823+00:00",
+ "live": false,
+ "state": "NS",
+ "state_name": "Not started",
  "fixture": {
   "id": 19722788,
   "kickoff_utc": "2026-09-05 19:00:00",
@@ -13,51 +15,12 @@
   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
  },
- "state": "INPLAY_1ST_HALF",
- "state_name": "1st Half",
- "minute": 12,
- "minute_estimated": false,
- "added_time": null,
  "score": {
   "home": 0,
   "away": 0
  },
- "half_time": {
-  "home": 0,
-  "away": 0
- },
- "events": [
-  {
-   "id": 157795107,
-   "minute": 8,
-   "extra": null,
-   "type": "Yellowcard",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Colby Donovan",
-   "related": null,
-   "result": null,
-   "info": "Foul"
-  }
- ],
- "stats": {
-  "Corners": {
-   "home": 0,
-   "away": 2
-  },
-  "Ball Possession %": {
-   "home": 26,
-   "away": 74
-  },
-  "Yellowcards": {
-   "home": 0,
-   "away": 1
-  },
-  "Successful Dribbles Percentage": {
-   "home": 0,
-   "away": 20
-  }
- },
+ "events": [],
+ "stats": {},
  "next_fixtures": [
   {
    "id": 19722788,
@@ -253,6 +216,5 @@
    "ga": 14,
    "gd": -10
   }
- ],
- "rate_remaining": 164
+ ]
 }
