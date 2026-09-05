@@ -1,0 +1,37 @@
+name: Match day poller
+
+on:
+  workflow_dispatch:
+    inputs:
+      fixture_id:
+        description: "Sportmonks fixture ID to force (leave blank to auto-detect today's Celtic game)"
+        required: false
+        default: ""
+  schedule:
+    - cron: "0 * * * *"
+
+concurrency:
+  group: matchday
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Poll Sportmonks and publish live.json
+        env:
+          SPORTMONKS_TOKEN: ${{ secrets.SPORTMONKS_TOKEN }}
+          FIXTURE_ID: ${{ github.event.inputs.fixture_id }}
+        run: python poller.py
