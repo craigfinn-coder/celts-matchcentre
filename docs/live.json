@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T19:16:51.544498+00:00",
+ "updated_at": "2026-09-05T19:17:51.530967+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 16,
+ "minute": 17,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -254,5 +254,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 155
+ "rate_remaining": 153
 }
