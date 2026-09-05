@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:31:03.170402+00:00",
+ "updated_at": "2026-09-05T20:31:32.939777+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -107,9 +107,21 @@
    "side": "away",
    "team": "Celtic",
    "player": "Hyun-jun Yang",
-   "related": null,
+   "related": "Camilo Durán",
    "result": "1-2",
    "info": "Right foot shot"
+  },
+  {
+   "id": 157797196,
+   "minute": 68,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "St. Mirren",
+   "player": "Eseosa Sule",
+   "related": "Nikolas Agrafiotis",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -330,5 +342,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 129
+ "rate_remaining": 128
 }
