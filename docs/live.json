@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:46:32.902074+00:00",
+ "updated_at": "2026-09-05T20:50:03.064577+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 83,
+ "minute": 87,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -194,6 +194,18 @@
    "related": "Ryan Carr",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157797521,
+   "minute": 87,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Dane Murray",
+   "related": "Colby Donovan",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -215,7 +227,7 @@
   },
   "Successful Dribbles Percentage": {
    "home": 40,
-   "away": 38
+   "away": 35
   }
  },
  "next_fixtures": [
@@ -414,5 +426,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 98
+ "rate_remaining": 91
 }
