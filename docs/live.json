@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T19:18:51.596320+00:00",
+ "updated_at": "2026-09-05T19:19:21.533613+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -46,8 +46,8 @@
    "away": 3
   },
   "Ball Possession %": {
-   "home": 27,
-   "away": 73
+   "home": 28,
+   "away": 72
   },
   "Yellowcards": {
    "home": 0,
@@ -254,5 +254,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 151
+ "rate_remaining": 150
 }
