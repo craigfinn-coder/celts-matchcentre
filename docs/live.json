@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:14:32.919203+00:00",
+ "updated_at": "2026-09-05T20:24:32.905212+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 51,
+ "minute": 61,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -86,16 +86,28 @@
    "related": "Benjamin Nygren",
    "result": "1-1",
    "info": "Header"
+  },
+  {
+   "id": 157797063,
+   "minute": 62,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "St. Mirren",
+   "player": "Samuel Ramos",
+   "related": "Fraser Taylor",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
   "Corners": {
-   "home": 3,
-   "away": 8
+   "home": 5,
+   "away": 10
   },
   "Ball Possession %": {
-   "home": 32,
-   "away": 68
+   "home": 36,
+   "away": 64
   },
   "Goals": {
    "home": 1,
@@ -106,7 +118,7 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 67,
+   "home": 50,
    "away": 25
   }
  },
@@ -306,5 +318,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 162
+ "rate_remaining": 142
 }
