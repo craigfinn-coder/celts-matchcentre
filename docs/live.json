@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T19:14:51.549218+00:00",
+ "updated_at": "2026-09-05T19:15:21.526769+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -43,7 +43,7 @@
  "stats": {
   "Corners": {
    "home": 0,
-   "away": 2
+   "away": 3
   },
   "Ball Possession %": {
    "home": 27,
@@ -254,5 +254,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 159
+ "rate_remaining": 158
 }
