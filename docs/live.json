@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:13:02.920477+00:00",
+ "updated_at": "2026-09-05T20:14:02.929061+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 50,
+ "minute": 51,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -74,12 +74,24 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 157796818,
+   "minute": 51,
+   "extra": null,
+   "type": "Goal",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Liam Scales",
+   "related": null,
+   "result": "1-1",
+   "info": "Header"
   }
  ],
  "stats": {
   "Corners": {
    "home": 3,
-   "away": 7
+   "away": 8
   },
   "Ball Possession %": {
    "home": 32,
@@ -87,7 +99,7 @@
   },
   "Goals": {
    "home": 1,
-   "away": 0
+   "away": 1
   },
   "Yellowcards": {
    "home": 1,
@@ -294,5 +306,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 165
+ "rate_remaining": 163
 }
