@@ -120,6 +120,8 @@ def fixture_summary(fx):
         "away": away["name"] if away else None,
         "home_id": home["id"] if home else None,
         "away_id": away["id"] if away else None,
+        "home_logo": home.get("image_path") if home else None,
+        "away_logo": away.get("image_path") if away else None,
     }
 
 
@@ -144,6 +146,7 @@ def get_standings():
                 "pos": r.get("position"),
                 "team": (r.get("participant") or {}).get("name"),
                 "team_id": r.get("participant_id"),
+                "logo": (r.get("participant") or {}).get("image_path"),
                 "pts": r.get("points"),
                 "p": vals.get("overall-matches-played"),
                 "w": vals.get("overall-won"),
