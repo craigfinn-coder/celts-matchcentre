@@ -1,0 +1,163 @@
+{
+ "updated_at": "2026-09-02T19:50:00+00:00",
+ "live": true,
+ "fixture": {
+  "id": 19722799,
+  "kickoff_utc": "2026-09-02 18:45:00",
+  "league": "Premiership",
+  "venue": "Celtic Park",
+  "home": "Celtic",
+  "away": "Aberdeen",
+  "home_id": 53,
+  "away_id": 273
+ },
+ "state": "INPLAY_2ND_HALF",
+ "state_name": "2nd Half",
+ "minute": 63,
+ "minute_estimated": false,
+ "added_time": null,
+ "score": {
+  "home": 3,
+  "away": 0
+ },
+ "half_time": {
+  "home": 3,
+  "away": 0
+ },
+ "events": [
+  {
+   "id": 1,
+   "minute": 14,
+   "extra": null,
+   "type": "Goal",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Camilo Durán",
+   "related": "Benjamin Nygren",
+   "result": "1-0",
+   "info": null
+  },
+  {
+   "id": 2,
+   "minute": 34,
+   "extra": null,
+   "type": "Goal",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Benjamin Nygren",
+   "related": null,
+   "result": "2-0",
+   "info": null
+  },
+  {
+   "id": 3,
+   "minute": 45,
+   "extra": 2,
+   "type": "Goal",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Hyun-jun Yang",
+   "related": "Camilo Durán",
+   "result": "3-0",
+   "info": null
+  },
+  {
+   "id": 4,
+   "minute": 46,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Aberdeen",
+   "player": "Mitchy Ntelo",
+   "related": "Ayoub Mouloua",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 5,
+   "minute": 52,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Aberdeen",
+   "player": "Connor Ronan",
+   "related": null,
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 6,
+   "minute": 63,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Mika Baur",
+   "related": "Benjamin Nygren",
+   "result": null,
+   "info": null
+  }
+ ],
+ "stats": {
+  "Corners": {
+   "home": 15,
+   "away": 5
+  },
+  "Ball Possession %": {
+   "home": 66,
+   "away": 34
+  },
+  "Goals": {
+   "home": 3,
+   "away": 0
+  },
+  "Yellowcards": {
+   "home": 1,
+   "away": 1
+  }
+ },
+ "next_fixtures": [
+  {
+   "id": 19722788,
+   "kickoff_utc": "2026-09-05 19:00:00",
+   "home": "St. Mirren",
+   "away": "Celtic"
+  },
+  {
+   "id": 19722782,
+   "kickoff_utc": "2026-09-20 11:00:00",
+   "home": "Celtic",
+   "away": "Rangers"
+  }
+ ],
+ "standings": [
+  {
+   "pos": 1,
+   "team": "Celtic",
+   "pts": 12,
+   "p": 4,
+   "gd": 9
+  },
+  {
+   "pos": 2,
+   "team": "St. Mirren",
+   "pts": 10,
+   "p": 4,
+   "gd": 4
+  },
+  {
+   "pos": 3,
+   "team": "Hearts",
+   "pts": 9,
+   "p": 4,
+   "gd": 3
+  },
+  {
+   "pos": 6,
+   "team": "Rangers",
+   "pts": 7,
+   "p": 4,
+   "gd": 1
+  }
+ ]
+}
