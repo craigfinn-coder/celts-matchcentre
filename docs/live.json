@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:55:02.941931+00:00",
+ "updated_at": "2026-09-05T20:56:02.969995+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 92,
+ "minute": 93,
  "minute_estimated": false,
  "added_time": 4,
  "score": {
@@ -206,6 +206,18 @@
    "related": "Colby Donovan",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157797591,
+   "minute": 90,
+   "extra": 3,
+   "type": "Goal",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Shumaira Mheuka",
+   "related": null,
+   "result": "1-3",
+   "info": "Right foot shot"
   }
  ],
  "stats": {
@@ -426,5 +438,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 81
+ "rate_remaining": 79
 }
