@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:08:03.210763+00:00",
+ "updated_at": "2026-09-05T20:13:02.920477+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,12 +15,12 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 45,
+ "minute": 50,
  "minute_estimated": false,
  "added_time": null,
  "score": {
   "home": 1,
-  "away": 0
+  "away": 1
  },
  "half_time": {
   "home": 1,
@@ -79,7 +79,7 @@
  "stats": {
   "Corners": {
    "home": 3,
-   "away": 6
+   "away": 7
   },
   "Ball Possession %": {
    "home": 32,
@@ -94,8 +94,8 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 80,
-   "away": 29
+   "home": 67,
+   "away": 25
   }
  },
  "next_fixtures": [
@@ -294,5 +294,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 175
+ "rate_remaining": 165
 }
