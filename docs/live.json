@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:30:32.905125+00:00",
+ "updated_at": "2026-09-05T20:31:03.170402+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,12 +15,12 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 67,
+ "minute": 68,
  "minute_estimated": false,
  "added_time": null,
  "score": {
   "home": 1,
-  "away": 1
+  "away": 2
  },
  "half_time": {
   "home": 1,
@@ -98,6 +98,18 @@
    "related": "Fraser Taylor",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157797181,
+   "minute": 68,
+   "extra": null,
+   "type": "Goal",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Hyun-jun Yang",
+   "related": null,
+   "result": "1-2",
+   "info": "Right foot shot"
   }
  ],
  "stats": {
@@ -318,5 +330,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 130
+ "rate_remaining": 129
 }
