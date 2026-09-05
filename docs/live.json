@@ -1,8 +1,6 @@
 {
- "updated_at": "2026-09-05T19:23:00.071080+00:00",
- "live": false,
- "state": "NS",
- "state_name": "Not started",
+ "updated_at": "2026-09-05T19:23:03.086691+00:00",
+ "live": true,
  "fixture": {
   "id": 19722788,
   "kickoff_utc": "2026-09-05 19:00:00",
@@ -15,12 +13,67 @@
   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
  },
+ "state": "INPLAY_1ST_HALF",
+ "state_name": "1st Half",
+ "minute": 22,
+ "minute_estimated": false,
+ "added_time": null,
  "score": {
-  "home": 0,
+  "home": 1,
   "away": 0
  },
- "events": [],
- "stats": {},
+ "half_time": {
+  "home": 1,
+  "away": 0
+ },
+ "events": [
+  {
+   "id": 157795107,
+   "minute": 8,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Colby Donovan",
+   "related": null,
+   "result": null,
+   "info": "Foul"
+  },
+  {
+   "id": 157795466,
+   "minute": 22,
+   "extra": null,
+   "type": "Penalty",
+   "side": "home",
+   "team": "St. Mirren",
+   "player": "Nikolas Agrafiotis",
+   "related": null,
+   "result": "1-0",
+   "info": "Right foot shot"
+  }
+ ],
+ "stats": {
+  "Corners": {
+   "home": 1,
+   "away": 3
+  },
+  "Ball Possession %": {
+   "home": 28,
+   "away": 72
+  },
+  "Goals": {
+   "home": 1,
+   "away": 0
+  },
+  "Yellowcards": {
+   "home": 0,
+   "away": 1
+  },
+  "Successful Dribbles Percentage": {
+   "home": 0,
+   "away": 33
+  }
+ },
  "next_fixtures": [
   {
    "id": 19722788,
@@ -216,5 +269,6 @@
    "ga": 14,
    "gd": -10
   }
- ]
+ ],
+ "rate_remaining": 147
 }
