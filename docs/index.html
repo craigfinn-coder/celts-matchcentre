@@ -229,7 +229,7 @@
 
   async function load(){
     try{
-      const r=await fetch('live.json?t='+Date.now(),{cache:'no-store'});
+      const r=await fetch('https://raw.githubusercontent.com/craigfinn-coder/celts-matchcentre/main/docs/live.json?t='+Date.now(),{cache:'no-store'});
       if(!r.ok)throw new Error(r.status);
       const d=await r.json();
       lastGood=d; render(d);
