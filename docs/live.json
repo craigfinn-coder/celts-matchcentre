@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T19:32:32.983997+00:00",
+ "updated_at": "2026-09-05T19:38:02.885332+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 32,
+ "minute": 37,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -62,20 +62,32 @@
    "related": null,
    "result": null,
    "info": null
+  },
+  {
+   "id": 157795921,
+   "minute": 37,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "home",
+   "team": "St. Mirren",
+   "player": "Calvin Ramsay",
+   "related": null,
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
   "Corners": {
    "home": 3,
-   "away": 3
+   "away": 4
   },
   "Ball Possession %": {
-   "home": 32,
-   "away": 68
+   "home": 31,
+   "away": 69
   },
   "Goals": {
    "home": 1,
-   "away": 1
+   "away": 0
   },
   "Yellowcards": {
    "home": 0,
@@ -83,7 +95,7 @@
   },
   "Successful Dribbles Percentage": {
    "home": 100,
-   "away": 40
+   "away": 33
   }
  },
  "next_fixtures": [
@@ -282,5 +294,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 128
+ "rate_remaining": 117
 }
