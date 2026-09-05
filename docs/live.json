@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:59:03.151905+00:00",
+ "updated_at": "2026-09-05T20:59:32.906278+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -229,7 +229,7 @@
    "player": "Eseosa Sule",
    "related": null,
    "result": null,
-   "info": null
+   "info": "Unsportsmanlike conduct"
   }
  ],
  "stats": {
@@ -246,12 +246,12 @@
    "away": 2
   },
   "Yellowcards": {
-   "home": 1,
+   "home": 2,
    "away": 1
   },
   "Successful Dribbles Percentage": {
    "home": 36,
-   "away": 33
+   "away": 36
   }
  },
  "next_fixtures": [
@@ -450,5 +450,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 73
+ "rate_remaining": 72
 }
