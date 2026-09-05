@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:58:32.950912+00:00",
+ "updated_at": "2026-09-05T20:59:03.151905+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,12 +15,12 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 95,
+ "minute": 96,
  "minute_estimated": false,
  "added_time": 4,
  "score": {
   "home": 1,
-  "away": 3
+  "away": 2
  },
  "half_time": {
   "home": 1,
@@ -218,6 +218,18 @@
    "related": null,
    "result": null,
    "info": null
+  },
+  {
+   "id": 157797620,
+   "minute": 90,
+   "extra": 6,
+   "type": "Yellowcard",
+   "side": "home",
+   "team": "St. Mirren",
+   "player": "Eseosa Sule",
+   "related": null,
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -231,7 +243,7 @@
   },
   "Goals": {
    "home": 1,
-   "away": 3
+   "away": 2
   },
   "Yellowcards": {
    "home": 1,
@@ -438,5 +450,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 74
+ "rate_remaining": 73
 }
