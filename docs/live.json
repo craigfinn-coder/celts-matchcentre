@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T19:59:32.904403+00:00",
+ "updated_at": "2026-09-05T20:08:03.210763+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -13,8 +13,8 @@
   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
  },
- "state": "HT",
- "state_name": "Half Time",
+ "state": "INPLAY_2ND_HALF",
+ "state_name": "2nd Half",
  "minute": 45,
  "minute_estimated": false,
  "added_time": null,
@@ -82,8 +82,8 @@
    "away": 6
   },
   "Ball Possession %": {
-   "home": 31,
-   "away": 69
+   "home": 32,
+   "away": 68
   },
   "Goals": {
    "home": 1,
@@ -94,7 +94,7 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 100,
+   "home": 80,
    "away": 29
   }
  },
@@ -294,5 +294,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 74
+ "rate_remaining": 175
 }
