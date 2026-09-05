@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T21:00:02.954744+00:00",
+ "updated_at": "2026-09-05T21:00:33.062476+00:00",
  "live": false,
  "fixture": {
   "id": 19722788,
@@ -311,6 +311,20 @@
   },
   {
    "pos": 3,
+   "team": "Rangers",
+   "team_id": 62,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+   "pts": 10,
+   "p": 5,
+   "w": 3,
+   "d": 1,
+   "l": 1,
+   "gf": 6,
+   "ga": 4,
+   "gd": 2
+  },
+  {
+   "pos": 4,
    "team": "Hearts",
    "team_id": 314,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
@@ -324,21 +338,21 @@
    "gd": 6
   },
   {
-   "pos": 4,
+   "pos": 5,
    "team": "Motherwell",
    "team_id": 309,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
    "pts": 8,
-   "p": 4,
+   "p": 5,
    "w": 2,
    "d": 2,
-   "l": 0,
+   "l": 1,
    "gf": 8,
-   "ga": 4,
-   "gd": 4
+   "ga": 5,
+   "gd": 3
   },
   {
-   "pos": 5,
+   "pos": 6,
    "team": "Dundee",
    "team_id": 284,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
@@ -350,20 +364,6 @@
    "gf": 6,
    "ga": 4,
    "gd": 2
-  },
-  {
-   "pos": 6,
-   "team": "Rangers",
-   "team_id": 62,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 7,
-   "p": 4,
-   "w": 2,
-   "d": 1,
-   "l": 1,
-   "gf": 5,
-   "ga": 4,
-   "gd": 1
   },
   {
    "pos": 7,
@@ -450,5 +450,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 71
+ "rate_remaining": 70
 }
