@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:32:02.990119+00:00",
+ "updated_at": "2026-09-05T20:35:32.886854+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 69,
+ "minute": 72,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -132,6 +132,42 @@
    "team": "St. Mirren",
    "player": "Luke Thomas",
    "related": "Chris Mochrie",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157797277,
+   "minute": 72,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "James Forrest",
+   "related": "Haissem Hassan",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157797278,
+   "minute": 73,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Oliver Sørensen",
+   "related": "Mika Baur",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157797282,
+   "minute": 73,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Sebastian Tounekti",
+   "related": "Hyun-jun Yang",
    "result": null,
    "info": null
   }
@@ -354,5 +390,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 127
+ "rate_remaining": 120
 }
