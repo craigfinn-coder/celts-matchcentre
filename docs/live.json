@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:35:32.886854+00:00",
+ "updated_at": "2026-09-05T20:46:02.928772+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 72,
+ "minute": 83,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -170,16 +170,28 @@
    "related": "Hyun-jun Yang",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157797457,
+   "minute": 83,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Shumaira Mheuka",
+   "related": "Camilo Durán",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
   "Corners": {
-   "home": 5,
+   "home": 6,
    "away": 10
   },
   "Ball Possession %": {
-   "home": 36,
-   "away": 64
+   "home": 39,
+   "away": 61
   },
   "Goals": {
    "home": 1,
@@ -191,7 +203,7 @@
   },
   "Successful Dribbles Percentage": {
    "home": 40,
-   "away": 37
+   "away": 38
   }
  },
  "next_fixtures": [
@@ -390,5 +402,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 120
+ "rate_remaining": 99
 }
