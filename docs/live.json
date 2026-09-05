@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T19:11:34.119320+00:00",
+ "updated_at": "2026-09-05T19:12:34.148307+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 11,
+ "minute": 12,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -43,11 +43,11 @@
  "stats": {
   "Corners": {
    "home": 0,
-   "away": 1
+   "away": 2
   },
   "Ball Possession %": {
-   "home": 28,
-   "away": 72
+   "home": 26,
+   "away": 74
   },
   "Yellowcards": {
    "home": 0,
@@ -254,5 +254,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 166
+ "rate_remaining": 164
 }
