@@ -246,6 +246,9 @@ def git(*args, check=True):
 
 def commit_push(msg, paths):
     try:
+        paths = [p for p in paths if os.path.exists(p)]
+        if not paths:
+            return False
         git("add", *paths)
         st = git("status", "--porcelain", *paths)
         if not st.stdout.strip():
@@ -357,8 +360,11 @@ def main():
         }
         write_json(OUT, payload)
 
-        key = json.dumps({k: live[k] for k in ("state", "minute", "score", "events", "stats")}, sort_keys=True)
-        heartbeat = time.time() - last_commit > 300
+        # GitHub Pages (branch deploy) has a soft limit of 10 builds/hour, so only push when
+        # something a reader would notice changed: state, score or an event. The page ticks
+        # the minute along itself from updated_at; stats ride along on the next push.
+        key = json.dumps({k: live[k] for k in ("state", "score", "events")}, sort_keys=True)
+        heartbeat = time.time() - last_commit > int(os.environ.get("HEARTBEAT_SECONDS", "600"))
         if key != last_payload_key or heartbeat:
             s = live["score"]
             msg = f"{meta['home']} {s['home']}-{s['away']} {meta['away']} [{live['state']} {live['minute'] or ''}']"
