@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:46:02.928772+00:00",
+ "updated_at": "2026-09-05T20:46:32.902074+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -180,6 +180,18 @@
    "team": "Celtic",
    "player": "Shumaira Mheuka",
    "related": "Camilo Durán",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157797470,
+   "minute": 83,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "St. Mirren",
+   "player": "Jake Young",
+   "related": "Ryan Carr",
    "result": null,
    "info": null
   }
@@ -402,5 +414,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 99
+ "rate_remaining": 98
 }
