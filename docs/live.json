@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T19:30:02.946569+00:00",
+ "updated_at": "2026-09-05T19:31:03.153131+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -15,7 +15,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 29,
+ "minute": 30,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -50,6 +50,18 @@
    "related": null,
    "result": "1-0",
    "info": "Right foot shot"
+  },
+  {
+   "id": 157795723,
+   "minute": 29,
+   "extra": null,
+   "type": "Goal",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Camilo Durán",
+   "related": null,
+   "result": "1-1",
+   "info": "Left foot shot"
   }
  ],
  "stats": {
@@ -270,5 +282,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 133
+ "rate_remaining": 131
 }
