@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T20:30:02.926833+00:00",
+ "updated_at": "2026-09-05T20:30:32.905125+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -20,7 +20,7 @@
  "added_time": null,
  "score": {
   "home": 1,
-  "away": 2
+  "away": 1
  },
  "half_time": {
   "home": 1,
@@ -111,7 +111,7 @@
   },
   "Goals": {
    "home": 1,
-   "away": 1
+   "away": 2
   },
   "Yellowcards": {
    "home": 1,
@@ -318,5 +318,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 131
+ "rate_remaining": 130
 }
