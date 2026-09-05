@@ -1,163 +1,161 @@
 {
- "updated_at": "2026-09-02T19:50:00+00:00",
- "live": true,
- "fixture": {
-  "id": 19722799,
-  "kickoff_utc": "2026-09-02 18:45:00",
-  "league": "Premiership",
-  "venue": "Celtic Park",
-  "home": "Celtic",
-  "away": "Aberdeen",
-  "home_id": 53,
-  "away_id": 273
- },
- "state": "INPLAY_2ND_HALF",
- "state_name": "2nd Half",
- "minute": 63,
- "minute_estimated": false,
- "added_time": null,
- "score": {
-  "home": 3,
-  "away": 0
- },
- "half_time": {
-  "home": 3,
-  "away": 0
- },
- "events": [
-  {
-   "id": 1,
-   "minute": 14,
-   "extra": null,
-   "type": "Goal",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Camilo Durán",
-   "related": "Benjamin Nygren",
-   "result": "1-0",
-   "info": null
-  },
-  {
-   "id": 2,
-   "minute": 34,
-   "extra": null,
-   "type": "Goal",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Benjamin Nygren",
-   "related": null,
-   "result": "2-0",
-   "info": null
-  },
-  {
-   "id": 3,
-   "minute": 45,
-   "extra": 2,
-   "type": "Goal",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Hyun-jun Yang",
-   "related": "Camilo Durán",
-   "result": "3-0",
-   "info": null
-  },
-  {
-   "id": 4,
-   "minute": 46,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Aberdeen",
-   "player": "Mitchy Ntelo",
-   "related": "Ayoub Mouloua",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 5,
-   "minute": 52,
-   "extra": null,
-   "type": "Yellowcard",
-   "side": "away",
-   "team": "Aberdeen",
-   "player": "Connor Ronan",
-   "related": null,
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 6,
-   "minute": 63,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Mika Baur",
-   "related": "Benjamin Nygren",
-   "result": null,
-   "info": null
-  }
- ],
- "stats": {
-  "Corners": {
-   "home": 15,
-   "away": 5
-  },
-  "Ball Possession %": {
-   "home": 66,
-   "away": 34
-  },
-  "Goals": {
-   "home": 3,
-   "away": 0
-  },
-  "Yellowcards": {
-   "home": 1,
-   "away": 1
-  }
- },
+ "updated_at": "2026-09-05T16:13:23.154715+00:00",
+ "live": false,
+ "state": "NONE",
  "next_fixtures": [
   {
    "id": 19722788,
    "kickoff_utc": "2026-09-05 19:00:00",
+   "league": "Premiership",
+   "venue": "The Smisa Stadium",
    "home": "St. Mirren",
-   "away": "Celtic"
+   "away": "Celtic",
+   "home_id": 496,
+   "away_id": 53
   },
   {
-   "id": 19722782,
-   "kickoff_utc": "2026-09-20 11:00:00",
-   "home": "Celtic",
-   "away": "Rangers"
+   "id": 19722806,
+   "kickoff_utc": "2026-09-09 19:00:00",
+   "league": "Premiership",
+   "venue": "McDiarmid Park",
+   "home": "St. Johnstone",
+   "away": "Celtic",
+   "home_id": 734,
+   "away_id": 53
   }
  ],
  "standings": [
   {
    "pos": 1,
    "team": "Celtic",
+   "team_id": 53,
    "pts": 12,
    "p": 4,
-   "gd": 9
+   "w": 4,
+   "d": 0,
+   "l": 0,
+   "gd": null
   },
   {
    "pos": 2,
    "team": "St. Mirren",
+   "team_id": 496,
    "pts": 10,
    "p": 4,
-   "gd": 4
+   "w": 3,
+   "d": 1,
+   "l": 0,
+   "gd": null
   },
   {
    "pos": 3,
    "team": "Hearts",
+   "team_id": 314,
    "pts": 9,
    "p": 4,
-   "gd": 3
+   "w": 3,
+   "d": 0,
+   "l": 1,
+   "gd": null
+  },
+  {
+   "pos": 4,
+   "team": "Motherwell",
+   "team_id": 309,
+   "pts": 8,
+   "p": 4,
+   "w": 2,
+   "d": 2,
+   "l": 0,
+   "gd": null
+  },
+  {
+   "pos": 5,
+   "team": "Dundee",
+   "team_id": 284,
+   "pts": 7,
+   "p": 5,
+   "w": 2,
+   "d": 1,
+   "l": 2,
+   "gd": null
   },
   {
    "pos": 6,
    "team": "Rangers",
+   "team_id": 62,
    "pts": 7,
    "p": 4,
-   "gd": 1
+   "w": 2,
+   "d": 1,
+   "l": 1,
+   "gd": null
+  },
+  {
+   "pos": 7,
+   "team": "Hibernian",
+   "team_id": 66,
+   "pts": 6,
+   "p": 4,
+   "w": 2,
+   "d": 0,
+   "l": 2,
+   "gd": null
+  },
+  {
+   "pos": 8,
+   "team": "Dundee United",
+   "team_id": 282,
+   "pts": 5,
+   "p": 6,
+   "w": 1,
+   "d": 2,
+   "l": 3,
+   "gd": null
+  },
+  {
+   "pos": 9,
+   "team": "St. Johnstone",
+   "team_id": 734,
+   "pts": 4,
+   "p": 4,
+   "w": 1,
+   "d": 1,
+   "l": 2,
+   "gd": null
+  },
+  {
+   "pos": 10,
+   "team": "Aberdeen",
+   "team_id": 273,
+   "pts": 4,
+   "p": 5,
+   "w": 1,
+   "d": 1,
+   "l": 3,
+   "gd": null
+  },
+  {
+   "pos": 11,
+   "team": "Falkirk",
+   "team_id": 770,
+   "pts": 2,
+   "p": 5,
+   "w": 0,
+   "d": 2,
+   "l": 3,
+   "gd": null
+  },
+  {
+   "pos": 12,
+   "team": "Kilmarnock",
+   "team_id": 180,
+   "pts": 1,
+   "p": 5,
+   "w": 0,
+   "d": 1,
+   "l": 4,
+   "gd": null
   }
  ]
 }
