@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05T19:31:32.910469+00:00",
+ "updated_at": "2026-09-05T19:32:02.892457+00:00",
  "live": true,
  "fixture": {
   "id": 19722788,
@@ -61,7 +61,19 @@
    "player": "Camilo Durán",
    "related": null,
    "result": "1-1",
-   "info": "Field Goal"
+   "info": null
+  },
+  {
+   "id": 157795765,
+   "minute": 29,
+   "extra": null,
+   "type": "VAR",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Camilo Durán",
+   "related": null,
+   "result": null,
+   "info": "Video review"
   }
  ],
  "stats": {
@@ -282,5 +294,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 130
+ "rate_remaining": 129
 }
