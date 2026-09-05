@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-05T20:59:32.906278+00:00",
- "live": true,
+ "updated_at": "2026-09-05T21:00:02.954744+00:00",
+ "live": false,
  "fixture": {
   "id": 19722788,
   "kickoff_utc": "2026-09-05 19:00:00",
@@ -13,11 +13,11 @@
   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
  },
- "state": "INPLAY_2ND_HALF",
- "state_name": "2nd Half",
- "minute": 96,
+ "state": "FT",
+ "state_name": "Full Time",
+ "minute": null,
  "minute_estimated": false,
- "added_time": 4,
+ "added_time": null,
  "score": {
   "home": 1,
   "away": 2
@@ -250,7 +250,7 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 36,
+   "home": 42,
    "away": 36
   }
  },
@@ -450,5 +450,5 @@
    "gd": -10
   }
  ],
- "rate_remaining": 72
+ "rate_remaining": 71
 }
