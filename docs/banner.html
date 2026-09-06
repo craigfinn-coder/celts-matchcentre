@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Celtic Match Centre banner</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Inter:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--green:#017a3e;--deep:#013d20;--gold:#d4a72c}
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:transparent;font:14px/1 "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a.bar{display:flex;align-items:center;justify-content:center;gap:14px;height:100%;min-height:46px;padding:0 14px;color:#fff;text-decoration:none;
+    background:linear-gradient(90deg,var(--deep),var(--green) 50%,var(--deep));position:relative;overflow:hidden}
+  a.bar::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,.04) 0 18px,transparent 18px 36px);pointer-events:none}
+  .lbl{font:800 13px/1 "Barlow Condensed",Impact,sans-serif;letter-spacing:.14em;text-transform:uppercase;opacity:.85;white-space:nowrap}
+  .lbl.live{color:#fff;opacity:1}
+  .lbl.live::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:#ff4d4d;margin-right:7px;vertical-align:1px;box-shadow:0 0 0 0 rgba(255,77,77,.7);animation:pulse 1.4s infinite}
+  @keyframes pulse{70%{box-shadow:0 0 0 7px rgba(255,77,77,0)}100%{box-shadow:0 0 0 0 rgba(255,77,77,0)}}
+  .match{display:flex;align-items:center;gap:8px;white-space:nowrap;font-weight:700}
+  .match img{width:22px;height:22px;object-fit:contain}
+  .score{font:800 22px/1 "Barlow Condensed",Impact,sans-serif;letter-spacing:.04em;padding:0 4px;font-variant-numeric:tabular-nums}
+  .min{font-weight:500;opacity:.85;font-variant-numeric:tabular-nums}
+  .cta{margin-left:auto;font:800 13px/1 "Barlow Condensed",Impact,sans-serif;letter-spacing:.1em;text-transform:uppercase;background:var(--gold);color:#1a1a1a;padding:8px 12px;border-radius:999px;white-space:nowrap}
+  .cta::after{content:" \203A";font-size:15px}
+  @media(max-width:560px){.lbl{display:none}.match img{width:18px;height:18px}.score{font-size:19px}.cta{padding:7px 10px;font-size:12px}}
+  @media(max-width:400px){.team{display:none}}
+</style>
+</head>
+<body>
+<a class="bar" id="bar" href="https://celtsarehere.com/match-centre/" target="_top" aria-label="Celtic Match Centre"></a>
+<script>
+(function(){
+  const RAW='https://raw.githubusercontent.com/craigfinn-coder/celts-matchcentre/main/docs/live.json';
+  const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const uk=(utc,o)=>new Date(utc.replace(' ','T')+'Z').toLocaleString('en-GB',{timeZone:'Europe/London',...o});
+  const when=utc=>{const d=new Date(utc.replace(' ','T')+'Z'),now=new Date();const same=d.toDateString()===now.toDateString();
+    return (same?'Today':uk(utc,{weekday:'short',day:'numeric',month:'short'}))+' '+uk(utc,{hour:'2-digit',minute:'2-digit'});};
+  const img=(n,u)=>u?`<img src="${u}" alt="" onerror="this.style.display='none'">`:'';
+  function render(d){
+    const fx=d.fixture, live=!!d.live, fin=/^(FT|AET|FT_PEN)$/.test(d.state||''), ns=d.state==='NS';
+    let lbl='',mid='';
+    if(fx&&live){
+      let m=d.minute; if(m&&d.updated_at&&!d.added_time){const drift=Math.floor((Date.now()-new Date(d.updated_at))/60000);const cap=d.state==='INPLAY_1ST_HALF'?45:d.state==='INPLAY_2ND_HALF'?90:999;m=Math.min(cap,m+Math.max(0,drift));}
+      const clock=d.state==='HT'?'HT':(m?m+(d.added_time?'+'+d.added_time:'')+"'":'');
+      lbl='<span class="lbl live">Live</span>';
+      mid=`<span class="match">${img(fx.home,fx.home_logo)}<span class="team">${esc(fx.home)}</span><span class="score">${d.score.home}–${d.score.away}</span><span class="team">${esc(fx.away)}</span>${img(fx.away,fx.away_logo)}<span class="min">${clock}</span></span>`;
+    }else if(fx&&fin){
+      lbl='<span class="lbl">Full time</span>';
+      mid=`<span class="match">${img(fx.home,fx.home_logo)}<span class="team">${esc(fx.home)}</span><span class="score">${d.score.home}–${d.score.away}</span><span class="team">${esc(fx.away)}</span>${img(fx.away,fx.away_logo)}</span>`;
+    }else if(fx&&ns){
+      lbl='<span class="lbl">Match day</span>';
+      mid=`<span class="match">${img(fx.home,fx.home_logo)}<span class="team">${esc(fx.home)}</span><span class="score">v</span><span class="team">${esc(fx.away)}</span>${img(fx.away,fx.away_logo)}<span class="min">${when(fx.kickoff_utc)}</span></span>`;
+    }else{
+      const n=(d.next_fixtures||[])[0];
+      lbl='<span class="lbl">Next match</span>';
+      mid=n?`<span class="match">${img(n.home,n.home_logo)}<span class="team">${esc(n.home)}</span><span class="score">v</span><span class="team">${esc(n.away)}</span>${img(n.away,n.away_logo)}<span class="min">${when(n.kickoff_utc)}</span></span>`:'<span class="match">Celtic Match Centre</span>';
+    }
+    document.getElementById('bar').innerHTML=lbl+mid+'<span class="cta">Match Centre</span>';
+  }
+  async function load(){
+    try{const r=await fetch(RAW+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw 0;render(await r.json());}
+    catch(e){if(!document.getElementById('bar').innerHTML)document.getElementById('bar').innerHTML='<span class="match">Celtic Match Centre</span><span class="cta">Open</span>';}
+  }
+  load(); setInterval(load,30000);
+})();
+</script>
+</body>
+</html>
