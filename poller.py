@@ -109,6 +109,19 @@ def find_fixture(now):
     return chosen, upcoming
 
 
+def last_result(now):
+    """Most recent finished Celtic fixture in the last 7 days, with full detail."""
+    start = (now - timedelta(days=7)).strftime("%Y-%m-%d")
+    end = now.strftime("%Y-%m-%d")
+    data, _ = get(f"fixtures/between/{start}/{end}/{TEAM_ID}", include="participants;state;league;venue")
+    done = [f for f in data.get("data", []) if (f.get("state") or {}).get("state", "") in FINISHED]
+    if not done:
+        return None
+    fx = sorted(done, key=lambda f: f["starting_at"])[-1]
+    full, _ = get(f"fixtures/{fx['id']}", include="scores;events.type;statistics.type;participants;state;periods;league;venue;lineups")
+    return full["data"]
+
+
 def fixture_summary(fx):
     home, away = sides(fx)
     return {
@@ -160,6 +173,135 @@ def get_standings():
     except Exception as e:
         log(f"standings failed: {e!r}")
         return []
+
+
+
+def result_letter(fx, team_id):
+    """W/D/L for team_id in a finished fixture, plus a short label."""
+    home, away = sides(fx)
+    if not home or not away:
+        return None
+    sc = {}
+    for x in fx.get("scores", []):
+        if x.get("description") == "CURRENT":
+            sc[x.get("participant_id")] = (x.get("score") or {}).get("goals", 0)
+    hg, ag = sc.get(home["id"], 0), sc.get(away["id"], 0)
+    mine, theirs = (hg, ag) if team_id == home["id"] else (ag, hg)
+    opp = away if team_id == home["id"] else home
+    letter = "W" if mine > theirs else "L" if mine < theirs else "D"
+    return {"r": letter, "score": f"{hg}-{ag}", "home": home["name"], "away": away["name"],
+            "opp": opp["name"], "opp_logo": opp.get("image_path"), "date": fx["starting_at"][:10],
+            "league": (fx.get("league") or {}).get("name"), "ha": "H" if team_id == home["id"] else "A"}
+
+
+def team_form(team_id, now, n=5):
+    start = (now - timedelta(days=75)).strftime("%Y-%m-%d")
+    end = now.strftime("%Y-%m-%d")
+    try:
+        data, _ = get(f"fixtures/between/{start}/{end}/{team_id}", include="participants;scores;state;league")
+    except SystemExit:
+        return []
+    done = [f for f in data.get("data", []) if (f.get("state") or {}).get("state") in ("FT", "AET", "FT_PEN")]
+    done.sort(key=lambda f: f["starting_at"])
+    out = [result_letter(f, team_id) for f in done[-n:]]
+    return [o for o in out if o]
+
+
+def head_to_head(a, b, n=5):
+    try:
+        data, _ = get(f"fixtures/head-to-head/{a}/{b}", include="participants;scores;state;league")
+    except SystemExit:
+        return []
+    done = [f for f in data.get("data", []) if (f.get("state") or {}).get("state") in ("FT", "AET", "FT_PEN")]
+    done.sort(key=lambda f: f["starting_at"], reverse=True)
+    return [r for r in (result_letter(f, a) for f in done[:n]) if r]
+
+
+def sidelined(team_id, now):
+    """Current injuries/suspensions: started in the last 8 months and not ended."""
+    try:
+        data, _ = get(f"teams/{team_id}", include="sidelined.player;sidelined.type")
+    except SystemExit:
+        return []
+    out = []
+    cutoff = (now - timedelta(days=240)).strftime("%Y-%m-%d")
+    for sd in (data.get("data") or {}).get("sidelined", []) or []:
+        start, end = sd.get("start_date") or "", sd.get("end_date")
+        if start < cutoff or sd.get("completed"):
+            continue
+        if end and end < now.strftime("%Y-%m-%d"):
+            continue
+        out.append({"player": (sd.get("player") or {}).get("display_name") or (sd.get("player") or {}).get("name"),
+                    "type": (sd.get("type") or {}).get("name"), "since": start, "until": end,
+                    "missed": sd.get("games_missed")})
+    return out[:8]
+
+
+def top_scorers(season_id, team_names, n=10):
+    try:
+        data, _ = get(f"topscorers/seasons/{season_id}", include="player", filters="seasontopscorerTypes:208")
+    except SystemExit:
+        return []
+    rows = []
+    for r in (data.get("data") or [])[:n]:
+        rows.append({"pos": r.get("position"), "player": (r.get("player") or {}).get("display_name"),
+                     "team": team_names.get(r.get("participant_id")), "team_id": r.get("participant_id"),
+                     "goals": r.get("total")})
+    return rows
+
+
+def parse_lineups(fx, meta):
+    """Starting XI + bench per side, with a formation string derived from the pitch grid."""
+    out = {"home": {"xi": [], "bench": [], "formation": None}, "away": {"xi": [], "bench": [], "formation": None}}
+    for l in fx.get("lineups", []) or []:
+        side = "home" if l.get("participant_id") == meta["home_id"] else "away"
+        entry = {"name": l.get("player_name"), "num": l.get("jersey_number"), "pos": l.get("formation_position"),
+                 "field": l.get("formation_field"), "id": l.get("player_id")}
+        (out[side]["xi"] if l.get("type_id") == 11 else out[side]["bench"]).append(entry)
+    for side in out:
+        rows = {}
+        for e in out[side]["xi"]:
+            if e["field"] and ":" in e["field"]:
+                r = int(e["field"].split(":")[0])
+                rows[r] = rows.get(r, 0) + 1
+        if len(rows) >= 3:
+            out[side]["formation"] = "-".join(str(rows[k]) for k in sorted(rows) if k != 1)
+        out[side]["xi"].sort(key=lambda e: (e["pos"] or 99))
+        out[side]["bench"].sort(key=lambda e: (e["num"] or 99))
+    return out
+
+
+def get_live_standings():
+    """In-play table (paid plan); falls back to the season table."""
+    try:
+        st, _ = get(f"standings/live/leagues/{LEAGUE_ID}", include="participant")
+        rows = [{"pos": r.get("position"), "team": (r.get("participant") or {}).get("name"),
+                 "team_id": r.get("participant_id"), "logo": (r.get("participant") or {}).get("image_path"),
+                 "pts": r.get("points")} for r in st.get("data", [])]
+        base = {r["team_id"]: r for r in get_standings()}
+        for r in rows:
+            b = base.get(r["team_id"]) or {}
+            r.update({k: b.get(k) for k in ("p", "w", "d", "l", "gf", "ga", "gd")})
+        return sorted(rows, key=lambda x: (x["pos"] or 99)), True
+    except SystemExit:
+        return get_standings(), False
+
+
+def enrich(meta, now, standings):
+    """Extras that don't change during a game: form, head-to-head, team news, top scorers."""
+    team_names = {r["team_id"]: r["team"] for r in standings}
+    season = None
+    try:
+        lg, _ = get(f"leagues/{LEAGUE_ID}", include="currentSeason")
+        season = (lg["data"].get("currentseason") or {}).get("id")
+    except SystemExit:
+        pass
+    return {
+        "form": {"home": team_form(meta["home_id"], now), "away": team_form(meta["away_id"], now)},
+        "h2h": head_to_head(meta["home_id"], meta["away_id"]),
+        "sidelined": {"home": sidelined(meta["home_id"], now), "away": sidelined(meta["away_id"], now)},
+        "top_scorers": top_scorers(season, team_names) if season else [],
+    }
 
 
 def build_live(fx, meta):
@@ -222,6 +364,7 @@ def build_live(fx, meta):
 
     return {
         "fixture": meta,
+        "lineups": parse_lineups(fx, meta),
         "state": state_code,
         "state_name": state_name,
         "minute": minute,
@@ -274,25 +417,48 @@ def main():
 
     fx, upcoming = find_fixture(now)
     if not fx:
-        log("No Celtic fixture in window. Writing next-fixtures file and exiting.")
+        log("No Celtic fixture in window. Writing off-day file and exiting.")
+        from zoneinfo import ZoneInfo
+        uk = ZoneInfo("Europe/London")
         payload = {
-            "updated_at": now.isoformat(),
             "live": False,
             "state": "NONE",
             "next_fixtures": [fixture_summary(f) for f in upcoming],
             "standings": get_standings(),
         }
-        # If the next game is later today (UK time), show it as a pre-match board
-        if upcoming:
-            from zoneinfo import ZoneInfo
-            uk = ZoneInfo("Europe/London")
-            ko_local = parse_ts(upcoming[0]["starting_at"]).astimezone(uk).date()
-            if ko_local == now.astimezone(uk).date():
-                payload.update({"state": "NS", "state_name": "Not started",
-                                "fixture": fixture_summary(upcoming[0]),
-                                "score": {"home": 0, "away": 0}, "events": [], "stats": {}})
+        next_ko = parse_ts(upcoming[0]["starting_at"]) if upcoming else None
+        next_is_today = bool(next_ko) and next_ko.astimezone(uk).date() == now.astimezone(uk).date()
+        next_within_day = bool(next_ko) and (next_ko - now).total_seconds() < 24 * 3600
+        if next_is_today:
+            # Match day: pre-match board with countdown
+            meta = fixture_summary(upcoming[0])
+            full, _ = get(f"fixtures/{meta['id']}", include="participants;state;league;venue;lineups")
+            payload.update({"state": "NS", "state_name": "Not started", "fixture": meta,
+                            "score": {"home": 0, "away": 0}, "events": [], "stats": {},
+                            "lineups": parse_lineups(full["data"], meta)})
+            payload.update(enrich(meta, now, payload["standings"]))
+        elif not next_within_day:
+            # Off day: keep the last result up as the main board
+            last = last_result(now)
+            if last:
+                meta = fixture_summary(last)
+                payload.update(build_live(last, meta))
+                payload["live"] = False
+                payload["result"] = True
+                payload.update(enrich(meta, now, payload["standings"]))
+        # Only push when something other than the timestamp changed
+        try:
+            prev = json.load(open(OUT))
+            prev.pop("updated_at", None)
+        except Exception:
+            prev = None
+        payload["updated_at"] = now.isoformat()
+        cmp = {k: v for k, v in payload.items() if k != "updated_at"}
+        if prev == cmp:
+            log("Nothing changed; not pushing.")
+            return
         write_json(OUT, payload)
-        commit_push("Refresh next fixtures", [OUT])
+        commit_push("Refresh off-day board", [OUT])
         return
 
     meta = fixture_summary(fx)
@@ -300,6 +466,7 @@ def main():
     log(f"Fixture {meta['id']}: {meta['home']} v {meta['away']} at {meta['kickoff_utc']} UTC ({meta['league']})")
 
     standings = get_standings()
+    extras = enrich(meta, now, standings)
     pre = {
         "updated_at": now.isoformat(),
         "live": False,
@@ -311,19 +478,43 @@ def main():
         "stats": {},
         "next_fixtures": [fixture_summary(f) for f in upcoming],
         "standings": standings,
+        **extras,
     }
     write_json(OUT, pre)
     commit_push(f"Pre-match: {meta['home']} v {meta['away']}", [OUT])
 
     # Sleep until 3 minutes before kick-off
-    wait = (ko - timedelta(minutes=3) - datetime.now(timezone.utc)).total_seconds()
-    if wait > 0:
-        log(f"Sleeping {int(wait)}s until 3 min before kick-off")
-        time.sleep(wait)
+    lineups_published = False
+    while True:
+        wait = (ko - timedelta(minutes=3) - datetime.now(timezone.utc)).total_seconds()
+        if wait <= 0:
+            break
+        if wait <= 70 * 60 and not lineups_published:
+            data, _ = get(f"fixtures/{meta['id']}", include="participants;lineups")
+            lu = parse_lineups(data["data"], meta)
+            if len(lu["home"]["xi"]) >= 11 and len(lu["away"]["xi"]) >= 11:
+                pre["lineups"] = lu
+                pre["updated_at"] = datetime.now(timezone.utc).isoformat()
+                write_json(OUT, pre)
+                commit_push(f"Lineups: {meta['home']} v {meta['away']}", [OUT])
+                lineups_published = True
+                log("Lineups published")
+        step = min(wait, 300)
+        log(f"Sleeping {int(step)}s ({int(wait)}s to go)")
+        time.sleep(step)
 
     seen_events = set()
+    try:
+        for line in open(LATENCY_LOG):
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) >= 7 and parts[6].isdigit():
+                seen_events.add(int(parts[6]))
+    except FileNotFoundError:
+        pass
     last_payload_key = None
     last_commit = time.time()
+    last_table = 0
+    is_live_table = False
     poll = POLL_SECONDS
     finished_polls = 0
 
@@ -334,7 +525,7 @@ def main():
             break
 
         data, remaining = get(f"fixtures/{meta['id']}",
-                              include="scores;events.type;statistics.type;participants;state;periods")
+                              include="scores;events.type;statistics.type;participants;state;periods;lineups")
         live = build_live(data["data"], meta)
         now_iso = datetime.now(timezone.utc).isoformat()
 
@@ -343,19 +534,24 @@ def main():
         for e in live["events"]:
             if e["id"] and e["id"] not in seen_events:
                 seen_events.add(e["id"])
-                new_lines.append(f"{now_iso}\t{e['minute']}'\t{e['type']}\t{e['team']}\t{e['player']}\t{e['result'] or ''}")
+                new_lines.append(f"{now_iso}\t{e['minute']}'\t{e['type']}\t{e['team']}\t{e['player']}\t{e['result'] or ''}\t{e['id']}")
         if new_lines:
             with open(LATENCY_LOG, "a") as f:
                 f.write("\n".join(new_lines) + "\n")
             for l in new_lines:
                 log("NEW EVENT " + l)
 
+        if live["state"] in LIVE and (time.time() - last_table) > 120:
+            standings, is_live_table = get_live_standings()
+            last_table = time.time()
         payload = {
             "updated_at": now_iso,
             "live": live["state"] in LIVE,
             **live,
             "next_fixtures": pre["next_fixtures"],
             "standings": standings,
+            "live_table": is_live_table,
+            **extras,
             "rate_remaining": remaining,
         }
         write_json(OUT, payload)
