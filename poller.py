@@ -427,26 +427,31 @@ def main():
             "next_fixtures": [fixture_summary(f) for f in upcoming],
             "standings": get_standings(),
         }
-        next_ko = parse_ts(upcoming[0]["starting_at"]) if upcoming else None
-        next_is_today = bool(next_ko) and next_ko.astimezone(uk).date() == now.astimezone(uk).date()
-        next_within_day = bool(next_ko) and (next_ko - now).total_seconds() < 24 * 3600
-        if next_is_today:
-            # Match day: pre-match board with countdown
-            meta = fixture_summary(upcoming[0])
-            full, _ = get(f"fixtures/{meta['id']}", include="participants;state;league;venue;lineups")
-            payload.update({"state": "NS", "state_name": "Not started", "fixture": meta,
-                            "score": {"home": 0, "away": 0}, "events": [], "stats": {},
-                            "lineups": parse_lineups(full["data"], meta)})
-            payload.update(enrich(meta, now, payload["standings"]))
-        elif not next_within_day:
-            # Off day: keep the last result up as the main board
-            last = last_result(now)
+        RESULT_HOLD_HOURS = float(os.environ.get("RESULT_HOLD_HOURS", "4"))
+        last = last_result(now)
+        last_ko = parse_ts(last["starting_at"]) if last else None
+        # Rough full-time = kick-off + 2h; hold the result as the main board for a few hours after that
+        hold_result = bool(last_ko) and (now - last_ko).total_seconds() < (2 + RESULT_HOLD_HOURS) * 3600
+        if hold_result or not upcoming:
             if last:
                 meta = fixture_summary(last)
                 payload.update(build_live(last, meta))
                 payload["live"] = False
                 payload["result"] = True
                 payload.update(enrich(meta, now, payload["standings"]))
+        else:
+            # Geared to the next game: pre-match board (countdown), extras for that pairing,
+            # and the last result tucked in as a collapsible summary
+            meta = fixture_summary(upcoming[0])
+            full, _ = get(f"fixtures/{meta['id']}", include="participants;state;league;venue;lineups")
+            payload.update({"state": "NS", "state_name": "Not started", "fixture": meta,
+                            "score": {"home": 0, "away": 0}, "events": [], "stats": {},
+                            "lineups": parse_lineups(full["data"], meta)})
+            payload.update(enrich(meta, now, payload["standings"]))
+            if last:
+                lm = fixture_summary(last)
+                lb = build_live(last, lm)
+                payload["last_match"] = {k: lb[k] for k in ("fixture", "state", "score", "half_time", "events", "stats", "lineups")}
         # Only push when something other than the timestamp changed
         try:
             prev = json.load(open(OUT))
