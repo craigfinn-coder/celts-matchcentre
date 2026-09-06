@@ -97,8 +97,14 @@ def stat_value(detail):
 def active_seasons():
     data = get(f"teams/{TEAM_ID}", include="activeSeasons.league")
     team = data.get("data") or {}
+    # v3 returns include keys in lowercase
+    seasons = team.get("activeseasons") or team.get("activeSeasons") or []
+    if not seasons:
+        data = get(f"teams/{TEAM_ID}", include="seasons.league")
+        team = data.get("data") or {}
+        seasons = [s for s in (team.get("seasons") or []) if s.get("is_current")]
     out = []
-    for s in team.get("activeSeasons") or []:
+    for s in seasons:
         lg = s.get("league") or {}
         out.append({
             "season_id": s["id"],
