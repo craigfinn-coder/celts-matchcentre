@@ -1,0 +1,36 @@
+name: Player season stats
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "players.py"
+      - ".github/workflows/players.yml"
+  schedule:
+    # four times a day (UTC) so post-match numbers land within ~3 hours
+    - cron: "30 5,11,17,23 * * *"
+
+concurrency:
+  group: players
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull squad stats from Sportmonks and publish docs/players.json
+        env:
+          SPORTMONKS_TOKEN: ${{ secrets.SPORTMONKS_TOKEN }}
+        run: python players.py
