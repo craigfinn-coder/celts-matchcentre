@@ -1,6 +1,6 @@
 {
  "live": false,
- "state": "FT",
+ "state": "NS",
  "next_fixtures": [
   {
    "id": 19722806,
@@ -209,164 +209,107 @@
    "gd": -10
   }
  ],
+ "state_name": "Not started",
  "fixture": {
-  "id": 19722788,
-  "kickoff_utc": "2026-09-05 19:00:00",
+  "id": 19722806,
+  "kickoff_utc": "2026-09-09 19:00:00",
   "league": "Premiership",
-  "venue": "The Smisa Stadium",
-  "home": "St. Mirren",
+  "venue": "McDiarmid Park",
+  "home": "St. Johnstone",
   "away": "Celtic",
-  "home_id": 496,
+  "home_id": 734,
   "away_id": 53,
-  "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
+  "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
  },
+ "score": {
+  "home": 0,
+  "away": 0
+ },
+ "events": [],
+ "stats": {},
  "lineups": {
   "home": {
    "xi": [
     {
-     "name": "Jacob Chapman",
+     "name": "Toby Steward",
      "num": 1,
      "pos": 1,
      "field": "1:1",
-     "id": 20692499
+     "id": 37591312
     },
     {
-     "name": "Calvin Ramsay",
-     "num": 47,
+     "name": "Liam Smith",
+     "num": 33,
      "pos": 2,
      "field": "2:1",
-     "id": 37260590
+     "id": 172895
     },
     {
-     "name": "Alex Gogic",
-     "num": 13,
+     "name": "Zach Mitchell",
+     "num": 5,
      "pos": 3,
      "field": "2:2",
-     "id": 9781
+     "id": 37589029
     },
     {
-     "name": "Henry Fieldson",
-     "num": 53,
+     "name": "C. Diabate",
+     "num": 3,
      "pos": 4,
      "field": "2:3",
-     "id": 37548658
+     "id": 37330644
     },
     {
-     "name": "Declan John",
-     "num": 3,
+     "name": "Matthew Foulds",
+     "num": 14,
      "pos": 5,
      "field": "2:4",
-     "id": 1233
+     "id": 9435
     },
     {
-     "name": "Ryan Carr",
-     "num": 8,
+     "name": "Reece McAlear",
+     "num": 42,
      "pos": 6,
      "field": "3:1",
-     "id": 37631417
+     "id": 24817504
     },
     {
-     "name": "Paul Nsio",
-     "num": 48,
+     "name": "J. Holt",
+     "num": 8,
      "pos": 7,
      "field": "3:2",
-     "id": 37654354
+     "id": 3574
     },
     {
-     "name": "Chris Mochrie",
-     "num": 23,
+     "name": "Sam Stanton",
+     "num": 11,
      "pos": 8,
      "field": "4:1",
-     "id": 34873964
+     "id": 172692
     },
     {
-     "name": "Fraser Taylor",
-     "num": 30,
+     "name": "Jamie Gullan",
+     "num": 10,
      "pos": 9,
      "field": "4:2",
-     "id": 37580336
+     "id": 3169884
     },
     {
-     "name": "Ismeal Kabia",
-     "num": 19,
+     "name": "R. Paton",
+     "num": 99,
      "pos": 10,
      "field": "4:3",
-     "id": 37649368
+     "id": 3169882
     },
     {
-     "name": "Nikolas Agrafiotis",
-     "num": 25,
+     "name": "Josh Fowler",
+     "num": 9,
      "pos": 11,
      "field": "5:1",
-     "id": 30191
+     "id": 38202027
     }
    ],
-   "bench": [
-    {
-     "name": "Jayden Richardson",
-     "num": 2,
-     "pos": null,
-     "field": null,
-     "id": 37255845
-    },
-    {
-     "name": "Louis Jackson",
-     "num": 6,
-     "pos": null,
-     "field": null,
-     "id": 37554466
-    },
-    {
-     "name": "Eseosa Sule",
-     "num": 9,
-     "pos": null,
-     "field": null,
-     "id": 37685801
-    },
-    {
-     "name": "Samuel Ramos",
-     "num": 10,
-     "pos": null,
-     "field": null,
-     "id": 37308442
-    },
-    {
-     "name": "Luke Thomas",
-     "num": 16,
-     "pos": null,
-     "field": null,
-     "id": 15494
-    },
-    {
-     "name": "Jake Young",
-     "num": 20,
-     "pos": null,
-     "field": null,
-     "id": 37532070
-    },
-    {
-     "name": "Josh Farquhar",
-     "num": 24,
-     "pos": null,
-     "field": null,
-     "id": 37764053
-    },
-    {
-     "name": "Ryan Mullen",
-     "num": 31,
-     "pos": null,
-     "field": null,
-     "id": 3169834
-    },
-    {
-     "name": "Carrick McEvoy",
-     "num": 37,
-     "pos": null,
-     "field": null,
-     "id": 37706620
-    }
-   ],
+   "bench": [],
    "formation": "4-2-3-1"
   },
   "away": {
@@ -379,11 +322,11 @@
      "id": 529045
     },
     {
-     "name": "Colby Donovan",
-     "num": 51,
+     "name": "Alistair Johnston",
+     "num": 2,
      "pos": 2,
      "field": "2:4",
-     "id": 37732189
+     "id": 35659846
     },
     {
      "name": "Cameron Carter-Vickers",
@@ -400,11 +343,11 @@
      "id": 262280
     },
     {
-     "name": "Liam Scales",
-     "num": 5,
+     "name": "Kieran Tierney",
+     "num": 63,
      "pos": 5,
      "field": "2:1",
-     "id": 123659
+     "id": 172960
     },
     {
      "name": "Callum McGregor",
@@ -414,18 +357,18 @@
      "id": 8585
     },
     {
-     "name": "Mika Baur",
-     "num": 22,
+     "name": "Arne Engels",
+     "num": 27,
      "pos": 7,
      "field": "3:1",
-     "id": 37582048
+     "id": 37337212
     },
     {
-     "name": "Haissem Hassan",
-     "num": 23,
+     "name": "Camilo Durán",
+     "num": 11,
      "pos": 8,
      "field": "4:3",
-     "id": 18584306
+     "id": 37709508
     },
     {
      "name": "Benjamin Nygren",
@@ -442,544 +385,71 @@
      "id": 37563550
     },
     {
-     "name": "Camilo Durán",
-     "num": 11,
+     "name": "Kasper Høgh",
+     "num": 9,
      "pos": 11,
      "field": "5:1",
-     "id": 37709508
+     "id": 15061513
     }
    ],
-   "bench": [
-    {
-     "name": "Jordan Lotomba",
-     "num": 3,
-     "pos": null,
-     "field": null,
-     "id": 198116
-    },
-    {
-     "name": "Sebastian Tounekti",
-     "num": 17,
-     "pos": null,
-     "field": null,
-     "id": 15169863
-    },
-    {
-     "name": "Oliver Sørensen",
-     "num": 18,
-     "pos": null,
-     "field": null,
-     "id": 23698076
-    },
-    {
-     "name": "Alex Oxlade-Chamberlain",
-     "num": 21,
-     "pos": null,
-     "field": null,
-     "id": 850
-    },
-    {
-     "name": "Sam Johnstone",
-     "num": 26,
-     "pos": null,
-     "field": null,
-     "id": 1008
-    },
-    {
-     "name": "Shumaira Mheuka",
-     "num": 29,
-     "pos": null,
-     "field": null,
-     "id": 37714106
-    },
-    {
-     "name": "Joël van den Berg",
-     "num": 35,
-     "pos": null,
-     "field": null,
-     "id": 37709264
-    },
-    {
-     "name": "Dane Murray",
-     "num": 47,
-     "pos": null,
-     "field": null,
-     "id": 37342595
-    },
-    {
-     "name": "James Forrest",
-     "num": 49,
-     "pos": null,
-     "field": null,
-     "id": 172104
-    }
-   ],
+   "bench": [],
    "formation": "4-2-3-1"
   }
  },
- "state_name": "Full Time",
- "minute": null,
- "minute_estimated": false,
- "added_time": null,
- "score": {
-  "home": 1,
-  "away": 2
- },
- "half_time": {
-  "home": 1,
-  "away": 0
- },
- "events": [
-  {
-   "id": 157795107,
-   "minute": 8,
-   "extra": null,
-   "type": "Yellowcard",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Colby Donovan",
-   "related": null,
-   "result": null,
-   "info": "Foul"
-  },
-  {
-   "id": 157795466,
-   "minute": 22,
-   "extra": null,
-   "type": "Penalty",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Nikolas Agrafiotis",
-   "related": null,
-   "result": "1-0",
-   "info": "Right foot shot"
-  },
-  {
-   "id": 157795765,
-   "minute": 31,
-   "extra": null,
-   "type": "VAR",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Camilo Durán",
-   "related": null,
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157795921,
-   "minute": 37,
-   "extra": null,
-   "type": "Yellowcard",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Calvin Ramsay",
-   "related": null,
-   "result": null,
-   "info": "Foul"
-  },
-  {
-   "id": 157796818,
-   "minute": 51,
-   "extra": null,
-   "type": "Goal",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Liam Scales",
-   "related": "Benjamin Nygren",
-   "result": "1-1",
-   "info": "Header"
-  },
-  {
-   "id": 157797063,
-   "minute": 62,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Samuel Ramos",
-   "related": "Fraser Taylor",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797181,
-   "minute": 68,
-   "extra": null,
-   "type": "Goal",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Hyun-jun Yang",
-   "related": "Camilo Durán",
-   "result": "1-2",
-   "info": "Right foot shot"
-  },
-  {
-   "id": 157797196,
-   "minute": 68,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Eseosa Sule",
-   "related": "Nikolas Agrafiotis",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797202,
-   "minute": 69,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Luke Thomas",
-   "related": "Chris Mochrie",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797277,
-   "minute": 72,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "James Forrest",
-   "related": "Haissem Hassan",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797278,
-   "minute": 73,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Oliver Sørensen",
-   "related": "Mika Baur",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797282,
-   "minute": 73,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Sebastian Tounekti",
-   "related": "Hyun-jun Yang",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797457,
-   "minute": 83,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Shumaira Mheuka",
-   "related": "Camilo Durán",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797470,
-   "minute": 83,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Jake Young",
-   "related": "Ryan Carr",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797521,
-   "minute": 87,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Dane Murray",
-   "related": "Colby Donovan",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797612,
-   "minute": 90,
-   "extra": 5,
-   "type": "VAR",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Shumaira Mheuka",
-   "related": null,
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 157797620,
-   "minute": 90,
-   "extra": 6,
-   "type": "Yellowcard",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Eseosa Sule",
-   "related": null,
-   "result": null,
-   "info": "Argument"
-  },
-  {
-   "id": 157797642,
-   "minute": 90,
-   "extra": 7,
-   "type": "Yellowcard",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Paul Nsio",
-   "related": null,
-   "result": null,
-   "info": "Argument"
-  },
-  {
-   "id": 157797643,
-   "minute": 90,
-   "extra": 7,
-   "type": "Yellowcard",
-   "side": "home",
-   "team": "St. Mirren",
-   "player": "Samuel Ramos",
-   "related": null,
-   "result": null,
-   "info": "Argument"
-  }
- ],
- "stats": {
-  "Corners": {
-   "home": 6,
-   "away": 10
-  },
-  "Shots Off Target": {
-   "home": 6,
-   "away": 10
-  },
-  "Shots Total": {
-   "home": 19,
-   "away": 23
-  },
-  "Attacks": {
-   "home": 58,
-   "away": 140
-  },
-  "Dangerous Attacks": {
-   "home": 31,
-   "away": 74
-  },
-  "Ball Possession %": {
-   "home": 40,
-   "away": 60
-  },
-  "Ball Safe": {
-   "home": 74,
-   "away": 81
-  },
-  "Penalties": {
-   "home": 1,
-   "away": 0
-  },
-  "Shots Insidebox": {
-   "home": 8,
-   "away": 20
-  },
-  "Shots Outsidebox": {
-   "home": 11,
-   "away": 3
-  },
-  "Offsides": {
-   "home": 0,
-   "away": 2
-  },
-  "Goals": {
-   "home": 1,
-   "away": 2
-  },
-  "Goal Kicks": {
-   "home": 14,
-   "away": 6
-  },
-  "Goal Attempts": {
-   "home": 11,
-   "away": 17
-  },
-  "Free Kicks": {
-   "home": 14,
-   "away": 6
-  },
-  "Fouls": {
-   "home": 6,
-   "away": 14
-  },
-  "Saves": {
-   "home": 5,
-   "away": 5
-  },
-  "Shots Blocked": {
-   "home": 7,
-   "away": 5
-  },
-  "Substitutions": {
-   "home": 4,
-   "away": 5
-  },
-  "Throwins": {
-   "home": 13,
-   "away": 19
-  },
-  "Long Passes": {
-   "home": 65,
-   "away": 37
-  },
-  "Tackles": {
-   "home": 28,
-   "away": 19
-  },
-  "Passes": {
-   "home": 354,
-   "away": 528
-  },
-  "Successful Passes": {
-   "home": 269,
-   "away": 447
-  },
-  "Successful Passes Percentage": {
-   "home": 76,
-   "away": 85
-  },
-  "Yellowcards": {
-   "home": 4,
-   "away": 1
-  },
-  "Shots On Target": {
-   "home": 6,
-   "away": 8
-  },
-  "Injuries": {
-   "home": 0,
-   "away": 1
-  },
-  "Total Crosses": {
-   "home": 12,
-   "away": 27
-  },
-  "Accurate Crosses": {
-   "home": 2,
-   "away": 6
-  },
-  "Interceptions": {
-   "home": 12,
-   "away": 11
-  },
-  "Duels Won": {
-   "home": 53,
-   "away": 54
-  },
-  "Dribble Attempts": {
-   "home": 12,
-   "away": 26
-  },
-  "Successful Dribbles": {
-   "home": 5,
-   "away": 9
-  },
-  "Key Passes": {
-   "home": 13,
-   "away": 16
-  },
-  "Big Chances Created": {
-   "home": 2,
-   "away": 4
-  },
-  "Big Chances Missed": {
-   "home": 1,
-   "away": 3
-  },
-  "Successful Dribbles Percentage": {
-   "home": 42,
-   "away": 35
-  },
-  "Successful Long Passes": {
-   "home": 26,
-   "away": 21
-  },
-  "Successful Long Passes Percentage": {
-   "home": 40,
-   "away": 57
-  },
-  "Tackles Won": {
-   "home": 21,
-   "away": 13
-  }
- },
- "result": true,
  "form": {
   "home": [
    {
     "r": "W",
-    "score": "1-0",
-    "home": "St. Mirren",
-    "away": "St. Johnstone",
-    "opp": "St. Johnstone",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
-    "date": "2026-08-08",
+    "score": "4-3",
+    "home": "St. Johnstone",
+    "away": "Kilmarnock",
+    "opp": "Kilmarnock",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+    "date": "2026-08-02",
     "league": "Premiership",
     "ha": "H"
    },
    {
     "r": "L",
-    "score": "5-1",
-    "home": "Rangers",
-    "away": "St. Mirren",
-    "opp": "Rangers",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-    "date": "2026-08-16",
-    "league": "League Cup",
+    "score": "1-0",
+    "home": "St. Mirren",
+    "away": "St. Johnstone",
+    "opp": "St. Mirren",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
+    "date": "2026-08-08",
+    "league": "Premiership",
+    "ha": "A"
+   },
+   {
+    "r": "L",
+    "score": "2-1",
+    "home": "Hearts",
+    "away": "St. Johnstone",
+    "opp": "Hearts",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+    "date": "2026-08-29",
+    "league": "Premiership",
     "ha": "A"
    },
    {
     "r": "D",
-    "score": "3-3",
-    "home": "St. Mirren",
-    "away": "Motherwell",
-    "opp": "Motherwell",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
-    "date": "2026-08-30",
-    "league": "Premiership",
-    "ha": "H"
-   },
-   {
-    "r": "W",
-    "score": "0-1",
-    "home": "Kilmarnock",
-    "away": "St. Mirren",
-    "opp": "Kilmarnock",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+    "score": "1-1",
+    "home": "Dundee",
+    "away": "St. Johnstone",
+    "opp": "Dundee",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
     "date": "2026-09-02",
     "league": "Premiership",
     "ha": "A"
    },
    {
-    "r": "L",
-    "score": "1-2",
-    "home": "St. Mirren",
-    "away": "Celtic",
-    "opp": "Celtic",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-    "date": "2026-09-05",
+    "r": "W",
+    "score": "2-1",
+    "home": "St. Johnstone",
+    "away": "Hibernian",
+    "opp": "Hibernian",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
+    "date": "2026-09-06",
     "league": "Premiership",
     "ha": "H"
    }
@@ -1045,62 +515,59 @@
  "h2h": [
   {
    "r": "L",
-   "score": "1-2",
-   "home": "St. Mirren",
+   "score": "0-5",
+   "home": "St. Johnstone",
    "away": "Celtic",
    "opp": "Celtic",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2026-09-05",
-   "league": "Premiership",
-   "ha": "H"
-  },
-  {
-   "r": "L",
-   "score": "6-2",
-   "home": "Celtic",
-   "away": "St. Mirren",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2026-04-19",
+   "date": "2025-04-20",
    "league": "Scottish Cup",
-   "ha": "A"
-  },
-  {
-   "r": "L",
-   "score": "1-0",
-   "home": "Celtic",
-   "away": "St. Mirren",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2026-04-11",
-   "league": "Premiership",
-   "ha": "A"
+   "ha": "H"
   },
   {
    "r": "W",
-   "score": "3-1",
-   "home": "St. Mirren",
+   "score": "1-0",
+   "home": "St. Johnstone",
    "away": "Celtic",
    "opp": "Celtic",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2025-12-14",
-   "league": "League Cup",
+   "date": "2025-04-06",
+   "league": "Premiership",
    "ha": "H"
   },
   {
    "r": "L",
-   "score": "0-1",
-   "home": "St. Mirren",
+   "score": "4-0",
+   "home": "Celtic",
+   "away": "St. Johnstone",
+   "opp": "Celtic",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "date": "2024-12-29",
+   "league": "Premiership",
+   "ha": "A"
+  },
+  {
+   "r": "L",
+   "score": "0-6",
+   "home": "St. Johnstone",
    "away": "Celtic",
    "opp": "Celtic",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2025-11-22",
+   "date": "2024-09-28",
    "league": "Premiership",
    "ha": "H"
   }
  ],
  "sidelined": {
-  "home": [],
+  "home": [
+   {
+    "player": "B. Mikulić",
+    "type": "Hamstring Injury",
+    "since": "2026-01-30",
+    "until": null,
+    "missed": 26
+   }
+  ],
   "away": [
    {
     "player": "Alistair Johnston",
@@ -1190,5 +657,720 @@
    "goals": 2
   }
  ],
- "updated_at": "2026-09-06T18:10:14.001138+00:00"
+ "last_match": {
+  "fixture": {
+   "id": 19722788,
+   "kickoff_utc": "2026-09-05 19:00:00",
+   "league": "Premiership",
+   "venue": "The Smisa Stadium",
+   "home": "St. Mirren",
+   "away": "Celtic",
+   "home_id": 496,
+   "away_id": 53,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
+  },
+  "state": "FT",
+  "score": {
+   "home": 1,
+   "away": 2
+  },
+  "half_time": {
+   "home": 1,
+   "away": 0
+  },
+  "events": [
+   {
+    "id": 157795107,
+    "minute": 8,
+    "extra": null,
+    "type": "Yellowcard",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Colby Donovan",
+    "related": null,
+    "result": null,
+    "info": "Foul"
+   },
+   {
+    "id": 157795466,
+    "minute": 22,
+    "extra": null,
+    "type": "Penalty",
+    "side": "home",
+    "team": "St. Mirren",
+    "player": "Nikolas Agrafiotis",
+    "related": null,
+    "result": "1-0",
+    "info": "Right foot shot"
+   },
+   {
+    "id": 157795765,
+    "minute": 31,
+    "extra": null,
+    "type": "VAR",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Camilo Durán",
+    "related": null,
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 157795921,
+    "minute": 37,
+    "extra": null,
+    "type": "Yellowcard",
+    "side": "home",
+    "team": "St. Mirren",
+    "player": "Calvin Ramsay",
+    "related": null,
+    "result": null,
+    "info": "Foul"
+   },
+   {
+    "id": 157796818,
+    "minute": 51,
+    "extra": null,
+    "type": "Goal",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Liam Scales",
+    "related": "Benjamin Nygren",
+    "result": "1-1",
+    "info": "Header"
+   },
+   {
+    "id": 157797063,
+    "minute": 62,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "St. Mirren",
+    "player": "Samuel Ramos",
+    "related": "Fraser Taylor",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 157797181,
+    "minute": 68,
+    "extra": null,
+    "type": "Goal",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Hyun-jun Yang",
+    "related": "Camilo Durán",
+    "result": "1-2",
+    "info": "Right foot shot"
+   },
+   {
+    "id": 157797196,
+    "minute": 68,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "St. Mirren",
+    "player": "Eseosa Sule",
+    "related": "Nikolas Agrafiotis",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 157797202,
+    "minute": 69,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "St. Mirren",
+    "player": "Luke Thomas",
+    "related": "Chris Mochrie",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 157797277,
+    "minute": 72,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "Celtic",
+    "player": "James Forrest",
+    "related": "Haissem Hassan",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 157797278,
+    "minute": 73,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Oliver Sørensen",
+    "related": "Mika Baur",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 157797282,
+    "minute": 73,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Sebastian Tounekti",
+    "related": "Hyun-jun Yang",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 157797457,
+    "minute": 83,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Shumaira Mheuka",
+    "related": "Camilo Durán",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 157797470,
+    "minute": 83,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "St. Mirren",
+    "player": "Jake Young",
+    "related": "Ryan Carr",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 157797521,
+    "minute": 87,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Dane Murray",
+    "related": "Colby Donovan",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 157797612,
+    "minute": 90,
+    "extra": 5,
+    "type": "VAR",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Shumaira Mheuka",
+    "related": null,
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 157797620,
+    "minute": 90,
+    "extra": 6,
+    "type": "Yellowcard",
+    "side": "home",
+    "team": "St. Mirren",
+    "player": "Eseosa Sule",
+    "related": null,
+    "result": null,
+    "info": "Argument"
+   },
+   {
+    "id": 157797642,
+    "minute": 90,
+    "extra": 7,
+    "type": "Yellowcard",
+    "side": "home",
+    "team": "St. Mirren",
+    "player": "Paul Nsio",
+    "related": null,
+    "result": null,
+    "info": "Argument"
+   },
+   {
+    "id": 157797643,
+    "minute": 90,
+    "extra": 7,
+    "type": "Yellowcard",
+    "side": "home",
+    "team": "St. Mirren",
+    "player": "Samuel Ramos",
+    "related": null,
+    "result": null,
+    "info": "Argument"
+   }
+  ],
+  "stats": {
+   "Corners": {
+    "home": 6,
+    "away": 10
+   },
+   "Shots Off Target": {
+    "home": 6,
+    "away": 10
+   },
+   "Shots Total": {
+    "home": 19,
+    "away": 23
+   },
+   "Attacks": {
+    "home": 58,
+    "away": 140
+   },
+   "Dangerous Attacks": {
+    "home": 31,
+    "away": 74
+   },
+   "Ball Possession %": {
+    "home": 40,
+    "away": 60
+   },
+   "Ball Safe": {
+    "home": 74,
+    "away": 81
+   },
+   "Penalties": {
+    "home": 1,
+    "away": 0
+   },
+   "Shots Insidebox": {
+    "home": 8,
+    "away": 20
+   },
+   "Shots Outsidebox": {
+    "home": 11,
+    "away": 3
+   },
+   "Offsides": {
+    "home": 0,
+    "away": 2
+   },
+   "Goals": {
+    "home": 1,
+    "away": 2
+   },
+   "Goal Kicks": {
+    "home": 14,
+    "away": 6
+   },
+   "Goal Attempts": {
+    "home": 11,
+    "away": 17
+   },
+   "Free Kicks": {
+    "home": 14,
+    "away": 6
+   },
+   "Fouls": {
+    "home": 6,
+    "away": 14
+   },
+   "Saves": {
+    "home": 5,
+    "away": 5
+   },
+   "Shots Blocked": {
+    "home": 7,
+    "away": 5
+   },
+   "Substitutions": {
+    "home": 4,
+    "away": 5
+   },
+   "Throwins": {
+    "home": 13,
+    "away": 19
+   },
+   "Long Passes": {
+    "home": 65,
+    "away": 37
+   },
+   "Tackles": {
+    "home": 28,
+    "away": 19
+   },
+   "Passes": {
+    "home": 354,
+    "away": 528
+   },
+   "Successful Passes": {
+    "home": 269,
+    "away": 447
+   },
+   "Successful Passes Percentage": {
+    "home": 76,
+    "away": 85
+   },
+   "Yellowcards": {
+    "home": 4,
+    "away": 1
+   },
+   "Shots On Target": {
+    "home": 6,
+    "away": 8
+   },
+   "Injuries": {
+    "home": 0,
+    "away": 1
+   },
+   "Total Crosses": {
+    "home": 12,
+    "away": 27
+   },
+   "Accurate Crosses": {
+    "home": 2,
+    "away": 6
+   },
+   "Interceptions": {
+    "home": 12,
+    "away": 11
+   },
+   "Duels Won": {
+    "home": 53,
+    "away": 54
+   },
+   "Dribble Attempts": {
+    "home": 12,
+    "away": 26
+   },
+   "Successful Dribbles": {
+    "home": 5,
+    "away": 9
+   },
+   "Key Passes": {
+    "home": 13,
+    "away": 16
+   },
+   "Big Chances Created": {
+    "home": 2,
+    "away": 4
+   },
+   "Big Chances Missed": {
+    "home": 1,
+    "away": 3
+   },
+   "Successful Dribbles Percentage": {
+    "home": 42,
+    "away": 35
+   },
+   "Successful Long Passes": {
+    "home": 26,
+    "away": 21
+   },
+   "Successful Long Passes Percentage": {
+    "home": 40,
+    "away": 57
+   },
+   "Tackles Won": {
+    "home": 21,
+    "away": 13
+   }
+  },
+  "lineups": {
+   "home": {
+    "xi": [
+     {
+      "name": "Jacob Chapman",
+      "num": 1,
+      "pos": 1,
+      "field": "1:1",
+      "id": 20692499
+     },
+     {
+      "name": "Calvin Ramsay",
+      "num": 47,
+      "pos": 2,
+      "field": "2:1",
+      "id": 37260590
+     },
+     {
+      "name": "Alex Gogic",
+      "num": 13,
+      "pos": 3,
+      "field": "2:2",
+      "id": 9781
+     },
+     {
+      "name": "Henry Fieldson",
+      "num": 53,
+      "pos": 4,
+      "field": "2:3",
+      "id": 37548658
+     },
+     {
+      "name": "Declan John",
+      "num": 3,
+      "pos": 5,
+      "field": "2:4",
+      "id": 1233
+     },
+     {
+      "name": "Ryan Carr",
+      "num": 8,
+      "pos": 6,
+      "field": "3:1",
+      "id": 37631417
+     },
+     {
+      "name": "Paul Nsio",
+      "num": 48,
+      "pos": 7,
+      "field": "3:2",
+      "id": 37654354
+     },
+     {
+      "name": "Chris Mochrie",
+      "num": 23,
+      "pos": 8,
+      "field": "4:1",
+      "id": 34873964
+     },
+     {
+      "name": "Fraser Taylor",
+      "num": 30,
+      "pos": 9,
+      "field": "4:2",
+      "id": 37580336
+     },
+     {
+      "name": "Ismeal Kabia",
+      "num": 19,
+      "pos": 10,
+      "field": "4:3",
+      "id": 37649368
+     },
+     {
+      "name": "Nikolas Agrafiotis",
+      "num": 25,
+      "pos": 11,
+      "field": "5:1",
+      "id": 30191
+     }
+    ],
+    "bench": [
+     {
+      "name": "Jayden Richardson",
+      "num": 2,
+      "pos": null,
+      "field": null,
+      "id": 37255845
+     },
+     {
+      "name": "Louis Jackson",
+      "num": 6,
+      "pos": null,
+      "field": null,
+      "id": 37554466
+     },
+     {
+      "name": "Eseosa Sule",
+      "num": 9,
+      "pos": null,
+      "field": null,
+      "id": 37685801
+     },
+     {
+      "name": "Samuel Ramos",
+      "num": 10,
+      "pos": null,
+      "field": null,
+      "id": 37308442
+     },
+     {
+      "name": "Luke Thomas",
+      "num": 16,
+      "pos": null,
+      "field": null,
+      "id": 15494
+     },
+     {
+      "name": "Jake Young",
+      "num": 20,
+      "pos": null,
+      "field": null,
+      "id": 37532070
+     },
+     {
+      "name": "Josh Farquhar",
+      "num": 24,
+      "pos": null,
+      "field": null,
+      "id": 37764053
+     },
+     {
+      "name": "Ryan Mullen",
+      "num": 31,
+      "pos": null,
+      "field": null,
+      "id": 3169834
+     },
+     {
+      "name": "Carrick McEvoy",
+      "num": 37,
+      "pos": null,
+      "field": null,
+      "id": 37706620
+     }
+    ],
+    "formation": "4-2-3-1"
+   },
+   "away": {
+    "xi": [
+     {
+      "name": "Viljami Sinisalo",
+      "num": 1,
+      "pos": 1,
+      "field": "1:1",
+      "id": 529045
+     },
+     {
+      "name": "Colby Donovan",
+      "num": 51,
+      "pos": 2,
+      "field": "2:4",
+      "id": 37732189
+     },
+     {
+      "name": "Cameron Carter-Vickers",
+      "num": 20,
+      "pos": 3,
+      "field": "2:3",
+      "id": 1712
+     },
+     {
+      "name": "Auston Trusty",
+      "num": 6,
+      "pos": 4,
+      "field": "2:2",
+      "id": 262280
+     },
+     {
+      "name": "Liam Scales",
+      "num": 5,
+      "pos": 5,
+      "field": "2:1",
+      "id": 123659
+     },
+     {
+      "name": "Callum McGregor",
+      "num": 42,
+      "pos": 6,
+      "field": "3:2",
+      "id": 8585
+     },
+     {
+      "name": "Mika Baur",
+      "num": 22,
+      "pos": 7,
+      "field": "3:1",
+      "id": 37582048
+     },
+     {
+      "name": "Haissem Hassan",
+      "num": 23,
+      "pos": 8,
+      "field": "4:3",
+      "id": 18584306
+     },
+     {
+      "name": "Benjamin Nygren",
+      "num": 8,
+      "pos": 9,
+      "field": "4:2",
+      "id": 19979885
+     },
+     {
+      "name": "Hyun-jun Yang",
+      "num": 13,
+      "pos": 10,
+      "field": "4:1",
+      "id": 37563550
+     },
+     {
+      "name": "Camilo Durán",
+      "num": 11,
+      "pos": 11,
+      "field": "5:1",
+      "id": 37709508
+     }
+    ],
+    "bench": [
+     {
+      "name": "Jordan Lotomba",
+      "num": 3,
+      "pos": null,
+      "field": null,
+      "id": 198116
+     },
+     {
+      "name": "Sebastian Tounekti",
+      "num": 17,
+      "pos": null,
+      "field": null,
+      "id": 15169863
+     },
+     {
+      "name": "Oliver Sørensen",
+      "num": 18,
+      "pos": null,
+      "field": null,
+      "id": 23698076
+     },
+     {
+      "name": "Alex Oxlade-Chamberlain",
+      "num": 21,
+      "pos": null,
+      "field": null,
+      "id": 850
+     },
+     {
+      "name": "Sam Johnstone",
+      "num": 26,
+      "pos": null,
+      "field": null,
+      "id": 1008
+     },
+     {
+      "name": "Shumaira Mheuka",
+      "num": 29,
+      "pos": null,
+      "field": null,
+      "id": 37714106
+     },
+     {
+      "name": "Joël van den Berg",
+      "num": 35,
+      "pos": null,
+      "field": null,
+      "id": 37709264
+     },
+     {
+      "name": "Dane Murray",
+      "num": 47,
+      "pos": null,
+      "field": null,
+      "id": 37342595
+     },
+     {
+      "name": "James Forrest",
+      "num": 49,
+      "pos": null,
+      "field": null,
+      "id": 172104
+     }
+    ],
+    "formation": "4-2-3-1"
+   }
+  }
+ },
+ "updated_at": "2026-09-06T20:04:05.300438+00:00"
 }
