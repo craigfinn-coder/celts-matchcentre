@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-06T16:04:24.153694+00:00",
+ "updated_at": "2026-09-06T17:03:30.980783+00:00",
  "live": false,
  "state": "NONE",
  "next_fixtures": [
@@ -14,6 +14,18 @@
    "away_id": 53,
    "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
    "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
+  },
+  {
+   "id": 19873900,
+   "kickoff_utc": "2026-09-17 19:00:00",
+   "league": "Europa League",
+   "venue": "Celtic Park",
+   "home": "Celtic",
+   "away": "Ferencvárosi",
+   "home_id": 53,
+   "away_id": 112,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png"
   },
   {
    "id": 19722782,
@@ -45,6 +57,20 @@
   },
   {
    "pos": 2,
+   "team": "Hearts",
+   "team_id": 314,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "pts": 12,
+   "p": 5,
+   "w": 4,
+   "d": 0,
+   "l": 1,
+   "gf": 12,
+   "ga": 5,
+   "gd": 7
+  },
+  {
+   "pos": 3,
    "team": "St. Mirren",
    "team_id": 496,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
@@ -58,7 +84,7 @@
    "gd": 3
   },
   {
-   "pos": 3,
+   "pos": 4,
    "team": "Rangers",
    "team_id": 62,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
@@ -70,20 +96,6 @@
    "gf": 6,
    "ga": 4,
    "gd": 2
-  },
-  {
-   "pos": 4,
-   "team": "Hearts",
-   "team_id": 314,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-   "pts": 9,
-   "p": 4,
-   "w": 3,
-   "d": 0,
-   "l": 1,
-   "gf": 10,
-   "ga": 4,
-   "gd": 6
   },
   {
    "pos": 5,
@@ -105,13 +117,13 @@
    "team_id": 284,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
    "pts": 7,
-   "p": 5,
+   "p": 6,
    "w": 2,
    "d": 1,
-   "l": 2,
-   "gf": 6,
-   "ga": 4,
-   "gd": 2
+   "l": 3,
+   "gf": 7,
+   "ga": 6,
+   "gd": 1
   },
   {
    "pos": 7,
