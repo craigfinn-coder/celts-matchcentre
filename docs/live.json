@@ -223,32 +223,13 @@
  },
  "lineups": {
   "home": {
-   "xi": [],
-   "bench": [],
-   "formation": null
-  },
-  "away": {
    "xi": [
-    {
-     "name": "Viljami Sinisalo",
-     "num": 1,
-     "pos": 1,
-     "field": "1:1",
-     "id": 529045
-    },
     {
      "name": "Jacob Chapman",
      "num": 1,
      "pos": 1,
      "field": "1:1",
      "id": 20692499
-    },
-    {
-     "name": "Colby Donovan",
-     "num": 51,
-     "pos": 2,
-     "field": "2:4",
-     "id": 37732189
     },
     {
      "name": "Calvin Ramsay",
@@ -258,25 +239,11 @@
      "id": 37260590
     },
     {
-     "name": "Cameron Carter-Vickers",
-     "num": 20,
-     "pos": 3,
-     "field": "2:3",
-     "id": 1712
-    },
-    {
      "name": "Alex Gogic",
      "num": 13,
      "pos": 3,
      "field": "2:2",
      "id": 9781
-    },
-    {
-     "name": "Auston Trusty",
-     "num": 6,
-     "pos": 4,
-     "field": "2:2",
-     "id": 262280
     },
     {
      "name": "Henry Fieldson",
@@ -286,25 +253,11 @@
      "id": 37548658
     },
     {
-     "name": "Liam Scales",
-     "num": 5,
-     "pos": 5,
-     "field": "2:1",
-     "id": 123659
-    },
-    {
      "name": "Declan John",
      "num": 3,
      "pos": 5,
      "field": "2:4",
      "id": 1233
-    },
-    {
-     "name": "Callum McGregor",
-     "num": 42,
-     "pos": 6,
-     "field": "3:2",
-     "id": 8585
     },
     {
      "name": "Ryan Carr",
@@ -314,25 +267,11 @@
      "id": 37631417
     },
     {
-     "name": "Mika Baur",
-     "num": 22,
-     "pos": 7,
-     "field": "3:1",
-     "id": 37582048
-    },
-    {
      "name": "Paul Nsio",
      "num": 48,
      "pos": 7,
      "field": "3:2",
      "id": 37654354
-    },
-    {
-     "name": "Haissem Hassan",
-     "num": 23,
-     "pos": 8,
-     "field": "4:3",
-     "id": 18584306
     },
     {
      "name": "Chris Mochrie",
@@ -342,13 +281,6 @@
      "id": 34873964
     },
     {
-     "name": "Benjamin Nygren",
-     "num": 8,
-     "pos": 9,
-     "field": "4:2",
-     "id": 19979885
-    },
-    {
      "name": "Fraser Taylor",
      "num": 30,
      "pos": 9,
@@ -356,25 +288,11 @@
      "id": 37580336
     },
     {
-     "name": "Hyun-jun Yang",
-     "num": 13,
-     "pos": 10,
-     "field": "4:1",
-     "id": 37563550
-    },
-    {
      "name": "Ismeal Kabia",
      "num": 19,
      "pos": 10,
      "field": "4:3",
      "id": 37649368
-    },
-    {
-     "name": "Camilo Durán",
-     "num": 11,
-     "pos": 11,
-     "field": "5:1",
-     "id": 37709508
     },
     {
      "name": "Nikolas Agrafiotis",
@@ -391,13 +309,6 @@
      "pos": null,
      "field": null,
      "id": 37255845
-    },
-    {
-     "name": "Jordan Lotomba",
-     "num": 3,
-     "pos": null,
-     "field": null,
-     "id": 198116
     },
     {
      "name": "Louis Jackson",
@@ -428,6 +339,125 @@
      "id": 15494
     },
     {
+     "name": "Jake Young",
+     "num": 20,
+     "pos": null,
+     "field": null,
+     "id": 37532070
+    },
+    {
+     "name": "Josh Farquhar",
+     "num": 24,
+     "pos": null,
+     "field": null,
+     "id": 37764053
+    },
+    {
+     "name": "Ryan Mullen",
+     "num": 31,
+     "pos": null,
+     "field": null,
+     "id": 3169834
+    },
+    {
+     "name": "Carrick McEvoy",
+     "num": 37,
+     "pos": null,
+     "field": null,
+     "id": 37706620
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "xi": [
+    {
+     "name": "Viljami Sinisalo",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 529045
+    },
+    {
+     "name": "Colby Donovan",
+     "num": 51,
+     "pos": 2,
+     "field": "2:4",
+     "id": 37732189
+    },
+    {
+     "name": "Cameron Carter-Vickers",
+     "num": 20,
+     "pos": 3,
+     "field": "2:3",
+     "id": 1712
+    },
+    {
+     "name": "Auston Trusty",
+     "num": 6,
+     "pos": 4,
+     "field": "2:2",
+     "id": 262280
+    },
+    {
+     "name": "Liam Scales",
+     "num": 5,
+     "pos": 5,
+     "field": "2:1",
+     "id": 123659
+    },
+    {
+     "name": "Callum McGregor",
+     "num": 42,
+     "pos": 6,
+     "field": "3:2",
+     "id": 8585
+    },
+    {
+     "name": "Mika Baur",
+     "num": 22,
+     "pos": 7,
+     "field": "3:1",
+     "id": 37582048
+    },
+    {
+     "name": "Haissem Hassan",
+     "num": 23,
+     "pos": 8,
+     "field": "4:3",
+     "id": 18584306
+    },
+    {
+     "name": "Benjamin Nygren",
+     "num": 8,
+     "pos": 9,
+     "field": "4:2",
+     "id": 19979885
+    },
+    {
+     "name": "Hyun-jun Yang",
+     "num": 13,
+     "pos": 10,
+     "field": "4:1",
+     "id": 37563550
+    },
+    {
+     "name": "Camilo Durán",
+     "num": 11,
+     "pos": 11,
+     "field": "5:1",
+     "id": 37709508
+    }
+   ],
+   "bench": [
+    {
+     "name": "Jordan Lotomba",
+     "num": 3,
+     "pos": null,
+     "field": null,
+     "id": 198116
+    },
+    {
      "name": "Sebastian Tounekti",
      "num": 17,
      "pos": null,
@@ -442,25 +472,11 @@
      "id": 23698076
     },
     {
-     "name": "Jake Young",
-     "num": 20,
-     "pos": null,
-     "field": null,
-     "id": 37532070
-    },
-    {
      "name": "Alex Oxlade-Chamberlain",
      "num": 21,
      "pos": null,
      "field": null,
      "id": 850
-    },
-    {
-     "name": "Josh Farquhar",
-     "num": 24,
-     "pos": null,
-     "field": null,
-     "id": 37764053
     },
     {
      "name": "Sam Johnstone",
@@ -477,25 +493,11 @@
      "id": 37714106
     },
     {
-     "name": "Ryan Mullen",
-     "num": 31,
-     "pos": null,
-     "field": null,
-     "id": 3169834
-    },
-    {
      "name": "Joël van den Berg",
      "num": 35,
      "pos": null,
      "field": null,
      "id": 37709264
-    },
-    {
-     "name": "Carrick McEvoy",
-     "num": 37,
-     "pos": null,
-     "field": null,
-     "id": 37706620
     },
     {
      "name": "Dane Murray",
@@ -512,7 +514,7 @@
      "id": 172104
     }
    ],
-   "formation": "8-4-6-2"
+   "formation": "4-2-3-1"
   }
  },
  "state_name": "Full Time",
@@ -1188,5 +1190,5 @@
    "goals": 2
   }
  ],
- "updated_at": "2026-09-06T18:01:28.699629+00:00"
+ "updated_at": "2026-09-06T18:10:14.001138+00:00"
 }
