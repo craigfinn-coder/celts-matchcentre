@@ -254,7 +254,8 @@ def parse_lineups(fx, meta):
     """Starting XI + bench per side, with a formation string derived from the pitch grid."""
     out = {"home": {"xi": [], "bench": [], "formation": None}, "away": {"xi": [], "bench": [], "formation": None}}
     for l in fx.get("lineups", []) or []:
-        side = "home" if l.get("participant_id") == meta["home_id"] else "away"
+        tid = l.get("team_id") or l.get("participant_id")
+        side = "home" if tid == meta["home_id"] else "away"
         entry = {"name": l.get("player_name"), "num": l.get("jersey_number"), "pos": l.get("formation_position"),
                  "field": l.get("formation_field"), "id": l.get("player_id")}
         (out[side]["xi"] if l.get("type_id") == 11 else out[side]["bench"]).append(entry)
