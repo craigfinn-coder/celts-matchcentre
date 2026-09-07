@@ -15,6 +15,18 @@
    "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
   },
   {
+   "id": 19878768,
+   "kickoff_utc": "2026-09-13 11:00:00",
+   "league": "League Cup",
+   "venue": "Ibrox Stadium",
+   "home": "Rangers",
+   "away": "Celtic",
+   "home_id": 62,
+   "away_id": 53,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
+  },
+  {
    "id": 19873900,
    "kickoff_utc": "2026-09-17 19:00:00",
    "league": "Europa League",
@@ -25,18 +37,6 @@
    "away_id": 112,
    "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
    "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png"
-  },
-  {
-   "id": 19722782,
-   "kickoff_utc": "2026-09-20 11:00:00",
-   "league": "Premiership",
-   "venue": "Celtic Park",
-   "home": "Celtic",
-   "away": "Rangers",
-   "home_id": 53,
-   "away_id": 62,
-   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png"
   }
  ],
  "standings": [
@@ -1210,5 +1210,5 @@
    }
   }
  },
- "updated_at": "2026-09-07T12:05:23.422111+00:00"
+ "updated_at": "2026-09-07T18:04:57.840798+00:00"
 }
