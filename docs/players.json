@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-06T21:08:25+00:00",
+ "updated": "2026-09-07T08:56:37+00:00",
  "team_id": 53,
  "season": "2026/2027",
  "competitions": [
@@ -16,6 +16,16 @@
   {
    "league": "Premiership",
    "league_id": 501,
+   "season": "2026/2027"
+  },
+  {
+   "league": "UEFA Super Cup",
+   "league_id": 1328,
+   "season": "2027/2028"
+  },
+  {
+   "league": "Europa Conference League",
+   "league_id": 2286,
    "season": "2026/2027"
   }
  ],
