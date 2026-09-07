@@ -230,171 +230,16 @@
  "stats": {},
  "lineups": {
   "home": {
-   "xi": [
-    {
-     "name": "Toby Steward",
-     "num": 1,
-     "pos": 1,
-     "field": "1:1",
-     "id": 37591312
-    },
-    {
-     "name": "Liam Smith",
-     "num": 33,
-     "pos": 2,
-     "field": "2:1",
-     "id": 172895
-    },
-    {
-     "name": "Zach Mitchell",
-     "num": 5,
-     "pos": 3,
-     "field": "2:2",
-     "id": 37589029
-    },
-    {
-     "name": "C. Diabate",
-     "num": 3,
-     "pos": 4,
-     "field": "2:3",
-     "id": 37330644
-    },
-    {
-     "name": "Matthew Foulds",
-     "num": 14,
-     "pos": 5,
-     "field": "2:4",
-     "id": 9435
-    },
-    {
-     "name": "Reece McAlear",
-     "num": 42,
-     "pos": 6,
-     "field": "3:1",
-     "id": 24817504
-    },
-    {
-     "name": "J. Holt",
-     "num": 8,
-     "pos": 7,
-     "field": "3:2",
-     "id": 3574
-    },
-    {
-     "name": "Sam Stanton",
-     "num": 11,
-     "pos": 8,
-     "field": "4:1",
-     "id": 172692
-    },
-    {
-     "name": "Jamie Gullan",
-     "num": 10,
-     "pos": 9,
-     "field": "4:2",
-     "id": 3169884
-    },
-    {
-     "name": "R. Paton",
-     "num": 99,
-     "pos": 10,
-     "field": "4:3",
-     "id": 3169882
-    },
-    {
-     "name": "Josh Fowler",
-     "num": 9,
-     "pos": 11,
-     "field": "5:1",
-     "id": 38202027
-    }
-   ],
+   "xi": [],
    "bench": [],
-   "formation": "4-2-3-1"
+   "formation": null
   },
   "away": {
-   "xi": [
-    {
-     "name": "Viljami Sinisalo",
-     "num": 1,
-     "pos": 1,
-     "field": "1:1",
-     "id": 529045
-    },
-    {
-     "name": "Alistair Johnston",
-     "num": 2,
-     "pos": 2,
-     "field": "2:4",
-     "id": 35659846
-    },
-    {
-     "name": "Cameron Carter-Vickers",
-     "num": 20,
-     "pos": 3,
-     "field": "2:3",
-     "id": 1712
-    },
-    {
-     "name": "Auston Trusty",
-     "num": 6,
-     "pos": 4,
-     "field": "2:2",
-     "id": 262280
-    },
-    {
-     "name": "Kieran Tierney",
-     "num": 63,
-     "pos": 5,
-     "field": "2:1",
-     "id": 172960
-    },
-    {
-     "name": "Callum McGregor",
-     "num": 42,
-     "pos": 6,
-     "field": "3:2",
-     "id": 8585
-    },
-    {
-     "name": "Arne Engels",
-     "num": 27,
-     "pos": 7,
-     "field": "3:1",
-     "id": 37337212
-    },
-    {
-     "name": "Camilo Durán",
-     "num": 11,
-     "pos": 8,
-     "field": "4:3",
-     "id": 37709508
-    },
-    {
-     "name": "Benjamin Nygren",
-     "num": 8,
-     "pos": 9,
-     "field": "4:2",
-     "id": 19979885
-    },
-    {
-     "name": "Hyun-jun Yang",
-     "num": 13,
-     "pos": 10,
-     "field": "4:1",
-     "id": 37563550
-    },
-    {
-     "name": "Kasper Høgh",
-     "num": 9,
-     "pos": 11,
-     "field": "5:1",
-     "id": 15061513
-    }
-   ],
+   "xi": [],
    "bench": [],
-   "formation": "4-2-3-1"
-  }
+   "formation": null
+  },
+  "confirmed": false
  },
  "form": {
   "home": [
@@ -559,15 +404,7 @@
   }
  ],
  "sidelined": {
-  "home": [
-   {
-    "player": "B. Mikulić",
-    "type": "Hamstring Injury",
-    "since": "2026-01-30",
-    "until": null,
-    "missed": 27
-   }
-  ],
+  "home": [],
   "away": [
    {
     "player": "Alistair Johnston",
@@ -575,13 +412,6 @@
     "since": "2026-08-10",
     "until": null,
     "missed": 6
-   },
-   {
-    "player": "Kasper Schmeichel",
-    "type": "Shoulder Injury",
-    "since": "2026-02-27",
-    "until": "2027-02-28",
-    "missed": 26
    }
   ]
  },
@@ -1372,5 +1202,5 @@
    }
   }
  },
- "updated_at": "2026-09-07T00:06:48.601993+00:00"
+ "updated_at": "2026-09-07T10:04:08.603986+00:00"
 }
