@@ -223,11 +223,21 @@ def sidelined(team_id, now):
         data, _ = get(f"teams/{team_id}", include="sidelined.player;sidelined.type")
     except SystemExit:
         return []
+    # Only players actually in the current squad: Sportmonks keeps sidelined entries for
+    # players who have since left or retired (e.g. Schmeichel).
+    current = set()
+    try:
+        data2, _ = get(f"squads/teams/{team_id}")
+        current = {m.get("player_id") for m in (data2.get("data") or []) if m.get("player_id")}
+    except SystemExit:
+        current = set()
     out = []
     cutoff = (now - timedelta(days=240)).strftime("%Y-%m-%d")
     for sd in (data.get("data") or {}).get("sidelined", []) or []:
         start, end = sd.get("start_date") or "", sd.get("end_date")
         if start < cutoff or sd.get("completed"):
+            continue
+        if current and sd.get("player_id") not in current:
             continue
         if end and end < now.strftime("%Y-%m-%d"):
             continue
