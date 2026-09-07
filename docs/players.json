@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T08:56:37+00:00",
+ "updated": "2026-09-07T09:03:11+00:00",
  "team_id": 53,
  "season": "2026/2027",
  "competitions": [
@@ -16,6 +16,16 @@
   {
    "league": "Premiership",
    "league_id": 501,
+   "season": "2026/2027"
+  },
+  {
+   "league": "Scottish Cup",
+   "league_id": 507,
+   "season": "2026/2027"
+  },
+  {
+   "league": "League Cup",
+   "league_id": 510,
    "season": "2026/2027"
   },
   {
@@ -57,13 +67,21 @@
      "minutes": 450,
      "apps": 5,
      "starts": 5
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
     }
    ],
    "total": {
     "penalties": 0,
-    "minutes": 660,
-    "apps": 7,
-    "starts": 7
+    "minutes": 750,
+    "apps": 8,
+    "starts": 8
    }
   },
   "172104": {
@@ -84,12 +102,20 @@
      "sub_apps": 5,
      "minutes": 89,
      "apps": 5
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 22,
+     "apps": 1
     }
    ],
    "total": {
-    "sub_apps": 5,
-    "minutes": 89,
-    "apps": 5
+    "sub_apps": 6,
+    "minutes": 111,
+    "apps": 6
    }
   },
   "37564402": {
@@ -185,14 +211,23 @@
      "minutes": 450,
      "apps": 5,
      "starts": 5
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "yellows": 1,
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
     }
    ],
    "total": {
     "sub_apps": 1,
-    "minutes": 631,
-    "apps": 7,
-    "starts": 7,
-    "yellows": 1
+    "minutes": 721,
+    "apps": 8,
+    "starts": 8,
+    "yellows": 2
    }
   },
   "173129": {
@@ -252,14 +287,23 @@
      "minutes": 370,
      "apps": 5,
      "starts": 5
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "goals": 1,
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
     }
    ],
    "total": {
-    "goals": 5,
+    "goals": 6,
     "sub_apps": 6,
-    "minutes": 573,
-    "apps": 7,
-    "starts": 7,
+    "minutes": 663,
+    "apps": 8,
+    "starts": 8,
     "assists": 3
    }
   },
@@ -291,12 +335,20 @@
      "minutes": 190,
      "apps": 3,
      "starts": 2
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 31,
+     "apps": 1
     }
    ],
    "total": {
-    "sub_apps": 4,
-    "minutes": 326,
-    "apps": 5,
+    "sub_apps": 5,
+    "minutes": 357,
+    "apps": 6,
     "starts": 4
    }
   },
@@ -328,14 +380,23 @@
      "minutes": 172,
      "apps": 2,
      "starts": 2
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 68,
+     "apps": 1,
+     "starts": 1
     }
    ],
    "total": {
-    "minutes": 382,
-    "apps": 4,
-    "starts": 4,
+    "minutes": 450,
+    "apps": 5,
+    "starts": 5,
     "goals": 3,
-    "sub_apps": 1
+    "sub_apps": 2
    }
   },
   "37563550": {
@@ -407,15 +468,23 @@
      "minutes": 270,
      "apps": 3,
      "starts": 3
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
     }
    ],
    "total": {
     "sub_apps": 2,
-    "minutes": 333,
-    "apps": 5,
+    "minutes": 423,
+    "apps": 6,
     "penalties": 0,
     "goals": 1,
-    "starts": 3
+    "starts": 4
    }
   },
   "262280": {
@@ -445,13 +514,24 @@
      "minutes": 380,
      "apps": 5,
      "starts": 4
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "goals": 1,
+     "sub_apps": 1,
+     "minutes": 68,
+     "apps": 1,
+     "starts": 1
     }
    ],
    "total": {
-    "minutes": 590,
-    "apps": 7,
-    "starts": 6,
-    "sub_apps": 1
+    "minutes": 658,
+    "apps": 8,
+    "starts": 7,
+    "sub_apps": 2,
+    "goals": 1
    }
   },
   "8585": {
@@ -481,13 +561,21 @@
      "minutes": 360,
      "apps": 4,
      "starts": 4
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
     }
    ],
    "total": {
     "goals": 1,
-    "minutes": 570,
-    "apps": 6,
-    "starts": 6
+    "minutes": 660,
+    "apps": 7,
+    "starts": 7
    }
   },
   "18584306": {
@@ -517,12 +605,20 @@
      "minutes": 211,
      "apps": 3,
      "starts": 3
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 19,
+     "apps": 1
     }
    ],
    "total": {
-    "sub_apps": 4,
-    "minutes": 218,
-    "apps": 4,
+    "sub_apps": 5,
+    "minutes": 237,
+    "apps": 5,
     "starts": 3
    }
   },
@@ -558,15 +654,26 @@
      "minutes": 400,
      "apps": 5,
      "starts": 5
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "goals": 1,
+     "sub_apps": 1,
+     "assists": 2,
+     "minutes": 68,
+     "apps": 1,
+     "starts": 1
     }
    ],
    "total": {
-    "goals": 4,
-    "sub_apps": 4,
-    "assists": 4,
-    "minutes": 553,
-    "apps": 7,
-    "starts": 7
+    "goals": 5,
+    "sub_apps": 5,
+    "assists": 6,
+    "minutes": 621,
+    "apps": 8,
+    "starts": 8
    }
   },
   "10966261": {
@@ -626,13 +733,21 @@
      "minutes": 318,
      "apps": 5,
      "starts": 3
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
     }
    ],
    "total": {
     "sub_apps": 5,
-    "minutes": 475,
-    "apps": 7,
-    "starts": 5,
+    "minutes": 565,
+    "apps": 8,
+    "starts": 6,
     "yellows": 2
    }
   },
@@ -843,12 +958,20 @@
      "sub_apps": 1,
      "minutes": 3,
      "apps": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 22,
+     "apps": 1
     }
    ],
    "total": {
-    "sub_apps": 2,
-    "minutes": 49,
-    "apps": 2
+    "sub_apps": 3,
+    "minutes": 71,
+    "apps": 3
    }
   },
   "15169863": {
@@ -877,12 +1000,26 @@
      "sub_apps": 5,
      "minutes": 81,
      "apps": 5
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "goals": 1,
+     "sub_apps": 1,
+     "assists": 1,
+     "minutes": 71,
+     "apps": 1,
+     "starts": 1
     }
    ],
    "total": {
-    "sub_apps": 7,
-    "minutes": 152,
-    "apps": 7
+    "sub_apps": 8,
+    "minutes": 223,
+    "apps": 8,
+    "goals": 1,
+    "assists": 1,
+    "starts": 1
    }
   },
   "850": {
@@ -904,13 +1041,22 @@
      "minutes": 141,
      "apps": 2,
      "starts": 2
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 59,
+     "apps": 1,
+     "starts": 1
     }
    ],
    "total": {
-    "sub_apps": 2,
-    "minutes": 141,
-    "apps": 2,
-    "starts": 2
+    "sub_apps": 3,
+    "minutes": 200,
+    "apps": 3,
+    "starts": 3
    }
   },
   "35659846": {
@@ -983,6 +1129,19 @@
     "apps": 2,
     "starts": 2
    }
+  },
+  "37558562": {
+   "id": 37558562,
+   "name": "Adam Montgomery",
+   "display_name": "Adam Montgomery",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/2/37558562.png",
+   "dob": "2002-07-18",
+   "nationality": "Scotland",
+   "position": "Defender",
+   "jersey": 37,
+   "captain": false,
+   "competitions": [],
+   "total": {}
   }
  },
  "by_name": {
@@ -1024,6 +1183,7 @@
   "alistair johnston": 35659846,
   "joao pedro neves filipe": 163711,
   "jota": 163711,
-  "arne engels": 37337212
+  "arne engels": 37337212,
+  "adam montgomery": 37558562
  }
 }
