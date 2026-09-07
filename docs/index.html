@@ -357,5 +357,21 @@
   },1000);
 })();
 </script>
+<script>
+/* Tell a parent page (the CeltsAreHere embed) how tall we are, so the iframe can grow
+   instead of scrolling inside itself on phones. */
+(function(){
+  if (window.parent === window) return;
+  var last = 0;
+  function post(){
+    var h = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
+    if (Math.abs(h - last) > 4) { last = h; window.parent.postMessage({type:'cah-mc-height', height:h}, '*'); }
+  }
+  new ResizeObserver(post).observe(document.body);
+  window.addEventListener('load', post);
+  setInterval(post, 2000);
+  post();
+})();
+</script>
 </body>
 </html>
