@@ -87,6 +87,24 @@
   .stat .bar span:first-child i{right:0}.stat .bar span:last-child i{left:0}
   .stat .bar span.celtic i{background:var(--green)}
 
+
+  /* fixtures & results */
+  .fr-tabs{display:flex;gap:6px;margin:-4px 0 10px}
+  .fr-tabs button{font:700 12px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--muted);cursor:pointer}
+  .fr-tabs button.on{background:var(--green);border-color:var(--green);color:#fff}
+  .fr-record{margin-left:auto;font-size:12px;color:var(--muted);align-self:center;font-variant-numeric:tabular-nums}
+  .fr-month{font:800 11px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:14px 0 4px}
+  .fr-month:first-of-type{margin-top:0}
+  .fr{display:grid;grid-template-columns:52px 1fr auto;gap:10px;align-items:center;padding:9px 0;border-top:1px solid var(--line);font-size:14px}
+  .fr .dt{text-align:center;line-height:1.1}.fr .dt b{display:block;font:800 17px/1 var(--display)}.fr .dt span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+  .fr .who{min-width:0}.fr .who b{font-weight:700}.fr .who small{display:block;color:var(--muted);font-size:12px;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .fr .ha{display:inline-block;font:700 10px/16px var(--body);width:16px;text-align:center;border-radius:3px;background:var(--green-soft);color:var(--green-deep);margin-right:6px;vertical-align:1px}
+  .fr .sc{font:800 15px/1 var(--display);padding:7px 10px;border-radius:8px;min-width:58px;text-align:center;font-variant-numeric:tabular-nums;background:#eef1ef;color:var(--ink)}
+  .fr .sc.W{background:#2ecc71;color:#063}.fr .sc.L{background:#e74c3c;color:#fff}.fr .sc.D{background:#b5bdb9;color:#222}
+  .fr .sc.ko{background:transparent;color:var(--muted);font:600 13px/1 var(--body)}
+  .fr .sc.live{background:#ff4d4d;color:#fff}
+  .fr.void{opacity:.55}
+  .fr-more{margin-top:8px;text-align:center}.fr-more button{font:700 12px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;padding:9px 14px;border-radius:8px;border:1px solid var(--line);background:#fff;color:var(--green-deep);cursor:pointer}
   /* table */
   table{width:100%;border-collapse:collapse;font-size:13.5px;font-variant-numeric:tabular-nums}
   th,td{padding:7px 4px;text-align:right;border-top:1px solid var(--line)}
@@ -166,6 +184,7 @@
   <div id="news" class="card" hidden></div>
   <div id="h2h" class="card" hidden></div>
   <div id="table" class="card" hidden></div>
+  <div id="fixtures" class="card" hidden></div>
   <div id="scorers" class="card" hidden></div>
   <div id="next" class="card" hidden></div>
   <div class="foot">Live data: Sportmonks · <a href="https://celtsarehere.com" target="_top">celtsarehere.com</a></div>
@@ -355,6 +374,61 @@
     if(lastGood)$('upd').textContent=ago(lastGood.updated_at);
     const c=document.querySelector('.countdown'); if(c)c.textContent=countdown(c.dataset.ko);
   },1000);
+})();
+</script>
+<script>
+/* Fixtures & Results — reads docs/fixtures.json (built by fixtures.py) */
+(function(){
+  const $=id=>document.getElementById(id);
+  const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const RAW='https://raw.githubusercontent.com/craigfinn-coder/celts-matchcentre/main/docs/fixtures.json';
+  const uk=(iso,o)=>new Date(iso.replace(' ','T')+'Z').toLocaleString('en-GB',Object.assign({timeZone:'Europe/London'},o));
+  const crest=(name,url)=>url||'';
+  const badge=(name,url)=>{const u=crest(name,url);return u?`<img class="badge sm" src="${u}" alt="" loading="lazy" onerror="this.style.display='none'">`:'';};
+  let data=null, tab=null, showAll=false;
+  function row(f){
+    const ko=f.kickoff_utc||'';
+    const day=ko?uk(ko,{day:'numeric'}):'', mon=ko?uk(ko,{weekday:'short'}):'';
+    const time=ko?uk(ko,{hour:'2-digit',minute:'2-digit'}):'TBC';
+    let sc;
+    if(f.finished&&f.score) sc=`<span class="sc ${f.result||''}">${f.score.home}–${f.score.away}</span>`;
+    else if(/INPLAY|HT|BREAK|PEN/.test(f.state||'')&&f.score) sc=`<span class="sc live">${f.score.home}–${f.score.away}</span>`;
+    else if(f.void) sc=`<span class="sc ko">${esc((f.state||'').replace('_',' ').toLowerCase().replace(/^./,c=>c.toUpperCase()))}</span>`;
+    else sc=`<span class="sc ko">${time}</span>`;
+    const opp=f.ha==='H'?f.away:f.home;
+    const oppLogo=f.ha==='H'?f.away_logo:f.home_logo;
+    return `<div class="fr ${f.void?'void':''}"><div class="dt"><b>${day}</b><span>${mon}</span></div><div class="who"><span class="ha" title="${f.ha==='H'?'Home':'Away'}">${f.ha}</span>${badge(opp,oppLogo)}<b>${esc(opp)}</b><small>${esc(f.league||'')}${f.round?' · '+esc(f.round):''}${f.venue?' · '+esc(f.venue):''}</small></div>${sc}</div>`;
+  }
+  function render(){
+    if(!data||!data.fixtures||!data.fixtures.length){$('fixtures').hidden=true;return;}
+    const now=Date.now()/1000;
+    const results=data.fixtures.filter(f=>f.finished).slice().reverse();
+    const upcoming=data.fixtures.filter(f=>!f.finished);
+    if(!tab) tab=upcoming.length?'fixtures':'results';
+    let list=tab==='fixtures'?upcoming:results;
+    const LIMIT=10; const truncated=!showAll&&list.length>LIMIT; if(truncated) list=list.slice(0,LIMIT);
+    let html='', lastMonth='';
+    list.forEach(f=>{const m=f.kickoff_utc?uk(f.kickoff_utc,{month:'long',year:'numeric'}):'Date TBC'; if(m!==lastMonth){html+=`<div class="fr-month">${m}</div>`;lastMonth=m;} html+=row(f);});
+    const r=data.record||{};
+    const rec=r.p?`<span class="fr-record">P${r.p} W${r.w} D${r.d} L${r.l} · ${r.gf}–${r.ga}</span>`:'';
+    const hideNext=$('next'); if(hideNext) hideNext.hidden=true;
+    $('fixtures').hidden=false;
+    $('fixtures').innerHTML=`<h2>Fixtures &amp; Results <span style="color:var(--muted);font-weight:600;letter-spacing:0;text-transform:none;font-size:13px;margin-left:4px">${esc(data.season||'')}</span></h2>
+      <div class="fr-tabs"><button class="${tab==='fixtures'?'on':''}" data-t="fixtures">Fixtures</button><button class="${tab==='results'?'on':''}" data-t="results">Results</button>${rec}</div>
+      ${html||'<div style="color:var(--muted);font-size:14px;padding:8px 0">Nothing to show yet.</div>'}
+      ${truncated?`<div class="fr-more"><button data-more>Show all ${(tab==='fixtures'?upcoming:results).length}</button></div>`:''}`;
+    $('fixtures').querySelectorAll('.fr-tabs button').forEach(b=>b.onclick=()=>{tab=b.dataset.t;showAll=false;render();});
+    const more=$('fixtures').querySelector('[data-more]'); if(more) more.onclick=()=>{showAll=true;render();};
+  }
+  async function load(){
+    try{
+      let r=await fetch(RAW+'?t='+Date.now(),{cache:'no-store'});
+      if(!r.ok) r=await fetch('fixtures.json?t='+Date.now(),{cache:'no-store'});
+      if(!r.ok) return;
+      data=await r.json(); render();
+    }catch(e){}
+  }
+  load(); setInterval(load,10*60*1000);
 })();
 </script>
 <script>
