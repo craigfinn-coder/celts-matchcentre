@@ -1,10 +1,11 @@
-name: Player season stats
+name: Player season stats & fixtures
 
 on:
   workflow_dispatch:
   push:
     paths:
       - "players.py"
+      - "fixtures.py"
       - ".github/workflows/players.yml"
   schedule:
     # four times a day (UTC) so post-match numbers land within ~3 hours
@@ -34,3 +35,9 @@ jobs:
         env:
           SPORTMONKS_TOKEN: ${{ secrets.SPORTMONKS_TOKEN }}
         run: python players.py
+
+      - name: Pull season fixtures & results and publish docs/fixtures.json
+        if: always()
+        env:
+          SPORTMONKS_TOKEN: ${{ secrets.SPORTMONKS_TOKEN }}
+        run: git pull --rebase -q && python fixtures.py
