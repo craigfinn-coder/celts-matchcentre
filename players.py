@@ -95,30 +95,40 @@ def stat_value(detail):
 
 
 def active_seasons():
+    """Every current season on the plan that Celtic have a squad record for.
+    Sportmonks' team activeseasons list misses domestic cups, so we union it with
+    the current season of every league the plan covers."""
+    seasons = {}
     data = get(f"teams/{TEAM_ID}", include="activeSeasons.league")
     team = data.get("data") or {}
-    # v3 returns include keys in lowercase
-    seasons = team.get("activeseasons") or team.get("activeSeasons") or []
-    if not seasons:
-        data = get(f"teams/{TEAM_ID}", include="seasons.league")
-        team = data.get("data") or {}
-        seasons = [s for s in (team.get("seasons") or []) if s.get("is_current")]
-    out = []
-    for s in seasons:
+    for s in team.get("activeseasons") or team.get("activeSeasons") or []:
         lg = s.get("league") or {}
-        out.append({
-            "season_id": s["id"],
-            "season": s.get("name"),
-            "league_id": lg.get("id"),
-            "league": lg.get("name") or f"League {lg.get('id')}",
-            "is_current": bool(s.get("is_current")),
-        })
-    return out
+        seasons[s["id"]] = {"season_id": s["id"], "season": s.get("name"), "league_id": lg.get("id"),
+                            "league": lg.get("name") or f"League {lg.get('id')}", "is_current": True}
+    # all leagues on the plan (small list) with their current season
+    page = 1
+    while True:
+        data = get("leagues", include="currentSeason", per_page=50, page=page)
+        for lg in data.get("data") or []:
+            cs = lg.get("currentseason") or lg.get("currentSeason")
+            if not cs or cs["id"] in seasons:
+                continue
+            seasons[cs["id"]] = {"season_id": cs["id"], "season": cs.get("name"), "league_id": lg.get("id"),
+                                 "league": lg.get("name") or f"League {lg.get('id')}", "is_current": True,
+                                 "probe": True}
+        pg = data.get("pagination") or {}
+        if not pg.get("has_more"):
+            break
+        page += 1
+    return list(seasons.values())
 
 
 def squad_stats(season):
-    data = get(f"squads/seasons/{season['season_id']}/teams/{TEAM_ID}",
-               include="player.nationality;player.position;details.type")
+    try:
+        data = get(f"squads/seasons/{season['season_id']}/teams/{TEAM_ID}",
+                   include="player.nationality;player.position;details.type")
+    except SystemExit:
+        return []  # 4xx for a competition Celtic aren't in
     rows = []
     for m in data.get("data") or []:
         p = m.get("player") or {}
@@ -146,7 +156,7 @@ def squad_stats(season):
 
 
 def main():
-    seasons = [s for s in active_seasons() if s["is_current"] or True]
+    seasons = active_seasons()
     if not seasons:
         die("no active seasons returned for team")
     log("seasons: " + ", ".join(f"{s['league']} ({s['season']})" for s in seasons))
@@ -159,6 +169,9 @@ def main():
             raise
         except Exception as e:  # keep going if one competition fails
             log(f"skip {s['league']}: {e!r}")
+            continue
+        if not rows:
+            log(f"{s['league']}: no squad data, skipping")
             continue
         log(f"{s['league']}: {len(rows)} squad members")
         for r in rows:
