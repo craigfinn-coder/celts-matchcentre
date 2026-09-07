@@ -111,6 +111,17 @@ def active_seasons():
         data = get("leagues", include="currentSeason", per_page=50, page=page)
         for lg in data.get("data") or []:
             cs = lg.get("currentseason") or lg.get("currentSeason")
+            if not cs:
+                # cups often have no is_current flag set: take the newest season instead
+                try:
+                    detail = get(f"leagues/{lg['id']}", include="seasons")
+                    ss = (detail.get("data") or {}).get("seasons") or []
+                    ss = [x for x in ss if x.get("starting_at")]
+                    ss.sort(key=lambda x: x["starting_at"], reverse=True)
+                    cs = ss[0] if ss else None
+                except SystemExit:
+                    cs = None
+                log(f"league {lg.get('name')}: no current season flag, using {cs.get('name') if cs else 'none'}")
             if not cs or cs["id"] in seasons:
                 continue
             seasons[cs["id"]] = {"season_id": cs["id"], "season": cs.get("name"), "league_id": lg.get("id"),
