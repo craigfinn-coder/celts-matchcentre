@@ -112,8 +112,7 @@
   /* pitch */
   .pitchwrap{display:grid;grid-template-columns:1fr 1fr;gap:10px}
   @media(max-width:560px){.pitchwrap{grid-template-columns:1fr}}
-  .pitch{position:relative;background:linear-gradient(180deg,#1f8f4e,#177a41);border-radius:10px;padding:10px 6px;min-height:300px;display:flex;flex-direction:column;justify-content:space-between;
-    background-image:repeating-linear-gradient(180deg,rgba(255,255,255,.05) 0 30px,transparent 30px 60px)}
+  .pitch{position:relative;background-color:#1c8a4a;background-image:repeating-linear-gradient(180deg,rgba(255,255,255,.06) 0 30px,transparent 30px 60px),linear-gradient(180deg,#1f8f4e,#177a41);border-radius:10px;padding:10px 6px;min-height:300px;display:flex;flex-direction:column;justify-content:space-between}
   .pitch::before{content:"";position:absolute;inset:8px;border:2px solid rgba(255,255,255,.35);border-radius:6px;pointer-events:none}
   .pitch::after{content:"";position:absolute;left:30%;right:30%;top:8px;height:18%;border:2px solid rgba(255,255,255,.35);border-top:0;pointer-events:none}
   .pitch .row{display:flex;justify-content:space-around;position:relative;z-index:1}
@@ -280,7 +279,7 @@
       }
 
       // lineups
-      const lu=d.lineups, hasXI=lu&&lu.home&&lu.home.xi&&lu.home.xi.length>=11&&lu.away.xi.length>=11;
+      const lu=d.lineups, hasXI=lu&&lu.home&&lu.home.xi&&lu.home.xi.length>=11&&lu.away.xi.length>=11&&(d.state!=='NS'||lu.confirmed===true);
       $('lineups').hidden=!hasXI;
       if(hasXI){
         const pitch=(side,name,team)=>{
