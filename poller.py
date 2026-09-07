@@ -443,10 +443,12 @@ def main():
             # Geared to the next game: pre-match board (countdown), extras for that pairing,
             # and the last result tucked in as a collapsible summary
             meta = fixture_summary(upcoming[0])
-            full, _ = get(f"fixtures/{meta['id']}", include="participants;state;league;venue;lineups")
+            # No lineups here: Sportmonks returns a *predicted* XI for upcoming games,
+            # which is not a team sheet. Real lineups are picked up in the pre-match loop.
             payload.update({"state": "NS", "state_name": "Not started", "fixture": meta,
                             "score": {"home": 0, "away": 0}, "events": [], "stats": {},
-                            "lineups": parse_lineups(full["data"], meta)})
+                            "lineups": {"home": {"xi": [], "bench": [], "formation": None},
+                                        "away": {"xi": [], "bench": [], "formation": None}, "confirmed": False}})
             payload.update(enrich(meta, now, payload["standings"]))
             if last:
                 lm = fixture_summary(last)
@@ -496,9 +498,13 @@ def main():
         if wait <= 0:
             break
         if wait <= 70 * 60 and not lineups_published:
-            data, _ = get(f"fixtures/{meta['id']}", include="participants;lineups")
+            data, _ = get(f"fixtures/{meta['id']}", include="participants;lineups;formations")
             lu = parse_lineups(data["data"], meta)
-            if len(lu["home"]["xi"]) >= 11 and len(lu["away"]["xi"]) >= 11:
+            # Only trust the XI once official formations exist for both sides —
+            # before that Sportmonks serves a predicted line-up.
+            forms = {f.get("participant_id") for f in (data["data"].get("formations") or [])}
+            lu["confirmed"] = meta["home_id"] in forms and meta["away_id"] in forms
+            if lu["confirmed"] and len(lu["home"]["xi"]) >= 11 and len(lu["away"]["xi"]) >= 11:
                 pre["lineups"] = lu
                 pre["updated_at"] = datetime.now(timezone.utc).isoformat()
                 write_json(OUT, pre)
