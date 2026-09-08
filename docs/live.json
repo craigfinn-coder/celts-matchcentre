@@ -765,7 +765,7 @@
    },
    "Shots Total": {
     "home": 19,
-    "away": 23
+    "away": 24
    },
    "Attacks": {
     "home": 58,
@@ -825,7 +825,7 @@
    },
    "Shots Blocked": {
     "home": 7,
-    "away": 5
+    "away": 6
    },
    "Substitutions": {
     "home": 4,
@@ -880,7 +880,7 @@
     "away": 11
    },
    "Duels Won": {
-    "home": 53,
+    "home": 56,
     "away": 54
    },
    "Dribble Attempts": {
@@ -1217,5 +1217,5 @@
    }
   }
  },
- "updated_at": "2026-09-08T12:05:52.352919+00:00"
+ "updated_at": "2026-09-08T19:04:38.442071+00:00"
 }
