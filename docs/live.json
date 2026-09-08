@@ -404,15 +404,7 @@
   }
  ],
  "sidelined": {
-  "home": [
-   {
-    "player": "B. Mikulić",
-    "type": "Hamstring Injury",
-    "since": "2026-01-30",
-    "until": null,
-    "missed": 27
-   }
-  ],
+  "home": [],
   "away": [
    {
     "player": "Alistair Johnston",
@@ -420,6 +412,13 @@
     "since": "2026-08-10",
     "until": null,
     "missed": 6
+   },
+   {
+    "player": "Kasper Høgh",
+    "type": "Thigh Problems",
+    "since": "2026-08-29",
+    "until": null,
+    "missed": null
    }
   ]
  },
@@ -1210,5 +1209,5 @@
    }
   }
  },
- "updated_at": "2026-09-07T18:04:57.840798+00:00"
+ "updated_at": "2026-09-08T10:04:52.571735+00:00"
 }
