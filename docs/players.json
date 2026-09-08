@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T09:03:11+00:00",
+ "updated": "2026-09-08T17:34:16+00:00",
  "team_id": 53,
  "season": "2026/2027",
  "competitions": [
@@ -19,13 +19,13 @@
    "season": "2026/2027"
   },
   {
-   "league": "Scottish Cup",
-   "league_id": 507,
+   "league": "League Cup",
+   "league_id": 510,
    "season": "2026/2027"
   },
   {
-   "league": "League Cup",
-   "league_id": 510,
+   "league": "Scottish Cup",
+   "league_id": 507,
    "season": "2026/2027"
   },
   {
