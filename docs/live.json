@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:19:00.588095+00:00",
+ "updated_at": "2026-09-09T20:23:00.456279+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 62,
+ "minute": 66,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -370,6 +370,18 @@
    "related": "J. Holt",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157843501,
+   "minute": 67,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Benjamin Nygren",
+   "related": "Oliver Sørensen",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -386,12 +398,12 @@
    "away": 6
   },
   "Attacks": {
-   "home": 27,
-   "away": 49
+   "home": 30,
+   "away": 51
   },
   "Dangerous Attacks": {
    "home": 27,
-   "away": 58
+   "away": 62
   },
   "Ball Possession %": {
    "home": 34,
@@ -415,10 +427,10 @@
   },
   "Free Kicks": {
    "home": 7,
-   "away": 6
+   "away": 7
   },
   "Fouls": {
-   "home": 6,
+   "home": 7,
    "away": 7
   },
   "Saves": {
@@ -431,18 +443,18 @@
   },
   "Substitutions": {
    "home": 2,
-   "away": 0
+   "away": 1
   },
   "Throwins": {
    "home": 17,
-   "away": 18
+   "away": 19
   },
   "Long Passes": {
-   "home": 34,
-   "away": 18
+   "home": 37,
+   "away": 19
   },
   "Tackles": {
-   "home": 7,
+   "home": 10,
    "away": 6
   },
   "Assists": {
@@ -450,15 +462,15 @@
    "away": 1
   },
   "Passes": {
-   "home": 219,
-   "away": 432
+   "home": 233,
+   "away": 453
   },
   "Successful Passes": {
-   "home": 162,
-   "away": 394
+   "home": 171,
+   "away": 413
   },
   "Successful Passes Percentage": {
-   "home": 74,
+   "home": 73,
    "away": 91
   },
   "Yellowcards": {
@@ -471,7 +483,7 @@
   },
   "Total Crosses": {
    "home": 15,
-   "away": 27
+   "away": 28
   },
   "Accurate Crosses": {
    "home": 4,
@@ -482,16 +494,16 @@
    "away": 2
   },
   "Duels Won": {
-   "home": 28,
-   "away": 30
+   "home": 31,
+   "away": 33
   },
   "Dribble Attempts": {
    "home": 7,
-   "away": 8
+   "away": 12
   },
   "Successful Dribbles": {
    "home": 5,
-   "away": 3
+   "away": 4
   },
   "Key Passes": {
    "home": 7,
@@ -507,18 +519,18 @@
   },
   "Successful Dribbles Percentage": {
    "home": 71,
-   "away": 38
+   "away": 33
   },
   "Successful Long Passes": {
-   "home": 3,
+   "home": 4,
    "away": 9
   },
   "Successful Long Passes Percentage": {
-   "home": 9,
-   "away": 50
+   "home": 11,
+   "away": 47
   },
   "Tackles Won": {
-   "home": 6,
+   "home": 8,
    "away": 0
   }
  },
@@ -992,5 +1004,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2456
+ "rate_remaining": 2448
 }
