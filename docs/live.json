@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:08:30.573544+00:00",
+ "updated_at": "2026-09-09T20:09:00.577215+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -322,7 +322,20 @@
   "home": 0,
   "away": 0
  },
- "events": [],
+ "events": [
+  {
+   "id": 157843325,
+   "minute": 53,
+   "extra": null,
+   "type": "Goal",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Mika Baur",
+   "related": "Haissem Hassan",
+   "result": "0-1",
+   "info": "Right foot shot"
+  }
+ ],
  "stats": {
   "Corners": {
    "home": 2,
@@ -334,7 +347,7 @@
   },
   "Shots Total": {
    "home": 6,
-   "away": 4
+   "away": 5
   },
   "Attacks": {
    "home": 19,
@@ -345,12 +358,12 @@
    "away": 52
   },
   "Ball Possession %": {
-   "home": 32,
-   "away": 68
+   "home": 31,
+   "away": 69
   },
   "Shots Insidebox": {
    "home": 4,
-   "away": 3
+   "away": 4
   },
   "Shots Outsidebox": {
    "home": 2,
@@ -394,27 +407,27 @@
   },
   "Passes": {
    "home": 172,
-   "away": 373
+   "away": 395
   },
   "Successful Passes": {
-   "home": 123,
-   "away": 339
+   "home": 121,
+   "away": 360
   },
   "Successful Passes Percentage": {
-   "home": 72,
+   "home": 70,
    "away": 91
   },
   "Shots On Target": {
    "home": 2,
-   "away": 1
+   "away": 2
   },
   "Total Crosses": {
    "home": 10,
-   "away": 23
+   "away": 24
   },
   "Accurate Crosses": {
    "home": 3,
-   "away": 4
+   "away": 5
   },
   "Interceptions": {
    "home": 4,
@@ -422,15 +435,15 @@
   },
   "Duels Won": {
    "home": 22,
-   "away": 25
+   "away": 26
   },
   "Dribble Attempts": {
    "home": 5,
-   "away": 6
+   "away": 7
   },
   "Successful Dribbles": {
    "home": 3,
-   "away": 2
+   "away": 3
   },
   "Key Passes": {
    "home": 6,
@@ -446,7 +459,7 @@
   },
   "Successful Dribbles Percentage": {
    "home": 60,
-   "away": 33
+   "away": 43
   },
   "Successful Long Passes": {
    "home": 1,
@@ -931,5 +944,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2477
+ "rate_remaining": 2476
 }
