@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-09T20:43:30.829602+00:00",
- "live": true,
+ "updated_at": "2026-09-09T20:51:00.517430+00:00",
+ "live": false,
  "fixture": {
   "id": 19722806,
   "kickoff_utc": "2026-09-09 19:00:00",
@@ -309,11 +309,11 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "INPLAY_2ND_HALF",
- "state_name": "2nd Half",
- "minute": 87,
+ "state": "FT",
+ "state_name": "Full Time",
+ "minute": 94,
  "minute_estimated": false,
- "added_time": null,
+ "added_time": 4,
  "score": {
   "home": 0,
   "away": 1
@@ -490,36 +490,52 @@
    "related": "Liam Scales",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157843849,
+   "minute": 90,
+   "extra": 4,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Mika Baur",
+   "related": null,
+   "result": null,
+   "info": "Handling"
   }
  ],
  "stats": {
   "Corners": {
    "home": 2,
-   "away": 10
+   "away": 11
   },
   "Shots Off Target": {
    "home": 4,
-   "away": 0
+   "away": 1
   },
   "Shots Total": {
-   "home": 8,
-   "away": 10
+   "home": 9,
+   "away": 13
   },
   "Attacks": {
-   "home": 38,
-   "away": 67
+   "home": 43,
+   "away": 71
   },
   "Dangerous Attacks": {
-   "home": 32,
-   "away": 81
+   "home": 38,
+   "away": 87
   },
   "Ball Possession %": {
-   "home": 39,
-   "away": 61
+   "home": 40,
+   "away": 60
+  },
+  "Ball Safe": {
+   "home": 77,
+   "away": 77
   },
   "Shots Insidebox": {
-   "home": 5,
-   "away": 8
+   "home": 6,
+   "away": 11
   },
   "Shots Outsidebox": {
    "home": 3,
@@ -527,7 +543,7 @@
   },
   "Offsides": {
    "home": 0,
-   "away": 2
+   "away": 3
   },
   "Goals": {
    "home": 0,
@@ -537,17 +553,21 @@
    "home": 9,
    "away": 3
   },
+  "Goal Attempts": {
+   "home": 5,
+   "away": 7
+  },
   "Free Kicks": {
    "home": 8,
-   "away": 12
+   "away": 13
   },
   "Fouls": {
-   "home": 12,
+   "home": 13,
    "away": 8
   },
   "Saves": {
-   "home": 5,
-   "away": 2
+   "home": 7,
+   "away": 3
   },
   "Shots Blocked": {
    "home": 2,
@@ -558,12 +578,12 @@
    "away": 5
   },
   "Throwins": {
-   "home": 19,
-   "away": 21
+   "home": 20,
+   "away": 23
   },
   "Long Passes": {
-   "home": 45,
-   "away": 26
+   "home": 48,
+   "away": 28
   },
   "Tackles": {
    "home": 12,
@@ -574,76 +594,80 @@
    "away": 1
   },
   "Passes": {
-   "home": 355,
-   "away": 547
+   "home": 378,
+   "away": 580
   },
   "Successful Passes": {
-   "home": 276,
-   "away": 491
+   "home": 295,
+   "away": 519
   },
   "Successful Passes Percentage": {
    "home": 78,
-   "away": 90
+   "away": 89
   },
   "Yellowcards": {
    "home": 2,
    "away": 1
   },
   "Shots On Target": {
-   "home": 2,
-   "away": 6
+   "home": 3,
+   "away": 8
+  },
+  "Injuries": {
+   "home": 1,
+   "away": 1
   },
   "Total Crosses": {
-   "home": 18,
-   "away": 32
+   "home": 20,
+   "away": 35
   },
   "Accurate Crosses": {
    "home": 4,
-   "away": 8
+   "away": 9
   },
   "Interceptions": {
    "home": 6,
    "away": 4
   },
   "Duels Won": {
-   "home": 37,
-   "away": 47
+   "home": 39,
+   "away": 50
   },
   "Dribble Attempts": {
-   "home": 7,
-   "away": 17
+   "home": 9,
+   "away": 18
   },
   "Successful Dribbles": {
-   "home": 5,
-   "away": 7
+   "home": 7,
+   "away": 8
   },
   "Key Passes": {
-   "home": 8,
-   "away": 10
+   "home": 9,
+   "away": 12
   },
   "Big Chances Created": {
    "home": 1,
-   "away": 2
+   "away": 4
   },
   "Big Chances Missed": {
    "home": 1,
-   "away": 1
+   "away": 3
   },
   "Successful Dribbles Percentage": {
-   "home": 71,
-   "away": 41
+   "home": 78,
+   "away": 44
   },
   "Successful Long Passes": {
-   "home": 5,
-   "away": 10
+   "home": 7,
+   "away": 11
   },
   "Successful Long Passes Percentage": {
-   "home": 11,
-   "away": 38
+   "home": 15,
+   "away": 39
   },
   "Tackles Won": {
    "home": 9,
-   "away": 2
+   "away": 1
   }
  },
  "next_fixtures": [
@@ -1116,5 +1140,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2407
+ "rate_remaining": 2392
 }
