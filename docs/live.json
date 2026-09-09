@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T19:56:30.614099+00:00",
+ "updated_at": "2026-09-09T20:01:30.794630+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -309,8 +309,8 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "HT",
- "state_name": "Half Time",
+ "state": "INPLAY_2ND_HALF",
+ "state_name": "2nd Half",
  "minute": 45,
  "minute_estimated": false,
  "added_time": null,
@@ -381,7 +381,7 @@
    "away": 15
   },
   "Long Passes": {
-   "home": 26,
+   "home": 25,
    "away": 14
   },
   "Tackles": {
@@ -445,11 +445,11 @@
    "away": 40
   },
   "Successful Long Passes": {
-   "home": 2,
+   "home": 1,
    "away": 7
   },
   "Successful Long Passes Percentage": {
-   "home": 8,
+   "home": 4,
    "away": 50
   },
   "Tackles Won": {
@@ -927,5 +927,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2380
+ "rate_remaining": 2491
 }
