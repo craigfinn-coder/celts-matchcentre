@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T19:11:00.586093+00:00",
+ "updated_at": "2026-09-09T19:21:30.510100+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -45,11 +45,11 @@
      "id": 37330644
     },
     {
-     "name": "T. Steven",
-     "num": 7,
+     "name": "Josh Campbell",
+     "num": 32,
      "pos": 5,
      "field": "3:1",
-     "id": 37580310
+     "id": 28184653
     },
     {
      "name": "Reece McAlear",
@@ -59,11 +59,11 @@
      "id": 24817504
     },
     {
-     "name": "Joel Cotterill",
-     "num": 30,
+     "name": "J. Holt",
+     "num": 8,
      "pos": 7,
      "field": "3:3",
-     "id": 37373575
+     "id": 3574
     },
     {
      "name": "Enes Alic",
@@ -73,18 +73,18 @@
      "id": 37529443
     },
     {
-     "name": "Josh Campbell",
-     "num": 32,
+     "name": "Joel Cotterill",
+     "num": 30,
      "pos": 9,
      "field": "4:1",
-     "id": 28184653
+     "id": 37373575
     },
     {
-     "name": "J. Holt",
-     "num": 8,
+     "name": "T. Steven",
+     "num": 7,
      "pos": 10,
      "field": "4:2",
-     "id": 3574
+     "id": 37580310
     },
     {
      "name": "Josh Fowler",
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 10,
+ "minute": 21,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -325,87 +325,95 @@
  "events": [],
  "stats": {
   "Corners": {
-   "home": 0,
-   "away": 2
+   "home": 1,
+   "away": 3
   },
   "Shots Total": {
-   "home": 0,
+   "home": 1,
    "away": 1
   },
   "Attacks": {
-   "home": 2,
-   "away": 10
+   "home": 9,
+   "away": 21
   },
   "Dangerous Attacks": {
-   "home": 1,
-   "away": 13
+   "home": 5,
+   "away": 24
   },
   "Ball Possession %": {
-   "home": 21,
-   "away": 79
+   "home": 28,
+   "away": 72
   },
   "Shots Insidebox": {
-   "home": 0,
+   "home": 1,
    "away": 1
   },
   "Goal Kicks": {
-   "home": 2,
+   "home": 3,
    "away": 0
   },
   "Free Kicks": {
-   "home": 1,
+   "home": 2,
    "away": 1
   },
   "Fouls": {
    "home": 1,
-   "away": 1
+   "away": 2
   },
   "Saves": {
    "home": 1,
-   "away": 0
-  },
-  "Throwins": {
-   "home": 0,
-   "away": 5
-  },
-  "Long Passes": {
-   "home": 6,
-   "away": 5
-  },
-  "Tackles": {
-   "home": 2,
    "away": 1
   },
+  "Throwins": {
+   "home": 3,
+   "away": 7
+  },
+  "Long Passes": {
+   "home": 9,
+   "away": 8
+  },
+  "Tackles": {
+   "home": 3,
+   "away": 2
+  },
   "Passes": {
-   "home": 20,
-   "away": 83
+   "home": 66,
+   "away": 175
   },
   "Successful Passes": {
-   "home": 14,
-   "away": 79
+   "home": 50,
+   "away": 165
   },
   "Successful Passes Percentage": {
-   "home": 70,
-   "away": 95
+   "home": 76,
+   "away": 94
   },
   "Shots On Target": {
-   "home": 0,
+   "home": 1,
    "away": 1
   },
   "Total Crosses": {
-   "home": 1,
-   "away": 5
+   "home": 5,
+   "away": 10
   },
-  "Duels Won": {
-   "home": 4,
-   "away": 3
-  },
-  "Dribble Attempts": {
-   "home": 0,
+  "Accurate Crosses": {
+   "home": 2,
    "away": 2
   },
-  "Key Passes": {
+  "Interceptions": {
    "home": 0,
+   "away": 1
+  },
+  "Duels Won": {
+   "home": 7,
+   "away": 8
+  },
+  "Dribble Attempts": {
+   "home": 1,
+   "away": 3
+  },
+  "Key Passes": {
+   "home": 1,
    "away": 1
   },
   "Successful Dribbles Percentage": {
@@ -414,14 +422,14 @@
   },
   "Successful Long Passes": {
    "home": 2,
-   "away": 3
+   "away": 4
   },
   "Successful Long Passes Percentage": {
-   "home": 33,
-   "away": 60
+   "home": 22,
+   "away": 50
   },
   "Tackles Won": {
-   "home": 2,
+   "home": 3,
    "away": 0
   }
  },
@@ -895,5 +903,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2471
+ "rate_remaining": 2450
 }
