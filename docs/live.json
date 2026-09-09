@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:42:30.650533+00:00",
+ "updated_at": "2026-09-09T20:43:30.829602+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 86,
+ "minute": 87,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -466,6 +466,30 @@
    "related": "Kasper Høgh",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157843756,
+   "minute": 87,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "St. Johnstone",
+   "player": "Macaulay Tait",
+   "related": "Joel Cotterill",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157843757,
+   "minute": 87,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Kieran Tierney",
+   "related": "Liam Scales",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -515,10 +539,10 @@
   },
   "Free Kicks": {
    "home": 8,
-   "away": 10
+   "away": 12
   },
   "Fouls": {
-   "home": 10,
+   "home": 12,
    "away": 8
   },
   "Saves": {
@@ -530,7 +554,7 @@
    "away": 4
   },
   "Substitutions": {
-   "home": 4,
+   "home": 5,
    "away": 5
   },
   "Throwins": {
@@ -550,15 +574,15 @@
    "away": 1
   },
   "Passes": {
-   "home": 338,
-   "away": 541
+   "home": 355,
+   "away": 547
   },
   "Successful Passes": {
-   "home": 260,
-   "away": 486
+   "home": 276,
+   "away": 491
   },
   "Successful Passes Percentage": {
-   "home": 77,
+   "home": 78,
    "away": 90
   },
   "Yellowcards": {
@@ -570,7 +594,7 @@
    "away": 6
   },
   "Total Crosses": {
-   "home": 17,
+   "home": 18,
    "away": 32
   },
   "Accurate Crosses": {
@@ -583,7 +607,7 @@
   },
   "Duels Won": {
    "home": 37,
-   "away": 45
+   "away": 47
   },
   "Dribble Attempts": {
    "home": 7,
@@ -681,13 +705,13 @@
    "team_id": 62,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
    "pts": 13,
-   "p": 5,
-   "w": 3,
+   "p": 6,
+   "w": 4,
    "d": 1,
    "l": 1,
-   "gf": 6,
+   "gf": 7,
    "ga": 4,
-   "gd": 2
+   "gd": 3
   },
   {
    "pos": 3,
@@ -709,13 +733,13 @@
    "team_id": 496,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
    "pts": 10,
-   "p": 5,
+   "p": 6,
    "w": 3,
    "d": 1,
-   "l": 1,
+   "l": 2,
    "gf": 8,
-   "ga": 5,
-   "gd": 3
+   "ga": 6,
+   "gd": 2
   },
   {
    "pos": 5,
@@ -1092,5 +1116,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2409
+ "rate_remaining": 2407
 }
