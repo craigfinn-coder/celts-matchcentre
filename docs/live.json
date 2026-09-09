@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:51:00.517430+00:00",
+ "updated_at": "2026-09-09T20:51:30.541840+00:00",
  "live": false,
  "fixture": {
   "id": 19722806,
@@ -311,9 +311,9 @@
  },
  "state": "FT",
  "state_name": "Full Time",
- "minute": 94,
+ "minute": null,
  "minute_estimated": false,
- "added_time": 4,
+ "added_time": null,
  "score": {
   "home": 0,
   "away": 1
@@ -501,7 +501,7 @@
    "player": "Mika Baur",
    "related": null,
    "result": null,
-   "info": "Handling"
+   "info": "Handball"
   }
  ],
  "stats": {
@@ -515,7 +515,7 @@
   },
   "Shots Total": {
    "home": 9,
-   "away": 13
+   "away": 14
   },
   "Attacks": {
    "home": 43,
@@ -535,7 +535,7 @@
   },
   "Shots Insidebox": {
    "home": 6,
-   "away": 11
+   "away": 12
   },
   "Shots Outsidebox": {
    "home": 3,
@@ -550,7 +550,7 @@
    "away": 1
   },
   "Goal Kicks": {
-   "home": 9,
+   "home": 10,
    "away": 3
   },
   "Goal Attempts": {
@@ -558,15 +558,15 @@
    "away": 7
   },
   "Free Kicks": {
-   "home": 8,
+   "home": 9,
    "away": 13
   },
   "Fouls": {
    "home": 13,
-   "away": 8
+   "away": 9
   },
   "Saves": {
-   "home": 7,
+   "home": 8,
    "away": 3
   },
   "Shots Blocked": {
@@ -582,7 +582,7 @@
    "away": 23
   },
   "Long Passes": {
-   "home": 48,
+   "home": 49,
    "away": 28
   },
   "Tackles": {
@@ -594,24 +594,24 @@
    "away": 1
   },
   "Passes": {
-   "home": 378,
-   "away": 580
+   "home": 383,
+   "away": 583
   },
   "Successful Passes": {
-   "home": 295,
-   "away": 519
+   "home": 298,
+   "away": 522
   },
   "Successful Passes Percentage": {
    "home": 78,
-   "away": 89
+   "away": 90
   },
   "Yellowcards": {
    "home": 2,
-   "away": 1
+   "away": 2
   },
   "Shots On Target": {
    "home": 3,
-   "away": 8
+   "away": 9
   },
   "Injuries": {
    "home": 1,
@@ -630,15 +630,15 @@
    "away": 4
   },
   "Duels Won": {
-   "home": 39,
+   "home": 41,
    "away": 50
   },
   "Dribble Attempts": {
-   "home": 9,
+   "home": 10,
    "away": 18
   },
   "Successful Dribbles": {
-   "home": 7,
+   "home": 8,
    "away": 8
   },
   "Key Passes": {
@@ -647,14 +647,14 @@
   },
   "Big Chances Created": {
    "home": 1,
-   "away": 4
+   "away": 5
   },
   "Big Chances Missed": {
    "home": 1,
-   "away": 3
+   "away": 4
   },
   "Successful Dribbles Percentage": {
-   "home": 78,
+   "home": 80,
    "away": 44
   },
   "Successful Long Passes": {
@@ -662,7 +662,7 @@
    "away": 11
   },
   "Successful Long Passes Percentage": {
-   "home": 15,
+   "home": 14,
    "away": 39
   },
   "Tackles Won": {
@@ -1140,5 +1140,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2392
+ "rate_remaining": 2391
 }
