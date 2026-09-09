@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:01:30.794630+00:00",
+ "updated_at": "2026-09-09T20:08:30.573544+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -45,45 +45,45 @@
      "id": 37330644
     },
     {
-     "name": "Josh Campbell",
-     "num": 32,
+     "name": "Enes Alic",
+     "num": 2,
      "pos": 5,
-     "field": "3:1",
-     "id": 28184653
-    },
-    {
-     "name": "Reece McAlear",
-     "num": 42,
-     "pos": 6,
-     "field": "3:2",
-     "id": 24817504
+     "field": "2:4",
+     "id": 37529443
     },
     {
      "name": "J. Holt",
      "num": 8,
-     "pos": 7,
-     "field": "3:3",
+     "pos": 6,
+     "field": "3:1",
      "id": 3574
     },
     {
-     "name": "Enes Alic",
-     "num": 2,
+     "name": "Reece McAlear",
+     "num": 42,
+     "pos": 7,
+     "field": "3:2",
+     "id": 24817504
+    },
+    {
+     "name": "Josh Campbell",
+     "num": 32,
      "pos": 8,
-     "field": "3:4",
-     "id": 37529443
+     "field": "4:1",
+     "id": 28184653
     },
     {
      "name": "Joel Cotterill",
      "num": 30,
      "pos": 9,
-     "field": "4:1",
+     "field": "4:2",
      "id": 37373575
     },
     {
      "name": "T. Steven",
      "num": 7,
      "pos": 10,
-     "field": "4:2",
+     "field": "4:3",
      "id": 37580310
     },
     {
@@ -159,7 +159,7 @@
      "id": 3169882
     }
    ],
-   "formation": "3-4-2-1"
+   "formation": "4-2-3-1"
   },
   "away": {
    "xi": [
@@ -311,12 +311,12 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 45,
+ "minute": 52,
  "minute_estimated": false,
  "added_time": null,
  "score": {
   "home": 0,
-  "away": 0
+  "away": 1
  },
  "half_time": {
   "home": 0,
@@ -333,80 +333,84 @@
    "away": 0
   },
   "Shots Total": {
-   "home": 5,
-   "away": 3
+   "home": 6,
+   "away": 4
   },
   "Attacks": {
-   "home": 16,
-   "away": 39
+   "home": 19,
+   "away": 46
   },
   "Dangerous Attacks": {
-   "home": 13,
-   "away": 48
+   "home": 19,
+   "away": 52
   },
   "Ball Possession %": {
-   "home": 31,
-   "away": 69
+   "home": 32,
+   "away": 68
   },
   "Shots Insidebox": {
-   "home": 3,
+   "home": 4,
    "away": 3
   },
   "Shots Outsidebox": {
    "home": 2,
-   "away": 0
+   "away": 1
+  },
+  "Goals": {
+   "home": 0,
+   "away": 1
   },
   "Goal Kicks": {
    "home": 6,
    "away": 2
   },
   "Free Kicks": {
-   "home": 5,
-   "away": 4
+   "home": 6,
+   "away": 5
   },
   "Fouls": {
-   "home": 4,
-   "away": 5
+   "home": 5,
+   "away": 6
   },
   "Saves": {
    "home": 1,
-   "away": 1
+   "away": 2
   },
   "Shots Blocked": {
    "home": 2,
-   "away": 2
-  },
-  "Throwins": {
-   "home": 12,
-   "away": 15
-  },
-  "Long Passes": {
-   "home": 25,
-   "away": 14
-  },
-  "Tackles": {
-   "home": 4,
    "away": 3
   },
+  "Throwins": {
+   "home": 13,
+   "away": 18
+  },
+  "Long Passes": {
+   "home": 30,
+   "away": 17
+  },
+  "Tackles": {
+   "home": 5,
+   "away": 5
+  },
   "Passes": {
-   "home": 153,
-   "away": 341
+   "home": 172,
+   "away": 373
   },
   "Successful Passes": {
-   "home": 111,
-   "away": 312
+   "home": 123,
+   "away": 339
   },
   "Successful Passes Percentage": {
-   "home": 73,
+   "home": 72,
    "away": 91
   },
   "Shots On Target": {
-   "home": 1,
+   "home": 2,
    "away": 1
   },
   "Total Crosses": {
-   "home": 9,
-   "away": 22
+   "home": 10,
+   "away": 23
   },
   "Accurate Crosses": {
    "home": 3,
@@ -417,20 +421,20 @@
    "away": 2
   },
   "Duels Won": {
-   "home": 18,
-   "away": 20
+   "home": 22,
+   "away": 25
   },
   "Dribble Attempts": {
-   "home": 4,
-   "away": 5
+   "home": 5,
+   "away": 6
   },
   "Successful Dribbles": {
-   "home": 2,
+   "home": 3,
    "away": 2
   },
   "Key Passes": {
-   "home": 5,
-   "away": 3
+   "home": 6,
+   "away": 4
   },
   "Big Chances Created": {
    "home": 1,
@@ -441,19 +445,19 @@
    "away": 0
   },
   "Successful Dribbles Percentage": {
-   "home": 50,
-   "away": 40
+   "home": 60,
+   "away": 33
   },
   "Successful Long Passes": {
    "home": 1,
-   "away": 7
+   "away": 8
   },
   "Successful Long Passes Percentage": {
-   "home": 4,
-   "away": 50
+   "home": 3,
+   "away": 47
   },
   "Tackles Won": {
-   "home": 4,
+   "home": 5,
    "away": 0
   }
  },
@@ -927,5 +931,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2491
+ "rate_remaining": 2477
 }
