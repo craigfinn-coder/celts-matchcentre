@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:09:30.829996+00:00",
+ "updated_at": "2026-09-09T20:11:00.546876+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 53,
+ "minute": 54,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -334,6 +334,18 @@
    "related": "Haissem Hassan",
    "result": "0-1",
    "info": "Right foot shot"
+  },
+  {
+   "id": 157843348,
+   "minute": 55,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "home",
+   "team": "St. Johnstone",
+   "player": "Josh Campbell",
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
@@ -351,7 +363,7 @@
   },
   "Attacks": {
    "home": 19,
-   "away": 46
+   "away": 48
   },
   "Dangerous Attacks": {
    "home": 19,
@@ -398,7 +410,7 @@
    "away": 18
   },
   "Long Passes": {
-   "home": 30,
+   "home": 31,
    "away": 17
   },
   "Tackles": {
@@ -410,16 +422,20 @@
    "away": 1
   },
   "Passes": {
-   "home": 173,
+   "home": 178,
    "away": 395
   },
   "Successful Passes": {
-   "home": 122,
+   "home": 126,
    "away": 360
   },
   "Successful Passes Percentage": {
    "home": 71,
    "away": 91
+  },
+  "Yellowcards": {
+   "home": 1,
+   "away": 0
   },
   "Shots On Target": {
    "home": 2,
@@ -438,8 +454,8 @@
    "away": 2
   },
   "Duels Won": {
-   "home": 22,
-   "away": 26
+   "home": 23,
+   "away": 28
   },
   "Dribble Attempts": {
    "home": 5,
@@ -451,7 +467,7 @@
   },
   "Key Passes": {
    "home": 6,
-   "away": 4
+   "away": 5
   },
   "Big Chances Created": {
    "home": 1,
@@ -522,7 +538,7 @@
    "team": "Celtic",
    "team_id": 53,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "pts": 16,
+   "pts": 18,
    "p": 5,
    "w": 5,
    "d": 0,
@@ -589,20 +605,6 @@
   },
   {
    "pos": 6,
-   "team": "St. Johnstone",
-   "team_id": 734,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
-   "pts": 8,
-   "p": 5,
-   "w": 2,
-   "d": 1,
-   "l": 2,
-   "gf": 8,
-   "ga": 8,
-   "gd": 0
-  },
-  {
-   "pos": 7,
    "team": "Dundee",
    "team_id": 284,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
@@ -614,6 +616,20 @@
    "gf": 7,
    "ga": 6,
    "gd": 1
+  },
+  {
+   "pos": 7,
+   "team": "St. Johnstone",
+   "team_id": 734,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
+   "pts": 7,
+   "p": 5,
+   "w": 2,
+   "d": 1,
+   "l": 2,
+   "gf": 8,
+   "ga": 8,
+   "gd": 0
   },
   {
    "pos": 8,
@@ -948,5 +964,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2475
+ "rate_remaining": 2472
 }
