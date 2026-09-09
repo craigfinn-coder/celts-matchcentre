@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:23:00.456279+00:00",
+ "updated_at": "2026-09-09T20:26:00.882299+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 66,
+ "minute": 69,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -382,6 +382,18 @@
    "related": "Oliver Sørensen",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157843545,
+   "minute": 69,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "home",
+   "team": "St. Johnstone",
+   "player": "Reece McAlear",
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
@@ -399,7 +411,7 @@
   },
   "Attacks": {
    "home": 30,
-   "away": 51
+   "away": 55
   },
   "Dangerous Attacks": {
    "home": 27,
@@ -417,20 +429,24 @@
    "home": 2,
    "away": 1
   },
+  "Offsides": {
+   "home": 0,
+   "away": 1
+  },
   "Goals": {
    "home": 0,
    "away": 1
   },
   "Goal Kicks": {
-   "home": 7,
+   "home": 8,
    "away": 2
   },
   "Free Kicks": {
    "home": 7,
-   "away": 7
+   "away": 9
   },
   "Fouls": {
-   "home": 7,
+   "home": 9,
    "away": 7
   },
   "Saves": {
@@ -450,11 +466,11 @@
    "away": 19
   },
   "Long Passes": {
-   "home": 37,
-   "away": 19
+   "home": 40,
+   "away": 20
   },
   "Tackles": {
-   "home": 10,
+   "home": 9,
    "away": 6
   },
   "Assists": {
@@ -462,19 +478,19 @@
    "away": 1
   },
   "Passes": {
-   "home": 233,
-   "away": 453
+   "home": 244,
+   "away": 483
   },
   "Successful Passes": {
-   "home": 171,
-   "away": 413
+   "home": 179,
+   "away": 439
   },
   "Successful Passes Percentage": {
    "home": 73,
    "away": 91
   },
   "Yellowcards": {
-   "home": 1,
+   "home": 2,
    "away": 0
   },
   "Shots On Target": {
@@ -494,12 +510,12 @@
    "away": 2
   },
   "Duels Won": {
-   "home": 31,
-   "away": 33
+   "home": 30,
+   "away": 37
   },
   "Dribble Attempts": {
    "home": 7,
-   "away": 12
+   "away": 11
   },
   "Successful Dribbles": {
    "home": 5,
@@ -519,18 +535,18 @@
   },
   "Successful Dribbles Percentage": {
    "home": 71,
-   "away": 33
+   "away": 36
   },
   "Successful Long Passes": {
    "home": 4,
    "away": 9
   },
   "Successful Long Passes Percentage": {
-   "home": 11,
-   "away": 47
+   "home": 10,
+   "away": 45
   },
   "Tackles Won": {
-   "home": 8,
+   "home": 7,
    "away": 0
   }
  },
@@ -1004,5 +1020,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2448
+ "rate_remaining": 2442
 }
