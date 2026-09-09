@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:26:00.882299+00:00",
+ "updated_at": "2026-09-09T20:29:30.575335+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 69,
+ "minute": 73,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -394,12 +394,24 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 157843599,
+   "minute": 73,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Camilo Durán",
+   "related": "Haissem Hassan",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
   "Corners": {
    "home": 2,
-   "away": 8
+   "away": 9
   },
   "Shots Off Target": {
    "home": 3,
@@ -407,15 +419,15 @@
   },
   "Shots Total": {
    "home": 7,
-   "away": 6
+   "away": 7
   },
   "Attacks": {
-   "home": 30,
-   "away": 55
+   "home": 31,
+   "away": 59
   },
   "Dangerous Attacks": {
    "home": 27,
-   "away": 62
+   "away": 66
   },
   "Ball Possession %": {
    "home": 34,
@@ -423,7 +435,7 @@
   },
   "Shots Insidebox": {
    "home": 5,
-   "away": 5
+   "away": 6
   },
   "Shots Outsidebox": {
    "home": 2,
@@ -431,7 +443,7 @@
   },
   "Offsides": {
    "home": 0,
-   "away": 1
+   "away": 2
   },
   "Goals": {
    "home": 0,
@@ -450,7 +462,7 @@
    "away": 7
   },
   "Saves": {
-   "home": 1,
+   "home": 2,
    "away": 2
   },
   "Shots Blocked": {
@@ -459,18 +471,18 @@
   },
   "Substitutions": {
    "home": 2,
-   "away": 1
+   "away": 3
   },
   "Throwins": {
    "home": 17,
    "away": 19
   },
   "Long Passes": {
-   "home": 40,
-   "away": 20
+   "home": 42,
+   "away": 21
   },
   "Tackles": {
-   "home": 9,
+   "home": 10,
    "away": 6
   },
   "Assists": {
@@ -478,15 +490,15 @@
    "away": 1
   },
   "Passes": {
-   "home": 244,
-   "away": 483
+   "home": 259,
+   "away": 510
   },
   "Successful Passes": {
-   "home": 179,
-   "away": 439
+   "home": 192,
+   "away": 464
   },
   "Successful Passes Percentage": {
-   "home": 73,
+   "home": 74,
    "away": 91
   },
   "Yellowcards": {
@@ -495,27 +507,27 @@
   },
   "Shots On Target": {
    "home": 2,
-   "away": 2
+   "away": 3
   },
   "Total Crosses": {
    "home": 15,
-   "away": 28
+   "away": 29
   },
   "Accurate Crosses": {
    "home": 4,
-   "away": 7
+   "away": 6
   },
   "Interceptions": {
    "home": 5,
    "away": 2
   },
   "Duels Won": {
-   "home": 30,
+   "home": 32,
    "away": 37
   },
   "Dribble Attempts": {
    "home": 7,
-   "away": 11
+   "away": 12
   },
   "Successful Dribbles": {
    "home": 5,
@@ -523,7 +535,7 @@
   },
   "Key Passes": {
    "home": 7,
-   "away": 6
+   "away": 7
   },
   "Big Chances Created": {
    "home": 1,
@@ -535,15 +547,15 @@
   },
   "Successful Dribbles Percentage": {
    "home": 71,
-   "away": 36
+   "away": 33
   },
   "Successful Long Passes": {
-   "home": 4,
+   "home": 5,
    "away": 9
   },
   "Successful Long Passes Percentage": {
-   "home": 10,
-   "away": 45
+   "home": 12,
+   "away": 43
   },
   "Tackles Won": {
    "home": 7,
@@ -1020,5 +1032,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2442
+ "rate_remaining": 2435
 }
