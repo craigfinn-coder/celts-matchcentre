@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:32:00.829254+00:00",
+ "updated_at": "2026-09-09T20:39:00.631089+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 75,
+ "minute": 82,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -442,40 +442,52 @@
    "related": "Josh Campbell",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157843720,
+   "minute": 82,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Liam Scales",
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
   "Corners": {
    "home": 2,
-   "away": 9
+   "away": 10
   },
   "Shots Off Target": {
-   "home": 3,
+   "home": 4,
    "away": 0
   },
   "Shots Total": {
-   "home": 7,
-   "away": 7
+   "home": 8,
+   "away": 8
   },
   "Attacks": {
-   "home": 32,
-   "away": 60
+   "home": 36,
+   "away": 64
   },
   "Dangerous Attacks": {
-   "home": 28,
-   "away": 66
+   "home": 31,
+   "away": 72
   },
   "Ball Possession %": {
-   "home": 35,
-   "away": 65
+   "home": 38,
+   "away": 62
   },
   "Shots Insidebox": {
    "home": 5,
    "away": 6
   },
   "Shots Outsidebox": {
-   "home": 2,
-   "away": 1
+   "home": 3,
+   "away": 2
   },
   "Offsides": {
    "home": 0,
@@ -486,19 +498,19 @@
    "away": 1
   },
   "Goal Kicks": {
-   "home": 8,
-   "away": 2
+   "home": 9,
+   "away": 3
   },
   "Free Kicks": {
    "home": 7,
-   "away": 9
+   "away": 10
   },
   "Fouls": {
-   "home": 9,
+   "home": 10,
    "away": 7
   },
   "Saves": {
-   "home": 2,
+   "home": 3,
    "away": 2
   },
   "Shots Blocked": {
@@ -510,32 +522,32 @@
    "away": 3
   },
   "Throwins": {
-   "home": 18,
-   "away": 20
-  },
-  "Long Passes": {
-   "home": 42,
+   "home": 19,
    "away": 21
   },
+  "Long Passes": {
+   "home": 44,
+   "away": 26
+  },
   "Tackles": {
-   "home": 10,
-   "away": 6
+   "home": 11,
+   "away": 7
   },
   "Assists": {
    "home": 0,
    "away": 1
   },
   "Passes": {
-   "home": 266,
-   "away": 511
+   "home": 321,
+   "away": 526
   },
   "Successful Passes": {
-   "home": 197,
-   "away": 464
+   "home": 244,
+   "away": 472
   },
   "Successful Passes Percentage": {
-   "home": 74,
-   "away": 91
+   "home": 76,
+   "away": 90
   },
   "Yellowcards": {
    "home": 2,
@@ -543,10 +555,10 @@
   },
   "Shots On Target": {
    "home": 2,
-   "away": 3
+   "away": 4
   },
   "Total Crosses": {
-   "home": 15,
+   "home": 17,
    "away": 29
   },
   "Accurate Crosses": {
@@ -554,24 +566,24 @@
    "away": 6
   },
   "Interceptions": {
-   "home": 5,
-   "away": 3
+   "home": 6,
+   "away": 4
   },
   "Duels Won": {
-   "home": 32,
-   "away": 37
+   "home": 35,
+   "away": 40
   },
   "Dribble Attempts": {
    "home": 7,
-   "away": 12
+   "away": 14
   },
   "Successful Dribbles": {
    "home": 5,
-   "away": 4
+   "away": 5
   },
   "Key Passes": {
-   "home": 7,
-   "away": 7
+   "home": 8,
+   "away": 8
   },
   "Big Chances Created": {
    "home": 1,
@@ -583,19 +595,19 @@
   },
   "Successful Dribbles Percentage": {
    "home": 71,
-   "away": 33
+   "away": 36
   },
   "Successful Long Passes": {
    "home": 5,
-   "away": 9
+   "away": 10
   },
   "Successful Long Passes Percentage": {
-   "home": 12,
-   "away": 43
+   "home": 11,
+   "away": 38
   },
   "Tackles Won": {
-   "home": 7,
-   "away": 0
+   "home": 8,
+   "away": 1
   }
  },
  "next_fixtures": [
@@ -653,6 +665,20 @@
   },
   {
    "pos": 2,
+   "team": "Rangers",
+   "team_id": 62,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+   "pts": 13,
+   "p": 5,
+   "w": 3,
+   "d": 1,
+   "l": 1,
+   "gf": 6,
+   "ga": 4,
+   "gd": 2
+  },
+  {
+   "pos": 3,
    "team": "Hearts",
    "team_id": 314,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
@@ -666,11 +692,11 @@
    "gd": 7
   },
   {
-   "pos": 3,
+   "pos": 4,
    "team": "St. Mirren",
    "team_id": 496,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "pts": 11,
+   "pts": 10,
    "p": 5,
    "w": 3,
    "d": 1,
@@ -678,20 +704,6 @@
    "gf": 8,
    "ga": 5,
    "gd": 3
-  },
-  {
-   "pos": 4,
-   "team": "Rangers",
-   "team_id": 62,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 11,
-   "p": 5,
-   "w": 3,
-   "d": 1,
-   "l": 1,
-   "gf": 6,
-   "ga": 4,
-   "gd": 2
   },
   {
    "pos": 5,
@@ -1068,5 +1080,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2430
+ "rate_remaining": 2416
 }
