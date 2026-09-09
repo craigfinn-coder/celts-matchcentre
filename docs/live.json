@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:30:31.709702+00:00",
+ "updated_at": "2026-09-09T20:32:00.829254+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 74,
+ "minute": 75,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -415,7 +415,7 @@
    "side": "away",
    "team": "Celtic",
    "player": "James Forrest",
-   "related": "Dane Murray",
+   "related": "Sebastian Tounekti",
    "result": null,
    "info": null
   },
@@ -458,16 +458,16 @@
    "away": 7
   },
   "Attacks": {
-   "home": 31,
-   "away": 59
+   "home": 32,
+   "away": 60
   },
   "Dangerous Attacks": {
-   "home": 27,
+   "home": 28,
    "away": 66
   },
   "Ball Possession %": {
-   "home": 34,
-   "away": 66
+   "home": 35,
+   "away": 65
   },
   "Shots Insidebox": {
    "home": 5,
@@ -526,11 +526,11 @@
    "away": 1
   },
   "Passes": {
-   "home": 260,
+   "home": 266,
    "away": 511
   },
   "Successful Passes": {
-   "home": 192,
+   "home": 197,
    "away": 464
   },
   "Successful Passes Percentage": {
@@ -1068,5 +1068,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2433
+ "rate_remaining": 2430
 }
