@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-09T18:57:00.928851+00:00",
- "live": false,
+ "updated_at": "2026-09-09T19:00:31.191280+00:00",
+ "live": true,
  "fixture": {
   "id": 19722806,
   "kickoff_utc": "2026-09-09 19:00:00",
@@ -309,9 +309,9 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "NS",
- "state_name": "Not Started",
- "minute": null,
+ "state": "INPLAY_1ST_HALF",
+ "state_name": "1st Half",
+ "minute": 0,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -401,7 +401,7 @@
    "team": "St. Mirren",
    "team_id": 496,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "pts": 10,
+   "pts": 11,
    "p": 5,
    "w": 3,
    "d": 1,
@@ -415,7 +415,7 @@
    "team": "Rangers",
    "team_id": 62,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 10,
+   "pts": 11,
    "p": 5,
    "w": 3,
    "d": 1,
@@ -537,7 +537,7 @@
    "gd": -10
   }
  ],
- "live_table": false,
+ "live_table": true,
  "form": {
   "home": [
    {
@@ -799,5 +799,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2499
+ "rate_remaining": 2492
 }
