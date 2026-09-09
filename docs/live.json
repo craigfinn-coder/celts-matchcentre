@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:39:00.631089+00:00",
+ "updated_at": "2026-09-09T20:42:30.650533+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 82,
+ "minute": 86,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -454,6 +454,18 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 157843752,
+   "minute": 86,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Shumaira Mheuka",
+   "related": "Kasper Høgh",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -467,23 +479,23 @@
   },
   "Shots Total": {
    "home": 8,
-   "away": 8
+   "away": 10
   },
   "Attacks": {
-   "home": 36,
-   "away": 64
+   "home": 38,
+   "away": 67
   },
   "Dangerous Attacks": {
-   "home": 31,
-   "away": 72
+   "home": 32,
+   "away": 81
   },
   "Ball Possession %": {
-   "home": 38,
-   "away": 62
+   "home": 39,
+   "away": 61
   },
   "Shots Insidebox": {
    "home": 5,
-   "away": 6
+   "away": 8
   },
   "Shots Outsidebox": {
    "home": 3,
@@ -502,15 +514,15 @@
    "away": 3
   },
   "Free Kicks": {
-   "home": 7,
+   "home": 8,
    "away": 10
   },
   "Fouls": {
    "home": 10,
-   "away": 7
+   "away": 8
   },
   "Saves": {
-   "home": 3,
+   "home": 5,
    "away": 2
   },
   "Shots Blocked": {
@@ -519,83 +531,83 @@
   },
   "Substitutions": {
    "home": 4,
-   "away": 3
+   "away": 5
   },
   "Throwins": {
    "home": 19,
    "away": 21
   },
   "Long Passes": {
-   "home": 44,
+   "home": 45,
    "away": 26
   },
   "Tackles": {
-   "home": 11,
-   "away": 7
+   "home": 12,
+   "away": 8
   },
   "Assists": {
    "home": 0,
    "away": 1
   },
   "Passes": {
-   "home": 321,
-   "away": 526
+   "home": 338,
+   "away": 541
   },
   "Successful Passes": {
-   "home": 244,
-   "away": 472
+   "home": 260,
+   "away": 486
   },
   "Successful Passes Percentage": {
-   "home": 76,
+   "home": 77,
    "away": 90
   },
   "Yellowcards": {
    "home": 2,
-   "away": 0
+   "away": 1
   },
   "Shots On Target": {
    "home": 2,
-   "away": 4
+   "away": 6
   },
   "Total Crosses": {
    "home": 17,
-   "away": 29
+   "away": 32
   },
   "Accurate Crosses": {
    "home": 4,
-   "away": 6
+   "away": 8
   },
   "Interceptions": {
    "home": 6,
    "away": 4
   },
   "Duels Won": {
-   "home": 35,
-   "away": 40
+   "home": 37,
+   "away": 45
   },
   "Dribble Attempts": {
    "home": 7,
-   "away": 14
+   "away": 17
   },
   "Successful Dribbles": {
    "home": 5,
-   "away": 5
+   "away": 7
   },
   "Key Passes": {
    "home": 8,
-   "away": 8
+   "away": 10
   },
   "Big Chances Created": {
    "home": 1,
-   "away": 1
+   "away": 2
   },
   "Big Chances Missed": {
    "home": 1,
-   "away": 0
+   "away": 1
   },
   "Successful Dribbles Percentage": {
    "home": 71,
-   "away": 36
+   "away": 41
   },
   "Successful Long Passes": {
    "home": 5,
@@ -606,8 +618,8 @@
    "away": 38
   },
   "Tackles Won": {
-   "home": 8,
-   "away": 1
+   "home": 9,
+   "away": 2
   }
  },
  "next_fixtures": [
@@ -1080,5 +1092,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2416
+ "rate_remaining": 2409
 }
