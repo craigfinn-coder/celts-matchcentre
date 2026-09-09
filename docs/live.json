@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:11:00.546876+00:00",
+ "updated_at": "2026-09-09T20:19:00.588095+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 54,
+ "minute": 62,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -346,36 +346,60 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 157843448,
+   "minute": 63,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "St. Johnstone",
+   "player": "R. Paton",
+   "related": "Josh Fowler",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157843449,
+   "minute": 63,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "St. Johnstone",
+   "player": "Sam Stanton",
+   "related": "J. Holt",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
   "Corners": {
    "home": 2,
-   "away": 7
+   "away": 8
   },
   "Shots Off Target": {
-   "home": 2,
+   "home": 3,
    "away": 0
   },
   "Shots Total": {
-   "home": 6,
-   "away": 5
+   "home": 7,
+   "away": 6
   },
   "Attacks": {
-   "home": 19,
-   "away": 48
+   "home": 27,
+   "away": 49
   },
   "Dangerous Attacks": {
-   "home": 19,
-   "away": 52
+   "home": 27,
+   "away": 58
   },
   "Ball Possession %": {
-   "home": 31,
-   "away": 69
+   "home": 34,
+   "away": 66
   },
   "Shots Insidebox": {
-   "home": 4,
-   "away": 4
+   "home": 5,
+   "away": 5
   },
   "Shots Outsidebox": {
    "home": 2,
@@ -386,16 +410,16 @@
    "away": 1
   },
   "Goal Kicks": {
-   "home": 6,
+   "home": 7,
    "away": 2
   },
   "Free Kicks": {
-   "home": 6,
-   "away": 5
+   "home": 7,
+   "away": 6
   },
   "Fouls": {
-   "home": 5,
-   "away": 6
+   "home": 6,
+   "away": 7
   },
   "Saves": {
    "home": 1,
@@ -403,34 +427,38 @@
   },
   "Shots Blocked": {
    "home": 2,
-   "away": 3
+   "away": 4
+  },
+  "Substitutions": {
+   "home": 2,
+   "away": 0
   },
   "Throwins": {
-   "home": 13,
+   "home": 17,
    "away": 18
   },
   "Long Passes": {
-   "home": 31,
-   "away": 17
+   "home": 34,
+   "away": 18
   },
   "Tackles": {
-   "home": 5,
-   "away": 5
+   "home": 7,
+   "away": 6
   },
   "Assists": {
    "home": 0,
    "away": 1
   },
   "Passes": {
-   "home": 178,
-   "away": 395
+   "home": 219,
+   "away": 432
   },
   "Successful Passes": {
-   "home": 126,
-   "away": 360
+   "home": 162,
+   "away": 394
   },
   "Successful Passes Percentage": {
-   "home": 71,
+   "home": 74,
    "away": 91
   },
   "Yellowcards": {
@@ -442,32 +470,32 @@
    "away": 2
   },
   "Total Crosses": {
-   "home": 10,
-   "away": 24
+   "home": 15,
+   "away": 27
   },
   "Accurate Crosses": {
-   "home": 3,
-   "away": 5
+   "home": 4,
+   "away": 7
   },
   "Interceptions": {
-   "home": 4,
+   "home": 5,
    "away": 2
   },
   "Duels Won": {
-   "home": 23,
-   "away": 28
+   "home": 28,
+   "away": 30
   },
   "Dribble Attempts": {
-   "home": 5,
-   "away": 7
+   "home": 7,
+   "away": 8
   },
   "Successful Dribbles": {
-   "home": 3,
+   "home": 5,
    "away": 3
   },
   "Key Passes": {
-   "home": 6,
-   "away": 5
+   "home": 7,
+   "away": 6
   },
   "Big Chances Created": {
    "home": 1,
@@ -478,19 +506,19 @@
    "away": 0
   },
   "Successful Dribbles Percentage": {
-   "home": 60,
-   "away": 43
+   "home": 71,
+   "away": 38
   },
   "Successful Long Passes": {
-   "home": 1,
-   "away": 8
+   "home": 3,
+   "away": 9
   },
   "Successful Long Passes Percentage": {
-   "home": 3,
-   "away": 47
+   "home": 9,
+   "away": 50
   },
   "Tackles Won": {
-   "home": 5,
+   "home": 6,
    "away": 0
   }
  },
@@ -964,5 +992,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2472
+ "rate_remaining": 2456
 }
