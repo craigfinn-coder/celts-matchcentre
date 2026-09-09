@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:29:30.575335+00:00",
+ "updated_at": "2026-09-09T20:30:00.655947+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -406,6 +406,30 @@
    "related": "Haissem Hassan",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157843604,
+   "minute": 73,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "James Forrest",
+   "related": "Dane Murray",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157843605,
+   "minute": 74,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "St. Johnstone",
+   "player": "Danny Schmidt",
+   "related": "Josh Campbell",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -470,7 +494,7 @@
    "away": 4
   },
   "Substitutions": {
-   "home": 2,
+   "home": 4,
    "away": 3
   },
   "Throwins": {
@@ -1032,5 +1056,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2435
+ "rate_remaining": 2434
 }
