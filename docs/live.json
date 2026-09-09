@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T20:30:00.655947+00:00",
+ "updated_at": "2026-09-09T20:30:31.709702+00:00",
  "live": true,
  "fixture": {
   "id": 19722806,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 73,
+ "minute": 74,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -426,6 +426,18 @@
    "type": "Substitution",
    "side": "home",
    "team": "St. Johnstone",
+   "player": "Kai Fotheringham",
+   "related": "T. Steven",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157843609,
+   "minute": 74,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "St. Johnstone",
    "player": "Danny Schmidt",
    "related": "Josh Campbell",
    "result": null,
@@ -498,8 +510,8 @@
    "away": 3
   },
   "Throwins": {
-   "home": 17,
-   "away": 19
+   "home": 18,
+   "away": 20
   },
   "Long Passes": {
    "home": 42,
@@ -514,8 +526,8 @@
    "away": 1
   },
   "Passes": {
-   "home": 259,
-   "away": 510
+   "home": 260,
+   "away": 511
   },
   "Successful Passes": {
    "home": 192,
@@ -543,7 +555,7 @@
   },
   "Interceptions": {
    "home": 5,
-   "away": 2
+   "away": 3
   },
   "Duels Won": {
    "home": 32,
@@ -1056,5 +1068,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2434
+ "rate_remaining": 2433
 }
