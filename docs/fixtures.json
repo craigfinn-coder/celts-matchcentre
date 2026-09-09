@@ -1,13 +1,13 @@
 {
- "updated": "2026-09-07T23:32:36+00:00",
+ "updated": "2026-09-09T23:33:23+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 8,
-  "w": 7,
+  "p": 9,
+  "w": 8,
   "d": 0,
   "l": 1,
-  "gf": 21,
+  "gf": 22,
   "ga": 8
  },
  "fixtures": [
@@ -268,12 +268,18 @@
    "ha": "A",
    "opp": "St. Johnstone",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
-   "state": "NS",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
-   "score": null,
-   "half_time": null,
-   "result": null
+   "score": {
+    "home": 0,
+    "away": 1
+   },
+   "half_time": {
+    "home": 0,
+    "away": 0
+   },
+   "result": "W"
   },
   {
    "id": 19878768,
