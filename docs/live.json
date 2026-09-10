@@ -433,18 +433,18 @@
   ],
   "away": [
    {
-    "player": "Alistair Johnston",
-    "type": "Leg Injury",
-    "since": "2026-08-10",
-    "until": null,
-    "missed": 7
-   },
-   {
     "player": "Kasper Høgh",
     "type": "Thigh Problems",
     "since": "2026-08-29",
     "until": null,
     "missed": 4
+   },
+   {
+    "player": "Alistair Johnston",
+    "type": "Leg Injury",
+    "since": "2026-08-10",
+    "until": null,
+    "missed": 7
    }
   ]
  },
@@ -1187,5 +1187,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T09:04:17.539974+00:00"
+ "updated_at": "2026-09-10T10:04:16.455729+00:00"
 }
