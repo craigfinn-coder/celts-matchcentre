@@ -1058,23 +1058,23 @@
     "type": "Hamstring Injury",
     "since": "2026-01-30",
     "until": null,
-    "missed": 27
+    "missed": 28
    }
   ],
   "away": [
-   {
-    "player": "Kasper Høgh",
-    "type": "Thigh Problems",
-    "since": "2026-08-29",
-    "until": null,
-    "missed": 3
-   },
    {
     "player": "Alistair Johnston",
     "type": "Leg Injury",
     "since": "2026-08-10",
     "until": null,
-    "missed": 6
+    "missed": 7
+   },
+   {
+    "player": "Kasper Høgh",
+    "type": "Thigh Problems",
+    "since": "2026-08-29",
+    "until": null,
+    "missed": 4
    }
   ]
  },
@@ -1150,5 +1150,5 @@
    "goals": 2
   }
  ],
- "updated_at": "2026-09-09T21:04:04.370972+00:00"
+ "updated_at": "2026-09-10T00:06:26.644755+00:00"
 }
