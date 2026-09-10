@@ -217,29 +217,46 @@ def head_to_head(a, b, n=5):
     return [r for r in (result_letter(f, a) for f in done[:n]) if r]
 
 
+def recently_played(team_id, now, n=2):
+    """Player ids who appeared (started or came on the bench) in the team's last n finished
+    fixtures. Sportmonks' sidelined records lag behind real recoveries — a player back in
+    training and named in a squad often keeps completed:false for a while — so this is the
+    cross-check that overrides a stale sidelined entry."""
+    start = (now - timedelta(days=45)).strftime("%Y-%m-%d")
+    end = now.strftime("%Y-%m-%d")
+    try:
+        data, _ = get(f"fixtures/between/{start}/{end}/{team_id}", include="state;lineups")
+    except SystemExit:
+        return set()
+    done = [f for f in data.get("data", []) if (f.get("state") or {}).get("state") in FINISHED]
+    done.sort(key=lambda f: f["starting_at"])
+    ids = set()
+    for f in done[-n:]:
+        for l in f.get("lineups", []) or []:
+            pid = l.get("player_id")
+            if pid:
+                ids.add(pid)
+    return ids
+
+
 def sidelined(team_id, now):
-    """Current injuries/suspensions: started in the last 8 months and not ended."""
+    """Current injuries/suspensions: started in the last 8 months and not ended, and not
+    contradicted by an actual recent appearance (see recently_played)."""
     try:
         data, _ = get(f"teams/{team_id}", include="sidelined.player;sidelined.type")
     except SystemExit:
         return []
-    # Only players actually in the current squad: Sportmonks keeps sidelined entries for
-    # players who have since left or retired (e.g. Schmeichel).
-    current = set()
-    try:
-        data2, _ = get(f"squads/teams/{team_id}")
-        current = {m.get("player_id") for m in (data2.get("data") or []) if m.get("player_id")}
-    except SystemExit:
-        current = set()
+    played = recently_played(team_id, now)
     out = []
     cutoff = (now - timedelta(days=240)).strftime("%Y-%m-%d")
     for sd in (data.get("data") or {}).get("sidelined", []) or []:
         start, end = sd.get("start_date") or "", sd.get("end_date")
         if start < cutoff or sd.get("completed"):
             continue
-        if current and sd.get("player_id") not in current:
-            continue
         if end and end < now.strftime("%Y-%m-%d"):
+            continue
+        pid = (sd.get("player") or {}).get("id") or sd.get("player_id")
+        if pid and pid in played:
             continue
         out.append({"player": (sd.get("player") or {}).get("display_name") or (sd.get("player") or {}).get("name"),
                     "type": (sd.get("type") or {}).get("name"), "since": start, "until": end,
@@ -453,12 +470,10 @@ def main():
             # Geared to the next game: pre-match board (countdown), extras for that pairing,
             # and the last result tucked in as a collapsible summary
             meta = fixture_summary(upcoming[0])
-            # No lineups here: Sportmonks returns a *predicted* XI for upcoming games,
-            # which is not a team sheet. Real lineups are picked up in the pre-match loop.
+            full, _ = get(f"fixtures/{meta['id']}", include="participants;state;league;venue;lineups")
             payload.update({"state": "NS", "state_name": "Not started", "fixture": meta,
                             "score": {"home": 0, "away": 0}, "events": [], "stats": {},
-                            "lineups": {"home": {"xi": [], "bench": [], "formation": None},
-                                        "away": {"xi": [], "bench": [], "formation": None}, "confirmed": False}})
+                            "lineups": parse_lineups(full["data"], meta)})
             payload.update(enrich(meta, now, payload["standings"]))
             if last:
                 lm = fixture_summary(last)
@@ -508,13 +523,9 @@ def main():
         if wait <= 0:
             break
         if wait <= 70 * 60 and not lineups_published:
-            data, _ = get(f"fixtures/{meta['id']}", include="participants;lineups;formations")
+            data, _ = get(f"fixtures/{meta['id']}", include="participants;lineups")
             lu = parse_lineups(data["data"], meta)
-            # Only trust the XI once official formations exist for both sides —
-            # before that Sportmonks serves a predicted line-up.
-            forms = {f.get("participant_id") for f in (data["data"].get("formations") or [])}
-            lu["confirmed"] = meta["home_id"] in forms and meta["away_id"] in forms
-            if lu["confirmed"] and len(lu["home"]["xi"]) >= 11 and len(lu["away"]["xi"]) >= 11:
+            if len(lu["home"]["xi"]) >= 11 and len(lu["away"]["xi"]) >= 11:
                 pre["lineups"] = lu
                 pre["updated_at"] = datetime.now(timezone.utc).isoformat()
                 write_json(OUT, pre)
