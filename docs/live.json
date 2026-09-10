@@ -417,6 +417,13 @@
  "sidelined": {
   "home": [
    {
+    "player": "Lawrence Shankland",
+    "type": "Torn Thigh Muscle",
+    "since": "2026-09-08",
+    "until": "2027-01-05",
+    "missed": null
+   },
+   {
     "player": "Youssef Chermiti",
     "type": "Cruciate Ligament Tear",
     "since": "2026-08-09",
@@ -1180,5 +1187,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T01:04:23.405446+00:00"
+ "updated_at": "2026-09-10T09:04:17.539974+00:00"
 }
