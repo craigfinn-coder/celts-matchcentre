@@ -430,13 +430,6 @@
     "since": "2026-08-10",
     "until": null,
     "missed": 7
-   },
-   {
-    "player": "Kasper Schmeichel",
-    "type": "Shoulder Injury",
-    "since": "2026-02-27",
-    "until": "2027-02-28",
-    "missed": 27
    }
   ]
  },
@@ -1183,5 +1176,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T15:04:22.359324+00:00"
+ "updated_at": "2026-09-10T20:04:01.206202+00:00"
 }
