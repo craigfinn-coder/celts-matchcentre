@@ -239,9 +239,24 @@ def recently_played(team_id, now, n=2):
     return ids
 
 
-def sidelined(team_id, now):
-    """Current injuries/suspensions: started in the last 8 months and not ended, and not
-    contradicted by an actual recent appearance (see recently_played)."""
+def squad_ids(team_id, season_id):
+    """Player ids currently registered to the team for this season. A sidelined record for
+    someone who has left the club (retired, transferred, released) isn't there any more, so
+    this catches the cases recently_played can't (a departure looks the same as a long injury
+    to that check)."""
+    if not season_id:
+        return None
+    try:
+        data, _ = get(f"squads/seasons/{season_id}/teams/{team_id}")
+    except SystemExit:
+        return None
+    return {r.get("player_id") for r in (data.get("data") or []) if r.get("player_id")}
+
+
+def sidelined(team_id, now, squad=None):
+    """Current injuries/suspensions: started in the last 8 months and not ended, still on the
+    books (see squad_ids), and not contradicted by an actual recent appearance (see
+    recently_played) — Sportmonks' sidelined records lag behind both of those in practice."""
     try:
         data, _ = get(f"teams/{team_id}", include="sidelined.player;sidelined.type")
     except SystemExit:
@@ -257,6 +272,8 @@ def sidelined(team_id, now):
             continue
         pid = (sd.get("player") or {}).get("id") or sd.get("player_id")
         if pid and pid in played:
+            continue
+        if pid and squad is not None and pid not in squad:
             continue
         out.append({"player": (sd.get("player") or {}).get("display_name") or (sd.get("player") or {}).get("name"),
                     "type": (sd.get("type") or {}).get("name"), "since": start, "until": end,
@@ -324,10 +341,12 @@ def enrich(meta, now, standings):
         season = (lg["data"].get("currentseason") or {}).get("id")
     except SystemExit:
         pass
+    home_squad = squad_ids(meta["home_id"], season)
+    away_squad = squad_ids(meta["away_id"], season)
     return {
         "form": {"home": team_form(meta["home_id"], now), "away": team_form(meta["away_id"], now)},
         "h2h": head_to_head(meta["home_id"], meta["away_id"]),
-        "sidelined": {"home": sidelined(meta["home_id"], now), "away": sidelined(meta["away_id"], now)},
+        "sidelined": {"home": sidelined(meta["home_id"], now, home_squad), "away": sidelined(meta["away_id"], now, away_squad)},
         "top_scorers": top_scorers(season, team_names) if season else [],
     }
 
