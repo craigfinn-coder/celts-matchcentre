@@ -393,8 +393,8 @@
     const ts=(d.top_scorers||[])[0];
     if(ts&&(ts.team===fx.home||ts.team===fx.away))out.push(`${esc(ts.player)} is the competition's top scorer this season (${ts.goals})`);
     const sd=d.sidelined||{},shc=(sd.home||[]).length,sac=(sd.away||[]).length;
-    if(shc)out.push(`${esc(fx.home)} ${shc>1?'have':'has'} ${shc} player${shc>1?'s':''} unavailable through injury or suspension`);
-    if(sac)out.push(`${esc(fx.away)} ${sac>1?'have':'has'} ${sac} player${sac>1?'s':''} unavailable through injury or suspension`);
+    if(shc)out.push(`${esc(fx.home)} have ${shc} player${shc>1?'s':''} unavailable through injury or suspension`);
+    if(sac)out.push(`${esc(fx.away)} have ${sac} player${sac>1?'s':''} unavailable through injury or suspension`);
     if(!out.length)return '';
     return '<h2>Insights</h2><ul class="insights">'+out.slice(0,5).map(x=>`<li>${x}</li>`).join('')+'</ul>';
   }
@@ -501,9 +501,23 @@
     $('p-table').innerHTML=out.join('')||'<div class="empty">No table available.</div>';
   }
 
-  function render(d){renderBoard(d);renderLast(d);renderSummary(d);renderLineups(d);renderStats(d);renderTable(d);first=false;}
+  function render(d){renderBoard(d);renderLast(d);renderSummary(d);renderLineups(d);renderStats(d);renderTable(d);first=false;reportHeight();}
 
-  $('tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.disabled)return;tab=b.dataset.t;[...$('tabs').children].forEach(x=>x.classList.toggle('on',x===b));['summary','lineups','stats','table'].forEach(t=>$('p-'+t).classList.toggle('hidden',t!==tab));});
+  let lastReportedH=0;
+  function reportHeight(){
+    if(window.parent===window)return;
+    const h=Math.ceil(document.documentElement.getBoundingClientRect().height);
+    if(Math.abs(h-lastReportedH)<2)return;
+    lastReportedH=h;
+    try{window.parent.postMessage({type:'cah-mc-height',height:h},'*');}catch(e){}
+  }
+  if('ResizeObserver' in window){
+    new ResizeObserver(()=>reportHeight()).observe(document.documentElement);
+  }
+  window.addEventListener('load',()=>reportHeight());
+  setInterval(reportHeight,1500);
+
+  $('tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.disabled)return;tab=b.dataset.t;[...$('tabs').children].forEach(x=>x.classList.toggle('on',x===b));['summary','lineups','stats','table'].forEach(t=>$('p-'+t).classList.toggle('hidden',t!==tab));requestAnimationFrame(reportHeight);});
   window.addEventListener('scroll',()=>{$('mini').classList.toggle('on',window.scrollY>($('board').offsetHeight-20));},{passive:true});
 
   const ago=iso=>{const s=Math.max(0,Math.round((Date.now()-new Date(iso))/1000));return s<60?'Updated '+s+'s ago':'Updated '+Math.round(s/60)+' min ago';};
