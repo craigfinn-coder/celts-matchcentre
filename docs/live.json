@@ -554,7 +554,7 @@
    },
    {
     "id": 157843448,
-    "minute": 63,
+    "minute": 62,
     "extra": null,
     "type": "Substitution",
     "side": "home",
@@ -566,7 +566,7 @@
    },
    {
     "id": 157843449,
-    "minute": 63,
+    "minute": 62,
     "extra": null,
     "type": "Substitution",
     "side": "home",
@@ -731,8 +731,8 @@
     "away": 87
    },
    "Ball Possession %": {
-    "home": 40,
-    "away": 60
+    "home": 39,
+    "away": 61
    },
    "Ball Safe": {
     "home": 80,
@@ -740,7 +740,7 @@
    },
    "Shots Insidebox": {
     "home": 6,
-    "away": 13
+    "away": 12
    },
    "Shots Outsidebox": {
     "home": 3,
@@ -787,28 +787,28 @@
     "away": 23
    },
    "Long Passes": {
-    "home": 51,
-    "away": 28
+    "home": 52,
+    "away": 31
    },
    "Successful Headers": {
     "home": 11,
     "away": 21
    },
    "Tackles": {
-    "home": 12,
-    "away": 8
+    "home": 10,
+    "away": 9
    },
    "Assists": {
     "home": 0,
     "away": 1
    },
    "Passes": {
-    "home": 385,
-    "away": 583
+    "home": 386,
+    "away": 591
    },
    "Successful Passes": {
-    "home": 299,
-    "away": 522
+    "home": 303,
+    "away": 530
    },
    "Successful Passes Percentage": {
     "home": 78,
@@ -828,15 +828,15 @@
    },
    "Total Crosses": {
     "home": 20,
-    "away": 35
+    "away": 37
    },
    "Accurate Crosses": {
     "home": 4,
     "away": 9
    },
    "Interceptions": {
-    "home": 7,
-    "away": 4
+    "home": 6,
+    "away": 5
    },
    "Duels Won": {
     "home": 39,
@@ -844,7 +844,7 @@
    },
    "Dribble Attempts": {
     "home": 10,
-    "away": 18
+    "away": 16
    },
    "Successful Dribbles": {
     "home": 8,
@@ -864,15 +864,15 @@
    },
    "Successful Dribbles Percentage": {
     "home": 80,
-    "away": 44
+    "away": 50
    },
    "Successful Long Passes": {
-    "home": 6,
-    "away": 11
+    "home": 8,
+    "away": 15
    },
    "Successful Long Passes Percentage": {
-    "home": 12,
-    "away": 39
+    "home": 15,
+    "away": 48
    },
    "Tackles Won": {
     "home": 9,
@@ -1176,5 +1176,5 @@
    }
   }
  },
- "updated_at": "2026-09-10T20:04:01.206202+00:00"
+ "updated_at": "2026-09-11T01:04:31.824246+00:00"
 }
