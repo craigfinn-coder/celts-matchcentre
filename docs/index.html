@@ -16,7 +16,7 @@
   *{box-sizing:border-box}
   html,body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 var(--font)}
   a{color:var(--green)}
-  .page{max-width:760px;margin:0 auto;background:var(--card);min-height:100vh}
+  .page{max-width:760px;margin:0 auto;background:var(--card)}
   .topbar{background:var(--black);color:#fff;height:34px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;border-bottom:3px solid var(--green)}
   .topbar b{color:#fff}.topbar b i{font-style:normal;color:#3ddc84}
   .topbar span{opacity:.7;font-weight:500;letter-spacing:.06em;text-transform:none}
@@ -225,7 +225,7 @@
 </head>
 <body>
 <div class="mini" id="mini"><div class="in"></div></div>
-<div class="page">
+<div class="page" id="page">
   <div class="topbar"><b>Celts<i>Are</i>Here</b><span>Match Centre</span></div>
   <div class="board" id="board"></div>
   <div class="editorial hidden" id="editorial"></div>
@@ -393,8 +393,8 @@
     const ts=(d.top_scorers||[])[0];
     if(ts&&(ts.team===fx.home||ts.team===fx.away))out.push(`${esc(ts.player)} is the competition's top scorer this season (${ts.goals})`);
     const sd=d.sidelined||{},shc=(sd.home||[]).length,sac=(sd.away||[]).length;
-    if(shc)out.push(`${esc(fx.home)} have ${shc} player${shc>1?'s':''} unavailable through injury or suspension`);
-    if(sac)out.push(`${esc(fx.away)} have ${sac} player${sac>1?'s':''} unavailable through injury or suspension`);
+    if(shc-sac>=2)out.push(`${esc(fx.home)} have more injury/suspension absences (${shc}) than ${esc(fx.away)} (${sac}) coming into this game`);
+    else if(sac-shc>=2)out.push(`${esc(fx.away)} have more injury/suspension absences (${sac}) than ${esc(fx.home)} (${shc}) coming into this game`);
     if(!out.length)return '';
     return '<h2>Insights</h2><ul class="insights">'+out.slice(0,5).map(x=>`<li>${x}</li>`).join('')+'</ul>';
   }
@@ -506,13 +506,14 @@
   let lastReportedH=0;
   function reportHeight(){
     if(window.parent===window)return;
-    const h=Math.ceil(document.documentElement.getBoundingClientRect().height);
+    const h=Math.ceil($('page').getBoundingClientRect().height);
+    if(!h||h>6000)return; // sanity guard: real content is never this tall, avoids any resize feedback loop
     if(Math.abs(h-lastReportedH)<2)return;
     lastReportedH=h;
     try{window.parent.postMessage({type:'cah-mc-height',height:h},'*');}catch(e){}
   }
   if('ResizeObserver' in window){
-    new ResizeObserver(()=>reportHeight()).observe(document.documentElement);
+    new ResizeObserver(()=>reportHeight()).observe($('page'));
   }
   window.addEventListener('load',()=>reportHeight());
   setInterval(reportHeight,1500);
