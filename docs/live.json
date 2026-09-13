@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:44:30.361402+00:00",
+ "updated_at": "2026-09-13T12:46:00.606589+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 86,
+ "minute": 87,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -526,6 +526,18 @@
    "related": "Dan Neil",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157894286,
+   "minute": 87,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Rangers",
+   "player": "Bojan Miovski",
+   "related": "Kevin Kelsy ",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -542,8 +554,8 @@
    "away": 4
   },
   "Attacks": {
-   "home": 76,
-   "away": 68
+   "home": 78,
+   "away": 69
   },
   "Dangerous Attacks": {
    "home": 48,
@@ -582,12 +594,12 @@
    "away": 1
   },
   "Substitutions": {
-   "home": 4,
+   "home": 5,
    "away": 5
   },
   "Throwins": {
    "home": 23,
-   "away": 24
+   "away": 25
   },
   "Assists": {
    "home": 2,
@@ -1076,5 +1088,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2433
+ "rate_remaining": 2430
 }
