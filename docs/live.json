@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T11:47:30.335097+00:00",
+ "updated_at": "2026-09-13T11:58:00.384450+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -402,8 +402,8 @@
    "away": 6
   },
   "Fouls": {
-   "home": 4,
-   "away": 7
+   "home": 6,
+   "away": 8
   },
   "Saves": {
    "home": 1,
@@ -904,5 +904,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2426
+ "rate_remaining": 2405
 }
