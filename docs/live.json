@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:03:30.337024+00:00",
+ "updated_at": "2026-09-13T12:06:00.352517+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 45,
+ "minute": 47,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -370,6 +370,18 @@
    "related": "Sebastian Tounekti",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157893194,
+   "minute": 48,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "home",
+   "team": "Rangers",
+   "player": "Olwethu Makhanya",
+   "related": null,
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -386,12 +398,12 @@
    "away": 2
   },
   "Attacks": {
-   "home": 50,
-   "away": 38
+   "home": 52,
+   "away": 44
   },
   "Dangerous Attacks": {
-   "home": 23,
-   "away": 21
+   "home": 24,
+   "away": 26
   },
   "Ball Possession %": {
    "home": 50,
@@ -411,7 +423,7 @@
   },
   "Free Kicks": {
    "home": 8,
-   "away": 6
+   "away": 7
   },
   "Fouls": {
    "home": 6,
@@ -920,5 +932,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2394
+ "rate_remaining": 2389
 }
