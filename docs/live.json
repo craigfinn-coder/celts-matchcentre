@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:37:00.302982+00:00",
+ "updated_at": "2026-09-13T12:38:30.356255+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 78,
+ "minute": 80,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -472,22 +472,34 @@
    "minute": 78,
    "extra": null,
    "type": "Yellowcard",
-   "side": "home",
-   "team": "Rangers",
-   "player": null,
+   "side": "away",
+   "team": "Celtic",
+   "player": "Haissem Hassan",
    "related": null,
    "result": null,
    "info": null
   },
   {
    "id": 157894024,
-   "minute": 79,
+   "minute": 78,
    "extra": null,
    "type": "Yellowcard",
+   "side": "home",
+   "team": "Rangers",
+   "player": "James Penrice",
+   "related": null,
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157894069,
+   "minute": 80,
+   "extra": null,
+   "type": "Substitution",
    "side": "away",
    "team": "Celtic",
-   "player": null,
-   "related": null,
+   "player": "Jordan Lotomba",
+   "related": "Kieran Tierney",
    "result": null,
    "info": null
   }
@@ -506,11 +518,11 @@
    "away": 3
   },
   "Attacks": {
-   "home": 70,
+   "home": 72,
    "away": 63
   },
   "Dangerous Attacks": {
-   "home": 45,
+   "home": 47,
    "away": 36
   },
   "Ball Possession %": {
@@ -531,7 +543,7 @@
   },
   "Free Kicks": {
    "home": 11,
-   "away": 10
+   "away": 11
   },
   "Fouls": {
    "home": 9,
@@ -547,10 +559,10 @@
   },
   "Substitutions": {
    "home": 2,
-   "away": 4
+   "away": 5
   },
   "Throwins": {
-   "home": 21,
+   "home": 22,
    "away": 22
   },
   "Assists": {
@@ -1040,5 +1052,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2448
+ "rate_remaining": 2445
 }
