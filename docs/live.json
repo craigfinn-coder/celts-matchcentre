@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:20:31.981848+00:00",
+ "updated_at": "2026-09-13T12:21:30.298107+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 62,
+ "minute": 63,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -394,6 +394,18 @@
    "related": "Dan Neil",
    "result": "2-0",
    "info": "Right foot shot"
+  },
+  {
+   "id": 157893588,
+   "minute": 63,
+   "extra": null,
+   "type": "Goal",
+   "side": "home",
+   "team": "Rangers",
+   "player": null,
+   "related": null,
+   "result": "3-0",
+   "info": null
   }
  ],
  "stats": {
@@ -410,11 +422,11 @@
    "away": 2
   },
   "Attacks": {
-   "home": 65,
+   "home": 66,
    "away": 56
   },
   "Dangerous Attacks": {
-   "home": 37,
+   "home": 39,
    "away": 32
   },
   "Ball Possession %": {
@@ -426,7 +438,7 @@
    "away": 1
   },
   "Goals": {
-   "home": 2,
+   "home": 3,
    "away": 0
   },
   "Goal Kicks": {
@@ -944,5 +956,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2481
+ "rate_remaining": 2479
 }
