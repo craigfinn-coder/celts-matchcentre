@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T11:12:00.313676+00:00",
+ "updated_at": "2026-09-13T11:20:30.314857+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 10,
+ "minute": 19,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -322,42 +322,59 @@
   "home": 0,
   "away": 0
  },
- "events": [],
+ "events": [
+  {
+   "id": 157892101,
+   "minute": 19,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Benjamin Nygren",
+   "related": null,
+   "result": null,
+   "info": null
+  }
+ ],
  "stats": {
+  "Corners": {
+   "home": 2,
+   "away": 1
+  },
   "Shots Off Target": {
    "home": 1,
-   "away": 0
+   "away": 1
   },
   "Shots Total": {
-   "home": 2,
-   "away": 0
+   "home": 3,
+   "away": 1
   },
   "Attacks": {
-   "home": 8,
-   "away": 11
+   "home": 20,
+   "away": 18
   },
   "Dangerous Attacks": {
-   "home": 3,
-   "away": 5
+   "home": 10,
+   "away": 10
   },
   "Ball Possession %": {
    "home": 50,
    "away": 50
   },
   "Goal Kicks": {
-   "home": 0,
+   "home": 1,
    "away": 1
   },
   "Free Kicks": {
-   "home": 1,
+   "home": 2,
    "away": 3
   },
   "Fouls": {
    "home": 3,
-   "away": 1
+   "away": 0
   },
   "Shots Blocked": {
-   "home": 1,
+   "home": 2,
    "away": 0
   }
  },
@@ -835,5 +852,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2498
+ "rate_remaining": 2481
 }
