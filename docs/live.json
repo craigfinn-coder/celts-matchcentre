@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T11:24:00.424201+00:00",
+ "updated_at": "2026-09-13T11:24:30.340549+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 22,
+ "minute": 23,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -337,13 +337,13 @@
   },
   {
    "id": 157892172,
-   "minute": 23,
+   "minute": 22,
    "extra": null,
    "type": "Goal",
    "side": "home",
    "team": "Rangers",
    "player": "Dan Neil",
-   "related": null,
+   "related": "Kevin Kelsy ",
    "result": "1-0",
    "info": "Right foot shot"
   }
@@ -358,7 +358,7 @@
    "away": 1
   },
   "Shots Total": {
-   "home": 3,
+   "home": 4,
    "away": 1
   },
   "Attacks": {
@@ -389,10 +389,6 @@
    "home": 3,
    "away": 2
   },
-  "Saves": {
-   "home": 0,
-   "away": 1
-  },
   "Shots Blocked": {
    "home": 2,
    "away": 0
@@ -401,9 +397,17 @@
    "home": 7,
    "away": 9
   },
+  "Assists": {
+   "home": 1,
+   "away": 0
+  },
   "Yellowcards": {
    "home": 0,
    "away": 1
+  },
+  "Shots On Target": {
+   "home": 1,
+   "away": 0
   }
  },
  "next_fixtures": [
@@ -880,5 +884,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2474
+ "rate_remaining": 2473
 }
