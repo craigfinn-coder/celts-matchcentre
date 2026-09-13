@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:38:30.356255+00:00",
+ "updated_at": "2026-09-13T12:44:30.361402+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 80,
+ "minute": 86,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -502,6 +502,30 @@
    "related": "Kieran Tierney",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157894246,
+   "minute": 85,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Rangers",
+   "player": "Findlay Curtis",
+   "related": "Djeidi Gassama",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157894247,
+   "minute": 86,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Rangers",
+   "player": "Vanja Dragojevic",
+   "related": "Dan Neil",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -515,15 +539,15 @@
   },
   "Shots Total": {
    "home": 14,
-   "away": 3
+   "away": 4
   },
   "Attacks": {
-   "home": 72,
-   "away": 63
+   "home": 76,
+   "away": 68
   },
   "Dangerous Attacks": {
-   "home": 47,
-   "away": 36
+   "home": 48,
+   "away": 38
   },
   "Ball Possession %": {
    "home": 50,
@@ -542,11 +566,11 @@
    "away": 8
   },
   "Free Kicks": {
-   "home": 11,
-   "away": 11
+   "home": 13,
+   "away": 12
   },
   "Fouls": {
-   "home": 9,
+   "home": 10,
    "away": 11
   },
   "Saves": {
@@ -555,23 +579,23 @@
   },
   "Shots Blocked": {
    "home": 2,
-   "away": 0
+   "away": 1
   },
   "Substitutions": {
-   "home": 2,
+   "home": 4,
    "away": 5
   },
   "Throwins": {
-   "home": 22,
-   "away": 22
+   "home": 23,
+   "away": 24
   },
   "Assists": {
    "home": 2,
    "away": 0
   },
   "Yellowcards": {
-   "home": 1,
-   "away": 2
+   "home": 2,
+   "away": 3
   },
   "Shots On Target": {
    "home": 7,
@@ -1052,5 +1076,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2445
+ "rate_remaining": 2433
 }
