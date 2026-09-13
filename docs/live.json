@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:21:30.298107+00:00",
+ "updated_at": "2026-09-13T12:24:31.125081+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,11 +311,11 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 63,
+ "minute": 66,
  "minute_estimated": false,
  "added_time": null,
  "score": {
-  "home": 3,
+  "home": 2,
   "away": 0
  },
  "half_time": {
@@ -396,15 +396,27 @@
    "info": "Right foot shot"
   },
   {
-   "id": 157893588,
-   "minute": 63,
+   "id": 157893667,
+   "minute": 64,
    "extra": null,
-   "type": "Goal",
-   "side": "home",
-   "team": "Rangers",
-   "player": null,
-   "related": null,
-   "result": "3-0",
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Alex Oxlade-Chamberlain",
+   "related": "Kasper Høgh",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157893668,
+   "minute": 64,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "James Forrest",
+   "related": "Benjamin Nygren",
+   "result": null,
    "info": null
   }
  ],
@@ -422,23 +434,23 @@
    "away": 2
   },
   "Attacks": {
-   "home": 66,
-   "away": 56
+   "home": 67,
+   "away": 57
   },
   "Dangerous Attacks": {
    "home": 39,
-   "away": 32
+   "away": 33
   },
   "Ball Possession %": {
    "home": 50,
    "away": 50
   },
   "Offsides": {
-   "home": 1,
+   "home": 2,
    "away": 1
   },
   "Goals": {
-   "home": 3,
+   "home": 2,
    "away": 0
   },
   "Goal Kicks": {
@@ -446,8 +458,8 @@
    "away": 5
   },
   "Free Kicks": {
-   "home": 10,
-   "away": 7
+   "home": 11,
+   "away": 9
   },
   "Fouls": {
    "home": 7,
@@ -463,10 +475,10 @@
   },
   "Substitutions": {
    "home": 0,
-   "away": 1
+   "away": 3
   },
   "Throwins": {
-   "home": 19,
+   "home": 20,
    "away": 19
   },
   "Assists": {
@@ -956,5 +968,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2479
+ "rate_remaining": 2473
 }
