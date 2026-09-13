@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:17:30.678456+00:00",
+ "updated_at": "2026-09-13T12:18:00.357317+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -393,7 +393,7 @@
    "player": "Kevin Kelsy ",
    "related": null,
    "result": "2-0",
-   "info": "Field Goal"
+   "info": "Right foot shot"
   }
  ],
  "stats": {
@@ -406,7 +406,7 @@
    "away": 1
   },
   "Shots Total": {
-   "home": 9,
+   "home": 11,
    "away": 2
   },
   "Attacks": {
@@ -466,7 +466,7 @@
    "away": 2
   },
   "Shots On Target": {
-   "home": 4,
+   "home": 6,
    "away": 1
   }
  },
@@ -944,5 +944,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2487
+ "rate_remaining": 2486
 }
