@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T11:29:00.316222+00:00",
+ "updated_at": "2026-09-13T11:39:30.458441+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 27,
+ "minute": 38,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -366,20 +366,20 @@
    "away": 1
   },
   "Shots Off Target": {
-   "home": 1,
+   "home": 2,
    "away": 1
   },
   "Shots Total": {
-   "home": 4,
+   "home": 5,
    "away": 2
   },
   "Attacks": {
-   "home": 29,
-   "away": 22
+   "home": 38,
+   "away": 33
   },
   "Dangerous Attacks": {
-   "home": 14,
-   "away": 11
+   "home": 17,
+   "away": 19
   },
   "Ball Possession %": {
    "home": 50,
@@ -390,16 +390,16 @@
    "away": 0
   },
   "Goal Kicks": {
-   "home": 1,
-   "away": 1
+   "home": 2,
+   "away": 2
   },
   "Free Kicks": {
    "home": 7,
-   "away": 3
+   "away": 4
   },
   "Fouls": {
    "home": 3,
-   "away": 2
+   "away": 4
   },
   "Saves": {
    "home": 1,
@@ -419,7 +419,7 @@
   },
   "Yellowcards": {
    "home": 0,
-   "away": 1
+   "away": 2
   },
   "Shots On Target": {
    "home": 1,
@@ -900,5 +900,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2464
+ "rate_remaining": 2442
 }
