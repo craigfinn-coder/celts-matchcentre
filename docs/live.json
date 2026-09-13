@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:06:00.352517+00:00",
+ "updated_at": "2026-09-13T12:16:30.332490+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 47,
+ "minute": 58,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -386,24 +386,24 @@
  ],
  "stats": {
   "Corners": {
-   "home": 2,
+   "home": 3,
    "away": 1
   },
   "Shots Off Target": {
-   "home": 2,
+   "home": 3,
    "away": 1
   },
   "Shots Total": {
-   "home": 5,
+   "home": 9,
    "away": 2
   },
   "Attacks": {
-   "home": 52,
-   "away": 44
+   "home": 64,
+   "away": 54
   },
   "Dangerous Attacks": {
-   "home": 24,
-   "away": 26
+   "home": 37,
+   "away": 32
   },
   "Ball Possession %": {
    "home": 50,
@@ -418,11 +418,11 @@
    "away": 0
   },
   "Goal Kicks": {
-   "home": 2,
-   "away": 3
+   "home": 3,
+   "away": 5
   },
   "Free Kicks": {
-   "home": 8,
+   "home": 10,
    "away": 7
   },
   "Fouls": {
@@ -431,7 +431,7 @@
   },
   "Saves": {
    "home": 1,
-   "away": 0
+   "away": 2
   },
   "Shots Blocked": {
    "home": 2,
@@ -442,19 +442,19 @@
    "away": 1
   },
   "Throwins": {
-   "home": 7,
-   "away": 9
+   "home": 19,
+   "away": 19
   },
   "Assists": {
    "home": 1,
    "away": 0
   },
   "Yellowcards": {
-   "home": 0,
+   "home": 1,
    "away": 2
   },
   "Shots On Target": {
-   "home": 1,
+   "home": 4,
    "away": 1
   }
  },
@@ -932,5 +932,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2389
+ "rate_remaining": 2489
 }
