@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:16:30.332490+00:00",
+ "updated_at": "2026-09-13T12:17:00.355226+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -315,7 +315,7 @@
  "minute_estimated": false,
  "added_time": null,
  "score": {
-  "home": 1,
+  "home": 2,
   "away": 0
  },
  "half_time": {
@@ -414,7 +414,7 @@
    "away": 1
   },
   "Goals": {
-   "home": 1,
+   "home": 2,
    "away": 0
   },
   "Goal Kicks": {
@@ -932,5 +932,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2489
+ "rate_remaining": 2488
 }
