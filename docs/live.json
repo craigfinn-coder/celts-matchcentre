@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T11:58:00.384450+00:00",
+ "updated_at": "2026-09-13T12:03:30.337024+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -309,8 +309,8 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "HT",
- "state_name": "Half Time",
+ "state": "INPLAY_2ND_HALF",
+ "state_name": "2nd Half",
  "minute": 45,
  "minute_estimated": false,
  "added_time": null,
@@ -356,6 +356,18 @@
    "team": "Celtic",
    "player": "Colby Donovan",
    "related": null,
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157893113,
+   "minute": 46,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Haissem Hassan",
+   "related": "Sebastian Tounekti",
    "result": null,
    "info": null
   }
@@ -412,6 +424,10 @@
   "Shots Blocked": {
    "home": 2,
    "away": 0
+  },
+  "Substitutions": {
+   "home": 0,
+   "away": 1
   },
   "Throwins": {
    "home": 7,
@@ -904,5 +920,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2405
+ "rate_remaining": 2394
 }
