@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:34:00.385752+00:00",
+ "updated_at": "2026-09-13T12:36:00.398842+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 75,
+ "minute": 77,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -454,6 +454,18 @@
    "related": null,
    "result": "3-0",
    "info": "Right foot shot"
+  },
+  {
+   "id": 157894003,
+   "minute": 77,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Shumaira Mheuka",
+   "related": "Camilo Durán",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -471,7 +483,7 @@
   },
   "Attacks": {
    "home": 70,
-   "away": 61
+   "away": 62
   },
   "Dangerous Attacks": {
    "home": 45,
@@ -511,7 +523,7 @@
   },
   "Substitutions": {
    "home": 2,
-   "away": 3
+   "away": 4
   },
   "Throwins": {
    "home": 21,
@@ -1004,5 +1016,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2454
+ "rate_remaining": 2450
 }
