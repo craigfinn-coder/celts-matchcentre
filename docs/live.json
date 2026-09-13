@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:46:00.606589+00:00",
+ "updated_at": "2026-09-13T12:46:30.340692+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 87,
+ "minute": 88,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -517,7 +517,7 @@
   },
   {
    "id": 157894247,
-   "minute": 86,
+   "minute": 85,
    "extra": null,
    "type": "Substitution",
    "side": "home",
@@ -550,11 +550,11 @@
    "away": 2
   },
   "Shots Total": {
-   "home": 14,
+   "home": 15,
    "away": 4
   },
   "Attacks": {
-   "home": 78,
+   "home": 79,
    "away": 69
   },
   "Dangerous Attacks": {
@@ -610,7 +610,7 @@
    "away": 3
   },
   "Shots On Target": {
-   "home": 7,
+   "home": 8,
    "away": 1
   }
  },
@@ -1088,5 +1088,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2430
+ "rate_remaining": 2429
 }
