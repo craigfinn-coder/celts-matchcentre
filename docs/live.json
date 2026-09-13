@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:36:00.398842+00:00",
+ "updated_at": "2026-09-13T12:37:00.302982+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 77,
+ "minute": 78,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -466,6 +466,30 @@
    "related": "Camilo Durán",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157894023,
+   "minute": 78,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "home",
+   "team": "Rangers",
+   "player": null,
+   "related": null,
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157894024,
+   "minute": 79,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Celtic",
+   "player": null,
+   "related": null,
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -483,7 +507,7 @@
   },
   "Attacks": {
    "home": 70,
-   "away": 62
+   "away": 63
   },
   "Dangerous Attacks": {
    "home": 45,
@@ -1016,5 +1040,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2450
+ "rate_remaining": 2448
 }
