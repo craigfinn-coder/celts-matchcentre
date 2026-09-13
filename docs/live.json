@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:18:00.357317+00:00",
+ "updated_at": "2026-09-13T12:20:00.407472+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 59,
+ "minute": 61,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -391,7 +391,7 @@
    "side": "home",
    "team": "Rangers",
    "player": "Kevin Kelsy ",
-   "related": null,
+   "related": "Dan Neil",
    "result": "2-0",
    "info": "Right foot shot"
   }
@@ -443,7 +443,7 @@
   },
   "Saves": {
    "home": 1,
-   "away": 2
+   "away": 4
   },
   "Shots Blocked": {
    "home": 2,
@@ -454,11 +454,11 @@
    "away": 1
   },
   "Throwins": {
-   "home": 7,
-   "away": 9
+   "home": 19,
+   "away": 19
   },
   "Assists": {
-   "home": 1,
+   "home": 2,
    "away": 0
   },
   "Yellowcards": {
@@ -944,5 +944,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2486
+ "rate_remaining": 2482
 }
