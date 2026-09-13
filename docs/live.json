@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-13T12:17:00.355226+00:00",
+ "updated_at": "2026-09-13T12:17:30.678456+00:00",
  "live": true,
  "fixture": {
   "id": 19878768,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 58,
+ "minute": 59,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -382,6 +382,18 @@
    "related": null,
    "result": null,
    "info": null
+  },
+  {
+   "id": 157893505,
+   "minute": 59,
+   "extra": null,
+   "type": "Goal",
+   "side": "home",
+   "team": "Rangers",
+   "player": "Kevin Kelsy ",
+   "related": null,
+   "result": "2-0",
+   "info": "Field Goal"
   }
  ],
  "stats": {
@@ -398,7 +410,7 @@
    "away": 2
   },
   "Attacks": {
-   "home": 64,
+   "home": 65,
    "away": 54
   },
   "Dangerous Attacks": {
@@ -442,8 +454,8 @@
    "away": 1
   },
   "Throwins": {
-   "home": 19,
-   "away": 19
+   "home": 7,
+   "away": 9
   },
   "Assists": {
    "home": 1,
@@ -932,5 +944,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2488
+ "rate_remaining": 2487
 }
