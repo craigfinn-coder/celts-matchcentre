@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-13T12:46:30.340692+00:00",
- "live": true,
+ "updated_at": "2026-09-13T12:53:00.527259+00:00",
+ "live": false,
  "fixture": {
   "id": 19878768,
   "kickoff_utc": "2026-09-13 11:00:00",
@@ -309,9 +309,9 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "INPLAY_2ND_HALF",
- "state_name": "2nd Half",
- "minute": 88,
+ "state": "FT",
+ "state_name": "Full Time",
+ "minute": null,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -542,24 +542,24 @@
  ],
  "stats": {
   "Corners": {
-   "home": 4,
-   "away": 1
+   "home": 5,
+   "away": 3
   },
   "Shots Off Target": {
    "home": 5,
-   "away": 2
+   "away": 3
   },
   "Shots Total": {
    "home": 15,
-   "away": 4
+   "away": 7
   },
   "Attacks": {
-   "home": 79,
-   "away": 69
+   "home": 82,
+   "away": 76
   },
   "Dangerous Attacks": {
-   "home": 48,
-   "away": 38
+   "home": 54,
+   "away": 44
   },
   "Ball Possession %": {
    "home": 50,
@@ -574,32 +574,32 @@
    "away": 0
   },
   "Goal Kicks": {
-   "home": 4,
+   "home": 5,
    "away": 8
   },
   "Free Kicks": {
-   "home": 13,
+   "home": 15,
    "away": 12
   },
   "Fouls": {
-   "home": 10,
-   "away": 11
+   "home": 12,
+   "away": 13
   },
   "Saves": {
    "home": 1,
-   "away": 4
+   "away": 5
   },
   "Shots Blocked": {
    "home": 2,
-   "away": 1
+   "away": 3
   },
   "Substitutions": {
    "home": 5,
    "away": 5
   },
   "Throwins": {
-   "home": 23,
-   "away": 25
+   "home": 24,
+   "away": 28
   },
   "Assists": {
    "home": 2,
@@ -1088,5 +1088,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2429
+ "rate_remaining": 2416
 }
