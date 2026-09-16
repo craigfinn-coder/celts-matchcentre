@@ -87,12 +87,38 @@ def scores(fx, home_id, away_id):
     return (cur.get(home_id), cur.get(away_id)), (ht.get(home_id), ht.get(away_id))
 
 
+BASE_INCLUDE = "participants;scores;state;league;venue;round;stage"
+UK_COUNTRIES = {"united kingdom", "scotland", "england", "wales", "northern ireland", "ireland", "great britain"}
+
+
+def tv_for(fx):
+    """UK broadcasters from the tvstations include -> list of {name, url}. Empty if none / not in plan."""
+    out, seen = [], set()
+    for row in fx.get("tvstations", []) or []:
+        st = row.get("tvstation") or row
+        name = (st.get("name") or "").strip()
+        if not name or name.lower() in seen:
+            continue
+        country = ((st.get("country") or {}).get("name") or "").lower()
+        if country and country not in UK_COUNTRIES:
+            continue
+        seen.add(name.lower())
+        out.append({"name": name, "url": st.get("url"), "country": country or None})
+    return out
+
+
 def fetch_all(start, end):
     out, page = [], 1
+    include = BASE_INCLUDE + ";tvstations.tvstation.country"
     while True:
-        data = get(f"fixtures/between/{start}/{end}/{TEAM_ID}",
-                   include="participants;scores;state;league;venue;round;stage",
-                   per_page=50, page=page)
+        try:
+            data = get(f"fixtures/between/{start}/{end}/{TEAM_ID}", include=include, per_page=50, page=page)
+        except SystemExit:
+            if "tvstations" in include:
+                log("tvstations include not available on this plan, retrying without it")
+                include = BASE_INCLUDE
+                continue
+            raise
         out.extend(data.get("data") or [])
         pg = data.get("pagination") or {}
         if not pg.get("has_more"):
@@ -141,6 +167,7 @@ def main():
             "score": {"home": hg, "away": ag} if hg is not None else None,
             "half_time": {"home": hh, "away": ah} if hh is not None else None,
             "result": result,
+            "tv": tv_for(fx),
         })
     rows.sort(key=lambda r: r["ts"] or 0)
 
