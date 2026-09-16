@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T17:32:46+00:00",
+ "updated": "2026-09-16T14:12:47+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
@@ -39,7 +39,8 @@
     "home": 0,
     "away": 0
    },
-   "result": "W"
+   "result": "W",
+   "tv": []
   },
   {
    "id": 19722813,
@@ -69,7 +70,8 @@
     "home": 0,
     "away": 3
    },
-   "result": "W"
+   "result": "W",
+   "tv": []
   },
   {
    "id": 19788793,
@@ -99,7 +101,8 @@
     "home": 0,
     "away": 2
    },
-   "result": "W"
+   "result": "W",
+   "tv": []
   },
   {
    "id": 19788366,
@@ -129,7 +132,8 @@
     "home": 2,
     "away": 0
    },
-   "result": "W"
+   "result": "W",
+   "tv": []
   },
   {
    "id": 19788358,
@@ -159,7 +163,8 @@
     "home": 1,
     "away": 1
    },
-   "result": "L"
+   "result": "L",
+   "tv": []
   },
   {
    "id": 19722804,
@@ -189,7 +194,8 @@
     "home": 2,
     "away": 0
    },
-   "result": "W"
+   "result": "W",
+   "tv": []
   },
   {
    "id": 19722799,
@@ -219,7 +225,8 @@
     "home": 3,
     "away": 0
    },
-   "result": "W"
+   "result": "W",
+   "tv": []
   },
   {
    "id": 19722788,
@@ -249,7 +256,8 @@
     "home": 1,
     "away": 0
    },
-   "result": "W"
+   "result": "W",
+   "tv": []
   },
   {
    "id": 19722806,
@@ -279,7 +287,8 @@
     "home": 0,
     "away": 0
    },
-   "result": "W"
+   "result": "W",
+   "tv": []
   },
   {
    "id": 19878768,
@@ -309,7 +318,8 @@
     "home": 1,
     "away": 0
    },
-   "result": "L"
+   "result": "L",
+   "tv": []
   },
   {
    "id": 19873900,
@@ -333,7 +343,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722782,
@@ -357,7 +368,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722777,
@@ -381,7 +393,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19873852,
@@ -405,7 +418,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722774,
@@ -429,7 +443,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19873950,
@@ -453,7 +468,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722767,
@@ -477,7 +493,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722762,
@@ -501,7 +518,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722756,
@@ -525,7 +543,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19873888,
@@ -549,7 +568,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722750,
@@ -573,7 +593,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722745,
@@ -597,7 +618,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19873824,
@@ -621,7 +643,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722737,
@@ -645,7 +668,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722733,
@@ -669,7 +693,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722726,
@@ -693,7 +718,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19873808,
@@ -717,7 +743,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722721,
@@ -741,7 +768,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722715,
@@ -765,7 +793,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722709,
@@ -789,7 +818,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722702,
@@ -813,7 +843,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722693,
@@ -837,7 +868,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722690,
@@ -861,7 +893,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19873866,
@@ -885,7 +918,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722680,
@@ -909,7 +943,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19873822,
@@ -933,7 +968,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722678,
@@ -957,7 +993,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722670,
@@ -981,7 +1018,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722667,
@@ -1005,7 +1043,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722659,
@@ -1029,7 +1068,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722654,
@@ -1053,7 +1093,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722644,
@@ -1077,7 +1118,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722643,
@@ -1101,7 +1143,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722635,
@@ -1125,7 +1168,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   },
   {
    "id": 19722630,
@@ -1149,7 +1193,8 @@
    "void": false,
    "score": null,
    "half_time": null,
-   "result": null
+   "result": null,
+   "tv": []
   }
  ]
 }
