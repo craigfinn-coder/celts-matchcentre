@@ -218,14 +218,170 @@
  "stats": {},
  "lineups": {
   "home": {
-   "xi": [],
+   "xi": [
+    {
+     "name": "Auston Trusty",
+     "num": 6,
+     "pos": null,
+     "field": "2:3",
+     "id": 262280
+    },
+    {
+     "name": "Benjamin Nygren",
+     "num": 8,
+     "pos": null,
+     "field": "4:2",
+     "id": 19979885
+    },
+    {
+     "name": "Kasper Høgh",
+     "num": 9,
+     "pos": null,
+     "field": "5:1",
+     "id": 15061513
+    },
+    {
+     "name": "Sebastian Tounekti",
+     "num": 17,
+     "pos": null,
+     "field": "4:3",
+     "id": 15169863
+    },
+    {
+     "name": "Cameron Carter-Vickers",
+     "num": 20,
+     "pos": null,
+     "field": "2:2",
+     "id": 1712
+    },
+    {
+     "name": "Mika Baur",
+     "num": 22,
+     "pos": null,
+     "field": "3:2",
+     "id": 37582048
+    },
+    {
+     "name": "Haissem Hassan",
+     "num": 23,
+     "pos": null,
+     "field": "4:1",
+     "id": 18584306
+    },
+    {
+     "name": "Sam Johnstone",
+     "num": 26,
+     "pos": null,
+     "field": "1:1",
+     "id": 1008
+    },
+    {
+     "name": "Callum McGregor",
+     "num": 42,
+     "pos": null,
+     "field": "3:1",
+     "id": 8585
+    },
+    {
+     "name": "Colby Donovan",
+     "num": 51,
+     "pos": null,
+     "field": "2:1",
+     "id": 37732189
+    },
+    {
+     "name": "Kieran Tierney",
+     "num": 63,
+     "pos": null,
+     "field": "2:4",
+     "id": 172960
+    }
+   ],
    "bench": [],
-   "formation": null
+   "formation": "4-2-3-1"
   },
   "away": {
-   "xi": [],
+   "xi": [
+    {
+     "name": "Mariano Gómez",
+     "num": 4,
+     "pos": null,
+     "field": "2:2",
+     "id": 6642441
+    },
+    {
+     "name": "Ádám Nagy",
+     "num": 6,
+     "pos": null,
+     "field": "3:2",
+     "id": 114226
+    },
+    {
+     "name": "Yusuf Bamidele",
+     "num": 11,
+     "pos": null,
+     "field": "4:3",
+     "id": null
+    },
+    {
+     "name": "Kristoffer Zachariassen",
+     "num": 16,
+     "pos": null,
+     "field": "4:2",
+     "id": 153069
+    },
+    {
+     "name": "Marius Corbu",
+     "num": 17,
+     "pos": null,
+     "field": "3:1",
+     "id": null
+    },
+    {
+     "name": "Cadu",
+     "num": 20,
+     "pos": null,
+     "field": "2:1",
+     "id": 13239062
+    },
+    {
+     "name": "Toon Raemaekers",
+     "num": 28,
+     "pos": null,
+     "field": "2:3",
+     "id": 37325287
+    },
+    {
+     "name": "Callum O'Dowda",
+     "num": 47,
+     "pos": null,
+     "field": "4:1",
+     "id": 3145
+    },
+    {
+     "name": "Oliver Nagy",
+     "num": 54,
+     "pos": null,
+     "field": "2:4",
+     "id": null
+    },
+    {
+     "name": "Lenny Joseph",
+     "num": 75,
+     "pos": null,
+     "field": "5:1",
+     "id": 25591317
+    },
+    {
+     "name": "Dénes Dibusz",
+     "num": 90,
+     "pos": null,
+     "field": "1:1",
+     "id": 113025
+    }
+   ],
    "bench": [],
-   "formation": null
+   "formation": "4-2-3-1"
   }
  },
  "form": {
@@ -1074,5 +1230,5 @@
    }
   }
  },
- "updated_at": "2026-09-15T21:04:14.523317+00:00"
+ "updated_at": "2026-09-16T17:04:02.448660+00:00"
 }
