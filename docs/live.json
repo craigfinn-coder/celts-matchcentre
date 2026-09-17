@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:39:30.614260+00:00",
+ "updated_at": "2026-09-17T20:44:30.574432+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -339,7 +339,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 81,
+ "minute": 86,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -518,6 +518,18 @@
    "related": "Mariano Gómez",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157941309,
+   "minute": 86,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Ferencvárosi",
+   "player": "Jonathan Levi",
+   "related": null,
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -527,19 +539,19 @@
   },
   "Shots Off Target": {
    "home": 4,
-   "away": 4
+   "away": 5
   },
   "Shots Total": {
    "home": 14,
-   "away": 13
+   "away": 14
   },
   "Attacks": {
-   "home": 79,
-   "away": 88
+   "home": 85,
+   "away": 95
   },
   "Dangerous Attacks": {
-   "home": 55,
-   "away": 50
+   "home": 58,
+   "away": 51
   },
   "Ball Possession %": {
    "home": 61,
@@ -555,7 +567,7 @@
   },
   "Shots Outsidebox": {
    "home": 5,
-   "away": 5
+   "away": 6
   },
   "Offsides": {
    "home": 1,
@@ -566,7 +578,7 @@
    "away": 3
   },
   "Goal Kicks": {
-   "home": 11,
+   "home": 12,
    "away": 6
   },
   "Goal Attempts": {
@@ -575,10 +587,10 @@
   },
   "Free Kicks": {
    "home": 11,
-   "away": 14
+   "away": 17
   },
   "Fouls": {
-   "home": 14,
+   "home": 17,
    "away": 11
   },
   "Saves": {
@@ -595,11 +607,11 @@
   },
   "Throwins": {
    "home": 13,
-   "away": 16
+   "away": 17
   },
   "Long Passes": {
-   "home": 33,
-   "away": 36
+   "home": 37,
+   "away": 42
   },
   "Tackles": {
    "home": 17,
@@ -610,23 +622,27 @@
    "away": 3
   },
   "Passes": {
-   "home": 493,
-   "away": 319
+   "home": 523,
+   "away": 340
   },
   "Successful Passes": {
-   "home": 441,
-   "away": 263
+   "home": 469,
+   "away": 275
   },
   "Successful Passes Percentage": {
-   "home": 89,
-   "away": 82
+   "home": 90,
+   "away": 81
+  },
+  "Yellowcards": {
+   "home": 0,
+   "away": 1
   },
   "Shots On Target": {
    "home": 4,
    "away": 6
   },
   "Total Crosses": {
-   "home": 34,
+   "home": 35,
    "away": 16
   },
   "Accurate Crosses": {
@@ -634,12 +650,12 @@
    "away": 4
   },
   "Interceptions": {
-   "home": 9,
+   "home": 10,
    "away": 9
   },
   "Duels Won": {
-   "home": 40,
-   "away": 34
+   "home": 43,
+   "away": 37
   },
   "Dribble Attempts": {
    "home": 7,
@@ -666,11 +682,11 @@
    "away": 33
   },
   "Successful Long Passes": {
-   "home": 17,
-   "away": 13
+   "home": 20,
+   "away": 15
   },
   "Successful Long Passes Percentage": {
-   "home": 52,
+   "home": 54,
    "away": 36
   },
   "Tackles Won": {
@@ -1110,5 +1126,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2415
+ "rate_remaining": 2405
 }
