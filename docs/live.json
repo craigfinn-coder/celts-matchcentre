@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-17T18:57:00.880244+00:00",
- "live": false,
+ "updated_at": "2026-09-17T19:01:00.581752+00:00",
+ "live": true,
  "fixture": {
   "id": 19873900,
   "kickoff_utc": "2026-09-17 19:00:00",
@@ -337,9 +337,9 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "NS",
- "state_name": "Not Started",
- "minute": null,
+ "state": "INPLAY_1ST_HALF",
+ "state_name": "1st Half",
+ "minute": 0,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -355,6 +355,14 @@
   "Ball Possession %": {
    "home": 50,
    "away": 50
+  },
+  "Passes": {
+   "home": 1,
+   "away": 0
+  },
+  "Successful Dribbles Percentage": {
+   "home": 0,
+   "away": 0
   }
  },
  "next_fixtures": [
@@ -553,7 +561,7 @@
    "gd": -9
   }
  ],
- "live_table": false,
+ "live_table": true,
  "form": {
   "home": [
    {
@@ -789,5 +797,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2499
+ "rate_remaining": 2491
 }
