@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:03:00.566009+00:00",
+ "updated_at": "2026-09-17T20:03:30.602256+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -398,6 +398,18 @@
    "related": "Oliver Sørensen",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157940953,
+   "minute": 46,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Ferencvárosi",
+   "player": "Attila Osváth",
+   "related": "Olivér Nagy",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -415,7 +427,7 @@
   },
   "Attacks": {
    "home": 45,
-   "away": 43
+   "away": 44
   },
   "Dangerous Attacks": {
    "home": 31,
@@ -982,5 +994,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2488
+ "rate_remaining": 2487
 }
