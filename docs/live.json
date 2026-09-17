@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:28:30.636553+00:00",
+ "updated_at": "2026-09-17T20:38:00.568363+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -339,7 +339,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 70,
+ "minute": 80,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -494,43 +494,55 @@
    "related": "Á. Bagi",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157941240,
+   "minute": 80,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Anthony Ralston",
+   "related": "Colby Donovan",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
   "Corners": {
-   "home": 7,
+   "home": 9,
    "away": 3
   },
   "Shots Off Target": {
-   "home": 3,
+   "home": 4,
    "away": 4
   },
   "Shots Total": {
-   "home": 10,
-   "away": 12
+   "home": 14,
+   "away": 13
   },
   "Attacks": {
-   "home": 68,
-   "away": 74
+   "home": 78,
+   "away": 87
   },
   "Dangerous Attacks": {
-   "home": 49,
-   "away": 44
+   "home": 54,
+   "away": 49
   },
   "Ball Possession %": {
-   "home": 62,
-   "away": 38
+   "home": 61,
+   "away": 39
   },
   "Ball Safe": {
    "home": 62,
    "away": 55
   },
   "Shots Insidebox": {
-   "home": 6,
-   "away": 7
+   "home": 9,
+   "away": 8
   },
   "Shots Outsidebox": {
-   "home": 4,
+   "home": 5,
    "away": 5
   },
   "Offsides": {
@@ -542,8 +554,8 @@
    "away": 3
   },
   "Goal Kicks": {
-   "home": 9,
-   "away": 4
+   "home": 11,
+   "away": 5
   },
   "Goal Attempts": {
    "home": 5,
@@ -551,107 +563,107 @@
   },
   "Free Kicks": {
    "home": 10,
-   "away": 12
+   "away": 14
   },
   "Fouls": {
-   "home": 12,
+   "home": 14,
    "away": 10
   },
   "Saves": {
-   "home": 2,
-   "away": 2
+   "home": 3,
+   "away": 3
   },
   "Shots Blocked": {
-   "home": 4,
+   "home": 6,
    "away": 3
   },
   "Substitutions": {
-   "home": 4,
+   "home": 5,
    "away": 4
   },
   "Throwins": {
-   "home": 11,
-   "away": 15
+   "home": 13,
+   "away": 16
   },
   "Long Passes": {
-   "home": 28,
-   "away": 28
+   "home": 33,
+   "away": 34
   },
   "Tackles": {
-   "home": 12,
-   "away": 7
+   "home": 16,
+   "away": 8
   },
   "Assists": {
    "home": 1,
    "away": 3
   },
   "Passes": {
-   "home": 442,
-   "away": 274
+   "home": 483,
+   "away": 314
   },
   "Successful Passes": {
-   "home": 402,
-   "away": 227
+   "home": 432,
+   "away": 260
   },
   "Successful Passes Percentage": {
-   "home": 91,
+   "home": 89,
    "away": 83
   },
   "Shots On Target": {
-   "home": 3,
-   "away": 5
+   "home": 4,
+   "away": 6
   },
   "Total Crosses": {
-   "home": 30,
-   "away": 15
+   "home": 34,
+   "away": 16
   },
   "Accurate Crosses": {
-   "home": 8,
-   "away": 3
-  },
-  "Interceptions": {
-   "home": 8,
-   "away": 5
-  },
-  "Duels Won": {
-   "home": 32,
-   "away": 29
-  },
-  "Dribble Attempts": {
-   "home": 6,
-   "away": 10
-  },
-  "Successful Dribbles": {
-   "home": 4,
+   "home": 9,
    "away": 4
   },
+  "Interceptions": {
+   "home": 9,
+   "away": 9
+  },
+  "Duels Won": {
+   "home": 38,
+   "away": 34
+  },
+  "Dribble Attempts": {
+   "home": 7,
+   "away": 14
+  },
+  "Successful Dribbles": {
+   "home": 5,
+   "away": 5
+  },
   "Key Passes": {
-   "home": 8,
-   "away": 11
+   "home": 11,
+   "away": 12
   },
   "Big Chances Created": {
-   "home": 2,
+   "home": 3,
    "away": 1
   },
   "Big Chances Missed": {
-   "home": 1,
+   "home": 2,
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 67,
-   "away": 40
+   "home": 71,
+   "away": 36
   },
   "Successful Long Passes": {
-   "home": 15,
-   "away": 8
+   "home": 17,
+   "away": 13
   },
   "Successful Long Passes Percentage": {
-   "home": 54,
-   "away": 29
+   "home": 52,
+   "away": 38
   },
   "Tackles Won": {
-   "home": 9,
-   "away": 7
+   "home": 11,
+   "away": 8
   }
  },
  "next_fixtures": [
@@ -1086,5 +1098,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2437
+ "rate_remaining": 2418
 }
