@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:05:00.691769+00:00",
+ "updated_at": "2026-09-17T20:05:30.592348+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -419,7 +419,7 @@
    "side": "away",
    "team": "Ferencvárosi",
    "player": "Daniel Arzani",
-   "related": null,
+   "related": "Bamidele Yusuf",
    "result": "1-3",
    "info": "Right foot shot"
   }
@@ -455,7 +455,7 @@
   },
   "Shots Outsidebox": {
    "home": 2,
-   "away": 3
+   "away": 4
   },
   "Offsides": {
    "home": 1,
@@ -495,7 +495,7 @@
   },
   "Long Passes": {
    "home": 19,
-   "away": 16
+   "away": 17
   },
   "Tackles": {
    "home": 9,
@@ -506,12 +506,12 @@
    "away": 2
   },
   "Passes": {
-   "home": 300,
-   "away": 186
+   "home": 303,
+   "away": 188
   },
   "Successful Passes": {
-   "home": 277,
-   "away": 154
+   "home": 279,
+   "away": 156
   },
   "Successful Passes Percentage": {
    "home": 92,
@@ -547,7 +547,7 @@
   },
   "Key Passes": {
    "home": 6,
-   "away": 8
+   "away": 9
   },
   "Big Chances Created": {
    "home": 2,
@@ -563,11 +563,11 @@
   },
   "Successful Long Passes": {
    "home": 11,
-   "away": 4
+   "away": 5
   },
   "Successful Long Passes Percentage": {
    "home": 58,
-   "away": 25
+   "away": 29
   },
   "Tackles Won": {
    "home": 6,
@@ -1006,5 +1006,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2484
+ "rate_remaining": 2483
 }
