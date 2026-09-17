@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T19:20:30.531448+00:00",
+ "updated_at": "2026-09-17T19:21:00.538315+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -339,7 +339,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 19,
+ "minute": 20,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -353,13 +353,13 @@
  "events": [
   {
    "id": 157940591,
-   "minute": 20,
+   "minute": 19,
    "extra": null,
    "type": "Goal",
    "side": "away",
    "team": "Ferencvárosi",
    "player": "Bamidele Yusuf",
-   "related": null,
+   "related": "Kristoffer Zachariassen",
    "result": "0-1",
    "info": "Right foot shot"
   }
@@ -391,6 +391,10 @@
   },
   "Shots Insidebox": {
    "home": 4,
+   "away": 1
+  },
+  "Shots Outsidebox": {
+   "home": 0,
    "away": 1
   },
   "Offsides": {
@@ -431,6 +435,10 @@
   },
   "Tackles": {
    "home": 2,
+   "away": 1
+  },
+  "Assists": {
+   "home": 0,
    "away": 1
   },
   "Passes": {
@@ -934,5 +942,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2452
+ "rate_remaining": 2451
 }
