@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T19:21:00.538315+00:00",
+ "updated_at": "2026-09-17T19:21:30.614422+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -353,7 +353,7 @@
  "events": [
   {
    "id": 157940591,
-   "minute": 19,
+   "minute": 20,
    "extra": null,
    "type": "Goal",
    "side": "away",
@@ -442,11 +442,11 @@
    "away": 1
   },
   "Passes": {
-   "home": 160,
+   "home": 166,
    "away": 82
   },
   "Successful Passes": {
-   "home": 152,
+   "home": 158,
    "away": 71
   },
   "Successful Passes Percentage": {
@@ -455,7 +455,7 @@
   },
   "Shots On Target": {
    "home": 1,
-   "away": 0
+   "away": 1
   },
   "Total Crosses": {
    "home": 10,
@@ -483,7 +483,7 @@
   },
   "Key Passes": {
    "home": 3,
-   "away": 1
+   "away": 2
   },
   "Big Chances Created": {
    "home": 1,
@@ -942,5 +942,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2451
+ "rate_remaining": 2450
 }
