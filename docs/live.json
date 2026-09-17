@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:24:30.579269+00:00",
+ "updated_at": "2026-09-17T20:28:30.636553+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -339,7 +339,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 66,
+ "minute": 70,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -482,6 +482,18 @@
    "related": "Daniel Arzani",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157941145,
+   "minute": 71,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Ferencvárosi",
+   "player": "Krisztián Lisztes",
+   "related": "Á. Bagi",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -490,19 +502,19 @@
    "away": 3
   },
   "Shots Off Target": {
-   "home": 2,
+   "home": 3,
    "away": 4
   },
   "Shots Total": {
-   "home": 9,
+   "home": 10,
    "away": 12
   },
   "Attacks": {
-   "home": 57,
-   "away": 68
+   "home": 68,
+   "away": 74
   },
   "Dangerous Attacks": {
-   "home": 46,
+   "home": 49,
    "away": 44
   },
   "Ball Possession %": {
@@ -518,7 +530,7 @@
    "away": 7
   },
   "Shots Outsidebox": {
-   "home": 3,
+   "home": 4,
    "away": 5
   },
   "Offsides": {
@@ -531,7 +543,7 @@
   },
   "Goal Kicks": {
    "home": 9,
-   "away": 3
+   "away": 4
   },
   "Goal Attempts": {
    "home": 5,
@@ -539,10 +551,10 @@
   },
   "Free Kicks": {
    "home": 10,
-   "away": 10
+   "away": 12
   },
   "Fouls": {
-   "home": 10,
+   "home": 12,
    "away": 10
   },
   "Saves": {
@@ -555,15 +567,15 @@
   },
   "Substitutions": {
    "home": 4,
-   "away": 3
+   "away": 4
   },
   "Throwins": {
    "home": 11,
    "away": 15
   },
   "Long Passes": {
-   "home": 26,
-   "away": 23
+   "home": 28,
+   "away": 28
   },
   "Tackles": {
    "home": 12,
@@ -574,12 +586,12 @@
    "away": 3
   },
   "Passes": {
-   "home": 411,
-   "away": 252
+   "home": 442,
+   "away": 274
   },
   "Successful Passes": {
-   "home": 372,
-   "away": 210
+   "home": 402,
+   "away": 227
   },
   "Successful Passes Percentage": {
    "home": 91,
@@ -590,11 +602,11 @@
    "away": 5
   },
   "Total Crosses": {
-   "home": 27,
+   "home": 30,
    "away": 15
   },
   "Accurate Crosses": {
-   "home": 7,
+   "home": 8,
    "away": 3
   },
   "Interceptions": {
@@ -602,19 +614,19 @@
    "away": 5
   },
   "Duels Won": {
-   "home": 31,
-   "away": 27
+   "home": 32,
+   "away": 29
   },
   "Dribble Attempts": {
-   "home": 5,
+   "home": 6,
    "away": 10
   },
   "Successful Dribbles": {
-   "home": 3,
+   "home": 4,
    "away": 4
   },
   "Key Passes": {
-   "home": 7,
+   "home": 8,
    "away": 11
   },
   "Big Chances Created": {
@@ -626,16 +638,16 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 60,
+   "home": 67,
    "away": 40
   },
   "Successful Long Passes": {
-   "home": 13,
-   "away": 6
+   "home": 15,
+   "away": 8
   },
   "Successful Long Passes Percentage": {
-   "home": 50,
-   "away": 26
+   "home": 54,
+   "away": 29
   },
   "Tackles Won": {
    "home": 9,
@@ -1074,5 +1086,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2445
+ "rate_remaining": 2437
 }
