@@ -1,14 +1,14 @@
 {
- "updated": "2026-09-16T14:12:47+00:00",
+ "updated": "2026-09-17T23:31:29+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 10,
+  "p": 11,
   "w": 8,
   "d": 0,
-  "l": 2,
-  "gf": 22,
-  "ga": 11
+  "l": 3,
+  "gf": 23,
+  "ga": 14
  },
  "fixtures": [
   {
@@ -338,12 +338,18 @@
    "ha": "H",
    "opp": "Ferencvárosi",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png",
-   "state": "NS",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
-   "score": null,
-   "half_time": null,
-   "result": null,
+   "score": {
+    "home": 1,
+    "away": 3
+   },
+   "half_time": {
+    "home": 1,
+    "away": 2
+   },
+   "result": "L",
    "tv": []
   },
   {
