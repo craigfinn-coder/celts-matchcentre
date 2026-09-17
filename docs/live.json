@@ -1,6 +1,190 @@
 {
- "updated_at": "2026-09-17T20:52:00.638695+00:00",
  "live": false,
+ "state": "FT",
+ "next_fixtures": [
+  {
+   "id": 19722782,
+   "kickoff_utc": "2026-09-20 11:00:00",
+   "league": "Premiership",
+   "venue": "Celtic Park",
+   "home": "Celtic",
+   "away": "Rangers",
+   "home_id": 53,
+   "away_id": 62,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png"
+  }
+ ],
+ "standings": [
+  {
+   "pos": 1,
+   "team": "Celtic",
+   "team_id": 53,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "pts": 18,
+   "p": 6,
+   "w": 6,
+   "d": 0,
+   "l": 0,
+   "gf": 14,
+   "ga": 3,
+   "gd": 11
+  },
+  {
+   "pos": 2,
+   "team": "Rangers",
+   "team_id": 62,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+   "pts": 13,
+   "p": 6,
+   "w": 4,
+   "d": 1,
+   "l": 1,
+   "gf": 7,
+   "ga": 4,
+   "gd": 3
+  },
+  {
+   "pos": 3,
+   "team": "Hearts",
+   "team_id": 314,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "pts": 12,
+   "p": 6,
+   "w": 4,
+   "d": 0,
+   "l": 2,
+   "gf": 13,
+   "ga": 7,
+   "gd": 6
+  },
+  {
+   "pos": 4,
+   "team": "St. Mirren",
+   "team_id": 496,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
+   "pts": 10,
+   "p": 6,
+   "w": 3,
+   "d": 1,
+   "l": 2,
+   "gf": 8,
+   "ga": 6,
+   "gd": 2
+  },
+  {
+   "pos": 5,
+   "team": "Motherwell",
+   "team_id": 309,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
+   "pts": 8,
+   "p": 6,
+   "w": 2,
+   "d": 2,
+   "l": 2,
+   "gf": 8,
+   "ga": 9,
+   "gd": -1
+  },
+  {
+   "pos": 6,
+   "team": "Dundee",
+   "team_id": 284,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
+   "pts": 7,
+   "p": 6,
+   "w": 2,
+   "d": 1,
+   "l": 3,
+   "gf": 7,
+   "ga": 6,
+   "gd": 1
+  },
+  {
+   "pos": 7,
+   "team": "St. Johnstone",
+   "team_id": 734,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
+   "pts": 7,
+   "p": 6,
+   "w": 2,
+   "d": 1,
+   "l": 3,
+   "gf": 8,
+   "ga": 9,
+   "gd": -1
+  },
+  {
+   "pos": 8,
+   "team": "Aberdeen",
+   "team_id": 273,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
+   "pts": 7,
+   "p": 6,
+   "w": 2,
+   "d": 1,
+   "l": 3,
+   "gf": 6,
+   "ga": 7,
+   "gd": -1
+  },
+  {
+   "pos": 9,
+   "team": "Hibernian",
+   "team_id": 66,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
+   "pts": 6,
+   "p": 6,
+   "w": 2,
+   "d": 0,
+   "l": 4,
+   "gf": 7,
+   "ga": 10,
+   "gd": -3
+  },
+  {
+   "pos": 10,
+   "team": "Falkirk",
+   "team_id": 770,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
+   "pts": 5,
+   "p": 6,
+   "w": 1,
+   "d": 2,
+   "l": 3,
+   "gf": 5,
+   "ga": 8,
+   "gd": -3
+  },
+  {
+   "pos": 11,
+   "team": "Dundee United",
+   "team_id": 282,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
+   "pts": 5,
+   "p": 6,
+   "w": 1,
+   "d": 2,
+   "l": 3,
+   "gf": 6,
+   "ga": 11,
+   "gd": -5
+  },
+  {
+   "pos": 12,
+   "team": "Kilmarnock",
+   "team_id": 180,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+   "pts": 4,
+   "p": 6,
+   "w": 1,
+   "d": 1,
+   "l": 4,
+   "gf": 5,
+   "ga": 14,
+   "gd": -9
+  }
+ ],
  "fixture": {
   "id": 19873900,
   "kickoff_utc": "2026-09-17 19:00:00",
@@ -337,7 +521,6 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "FT",
  "state_name": "Full Time",
  "minute": null,
  "minute_estimated": false,
@@ -361,7 +544,7 @@
    "player": "Bamidele Yusuf",
    "related": "Kristoffer Zachariassen",
    "result": "0-1",
-   "info": "Right foot shot"
+   "info": "Left foot shot"
   },
   {
    "id": 157940840,
@@ -373,7 +556,7 @@
    "player": "Mika Baur",
    "related": "Kieran Tierney",
    "result": "1-1",
-   "info": "Right foot shot"
+   "info": "Left foot shot"
   },
   {
    "id": 157940861,
@@ -570,8 +753,8 @@
    "away": 37
   },
   "Ball Safe": {
-   "home": 62,
-   "away": 55
+   "home": 103,
+   "away": 95
   },
   "Shots Insidebox": {
    "home": 11,
@@ -594,8 +777,8 @@
    "away": 6
   },
   "Goal Attempts": {
-   "home": 5,
-   "away": 6
+   "home": 8,
+   "away": 8
   },
   "Free Kicks": {
    "home": 14,
@@ -627,7 +810,7 @@
   },
   "Tackles": {
    "home": 18,
-   "away": 10
+   "away": 11
   },
   "Assists": {
    "home": 1,
@@ -653,6 +836,10 @@
    "home": 4,
    "away": 6
   },
+  "Injuries": {
+   "home": 0,
+   "away": 1
+  },
   "Total Crosses": {
    "home": 39,
    "away": 17
@@ -667,7 +854,7 @@
   },
   "Duels Won": {
    "home": 47,
-   "away": 40
+   "away": 41
   },
   "Dribble Attempts": {
    "home": 7,
@@ -706,216 +893,9 @@
    "away": 8
   }
  },
- "next_fixtures": [
-  {
-   "id": 19873900,
-   "kickoff_utc": "2026-09-17 19:00:00",
-   "league": "Europa League",
-   "venue": "Celtic Park",
-   "home": "Celtic",
-   "away": "Ferencvárosi",
-   "home_id": 53,
-   "away_id": 112,
-   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png"
-  },
-  {
-   "id": 19722782,
-   "kickoff_utc": "2026-09-20 11:00:00",
-   "league": "Premiership",
-   "venue": "Celtic Park",
-   "home": "Celtic",
-   "away": "Rangers",
-   "home_id": 53,
-   "away_id": 62,
-   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png"
-  }
- ],
- "standings": [
-  {
-   "pos": 1,
-   "team": "Celtic",
-   "team_id": 53,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "pts": 18,
-   "p": 6,
-   "w": 6,
-   "d": 0,
-   "l": 0,
-   "gf": 14,
-   "ga": 3,
-   "gd": 11
-  },
-  {
-   "pos": 2,
-   "team": "Rangers",
-   "team_id": 62,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 13,
-   "p": 6,
-   "w": 4,
-   "d": 1,
-   "l": 1,
-   "gf": 7,
-   "ga": 4,
-   "gd": 3
-  },
-  {
-   "pos": 3,
-   "team": "Hearts",
-   "team_id": 314,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-   "pts": 12,
-   "p": 6,
-   "w": 4,
-   "d": 0,
-   "l": 2,
-   "gf": 13,
-   "ga": 7,
-   "gd": 6
-  },
-  {
-   "pos": 4,
-   "team": "St. Mirren",
-   "team_id": 496,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "pts": 10,
-   "p": 6,
-   "w": 3,
-   "d": 1,
-   "l": 2,
-   "gf": 8,
-   "ga": 6,
-   "gd": 2
-  },
-  {
-   "pos": 5,
-   "team": "Motherwell",
-   "team_id": 309,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
-   "pts": 8,
-   "p": 6,
-   "w": 2,
-   "d": 2,
-   "l": 2,
-   "gf": 8,
-   "ga": 9,
-   "gd": -1
-  },
-  {
-   "pos": 6,
-   "team": "Dundee",
-   "team_id": 284,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
-   "pts": 7,
-   "p": 6,
-   "w": 2,
-   "d": 1,
-   "l": 3,
-   "gf": 7,
-   "ga": 6,
-   "gd": 1
-  },
-  {
-   "pos": 7,
-   "team": "St. Johnstone",
-   "team_id": 734,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
-   "pts": 7,
-   "p": 6,
-   "w": 2,
-   "d": 1,
-   "l": 3,
-   "gf": 8,
-   "ga": 9,
-   "gd": -1
-  },
-  {
-   "pos": 8,
-   "team": "Aberdeen",
-   "team_id": 273,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
-   "pts": 7,
-   "p": 6,
-   "w": 2,
-   "d": 1,
-   "l": 3,
-   "gf": 6,
-   "ga": 7,
-   "gd": -1
-  },
-  {
-   "pos": 9,
-   "team": "Hibernian",
-   "team_id": 66,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
-   "pts": 6,
-   "p": 6,
-   "w": 2,
-   "d": 0,
-   "l": 4,
-   "gf": 7,
-   "ga": 10,
-   "gd": -3
-  },
-  {
-   "pos": 10,
-   "team": "Falkirk",
-   "team_id": 770,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
-   "pts": 5,
-   "p": 6,
-   "w": 1,
-   "d": 2,
-   "l": 3,
-   "gf": 5,
-   "ga": 8,
-   "gd": -3
-  },
-  {
-   "pos": 11,
-   "team": "Dundee United",
-   "team_id": 282,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
-   "pts": 5,
-   "p": 6,
-   "w": 1,
-   "d": 2,
-   "l": 3,
-   "gf": 6,
-   "ga": 11,
-   "gd": -5
-  },
-  {
-   "pos": 12,
-   "team": "Kilmarnock",
-   "team_id": 180,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "pts": 4,
-   "p": 6,
-   "w": 1,
-   "d": 1,
-   "l": 4,
-   "gf": 5,
-   "ga": 14,
-   "gd": -9
-  }
- ],
- "live_table": true,
+ "result": true,
  "form": {
   "home": [
-   {
-    "r": "W",
-    "score": "2-1",
-    "home": "Celtic",
-    "away": "Falkirk",
-    "opp": "Falkirk",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
-    "date": "2026-08-29",
-    "league": "Premiership",
-    "ha": "H"
-   },
    {
     "r": "W",
     "score": "3-0",
@@ -959,20 +939,20 @@
     "date": "2026-09-13",
     "league": "League Cup",
     "ha": "A"
+   },
+   {
+    "r": "L",
+    "score": "1-3",
+    "home": "Celtic",
+    "away": "Ferencvárosi",
+    "opp": "Ferencvárosi",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png",
+    "date": "2026-09-17",
+    "league": "Europa League",
+    "ha": "H"
    }
   ],
   "away": [
-   {
-    "r": "D",
-    "score": "2-2",
-    "home": "Ferencvárosi",
-    "away": "FC Twente",
-    "opp": "FC Twente",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/17/593.png",
-    "date": "2026-07-30",
-    "league": "Europa League",
-    "ha": "H"
-   },
    {
     "r": "W",
     "score": "1-0",
@@ -1016,10 +996,32 @@
     "date": "2026-08-27",
     "league": "Europa League",
     "ha": "H"
+   },
+   {
+    "r": "W",
+    "score": "1-3",
+    "home": "Celtic",
+    "away": "Ferencvárosi",
+    "opp": "Celtic",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+    "date": "2026-09-17",
+    "league": "Europa League",
+    "ha": "A"
    }
   ]
  },
  "h2h": [
+  {
+   "r": "L",
+   "score": "1-3",
+   "home": "Celtic",
+   "away": "Ferencvárosi",
+   "opp": "Ferencvárosi",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png",
+   "date": "2026-09-17",
+   "league": "Europa League",
+   "ha": "H"
+  },
   {
    "r": "W",
    "score": "2-3",
@@ -1138,5 +1140,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2390
+ "updated_at": "2026-09-17T21:04:17.351877+00:00"
 }
