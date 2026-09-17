@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T19:11:30.628549+00:00",
+ "updated_at": "2026-09-17T19:20:00.585613+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -339,16 +339,16 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 10,
+ "minute": 19,
  "minute_estimated": false,
  "added_time": null,
  "score": {
   "home": 0,
-  "away": 0
+  "away": 1
  },
  "half_time": {
   "home": 0,
-  "away": 0
+  "away": 1
  },
  "events": [],
  "stats": {
@@ -361,28 +361,32 @@
    "away": 1
   },
   "Shots Total": {
-   "home": 3,
+   "home": 4,
    "away": 1
   },
   "Attacks": {
-   "home": 16,
-   "away": 5
+   "home": 29,
+   "away": 14
   },
   "Dangerous Attacks": {
-   "home": 12,
-   "away": 6
+   "home": 19,
+   "away": 9
   },
   "Ball Possession %": {
-   "home": 69,
-   "away": 31
+   "home": 71,
+   "away": 29
   },
   "Shots Insidebox": {
-   "home": 3,
-   "away": 0
+   "home": 4,
+   "away": 1
   },
   "Offsides": {
    "home": 1,
    "away": 0
+  },
+  "Goals": {
+   "home": 0,
+   "away": 1
   },
   "Goal Kicks": {
    "home": 1,
@@ -390,9 +394,13 @@
   },
   "Free Kicks": {
    "home": 1,
-   "away": 0
+   "away": 1
   },
   "Fouls": {
+   "home": 1,
+   "away": 1
+  },
+  "Saves": {
    "home": 0,
    "away": 1
   },
@@ -402,67 +410,79 @@
   },
   "Throwins": {
    "home": 2,
-   "away": 0
+   "away": 1
   },
   "Long Passes": {
-   "home": 6,
-   "away": 3
+   "home": 9,
+   "away": 7
   },
   "Tackles": {
    "home": 2,
    "away": 1
   },
   "Passes": {
-   "home": 79,
-   "away": 36
+   "home": 159,
+   "away": 65
   },
   "Successful Passes": {
-   "home": 74,
-   "away": 29
+   "home": 151,
+   "away": 54
   },
   "Successful Passes Percentage": {
-   "home": 94,
-   "away": 81
+   "home": 95,
+   "away": 83
+  },
+  "Shots On Target": {
+   "home": 1,
+   "away": 0
   },
   "Total Crosses": {
-   "home": 7,
-   "away": 3
+   "home": 10,
+   "away": 4
   },
   "Accurate Crosses": {
-   "home": 2,
-   "away": 1
+   "home": 4,
+   "away": 2
   },
   "Interceptions": {
    "home": 1,
    "away": 1
   },
   "Duels Won": {
-   "home": 5,
-   "away": 2
+   "home": 7,
+   "away": 4
   },
   "Dribble Attempts": {
-   "home": 2,
-   "away": 1
+   "home": 4,
+   "away": 2
   },
   "Successful Dribbles": {
-   "home": 1,
-   "away": 0
-  },
-  "Key Passes": {
-   "home": 2,
-   "away": 1
-  },
-  "Successful Dribbles Percentage": {
-   "home": 50,
-   "away": 0
-  },
-  "Successful Long Passes": {
    "home": 3,
    "away": 1
   },
+  "Key Passes": {
+   "home": 3,
+   "away": 0
+  },
+  "Big Chances Created": {
+   "home": 1,
+   "away": 0
+  },
+  "Big Chances Missed": {
+   "home": 1,
+   "away": 0
+  },
+  "Successful Dribbles Percentage": {
+   "home": 75,
+   "away": 50
+  },
+  "Successful Long Passes": {
+   "home": 6,
+   "away": 1
+  },
   "Successful Long Passes Percentage": {
-   "home": 50,
-   "away": 33
+   "home": 67,
+   "away": 14
   },
   "Tackles Won": {
    "home": 1,
@@ -901,5 +921,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2470
+ "rate_remaining": 2453
 }
