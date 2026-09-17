@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T19:46:30.565672+00:00",
+ "updated_at": "2026-09-17T19:47:00.597905+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -337,11 +337,11 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "INPLAY_1ST_HALF",
- "state_name": "1st Half",
- "minute": 45,
+ "state": "HT",
+ "state_name": "Half Time",
+ "minute": 46,
  "minute_estimated": false,
- "added_time": 1,
+ "added_time": 2,
  "score": {
   "home": 1,
   "away": 2
@@ -373,6 +373,18 @@
    "player": "Mika Baur",
    "related": "Kieran Tierney",
    "result": "1-1",
+   "info": "Right foot shot"
+  },
+  {
+   "id": 157940861,
+   "minute": 45,
+   "extra": 1,
+   "type": "Goal",
+   "side": "away",
+   "team": "Ferencvárosi",
+   "player": "Kristoffer Zachariassen",
+   "related": "Bamidele Yusuf",
+   "result": "1-2",
    "info": "Right foot shot"
   }
  ],
@@ -422,7 +434,7 @@
    "away": 2
   },
   "Free Kicks": {
-   "home": 5,
+   "home": 6,
    "away": 5
   },
   "Fouls": {
@@ -439,14 +451,14 @@
   },
   "Throwins": {
    "home": 5,
-   "away": 11
+   "away": 12
   },
   "Long Passes": {
    "home": 18,
    "away": 16
   },
   "Tackles": {
-   "home": 8,
+   "home": 9,
    "away": 5
   },
   "Assists": {
@@ -454,12 +466,12 @@
    "away": 1
   },
   "Passes": {
-   "home": 291,
-   "away": 171
+   "home": 294,
+   "away": 176
   },
   "Successful Passes": {
-   "home": 270,
-   "away": 142
+   "home": 272,
+   "away": 146
   },
   "Successful Passes Percentage": {
    "home": 93,
@@ -487,11 +499,11 @@
   },
   "Dribble Attempts": {
    "home": 5,
-   "away": 5
+   "away": 7
   },
   "Successful Dribbles": {
    "home": 3,
-   "away": 2
+   "away": 4
   },
   "Key Passes": {
    "home": 6,
@@ -507,7 +519,7 @@
   },
   "Successful Dribbles Percentage": {
    "home": 60,
-   "away": 40
+   "away": 57
   },
   "Successful Long Passes": {
    "home": 10,
@@ -518,7 +530,7 @@
    "away": 25
   },
   "Tackles Won": {
-   "home": 5,
+   "home": 6,
    "away": 5
   }
  },
@@ -954,5 +966,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2400
+ "rate_remaining": 2399
 }
