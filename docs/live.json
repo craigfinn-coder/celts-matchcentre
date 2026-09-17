@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:02:30.611307+00:00",
+ "updated_at": "2026-09-17T20:03:00.566009+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -337,8 +337,8 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "HT",
- "state_name": "Half Time",
+ "state": "INPLAY_2ND_HALF",
+ "state_name": "2nd Half",
  "minute": 45,
  "minute_estimated": false,
  "added_time": null,
@@ -982,5 +982,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2489
+ "rate_remaining": 2488
 }
