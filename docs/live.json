@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T19:45:30.562799+00:00",
+ "updated_at": "2026-09-17T19:46:30.565672+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -339,16 +339,16 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 44,
+ "minute": 45,
  "minute_estimated": false,
- "added_time": null,
+ "added_time": 1,
  "score": {
   "home": 1,
-  "away": 1
+  "away": 2
  },
  "half_time": {
   "home": 1,
-  "away": 1
+  "away": 2
  },
  "events": [
   {
@@ -386,16 +386,16 @@
    "away": 3
   },
   "Shots Total": {
-   "home": 6,
+   "home": 7,
    "away": 8
   },
   "Attacks": {
    "home": 45,
-   "away": 39
+   "away": 43
   },
   "Dangerous Attacks": {
    "home": 31,
-   "away": 27
+   "away": 29
   },
   "Ball Possession %": {
    "home": 63,
@@ -415,7 +415,7 @@
   },
   "Goals": {
    "home": 1,
-   "away": 1
+   "away": 2
   },
   "Goal Kicks": {
    "home": 6,
@@ -455,18 +455,18 @@
   },
   "Passes": {
    "home": 291,
-   "away": 170
+   "away": 171
   },
   "Successful Passes": {
    "home": 270,
-   "away": 141
+   "away": 142
   },
   "Successful Passes Percentage": {
    "home": 93,
    "away": 83
   },
   "Shots On Target": {
-   "home": 2,
+   "home": 3,
    "away": 3
   },
   "Total Crosses": {
@@ -482,8 +482,8 @@
    "away": 2
   },
   "Duels Won": {
-   "home": 20,
-   "away": 16
+   "home": 22,
+   "away": 19
   },
   "Dribble Attempts": {
    "home": 5,
@@ -494,8 +494,8 @@
    "away": 2
   },
   "Key Passes": {
-   "home": 4,
-   "away": 6
+   "home": 6,
+   "away": 7
   },
   "Big Chances Created": {
    "home": 2,
@@ -954,5 +954,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2402
+ "rate_remaining": 2400
 }
