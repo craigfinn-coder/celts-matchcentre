@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:05:30.592348+00:00",
+ "updated_at": "2026-09-17T20:15:00.560944+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -339,7 +339,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 47,
+ "minute": 57,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -422,40 +422,64 @@
    "related": "Bamidele Yusuf",
    "result": "1-3",
    "info": "Right foot shot"
+  },
+  {
+   "id": 157941032,
+   "minute": 57,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Benjamin Nygren",
+   "related": "Haissem Hassan",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157941033,
+   "minute": 57,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Sebastian Tounekti",
+   "related": "James Forrest",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
   "Corners": {
    "home": 6,
-   "away": 2
+   "away": 3
   },
   "Shots Off Target": {
-   "home": 1,
+   "home": 2,
    "away": 3
   },
   "Shots Total": {
-   "home": 7,
-   "away": 9
+   "home": 9,
+   "away": 11
   },
   "Attacks": {
-   "home": 48,
-   "away": 45
+   "home": 55,
+   "away": 63
   },
   "Dangerous Attacks": {
-   "home": 34,
-   "away": 30
+   "home": 39,
+   "away": 43
   },
   "Ball Possession %": {
-   "home": 62,
-   "away": 38
+   "home": 60,
+   "away": 40
   },
   "Shots Insidebox": {
-   "home": 5,
+   "home": 6,
    "away": 6
   },
   "Shots Outsidebox": {
-   "home": 2,
-   "away": 4
+   "home": 3,
+   "away": 5
   },
   "Offsides": {
    "home": 1,
@@ -466,15 +490,15 @@
    "away": 3
   },
   "Goal Kicks": {
-   "home": 6,
-   "away": 2
+   "home": 8,
+   "away": 3
   },
   "Free Kicks": {
    "home": 7,
-   "away": 5
+   "away": 7
   },
   "Fouls": {
-   "home": 5,
+   "home": 7,
    "away": 7
   },
   "Saves": {
@@ -482,72 +506,72 @@
    "away": 2
   },
   "Shots Blocked": {
-   "home": 3,
-   "away": 2
+   "home": 4,
+   "away": 3
   },
   "Substitutions": {
-   "home": 1,
+   "home": 3,
    "away": 1
   },
   "Throwins": {
-   "home": 5,
-   "away": 13
+   "home": 9,
+   "away": 14
   },
   "Long Passes": {
-   "home": 19,
-   "away": 17
+   "home": 24,
+   "away": 21
   },
   "Tackles": {
-   "home": 9,
-   "away": 5
+   "home": 12,
+   "away": 7
   },
   "Assists": {
    "home": 1,
-   "away": 2
+   "away": 3
   },
   "Passes": {
-   "home": 303,
-   "away": 188
+   "home": 350,
+   "away": 232
   },
   "Successful Passes": {
-   "home": 279,
-   "away": 156
+   "home": 315,
+   "away": 195
   },
   "Successful Passes Percentage": {
-   "home": 92,
-   "away": 83
+   "home": 90,
+   "away": 84
   },
   "Shots On Target": {
    "home": 3,
-   "away": 4
+   "away": 5
   },
   "Total Crosses": {
-   "home": 15,
-   "away": 10
+   "home": 19,
+   "away": 14
   },
   "Accurate Crosses": {
    "home": 6,
    "away": 3
   },
   "Interceptions": {
-   "home": 6,
-   "away": 2
+   "home": 8,
+   "away": 5
   },
   "Duels Won": {
-   "home": 25,
-   "away": 19
+   "home": 29,
+   "away": 25
   },
   "Dribble Attempts": {
    "home": 5,
-   "away": 7
+   "away": 10
   },
   "Successful Dribbles": {
    "home": 3,
    "away": 4
   },
   "Key Passes": {
-   "home": 6,
-   "away": 9
+   "home": 7,
+   "away": 10
   },
   "Big Chances Created": {
    "home": 2,
@@ -559,19 +583,19 @@
   },
   "Successful Dribbles Percentage": {
    "home": 60,
-   "away": 57
+   "away": 40
   },
   "Successful Long Passes": {
-   "home": 11,
-   "away": 5
+   "home": 13,
+   "away": 6
   },
   "Successful Long Passes Percentage": {
-   "home": 58,
+   "home": 54,
    "away": 29
   },
   "Tackles Won": {
-   "home": 6,
-   "away": 5
+   "home": 9,
+   "away": 7
   }
  },
  "next_fixtures": [
@@ -1006,5 +1030,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2483
+ "rate_remaining": 2464
 }
