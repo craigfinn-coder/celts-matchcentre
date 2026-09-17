@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T19:20:00.585613+00:00",
+ "updated_at": "2026-09-17T19:20:30.531448+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -350,7 +350,20 @@
   "home": 0,
   "away": 1
  },
- "events": [],
+ "events": [
+  {
+   "id": 157940591,
+   "minute": 20,
+   "extra": null,
+   "type": "Goal",
+   "side": "away",
+   "team": "Ferencvárosi",
+   "player": "Bamidele Yusuf",
+   "related": null,
+   "result": "0-1",
+   "info": "Right foot shot"
+  }
+ ],
  "stats": {
   "Corners": {
    "home": 3,
@@ -373,8 +386,8 @@
    "away": 9
   },
   "Ball Possession %": {
-   "home": 71,
-   "away": 29
+   "home": 67,
+   "away": 33
   },
   "Shots Insidebox": {
    "home": 4,
@@ -389,7 +402,7 @@
    "away": 1
   },
   "Goal Kicks": {
-   "home": 1,
+   "home": 2,
    "away": 2
   },
   "Free Kicks": {
@@ -410,7 +423,7 @@
   },
   "Throwins": {
    "home": 2,
-   "away": 1
+   "away": 2
   },
   "Long Passes": {
    "home": 9,
@@ -421,16 +434,16 @@
    "away": 1
   },
   "Passes": {
-   "home": 159,
-   "away": 65
+   "home": 160,
+   "away": 82
   },
   "Successful Passes": {
-   "home": 151,
-   "away": 54
+   "home": 152,
+   "away": 71
   },
   "Successful Passes Percentage": {
    "home": 95,
-   "away": 83
+   "away": 87
   },
   "Shots On Target": {
    "home": 1,
@@ -462,7 +475,7 @@
   },
   "Key Passes": {
    "home": 3,
-   "away": 0
+   "away": 1
   },
   "Big Chances Created": {
    "home": 1,
@@ -921,5 +934,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2453
+ "rate_remaining": 2452
 }
