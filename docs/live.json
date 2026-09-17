@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:38:00.568363+00:00",
+ "updated_at": "2026-09-17T20:39:30.614260+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -339,7 +339,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 80,
+ "minute": 81,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -506,6 +506,18 @@
    "related": "Colby Donovan",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157941251,
+   "minute": 81,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Ferencvárosi",
+   "player": "Nathan Zohoré",
+   "related": "Mariano Gómez",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -522,12 +534,12 @@
    "away": 13
   },
   "Attacks": {
-   "home": 78,
-   "away": 87
+   "home": 79,
+   "away": 88
   },
   "Dangerous Attacks": {
-   "home": 54,
-   "away": 49
+   "home": 55,
+   "away": 50
   },
   "Ball Possession %": {
    "home": 61,
@@ -555,19 +567,19 @@
   },
   "Goal Kicks": {
    "home": 11,
-   "away": 5
+   "away": 6
   },
   "Goal Attempts": {
    "home": 5,
    "away": 6
   },
   "Free Kicks": {
-   "home": 10,
+   "home": 11,
    "away": 14
   },
   "Fouls": {
    "home": 14,
-   "away": 10
+   "away": 11
   },
   "Saves": {
    "home": 3,
@@ -579,7 +591,7 @@
   },
   "Substitutions": {
    "home": 5,
-   "away": 4
+   "away": 5
   },
   "Throwins": {
    "home": 13,
@@ -587,10 +599,10 @@
   },
   "Long Passes": {
    "home": 33,
-   "away": 34
+   "away": 36
   },
   "Tackles": {
-   "home": 16,
+   "home": 17,
    "away": 8
   },
   "Assists": {
@@ -598,16 +610,16 @@
    "away": 3
   },
   "Passes": {
-   "home": 483,
-   "away": 314
+   "home": 493,
+   "away": 319
   },
   "Successful Passes": {
-   "home": 432,
-   "away": 260
+   "home": 441,
+   "away": 263
   },
   "Successful Passes Percentage": {
    "home": 89,
-   "away": 83
+   "away": 82
   },
   "Shots On Target": {
    "home": 4,
@@ -626,12 +638,12 @@
    "away": 9
   },
   "Duels Won": {
-   "home": 38,
+   "home": 40,
    "away": 34
   },
   "Dribble Attempts": {
    "home": 7,
-   "away": 14
+   "away": 15
   },
   "Successful Dribbles": {
    "home": 5,
@@ -651,7 +663,7 @@
   },
   "Successful Dribbles Percentage": {
    "home": 71,
-   "away": 36
+   "away": 33
   },
   "Successful Long Passes": {
    "home": 17,
@@ -659,7 +671,7 @@
   },
   "Successful Long Passes Percentage": {
    "home": 52,
-   "away": 38
+   "away": 36
   },
   "Tackles Won": {
    "home": 11,
@@ -1098,5 +1110,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2418
+ "rate_remaining": 2415
 }
