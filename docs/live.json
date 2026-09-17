@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T19:44:30.574914+00:00",
+ "updated_at": "2026-09-17T19:45:00.687763+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -339,7 +339,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 43,
+ "minute": 44,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -362,6 +362,18 @@
    "related": "Kristoffer Zachariassen",
    "result": "0-1",
    "info": "Right foot shot"
+  },
+  {
+   "id": 157940840,
+   "minute": 44,
+   "extra": null,
+   "type": "Goal",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Mika Baur",
+   "related": "Kieran Tierney",
+   "result": "1-1",
+   "info": "Left foot shot"
   }
  ],
  "stats": {
@@ -442,11 +454,11 @@
    "away": 1
   },
   "Passes": {
-   "home": 287,
+   "home": 289,
    "away": 170
   },
   "Successful Passes": {
-   "home": 266,
+   "home": 268,
    "away": 141
   },
   "Successful Passes Percentage": {
@@ -942,5 +954,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2404
+ "rate_remaining": 2403
 }
