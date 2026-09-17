@@ -317,11 +317,11 @@
      "id": 114226
     },
     {
-     "name": "Yusuf Bamidele",
+     "name": "Bamidele Yusuf",
      "num": 11,
      "pos": null,
      "field": "4:3",
-     "id": null
+     "id": 37430761
     },
     {
      "name": "Kristoffer Zachariassen",
@@ -335,7 +335,7 @@
      "num": 17,
      "pos": null,
      "field": "3:1",
-     "id": null
+     "id": 37265956
     },
     {
      "name": "Cadu",
@@ -359,11 +359,11 @@
      "id": 3145
     },
     {
-     "name": "Oliver Nagy",
+     "name": "Olivér Nagy",
      "num": 54,
      "pos": null,
      "field": "2:4",
-     "id": null
+     "id": 37579271
     },
     {
      "name": "Lenny Joseph",
@@ -1230,5 +1230,5 @@
    }
   }
  },
- "updated_at": "2026-09-16T17:04:02.448660+00:00"
+ "updated_at": "2026-09-17T00:05:15.966857+00:00"
 }
