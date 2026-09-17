@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:24:00.649460+00:00",
+ "updated_at": "2026-09-17T20:24:30.579269+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -468,6 +468,18 @@
    "team": "Celtic",
    "player": "Luke McCowan",
    "related": "Mika Baur",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157941117,
+   "minute": 66,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Ferencvárosi",
+   "player": "Callum O'Dowda",
+   "related": "Daniel Arzani",
    "result": null,
    "info": null
   }
@@ -1062,5 +1074,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2446
+ "rate_remaining": 2445
 }
