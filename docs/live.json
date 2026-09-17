@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T19:45:00.687763+00:00",
+ "updated_at": "2026-09-17T19:45:30.562799+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -373,7 +373,7 @@
    "player": "Mika Baur",
    "related": "Kieran Tierney",
    "result": "1-1",
-   "info": "Left foot shot"
+   "info": "Right foot shot"
   }
  ],
  "stats": {
@@ -402,7 +402,7 @@
    "away": 37
   },
   "Shots Insidebox": {
-   "home": 4,
+   "home": 5,
    "away": 5
   },
   "Shots Outsidebox": {
@@ -450,15 +450,15 @@
    "away": 5
   },
   "Assists": {
-   "home": 0,
+   "home": 1,
    "away": 1
   },
   "Passes": {
-   "home": 289,
+   "home": 291,
    "away": 170
   },
   "Successful Passes": {
-   "home": 268,
+   "home": 270,
    "away": 141
   },
   "Successful Passes Percentage": {
@@ -498,7 +498,7 @@
    "away": 6
   },
   "Big Chances Created": {
-   "home": 1,
+   "home": 2,
    "away": 1
   },
   "Big Chances Missed": {
@@ -954,5 +954,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2403
+ "rate_remaining": 2402
 }
