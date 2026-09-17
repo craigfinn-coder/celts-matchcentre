@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:45:00.614373+00:00",
+ "updated_at": "2026-09-17T20:46:00.592762+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -339,7 +339,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 87,
+ "minute": 88,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -529,7 +529,19 @@
    "player": "Jonathan Levi",
    "related": null,
    "result": null,
-   "info": "Diving"
+   "info": "Simulation"
+  },
+  {
+   "id": 157941325,
+   "minute": 87,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Ferencvárosi",
+   "player": "Attila Osváth",
+   "related": null,
+   "result": null,
+   "info": "Tripping"
   }
  ],
  "stats": {
@@ -546,7 +558,7 @@
    "away": 14
   },
   "Attacks": {
-   "home": 85,
+   "home": 87,
    "away": 95
   },
   "Dangerous Attacks": {
@@ -586,12 +598,12 @@
    "away": 6
   },
   "Free Kicks": {
-   "home": 12,
+   "home": 13,
    "away": 17
   },
   "Fouls": {
    "home": 17,
-   "away": 12
+   "away": 13
   },
   "Saves": {
    "home": 3,
@@ -615,19 +627,19 @@
   },
   "Tackles": {
    "home": 18,
-   "away": 8
+   "away": 9
   },
   "Assists": {
    "home": 1,
    "away": 3
   },
   "Passes": {
-   "home": 525,
-   "away": 348
+   "home": 526,
+   "away": 350
   },
   "Successful Passes": {
-   "home": 471,
-   "away": 282
+   "home": 472,
+   "away": 283
   },
   "Successful Passes Percentage": {
    "home": 90,
@@ -654,8 +666,8 @@
    "away": 9
   },
   "Duels Won": {
-   "home": 44,
-   "away": 37
+   "home": 45,
+   "away": 38
   },
   "Dribble Attempts": {
    "home": 7,
@@ -690,7 +702,7 @@
    "away": 37
   },
   "Tackles Won": {
-   "home": 11,
+   "home": 12,
    "away": 8
   }
  },
@@ -1126,5 +1138,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2404
+ "rate_remaining": 2402
 }
