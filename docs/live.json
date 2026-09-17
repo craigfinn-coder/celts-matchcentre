@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:46:00.592762+00:00",
+ "updated_at": "2026-09-17T20:46:30.618450+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -541,7 +541,7 @@
    "player": "Attila Osváth",
    "related": null,
    "result": null,
-   "info": "Tripping"
+   "info": "Foul"
   }
  ],
  "stats": {
@@ -558,11 +558,11 @@
    "away": 14
   },
   "Attacks": {
-   "home": 87,
+   "home": 89,
    "away": 95
   },
   "Dangerous Attacks": {
-   "home": 58,
+   "home": 60,
    "away": 54
   },
   "Ball Possession %": {
@@ -634,11 +634,11 @@
    "away": 3
   },
   "Passes": {
-   "home": 526,
+   "home": 535,
    "away": 350
   },
   "Successful Passes": {
-   "home": 472,
+   "home": 479,
    "away": 283
   },
   "Successful Passes Percentage": {
@@ -647,7 +647,7 @@
   },
   "Yellowcards": {
    "home": 0,
-   "away": 1
+   "away": 2
   },
   "Shots On Target": {
    "home": 4,
@@ -666,8 +666,8 @@
    "away": 9
   },
   "Duels Won": {
-   "home": 45,
-   "away": 38
+   "home": 46,
+   "away": 39
   },
   "Dribble Attempts": {
    "home": 7,
@@ -1138,5 +1138,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2402
+ "rate_remaining": 2401
 }
