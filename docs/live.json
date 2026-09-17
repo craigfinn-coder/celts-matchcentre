@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T19:01:00.581752+00:00",
+ "updated_at": "2026-09-17T19:11:30.628549+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -52,46 +52,46 @@
      "id": 172960
     },
     {
-     "name": "Oliver Sørensen",
-     "num": 18,
-     "pos": 6,
-     "field": "3:1",
-     "id": 23698076
-    },
-    {
      "name": "Callum McGregor",
      "num": 42,
-     "pos": 7,
-     "field": "3:2",
+     "pos": 6,
+     "field": "3:1",
      "id": 8585
     },
     {
      "name": "Mika Baur",
      "num": 22,
-     "pos": 8,
-     "field": "3:3",
+     "pos": 7,
+     "field": "3:2",
      "id": 37582048
     },
     {
      "name": "Haissem Hassan",
      "num": 23,
-     "pos": 9,
+     "pos": 8,
      "field": "4:1",
      "id": 18584306
     },
     {
-     "name": "Camilo Durán",
-     "num": 11,
-     "pos": 10,
+     "name": "Oliver Sørensen",
+     "num": 18,
+     "pos": 9,
      "field": "4:2",
-     "id": 37709508
+     "id": 23698076
     },
     {
      "name": "James Forrest",
      "num": 49,
-     "pos": 11,
+     "pos": 10,
      "field": "4:3",
      "id": 172104
+    },
+    {
+     "name": "Camilo Durán",
+     "num": 11,
+     "pos": 11,
+     "field": "5:1",
+     "id": 37709508
     }
    ],
    "bench": [
@@ -166,7 +166,7 @@
      "id": 173129
     }
    ],
-   "formation": "4-3-3"
+   "formation": "4-2-3-1"
   },
   "away": {
    "xi": [
@@ -185,18 +185,18 @@
      "id": 37579271
     },
     {
-     "name": "Mariano Gómez",
-     "num": 4,
-     "pos": 3,
-     "field": "2:3",
-     "id": 6642441
-    },
-    {
      "name": "Toon Raemaekers",
      "num": 28,
+     "pos": 3,
+     "field": "2:3",
+     "id": 37325287
+    },
+    {
+     "name": "Mariano Gómez",
+     "num": 4,
      "pos": 4,
      "field": "2:2",
-     "id": 37325287
+     "id": 6642441
     },
     {
      "name": "Cadu",
@@ -206,18 +206,18 @@
      "id": 13239062
     },
     {
-     "name": "Marius Corbu",
-     "num": 17,
-     "pos": 6,
-     "field": "3:2",
-     "id": 37265956
-    },
-    {
      "name": "Ádám Nagy",
      "num": 6,
+     "pos": 6,
+     "field": "3:2",
+     "id": 114226
+    },
+    {
+     "name": "Marius Corbu",
+     "num": 17,
      "pos": 7,
      "field": "3:1",
-     "id": 114226
+     "id": 37265956
     },
     {
      "name": "Bamidele Yusuf",
@@ -339,7 +339,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 0,
+ "minute": 10,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -352,17 +352,121 @@
  },
  "events": [],
  "stats": {
-  "Ball Possession %": {
-   "home": 50,
-   "away": 50
+  "Corners": {
+   "home": 3,
+   "away": 0
   },
-  "Passes": {
+  "Shots Off Target": {
+   "home": 1,
+   "away": 1
+  },
+  "Shots Total": {
+   "home": 3,
+   "away": 1
+  },
+  "Attacks": {
+   "home": 16,
+   "away": 5
+  },
+  "Dangerous Attacks": {
+   "home": 12,
+   "away": 6
+  },
+  "Ball Possession %": {
+   "home": 69,
+   "away": 31
+  },
+  "Shots Insidebox": {
+   "home": 3,
+   "away": 0
+  },
+  "Offsides": {
    "home": 1,
    "away": 0
   },
-  "Successful Dribbles Percentage": {
-   "home": 0,
+  "Goal Kicks": {
+   "home": 1,
+   "away": 2
+  },
+  "Free Kicks": {
+   "home": 1,
    "away": 0
+  },
+  "Fouls": {
+   "home": 0,
+   "away": 1
+  },
+  "Shots Blocked": {
+   "home": 2,
+   "away": 0
+  },
+  "Throwins": {
+   "home": 2,
+   "away": 0
+  },
+  "Long Passes": {
+   "home": 6,
+   "away": 3
+  },
+  "Tackles": {
+   "home": 2,
+   "away": 1
+  },
+  "Passes": {
+   "home": 79,
+   "away": 36
+  },
+  "Successful Passes": {
+   "home": 74,
+   "away": 29
+  },
+  "Successful Passes Percentage": {
+   "home": 94,
+   "away": 81
+  },
+  "Total Crosses": {
+   "home": 7,
+   "away": 3
+  },
+  "Accurate Crosses": {
+   "home": 2,
+   "away": 1
+  },
+  "Interceptions": {
+   "home": 1,
+   "away": 1
+  },
+  "Duels Won": {
+   "home": 5,
+   "away": 2
+  },
+  "Dribble Attempts": {
+   "home": 2,
+   "away": 1
+  },
+  "Successful Dribbles": {
+   "home": 1,
+   "away": 0
+  },
+  "Key Passes": {
+   "home": 2,
+   "away": 1
+  },
+  "Successful Dribbles Percentage": {
+   "home": 50,
+   "away": 0
+  },
+  "Successful Long Passes": {
+   "home": 3,
+   "away": 1
+  },
+  "Successful Long Passes Percentage": {
+   "home": 50,
+   "away": 33
+  },
+  "Tackles Won": {
+   "home": 1,
+   "away": 1
   }
  },
  "next_fixtures": [
@@ -797,5 +901,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2491
+ "rate_remaining": 2470
 }
