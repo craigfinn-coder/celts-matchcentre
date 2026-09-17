@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T18:05:44.529343+00:00",
+ "updated_at": "2026-09-17T18:06:00.793314+00:00",
  "live": false,
  "state": "NS",
  "state_name": "Not started",
@@ -451,5 +451,329 @@
    "team_id": 314,
    "goals": 2
   }
- ]
+ ],
+ "lineups": {
+  "home": {
+   "xi": [
+    {
+     "name": "Viljami Sinisalo",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 529045
+    },
+    {
+     "name": "Colby Donovan",
+     "num": 51,
+     "pos": 2,
+     "field": "2:1",
+     "id": 37732189
+    },
+    {
+     "name": "Cameron Carter-Vickers",
+     "num": 20,
+     "pos": 3,
+     "field": "2:2",
+     "id": 1712
+    },
+    {
+     "name": "Liam Scales",
+     "num": 5,
+     "pos": 4,
+     "field": "2:3",
+     "id": 123659
+    },
+    {
+     "name": "Kieran Tierney",
+     "num": 63,
+     "pos": 5,
+     "field": "2:4",
+     "id": 172960
+    },
+    {
+     "name": "Oliver Sørensen",
+     "num": 18,
+     "pos": 6,
+     "field": "3:1",
+     "id": 23698076
+    },
+    {
+     "name": "Callum McGregor",
+     "num": 42,
+     "pos": 7,
+     "field": "3:2",
+     "id": 8585
+    },
+    {
+     "name": "Mika Baur",
+     "num": 22,
+     "pos": 8,
+     "field": "3:3",
+     "id": 37582048
+    },
+    {
+     "name": "Haissem Hassan",
+     "num": 23,
+     "pos": 9,
+     "field": "4:1",
+     "id": 18584306
+    },
+    {
+     "name": "Camilo Durán",
+     "num": 11,
+     "pos": 10,
+     "field": "4:2",
+     "id": 37709508
+    },
+    {
+     "name": "James Forrest",
+     "num": 49,
+     "pos": 11,
+     "field": "4:3",
+     "id": 172104
+    }
+   ],
+   "bench": [
+    {
+     "name": "Jordan Lotomba",
+     "num": 3,
+     "pos": null,
+     "field": null,
+     "id": 198116
+    },
+    {
+     "name": "Auston Trusty",
+     "num": 6,
+     "pos": null,
+     "field": null,
+     "id": 262280
+    },
+    {
+     "name": "Benjamin Nygren",
+     "num": 8,
+     "pos": null,
+     "field": null,
+     "id": 19979885
+    },
+    {
+     "name": "Kasper Høgh",
+     "num": 9,
+     "pos": null,
+     "field": null,
+     "id": 15061513
+    },
+    {
+     "name": "Luke McCowan",
+     "num": 14,
+     "pos": null,
+     "field": null,
+     "id": 1548366
+    },
+    {
+     "name": "Sebastian Tounekti",
+     "num": 17,
+     "pos": null,
+     "field": null,
+     "id": 15169863
+    },
+    {
+     "name": "Sam Johnstone",
+     "num": 26,
+     "pos": null,
+     "field": null,
+     "id": 1008
+    },
+    {
+     "name": "Ross Doohan",
+     "num": 31,
+     "pos": null,
+     "field": null,
+     "id": 378093
+    },
+    {
+     "name": "Dane Murray",
+     "num": 47,
+     "pos": null,
+     "field": null,
+     "id": 37342595
+    },
+    {
+     "name": "Anthony Ralston",
+     "num": 56,
+     "pos": null,
+     "field": null,
+     "id": 173129
+    }
+   ],
+   "formation": "4-3-3"
+  },
+  "away": {
+   "xi": [
+    {
+     "name": "Ádám Varga",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 114676
+    },
+    {
+     "name": "Olivér Nagy",
+     "num": 54,
+     "pos": 2,
+     "field": "2:4",
+     "id": 37579271
+    },
+    {
+     "name": "Mariano Gómez",
+     "num": 4,
+     "pos": 3,
+     "field": "2:3",
+     "id": 6642441
+    },
+    {
+     "name": "Toon Raemaekers",
+     "num": 28,
+     "pos": 4,
+     "field": "2:2",
+     "id": 37325287
+    },
+    {
+     "name": "Cadu",
+     "num": 20,
+     "pos": 5,
+     "field": "2:1",
+     "id": 13239062
+    },
+    {
+     "name": "Marius Corbu",
+     "num": 17,
+     "pos": 6,
+     "field": "3:2",
+     "id": 37265956
+    },
+    {
+     "name": "Ádám Nagy",
+     "num": 6,
+     "pos": 7,
+     "field": "3:1",
+     "id": 114226
+    },
+    {
+     "name": "Bamidele Yusuf",
+     "num": 11,
+     "pos": 8,
+     "field": "4:3",
+     "id": 37430761
+    },
+    {
+     "name": "Kristoffer Zachariassen",
+     "num": 16,
+     "pos": 9,
+     "field": "4:2",
+     "id": 153069
+    },
+    {
+     "name": "Daniel Arzani",
+     "num": 15,
+     "pos": 10,
+     "field": "4:1",
+     "id": 749543
+    },
+    {
+     "name": "Á. Bagi",
+     "num": 18,
+     "pos": 11,
+     "field": "5:1",
+     "id": 37670507
+    }
+   ],
+   "bench": [
+    {
+     "name": "Nathan Zohoré",
+     "num": 5,
+     "pos": null,
+     "field": null,
+     "id": 22168911
+    },
+    {
+     "name": "Veljko Birmancevic",
+     "num": 7,
+     "pos": null,
+     "field": null,
+     "id": 2510860
+    },
+    {
+     "name": "Naby Keïta",
+     "num": 8,
+     "pos": null,
+     "field": null,
+     "id": 32640
+    },
+    {
+     "name": "Jonathan Levi",
+     "num": 10,
+     "pos": null,
+     "field": null,
+     "id": 430349
+    },
+    {
+     "name": "Attila Osváth",
+     "num": 14,
+     "pos": null,
+     "field": null,
+     "id": 114115
+    },
+    {
+     "name": "Franko Kovacevic",
+     "num": 19,
+     "pos": null,
+     "field": null,
+     "id": 1525030
+    },
+    {
+     "name": "Matus Bero",
+     "num": 22,
+     "pos": null,
+     "field": null,
+     "id": 180916
+    },
+    {
+     "name": "Callum O'Dowda",
+     "num": 47,
+     "pos": null,
+     "field": null,
+     "id": 3145
+    },
+    {
+     "name": "Csongor Lakatos",
+     "num": 71,
+     "pos": null,
+     "field": null,
+     "id": 37765180
+    },
+    {
+     "name": "Ádám Madarász",
+     "num": 72,
+     "pos": null,
+     "field": null,
+     "id": 37719890
+    },
+    {
+     "name": "Krisztián Lisztes",
+     "num": 76,
+     "pos": null,
+     "field": null,
+     "id": 37600777
+    },
+    {
+     "name": "Dénes Dibusz",
+     "num": 90,
+     "pos": null,
+     "field": null,
+     "id": 113025
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ }
 }
