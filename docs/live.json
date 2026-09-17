@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-17T20:44:30.574432+00:00",
+ "updated_at": "2026-09-17T20:45:00.614373+00:00",
  "live": true,
  "fixture": {
   "id": 19873900,
@@ -339,7 +339,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 86,
+ "minute": 87,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -529,7 +529,7 @@
    "player": "Jonathan Levi",
    "related": null,
    "result": null,
-   "info": null
+   "info": "Diving"
   }
  ],
  "stats": {
@@ -551,7 +551,7 @@
   },
   "Dangerous Attacks": {
    "home": 58,
-   "away": 51
+   "away": 54
   },
   "Ball Possession %": {
    "home": 61,
@@ -586,12 +586,12 @@
    "away": 6
   },
   "Free Kicks": {
-   "home": 11,
+   "home": 12,
    "away": 17
   },
   "Fouls": {
    "home": 17,
-   "away": 11
+   "away": 12
   },
   "Saves": {
    "home": 3,
@@ -607,14 +607,14 @@
   },
   "Throwins": {
    "home": 13,
-   "away": 17
+   "away": 18
   },
   "Long Passes": {
    "home": 37,
-   "away": 42
+   "away": 43
   },
   "Tackles": {
-   "home": 17,
+   "home": 18,
    "away": 8
   },
   "Assists": {
@@ -622,12 +622,12 @@
    "away": 3
   },
   "Passes": {
-   "home": 523,
-   "away": 340
+   "home": 525,
+   "away": 348
   },
   "Successful Passes": {
-   "home": 469,
-   "away": 275
+   "home": 471,
+   "away": 282
   },
   "Successful Passes Percentage": {
    "home": 90,
@@ -643,23 +643,23 @@
   },
   "Total Crosses": {
    "home": 35,
-   "away": 16
+   "away": 17
   },
   "Accurate Crosses": {
    "home": 9,
-   "away": 4
+   "away": 5
   },
   "Interceptions": {
    "home": 10,
    "away": 9
   },
   "Duels Won": {
-   "home": 43,
+   "home": 44,
    "away": 37
   },
   "Dribble Attempts": {
    "home": 7,
-   "away": 15
+   "away": 16
   },
   "Successful Dribbles": {
    "home": 5,
@@ -679,15 +679,15 @@
   },
   "Successful Dribbles Percentage": {
    "home": 71,
-   "away": 33
+   "away": 31
   },
   "Successful Long Passes": {
    "home": 20,
-   "away": 15
+   "away": 16
   },
   "Successful Long Passes Percentage": {
    "home": 54,
-   "away": 36
+   "away": 37
   },
   "Tackles Won": {
    "home": 11,
@@ -1126,5 +1126,5 @@
    "goals": 2
   }
  ],
- "rate_remaining": 2405
+ "rate_remaining": 2404
 }
