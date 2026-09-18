@@ -749,11 +749,11 @@
    },
    "Shots Insidebox": {
     "home": 11,
-    "away": 8
+    "away": 9
    },
    "Shots Outsidebox": {
     "home": 5,
-    "away": 6
+    "away": 5
    },
    "Offsides": {
     "home": 1,
@@ -797,26 +797,26 @@
    },
    "Long Passes": {
     "home": 39,
-    "away": 46
+    "away": 45
    },
    "Tackles": {
     "home": 18,
-    "away": 11
+    "away": 9
    },
    "Assists": {
     "home": 1,
     "away": 3
    },
    "Passes": {
-    "home": 596,
-    "away": 359
+    "home": 594,
+    "away": 361
    },
    "Successful Passes": {
     "home": 533,
     "away": 288
    },
    "Successful Passes Percentage": {
-    "home": 89,
+    "home": 90,
     "away": 80
    },
    "Yellowcards": {
@@ -832,52 +832,52 @@
     "away": 1
    },
    "Total Crosses": {
-    "home": 39,
+    "home": 41,
     "away": 17
    },
    "Accurate Crosses": {
     "home": 10,
-    "away": 5
+    "away": 4
    },
    "Interceptions": {
     "home": 11,
-    "away": 11
+    "away": 13
    },
    "Duels Won": {
-    "home": 47,
-    "away": 41
+    "home": 48,
+    "away": 43
    },
    "Dribble Attempts": {
     "home": 7,
-    "away": 16
+    "away": 20
    },
    "Successful Dribbles": {
-    "home": 5,
-    "away": 5
+    "home": 6,
+    "away": 9
    },
    "Key Passes": {
     "home": 12,
     "away": 12
    },
    "Big Chances Created": {
-    "home": 3,
+    "home": 4,
     "away": 1
    },
    "Big Chances Missed": {
-    "home": 2,
+    "home": 3,
     "away": 1
    },
    "Successful Dribbles Percentage": {
-    "home": 71,
-    "away": 31
+    "home": 86,
+    "away": 45
    },
    "Successful Long Passes": {
     "home": 21,
-    "away": 17
+    "away": 15
    },
    "Successful Long Passes Percentage": {
     "home": 54,
-    "away": 37
+    "away": 33
    },
    "Tackles Won": {
     "home": 12,
@@ -1209,5 +1209,5 @@
    }
   }
  },
- "updated_at": "2026-09-18T01:04:07.156600+00:00"
+ "updated_at": "2026-09-18T13:03:56.914866+00:00"
 }
