@@ -206,14 +206,170 @@
  "stats": {},
  "lineups": {
   "home": {
-   "xi": [],
+   "xi": [
+    {
+     "name": "Sam Johnstone",
+     "num": 26,
+     "pos": 1,
+     "field": "1:1",
+     "id": 1008
+    },
+    {
+     "name": "Colby Donovan",
+     "num": 51,
+     "pos": 2,
+     "field": "2:1",
+     "id": 37732189
+    },
+    {
+     "name": "Cameron Carter-Vickers",
+     "num": 20,
+     "pos": 3,
+     "field": "2:2",
+     "id": 1712
+    },
+    {
+     "name": "Auston Trusty",
+     "num": 6,
+     "pos": 4,
+     "field": "2:3",
+     "id": 262280
+    },
+    {
+     "name": "Liam Scales",
+     "num": 5,
+     "pos": 5,
+     "field": "2:4",
+     "id": 123659
+    },
+    {
+     "name": "Callum McGregor",
+     "num": 42,
+     "pos": 6,
+     "field": "3:1",
+     "id": 8585
+    },
+    {
+     "name": "Mika Baur",
+     "num": 22,
+     "pos": 7,
+     "field": "3:2",
+     "id": 37582048
+    },
+    {
+     "name": "Haissem Hassan",
+     "num": 23,
+     "pos": 8,
+     "field": "4:1",
+     "id": 18584306
+    },
+    {
+     "name": "Oliver Sørensen",
+     "num": 18,
+     "pos": 9,
+     "field": "4:2",
+     "id": 23698076
+    },
+    {
+     "name": "Sebastian Tounekti",
+     "num": 17,
+     "pos": 10,
+     "field": "4:3",
+     "id": 15169863
+    },
+    {
+     "name": "Kasper Høgh",
+     "num": 9,
+     "pos": 11,
+     "field": "5:1",
+     "id": 15061513
+    }
+   ],
    "bench": [],
-   "formation": null
+   "formation": "4-2-3-1"
   },
   "away": {
-   "xi": [],
+   "xi": [
+    {
+     "name": "Ivor Pandur",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 20355429
+    },
+    {
+     "name": "Dujon Sterling",
+     "num": 21,
+     "pos": 2,
+     "field": "2:4",
+     "id": 537665
+    },
+    {
+     "name": "Emmanuel Fernandez",
+     "num": 37,
+     "pos": 3,
+     "field": "2:3",
+     "id": 37577459
+    },
+    {
+     "name": "Olwethu Makhanya",
+     "num": 24,
+     "pos": 4,
+     "field": "2:2",
+     "id": 37664151
+    },
+    {
+     "name": "James Penrice",
+     "num": 29,
+     "pos": 5,
+     "field": "2:1",
+     "id": 173068
+    },
+    {
+     "name": "Nicolas Raskin",
+     "num": 43,
+     "pos": 6,
+     "field": "3:2",
+     "id": 2158212
+    },
+    {
+     "name": "Dan Neil",
+     "num": 6,
+     "pos": 7,
+     "field": "3:1",
+     "id": 23680764
+    },
+    {
+     "name": "Badredine Bouanani",
+     "num": 26,
+     "pos": 8,
+     "field": "4:3",
+     "id": 37423036
+    },
+    {
+     "name": "Min-su Kim",
+     "num": 10,
+     "pos": 9,
+     "field": "4:2",
+     "id": 37671513
+    },
+    {
+     "name": "Djeidi Gassama",
+     "num": 23,
+     "pos": 10,
+     "field": "4:1",
+     "id": 37337029
+    },
+    {
+     "name": "Kevin Kelsy",
+     "num": 19,
+     "pos": 11,
+     "field": "5:1",
+     "id": 37567226
+    }
+   ],
    "bench": [],
-   "formation": null
+   "formation": "4-2-3-1"
   }
  },
  "form": {
@@ -408,17 +564,17 @@
     "missed": 3
    },
    {
-    "player": "Daisuke Yokota",
-    "type": "Groin Surgery",
-    "since": "2026-09-07",
-    "until": null,
-    "missed": 2
-   },
-   {
     "player": "Lawrence Shankland",
     "type": "Torn Thigh Muscle",
     "since": "2026-09-08",
     "until": "2027-01-05",
+    "missed": 2
+   },
+   {
+    "player": "Daisuke Yokota",
+    "type": "Groin Surgery",
+    "since": "2026-09-07",
+    "until": null,
     "missed": 2
    },
    {
@@ -1209,5 +1365,5 @@
    }
   }
  },
- "updated_at": "2026-09-19T07:03:45.375336+00:00"
+ "updated_at": "2026-09-19T09:03:52.430579+00:00"
 }
