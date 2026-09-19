@@ -638,16 +638,16 @@
   },
   {
    "pos": 8,
-   "player": "Martin Boyle",
-   "team": "Hibernian",
-   "team_id": 66,
+   "player": "Lawrence Shankland",
+   "team": "Rangers",
+   "team_id": 62,
    "goals": 3
   },
   {
    "pos": 9,
-   "player": "Lawrence Shankland",
-   "team": "Rangers",
-   "team_id": 62,
+   "player": "Martin Boyle",
+   "team": "Hibernian",
+   "team_id": 66,
    "goals": 3
   },
   {
@@ -1365,5 +1365,5 @@
    }
   }
  },
- "updated_at": "2026-09-19T16:04:20.707600+00:00"
+ "updated_at": "2026-09-19T17:04:00.415208+00:00"
 }
