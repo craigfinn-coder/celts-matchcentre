@@ -32,6 +32,20 @@
   },
   {
    "pos": 2,
+   "team": "Hearts",
+   "team_id": 314,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "pts": 13,
+   "p": 7,
+   "w": 4,
+   "d": 1,
+   "l": 2,
+   "gf": 14,
+   "ga": 8,
+   "gd": 6
+  },
+  {
+   "pos": 3,
    "team": "Rangers",
    "team_id": 62,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
@@ -43,20 +57,6 @@
    "gf": 7,
    "ga": 4,
    "gd": 3
-  },
-  {
-   "pos": 3,
-   "team": "Hearts",
-   "team_id": 314,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-   "pts": 12,
-   "p": 6,
-   "w": 4,
-   "d": 0,
-   "l": 2,
-   "gf": 13,
-   "ga": 7,
-   "gd": 6
   },
   {
    "pos": 4,
@@ -175,13 +175,13 @@
    "team": "Kilmarnock",
    "team_id": 180,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "pts": 4,
-   "p": 6,
+   "pts": 5,
+   "p": 7,
    "w": 1,
-   "d": 1,
+   "d": 2,
    "l": 4,
-   "gf": 5,
-   "ga": 14,
+   "gf": 6,
+   "ga": 15,
    "gd": -9
   }
  ],
@@ -624,16 +624,16 @@
   },
   {
    "pos": 6,
-   "player": "James Wilson",
-   "team": "Hearts",
-   "team_id": 314,
+   "player": "Kasper Høgh",
+   "team": "Celtic",
+   "team_id": 53,
    "goals": 3
   },
   {
    "pos": 7,
-   "player": "Kasper Høgh",
-   "team": "Celtic",
-   "team_id": 53,
+   "player": "James Wilson",
+   "team": "Hearts",
+   "team_id": 314,
    "goals": 3
   },
   {
@@ -1365,5 +1365,5 @@
    }
   }
  },
- "updated_at": "2026-09-19T17:04:00.415208+00:00"
+ "updated_at": "2026-09-19T19:03:43.268227+00:00"
 }
