@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T12:14:00.354947+00:00",
+ "updated_at": "2026-09-20T12:14:30.339937+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 56,
+ "minute": 57,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -370,6 +370,18 @@
    "related": "Luke McCowan",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157985776,
+   "minute": 57,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Rangers",
+   "player": "Min-su Kim",
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
@@ -379,18 +391,18 @@
   },
   "Shots Off Target": {
    "home": 1,
-   "away": 2
+   "away": 3
   },
   "Shots Total": {
    "home": 2,
-   "away": 10
+   "away": 11
   },
   "Attacks": {
-   "home": 45,
-   "away": 82
+   "home": 50,
+   "away": 83
   },
   "Dangerous Attacks": {
-   "home": 22,
+   "home": 24,
    "away": 32
   },
   "Ball Possession %": {
@@ -442,7 +454,7 @@
    "away": 18
   },
   "Long Passes": {
-   "home": 47,
+   "home": 48,
    "away": 52
   },
   "Hit Woodwork": {
@@ -454,27 +466,27 @@
    "away": 8
   },
   "Passes": {
-   "home": 284,
+   "home": 293,
    "away": 215
   },
   "Successful Passes": {
-   "home": 205,
+   "home": 214,
    "away": 141
   },
   "Successful Passes Percentage": {
-   "home": 72,
+   "home": 73,
    "away": 66
   },
   "Yellowcards": {
    "home": 0,
-   "away": 1
+   "away": 2
   },
   "Shots On Target": {
    "home": 1,
    "away": 7
   },
   "Total Crosses": {
-   "home": 12,
+   "home": 13,
    "away": 12
   },
   "Accurate Crosses": {
@@ -499,7 +511,7 @@
   },
   "Key Passes": {
    "home": 2,
-   "away": 7
+   "away": 8
   },
   "Big Chances Created": {
    "home": 1,
@@ -514,11 +526,11 @@
    "away": 55
   },
   "Successful Long Passes": {
-   "home": 14,
+   "home": 15,
    "away": 19
   },
   "Successful Long Passes Percentage": {
-   "home": 30,
+   "home": 31,
    "away": 37
   },
   "Tackles Won": {
@@ -997,5 +1009,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2479
+ "rate_remaining": 2478
 }
