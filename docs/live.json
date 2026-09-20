@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-20T12:51:00.326246+00:00",
- "live": true,
+ "updated_at": "2026-09-20T12:52:00.374109+00:00",
+ "live": false,
  "fixture": {
   "id": 19722782,
   "kickoff_utc": "2026-09-20 11:00:00",
@@ -309,11 +309,11 @@
    "formation": "4-4-1-1"
   }
  },
- "state": "INPLAY_2ND_HALF",
- "state_name": "2nd Half",
- "minute": 93,
+ "state": "FT",
+ "state_name": "Full Time",
+ "minute": null,
  "minute_estimated": false,
- "added_time": 4,
+ "added_time": null,
  "score": {
   "home": 0,
   "away": 1
@@ -555,7 +555,7 @@
   },
   "Attacks": {
    "home": 78,
-   "away": 130
+   "away": 133
   },
   "Dangerous Attacks": {
    "home": 47,
@@ -583,7 +583,7 @@
   },
   "Goal Kicks": {
    "home": 8,
-   "away": 4
+   "away": 5
   },
   "Free Kicks": {
    "home": 21,
@@ -591,7 +591,7 @@
   },
   "Fouls": {
    "home": 16,
-   "away": 18
+   "away": 19
   },
   "Saves": {
    "home": 6,
@@ -611,23 +611,23 @@
   },
   "Long Passes": {
    "home": 70,
-   "away": 77
+   "away": 80
   },
   "Hit Woodwork": {
    "home": 1,
    "away": 1
   },
   "Tackles": {
-   "home": 26,
-   "away": 16
+   "home": 28,
+   "away": 17
   },
   "Passes": {
-   "home": 429,
-   "away": 351
+   "home": 434,
+   "away": 357
   },
   "Successful Passes": {
-   "home": 317,
-   "away": 245
+   "home": 322,
+   "away": 251
   },
   "Successful Passes Percentage": {
    "home": 74,
@@ -642,7 +642,7 @@
    "away": 8
   },
   "Total Crosses": {
-   "home": 28,
+   "home": 29,
    "away": 19
   },
   "Accurate Crosses": {
@@ -654,15 +654,15 @@
    "away": 5
   },
   "Duels Won": {
-   "home": 69,
-   "away": 69
+   "home": 73,
+   "away": 71
   },
   "Dribble Attempts": {
-   "home": 9,
-   "away": 23
+   "home": 10,
+   "away": 24
   },
   "Successful Dribbles": {
-   "home": 2,
+   "home": 3,
    "away": 9
   },
   "Key Passes": {
@@ -678,16 +678,16 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 22,
-   "away": 39
+   "home": 30,
+   "away": 38
   },
   "Successful Long Passes": {
    "home": 22,
-   "away": 30
+   "away": 33
   },
   "Successful Long Passes Percentage": {
    "home": 31,
-   "away": 39
+   "away": 41
   },
   "Tackles Won": {
    "home": 20,
@@ -1165,5 +1165,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2405
+ "rate_remaining": 2403
 }
