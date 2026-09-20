@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T12:33:30.289920+00:00",
+ "updated_at": "2026-09-20T12:34:30.351410+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 76,
+ "minute": 77,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -477,7 +477,19 @@
    "player": "Sebastian Tounekti",
    "related": null,
    "result": null,
-   "info": "Foul"
+   "info": "Argument"
+  },
+  {
+   "id": 157986299,
+   "minute": 76,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Rangers",
+   "player": "Ben Godfrey",
+   "related": "James Penrice",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -494,11 +506,11 @@
    "away": 13
   },
   "Attacks": {
-   "home": 67,
-   "away": 98
+   "home": 69,
+   "away": 99
   },
   "Dangerous Attacks": {
-   "home": 32,
+   "home": 33,
    "away": 41
   },
   "Ball Possession %": {
@@ -519,11 +531,11 @@
   },
   "Goals": {
    "home": 0,
-   "away": 2
+   "away": 1
   },
   "Goal Kicks": {
    "home": 5,
-   "away": 1
+   "away": 2
   },
   "Free Kicks": {
    "home": 19,
@@ -531,7 +543,7 @@
   },
   "Fouls": {
    "home": 11,
-   "away": 16
+   "away": 17
   },
   "Saves": {
    "home": 5,
@@ -550,8 +562,8 @@
    "away": 20
   },
   "Long Passes": {
-   "home": 57,
-   "away": 65
+   "home": 58,
+   "away": 67
   },
   "Hit Woodwork": {
    "home": 1,
@@ -562,19 +574,19 @@
    "away": 14
   },
   "Passes": {
-   "home": 352,
-   "away": 281
+   "home": 355,
+   "away": 284
   },
   "Successful Passes": {
-   "home": 261,
-   "away": 195
+   "home": 262,
+   "away": 196
   },
   "Successful Passes Percentage": {
    "home": 74,
    "away": 69
   },
   "Yellowcards": {
-   "home": 1,
+   "home": 2,
    "away": 2
   },
   "Shots On Target": {
@@ -595,7 +607,7 @@
   },
   "Duels Won": {
    "home": 57,
-   "away": 60
+   "away": 61
   },
   "Dribble Attempts": {
    "home": 7,
@@ -622,12 +634,12 @@
    "away": 47
   },
   "Successful Long Passes": {
-   "home": 19,
+   "home": 20,
    "away": 27
   },
   "Successful Long Passes Percentage": {
-   "home": 33,
-   "away": 42
+   "home": 34,
+   "away": 40
   },
   "Tackles Won": {
    "home": 15,
@@ -1105,5 +1117,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2440
+ "rate_remaining": 2438
 }
