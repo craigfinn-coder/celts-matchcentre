@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T12:45:30.356798+00:00",
+ "updated_at": "2026-09-20T12:46:30.392546+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 88,
+ "minute": 89,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -502,6 +502,30 @@
    "related": null,
    "result": null,
    "info": "Unsportsmanlike conduct"
+  },
+  {
+   "id": 157986665,
+   "minute": 88,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Rangers",
+   "player": "Tochi Chukwuani",
+   "related": "Dan Neil",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157986666,
+   "minute": 89,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Rangers",
+   "player": "Cammy Devlin",
+   "related": "Kevin Kelsy ",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -523,7 +547,7 @@
   },
   "Dangerous Attacks": {
    "home": 46,
-   "away": 47
+   "away": 48
   },
   "Ball Possession %": {
    "home": 56,
@@ -566,8 +590,8 @@
    "away": 3
   },
   "Substitutions": {
-   "home": 4,
-   "away": 4
+   "home": 5,
+   "away": 5
   },
   "Throwins": {
    "home": 16,
@@ -630,7 +654,7 @@
    "away": 8
   },
   "Key Passes": {
-   "home": 2,
+   "home": 3,
    "away": 11
   },
   "Big Chances Created": {
@@ -1129,5 +1153,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2416
+ "rate_remaining": 2414
 }
