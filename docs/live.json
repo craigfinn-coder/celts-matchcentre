@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T12:29:30.321793+00:00",
+ "updated_at": "2026-09-20T12:31:00.381444+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 72,
+ "minute": 73,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -400,10 +400,10 @@
    "minute": 71,
    "extra": null,
    "type": "Substitution",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Haissem Hassan",
-   "related": "Kieran Tierney",
+   "side": "away",
+   "team": "Rangers",
+   "player": "Findlay Curtis",
+   "related": "Min-su Kim",
    "result": null,
    "info": null
   },
@@ -414,8 +414,8 @@
    "type": "Substitution",
    "side": "home",
    "team": "Celtic",
-   "player": null,
-   "related": null,
+   "player": "Haissem Hassan",
+   "related": "Kieran Tierney",
    "result": null,
    "info": null
   },
@@ -442,12 +442,24 @@
    "related": "Djeidi Gassama",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157986184,
+   "minute": 73,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Callum McGregor",
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
   "Corners": {
    "home": 6,
-   "away": 3
+   "away": 4
   },
   "Shots Off Target": {
    "home": 1,
@@ -458,11 +470,11 @@
    "away": 12
   },
   "Attacks": {
-   "home": 66,
+   "home": 67,
    "away": 98
   },
   "Dangerous Attacks": {
-   "home": 30,
+   "home": 31,
    "away": 40
   },
   "Ball Possession %": {
@@ -494,7 +506,7 @@
    "away": 13
   },
   "Fouls": {
-   "home": 10,
+   "home": 11,
    "away": 16
   },
   "Saves": {
@@ -515,30 +527,30 @@
   },
   "Long Passes": {
    "home": 56,
-   "away": 63
+   "away": 64
   },
   "Hit Woodwork": {
    "home": 1,
    "away": 1
   },
   "Tackles": {
-   "home": 17,
+   "home": 18,
    "away": 14
   },
   "Passes": {
-   "home": 345,
-   "away": 277
+   "home": 351,
+   "away": 280
   },
   "Successful Passes": {
-   "home": 255,
-   "away": 191
+   "home": 260,
+   "away": 194
   },
   "Successful Passes Percentage": {
    "home": 74,
    "away": 69
   },
   "Yellowcards": {
-   "home": 0,
+   "home": 1,
    "away": 2
   },
   "Shots On Target": {
@@ -558,8 +570,8 @@
    "away": 3
   },
   "Duels Won": {
-   "home": 54,
-   "away": 59
+   "home": 56,
+   "away": 60
   },
   "Dribble Attempts": {
    "home": 7,
@@ -587,14 +599,14 @@
   },
   "Successful Long Passes": {
    "home": 18,
-   "away": 25
+   "away": 26
   },
   "Successful Long Passes Percentage": {
    "home": 32,
-   "away": 40
+   "away": 41
   },
   "Tackles Won": {
-   "home": 13,
+   "home": 14,
    "away": 11
   }
  },
@@ -1069,5 +1081,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2448
+ "rate_remaining": 2445
 }
