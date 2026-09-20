@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T12:03:00.345857+00:00",
+ "updated_at": "2026-09-20T12:03:30.273969+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 45,
+ "minute": 46,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -358,6 +358,18 @@
    "related": null,
    "result": "0-1",
    "info": "Right foot shot"
+  },
+  {
+   "id": 157985551,
+   "minute": 46,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Kasper Høgh",
+   "related": "Luke McCowan",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -378,7 +390,7 @@
    "away": 67
   },
   "Dangerous Attacks": {
-   "home": 17,
+   "home": 18,
    "away": 25
   },
   "Ball Possession %": {
@@ -985,5 +997,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2380
+ "rate_remaining": 2379
 }
