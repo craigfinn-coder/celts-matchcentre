@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T11:32:41+00:00",
+ "updated": "2026-09-20T11:33:10+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
@@ -369,11 +369,17 @@
    "ha": "H",
    "opp": "Rangers",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "state": "NS",
+   "state": "INPLAY_1ST_HALF",
    "finished": false,
    "void": false,
-   "score": null,
-   "half_time": null,
+   "score": {
+    "home": 0,
+    "away": 1
+   },
+   "half_time": {
+    "home": 0,
+    "away": 1
+   },
    "result": null,
    "tv": []
   },
