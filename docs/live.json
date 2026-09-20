@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T12:29:00.329609+00:00",
+ "updated_at": "2026-09-20T12:29:30.321793+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 71,
+ "minute": 72,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -430,6 +430,18 @@
    "related": "Camilo Durán",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157986141,
+   "minute": 72,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Rangers",
+   "player": "Badredine Bouanani",
+   "related": "Djeidi Gassama",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -446,11 +458,11 @@
    "away": 12
   },
   "Attacks": {
-   "home": 64,
+   "home": 66,
    "away": 98
   },
   "Dangerous Attacks": {
-   "home": 29,
+   "home": 30,
    "away": 40
   },
   "Ball Possession %": {
@@ -478,12 +490,12 @@
    "away": 1
   },
   "Free Kicks": {
-   "home": 17,
+   "home": 18,
    "away": 13
   },
   "Fouls": {
    "home": 10,
-   "away": 15
+   "away": 16
   },
   "Saves": {
    "home": 5,
@@ -498,7 +510,7 @@
    "away": 2
   },
   "Throwins": {
-   "home": 12,
+   "home": 13,
    "away": 20
   },
   "Long Passes": {
@@ -511,15 +523,15 @@
   },
   "Tackles": {
    "home": 17,
-   "away": 13
+   "away": 14
   },
   "Passes": {
-   "home": 343,
-   "away": 276
+   "home": 345,
+   "away": 277
   },
   "Successful Passes": {
-   "home": 253,
-   "away": 190
+   "home": 255,
+   "away": 191
   },
   "Successful Passes Percentage": {
    "home": 74,
@@ -547,10 +559,10 @@
   },
   "Duels Won": {
    "home": 54,
-   "away": 58
+   "away": 59
   },
   "Dribble Attempts": {
-   "home": 6,
+   "home": 7,
    "away": 17
   },
   "Successful Dribbles": {
@@ -570,7 +582,7 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 33,
+   "home": 29,
    "away": 47
   },
   "Successful Long Passes": {
@@ -583,7 +595,7 @@
   },
   "Tackles Won": {
    "home": 13,
-   "away": 10
+   "away": 11
   }
  },
  "next_fixtures": [
@@ -1057,5 +1069,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2449
+ "rate_remaining": 2448
 }
