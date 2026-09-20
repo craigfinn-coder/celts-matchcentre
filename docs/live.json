@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T11:17:30.477133+00:00",
+ "updated_at": "2026-09-20T11:28:00.484291+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -52,11 +52,11 @@
      "id": 37732189
     },
     {
-     "name": "Mika Baur",
-     "num": 22,
+     "name": "Luke McCowan",
+     "num": 14,
      "pos": 6,
      "field": "3:2",
-     "id": 37582048
+     "id": 1548366
     },
     {
      "name": "Callum McGregor",
@@ -66,32 +66,32 @@
      "id": 8585
     },
     {
-     "name": "Kieran Tierney",
-     "num": 63,
+     "name": "Mika Baur",
+     "num": 22,
      "pos": 8,
      "field": "3:4",
-     "id": 172960
+     "id": 37582048
     },
     {
-     "name": "Luke McCowan",
-     "num": 14,
+     "name": "Kieran Tierney",
+     "num": 63,
      "pos": 9,
-     "field": "4:1",
-     "id": 1548366
-    },
-    {
-     "name": "Camilo Durán",
-     "num": 11,
-     "pos": 10,
-     "field": "4:2",
-     "id": 37709508
+     "field": "3:5",
+     "id": 172960
     },
     {
      "name": "Benjamin Nygren",
      "num": 8,
-     "pos": 11,
-     "field": "4:3",
+     "pos": 10,
+     "field": "4:1",
      "id": 19979885
+    },
+    {
+     "name": "Camilo Durán",
+     "num": 11,
+     "pos": 11,
+     "field": "4:2",
+     "id": 37709508
     }
    ],
    "bench": [
@@ -159,7 +159,7 @@
      "id": 173129
     }
    ],
-   "formation": "3-4-3"
+   "formation": "3-5-2"
   },
   "away": {
    "xi": [
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 16,
+ "minute": 27,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -350,28 +350,28 @@
  ],
  "stats": {
   "Corners": {
-   "home": 1,
+   "home": 4,
    "away": 0
   },
   "Shots Total": {
    "home": 0,
-   "away": 1
+   "away": 2
   },
   "Attacks": {
-   "home": 11,
-   "away": 26
+   "home": 19,
+   "away": 41
   },
   "Dangerous Attacks": {
-   "home": 3,
-   "away": 9
+   "home": 10,
+   "away": 14
   },
   "Ball Possession %": {
-   "home": 49,
-   "away": 51
+   "home": 55,
+   "away": 45
   },
   "Shots Outsidebox": {
    "home": 0,
-   "away": 1
+   "away": 2
   },
   "Offsides": {
    "home": 2,
@@ -382,40 +382,40 @@
    "away": 0
   },
   "Free Kicks": {
-   "home": 2,
-   "away": 2
+   "home": 4,
+   "away": 4
   },
   "Fouls": {
-   "home": 2,
-   "away": 2
+   "home": 4,
+   "away": 4
   },
   "Saves": {
    "home": 1,
    "away": 0
   },
   "Throwins": {
-   "home": 2,
-   "away": 6
+   "home": 3,
+   "away": 10
   },
   "Long Passes": {
-   "home": 12,
-   "away": 17
+   "home": 20,
+   "away": 27
   },
   "Tackles": {
-   "home": 3,
-   "away": 0
+   "home": 6,
+   "away": 3
   },
   "Passes": {
-   "home": 54,
-   "away": 58
+   "home": 118,
+   "away": 98
   },
   "Successful Passes": {
-   "home": 33,
-   "away": 35
+   "home": 82,
+   "away": 61
   },
   "Successful Passes Percentage": {
-   "home": 61,
-   "away": 60
+   "home": 69,
+   "away": 62
   },
   "Yellowcards": {
    "home": 0,
@@ -423,51 +423,51 @@
   },
   "Shots On Target": {
    "home": 0,
-   "away": 1
-  },
-  "Total Crosses": {
-   "home": 2,
    "away": 2
   },
+  "Total Crosses": {
+   "home": 6,
+   "away": 3
+  },
   "Accurate Crosses": {
-   "home": 0,
+   "home": 1,
    "away": 1
   },
   "Interceptions": {
-   "home": 1,
+   "home": 2,
    "away": 1
   },
   "Duels Won": {
-   "home": 9,
-   "away": 11
+   "home": 17,
+   "away": 22
   },
   "Dribble Attempts": {
-   "home": 1,
-   "away": 0
+   "home": 3,
+   "away": 4
   },
   "Successful Dribbles": {
    "home": 1,
-   "away": 0
+   "away": 2
   },
   "Key Passes": {
    "home": 0,
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 100,
-   "away": 0
+   "home": 33,
+   "away": 50
   },
   "Successful Long Passes": {
-   "home": 2,
-   "away": 7
+   "home": 5,
+   "away": 11
   },
   "Successful Long Passes Percentage": {
-   "home": 17,
+   "home": 25,
    "away": 41
   },
   "Tackles Won": {
-   "home": 2,
-   "away": 0
+   "home": 4,
+   "away": 3
   }
  },
  "next_fixtures": [
@@ -941,5 +941,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2472
+ "rate_remaining": 2451
 }
