@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T12:32:00.418236+00:00",
+ "updated_at": "2026-09-20T12:33:00.322991+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 74,
+ "minute": 75,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -466,6 +466,18 @@
    "related": null,
    "result": "0-2",
    "info": "Right foot shot"
+  },
+  {
+   "id": 157986245,
+   "minute": 75,
+   "extra": null,
+   "type": "VAR",
+   "side": "away",
+   "team": "Rangers",
+   "player": "Olwethu Makhanya",
+   "related": null,
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -475,19 +487,19 @@
   },
   "Shots Off Target": {
    "home": 1,
-   "away": 3
+   "away": 4
   },
   "Shots Total": {
    "home": 2,
-   "away": 12
+   "away": 14
   },
   "Attacks": {
    "home": 67,
    "away": 98
   },
   "Dangerous Attacks": {
-   "home": 31,
-   "away": 40
+   "home": 32,
+   "away": 41
   },
   "Ball Possession %": {
    "home": 56,
@@ -495,7 +507,7 @@
   },
   "Shots Insidebox": {
    "home": 1,
-   "away": 9
+   "away": 8
   },
   "Shots Outsidebox": {
    "home": 1,
@@ -507,14 +519,14 @@
   },
   "Goals": {
    "home": 0,
-   "away": 1
+   "away": 2
   },
   "Goal Kicks": {
    "home": 5,
    "away": 1
   },
   "Free Kicks": {
-   "home": 18,
+   "home": 19,
    "away": 14
   },
   "Fouls": {
@@ -531,14 +543,14 @@
   },
   "Substitutions": {
    "home": 4,
-   "away": 2
+   "away": 3
   },
   "Throwins": {
    "home": 13,
    "away": 20
   },
   "Long Passes": {
-   "home": 56,
+   "home": 57,
    "away": 65
   },
   "Hit Woodwork": {
@@ -550,11 +562,11 @@
    "away": 14
   },
   "Passes": {
-   "home": 351,
+   "home": 352,
    "away": 281
   },
   "Successful Passes": {
-   "home": 260,
+   "home": 261,
    "away": 195
   },
   "Successful Passes Percentage": {
@@ -567,7 +579,7 @@
   },
   "Shots On Target": {
    "home": 1,
-   "away": 7
+   "away": 8
   },
   "Total Crosses": {
    "home": 19,
@@ -595,7 +607,7 @@
   },
   "Key Passes": {
    "home": 2,
-   "away": 9
+   "away": 10
   },
   "Big Chances Created": {
    "home": 1,
@@ -610,15 +622,15 @@
    "away": 47
   },
   "Successful Long Passes": {
-   "home": 18,
+   "home": 19,
    "away": 27
   },
   "Successful Long Passes Percentage": {
-   "home": 32,
+   "home": 33,
    "away": 42
   },
   "Tackles Won": {
-   "home": 14,
+   "home": 15,
    "away": 11
   }
  },
@@ -1093,5 +1105,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2443
+ "rate_remaining": 2441
 }
