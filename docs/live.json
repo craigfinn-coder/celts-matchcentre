@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T11:01:00.266321+00:00",
+ "updated_at": "2026-09-20T11:05:30.302919+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 0,
+ "minute": 4,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -322,11 +322,96 @@
   "home": 0,
   "away": 0
  },
- "events": [],
+ "events": [
+  {
+   "id": 157984325,
+   "minute": 4,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Rangers",
+   "player": "Emmanuel Fernandez",
+   "related": null,
+   "result": null,
+   "info": "Foul"
+  }
+ ],
  "stats": {
+  "Attacks": {
+   "home": 2,
+   "away": 9
+  },
+  "Dangerous Attacks": {
+   "home": 1,
+   "away": 2
+  },
   "Ball Possession %": {
-   "home": 50,
-   "away": 50
+   "home": 29,
+   "away": 71
+  },
+  "Goal Kicks": {
+   "home": 1,
+   "away": 0
+  },
+  "Free Kicks": {
+   "home": 1,
+   "away": 1
+  },
+  "Fouls": {
+   "home": 1,
+   "away": 1
+  },
+  "Throwins": {
+   "home": 2,
+   "away": 0
+  },
+  "Long Passes": {
+   "home": 3,
+   "away": 5
+  },
+  "Tackles": {
+   "home": 1,
+   "away": 0
+  },
+  "Passes": {
+   "home": 2,
+   "away": 5
+  },
+  "Successful Passes": {
+   "home": 0,
+   "away": 3
+  },
+  "Successful Passes Percentage": {
+   "home": 0,
+   "away": 60
+  },
+  "Interceptions": {
+   "home": 0,
+   "away": 1
+  },
+  "Duels Won": {
+   "home": 3,
+   "away": 6
+  },
+  "Dribble Attempts": {
+   "home": 1,
+   "away": 0
+  },
+  "Successful Dribbles": {
+   "home": 1,
+   "away": 0
+  },
+  "Successful Dribbles Percentage": {
+   "home": 100,
+   "away": 0
+  },
+  "Successful Long Passes": {
+   "home": 1,
+   "away": 2
+  },
+  "Successful Long Passes Percentage": {
+   "home": 33,
+   "away": 40
   }
  },
  "next_fixtures": [
@@ -349,7 +434,7 @@
    "team": "Celtic",
    "team_id": 53,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "pts": 18,
+   "pts": 19,
    "p": 6,
    "w": 6,
    "d": 0,
@@ -360,6 +445,20 @@
   },
   {
    "pos": 2,
+   "team": "Rangers",
+   "team_id": 62,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+   "pts": 14,
+   "p": 6,
+   "w": 4,
+   "d": 1,
+   "l": 1,
+   "gf": 7,
+   "ga": 4,
+   "gd": 3
+  },
+  {
+   "pos": 3,
    "team": "Hearts",
    "team_id": 314,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
@@ -371,20 +470,6 @@
    "gf": 14,
    "ga": 8,
    "gd": 6
-  },
-  {
-   "pos": 3,
-   "team": "Rangers",
-   "team_id": 62,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 13,
-   "p": 6,
-   "w": 4,
-   "d": 1,
-   "l": 1,
-   "gf": 7,
-   "ga": 4,
-   "gd": 3
   },
   {
    "pos": 4,
@@ -800,5 +885,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2484
+ "rate_remaining": 2496
 }
