@@ -1,14 +1,14 @@
 {
- "updated": "2026-09-20T11:33:10+00:00",
+ "updated": "2026-09-20T17:32:55+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 11,
+  "p": 12,
   "w": 8,
   "d": 0,
-  "l": 3,
+  "l": 4,
   "gf": 23,
-  "ga": 14
+  "ga": 15
  },
  "fixtures": [
   {
@@ -369,8 +369,8 @@
    "ha": "H",
    "opp": "Rangers",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "state": "INPLAY_1ST_HALF",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
    "score": {
     "home": 0,
@@ -380,7 +380,7 @@
     "home": 0,
     "away": 1
    },
-   "result": null,
+   "result": "L",
    "tv": []
   },
   {
