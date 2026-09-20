@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T11:05:30.302919+00:00",
+ "updated_at": "2026-09-20T11:06:30.252371+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -311,15 +311,15 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 4,
+ "minute": 5,
  "minute_estimated": false,
  "added_time": null,
  "score": {
-  "home": 0,
+  "home": 1,
   "away": 0
  },
  "half_time": {
-  "home": 0,
+  "home": 1,
   "away": 0
  },
  "events": [
@@ -334,6 +334,18 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 157984345,
+   "minute": 5,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Rangers",
+   "player": "Derek McInnes",
+   "related": null,
+   "result": null,
+   "info": "Argument"
   }
  ],
  "stats": {
@@ -348,6 +360,10 @@
   "Ball Possession %": {
    "home": 29,
    "away": 71
+  },
+  "Goals": {
+   "home": 1,
+   "away": 0
   },
   "Goal Kicks": {
    "home": 1,
@@ -384,6 +400,10 @@
   "Successful Passes Percentage": {
    "home": 0,
    "away": 60
+  },
+  "Yellowcards": {
+   "home": 0,
+   "away": 1
   },
   "Interceptions": {
    "home": 0,
@@ -885,5 +905,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2496
+ "rate_remaining": 2494
 }
