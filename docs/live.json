@@ -1,8 +1,6 @@
 {
- "updated_at": "2026-09-20T10:04:02.059405+00:00",
+ "updated_at": "2026-09-20T10:57:00.492818+00:00",
  "live": false,
- "state": "NS",
- "state_name": "Not started",
  "fixture": {
   "id": 19722782,
   "kickoff_utc": "2026-09-20 11:00:00",
@@ -15,12 +13,322 @@
   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png"
  },
+ "lineups": {
+  "home": {
+   "xi": [
+    {
+     "name": "Viljami Sinisalo",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 529045
+    },
+    {
+     "name": "Cameron Carter-Vickers",
+     "num": 20,
+     "pos": 2,
+     "field": "2:1",
+     "id": 1712
+    },
+    {
+     "name": "Auston Trusty",
+     "num": 6,
+     "pos": 3,
+     "field": "2:2",
+     "id": 262280
+    },
+    {
+     "name": "Liam Scales",
+     "num": 5,
+     "pos": 4,
+     "field": "2:3",
+     "id": 123659
+    },
+    {
+     "name": "Colby Donovan",
+     "num": 51,
+     "pos": 5,
+     "field": "3:1",
+     "id": 37732189
+    },
+    {
+     "name": "Mika Baur",
+     "num": 22,
+     "pos": 6,
+     "field": "3:2",
+     "id": 37582048
+    },
+    {
+     "name": "Callum McGregor",
+     "num": 42,
+     "pos": 7,
+     "field": "3:3",
+     "id": 8585
+    },
+    {
+     "name": "Kieran Tierney",
+     "num": 63,
+     "pos": 8,
+     "field": "3:4",
+     "id": 172960
+    },
+    {
+     "name": "Luke McCowan",
+     "num": 14,
+     "pos": 9,
+     "field": "4:1",
+     "id": 1548366
+    },
+    {
+     "name": "Camilo Durán",
+     "num": 11,
+     "pos": 10,
+     "field": "4:2",
+     "id": 37709508
+    },
+    {
+     "name": "Benjamin Nygren",
+     "num": 8,
+     "pos": 11,
+     "field": "4:3",
+     "id": 19979885
+    }
+   ],
+   "bench": [
+    {
+     "name": "Kasper Høgh",
+     "num": 9,
+     "pos": null,
+     "field": null,
+     "id": 15061513
+    },
+    {
+     "name": "Sebastian Tounekti",
+     "num": 17,
+     "pos": null,
+     "field": null,
+     "id": 15169863
+    },
+    {
+     "name": "Alex Oxlade-Chamberlain",
+     "num": 21,
+     "pos": null,
+     "field": null,
+     "id": 850
+    },
+    {
+     "name": "Haissem Hassan",
+     "num": 23,
+     "pos": null,
+     "field": null,
+     "id": 18584306
+    },
+    {
+     "name": "Sam Johnstone",
+     "num": 26,
+     "pos": null,
+     "field": null,
+     "id": 1008
+    },
+    {
+     "name": "Shumaira Mheuka",
+     "num": 29,
+     "pos": null,
+     "field": null,
+     "id": 37714106
+    },
+    {
+     "name": "Dane Murray",
+     "num": 47,
+     "pos": null,
+     "field": null,
+     "id": 37342595
+    },
+    {
+     "name": "James Forrest",
+     "num": 49,
+     "pos": null,
+     "field": null,
+     "id": 172104
+    },
+    {
+     "name": "Anthony Ralston",
+     "num": 56,
+     "pos": null,
+     "field": null,
+     "id": 173129
+    }
+   ],
+   "formation": "3-4-3"
+  },
+  "away": {
+   "xi": [
+    {
+     "name": "Ivor Pandur",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 20355429
+    },
+    {
+     "name": "Dujon Sterling",
+     "num": 21,
+     "pos": 2,
+     "field": "2:4",
+     "id": 537665
+    },
+    {
+     "name": "Emmanuel Fernandez",
+     "num": 37,
+     "pos": 3,
+     "field": "2:3",
+     "id": 37577459
+    },
+    {
+     "name": "Olwethu Makhanya",
+     "num": 24,
+     "pos": 4,
+     "field": "2:2",
+     "id": 37664151
+    },
+    {
+     "name": "James Penrice",
+     "num": 29,
+     "pos": 5,
+     "field": "2:1",
+     "id": 173068
+    },
+    {
+     "name": "Min-su Kim",
+     "num": 10,
+     "pos": 6,
+     "field": "3:4",
+     "id": 37671513
+    },
+    {
+     "name": "Dan Neil",
+     "num": 6,
+     "pos": 7,
+     "field": "3:3",
+     "id": 23680764
+    },
+    {
+     "name": "Nicolas Raskin",
+     "num": 43,
+     "pos": 8,
+     "field": "3:2",
+     "id": 2158212
+    },
+    {
+     "name": "Djeidi Gassama",
+     "num": 23,
+     "pos": 9,
+     "field": "3:1",
+     "id": 37337029
+    },
+    {
+     "name": "Ryan Naderi",
+     "num": 20,
+     "pos": 10,
+     "field": "4:2",
+     "id": 37538366
+    },
+    {
+     "name": "Kevin Kelsy",
+     "num": 19,
+     "pos": 11,
+     "field": "4:1",
+     "id": 37567226
+    }
+   ],
+   "bench": [
+    {
+     "name": "Ross McCrorie",
+     "num": 2,
+     "pos": null,
+     "field": null,
+     "id": 174995
+    },
+    {
+     "name": "Ben Godfrey",
+     "num": 4,
+     "pos": null,
+     "field": null,
+     "id": 7958
+    },
+    {
+     "name": "Cammy Devlin",
+     "num": 14,
+     "pos": null,
+     "field": null,
+     "id": 20708316
+    },
+    {
+     "name": "Vanja Dragojevic",
+     "num": 22,
+     "pos": null,
+     "field": null,
+     "id": 37722752
+    },
+    {
+     "name": "Badredine Bouanani",
+     "num": 26,
+     "pos": null,
+     "field": null,
+     "id": 37423036
+    },
+    {
+     "name": "Bojan Miovski",
+     "num": 28,
+     "pos": null,
+     "field": null,
+     "id": 4536496
+    },
+    {
+     "name": "Liam Kelly",
+     "num": 31,
+     "pos": null,
+     "field": null,
+     "id": 174066
+    },
+    {
+     "name": "Tochi Chukwuani",
+     "num": 42,
+     "pos": null,
+     "field": null,
+     "id": 32795608
+    },
+    {
+     "name": "Findlay Curtis",
+     "num": 52,
+     "pos": null,
+     "field": null,
+     "id": 37657032
+    }
+   ],
+   "formation": "4-4-2"
+  }
+ },
+ "state": "NS",
+ "state_name": "Not Started",
+ "minute": null,
+ "minute_estimated": false,
+ "added_time": null,
  "score": {
   "home": 0,
   "away": 0
  },
+ "half_time": {
+  "home": 0,
+  "away": 0
+ },
  "events": [],
- "stats": {},
+ "stats": {
+  "Ball Possession %": {
+   "home": 50,
+   "away": 50
+  }
+ },
  "next_fixtures": [
   {
    "id": 19722782,
@@ -205,6 +513,7 @@
    "gd": -9
   }
  ],
+ "live_table": false,
  "form": {
   "home": [
    {
@@ -491,300 +800,5 @@
    "goals": 3
   }
  ],
- "lineups": {
-  "home": {
-   "xi": [
-    {
-     "name": "Viljami Sinisalo",
-     "num": 1,
-     "pos": 1,
-     "field": "1:1",
-     "id": 529045
-    },
-    {
-     "name": "Auston Trusty",
-     "num": 6,
-     "pos": 2,
-     "field": "2:1",
-     "id": 262280
-    },
-    {
-     "name": "Cameron Carter-Vickers",
-     "num": 20,
-     "pos": 3,
-     "field": "2:2",
-     "id": 1712
-    },
-    {
-     "name": "Liam Scales",
-     "num": 5,
-     "pos": 4,
-     "field": "2:3",
-     "id": 123659
-    },
-    {
-     "name": "Colby Donovan",
-     "num": 51,
-     "pos": 5,
-     "field": "3:1",
-     "id": 37732189
-    },
-    {
-     "name": "Mika Baur",
-     "num": 22,
-     "pos": 6,
-     "field": "3:2",
-     "id": 37582048
-    },
-    {
-     "name": "Callum McGregor",
-     "num": 42,
-     "pos": 7,
-     "field": "3:3",
-     "id": 8585
-    },
-    {
-     "name": "Kieran Tierney",
-     "num": 63,
-     "pos": 8,
-     "field": "3:4",
-     "id": 172960
-    },
-    {
-     "name": "Luke McCowan",
-     "num": 14,
-     "pos": 9,
-     "field": "4:1",
-     "id": 1548366
-    },
-    {
-     "name": "Camilo Durán",
-     "num": 11,
-     "pos": 10,
-     "field": "4:2",
-     "id": 37709508
-    },
-    {
-     "name": "Benjamin Nygren",
-     "num": 8,
-     "pos": 11,
-     "field": "4:3",
-     "id": 19979885
-    }
-   ],
-   "bench": [
-    {
-     "name": "Kasper Høgh",
-     "num": 9,
-     "pos": null,
-     "field": null,
-     "id": 15061513
-    },
-    {
-     "name": "Sebastian Tounekti",
-     "num": 17,
-     "pos": null,
-     "field": null,
-     "id": 15169863
-    },
-    {
-     "name": "Alex Oxlade-Chamberlain",
-     "num": 21,
-     "pos": null,
-     "field": null,
-     "id": 850
-    },
-    {
-     "name": "Haissem Hassan",
-     "num": 23,
-     "pos": null,
-     "field": null,
-     "id": 18584306
-    },
-    {
-     "name": "Sam Johnstone",
-     "num": 26,
-     "pos": null,
-     "field": null,
-     "id": 1008
-    },
-    {
-     "name": "Shumaira Mheuka",
-     "num": 29,
-     "pos": null,
-     "field": null,
-     "id": 37714106
-    },
-    {
-     "name": "Dane Murray",
-     "num": 47,
-     "pos": null,
-     "field": null,
-     "id": 37342595
-    },
-    {
-     "name": "James Forrest",
-     "num": 49,
-     "pos": null,
-     "field": null,
-     "id": 172104
-    },
-    {
-     "name": "Anthony Ralston",
-     "num": 56,
-     "pos": null,
-     "field": null,
-     "id": 173129
-    }
-   ],
-   "formation": "3-4-3"
-  },
-  "away": {
-   "xi": [
-    {
-     "name": "Ivor Pandur",
-     "num": 1,
-     "pos": 1,
-     "field": "1:1",
-     "id": 20355429
-    },
-    {
-     "name": "Dujon Sterling",
-     "num": 21,
-     "pos": 2,
-     "field": "2:4",
-     "id": 537665
-    },
-    {
-     "name": "Emmanuel Fernandez",
-     "num": 37,
-     "pos": 3,
-     "field": "2:3",
-     "id": 37577459
-    },
-    {
-     "name": "Olwethu Makhanya",
-     "num": 24,
-     "pos": 4,
-     "field": "2:2",
-     "id": 37664151
-    },
-    {
-     "name": "James Penrice",
-     "num": 29,
-     "pos": 5,
-     "field": "2:1",
-     "id": 173068
-    },
-    {
-     "name": "Min-su Kim",
-     "num": 10,
-     "pos": 6,
-     "field": "3:4",
-     "id": 37671513
-    },
-    {
-     "name": "Dan Neil",
-     "num": 6,
-     "pos": 7,
-     "field": "3:3",
-     "id": 23680764
-    },
-    {
-     "name": "Nicolas Raskin",
-     "num": 43,
-     "pos": 8,
-     "field": "3:2",
-     "id": 2158212
-    },
-    {
-     "name": "Djeidi Gassama",
-     "num": 23,
-     "pos": 9,
-     "field": "3:1",
-     "id": 37337029
-    },
-    {
-     "name": "Ryan Naderi",
-     "num": 20,
-     "pos": 10,
-     "field": "4:1",
-     "id": 37538366
-    },
-    {
-     "name": "Kevin Kelsy",
-     "num": 19,
-     "pos": 11,
-     "field": "5:1",
-     "id": 37567226
-    }
-   ],
-   "bench": [
-    {
-     "name": "Ross McCrorie",
-     "num": 2,
-     "pos": null,
-     "field": null,
-     "id": 174995
-    },
-    {
-     "name": "Ben Godfrey",
-     "num": 4,
-     "pos": null,
-     "field": null,
-     "id": 7958
-    },
-    {
-     "name": "Cammy Devlin",
-     "num": 14,
-     "pos": null,
-     "field": null,
-     "id": 20708316
-    },
-    {
-     "name": "Vanja Dragojevic",
-     "num": 22,
-     "pos": null,
-     "field": null,
-     "id": 37722752
-    },
-    {
-     "name": "Badredine Bouanani",
-     "num": 26,
-     "pos": null,
-     "field": null,
-     "id": 37423036
-    },
-    {
-     "name": "Bojan Miovski",
-     "num": 28,
-     "pos": null,
-     "field": null,
-     "id": 4536496
-    },
-    {
-     "name": "Liam Kelly",
-     "num": 31,
-     "pos": null,
-     "field": null,
-     "id": 174066
-    },
-    {
-     "name": "Tochi Chukwuani",
-     "num": 42,
-     "pos": null,
-     "field": null,
-     "id": 32795608
-    },
-    {
-     "name": "Findlay Curtis",
-     "num": 52,
-     "pos": null,
-     "field": null,
-     "id": 37657032
-    }
-   ],
-   "formation": "4-4-1-1"
-  }
- }
+ "rate_remaining": 2492
 }
