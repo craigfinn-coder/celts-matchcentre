@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T11:47:00.289041+00:00",
+ "updated_at": "2026-09-20T11:57:30.300930+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -382,8 +382,8 @@
    "away": 25
   },
   "Ball Possession %": {
-   "home": 57,
-   "away": 43
+   "home": 56,
+   "away": 44
   },
   "Shots Insidebox": {
    "home": 0,
@@ -406,8 +406,8 @@
    "away": 1
   },
   "Free Kicks": {
-   "home": 8,
-   "away": 7
+   "home": 10,
+   "away": 9
   },
   "Fouls": {
    "home": 7,
@@ -426,8 +426,8 @@
    "away": 14
   },
   "Long Passes": {
-   "home": 35,
-   "away": 39
+   "home": 36,
+   "away": 41
   },
   "Hit Woodwork": {
    "home": 1,
@@ -438,15 +438,15 @@
    "away": 6
   },
   "Passes": {
-   "home": 218,
-   "away": 163
+   "home": 219,
+   "away": 167
   },
   "Successful Passes": {
    "home": 152,
-   "away": 106
+   "away": 108
   },
   "Successful Passes Percentage": {
-   "home": 70,
+   "home": 69,
    "away": 65
   },
   "Yellowcards": {
@@ -470,7 +470,7 @@
    "away": 2
   },
   "Duels Won": {
-   "home": 32,
+   "home": 31,
    "away": 40
   },
   "Dribble Attempts": {
@@ -499,10 +499,10 @@
   },
   "Successful Long Passes": {
    "home": 9,
-   "away": 17
+   "away": 18
   },
   "Successful Long Passes Percentage": {
-   "home": 26,
+   "home": 25,
    "away": 44
   },
   "Tackles Won": {
@@ -981,5 +981,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2412
+ "rate_remaining": 2391
 }
