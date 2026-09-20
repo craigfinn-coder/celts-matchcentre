@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T11:57:30.300930+00:00",
+ "updated_at": "2026-09-20T12:03:00.345857+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -52,45 +52,45 @@
      "id": 37732189
     },
     {
-     "name": "Luke McCowan",
-     "num": 14,
-     "pos": 6,
-     "field": "3:2",
-     "id": 1548366
-    },
-    {
      "name": "Callum McGregor",
      "num": 42,
-     "pos": 7,
-     "field": "3:3",
+     "pos": 6,
+     "field": "3:2",
      "id": 8585
     },
     {
      "name": "Mika Baur",
      "num": 22,
-     "pos": 8,
-     "field": "3:4",
+     "pos": 7,
+     "field": "3:3",
      "id": 37582048
     },
     {
      "name": "Kieran Tierney",
      "num": 63,
-     "pos": 9,
-     "field": "3:5",
+     "pos": 8,
+     "field": "3:4",
      "id": 172960
+    },
+    {
+     "name": "Luke McCowan",
+     "num": 14,
+     "pos": 9,
+     "field": "4:1",
+     "id": 1548366
     },
     {
      "name": "Benjamin Nygren",
      "num": 8,
      "pos": 10,
-     "field": "4:1",
+     "field": "4:2",
      "id": 19979885
     },
     {
      "name": "Camilo Durán",
      "num": 11,
      "pos": 11,
-     "field": "4:2",
+     "field": "5:1",
      "id": 37709508
     }
    ],
@@ -159,7 +159,7 @@
      "id": 173129
     }
    ],
-   "formation": "3-5-2"
+   "formation": "3-4-2-1"
   },
   "away": {
    "xi": [
@@ -309,8 +309,8 @@
    "formation": "4-4-1-1"
   }
  },
- "state": "HT",
- "state_name": "Half Time",
+ "state": "INPLAY_2ND_HALF",
+ "state_name": "2nd Half",
  "minute": 45,
  "minute_estimated": false,
  "added_time": null,
@@ -374,7 +374,7 @@
    "away": 8
   },
   "Attacks": {
-   "home": 39,
+   "home": 41,
    "away": 67
   },
   "Dangerous Attacks": {
@@ -421,32 +421,36 @@
    "home": 0,
    "away": 1
   },
+  "Substitutions": {
+   "home": 1,
+   "away": 0
+  },
   "Throwins": {
    "home": 8,
    "away": 14
   },
   "Long Passes": {
    "home": 36,
-   "away": 41
+   "away": 40
   },
   "Hit Woodwork": {
    "home": 1,
    "away": 1
   },
   "Tackles": {
-   "home": 10,
-   "away": 6
+   "home": 11,
+   "away": 7
   },
   "Passes": {
-   "home": 219,
-   "away": 167
+   "home": 218,
+   "away": 168
   },
   "Successful Passes": {
    "home": 152,
-   "away": 108
+   "away": 109
   },
   "Successful Passes Percentage": {
-   "home": 69,
+   "home": 70,
    "away": 65
   },
   "Yellowcards": {
@@ -470,15 +474,15 @@
    "away": 2
   },
   "Duels Won": {
-   "home": 31,
-   "away": 40
+   "home": 32,
+   "away": 41
   },
   "Dribble Attempts": {
    "home": 4,
-   "away": 7
+   "away": 8
   },
   "Successful Dribbles": {
-   "home": 2,
+   "home": 1,
    "away": 4
   },
   "Key Passes": {
@@ -494,20 +498,20 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 50,
-   "away": 57
+   "home": 25,
+   "away": 50
   },
   "Successful Long Passes": {
    "home": 9,
-   "away": 18
+   "away": 17
   },
   "Successful Long Passes Percentage": {
    "home": 25,
-   "away": 44
+   "away": 43
   },
   "Tackles Won": {
-   "home": 7,
-   "away": 5
+   "home": 8,
+   "away": 6
   }
  },
  "next_fixtures": [
@@ -981,5 +985,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2391
+ "rate_remaining": 2380
 }
