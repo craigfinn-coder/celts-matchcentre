@@ -1062,14 +1062,14 @@
     "type": "Hamstring Injury",
     "since": "2026-09-05",
     "until": "2027-01-01",
-    "missed": 3
+    "missed": 4
    },
    {
     "player": "Lawrence Shankland",
     "type": "Torn Thigh Muscle",
     "since": "2026-09-08",
     "until": "2027-01-05",
-    "missed": 2
+    "missed": 3
    },
    {
     "player": "Daisuke Yokota",
@@ -1159,5 +1159,5 @@
    "goals": 3
   }
  ],
- "updated_at": "2026-09-20T14:04:09.130366+00:00"
+ "updated_at": "2026-09-20T15:03:44.620977+00:00"
 }
