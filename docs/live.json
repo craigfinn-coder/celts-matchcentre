@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T12:47:00.424271+00:00",
+ "updated_at": "2026-09-20T12:51:00.326246+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -311,9 +311,9 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 89,
+ "minute": 93,
  "minute_estimated": false,
- "added_time": null,
+ "added_time": 4,
  "score": {
   "home": 0,
   "away": 1
@@ -498,7 +498,7 @@
    "type": "Yellowcard",
    "side": "away",
    "team": "Rangers",
-   "player": "Nicolas Raskin",
+   "player": "Badredine Bouanani",
    "related": null,
    "result": null,
    "info": "Foul"
@@ -546,27 +546,27 @@
    "away": 4
   },
   "Shots Off Target": {
-   "home": 2,
+   "home": 3,
    "away": 4
   },
   "Shots Total": {
-   "home": 4,
+   "home": 5,
    "away": 15
   },
   "Attacks": {
-   "home": 77,
-   "away": 121
+   "home": 78,
+   "away": 130
   },
   "Dangerous Attacks": {
-   "home": 46,
-   "away": 48
+   "home": 47,
+   "away": 55
   },
   "Ball Possession %": {
    "home": 55,
    "away": 45
   },
   "Shots Insidebox": {
-   "home": 3,
+   "home": 4,
    "away": 10
   },
   "Shots Outsidebox": {
@@ -582,15 +582,15 @@
    "away": 1
   },
   "Goal Kicks": {
-   "home": 7,
+   "home": 8,
    "away": 4
   },
   "Free Kicks": {
-   "home": 20,
-   "away": 17
+   "home": 21,
+   "away": 19
   },
   "Fouls": {
-   "home": 14,
+   "home": 16,
    "away": 18
   },
   "Saves": {
@@ -606,28 +606,28 @@
    "away": 5
   },
   "Throwins": {
-   "home": 16,
-   "away": 22
+   "home": 17,
+   "away": 24
   },
   "Long Passes": {
-   "home": 66,
-   "away": 75
+   "home": 70,
+   "away": 77
   },
   "Hit Woodwork": {
    "home": 1,
    "away": 1
   },
   "Tackles": {
-   "home": 24,
-   "away": 15
+   "home": 26,
+   "away": 16
   },
   "Passes": {
-   "home": 418,
-   "away": 341
+   "home": 429,
+   "away": 351
   },
   "Successful Passes": {
-   "home": 310,
-   "away": 237
+   "home": 317,
+   "away": 245
   },
   "Successful Passes Percentage": {
    "home": 74,
@@ -643,30 +643,30 @@
   },
   "Total Crosses": {
    "home": 28,
-   "away": 18
+   "away": 19
   },
   "Accurate Crosses": {
-   "home": 3,
+   "home": 4,
    "away": 6
   },
   "Interceptions": {
    "home": 7,
-   "away": 4
+   "away": 5
   },
   "Duels Won": {
-   "home": 67,
-   "away": 65
+   "home": 69,
+   "away": 69
   },
   "Dribble Attempts": {
-   "home": 8,
-   "away": 20
+   "home": 9,
+   "away": 23
   },
   "Successful Dribbles": {
    "home": 2,
-   "away": 8
+   "away": 9
   },
   "Key Passes": {
-   "home": 3,
+   "home": 4,
    "away": 11
   },
   "Big Chances Created": {
@@ -678,20 +678,20 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 25,
-   "away": 40
+   "home": 22,
+   "away": 39
   },
   "Successful Long Passes": {
    "home": 22,
-   "away": 29
+   "away": 30
   },
   "Successful Long Passes Percentage": {
-   "home": 33,
+   "home": 31,
    "away": 39
   },
   "Tackles Won": {
-   "home": 18,
-   "away": 12
+   "home": 20,
+   "away": 13
   }
  },
  "next_fixtures": [
@@ -1165,5 +1165,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2413
+ "rate_remaining": 2405
 }
