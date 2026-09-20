@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T12:28:30.341137+00:00",
+ "updated_at": "2026-09-20T12:29:00.329609+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -414,6 +414,18 @@
    "type": "Substitution",
    "side": "home",
    "team": "Celtic",
+   "player": null,
+   "related": null,
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 157986135,
+   "minute": 71,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
    "player": "Sebastian Tounekti",
    "related": "Camilo Durán",
    "result": null,
@@ -483,7 +495,7 @@
   },
   "Substitutions": {
    "home": 4,
-   "away": 1
+   "away": 2
   },
   "Throwins": {
    "home": 12,
@@ -1045,5 +1057,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2450
+ "rate_remaining": 2449
 }
