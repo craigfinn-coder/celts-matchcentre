@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T12:52:00.374109+00:00",
+ "updated_at": "2026-09-20T12:52:30.410243+00:00",
  "live": false,
  "fixture": {
   "id": 19722782,
@@ -725,20 +725,6 @@
   },
   {
    "pos": 2,
-   "team": "Rangers",
-   "team_id": 62,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 16,
-   "p": 6,
-   "w": 4,
-   "d": 1,
-   "l": 1,
-   "gf": 7,
-   "ga": 4,
-   "gd": 3
-  },
-  {
-   "pos": 3,
    "team": "Hearts",
    "team_id": 314,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
@@ -750,6 +736,20 @@
    "gf": 14,
    "ga": 8,
    "gd": 6
+  },
+  {
+   "pos": 3,
+   "team": "Rangers",
+   "team_id": 62,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+   "pts": 13,
+   "p": 6,
+   "w": 4,
+   "d": 1,
+   "l": 1,
+   "gf": 7,
+   "ga": 4,
+   "gd": 3
   },
   {
    "pos": 4,
@@ -1165,5 +1165,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2403
+ "rate_remaining": 2402
 }
