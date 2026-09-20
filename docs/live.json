@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T11:33:30.315568+00:00",
+ "updated_at": "2026-09-20T11:34:00.286449+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 32,
+ "minute": 33,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -346,6 +346,18 @@
    "related": null,
    "result": null,
    "info": "Argument"
+  },
+  {
+   "id": 157984864,
+   "minute": 33,
+   "extra": null,
+   "type": "Goal",
+   "side": "away",
+   "team": "Rangers",
+   "player": "Ryan Naderi",
+   "related": null,
+   "result": "0-1",
+   "info": "Right foot shot"
   }
  ],
  "stats": {
@@ -359,7 +371,7 @@
   },
   "Shots Total": {
    "home": 1,
-   "away": 3
+   "away": 4
   },
   "Attacks": {
    "home": 24,
@@ -379,7 +391,7 @@
   },
   "Shots Outsidebox": {
    "home": 1,
-   "away": 2
+   "away": 3
   },
   "Offsides": {
    "home": 2,
@@ -395,10 +407,10 @@
   },
   "Free Kicks": {
    "home": 4,
-   "away": 4
+   "away": 5
   },
   "Fouls": {
-   "home": 4,
+   "home": 5,
    "away": 4
   },
   "Saves": {
@@ -411,7 +423,7 @@
   },
   "Long Passes": {
    "home": 24,
-   "away": 29
+   "away": 30
   },
   "Hit Woodwork": {
    "home": 1,
@@ -422,15 +434,15 @@
    "away": 3
   },
   "Passes": {
-   "home": 147,
-   "away": 128
+   "home": 148,
+   "away": 132
   },
   "Successful Passes": {
    "home": 104,
-   "away": 85
+   "away": 87
   },
   "Successful Passes Percentage": {
-   "home": 71,
+   "home": 70,
    "away": 66
   },
   "Yellowcards": {
@@ -439,11 +451,11 @@
   },
   "Shots On Target": {
    "home": 0,
-   "away": 3
+   "away": 4
   },
   "Total Crosses": {
    "home": 6,
-   "away": 6
+   "away": 7
   },
   "Accurate Crosses": {
    "home": 1,
@@ -454,7 +466,7 @@
    "away": 1
   },
   "Duels Won": {
-   "home": 20,
+   "home": 21,
    "away": 24
   },
   "Dribble Attempts": {
@@ -479,7 +491,7 @@
   },
   "Successful Long Passes Percentage": {
    "home": 29,
-   "away": 38
+   "away": 37
   },
   "Tackles Won": {
    "home": 4,
@@ -957,5 +969,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2439
+ "rate_remaining": 2438
 }
