@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-20T12:46:30.392546+00:00",
+ "updated_at": "2026-09-20T12:47:00.424271+00:00",
  "live": true,
  "fixture": {
   "id": 19722782,
@@ -501,7 +501,7 @@
    "player": "Nicolas Raskin",
    "related": null,
    "result": null,
-   "info": "Unsportsmanlike conduct"
+   "info": "Foul"
   },
   {
    "id": 157986665,
@@ -526,6 +526,18 @@
    "related": "Kevin Kelsy ",
    "result": null,
    "info": null
+  },
+  {
+   "id": 157986695,
+   "minute": 89,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Shumaira Mheuka",
+   "related": "Liam Scales",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -543,15 +555,15 @@
   },
   "Attacks": {
    "home": 77,
-   "away": 119
+   "away": 121
   },
   "Dangerous Attacks": {
    "home": 46,
    "away": 48
   },
   "Ball Possession %": {
-   "home": 56,
-   "away": 44
+   "home": 55,
+   "away": 45
   },
   "Shots Insidebox": {
    "home": 3,
@@ -571,7 +583,7 @@
   },
   "Goal Kicks": {
    "home": 7,
-   "away": 3
+   "away": 4
   },
   "Free Kicks": {
    "home": 20,
@@ -598,8 +610,8 @@
    "away": 22
   },
   "Long Passes": {
-   "home": 65,
-   "away": 74
+   "home": 66,
+   "away": 75
   },
   "Hit Woodwork": {
    "home": 1,
@@ -610,12 +622,12 @@
    "away": 15
   },
   "Passes": {
-   "home": 413,
-   "away": 336
+   "home": 418,
+   "away": 341
   },
   "Successful Passes": {
-   "home": 307,
-   "away": 234
+   "home": 310,
+   "away": 237
   },
   "Successful Passes Percentage": {
    "home": 74,
@@ -623,7 +635,7 @@
   },
   "Yellowcards": {
    "home": 2,
-   "away": 2
+   "away": 3
   },
   "Shots On Target": {
    "home": 1,
@@ -631,7 +643,7 @@
   },
   "Total Crosses": {
    "home": 28,
-   "away": 17
+   "away": 18
   },
   "Accurate Crosses": {
    "home": 3,
@@ -642,7 +654,7 @@
    "away": 4
   },
   "Duels Won": {
-   "home": 66,
+   "home": 67,
    "away": 65
   },
   "Dribble Attempts": {
@@ -674,7 +686,7 @@
    "away": 29
   },
   "Successful Long Passes Percentage": {
-   "home": 34,
+   "home": 33,
    "away": 39
   },
   "Tackles Won": {
@@ -1153,5 +1165,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2414
+ "rate_remaining": 2413
 }
