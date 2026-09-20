@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-20T10:57:00.492818+00:00",
- "live": false,
+ "updated_at": "2026-09-20T11:01:00.266321+00:00",
+ "live": true,
  "fixture": {
   "id": 19722782,
   "kickoff_utc": "2026-09-20 11:00:00",
@@ -230,14 +230,14 @@
      "name": "Ryan Naderi",
      "num": 20,
      "pos": 10,
-     "field": "4:2",
+     "field": "4:1",
      "id": 37538366
     },
     {
      "name": "Kevin Kelsy",
      "num": 19,
      "pos": 11,
-     "field": "4:1",
+     "field": "5:1",
      "id": 37567226
     }
    ],
@@ -306,12 +306,12 @@
      "id": 37657032
     }
    ],
-   "formation": "4-4-2"
+   "formation": "4-4-1-1"
   }
  },
- "state": "NS",
- "state_name": "Not Started",
- "minute": null,
+ "state": "INPLAY_1ST_HALF",
+ "state_name": "1st Half",
+ "minute": 0,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -513,7 +513,7 @@
    "gd": -9
   }
  ],
- "live_table": false,
+ "live_table": true,
  "form": {
   "home": [
    {
@@ -800,5 +800,5 @@
    "goals": 3
   }
  ],
- "rate_remaining": 2492
+ "rate_remaining": 2484
 }
