@@ -1,16 +1,16 @@
 {
- "updated": "2026-09-20T17:32:53+00:00",
+ "updated": "2026-09-21T11:36:11+00:00",
  "team_id": 53,
  "season": "2026/2027",
  "competitions": [
   {
-   "league": "Champions League",
-   "league_id": 2,
+   "league": "Europa League",
+   "league_id": 5,
    "season": "2026/2027"
   },
   {
-   "league": "Europa League",
-   "league_id": 5,
+   "league": "League Cup",
+   "league_id": 510,
    "season": "2026/2027"
   },
   {
@@ -19,8 +19,8 @@
    "season": "2026/2027"
   },
   {
-   "league": "League Cup",
-   "league_id": 510,
+   "league": "Champions League",
+   "league_id": 2,
    "season": "2026/2027"
   },
   {
@@ -40,141 +40,6 @@
   }
  ],
  "players": {
-  "529045": {
-   "id": 529045,
-   "name": "Viljani Sinisalo",
-   "display_name": "Viljami Sinisalo",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/21/529045.png",
-   "dob": "2001-10-11",
-   "nationality": "Finland",
-   "position": "Goalkeeper",
-   "jersey": 1,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "penalties": 0,
-     "minutes": 210,
-     "apps": 2,
-     "starts": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "minutes": 90,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "minutes": 540,
-     "apps": 6,
-     "starts": 6
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "minutes": 90,
-     "apps": 1,
-     "starts": 1
-    }
-   ],
-   "total": {
-    "penalties": 0,
-    "minutes": 930,
-    "apps": 10,
-    "starts": 10
-   }
-  },
-  "172104": {
-   "id": 172104,
-   "name": "James Forrest",
-   "display_name": "James Forrest",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/8/172104.png",
-   "dob": "1991-07-07",
-   "nationality": "Scotland",
-   "position": "Attacker",
-   "jersey": 49,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 57,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "sub_apps": 7,
-     "minutes": 133,
-     "apps": 7
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "sub_apps": 2,
-     "minutes": 48,
-     "apps": 2
-    }
-   ],
-   "total": {
-    "sub_apps": 10,
-    "minutes": 238,
-    "apps": 10,
-    "starts": 1
-   }
-  },
-  "37564402": {
-   "id": 37564402,
-   "name": "Johnny Kenny",
-   "display_name": "Johnny Kenny",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/18/37564402.png",
-   "dob": "2003-06-06",
-   "nationality": "Republic of Ireland",
-   "position": "Attacker",
-   "jersey": 24,
-   "captain": false,
-   "competitions": [],
-   "total": {}
-  },
-  "378093": {
-   "id": 378093,
-   "name": "Ross Doohan",
-   "display_name": "Ross Doohan",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/13/378093.png",
-   "dob": "1998-03-29",
-   "nationality": "Scotland",
-   "position": "Goalkeeper",
-   "jersey": 31,
-   "captain": false,
-   "competitions": [],
-   "total": {}
-  },
-  "37526239": {
-   "id": 37526239,
-   "name": "Michel Ange Balikwisha",
-   "display_name": "Michel-Ange Balikwisha",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/31/37526239.png",
-   "dob": "2001-05-10",
-   "nationality": "Belgium",
-   "position": "Attacker",
-   "jersey": 10,
-   "captain": false,
-   "competitions": [],
-   "total": {}
-  },
   "37598290": {
    "id": 37598290,
    "name": "Callum Osmand",
@@ -201,1041 +66,6 @@
     "apps": 2
    }
   },
-  "1712": {
-   "id": 1712,
-   "name": "Cameron Carter-Vickers",
-   "display_name": "Cameron Carter-Vickers ",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/16/1712.png",
-   "dob": "1997-12-31",
-   "nationality": "United States",
-   "position": "Defender",
-   "jersey": 20,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 181,
-     "apps": 2,
-     "starts": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "minutes": 90,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "yellows": 1,
-     "minutes": 540,
-     "apps": 6,
-     "starts": 6
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "yellows": 1,
-     "minutes": 180,
-     "apps": 2,
-     "starts": 2
-    }
-   ],
-   "total": {
-    "sub_apps": 1,
-    "minutes": 991,
-    "apps": 11,
-    "starts": 11,
-    "yellows": 2
-   }
-  },
-  "173129": {
-   "id": 173129,
-   "name": "Anthony Ralston",
-   "display_name": "Anthony Ralston",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/9/173129.png",
-   "dob": "1998-11-16",
-   "nationality": "Scotland",
-   "position": "Defender",
-   "jersey": 56,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "sub_apps": 2,
-     "minutes": 36,
-     "apps": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 10,
-     "apps": 1
-    }
-   ],
-   "total": {
-    "sub_apps": 3,
-    "minutes": 46,
-    "apps": 3
-   }
-  },
-  "37709508": {
-   "id": 37709508,
-   "name": "Camilo Andres Durán Marquez",
-   "display_name": "Camilo Durán",
-   "image": "https://cdn.sportmonks.com/images/soccer/placeholder.png",
-   "dob": "2002-02-10",
-   "nationality": "Colombia",
-   "position": "Attacker",
-   "jersey": 11,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "goals": 2,
-     "sub_apps": 1,
-     "minutes": 203,
-     "apps": 2,
-     "starts": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "minutes": 90,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "goals": 3,
-     "sub_apps": 7,
-     "assists": 3,
-     "minutes": 458,
-     "apps": 7,
-     "starts": 6
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "goals": 1,
-     "sub_apps": 1,
-     "minutes": 167,
-     "apps": 2,
-     "starts": 2
-    }
-   ],
-   "total": {
-    "goals": 6,
-    "sub_apps": 9,
-    "minutes": 918,
-    "apps": 12,
-    "starts": 11,
-    "assists": 3
-   }
-  },
-  "37582048": {
-   "id": 37582048,
-   "name": "Mika Baur",
-   "display_name": "Mika Baur",
-   "image": "https://cdn.sportmonks.com/images/soccer/placeholder.png",
-   "dob": "2004-07-09",
-   "nationality": "Germany",
-   "position": "Midfielder",
-   "jersey": 22,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "sub_apps": 2,
-     "minutes": 136,
-     "apps": 2,
-     "starts": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "goals": 1,
-     "sub_apps": 1,
-     "minutes": 66,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "goals": 1,
-     "sub_apps": 2,
-     "yellows": 1,
-     "minutes": 370,
-     "apps": 5,
-     "starts": 4
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 121,
-     "apps": 2,
-     "starts": 1
-    }
-   ],
-   "total": {
-    "sub_apps": 6,
-    "minutes": 693,
-    "apps": 10,
-    "starts": 8,
-    "goals": 2,
-    "yellows": 1
-   }
-  },
-  "15061513": {
-   "id": 15061513,
-   "name": "Kasper Waarst Høgh",
-   "display_name": "Kasper Høgh",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/9/15061513.png",
-   "dob": "2000-12-06",
-   "nationality": "Denmark",
-   "position": "Attacker",
-   "jersey": 9,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "minutes": 210,
-     "apps": 2,
-     "starts": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 44,
-     "apps": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "goals": 3,
-     "sub_apps": 3,
-     "minutes": 302,
-     "apps": 4,
-     "starts": 3
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "sub_apps": 2,
-     "minutes": 132,
-     "apps": 2,
-     "starts": 2
-    }
-   ],
-   "total": {
-    "minutes": 688,
-    "apps": 9,
-    "starts": 7,
-    "sub_apps": 6,
-    "goals": 3
-   }
-  },
-  "37563550": {
-   "id": 37563550,
-   "name": "Hyun-Jun Yang",
-   "display_name": "Hyun-jun Yang",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/30/37563550.png",
-   "dob": "2002-05-25",
-   "nationality": "South Korea",
-   "position": "Attacker",
-   "jersey": 13,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "sub_apps": 2,
-     "assists": 1,
-     "minutes": 139,
-     "apps": 2,
-     "starts": 2
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "goals": 2,
-     "sub_apps": 5,
-     "minutes": 377,
-     "apps": 5,
-     "starts": 5
-    }
-   ],
-   "total": {
-    "sub_apps": 7,
-    "assists": 1,
-    "minutes": 516,
-    "apps": 7,
-    "starts": 7,
-    "goals": 2
-   }
-  },
-  "123659": {
-   "id": 123659,
-   "name": "Liam Scales",
-   "display_name": "Liam Scales",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/11/123659.png",
-   "dob": "1998-08-08",
-   "nationality": "Republic of Ireland",
-   "position": "Defender",
-   "jersey": 5,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "sub_apps": 2,
-     "minutes": 63,
-     "apps": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "minutes": 90,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "penalties": 0,
-     "goals": 1,
-     "sub_apps": 2,
-     "yellows": 1,
-     "minutes": 446,
-     "apps": 5,
-     "starts": 5
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "minutes": 180,
-     "apps": 2,
-     "starts": 2
-    }
-   ],
-   "total": {
-    "sub_apps": 4,
-    "minutes": 779,
-    "apps": 10,
-    "starts": 8,
-    "penalties": 0,
-    "goals": 1,
-    "yellows": 1
-   }
-  },
-  "262280": {
-   "id": 262280,
-   "name": "Auston Trusty",
-   "display_name": "Auston Trusty",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/8/262280.png",
-   "dob": "1998-08-12",
-   "nationality": "United States",
-   "position": "Defender",
-   "jersey": 6,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "minutes": 210,
-     "apps": 2,
-     "starts": 2
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 560,
-     "apps": 7,
-     "starts": 6
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "goals": 1,
-     "sub_apps": 1,
-     "minutes": 68,
-     "apps": 1,
-     "starts": 1
-    }
-   ],
-   "total": {
-    "minutes": 838,
-    "apps": 10,
-    "starts": 9,
-    "sub_apps": 2,
-    "goals": 1
-   }
-  },
-  "8585": {
-   "id": 8585,
-   "name": "Callum McGregor",
-   "display_name": "Callum McGregor",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/9/8585.png",
-   "dob": "1993-06-14",
-   "nationality": "Scotland",
-   "position": "Midfielder",
-   "jersey": 42,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "goals": 1,
-     "minutes": 210,
-     "apps": 2,
-     "starts": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "minutes": 90,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "yellows": 1,
-     "minutes": 540,
-     "apps": 6,
-     "starts": 6
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "minutes": 180,
-     "apps": 2,
-     "starts": 2
-    }
-   ],
-   "total": {
-    "goals": 1,
-    "minutes": 1020,
-    "apps": 11,
-    "starts": 11,
-    "yellows": 1
-   }
-  },
-  "18584306": {
-   "id": 18584306,
-   "name": "Haissem Hassan",
-   "display_name": "Haissem Hassan",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/18/18584306.png",
-   "dob": "2002-02-08",
-   "nationality": "Egypt",
-   "position": "Attacker",
-   "jersey": 23,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 7,
-     "apps": 1
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 57,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "sub_apps": 5,
-     "assists": 1,
-     "minutes": 303,
-     "apps": 5,
-     "starts": 4
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "sub_apps": 2,
-     "yellows": 1,
-     "minutes": 63,
-     "apps": 2
-    }
-   ],
-   "total": {
-    "sub_apps": 9,
-    "minutes": 430,
-    "apps": 9,
-    "starts": 5,
-    "assists": 1,
-    "yellows": 1
-   }
-  },
-  "19979885": {
-   "id": 19979885,
-   "name": "Benjamin Nygren",
-   "display_name": "Benjamin Nygren",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/13/19979885.png",
-   "dob": "2001-07-08",
-   "nationality": "Sweden",
-   "position": "Midfielder",
-   "jersey": 8,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "goals": 1,
-     "sub_apps": 1,
-     "assists": 1,
-     "minutes": 153,
-     "apps": 2,
-     "starts": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 33,
-     "apps": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "goals": 3,
-     "sub_apps": 5,
-     "assists": 3,
-     "minutes": 486,
-     "apps": 7,
-     "starts": 6
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "goals": 1,
-     "sub_apps": 2,
-     "assists": 2,
-     "yellows": 1,
-     "minutes": 132,
-     "apps": 2,
-     "starts": 2
-    }
-   ],
-   "total": {
-    "goals": 5,
-    "sub_apps": 9,
-    "assists": 6,
-    "minutes": 804,
-    "apps": 12,
-    "starts": 10,
-    "yellows": 1
-   }
-  },
-  "10966261": {
-   "id": 10966261,
-   "name": "Reo Hatate",
-   "display_name": "Reo Hatate",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/21/10966261.png",
-   "dob": "1997-11-21",
-   "nationality": "Japan",
-   "position": "Midfielder",
-   "jersey": 41,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "penalties": 0,
-     "sub_apps": 2,
-     "minutes": 82,
-     "apps": 2
-    }
-   ],
-   "total": {
-    "penalties": 0,
-    "sub_apps": 2,
-    "minutes": 82,
-    "apps": 2
-   }
-  },
-  "37732189": {
-   "id": 37732189,
-   "name": "Colby Donovan",
-   "display_name": "Colby Donovan",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/29/37732189.png",
-   "dob": "2006-09-07",
-   "nationality": "Scotland",
-   "position": "Defender",
-   "jersey": 51,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "sub_apps": 2,
-     "minutes": 157,
-     "apps": 2,
-     "starts": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 80,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "sub_apps": 3,
-     "yellows": 2,
-     "minutes": 498,
-     "apps": 7,
-     "starts": 5
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "yellows": 1,
-     "minutes": 180,
-     "apps": 2,
-     "starts": 2
-    }
-   ],
-   "total": {
-    "sub_apps": 6,
-    "minutes": 915,
-    "apps": 12,
-    "starts": 10,
-    "yellows": 3
-   }
-  },
-  "172960": {
-   "id": 172960,
-   "name": "Kieran Tierney",
-   "display_name": "Kieran Tierney",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/0/172960.png",
-   "dob": "1997-06-05",
-   "nationality": "Scotland",
-   "position": "Defender",
-   "jersey": 63,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "sub_apps": 2,
-     "minutes": 147,
-     "apps": 2,
-     "starts": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "assists": 1,
-     "minutes": 90,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "sub_apps": 4,
-     "assists": 2,
-     "minutes": 317,
-     "apps": 5,
-     "starts": 4
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 80,
-     "apps": 1,
-     "starts": 1
-    }
-   ],
-   "total": {
-    "sub_apps": 7,
-    "minutes": 634,
-    "apps": 9,
-    "starts": 8,
-    "assists": 3
-   }
-  },
-  "1548366": {
-   "id": 1548366,
-   "name": "Luke McCowan",
-   "display_name": "Luke McCowan",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/14/1548366.png",
-   "dob": "1997-12-09",
-   "nationality": "Scotland",
-   "position": "Midfielder",
-   "jersey": 14,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "yellows": 1,
-     "minutes": 49,
-     "apps": 1
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 24,
-     "apps": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "goals": 1,
-     "sub_apps": 4,
-     "minutes": 81,
-     "apps": 4,
-     "starts": 1
-    }
-   ],
-   "total": {
-    "sub_apps": 6,
-    "yellows": 1,
-    "minutes": 154,
-    "apps": 6,
-    "goals": 1,
-    "starts": 1
-   }
-  },
-  "23698076": {
-   "id": 23698076,
-   "name": "Oliver Sørensen Jensen",
-   "display_name": "Oliver Sørensen",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/28/23698076.png",
-   "dob": "2002-03-10",
-   "nationality": "Denmark",
-   "position": "Midfielder",
-   "jersey": 18,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 46,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "sub_apps": 3,
-     "minutes": 111,
-     "apps": 3,
-     "starts": 1
-    }
-   ],
-   "total": {
-    "sub_apps": 4,
-    "minutes": 157,
-    "apps": 4,
-    "starts": 2
-   }
-  },
-  "1008": {
-   "id": 1008,
-   "name": "Sam Johnstone",
-   "display_name": "Sam Johnstone",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/16/1008.png",
-   "dob": "1993-03-25",
-   "nationality": "England",
-   "position": "Goalkeeper",
-   "jersey": 26,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "minutes": 90,
-     "apps": 1,
-     "starts": 1
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "minutes": 90,
-     "apps": 1,
-     "starts": 1
-    }
-   ],
-   "total": {
-    "minutes": 180,
-    "apps": 2,
-    "starts": 2
-   }
-  },
-  "37714106": {
-   "id": 37714106,
-   "name": "Shim Mheuka",
-   "display_name": "Shumaira Mheuka",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/26/37714106.png",
-   "dob": "2007-10-20",
-   "nationality": "England",
-   "position": "Attacker",
-   "jersey": 29,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "sub_apps": 4,
-     "minutes": 27,
-     "apps": 4
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 13,
-     "apps": 1
-    }
-   ],
-   "total": {
-    "sub_apps": 5,
-    "minutes": 40,
-    "apps": 5
-   }
-  },
-  "37721324": {
-   "id": 37721324,
-   "name": "Landon Emenalo",
-   "display_name": "Landon Emenalo",
-   "image": "https://cdn.sportmonks.com/images/soccer/placeholder.png",
-   "dob": "2008-01-18",
-   "nationality": "England",
-   "position": "Defender",
-   "jersey": null,
-   "captain": false,
-   "competitions": [],
-   "total": {}
-  },
-  "37709264": {
-   "id": 37709264,
-   "name": "Joel van den Berg",
-   "display_name": "Joël van den Berg",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/16/37709264.png",
-   "dob": "2007-02-11",
-   "nationality": "Netherlands",
-   "position": "Midfielder",
-   "jersey": 35,
-   "captain": false,
-   "competitions": [],
-   "total": {}
-  },
-  "198116": {
-   "id": 198116,
-   "name": "Jordan Lotomba",
-   "display_name": "Jordan Lotomba",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/4/198116.png",
-   "dob": "1998-09-29",
-   "nationality": "Switzerland",
-   "position": "Defender",
-   "jersey": 3,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 10,
-     "apps": 1
-    }
-   ],
-   "total": {
-    "sub_apps": 1,
-    "minutes": 10,
-    "apps": 1
-   }
-  },
-  "37342595": {
-   "id": 37342595,
-   "name": "Dane Murray",
-   "display_name": "Dane Murray",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/3/37342595.png",
-   "dob": "2003-06-26",
-   "nationality": "Scotland",
-   "position": "Defender",
-   "jersey": 47,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 46,
-     "apps": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 93,
-     "apps": 2,
-     "starts": 1
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 22,
-     "apps": 1
-    }
-   ],
-   "total": {
-    "sub_apps": 3,
-    "minutes": 161,
-    "apps": 4,
-    "starts": 1
-   }
-  },
-  "15169863": {
-   "id": 15169863,
-   "name": "Sebastian Tounekti",
-   "display_name": "Sebastian Tounekti",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/7/15169863.png",
-   "dob": "2002-07-13",
-   "nationality": "Tunisia",
-   "position": "Attacker",
-   "jersey": 17,
-   "captain": false,
-   "competitions": [
-    {
-     "league": "Champions League",
-     "league_id": 2,
-     "season": "2026/2027",
-     "sub_apps": 2,
-     "minutes": 71,
-     "apps": 2
-    },
-    {
-     "league": "Europa League",
-     "league_id": 5,
-     "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 33,
-     "apps": 1
-    },
-    {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "sub_apps": 7,
-     "yellows": 1,
-     "minutes": 173,
-     "apps": 7,
-     "starts": 1
-    },
-    {
-     "league": "League Cup",
-     "league_id": 510,
-     "season": "2026/2027",
-     "goals": 1,
-     "sub_apps": 2,
-     "assists": 1,
-     "minutes": 117,
-     "apps": 2,
-     "starts": 2
-    }
-   ],
-   "total": {
-    "sub_apps": 12,
-    "minutes": 394,
-    "apps": 12,
-    "yellows": 1,
-    "starts": 3,
-    "goals": 1,
-    "assists": 1
-   }
-  },
   "850": {
    "id": 850,
    "name": "Alex Oxlade-Chamberlain",
@@ -1248,15 +78,6 @@
    "captain": false,
    "competitions": [
     {
-     "league": "Premiership",
-     "league_id": 501,
-     "season": "2026/2027",
-     "sub_apps": 2,
-     "minutes": 141,
-     "apps": 2,
-     "starts": 2
-    },
-    {
      "league": "League Cup",
      "league_id": 510,
      "season": "2026/2027",
@@ -1264,6 +85,15 @@
      "minutes": 85,
      "apps": 2,
      "starts": 1
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "sub_apps": 2,
+     "minutes": 141,
+     "apps": 2,
+     "starts": 2
     }
    ],
    "total": {
@@ -1314,6 +144,1189 @@
    "competitions": [],
    "total": {}
   },
+  "37563550": {
+   "id": 37563550,
+   "name": "Hyun-Jun Yang",
+   "display_name": "Hyun-jun Yang",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/30/37563550.png",
+   "dob": "2002-05-25",
+   "nationality": "South Korea",
+   "position": "Attacker",
+   "jersey": 13,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "goals": 2,
+     "sub_apps": 5,
+     "minutes": 377,
+     "apps": 5,
+     "starts": 5
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "sub_apps": 2,
+     "assists": 1,
+     "minutes": 139,
+     "apps": 2,
+     "starts": 2
+    }
+   ],
+   "total": {
+    "goals": 2,
+    "sub_apps": 7,
+    "minutes": 516,
+    "apps": 7,
+    "starts": 7,
+    "assists": 1
+   }
+  },
+  "1008": {
+   "id": 1008,
+   "name": "Sam Johnstone",
+   "display_name": "Sam Johnstone",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/16/1008.png",
+   "dob": "1993-03-25",
+   "nationality": "England",
+   "position": "Goalkeeper",
+   "jersey": 26,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
+    }
+   ],
+   "total": {
+    "minutes": 180,
+    "apps": 2,
+    "starts": 2
+   }
+  },
+  "37714106": {
+   "id": 37714106,
+   "name": "Shim Mheuka",
+   "display_name": "Shumaira Mheuka",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/26/37714106.png",
+   "dob": "2007-10-20",
+   "nationality": "England",
+   "position": "Attacker",
+   "jersey": 29,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 13,
+     "apps": 1
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "sub_apps": 4,
+     "minutes": 27,
+     "apps": 4
+    }
+   ],
+   "total": {
+    "sub_apps": 5,
+    "minutes": 40,
+    "apps": 5
+   }
+  },
+  "123659": {
+   "id": 123659,
+   "name": "Liam Scales",
+   "display_name": "Liam Scales",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/11/123659.png",
+   "dob": "1998-08-08",
+   "nationality": "Republic of Ireland",
+   "position": "Defender",
+   "jersey": 5,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "minutes": 180,
+     "apps": 2,
+     "starts": 2
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "penalties": 0,
+     "goals": 1,
+     "sub_apps": 2,
+     "yellows": 1,
+     "minutes": 446,
+     "apps": 5,
+     "starts": 5
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "sub_apps": 2,
+     "minutes": 63,
+     "apps": 2
+    }
+   ],
+   "total": {
+    "minutes": 779,
+    "apps": 10,
+    "starts": 8,
+    "penalties": 0,
+    "goals": 1,
+    "sub_apps": 4,
+    "yellows": 1
+   }
+  },
+  "18584306": {
+   "id": 18584306,
+   "name": "Haissem Hassan",
+   "display_name": "Haissem Hassan",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/18/18584306.png",
+   "dob": "2002-02-08",
+   "nationality": "Egypt",
+   "position": "Attacker",
+   "jersey": 23,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 57,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 2,
+     "yellows": 1,
+     "minutes": 63,
+     "apps": 2
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "sub_apps": 5,
+     "assists": 1,
+     "minutes": 303,
+     "apps": 5,
+     "starts": 4
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 7,
+     "apps": 1
+    }
+   ],
+   "total": {
+    "sub_apps": 9,
+    "minutes": 430,
+    "apps": 9,
+    "starts": 5,
+    "yellows": 1,
+    "assists": 1
+   }
+  },
+  "37732189": {
+   "id": 37732189,
+   "name": "Colby Donovan",
+   "display_name": "Colby Donovan",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/29/37732189.png",
+   "dob": "2006-09-07",
+   "nationality": "Scotland",
+   "position": "Defender",
+   "jersey": 51,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 80,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "yellows": 1,
+     "minutes": 180,
+     "apps": 2,
+     "starts": 2
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "sub_apps": 3,
+     "yellows": 2,
+     "minutes": 498,
+     "apps": 7,
+     "starts": 5
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "sub_apps": 2,
+     "minutes": 157,
+     "apps": 2,
+     "starts": 2
+    }
+   ],
+   "total": {
+    "sub_apps": 6,
+    "minutes": 915,
+    "apps": 12,
+    "starts": 10,
+    "yellows": 3
+   }
+  },
+  "172960": {
+   "id": 172960,
+   "name": "Kieran Tierney",
+   "display_name": "Kieran Tierney",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/0/172960.png",
+   "dob": "1997-06-05",
+   "nationality": "Scotland",
+   "position": "Defender",
+   "jersey": 63,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "assists": 1,
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 80,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "sub_apps": 4,
+     "assists": 2,
+     "minutes": 317,
+     "apps": 5,
+     "starts": 4
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "sub_apps": 2,
+     "minutes": 147,
+     "apps": 2,
+     "starts": 2
+    }
+   ],
+   "total": {
+    "assists": 3,
+    "minutes": 634,
+    "apps": 9,
+    "starts": 8,
+    "sub_apps": 7
+   }
+  },
+  "37342595": {
+   "id": 37342595,
+   "name": "Dane Murray",
+   "display_name": "Dane Murray",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/3/37342595.png",
+   "dob": "2003-06-26",
+   "nationality": "Scotland",
+   "position": "Defender",
+   "jersey": 47,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 22,
+     "apps": 1
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 93,
+     "apps": 2,
+     "starts": 1
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 46,
+     "apps": 1
+    }
+   ],
+   "total": {
+    "sub_apps": 3,
+    "minutes": 161,
+    "apps": 4,
+    "starts": 1
+   }
+  },
+  "529045": {
+   "id": 529045,
+   "name": "Viljani Sinisalo",
+   "display_name": "Viljami Sinisalo",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/21/529045.png",
+   "dob": "2001-10-11",
+   "nationality": "Finland",
+   "position": "Goalkeeper",
+   "jersey": 1,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "minutes": 540,
+     "apps": 6,
+     "starts": 6
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "penalties": 0,
+     "minutes": 210,
+     "apps": 2,
+     "starts": 2
+    }
+   ],
+   "total": {
+    "minutes": 930,
+    "apps": 10,
+    "starts": 10,
+    "penalties": 0
+   }
+  },
+  "173129": {
+   "id": 173129,
+   "name": "Anthony Ralston",
+   "display_name": "Anthony Ralston",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/9/173129.png",
+   "dob": "1998-11-16",
+   "nationality": "Scotland",
+   "position": "Defender",
+   "jersey": 56,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 10,
+     "apps": 1
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "sub_apps": 2,
+     "minutes": 36,
+     "apps": 2
+    }
+   ],
+   "total": {
+    "sub_apps": 3,
+    "minutes": 46,
+    "apps": 3
+   }
+  },
+  "23698076": {
+   "id": 23698076,
+   "name": "Oliver Sørensen Jensen",
+   "display_name": "Oliver Sørensen",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/28/23698076.png",
+   "dob": "2002-03-10",
+   "nationality": "Denmark",
+   "position": "Midfielder",
+   "jersey": 18,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 46,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "sub_apps": 3,
+     "minutes": 111,
+     "apps": 3,
+     "starts": 1
+    }
+   ],
+   "total": {
+    "sub_apps": 4,
+    "minutes": 157,
+    "apps": 4,
+    "starts": 2
+   }
+  },
+  "37709508": {
+   "id": 37709508,
+   "name": "Camilo Andres Durán Marquez",
+   "display_name": "Camilo Durán",
+   "image": "https://cdn.sportmonks.com/images/soccer/placeholder.png",
+   "dob": "2002-02-10",
+   "nationality": "Colombia",
+   "position": "Attacker",
+   "jersey": 11,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "goals": 1,
+     "sub_apps": 1,
+     "minutes": 167,
+     "apps": 2,
+     "starts": 2
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "goals": 3,
+     "sub_apps": 7,
+     "assists": 3,
+     "minutes": 458,
+     "apps": 7,
+     "starts": 6
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "goals": 2,
+     "sub_apps": 1,
+     "minutes": 203,
+     "apps": 2,
+     "starts": 2
+    }
+   ],
+   "total": {
+    "minutes": 918,
+    "apps": 12,
+    "starts": 11,
+    "goals": 6,
+    "sub_apps": 9,
+    "assists": 3
+   }
+  },
+  "1548366": {
+   "id": 1548366,
+   "name": "Luke McCowan",
+   "display_name": "Luke McCowan",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/14/1548366.png",
+   "dob": "1997-12-09",
+   "nationality": "Scotland",
+   "position": "Midfielder",
+   "jersey": 14,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 24,
+     "apps": 1
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "goals": 1,
+     "sub_apps": 4,
+     "minutes": 81,
+     "apps": 4,
+     "starts": 1
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "yellows": 1,
+     "minutes": 49,
+     "apps": 1
+    }
+   ],
+   "total": {
+    "sub_apps": 6,
+    "minutes": 154,
+    "apps": 6,
+    "goals": 1,
+    "starts": 1,
+    "yellows": 1
+   }
+  },
+  "378093": {
+   "id": 378093,
+   "name": "Ross Doohan",
+   "display_name": "Ross Doohan",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/13/378093.png",
+   "dob": "1998-03-29",
+   "nationality": "Scotland",
+   "position": "Goalkeeper",
+   "jersey": 31,
+   "captain": false,
+   "competitions": [],
+   "total": {}
+  },
+  "15061513": {
+   "id": 15061513,
+   "name": "Kasper Waarst Høgh",
+   "display_name": "Kasper Høgh",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/9/15061513.png",
+   "dob": "2000-12-06",
+   "nationality": "Denmark",
+   "position": "Attacker",
+   "jersey": 9,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 44,
+     "apps": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 2,
+     "minutes": 132,
+     "apps": 2,
+     "starts": 2
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "goals": 3,
+     "sub_apps": 3,
+     "minutes": 302,
+     "apps": 4,
+     "starts": 3
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "minutes": 210,
+     "apps": 2,
+     "starts": 2
+    }
+   ],
+   "total": {
+    "sub_apps": 6,
+    "minutes": 688,
+    "apps": 9,
+    "starts": 7,
+    "goals": 3
+   }
+  },
+  "172104": {
+   "id": 172104,
+   "name": "James Forrest",
+   "display_name": "James Forrest",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/8/172104.png",
+   "dob": "1991-07-07",
+   "nationality": "Scotland",
+   "position": "Attacker",
+   "jersey": 49,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 57,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 2,
+     "minutes": 48,
+     "apps": 2
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "sub_apps": 7,
+     "minutes": 133,
+     "apps": 7
+    }
+   ],
+   "total": {
+    "sub_apps": 10,
+    "minutes": 238,
+    "apps": 10,
+    "starts": 1
+   }
+  },
+  "262280": {
+   "id": 262280,
+   "name": "Auston Trusty",
+   "display_name": "Auston Trusty",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/8/262280.png",
+   "dob": "1998-08-12",
+   "nationality": "United States",
+   "position": "Defender",
+   "jersey": 6,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "goals": 1,
+     "sub_apps": 1,
+     "minutes": 68,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 560,
+     "apps": 7,
+     "starts": 6
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "minutes": 210,
+     "apps": 2,
+     "starts": 2
+    }
+   ],
+   "total": {
+    "goals": 1,
+    "sub_apps": 2,
+    "minutes": 838,
+    "apps": 10,
+    "starts": 9
+   }
+  },
+  "19979885": {
+   "id": 19979885,
+   "name": "Benjamin Nygren",
+   "display_name": "Benjamin Nygren",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/13/19979885.png",
+   "dob": "2001-07-08",
+   "nationality": "Sweden",
+   "position": "Midfielder",
+   "jersey": 8,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 33,
+     "apps": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "goals": 1,
+     "sub_apps": 2,
+     "assists": 2,
+     "yellows": 1,
+     "minutes": 132,
+     "apps": 2,
+     "starts": 2
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "goals": 3,
+     "sub_apps": 5,
+     "assists": 3,
+     "minutes": 486,
+     "apps": 7,
+     "starts": 6
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "goals": 1,
+     "sub_apps": 1,
+     "assists": 1,
+     "minutes": 153,
+     "apps": 2,
+     "starts": 2
+    }
+   ],
+   "total": {
+    "sub_apps": 9,
+    "minutes": 804,
+    "apps": 12,
+    "goals": 5,
+    "assists": 6,
+    "yellows": 1,
+    "starts": 10
+   }
+  },
+  "15169863": {
+   "id": 15169863,
+   "name": "Sebastian Tounekti",
+   "display_name": "Sebastian Tounekti",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/7/15169863.png",
+   "dob": "2002-07-13",
+   "nationality": "Tunisia",
+   "position": "Attacker",
+   "jersey": 17,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 33,
+     "apps": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "goals": 1,
+     "sub_apps": 2,
+     "assists": 1,
+     "minutes": 117,
+     "apps": 2,
+     "starts": 2
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "sub_apps": 7,
+     "yellows": 1,
+     "minutes": 173,
+     "apps": 7,
+     "starts": 1
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "sub_apps": 2,
+     "minutes": 71,
+     "apps": 2
+    }
+   ],
+   "total": {
+    "sub_apps": 12,
+    "minutes": 394,
+    "apps": 12,
+    "goals": 1,
+    "assists": 1,
+    "starts": 3,
+    "yellows": 1
+   }
+  },
+  "8585": {
+   "id": 8585,
+   "name": "Callum McGregor",
+   "display_name": "Callum McGregor",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/9/8585.png",
+   "dob": "1993-06-14",
+   "nationality": "Scotland",
+   "position": "Midfielder",
+   "jersey": 42,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "minutes": 180,
+     "apps": 2,
+     "starts": 2
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "yellows": 1,
+     "minutes": 540,
+     "apps": 6,
+     "starts": 6
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "goals": 1,
+     "minutes": 210,
+     "apps": 2,
+     "starts": 2
+    }
+   ],
+   "total": {
+    "minutes": 1020,
+    "apps": 11,
+    "starts": 11,
+    "yellows": 1,
+    "goals": 1
+   }
+  },
+  "37582048": {
+   "id": 37582048,
+   "name": "Mika Baur",
+   "display_name": "Mika Baur",
+   "image": "https://cdn.sportmonks.com/images/soccer/placeholder.png",
+   "dob": "2004-07-09",
+   "nationality": "Germany",
+   "position": "Midfielder",
+   "jersey": 22,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "goals": 1,
+     "sub_apps": 1,
+     "minutes": 66,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 121,
+     "apps": 2,
+     "starts": 1
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "goals": 1,
+     "sub_apps": 2,
+     "yellows": 1,
+     "minutes": 370,
+     "apps": 5,
+     "starts": 4
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "sub_apps": 2,
+     "minutes": 136,
+     "apps": 2,
+     "starts": 2
+    }
+   ],
+   "total": {
+    "goals": 2,
+    "sub_apps": 6,
+    "minutes": 693,
+    "apps": 10,
+    "starts": 8,
+    "yellows": 1
+   }
+  },
+  "1712": {
+   "id": 1712,
+   "name": "Cameron Carter-Vickers",
+   "display_name": "Cameron Carter-Vickers ",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/16/1712.png",
+   "dob": "1997-12-31",
+   "nationality": "United States",
+   "position": "Defender",
+   "jersey": 20,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "minutes": 90,
+     "apps": 1,
+     "starts": 1
+    },
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "yellows": 1,
+     "minutes": 180,
+     "apps": 2,
+     "starts": 2
+    },
+    {
+     "league": "Premiership",
+     "league_id": 501,
+     "season": "2026/2027",
+     "yellows": 1,
+     "minutes": 540,
+     "apps": 6,
+     "starts": 6
+    },
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 181,
+     "apps": 2,
+     "starts": 2
+    }
+   ],
+   "total": {
+    "minutes": 991,
+    "apps": 11,
+    "starts": 11,
+    "yellows": 2,
+    "sub_apps": 1
+   }
+  },
+  "37721324": {
+   "id": 37721324,
+   "name": "Landon Emenalo",
+   "display_name": "Landon Emenalo",
+   "image": "https://cdn.sportmonks.com/images/soccer/placeholder.png",
+   "dob": "2008-01-18",
+   "nationality": "England",
+   "position": "Defender",
+   "jersey": null,
+   "captain": false,
+   "competitions": [],
+   "total": {}
+  },
+  "198116": {
+   "id": 198116,
+   "name": "Jordan Lotomba",
+   "display_name": "Jordan Lotomba",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/4/198116.png",
+   "dob": "1998-09-29",
+   "nationality": "Switzerland",
+   "position": "Defender",
+   "jersey": 3,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "League Cup",
+     "league_id": 510,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 10,
+     "apps": 1
+    }
+   ],
+   "total": {
+    "sub_apps": 1,
+    "minutes": 10,
+    "apps": 1
+   }
+  },
+  "37709264": {
+   "id": 37709264,
+   "name": "Joel van den Berg",
+   "display_name": "Joël van den Berg",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/16/37709264.png",
+   "dob": "2007-02-11",
+   "nationality": "Netherlands",
+   "position": "Midfielder",
+   "jersey": 35,
+   "captain": false,
+   "competitions": [],
+   "total": {}
+  },
+  "37558562": {
+   "id": 37558562,
+   "name": "Adam Montgomery",
+   "display_name": "Adam Montgomery",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/2/37558562.png",
+   "dob": "2002-07-18",
+   "nationality": "Scotland",
+   "position": "Defender",
+   "jersey": 37,
+   "captain": false,
+   "competitions": [],
+   "total": {}
+  },
+  "37526239": {
+   "id": 37526239,
+   "name": "Michel Ange Balikwisha",
+   "display_name": "Michel-Ange Balikwisha",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/31/37526239.png",
+   "dob": "2001-05-10",
+   "nationality": "Belgium",
+   "position": "Attacker",
+   "jersey": 10,
+   "captain": false,
+   "competitions": [],
+   "total": {}
+  },
+  "37564402": {
+   "id": 37564402,
+   "name": "Johnny Kenny",
+   "display_name": "Johnny Kenny",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/18/37564402.png",
+   "dob": "2003-06-06",
+   "nationality": "Republic of Ireland",
+   "position": "Attacker",
+   "jersey": 24,
+   "captain": false,
+   "competitions": [],
+   "total": {}
+  },
+  "10966261": {
+   "id": 10966261,
+   "name": "Reo Hatate",
+   "display_name": "Reo Hatate",
+   "image": "https://cdn.sportmonks.com/images/soccer/players/21/10966261.png",
+   "dob": "1997-11-21",
+   "nationality": "Japan",
+   "position": "Midfielder",
+   "jersey": 41,
+   "captain": false,
+   "competitions": [
+    {
+     "league": "Champions League",
+     "league_id": 2,
+     "season": "2026/2027",
+     "penalties": 0,
+     "sub_apps": 2,
+     "minutes": 82,
+     "apps": 2
+    }
+   ],
+   "total": {
+    "penalties": 0,
+    "sub_apps": 2,
+    "minutes": 82,
+    "apps": 2
+   }
+  },
   "37337212": {
    "id": 37337212,
    "name": "Arne Engels",
@@ -1343,61 +1356,48 @@
     "apps": 2,
     "starts": 2
    }
-  },
-  "37558562": {
-   "id": 37558562,
-   "name": "Adam Montgomery",
-   "display_name": "Adam Montgomery",
-   "image": "https://cdn.sportmonks.com/images/soccer/players/2/37558562.png",
-   "dob": "2002-07-18",
-   "nationality": "Scotland",
-   "position": "Defender",
-   "jersey": 37,
-   "captain": false,
-   "competitions": [],
-   "total": {}
   }
  },
  "by_name": {
-  "viljani sinisalo": 529045,
-  "viljami sinisalo": 529045,
-  "james forrest": 172104,
-  "johnny kenny": 37564402,
-  "ross doohan": 378093,
-  "michel ange balikwisha": 37526239,
   "callum osmand": 37598290,
-  "cameron carter vickers": 1712,
-  "anthony ralston": 173129,
-  "camilo andres duran marquez": 37709508,
-  "camilo duran": 37709508,
-  "mika baur": 37582048,
-  "kasper waarst h gh": 15061513,
-  "kasper h gh": 15061513,
-  "hyun jun yang": 37563550,
-  "liam scales": 123659,
-  "auston trusty": 262280,
-  "callum mcgregor": 8585,
-  "haissem hassan": 18584306,
-  "benjamin nygren": 19979885,
-  "reo hatate": 10966261,
-  "colby donovan": 37732189,
-  "kieran tierney": 172960,
-  "luke mccowan": 1548366,
-  "oliver s rensen jensen": 23698076,
-  "oliver s rensen": 23698076,
-  "sam johnstone": 1008,
-  "shim mheuka": 37714106,
-  "shumaira mheuka": 37714106,
-  "landon emenalo": 37721324,
-  "joel van den berg": 37709264,
-  "jordan lotomba": 198116,
-  "dane murray": 37342595,
-  "sebastian tounekti": 15169863,
   "alex oxlade chamberlain": 850,
   "alistair johnston": 35659846,
   "joao pedro neves filipe": 163711,
   "jota": 163711,
-  "arne engels": 37337212,
-  "adam montgomery": 37558562
+  "hyun jun yang": 37563550,
+  "sam johnstone": 1008,
+  "shim mheuka": 37714106,
+  "shumaira mheuka": 37714106,
+  "liam scales": 123659,
+  "haissem hassan": 18584306,
+  "colby donovan": 37732189,
+  "kieran tierney": 172960,
+  "dane murray": 37342595,
+  "viljani sinisalo": 529045,
+  "viljami sinisalo": 529045,
+  "anthony ralston": 173129,
+  "oliver s rensen jensen": 23698076,
+  "oliver s rensen": 23698076,
+  "camilo andres duran marquez": 37709508,
+  "camilo duran": 37709508,
+  "luke mccowan": 1548366,
+  "ross doohan": 378093,
+  "kasper waarst h gh": 15061513,
+  "kasper h gh": 15061513,
+  "james forrest": 172104,
+  "auston trusty": 262280,
+  "benjamin nygren": 19979885,
+  "sebastian tounekti": 15169863,
+  "callum mcgregor": 8585,
+  "mika baur": 37582048,
+  "cameron carter vickers": 1712,
+  "landon emenalo": 37721324,
+  "jordan lotomba": 198116,
+  "joel van den berg": 37709264,
+  "adam montgomery": 37558562,
+  "michel ange balikwisha": 37526239,
+  "johnny kenny": 37564402,
+  "reo hatate": 10966261,
+  "arne engels": 37337212
  }
 }
