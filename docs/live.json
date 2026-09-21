@@ -1058,11 +1058,11 @@
   ],
   "away": [
    {
-    "player": "Lawrence Shankland",
-    "type": "Hamstring Injury",
-    "since": "2026-09-05",
-    "until": "2027-01-01",
-    "missed": 4
+    "player": "Daisuke Yokota",
+    "type": "Groin Surgery",
+    "since": "2026-09-07",
+    "until": null,
+    "missed": 3
    },
    {
     "player": "Lawrence Shankland",
@@ -1072,11 +1072,11 @@
     "missed": 3
    },
    {
-    "player": "Daisuke Yokota",
-    "type": "Groin Surgery",
-    "since": "2026-09-07",
-    "until": null,
-    "missed": 3
+    "player": "Lawrence Shankland",
+    "type": "Hamstring Injury",
+    "since": "2026-09-05",
+    "until": "2027-01-01",
+    "missed": 4
    },
    {
     "player": "Youssef Chermiti",
@@ -1159,5 +1159,5 @@
    "goals": 3
   }
  ],
- "updated_at": "2026-09-21T00:05:30.316335+00:00"
+ "updated_at": "2026-09-21T09:04:26.017645+00:00"
 }
