@@ -1053,7 +1053,7 @@
     "type": "Leg Injury",
     "since": "2026-08-10",
     "until": null,
-    "missed": 9
+    "missed": 10
    }
   ],
   "away": [
@@ -1076,14 +1076,14 @@
     "type": "Groin Surgery",
     "since": "2026-09-07",
     "until": null,
-    "missed": 2
+    "missed": 3
    },
    {
     "player": "Youssef Chermiti",
     "type": "Cruciate Ligament Tear",
     "since": "2026-08-09",
     "until": null,
-    "missed": 10
+    "missed": 11
    }
   ]
  },
@@ -1159,5 +1159,5 @@
    "goals": 3
   }
  ],
- "updated_at": "2026-09-20T21:04:12.416611+00:00"
+ "updated_at": "2026-09-21T00:05:30.316335+00:00"
 }
