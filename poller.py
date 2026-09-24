@@ -92,7 +92,7 @@ def find_fixture(now):
         data, _ = get(f"fixtures/{FORCE_FIXTURE}", include="participants;state;league;venue")
         return data["data"], []
     start = (now - timedelta(days=1)).strftime("%Y-%m-%d")
-    end = (now + timedelta(days=14)).strftime("%Y-%m-%d")
+    end = (now + timedelta(days=60)).strftime("%Y-%m-%d")
     data, _ = get(f"fixtures/between/{start}/{end}/{TEAM_ID}", include="participants;state;league;venue")
     fixtures = sorted(data.get("data", []), key=lambda f: f["starting_at"])
     chosen = None
