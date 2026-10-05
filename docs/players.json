@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T15:52:31+00:00",
+ "updated": "2026-10-05T12:25:09+00:00",
  "team_id": 53,
  "season": "2026/2027",
  "competitions": [
@@ -353,7 +353,7 @@
   "37582048": {
    "id": 37582048,
    "name": "Mika Baur",
-   "display_name": "Mika Baur",
+   "display_name": "Mika Joel Baur",
    "image": "https://cdn.sportmonks.com/images/soccer/placeholder.png",
    "dob": "2004-07-09",
    "nationality": "Germany",
@@ -1371,6 +1371,7 @@
   "camilo andres duran marquez": 37709508,
   "camilo duran": 37709508,
   "mika baur": 37582048,
+  "mika joel baur": 37582048,
   "kasper waarst h gh": 15061513,
   "kasper h gh": 15061513,
   "hyun jun yang": 37563550,
