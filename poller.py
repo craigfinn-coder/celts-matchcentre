@@ -386,7 +386,16 @@ def parse_commentary(fx, limit=150):
         rows.append({"m": c.get("minute"), "x": c.get("extra_minute"), "t": text,
                      "goal": bool(c.get("is_goal")), "key": bool(c.get("is_important")),
                      "o": c.get("order") or 0})
-    rows.sort(key=lambda r: ((r["m"] or 0), (r["x"] or 0), r["o"]))
+    def key(r):
+        m, x = r["m"], r["x"]
+        if m is None:  # Sportmonks leaves HT/FT lines without a minute
+            low = r["t"].lower()
+            if "first half end" in low or "half time" in low or "half-time" in low:
+                return (45, 998, r["o"])
+            if "match end" in low or "full time" in low or "full-time" in low:
+                return (999, 999, r["o"])
+        return (m or 0, x or 0, r["o"])
+    rows.sort(key=key)
     for r in rows:
         r.pop("o", None)
     return rows[-limit:]
