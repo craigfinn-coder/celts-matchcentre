@@ -1,734 +1,2048 @@
 {
- "ran_at": "2026-10-06T08:06:31Z",
- "tests": {
-  "last:lineups.details.type": {
-   "http": 200,
-   "sample": {
-    "id": 19722782,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407967,
-    "state_id": 5,
-    "venue_id": 8909,
-    "name": "Celtic vs Rangers",
-    "starting_at": "2026-09-20 11:00:00",
-    "result_info": "Rangers won after full-time.",
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1789902000,
-    "lineups": [
+ "ran_at": "2026-10-06T08:10:57Z",
+ "lineups_details": {
+  "http": 200,
+  "type_ids_seen": {
+   "117172": "Cumulative Minutes Played",
+   "118": "Rating",
+   "119": "Minutes Played",
+   "80": "Passes",
+   "120": "Touches",
+   "116": "Accurate Passes",
+   "123": "Long Balls Won",
+   "1584": "Accurate Passes Percentage",
+   "104": "Saves Insidebox",
+   "57": "Saves",
+   "122": "Long Balls",
+   "27273": "Possession Lost",
+   "27269": "Passes In Final Third",
+   "88": "Goals Conceded",
+   "27271": "Ball Recovery",
+   "1535": "Goalkeeper Goals Conceded",
+   "27270": "Long Balls Won Percentage",
+   "101": "Clearances",
+   "107": "Aerials Won",
+   "106": "Duels Won",
+   "105": "Total Duels",
+   "27276": "Duels Won Percentage",
+   "96": "Fouls Drawn",
+   "27266": "Aerials Lost",
+   "1491": "Duels Lost",
+   "51": "Offsides",
+   "100": "Interceptions",
+   "56": "Fouls",
+   "27275": "Aerials Won Percentage",
+   "27272": "Backward Passes",
+   "27274": "Aerials",
+   "78": "Tackles",
+   "98": "Total Crosses",
+   "27268": "Tacles Won Percentage",
+   "97": "Blocked Shots",
+   "27267": "Tackles Won",
+   "110": "Dribbled Past",
+   "42": "Shots Total",
+   "41": "Shots Off Target",
+   "108": "Dribble Attempts",
+   "94": "Dispossessed",
+   "9706": "Chances Created",
+   "117": "Key Passes",
+   "84": "Yellowcards",
+   "582": "Clearance Offline",
+   "580": "Big Chances Created",
+   "99": "Accurate Crosses",
+   "1533": "Successful Crosses Percentage",
+   "109": "Successful Dribbles",
+   "40": "Captain",
+   "58": "Shots Blocked",
+   "583": "Last Man Tackle",
+   "581": "Big Chances Missed",
+   "86": "Shots On Target",
+   "64": "Hit Woodwork",
+   "584": "Good High Claim",
+   "103": "Punches",
+   "52": "Goals"
+  },
+  "rating_present": true,
+  "example_players": [
+   {
+    "name": "Viljami Sinisalo",
+    "team_id": 53,
+    "type_id": 11,
+    "details": [
      {
-      "id": 14674765131,
-      "sport_id": 1,
-      "fixture_id": 19722782,
-      "player_id": 529045,
-      "team_id": 53,
-      "position_id": 24,
-      "formation_field": "1:1",
-      "type_id": 11,
-      "formation_position": 1,
-      "player_name": "Viljami Sinisalo",
-      "jersey_number": 1,
-      "details": [
-       "{...}",
-       "(+21 more)"
-      ]
-     },
-     "(+39 more)"
-    ]
-   }
-  },
-  "last:lineups.xGLineup": {
-   "http": 403,
-   "error": "You do not have access to the 'xglineup' include"
-  },
-  "last:xGFixture": {
-   "http": 403,
-   "error": "You do not have access to the 'xgfixture' include"
-  },
-  "last:pressure": {
-   "http": 403,
-   "error": "You do not have access to the 'pressure' include"
-  },
-  "last:comments": {
-   "http": 200,
-   "sample": {
-    "id": 19722782,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407967,
-    "state_id": 5,
-    "venue_id": 8909,
-    "name": "Celtic vs Rangers",
-    "starting_at": "2026-09-20 11:00:00",
-    "result_info": "Rangers won after full-time.",
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1789902000,
-    "comments": [
-     {
-      "id": 11313550,
-      "fixture_id": 19722782,
-      "comment": "Kick-off! Referee\uff1aJohn Beaton",
-      "minute": 1,
-      "extra_minute": null,
-      "is_goal": false,
-      "is_important": false,
-      "order": 1
-     },
-     "(+58 more)"
-    ]
-   }
-  },
-  "last:timeline": {
-   "http": 200,
-   "sample": {
-    "id": 19722782,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407967,
-    "state_id": 5,
-    "venue_id": 8909,
-    "name": "Celtic vs Rangers",
-    "starting_at": "2026-09-20 11:00:00",
-    "result_info": "Rangers won after full-time.",
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1789902000,
-    "timeline": [
-     {
-      "id": 157984498,
-      "fixture_id": 19722782,
-      "period_id": 7117948,
-      "participant_id": 53,
-      "type_id": 126,
-      "section": "timeline",
-      "player_id": null,
-      "related_player_id": null,
-      "player_name": null,
-      "related_player_name": null,
-      "result": null,
-      "info": null,
-      "addition": "1st Corner",
-      "minute": 15,
-      "extra_minute": null,
-      "injured": null,
-      "on_bench": false,
-      "coach_id": null,
-      "sub_type_id": null,
-      "detailed_period_id": 7117948,
-      "rescinded": null,
-      "sort_order": 1
-     },
-     "(+38 more)"
-    ]
-   }
-  },
-  "last:tvStations": {
-   "http": 200,
-   "sample": {
-    "id": 19722782,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407967,
-    "state_id": 5,
-    "venue_id": 8909,
-    "name": "Celtic vs Rangers",
-    "starting_at": "2026-09-20 11:00:00",
-    "result_info": "Rangers won after full-time.",
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1789902000,
-    "tvstations": [
-     {
-      "id": 118792476,
-      "fixture_id": 19722782,
-      "tvstation_id": 41,
-      "country_id": 11
-     },
-     "(+108 more)"
-    ]
-   }
-  },
-  "last:referees.referee": {
-   "http": 200,
-   "sample": {
-    "id": 19722782,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407967,
-    "state_id": 5,
-    "venue_id": 8909,
-    "name": "Celtic vs Rangers",
-    "starting_at": "2026-09-20 11:00:00",
-    "result_info": "Rangers won after full-time.",
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1789902000,
-    "referees": [
-     {
-      "id": 6054916,
-      "fixture_id": 19722782,
-      "referee_id": 17265,
-      "type_id": 6,
-      "referee": {
-       "id": 17265,
-       "sport_id": 1,
-       "country_id": 1161,
-       "city_id": null,
-       "common_name": "J. Beaton",
-       "firstname": "John",
-       "lastname": "Beaton",
-       "name": "John Beaton",
-       "display_name": "John Beaton",
-       "image_path": "https://cdn.sportmonks.com/images/soccer/placeholder.png",
-       "height": null,
-       "weight": null,
-       "date_of_birth": null,
-       "gender": null
+      "type": "Cumulative Minutes Played",
+      "value": {
+       "value": 95
       }
      },
-     "(+3 more)"
-    ]
-   }
-  },
-  "last:coaches": {
-   "http": 200,
-   "sample": {
-    "id": 19722782,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407967,
-    "state_id": 5,
-    "venue_id": 8909,
-    "name": "Celtic vs Rangers",
-    "starting_at": "2026-09-20 11:00:00",
-    "result_info": "Rangers won after full-time.",
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1789902000,
-    "coaches": [
      {
-      "id": 896306,
-      "player_id": 896306,
-      "sport_id": 1,
-      "country_id": 491,
-      "nationality_id": 491,
-      "city_id": null,
-      "common_name": "M. O'Neill",
-      "firstname": "Martin",
-      "lastname": "O'Neill",
-      "name": "Martin O'Neill",
-      "display_name": "Martin O'Neill",
-      "image_path": "https://cdn.sportmonks.com/images/soccer/players/18/896306.png",
-      "height": null,
-      "weight": null,
-      "date_of_birth": "1952-03-01",
-      "gender": "male",
-      "meta": {
-       "fixture_id": 19722782,
-       "coach_id": 896306,
-       "participant_id": 53
+      "type": "Rating",
+      "value": {
+       "value": 7.39
       }
      },
-     "(+1 more)"
+     {
+      "type": "Minutes Played",
+      "value": {
+       "value": 90
+      }
+     },
+     {
+      "type": "Passes",
+      "value": {
+       "value": 31
+      }
+     },
+     {
+      "type": "Touches",
+      "value": {
+       "value": 44
+      }
+     },
+     {
+      "type": "Accurate Passes",
+      "value": {
+       "value": 18
+      }
+     },
+     {
+      "type": "Long Balls Won",
+      "value": {
+       "value": 3
+      }
+     },
+     {
+      "type": "Accurate Passes Percentage",
+      "value": {
+       "value": 58
+      }
+     },
+     {
+      "type": "Saves Insidebox",
+      "value": {
+       "value": 3
+      }
+     },
+     {
+      "type": "Saves",
+      "value": {
+       "value": 6
+      }
+     },
+     {
+      "type": "Long Balls",
+      "value": {
+       "value": 16
+      }
+     },
+     {
+      "type": "Possession Lost",
+      "value": {
+       "value": 14
+      }
+     },
+     {
+      "type": "Passes In Final Third",
+      "value": {
+       "value": 6
+      }
+     },
+     {
+      "type": "Goals Conceded",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Ball Recovery",
+      "value": {
+       "value": 8
+      }
+     },
+     {
+      "type": "Goalkeeper Goals Conceded",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Long Balls Won Percentage",
+      "value": {
+       "value": 19
+      }
+     },
+     {
+      "type": "Clearances",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Aerials Won",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Duels Won",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Total Duels",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Duels Won Percentage",
+      "value": {
+       "value": 100
+      }
+     }
+    ]
+   },
+   {
+    "name": "Liam Scales",
+    "team_id": 53,
+    "type_id": 11,
+    "details": [
+     {
+      "type": "Rating",
+      "value": {
+       "value": 6.71
+      }
+     },
+     {
+      "type": "Cumulative Minutes Played",
+      "value": {
+       "value": 90
+      }
+     },
+     {
+      "type": "Touches",
+      "value": {
+       "value": 75
+      }
+     },
+     {
+      "type": "Minutes Played",
+      "value": {
+       "value": 89
+      }
+     },
+     {
+      "type": "Possession Lost",
+      "value": {
+       "value": 18
+      }
+     },
+     {
+      "type": "Long Balls",
+      "value": {
+       "value": 12
+      }
+     },
+     {
+      "type": "Accurate Passes",
+      "value": {
+       "value": 35
+      }
+     },
+     {
+      "type": "Fouls Drawn",
+      "value": {
+       "value": 2
+      }
+     },
+     {
+      "type": "Aerials Lost",
+      "value": {
+       "value": 6
+      }
+     },
+     {
+      "type": "Duels Lost",
+      "value": {
+       "value": 9
+      }
+     },
+     {
+      "type": "Passes",
+      "value": {
+       "value": 51
+      }
+     },
+     {
+      "type": "Accurate Passes Percentage",
+      "value": {
+       "value": 71
+      }
+     },
+     {
+      "type": "Aerials Won",
+      "value": {
+       "value": 3
+      }
+     },
+     {
+      "type": "Duels Won",
+      "value": {
+       "value": 7
+      }
+     },
+     {
+      "type": "Offsides",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Total Duels",
+      "value": {
+       "value": 16
+      }
+     },
+     {
+      "type": "Interceptions",
+      "value": {
+       "value": 2
+      }
+     },
+     {
+      "type": "Clearances",
+      "value": {
+       "value": 5
+      }
+     },
+     {
+      "type": "Passes In Final Third",
+      "value": {
+       "value": 10
+      }
+     },
+     {
+      "type": "Ball Recovery",
+      "value": {
+       "value": 4
+      }
+     },
+     {
+      "type": "Fouls",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Aerials Won Percentage",
+      "value": {
+       "value": 38
+      }
+     },
+     {
+      "type": "Backward Passes",
+      "value": {
+       "value": 5
+      }
+     },
+     {
+      "type": "Aerials",
+      "value": {
+       "value": 8
+      }
+     },
+     {
+      "type": "Goals Conceded",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Tackles",
+      "value": {
+       "value": 2
+      }
+     },
+     {
+      "type": "Total Crosses",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Duels Won Percentage",
+      "value": {
+       "value": 47
+      }
+     },
+     {
+      "type": "Tacles Won Percentage",
+      "value": {
+       "value": 50
+      }
+     },
+     {
+      "type": "Blocked Shots",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Tackles Won",
+      "value": {
+       "value": 1
+      }
+     },
+     {
+      "type": "Long Balls Won",
+      "value": {
+       "value": 2
+      }
+     },
+     {
+      "type": "Long Balls Won Percentage",
+      "value": {
+       "value": 27
+      }
+     },
+     {
+      "type": "Dribbled Past",
+      "value": {
+       "value": 2
+      }
+     },
+     {
+      "type": "Shots Total",
+      "value": {
+       "value": 2
+      }
+     },
+     {
+      "type": "Shots Off Target",
+      "value": {
+       "value": 2
+      }
+     }
     ]
    }
-  },
-  "last:weatherReport": {
-   "http": 200,
-   "sample": {
-    "id": 19722782,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407967,
-    "state_id": 5,
-    "venue_id": 8909,
-    "name": "Celtic vs Rangers",
-    "starting_at": "2026-09-20 11:00:00",
-    "result_info": "Rangers won after full-time.",
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1789902000,
-    "weatherreport": {
-     "id": 793481,
-     "fixture_id": 19722782,
-     "venue_id": 8909,
-     "temperature": {
-      "current": 15.67
+  ]
+ },
+ "tv_last": {
+  "http": 200,
+  "count": 109,
+  "uk_or_scotland": [
+   {
+    "channel": "Sky Ultra HD",
+    "country": "England",
+    "country_id": 462
+   },
+   {
+    "channel": "SKY GO Extra",
+    "country": "England",
+    "country_id": 462
+   },
+   {
+    "channel": "Sky Sports Main Event",
+    "country": "England",
+    "country_id": 462
+   },
+   {
+    "channel": "BBC Radio 5 Live",
+    "country": "England",
+    "country_id": 462
+   },
+   {
+    "channel": "NOW",
+    "country": "England",
+    "country_id": 462
+   },
+   {
+    "channel": "Sky Sports Football",
+    "country": "England",
+    "country_id": 462
+   },
+   {
+    "channel": "Sky Go UK",
+    "country": "England",
+    "country_id": 462
+   },
+   {
+    "channel": "Rangers TV",
+    "country": "Scotland",
+    "country_id": 1161
+   },
+   {
+    "channel": "Celtic TV",
+    "country": "Scotland",
+    "country_id": 1161
+   }
+  ],
+  "first_10": [
+   {
+    "channel": "DAZN",
+    "country": "Germany",
+    "country_id": 11
+   },
+   {
+    "channel": "Paramount+",
+    "country": "United States",
+    "country_id": 3483
+   },
+   {
+    "channel": "Sport TV",
+    "country": "Belarus",
+    "country_id": 212
+   },
+   {
+    "channel": "Sky Ultra HD",
+    "country": "Republic of Ireland",
+    "country_id": 455
+   },
+   {
+    "channel": "Sky Ultra HD",
+    "country": "England",
+    "country_id": 462
+   },
+   {
+    "channel": "SKY GO Extra",
+    "country": "Republic of Ireland",
+    "country_id": 455
+   },
+   {
+    "channel": "SKY GO Extra",
+    "country": "England",
+    "country_id": 462
+   },
+   {
+    "channel": "Sky Sports Main Event",
+    "country": "Republic of Ireland",
+    "country_id": 455
+   },
+   {
+    "channel": "Sky Sports Main Event",
+    "country": "England",
+    "country_id": 462
+   },
+   {
+    "channel": "beIN SPORTS CONNECT",
+    "country": "Australia",
+    "country_id": 98
+   }
+  ]
+ },
+ "tv_next": {
+  "http": 200,
+  "count": 1,
+  "uk_or_scotland": [],
+  "first_10": [
+   {
+    "channel": "Paramount+",
+    "country": "United States",
+    "country_id": 3483
+   }
+  ]
+ },
+ "comments": {
+  "http": 200,
+  "count": 59,
+  "sample": [
+   {
+    "minute": 1,
+    "extra": null,
+    "goal": false,
+    "important": false,
+    "text": "Kick-off! Referee\uff1aJohn Beaton"
+   },
+   {
+    "minute": 4,
+    "extra": null,
+    "goal": false,
+    "important": false,
+    "text": "Yellow Card - Emmanuel Fernandez"
+   },
+   {
+    "minute": 6,
+    "extra": null,
+    "goal": false,
+    "important": true,
+    "text": "Goal 1-0"
+   },
+   {
+    "minute": 6,
+    "extra": null,
+    "goal": false,
+    "important": false,
+    "text": "Offside"
+   },
+   {
+    "minute": 9,
+    "extra": null,
+    "goal": false,
+    "important": false,
+    "text": "Offside"
+   },
+   {
+    "minute": 13,
+    "extra": null,
+    "goal": false,
+    "important": false,
+    "text": "Offside"
+   },
+   {
+    "minute": 6,
+    "extra": null,
+    "goal": false,
+    "important": true,
+    "text": "Goal 1-0"
+   },
+   {
+    "minute": 33,
+    "extra": null,
+    "goal": true,
+    "important": true,
+    "text": "Goal - Ryan Don Naderi 0-1"
+   },
+   {
+    "minute": 33,
+    "extra": null,
+    "goal": false,
+    "important": true,
+    "text": "Shot - Ryan Don Naderi Right Footed Shot Goal"
+   },
+   {
+    "minute": 74,
+    "extra": null,
+    "goal": true,
+    "important": true,
+    "text": "Goal - Olwethu Makhanya 0-2"
+   }
+  ]
+ },
+ "stats_details_type": {
+  "http": 200,
+  "seasons": 1,
+  "first_season_stats": [
+   {
+    "type": "Corners",
+    "value": {
+     "count": 66,
+     "average": 9.43
+    }
+   },
+   {
+    "type": "Attacks",
+    "value": {
+     "count": 803,
+     "average": 114.71
+    }
+   },
+   {
+    "type": "Dangerous Attacks",
+    "value": {
+     "count": 475,
+     "average": 67.86
+    }
+   },
+   {
+    "type": "Ball Possession %",
+    "value": {
+     "count": 428,
+     "average": 61.14
+    }
+   },
+   {
+    "type": "Offsides",
+    "value": {
+     "count": 10,
+     "average": 1.43
+    }
+   },
+   {
+    "type": "Goals",
+    "value": {
+     "all": {
+      "count": 14,
+      "average": 2,
+      "first_goal": 2
      },
-     "feels_like": {
-      "current": 15.04
+     "home": {
+      "count": 6,
+      "percentage": 42.86,
+      "average": 1.5,
+      "first_goal": 4
      },
-     "wind": {
-      "speed": 6.17,
-      "direction": 270
-     },
-     "humidity": "67%",
-     "pressure": 1024,
-     "clouds": "65%",
-     "description": "broken clouds",
-     "icon": "https://cdn.sportmonks.com/images/weather/04d.png",
-     "type": "actual",
-     "metric": "celcius",
-     "current": {
-      "temp": 15.67,
-      "wind": 6.17,
-      "clouds": "65%",
-      "humidity": "67%",
-      "pressure": 1024,
-      "direction": 270,
-      "feels_like": 15.04,
-      "description": "broken clouds"
+     "away": {
+      "count": 8,
+      "percentage": 57.14,
+      "average": 2.67,
+      "first_goal": 2
      }
     }
-   }
-  },
-  "last:predictions": {
-   "http": 403,
-   "error": "You do not have access to the 'predictions' include"
-  },
-  "last:trends": {
-   "http": 200,
-   "sample": {
-    "id": 19722782,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407967,
-    "state_id": 5,
-    "venue_id": 8909,
-    "name": "Celtic vs Rangers",
-    "starting_at": "2026-09-20 11:00:00",
-    "result_info": "Rangers won after full-time.",
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1789902000,
-    "trends": [
-     {
-      "id": 564154190,
-      "fixture_id": 19722782,
-      "participant_id": 62,
-      "type_id": 45,
-      "period_id": 7117948,
-      "value": 50,
-      "minute": 0
+   },
+   {
+    "type": "Fouls",
+    "value": {
+     "count": 75,
+     "average": 10.71
+    }
+   },
+   {
+    "type": "Tackles",
+    "value": {
+     "count": 113,
+     "average": 16.14,
+     "tackles_per_foul": 1.49,
+     "tackles_per_card": 14.13
+    }
+   },
+   {
+    "type": "Yellowcards",
+    "value": {
+     "count": 8,
+     "average": 1.14,
+     "player_id": 37732189,
+     "player_name": "Colby Donovan",
+     "coach": 0,
+     "coach_average": 0
+    }
+   },
+   {
+    "type": "Goals Conceded",
+    "value": {
+     "all": {
+      "count": 4,
+      "average": 0.57,
+      "first": 22
      },
-     "(+1330 more)"
-    ]
-   }
-  },
-  "last:ballCoordinates": {
-   "http": 200,
-   "sample": {
-    "id": 19722782,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407967,
-    "state_id": 5,
-    "venue_id": 8909,
-    "name": "Celtic vs Rangers",
-    "starting_at": "2026-09-20 11:00:00",
-    "result_info": "Rangers won after full-time.",
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1789902000,
-    "ballcoordinates": [
-     {
-      "id": 308053458,
-      "fixture_id": 19722782,
-      "period_id": 7118167,
-      "timer": "94:13",
-      "x": 0.41,
-      "y": 0.24
+     "home": {
+      "count": 2,
+      "percentage": 50,
+      "average": 0.5,
+      "first": 22
      },
-     "(+997 more)"
-    ]
-   }
-  },
-  "last:metadata.type": {
-   "http": 200,
-   "sample": {
-    "id": 19722782,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407967,
-    "state_id": 5,
-    "venue_id": 8909,
-    "name": "Celtic vs Rangers",
-    "starting_at": "2026-09-20 11:00:00",
-    "result_info": "Rangers won after full-time.",
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1789902000,
-    "metadata": [
-     {
-      "id": 10075647,
-      "metadatable_id": 19722782,
-      "type_id": 35,
-      "value_type": "object",
-      "values": {
-       "neutral": false
+     "away": {
+      "count": 2,
+      "percentage": 50,
+      "average": 0.67,
+      "first": 33
+     }
+    }
+   },
+   {
+    "type": "Rating",
+    "value": {
+     "value": "7.13"
+    }
+   },
+   {
+    "type": "Number Of Goals",
+    "value": {
+     "over_0_5": {
+      "matches": {
+       "count": 7,
+       "percentage": 100
       },
-      "type": {
-       "id": 35,
-       "name": "Neutral Venue",
-       "code": "neutral_venue",
-       "developer_name": "NEUTRAL_VENUE",
-       "model_type": "metadata",
-       "stat_group": null
+      "team": {
+       "count": 6,
+       "percentage": 85.71
       }
      },
-     "(+10 more)"
-    ]
-   }
-  },
-  "last:venue": {
-   "http": 200,
-   "sample": {
-    "id": 19722782,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407967,
-    "state_id": 5,
-    "venue_id": 8909,
-    "name": "Celtic vs Rangers",
-    "starting_at": "2026-09-20 11:00:00",
-    "result_info": "Rangers won after full-time.",
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1789902000,
-    "venue": {
-     "id": 8909,
-     "country_id": 1161,
-     "city_id": 32191,
-     "name": "Celtic Park",
-     "address": "The Celtic Way Parkhead, Glasgow",
-     "zipcode": null,
-     "latitude": "55.849722",
-     "longitude": "-4.205556",
-     "capacity": 60411,
-     "image_path": "https://cdn.sportmonks.com/images/core/venues/13/8909.png",
-     "city_name": "Glasgow",
-     "surface": "grass",
-     "national_team": false
+     "over_1_5": {
+      "matches": {
+       "count": 4,
+       "percentage": 57.14
+      },
+      "team": {
+       "count": 4,
+       "percentage": 57.14
+      }
+     },
+     "over_2_5": {
+      "matches": {
+       "count": 4,
+       "percentage": 57.14
+      },
+      "team": {
+       "count": 2,
+       "percentage": 28.57
+      }
+     },
+     "over_3_5": {
+      "matches": {
+       "count": 1,
+       "percentage": 14.29
+      },
+      "team": {
+       "count": 1,
+       "percentage": 14.29
+      }
+     },
+     "over_4_5": {
+      "matches": {
+       "count": 1,
+       "percentage": 14.29
+      },
+      "team": {
+       "count": 1,
+       "percentage": 14.29
+      }
+     },
+     "over_5_5": {
+      "matches": {
+       "count": 1,
+       "percentage": 14.29
+      },
+      "team": {
+       "count": 0,
+       "percentage": 0
+      }
+     }
+    }
+   },
+   {
+    "type": "Both Teams To Score",
+    "value": {
+     "all": {
+      "count": 3,
+      "percentage": 42.86
+     },
+     "home": {
+      "count": 1,
+      "percentage": 33.33
+     },
+     "away": {
+      "count": 2,
+      "percentage": 66.67
+     }
+    }
+   },
+   {
+    "type": "Cleansheets",
+    "value": {
+     "all": {
+      "count": 3,
+      "percentage": 42.86
+     },
+     "home": {
+      "count": 2,
+      "percentage": 66.67
+     },
+     "away": {
+      "count": 1,
+      "percentage": 33.33
+     }
+    }
+   },
+   {
+    "type": "Scoring Minutes",
+    "value": {
+     "0-15": {
+      "count": 3,
+      "percentage": 21.43
+     },
+     "15-30": {
+      "count": 1,
+      "percentage": 7.14
+     },
+     "30-45": {
+      "count": 4,
+      "percentage": 28.57
+     },
+     "45-60": {
+      "count": 4,
+      "percentage": 28.57
+     },
+     "60-75": {
+      "count": 1,
+      "percentage": 7.14
+     },
+     "75-90": {
+      "count": 1,
+      "percentage": 7.14
+     }
+    }
+   },
+   {
+    "type": "Highest Rated Player",
+    "value": {
+     "rating": 7.64,
+     "player_id": 37337212,
+     "player_name": "Arne Engels"
+    }
+   },
+   {
+    "type": "Conceded Scoring Minutes",
+    "value": {
+     "0-15": {
+      "count": 0,
+      "percentage": 0
+     },
+     "15-30": {
+      "count": 1,
+      "percentage": 25
+     },
+     "30-45": {
+      "count": 1,
+      "percentage": 25
+     },
+     "45-60": {
+      "count": 1,
+      "percentage": 25
+     },
+     "60-75": {
+      "count": 1,
+      "percentage": 25
+     },
+     "75-90": {
+      "count": 0,
+      "percentage": 0
+     }
+    }
+   },
+   {
+    "type": "Team Wins",
+    "value": {
+     "all": {
+      "count": 6,
+      "percentage": 85.71
+     },
+     "home": {
+      "count": 3,
+      "percentage": 50
+     },
+     "away": {
+      "count": 3,
+      "percentage": 50
+     }
+    }
+   },
+   {
+    "type": "Team Draws",
+    "value": {
+     "all": {
+      "count": 0,
+      "percentage": 0
+     },
+     "home": {
+      "count": 0,
+      "percentage": 0
+     },
+     "away": {
+      "count": 0,
+      "percentage": 0
+     }
+    }
+   },
+   {
+    "type": "Team Lost",
+    "value": {
+     "all": {
+      "count": 1,
+      "percentage": 14.29
+     },
+     "home": {
+      "count": 1,
+      "percentage": 100
+     },
+     "away": {
+      "count": 0,
+      "percentage": 0
+     }
+    }
+   },
+   {
+    "type": "Failed To Score",
+    "value": {
+     "all": {
+      "count": 1,
+      "percentage": 14.29
+     },
+     "home": {
+      "count": 1,
+      "percentage": 100,
+      "overall_percentage": 14.29
+     },
+     "away": {
+      "count": 0,
+      "percentage": 0,
+      "overall_percentage": 0
+     }
+    }
+   },
+   {
+    "type": "Shots",
+    "value": {
+     "total": 140,
+     "on_target": 58,
+     "on_target_pct": null,
+     "off_target": 51,
+     "inside_box": 104,
+     "outside_box": 36,
+     "blocked": 30,
+     "average": 20,
+     "shot_frequency": null,
+     "shot_conversion_rate_pct": 1
+    }
+   },
+   {
+    "type": "Average Player Height",
+    "value": {
+     "avg_defender_height": 183.78,
+     "avg_midfielder_height": 178.14,
+     "avg_goalkeeper_height": 191.67,
+     "avg_attacker_height": 181.75,
+     "avg_total_height": 181.67
+    }
+   },
+   {
+    "type": "Players Footing",
+    "value": {
+     "left": 9,
+     "right": 20,
+     "unknown": 1
+    }
+   },
+   {
+    "type": "Appearing Players",
+    "value": {
+     "most_appearing_players": [
+      {
+       "player_id": 172104,
+       "matches": 7
+      },
+      {
+       "player_id": 262280,
+       "matches": 7
+      },
+      {
+       "player_id": 15169863,
+       "matches": 7
+      },
+      {
+       "player_id": 19979885,
+       "matches": 7
+      },
+      {
+       "player_id": 37709508,
+       "matches": 7
+      }
+     ],
+     "longest_appearing_players": [
+      {
+       "player_id": 262280,
+       "minutes": 560
+      },
+      {
+       "player_id": 1712,
+       "minutes": 540
+      },
+      {
+       "player_id": 8585,
+       "minutes": 540
+      },
+      {
+       "player_id": 529045,
+       "minutes": 540
+      },
+      {
+       "player_id": 37732189,
+       "minutes": 498
+      }
+     ]
+    }
+   },
+   {
+    "type": "Most Substituted Players",
+    "value": {
+     "most_substituted_players": [
+      {
+       "player_id": 172104,
+       "in": 7,
+       "out": 0,
+       "total": 7
+      },
+      {
+       "player_id": 15169863,
+       "in": 6,
+       "out": 1,
+       "total": 7
+      },
+      {
+       "player_id": 37709508,
+       "in": 1,
+       "out": 6,
+       "total": 7
+      },
+      {
+       "player_id": 18584306,
+       "in": 1,
+       "out": 4,
+       "total": 5
+      },
+      {
+       "player_id": 19979885,
+       "in": 1,
+       "out": 4,
+       "total": 5
+      }
+     ]
+    }
+   },
+   {
+    "type": "Most Injured Players",
+    "value": {
+     "most_injured_players": [
+      {
+       "player_id": 37563550,
+       "total": 2
+      }
+     ]
+    }
+   },
+   {
+    "type": "Fouls Per Card",
+    "value": {
+     "fouls_per_card": "9.50",
+     "cards_per_foul": "0.11"
+    }
+   },
+   {
+    "type": "Scoring Frequency",
+    "value": {
+     "scoring_frequency": 45
+    }
+   },
+   {
+    "type": "Total Minutes Played",
+    "value": {
+     "total_minutes_played": 630
+    }
+   },
+   {
+    "type": "Most Scored Half",
+    "value": {
+     "most_scored_half": "1st-half",
+     "most_scored_half_goals": 10,
+     "details": {
+      "1st-half": {
+       "period": "1st-half",
+       "total": 10
+      },
+      "2nd-half": {
+       "period": "2nd-half",
+       "total": 8
+      }
+     }
+    }
+   },
+   {
+    "type": "Most Frequent Scoring Minute",
+    "value": {
+     "most_frequent_scoring_minute": 52,
+     "amount_of_goals": 2
+    }
+   },
+   {
+    "type": "Interception Stats",
+    "value": {
+     "total_interceptions": 58,
+     "interceptions_per_game": 8.29
+    }
+   },
+   {
+    "type": "Pass Stats",
+    "value": {
+     "passes_per_game": 599.43,
+     "passes_per_goal": 299.71,
+     "total_passes": 4196,
+     "passes_per_shot": 29.97
+    }
+   },
+   {
+    "type": "Assist Stats",
+    "value": {
+     "minutes_per_assist": 63,
+     "assists_per_game": 1.43,
+     "total_assists": 10
+    }
+   },
+   {
+    "type": "Half Results",
+    "value": {
+     "won_both_halves": 1,
+     "scored_both_halves": 1,
+     "comebacks": 0
+    }
+   },
+   {
+    "type": "National Team Players",
+    "value": {
+     "national_team_players": [
+      {
+       "team": "Republic of Ireland",
+       "player": 123659
+      },
+      {
+       "team": "Scotland",
+       "player": 172960
+      },
+      {
+       "team": "United States",
+       "player": 262280
+      },
+      {
+       "team": "Finland",
+       "player": 529045
+      },
+      {
+       "team": "Denmark",
+       "player": 15061513
+      },
+      {
+       "team": "Tunisia",
+       "player": 15169863
+      },
+      {
+       "team": "Egypt",
+       "player": 18584306
+      },
+      {
+       "team": "Sweden",
+       "player": 19979885
+      },
+      {
+       "team": "Denmark U21",
+       "player": 23698076
+      },
+      {
+       "team": "Korea Republic",
+       "player": 37563550
+      },
+      {
+       "team": "Germany",
+       "player": 37582048
+      },
+      {
+       "team": "Netherlands U19",
+       "player": 37709264
+      },
+      {
+       "team": "Colombia",
+       "player": 37709508
+      },
+      {
+       "team": "England U19",
+       "player": 37714106
+      },
+      {
+       "team": "England U20",
+       "player": 37714106
+      },
+      {
+       "team": "England U18",
+       "player": 37721324
+      },
+      {
+       "team": "USA U17",
+       "player": 37721324
+      },
+      {
+       "team": "Scotland",
+       "player": 37732189
+      },
+      {
+       "team": "Scotland U21",
+       "player": 37732189
+      }
+     ]
+    }
+   },
+   {
+    "type": "Injury Time Goals",
+    "value": {
+     "total": 1,
+     "average": 0.14
+    }
+   },
+   {
+    "type": "Goal Results",
+    "value": {
+     "gf_over_0_5": 6,
+     "gf_over_1_5": 4,
+     "gf_over_2_5": 2,
+     "gf_over_3_5": 1,
+     "gf_over_4_5": 1,
+     "ga_over_0_5": 4,
+     "ga_over_1_5": 0,
+     "ga_over_2_5": 0,
+     "ga_over_3_5": 0,
+     "ga_over_4_5": 0
+    }
+   },
+   {
+    "type": "Games Played",
+    "value": {
+     "total": 7,
+     "home": 4,
+     "away": 3
     }
    }
-  },
-  "next:tvStations": {
-   "http": 200,
-   "sample": {
-    "id": 19722777,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407966,
-    "state_id": 1,
-    "venue_id": 8922,
-    "name": "Motherwell vs Celtic",
-    "starting_at": "2026-10-11 11:00:00",
-    "result_info": null,
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1791716400,
-    "tvstations": [
-     {
-      "id": 118833912,
-      "fixture_id": 19722777,
-      "tvstation_id": 51,
-      "country_id": 3483
+  ],
+  "season_ids": [
+   28275
+  ]
+ },
+ "stats_details": {
+  "http": 200,
+  "seasons": 1,
+  "first_season_stats": [
+   {
+    "type": 34,
+    "value": {
+     "count": 66,
+     "average": 9.43
+    }
+   },
+   {
+    "type": 43,
+    "value": {
+     "count": 803,
+     "average": 114.71
+    }
+   },
+   {
+    "type": 44,
+    "value": {
+     "count": 475,
+     "average": 67.86
+    }
+   },
+   {
+    "type": 45,
+    "value": {
+     "count": 428,
+     "average": 61.14
+    }
+   },
+   {
+    "type": 51,
+    "value": {
+     "count": 10,
+     "average": 1.43
+    }
+   },
+   {
+    "type": 52,
+    "value": {
+     "all": {
+      "count": 14,
+      "average": 2,
+      "first_goal": 2
      },
-     "(+0 more)"
-    ]
-   }
-  },
-  "next:referees.referee": {
-   "http": 200,
-   "sample": {
-    "id": 19722777,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407966,
-    "state_id": 1,
-    "venue_id": 8922,
-    "name": "Motherwell vs Celtic",
-    "starting_at": "2026-10-11 11:00:00",
-    "result_info": null,
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1791716400,
-    "referees": []
-   }
-  },
-  "next:coaches": {
-   "http": 200,
-   "sample": {
-    "id": 19722777,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407966,
-    "state_id": 1,
-    "venue_id": 8922,
-    "name": "Motherwell vs Celtic",
-    "starting_at": "2026-10-11 11:00:00",
-    "result_info": null,
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1791716400,
-    "coaches": [
-     {
-      "id": 896306,
-      "player_id": 896306,
-      "sport_id": 1,
-      "country_id": 491,
-      "nationality_id": 491,
-      "city_id": null,
-      "common_name": "M. O'Neill",
-      "firstname": "Martin",
-      "lastname": "O'Neill",
-      "name": "Martin O'Neill",
-      "display_name": "Martin O'Neill",
-      "image_path": "https://cdn.sportmonks.com/images/soccer/players/18/896306.png",
-      "height": null,
-      "weight": null,
-      "date_of_birth": "1952-03-01",
-      "gender": "male",
-      "meta": {
-       "fixture_id": 19722777,
-       "coach_id": 896306,
-       "participant_id": 53
-      }
+     "home": {
+      "count": 6,
+      "percentage": 42.86,
+      "average": 1.5,
+      "first_goal": 4
      },
-     "(+1 more)"
-    ]
-   }
-  },
-  "next:weatherReport": {
-   "http": 200,
-   "sample": {
-    "id": 19722777,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407966,
-    "state_id": 1,
-    "venue_id": 8922,
-    "name": "Motherwell vs Celtic",
-    "starting_at": "2026-10-11 11:00:00",
-    "result_info": null,
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1791716400,
-    "weatherreport": null
-   }
-  },
-  "next:predictions": {
-   "http": 403,
-   "error": "You do not have access to the 'predictions' include"
-  },
-  "next:metadata.type": {
-   "http": 200,
-   "sample": {
-    "id": 19722777,
-    "sport_id": 1,
-    "league_id": 501,
-    "season_id": 28275,
-    "stage_id": 77482564,
-    "group_id": null,
-    "aggregate_id": null,
-    "round_id": 407966,
-    "state_id": 1,
-    "venue_id": 8922,
-    "name": "Motherwell vs Celtic",
-    "starting_at": "2026-10-11 11:00:00",
-    "result_info": null,
-    "leg": "1/1",
-    "details": null,
-    "length": 90,
-    "placeholder": false,
-    "has_odds": true,
-    "has_premium_odds": true,
-    "starting_at_timestamp": 1791716400,
-    "metadata": [
-     {
-      "id": 10075689,
-      "metadatable_id": 19722777,
-      "type_id": 35,
-      "value_type": "object",
-      "values": {
-       "neutral": false
+     "away": {
+      "count": 8,
+      "percentage": 57.14,
+      "average": 2.67,
+      "first_goal": 2
+     }
+    }
+   },
+   {
+    "type": 56,
+    "value": {
+     "count": 75,
+     "average": 10.71
+    }
+   },
+   {
+    "type": 78,
+    "value": {
+     "count": 113,
+     "average": 16.14,
+     "tackles_per_foul": 1.49,
+     "tackles_per_card": 14.13
+    }
+   },
+   {
+    "type": 84,
+    "value": {
+     "count": 8,
+     "average": 1.14,
+     "player_id": 37732189,
+     "player_name": "Colby Donovan",
+     "coach": 0,
+     "coach_average": 0
+    }
+   },
+   {
+    "type": 88,
+    "value": {
+     "all": {
+      "count": 4,
+      "average": 0.57,
+      "first": 22
+     },
+     "home": {
+      "count": 2,
+      "percentage": 50,
+      "average": 0.5,
+      "first": 22
+     },
+     "away": {
+      "count": 2,
+      "percentage": 50,
+      "average": 0.67,
+      "first": 33
+     }
+    }
+   },
+   {
+    "type": 118,
+    "value": {
+     "value": "7.13"
+    }
+   },
+   {
+    "type": 191,
+    "value": {
+     "over_0_5": {
+      "matches": {
+       "count": 7,
+       "percentage": 100
       },
-      "type": {
-       "id": 35,
-       "name": "Neutral Venue",
-       "code": "neutral_venue",
-       "developer_name": "NEUTRAL_VENUE",
-       "model_type": "metadata",
-       "stat_group": null
+      "team": {
+       "count": 6,
+       "percentage": 85.71
       }
      },
-     "(+5 more)"
-    ]
+     "over_1_5": {
+      "matches": {
+       "count": 4,
+       "percentage": 57.14
+      },
+      "team": {
+       "count": 4,
+       "percentage": 57.14
+      }
+     },
+     "over_2_5": {
+      "matches": {
+       "count": 4,
+       "percentage": 57.14
+      },
+      "team": {
+       "count": 2,
+       "percentage": 28.57
+      }
+     },
+     "over_3_5": {
+      "matches": {
+       "count": 1,
+       "percentage": 14.29
+      },
+      "team": {
+       "count": 1,
+       "percentage": 14.29
+      }
+     },
+     "over_4_5": {
+      "matches": {
+       "count": 1,
+       "percentage": 14.29
+      },
+      "team": {
+       "count": 1,
+       "percentage": 14.29
+      }
+     },
+     "over_5_5": {
+      "matches": {
+       "count": 1,
+       "percentage": 14.29
+      },
+      "team": {
+       "count": 0,
+       "percentage": 0
+      }
+     }
+    }
+   },
+   {
+    "type": 192,
+    "value": {
+     "all": {
+      "count": 3,
+      "percentage": 42.86
+     },
+     "home": {
+      "count": 1,
+      "percentage": 33.33
+     },
+     "away": {
+      "count": 2,
+      "percentage": 66.67
+     }
+    }
+   },
+   {
+    "type": 194,
+    "value": {
+     "all": {
+      "count": 3,
+      "percentage": 42.86
+     },
+     "home": {
+      "count": 2,
+      "percentage": 66.67
+     },
+     "away": {
+      "count": 1,
+      "percentage": 33.33
+     }
+    }
+   },
+   {
+    "type": 196,
+    "value": {
+     "0-15": {
+      "count": 3,
+      "percentage": 21.43
+     },
+     "15-30": {
+      "count": 1,
+      "percentage": 7.14
+     },
+     "30-45": {
+      "count": 4,
+      "percentage": 28.57
+     },
+     "45-60": {
+      "count": 4,
+      "percentage": 28.57
+     },
+     "60-75": {
+      "count": 1,
+      "percentage": 7.14
+     },
+     "75-90": {
+      "count": 1,
+      "percentage": 7.14
+     }
+    }
+   },
+   {
+    "type": 211,
+    "value": {
+     "rating": 7.64,
+     "player_id": 37337212,
+     "player_name": "Arne Engels"
+    }
+   },
+   {
+    "type": 213,
+    "value": {
+     "0-15": {
+      "count": 0,
+      "percentage": 0
+     },
+     "15-30": {
+      "count": 1,
+      "percentage": 25
+     },
+     "30-45": {
+      "count": 1,
+      "percentage": 25
+     },
+     "45-60": {
+      "count": 1,
+      "percentage": 25
+     },
+     "60-75": {
+      "count": 1,
+      "percentage": 25
+     },
+     "75-90": {
+      "count": 0,
+      "percentage": 0
+     }
+    }
+   },
+   {
+    "type": 214,
+    "value": {
+     "all": {
+      "count": 6,
+      "percentage": 85.71
+     },
+     "home": {
+      "count": 3,
+      "percentage": 50
+     },
+     "away": {
+      "count": 3,
+      "percentage": 50
+     }
+    }
+   },
+   {
+    "type": 215,
+    "value": {
+     "all": {
+      "count": 0,
+      "percentage": 0
+     },
+     "home": {
+      "count": 0,
+      "percentage": 0
+     },
+     "away": {
+      "count": 0,
+      "percentage": 0
+     }
+    }
+   },
+   {
+    "type": 216,
+    "value": {
+     "all": {
+      "count": 1,
+      "percentage": 14.29
+     },
+     "home": {
+      "count": 1,
+      "percentage": 100
+     },
+     "away": {
+      "count": 0,
+      "percentage": 0
+     }
+    }
+   },
+   {
+    "type": 575,
+    "value": {
+     "all": {
+      "count": 1,
+      "percentage": 14.29
+     },
+     "home": {
+      "count": 1,
+      "percentage": 100,
+      "overall_percentage": 14.29
+     },
+     "away": {
+      "count": 0,
+      "percentage": 0,
+      "overall_percentage": 0
+     }
+    }
+   },
+   {
+    "type": 1677,
+    "value": {
+     "total": 140,
+     "on_target": 58,
+     "on_target_pct": null,
+     "off_target": 51,
+     "inside_box": 104,
+     "outside_box": 36,
+     "blocked": 30,
+     "average": 20,
+     "shot_frequency": null,
+     "shot_conversion_rate_pct": 1
+    }
+   },
+   {
+    "type": 9672,
+    "value": {
+     "avg_defender_height": 183.78,
+     "avg_midfielder_height": 178.14,
+     "avg_goalkeeper_height": 191.67,
+     "avg_attacker_height": 181.75,
+     "avg_total_height": 181.67
+    }
+   },
+   {
+    "type": 9675,
+    "value": {
+     "left": 9,
+     "right": 20,
+     "unknown": 1
+    }
+   },
+   {
+    "type": 9677,
+    "value": {
+     "most_appearing_players": [
+      {
+       "player_id": 172104,
+       "matches": 7
+      },
+      {
+       "player_id": 262280,
+       "matches": 7
+      },
+      {
+       "player_id": 15169863,
+       "matches": 7
+      },
+      {
+       "player_id": 19979885,
+       "matches": 7
+      },
+      {
+       "player_id": 37709508,
+       "matches": 7
+      }
+     ],
+     "longest_appearing_players": [
+      {
+       "player_id": 262280,
+       "minutes": 560
+      },
+      {
+       "player_id": 1712,
+       "minutes": 540
+      },
+      {
+       "player_id": 8585,
+       "minutes": 540
+      },
+      {
+       "player_id": 529045,
+       "minutes": 540
+      },
+      {
+       "player_id": 37732189,
+       "minutes": 498
+      }
+     ]
+    }
+   },
+   {
+    "type": 9678,
+    "value": {
+     "most_substituted_players": [
+      {
+       "player_id": 172104,
+       "in": 7,
+       "out": 0,
+       "total": 7
+      },
+      {
+       "player_id": 15169863,
+       "in": 6,
+       "out": 1,
+       "total": 7
+      },
+      {
+       "player_id": 37709508,
+       "in": 1,
+       "out": 6,
+       "total": 7
+      },
+      {
+       "player_id": 18584306,
+       "in": 1,
+       "out": 4,
+       "total": 5
+      },
+      {
+       "player_id": 19979885,
+       "in": 1,
+       "out": 4,
+       "total": 5
+      }
+     ]
+    }
+   },
+   {
+    "type": 9679,
+    "value": {
+     "most_injured_players": [
+      {
+       "player_id": 37563550,
+       "total": 2
+      }
+     ]
+    }
+   },
+   {
+    "type": 9683,
+    "value": {
+     "fouls_per_card": "9.50",
+     "cards_per_foul": "0.11"
+    }
+   },
+   {
+    "type": 27248,
+    "value": {
+     "scoring_frequency": 45
+    }
+   },
+   {
+    "type": 27249,
+    "value": {
+     "total_minutes_played": 630
+    }
+   },
+   {
+    "type": 27250,
+    "value": {
+     "most_scored_half": "1st-half",
+     "most_scored_half_goals": 10,
+     "details": {
+      "1st-half": {
+       "period": "1st-half",
+       "total": 10
+      },
+      "2nd-half": {
+       "period": "2nd-half",
+       "total": 8
+      }
+     }
+    }
+   },
+   {
+    "type": 27251,
+    "value": {
+     "most_frequent_scoring_minute": 52,
+     "amount_of_goals": 2
+    }
+   },
+   {
+    "type": 27252,
+    "value": {
+     "total_interceptions": 58,
+     "interceptions_per_game": 8.29
+    }
+   },
+   {
+    "type": 27253,
+    "value": {
+     "passes_per_game": 599.43,
+     "passes_per_goal": 299.71,
+     "total_passes": 4196,
+     "passes_per_shot": 29.97
+    }
+   },
+   {
+    "type": 27254,
+    "value": {
+     "minutes_per_assist": 63,
+     "assists_per_game": 1.43,
+     "total_assists": 10
+    }
+   },
+   {
+    "type": 27256,
+    "value": {
+     "won_both_halves": 1,
+     "scored_both_halves": 1,
+     "comebacks": 0
+    }
+   },
+   {
+    "type": 27258,
+    "value": {
+     "national_team_players": [
+      {
+       "team": "Republic of Ireland",
+       "player": 123659
+      },
+      {
+       "team": "Scotland",
+       "player": 172960
+      },
+      {
+       "team": "United States",
+       "player": 262280
+      },
+      {
+       "team": "Finland",
+       "player": 529045
+      },
+      {
+       "team": "Denmark",
+       "player": 15061513
+      },
+      {
+       "team": "Tunisia",
+       "player": 15169863
+      },
+      {
+       "team": "Egypt",
+       "player": 18584306
+      },
+      {
+       "team": "Sweden",
+       "player": 19979885
+      },
+      {
+       "team": "Denmark U21",
+       "player": 23698076
+      },
+      {
+       "team": "Korea Republic",
+       "player": 37563550
+      },
+      {
+       "team": "Germany",
+       "player": 37582048
+      },
+      {
+       "team": "Netherlands U19",
+       "player": 37709264
+      },
+      {
+       "team": "Colombia",
+       "player": 37709508
+      },
+      {
+       "team": "England U19",
+       "player": 37714106
+      },
+      {
+       "team": "England U20",
+       "player": 37714106
+      },
+      {
+       "team": "England U18",
+       "player": 37721324
+      },
+      {
+       "team": "USA U17",
+       "player": 37721324
+      },
+      {
+       "team": "Scotland",
+       "player": 37732189
+      },
+      {
+       "team": "Scotland U21",
+       "player": 37732189
+      }
+     ]
+    }
+   },
+   {
+    "type": 27260,
+    "value": {
+     "total": 1,
+     "average": 0.14
+    }
+   },
+   {
+    "type": 27261,
+    "value": {
+     "gf_over_0_5": 6,
+     "gf_over_1_5": 4,
+     "gf_over_2_5": 2,
+     "gf_over_3_5": 1,
+     "gf_over_4_5": 1,
+     "ga_over_0_5": 4,
+     "ga_over_1_5": 0,
+     "ga_over_2_5": 0,
+     "ga_over_3_5": 0,
+     "ga_over_4_5": 0
+    }
+   },
+   {
+    "type": 27263,
+    "value": {
+     "total": 7,
+     "home": 4,
+     "away": 3
+    }
    }
-  },
-  "next:expectedLineups": {
-   "http": 403,
-   "error": "You do not have access to the 'expectedlineups' include"
-  },
-  "next:premiumExpectedLineups": {
-   "http": 404,
-   "error": "The requested include 'premiumexpectedlineups' does not exist"
-  },
-  "team:statistics.type": {
-   "http": 404,
-   "error": "The requested include 'type' does not exist on TeamStatistic"
-  },
-  "team:statistics(season filter)": {
-   "http": 404,
-   "error": "The requested include 'type' does not exist on TeamStatistic"
-  },
-  "topscorers:all types": {
-   "http": 200,
-   "topscorer_types": {
-    "83": "Redcards",
-    "84": "Yellowcards"
-   }
-  }
+  ],
+  "season_ids": [
+   28275
+  ]
  },
- "last_fixture": {
-  "id": 19722782,
-  "home": "Celtic",
-  "away": "Rangers",
-  "score": {
-   "home": 0,
-   "away": 1
-  },
-  "kickoff_utc": "2026-09-20 11:00:00",
-  "league": "Premiership"
+ "stats_plain": {
+  "http": 200,
+  "seasons": 59,
+  "first_season_stats": [],
+  "season_ids": [
+   718,
+   5307,
+   5308,
+   5309,
+   5310,
+   5311,
+   5312,
+   5315,
+   5318,
+   5321,
+   5322,
+   5330,
+   5331,
+   5332,
+   5335,
+   5337,
+   7907,
+   7908,
+   12945,
+   12950,
+   16029,
+   16030,
+   17299,
+   17367,
+   18283,
+   18346,
+   18629,
+   19699,
+   20922,
+   21638,
+   23026,
+   23031,
+   23565,
+   23619,
+   23690,
+   24007,
+   24214,
+   24215,
+   24216,
+   24217,
+   24251,
+   24252,
+   24253,
+   24254,
+   24893,
+   24894,
+   25111,
+   25525,
+   25580,
+   25582,
+   25598,
+   25655,
+   26098,
+   26738,
+   26740,
+   27619,
+   27913,
+   28155,
+   28275
+  ]
  },
- "next_fixture": {
-  "id": 19722777,
-  "home": "Motherwell",
-  "away": "Celtic",
-  "kickoff_utc": "2026-10-11 11:00:00",
-  "league": "Premiership"
+ "topscorers seasontopscorerTypes:208": {
+  "http": 200,
+  "rows": 25
  },
- "season_id": 28275
+ "topscorers seasontopscorerTypes:209": {
+  "http": 200,
+  "rows": 25
+ },
+ "topscorers seasontopscorerTypes:83,84,208,209": {
+  "http": 200,
+  "rows": 25
+ }
 }
