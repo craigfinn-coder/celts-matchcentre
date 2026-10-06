@@ -460,7 +460,7 @@ function renderRated(ps,fx){['home','away'].forEach(side=>{const rows=Object.val
 let tlMode='events';
 function applyTl(){$('#allEvents').hidden=tlMode==='comm';$('#commList').hidden=tlMode!=='comm';document.querySelectorAll('#tlSeg button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.tl===tlMode));}
 function renderComm(m){const cm=(m.commentary||[]).slice().reverse();$('#tlSeg').hidden=!cm.length;if(!cm.length)tlMode='events';
-  $('#commList').innerHTML=cm.map(c=>`<li class="${c.goal?'cgoal':c.key?'ckey':''}"><span class="m">${c.m!=null?c.m+(c.x?'+'+c.x:'')+"'":''}</span><span class="who">${esc(c.t)}</span></li>`).join('');applyTl();}
+  $('#commList').innerHTML=cm.map(c=>`<li class="${c.goal?'cgoal':c.key?'ckey':''}"><span class="m">${c.m!=null?c.m+(c.x?'+'+c.x:'')+"'":/first half end|half.?time/i.test(c.t)?'HT':/match end|full.?time/i.test(c.t)?'FT':''}</span><span class="who">${esc(c.t)}</span></li>`).join('');applyTl();}
 document.querySelectorAll('#tlSeg button').forEach(b=>b.onclick=()=>{tlMode=b.dataset.tl;applyTl();requestAnimationFrame(reportHeight);});
 
 /* ---------- match info strip + season comparison ---------- */
