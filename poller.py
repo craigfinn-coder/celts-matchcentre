@@ -72,6 +72,19 @@ def get(path, **params):
     die(f"gave up on {path}")
 
 
+def soft_get(path, **params):
+    """Like get(), but an extra that fails (plan change, bad include, API hiccup) returns None
+    instead of exiting the whole poller. Everything added after the core feed uses this."""
+    try:
+        data, _ = get(path, **params)
+        return data
+    except SystemExit:
+        return None
+    except Exception as e:  # noqa: BLE001
+        log(f"soft_get {path} failed: {e!r}")
+        return None
+
+
 def parse_ts(s):
     return datetime.strptime(s, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
 
@@ -109,9 +122,12 @@ def find_fixture(now):
     return chosen, upcoming
 
 
+LAST_RESULT_DAYS = int(os.environ.get("LAST_RESULT_DAYS", "21"))   # was 7: left the data tabs empty over international breaks
+
+
 def last_result(now):
-    """Most recent finished Celtic fixture in the last 7 days, with full detail."""
-    start = (now - timedelta(days=7)).strftime("%Y-%m-%d")
+    """Most recent finished Celtic fixture in the last LAST_RESULT_DAYS days, with full detail."""
+    start = (now - timedelta(days=LAST_RESULT_DAYS)).strftime("%Y-%m-%d")
     end = now.strftime("%Y-%m-%d")
     data, _ = get(f"fixtures/between/{start}/{end}/{TEAM_ID}", include="participants;state;league;venue")
     done = [f for f in data.get("data", []) if (f.get("state") or {}).get("state", "") in FINISHED]
@@ -294,6 +310,215 @@ def top_scorers(season_id, team_names, n=10):
     return rows
 
 
+def top_assists(season_id, team_names, n=10):
+    """Assist leaders (topscorer type 209). Same shape as top_scorers but the count is 'assists'."""
+    data = soft_get(f"topscorers/seasons/{season_id}", include="player", filters="seasontopscorerTypes:209")
+    rows = []
+    for r in ((data or {}).get("data") or [])[:n]:
+        rows.append({"pos": r.get("position"), "player": (r.get("player") or {}).get("display_name"),
+                     "team": team_names.get(r.get("participant_id")), "team_id": r.get("participant_id"),
+                     "assists": r.get("total")})
+    return rows
+
+
+# ---------------------------------------------------------------------------------------------
+# Extras added Oct 2026 (all use soft_get, so a failure just leaves the extra out):
+#   player_stats  per-player match rating + key numbers      (fixtures include lineups.details.type)
+#   commentary    Sportmonks text commentary                  (fixtures include comments)
+#   info          referee, managers, weather, UK TV channels  (fixtures includes, see match_info)
+#   season_stats  per-game season numbers for both teams      (teams include statistics.details.type)
+# ---------------------------------------------------------------------------------------------
+PLAYER_STAT_NAMES = {
+    "Rating": "rating", "Minutes Played": "min", "Goals": "g", "Assists": "a",
+    "Shots Total": "sh", "Shots On Target": "sot", "Passes": "pass",
+    "Accurate Passes Percentage": "pass_pct", "Key Passes": "kp", "Touches": "touches",
+    "Tackles": "tkl", "Interceptions": "int", "Duels Won": "duels", "Total Duels": "duels_t",
+    "Saves": "saves", "Big Chances Created": "bcc", "Clearances": "clr", "Fouls": "fouls",
+    "Yellowcards": "yc", "Redcards": "rc",
+}
+
+
+def _num(v):
+    """First number inside a Sportmonks value ({'value': 7.4}, '7.4', 7.4) or None."""
+    if isinstance(v, dict):
+        for k in ("value", "total", "count", "average"):
+            if k in v:
+                return _num(v[k])
+        return None
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return None
+
+
+def parse_player_stats(fx, meta):
+    """{player_id: {rating, min, passes...}} for everyone who has match details."""
+    out = {}
+    for l in fx.get("lineups", []) or []:
+        pid = l.get("player_id")
+        details = l.get("details") or []
+        if not pid or not details:
+            continue
+        row = {}
+        for d in details:
+            key = PLAYER_STAT_NAMES.get((d.get("type") or {}).get("name"))
+            if not key:
+                continue
+            n = _num(d.get("data"))
+            if n is None:
+                continue
+            row[key] = round(n, 2) if key == "rating" else int(n) if float(n).is_integer() else round(n, 1)
+        if "rating" not in row and "min" not in row:
+            continue
+        tid = l.get("team_id") or l.get("participant_id")
+        row["side"] = "home" if tid == meta["home_id"] else "away"
+        row["name"] = l.get("player_name")
+        out[str(pid)] = row
+    return out
+
+
+def parse_commentary(fx, limit=150):
+    rows = []
+    for c in fx.get("comments", []) or []:
+        text = (c.get("comment") or "").strip()
+        if not text:
+            continue
+        rows.append({"m": c.get("minute"), "x": c.get("extra_minute"), "t": text,
+                     "goal": bool(c.get("is_goal")), "key": bool(c.get("is_important")),
+                     "o": c.get("order") or 0})
+    rows.sort(key=lambda r: ((r["m"] or 0), (r["x"] or 0), r["o"]))
+    for r in rows:
+        r.pop("o", None)
+    return rows[-limit:]
+
+
+def live_extra(fixture_id, meta):
+    """Ratings + commentary for a fixture, or {} if Sportmonks won't give them."""
+    data = soft_get(f"fixtures/{fixture_id}", include="comments;lineups.details.type")
+    fx = (data or {}).get("data")
+    if not fx:
+        return {}
+    out = {}
+    ps = parse_player_stats(fx, meta)
+    if ps:
+        out["player_stats"] = ps
+    cm = parse_commentary(fx)
+    if cm:
+        out["commentary"] = cm
+    return out
+
+
+UK_COUNTRIES = {"united kingdom", "uk", "great britain", "england", "scotland", "wales", "northern ireland"}
+
+
+def _first_num(d, *keys):
+    if isinstance(d, dict):
+        for k in keys:
+            n = _num(d.get(k))
+            if n is not None:
+                return n
+        return None
+    return _num(d)
+
+
+def parse_info(fx, meta):
+    """Referee, managers, weather and UK TV channels from a fixture with the info includes."""
+    info = {}
+    refs = fx.get("referees") or []
+    main = next((r for r in refs if r.get("type_id") == 6), None) or (refs[0] if refs else None)
+    if main:
+        ref = main.get("referee") or {}
+        name = ref.get("display_name") or ref.get("common_name") or ref.get("name")
+        if name:
+            info["referee"] = name
+    coaches = {}
+    for c in fx.get("coaches") or []:
+        pid = (c.get("meta") or {}).get("participant_id")
+        side = "home" if pid == meta["home_id"] else "away" if pid == meta["away_id"] else None
+        name = c.get("display_name") or c.get("common_name") or c.get("name")
+        if side and name and side not in coaches:
+            coaches[side] = name
+    if coaches:
+        info["coaches"] = coaches
+    w = fx.get("weatherreport") or fx.get("weatherReport")
+    if isinstance(w, dict):
+        temp = _first_num(w.get("temperature"), "temp", "day", "morning", "evening", "night")
+        desc = (w.get("description") or "").strip()
+        if temp is not None or desc:
+            info["weather"] = {"temp_c": None if temp is None else round(temp), "desc": desc}
+    tv, seen = [], set()
+    for t in fx.get("tvstations") or fx.get("tvStations") or []:
+        country = ((t.get("country") or {}).get("name") or "").strip().lower()
+        name = ((t.get("tvstation") or {}).get("name") or "").strip()
+        if country in UK_COUNTRIES and name and name.lower() not in seen:
+            seen.add(name.lower())
+            tv.append(name)
+    if tv:
+        info["tv"] = tv[:6]
+    return info
+
+
+def match_info(fixture_id, meta):
+    data = soft_get(f"fixtures/{fixture_id}",
+                    include="referees.referee;coaches;weatherReport;tvStations.tvStation;tvStations.country")
+    fx = (data or {}).get("data")
+    return parse_info(fx, meta) if fx else {}
+
+
+def _avg(v):
+    """Per-game average out of a Sportmonks team-statistic value, wherever it nests it."""
+    if not isinstance(v, dict):
+        return None
+    if "all" in v and isinstance(v["all"], dict):
+        v = v["all"]
+    return _num(v.get("average"))
+
+
+def _pct(v):
+    if not isinstance(v, dict):
+        return None
+    if "all" in v and isinstance(v["all"], dict):
+        v = v["all"]
+    return _num(v.get("percentage"))
+
+
+def season_stats(team_id, season_id):
+    """Per-game season numbers for a team in the league season, or None."""
+    data = soft_get(f"teams/{team_id}", include="statistics.details.type",
+                    filters=f"teamStatisticSeasons:{season_id}")
+    stats = ((data or {}).get("data") or {}).get("statistics") or []
+    st = next((s for s in stats if s.get("season_id") == season_id), stats[0] if stats else None)
+    if not st:
+        return None
+    d = {}
+    for row in st.get("details", []) or []:
+        name = (row.get("type") or {}).get("name")
+        if name:
+            d[name] = row.get("value")
+    played = None
+    for nm in ("Corners", "Fouls", "Tackles", "Attacks"):
+        v = d.get(nm)
+        if isinstance(v, dict) and v.get("average") and v.get("count"):
+            played = round(v["count"] / v["average"])
+            break
+    out = {
+        "played": played,
+        "goals_pg": _avg(d.get("Goals")),
+        "conceded_pg": _avg(d.get("Goals Conceded")),
+        "clean_sheet_pct": _pct(d.get("Cleansheets")),
+        "btts_pct": _pct(d.get("Both Teams To Score")),
+        "possession": _avg(d.get("Ball Possession %")),
+        "shots_pg": _avg(d.get("Shots Total")),
+        "sot_pg": _avg(d.get("Shots On Target")),
+        "corners_pg": _avg(d.get("Corners")),
+        "fouls_pg": _avg(d.get("Fouls")),
+        "yellows_pg": _avg(d.get("Yellowcards")),
+        "rating": _num(d.get("Rating")),
+    }
+    out = {k: (round(v, 2) if isinstance(v, float) else v) for k, v in out.items() if v is not None}
+    return out if len(out) > 1 else None
+
+
 def parse_lineups(fx, meta):
     """Starting XI + bench per side, with a formation string derived from the pitch grid."""
     out = {"home": {"xi": [], "bench": [], "formation": None}, "away": {"xi": [], "bench": [], "formation": None}}
@@ -343,12 +568,22 @@ def enrich(meta, now, standings):
         pass
     home_squad = squad_ids(meta["home_id"], season)
     away_squad = squad_ids(meta["away_id"], season)
-    return {
+    out = {
         "form": {"home": team_form(meta["home_id"], now), "away": team_form(meta["away_id"], now)},
         "h2h": head_to_head(meta["home_id"], meta["away_id"]),
         "sidelined": {"home": sidelined(meta["home_id"], now, home_squad), "away": sidelined(meta["away_id"], now, away_squad)},
         "top_scorers": top_scorers(season, team_names) if season else [],
+        "top_assists": top_assists(season, team_names) if season else [],
     }
+    # Optional extras: each one is skipped (not fatal) if Sportmonks won't return it
+    info = match_info(meta["id"], meta)
+    if info:
+        out["info"] = info
+    if season:
+        hs, as_ = season_stats(meta["home_id"], season), season_stats(meta["away_id"], season)
+        if hs and as_:
+            out["season_stats"] = {"label": "Premiership", "home": hs, "away": as_}
+    return out
 
 
 def build_live(fx, meta):
@@ -484,6 +719,7 @@ def main():
                 payload.update(build_live(last, meta))
                 payload["live"] = False
                 payload["result"] = True
+                payload.update(live_extra(last["id"], meta))
                 payload.update(enrich(meta, now, payload["standings"]))
         else:
             # Geared to the next game: pre-match board (countdown), extras for that pairing,
@@ -498,6 +734,7 @@ def main():
                 lm = fixture_summary(last)
                 lb = build_live(last, lm)
                 payload["last_match"] = {k: lb[k] for k in ("fixture", "state", "score", "half_time", "events", "stats", "lineups")}
+                payload["last_match"].update(live_extra(last["id"], lm))
         # Only push when something other than the timestamp changed
         try:
             prev = json.load(open(OUT))
@@ -569,6 +806,9 @@ def main():
     is_live_table = False
     poll = POLL_SECONDS
     finished_polls = 0
+    lx = {}              # ratings + commentary (soft extras), refreshed every other poll
+    poll_n = 0
+    last_cm = 0          # commentary length at last commit
 
     while True:
         loop_start = time.time()
@@ -580,6 +820,13 @@ def main():
                               include="scores;events.type;statistics.type;participants;state;periods;lineups")
         live = build_live(data["data"], meta)
         now_iso = datetime.now(timezone.utc).isoformat()
+
+        # ratings + commentary: a separate soft call, so a failure here never touches the score feed
+        if poll_n % 2 == 0 or live["state"] in FINISHED:
+            got = live_extra(meta["id"], meta)
+            if got:
+                lx = got
+        poll_n += 1
 
         # latency log: first time we saw each event
         new_lines = []
@@ -604,6 +851,7 @@ def main():
             "standings": standings,
             "live_table": is_live_table,
             **extras,
+            **lx,
             "rate_remaining": remaining,
         }
         write_json(OUT, payload)
@@ -613,11 +861,15 @@ def main():
         # the minute along itself from updated_at; stats ride along on the next push.
         key = json.dumps({k: live[k] for k in ("state", "score", "events")}, sort_keys=True)
         heartbeat = time.time() - last_commit > int(os.environ.get("HEARTBEAT_SECONDS", "600"))
-        if key != last_payload_key or heartbeat:
+        # new commentary lines alone trigger a push at most every 2 minutes
+        cm_len = len(lx.get("commentary", []))
+        new_commentary = cm_len != last_cm and time.time() - last_commit > 120
+        if key != last_payload_key or heartbeat or new_commentary:
             s = live["score"]
             msg = f"{meta['home']} {s['home']}-{s['away']} {meta['away']} [{live['state']} {live['minute'] or ''}']"
             if commit_push(msg, [OUT, LATENCY_LOG]):
                 last_commit = time.time()
+                last_cm = cm_len
                 log("pushed: " + msg)
             last_payload_key = key
 
