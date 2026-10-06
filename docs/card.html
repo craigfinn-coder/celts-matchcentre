@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Celtic fixture card</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Rubik:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --paper:#ffffff; --surface:#f4f6f4; --ink:#0f1f17; --ink-2:#4a5e53; --ink-3:#7d8f86;
+  --line:#dbe4de; --green:#026c3d; --green-deep:#0b3b23; --red:#c8102e; --amber:#d9a300;
+  --hero-ink:#ffffff; --hero-muted:rgba(255,255,255,.7); --win:#1b7f47; --draw:#8a949c; --loss:#c8102e;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--paper:#0c1a12;--surface:#12241a;--ink:#eef3ef;--ink-2:#a9bbb1;--ink-3:#7d9187;--line:#243a2e;--green:#3aa76d;--green-deep:#06281a;--win:#3aa76d;--loss:#e8506a}}
+:root[data-theme="dark"]{color-scheme:dark;--paper:#0c1a12;--surface:#12241a;--ink:#eef3ef;--ink-2:#a9bbb1;--ink-3:#7d9187;--line:#243a2e;--green:#3aa76d;--green-deep:#06281a;--win:#3aa76d;--loss:#e8506a}
+*{box-sizing:border-box}
+html,body{margin:0;background:transparent}
+body{color:var(--ink);font-family:Rubik,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{display:block}
+#card{max-width:760px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.num{font-family:"Barlow Condensed",Rubik,sans-serif;font-variant-numeric:tabular-nums}
+
+/* header */
+.hd{background:var(--green-deep);color:var(--hero-ink);padding:16px 20px 0;position:relative}
+.hd .meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--hero-muted)}
+.hd .meta b{color:var(--hero-ink);font-weight:600}
+.state{display:inline-flex;align-items:center;gap:7px;font-weight:600;color:var(--hero-ink)}
+.state .dot{width:8px;height:8px;border-radius:50%;background:var(--red)}
+.state.live .dot{animation:pulse 1.4s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.state.live .dot{animation:none}}
+.teams{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;padding:18px 0 14px}
+.team{display:flex;align-items:center;gap:12px;min-width:0}
+.team.away{flex-direction:row-reverse;text-align:right}
+.team img{width:52px;height:52px;object-fit:contain;flex:none}
+.team .name{font-family:"Barlow Condensed",Rubik,sans-serif;font-weight:700;font-size:28px;line-height:1;overflow-wrap:anywhere}
+.team .sub{margin-top:6px;font-size:12px;color:var(--hero-muted);line-height:1.4}
+.mid{text-align:center;min-width:92px}
+.mid .big{font-family:"Barlow Condensed",Rubik,sans-serif;font-weight:800;font-size:44px;line-height:1;letter-spacing:.02em;font-variant-numeric:tabular-nums;white-space:nowrap}
+.mid .ko{font-family:"Barlow Condensed",Rubik,sans-serif;font-weight:700;font-size:30px;line-height:1;white-space:nowrap}
+.mid .day{font-size:12px;color:var(--hero-muted);margin-top:4px;white-space:nowrap}
+.strip{background:rgba(255,255,255,.07);margin:0 -20px;padding:10px 20px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--hero-muted);border-top:1px solid rgba(255,255,255,.1)}
+.strip b{color:var(--hero-ink);font-weight:600}
+.strip .cd{font-family:"Barlow Condensed",Rubik,sans-serif;font-weight:700;font-size:18px;color:var(--hero-ink);letter-spacing:.02em}
+
+/* body sections */
+.bd{padding:6px 20px 4px}
+.sec{padding:14px 0;border-top:1px solid var(--line)}
+.sec:first-child{border-top:0}
+h3{font-family:"Barlow Condensed",Rubik,sans-serif;font-weight:700;font-size:18px;margin:0 0 8px;display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+h3 small{font-family:Rubik,sans-serif;font-weight:400;font-size:12px;color:var(--ink-3)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px 24px}
+.lab{font-size:12px;color:var(--ink-3);margin-bottom:5px;font-weight:500}
+.pills{display:flex;gap:5px}
+.p{width:26px;height:26px;border-radius:6px;display:grid;place-items:center;font-weight:600;font-size:12px;color:#fff;background:var(--draw)}
+.p.W{background:var(--win)}.p.L{background:var(--loss)}.p.D{background:var(--draw)}
+.facts{display:flex;flex-wrap:wrap;gap:6px 22px;font-size:14px}
+.facts span b{display:block;font-size:11px;font-weight:500;color:var(--ink-3);text-transform:uppercase;letter-spacing:.04em}
+.h2h{list-style:none;margin:8px 0 0;padding:0;font-size:13px;color:var(--ink-2)}
+.h2h li{display:flex;justify-content:space-between;gap:10px;padding:3px 0}
+.h2h .d{color:var(--ink-3);font-variant-numeric:tabular-nums;white-space:nowrap}
+.sum{font-size:14px}
+.sum b{font-weight:600}
+ul.names{list-style:none;margin:0;padding:0;font-size:14px}
+ul.names li{padding:2px 0;color:var(--ink)}
+ul.names small{color:var(--ink-3)}
+ul.xi li{display:flex;gap:8px}
+ul.xi .n{width:20px;text-align:right;color:var(--ink-3);font-variant-numeric:tabular-nums;flex:none}
+.empty{color:var(--ink-3);font-size:13px}
+.ft{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:12px 20px 14px;border-top:1px solid var(--line);font-size:12px;color:var(--ink-3)}
+.btn{display:inline-block;background:var(--green);color:#fff;text-decoration:none;font-weight:600;font-size:14px;padding:9px 16px;border-radius:999px}
+.btn:hover{filter:brightness(1.08)}
+@media (max-width:520px){
+  .hd{padding:14px 14px 0}.strip{margin:0 -14px;padding:10px 14px}.bd{padding:4px 14px}.ft{padding:12px 14px 14px}
+  .teams{grid-template-columns:1fr 1fr;grid-template-areas:"h a" "m m";gap:14px 8px;padding:14px 0 12px}
+  .team{grid-area:h;flex-direction:column;align-items:flex-start;gap:8px}
+  .team.away{grid-area:a;flex-direction:column;align-items:flex-end}
+  .mid{grid-area:m}
+  .team img{width:44px;height:44px}.team .name{font-size:24px}
+  .two{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div id="card" hidden>
+  <div class="hd">
+    <div class="meta"><span id="comp"></span><span class="state" id="state"></span></div>
+    <div class="teams">
+      <div class="team"><img id="hLogo" alt=""><div><div class="name" id="hName"></div><div class="sub" id="hSub"></div></div></div>
+      <div class="mid"><div id="mid"></div><div class="day" id="day"></div></div>
+      <div class="team away"><img id="aLogo" alt=""><div><div class="name" id="aName"></div><div class="sub" id="aSub"></div></div></div>
+    </div>
+    <div class="strip" id="strip"></div>
+  </div>
+  <div class="bd" id="bd"></div>
+  <div class="ft"><a class="btn" id="full" target="_top" rel="noopener">Full match centre &rarr;</a><span>Live data by Sportmonks</span></div>
+</div>
+<script>
+(function(){
+const RAW='https://raw.githubusercontent.com/craigfinn-coder/celts-matchcentre/main/docs/';
+const Q=new URLSearchParams(location.search);
+const WANT=Q.get('fixture')?+Q.get('fixture'):null;
+const SHOW=new Set((Q.get('show')||'table,form,h2h,info,lineups').split(',').map(s=>s.trim()));
+const MC=Q.get('mc')||'https://celtsarehere.com/celtic-match-centre/';
+if(Q.get('theme')==='light'||Q.get('theme')==='dark')document.documentElement.dataset.theme=Q.get('theme');
+const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const utc=s=>new Date(String(s).replace(' ','T')+'Z');
+const fmt=(d,o)=>new Intl.DateTimeFormat('en-GB',Object.assign({timeZone:'Europe/London'},o)).format(d);
+const FIN=/^(FT|AET|FT_PEN)$/;
+const ord=n=>{const v=n%100;return n+((v>10&&v<14)?'th':({1:'st',2:'nd',3:'rd'}[n%10]||'th'))};
+let LIVE=null,FX=null,lastH=0;
+
+async function getJSON(name){let r;try{r=await fetch(RAW+name+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw 0}catch(e){r=await fetch(name+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error(r.status)}return r.json()}
+
+function pick(){
+  const L=LIVE||{},list=(FX&&FX.fixtures)||[];
+  const id=WANT||(L.fixture&&L.fixture.id)||((L.next_fixtures||[])[0]||{}).id;
+  if(!id)return null;
+  const fromFx=list.find(f=>f.id===id);
+  const cur=L.fixture&&L.fixture.id===id;
+  const base=Object.assign({},fromFx||{},(L.next_fixtures||[]).find(f=>f.id===id)||{},cur?L.fixture:{});
+  if(!base.home)return null;
+  const o={fx:base,cur:cur};
+  if(cur){o.state=L.state;o.live=!!L.live;o.score=L.score;o.events=L.events||[];o.clock=L.minute}
+  else{o.state=fromFx&&fromFx.state;o.live=false;o.score=fromFx&&fromFx.score;o.events=[]}
+  return o;
+}
+function clock(L){let m=L.minute;if(m&&L.updated_at&&!L.added_time){const drift=Math.floor((Date.now()-new Date(L.updated_at))/6e4);const cap=L.state==='INPLAY_1ST_HALF'?45:L.state==='INPLAY_2ND_HALF'?90:999;m=Math.min(cap,m+Math.max(0,drift))}return m?m+(L.added_time?'+'+L.added_time:'')+"'":'Live'}
+
+const isGoal=t=>(/goal/i.test(t)||/^penalty$/i.test((t||'').trim()))&&!/disallowed|missed|cancel/i.test(t);
+function goalsBy(P,side){
+  const name=P.fx[side];
+  return (P.events||[]).filter(e=>isGoal(e.type)&&e.team===name)
+    .map(e=>esc(e.player||'')+(/own/i.test(e.type)?' (og)':'')+' '+e.minute+(e.extra?'+'+e.extra:'')+"'").join('<br>');
+}
+
+function render(){
+  const P=pick();if(!P){$('#card').hidden=true;report();return}
+  const fx=P.fx,L=LIVE||{},ko=utc(fx.kickoff_utc);
+  const fin=FIN.test(P.state||''),live=P.live,pre=!live&&!fin;
+  $('#card').hidden=false;
+  $('#comp').innerHTML='<b>'+esc(fx.league||'')+'</b>'+(fx.round?' · '+esc(fx.round):'');
+  $('#hLogo').src=fx.home_logo||'';$('#aLogo').src=fx.away_logo||'';$('#hName').textContent=fx.home;$('#aName').textContent=fx.away;
+  $('#full').href=MC;
+  const st=$('#state');
+  if(live){st.className='state live';st.innerHTML='<span class="dot"></span><span>'+(L.state==='HT'?'Half-time':esc(clock(L)))+'</span>'}
+  else if(fin){st.className='state';st.textContent='Full time'}
+  else{st.className='state';st.textContent='Kick-off '+fmt(ko,{hour:'2-digit',minute:'2-digit'})+' (UK)'}
+  const sc=P.score||{};
+  if(pre){$('#mid').innerHTML='<div class="ko">'+fmt(ko,{hour:'2-digit',minute:'2-digit'})+'</div>';$('#day').textContent=fmt(ko,{weekday:'short',day:'numeric',month:'short'})}
+  else{$('#mid').innerHTML='<div class="big">'+(sc.home==null?0:sc.home)+' – '+(sc.away==null?0:sc.away)+'</div>';$('#day').textContent=fin?fmt(ko,{day:'numeric',month:'short',year:'numeric'}):''}
+  $('#hSub').innerHTML=pre?'':goalsBy(P,'home');$('#aSub').innerHTML=pre?'':goalsBy(P,'away');
+  /* strip */
+  const bits=[];
+  if(fx.venue)bits.push('<span>'+esc(fx.venue)+'</span>');
+  const tv=tvList(P);if(tv.length)bits.push('<span><b>TV</b> '+tv.map(esc).join(', ')+'</span>');
+  if(pre)bits.push('<span>Kick-off in <span class="cd" id="cd"></span></span>');
+  $('#strip').innerHTML=bits.join('');$('#strip').hidden=!bits.length;
+  tick();
+  /* body */
+  const sec=[];
+  if(P.cur){
+    if(SHOW.has('table'))sec.push(secTable(P));
+    if(SHOW.has('form'))sec.push(secForm(L,fx));
+    if(SHOW.has('h2h'))sec.push(secH2H(L,fx));
+    if(SHOW.has('info'))sec.push(secInfo(L));
+    if(SHOW.has('news')&&pre)sec.push(secNews(L,fx));
+    if(SHOW.has('lineups'))sec.push(secXI(L,fx,ko,live,fin));
+  }
+  $('#bd').innerHTML=sec.filter(Boolean).join('');
+  report();
+}
+function tvList(P){
+  const out=[],add=t=>{const n=typeof t==='string'?t:(t&&(t.name||t.channel));if(n&&!out.includes(n))out.push(n)};
+  ((P.cur&&LIVE.info&&LIVE.info.tv)||[]).forEach(add);(P.fx.tv||[]).forEach(add);return out.slice(0,6);
+}
+function secTable(P){
+  const fx=P.fx,rows=(LIVE.standings||[]);if(!/premiership/i.test(fx.league||'')||!rows.length)return'';
+  const g=id=>rows.find(r=>r.team_id===id);const h=g(fx.home_id),a=g(fx.away_id);if(!h||!a)return'';
+  const c=r=>'<b>'+ord(r.pos)+'</b> · '+r.pts+' pts · P'+r.p+' GD '+(r.gd>0?'+':'')+r.gd;
+  return '<div class="sec"><h3>League table</h3><div class="two"><div><div class="lab">'+esc(fx.home)+'</div><div class="sum">'+c(h)+'</div></div><div><div class="lab">'+esc(fx.away)+'</div><div class="sum">'+c(a)+'</div></div></div></div>';
+}
+function pillRow(arr){return '<div class="pills">'+arr.slice(-5).map(m=>'<span class="p '+esc(m.r)+'" title="'+esc(m.r+' '+m.score+' v '+m.opp+' ('+m.ha+')')+'">'+esc(m.r)+'</span>').join('')+'</div>'}
+function secForm(L,fx){
+  const f=L.form||{};if(!(f.home&&f.home.length)&&!(f.away&&f.away.length))return'';
+  return '<div class="sec"><h3>Recent form <small>last 5, oldest to newest</small></h3><div class="two"><div><div class="lab">'+esc(fx.home)+'</div>'+pillRow(f.home||[])+'</div><div><div class="lab">'+esc(fx.away)+'</div>'+pillRow(f.away||[])+'</div></div></div>';
+}
+function secH2H(L,fx){
+  const h=(L.h2h||[]).slice(0,5);if(!h.length)return'';
+  let hw=0,aw=0,d=0;h.forEach(m=>{const [x,y]=m.score.split('-').map(Number);if(x===y)d++;else{const w=x>y?m.home:m.away;if(w===fx.home)hw++;else aw++}});
+  const rows=h.slice(0,3).map(m=>'<li><span>'+esc(m.home)+' '+esc(m.score.replace('-','–'))+' '+esc(m.away)+'</span><span class="d">'+fmt(new Date(m.date+'T12:00:00Z'),{day:'numeric',month:'short',year:'numeric'})+'</span></li>').join('');
+  return '<div class="sec"><h3>Head to head <small>last '+h.length+' meetings</small></h3><div class="sum"><b>'+esc(fx.home)+'</b> '+hw+' · draws '+d+' · <b>'+esc(fx.away)+'</b> '+aw+'</div><ul class="h2h">'+rows+'</ul></div>';
+}
+function secInfo(L){
+  const i=L.info||{},it=[];
+  if(i.coaches&&(i.coaches.home||i.coaches.away))it.push('<span><b>Managers</b>'+esc(i.coaches.home||'–')+' v '+esc(i.coaches.away||'–')+'</span>');
+  if(i.referee)it.push('<span><b>Referee</b>'+esc(i.referee)+'</span>');
+  if(i.weather){const w=i.weather,ds=w.desc?w.desc.charAt(0).toUpperCase()+w.desc.slice(1):'';it.push('<span><b>Weather</b>'+(w.temp_c!=null?esc(w.temp_c)+'°C':'')+(w.temp_c!=null&&ds?', ':'')+esc(ds)+'</span>')}
+  return it.length?'<div class="sec"><div class="facts">'+it.join('')+'</div></div>':'';
+}
+function secNews(L,fx){
+  const s=L.sidelined||{};if(!((s.home||[]).length||(s.away||[]).length))return'';
+  const col=(arr,team)=>'<div><div class="lab">'+esc(team)+'</div>'+(arr&&arr.length?'<ul class="names">'+arr.slice(0,5).map(p=>'<li>'+esc(p.player)+' <small>'+esc(p.type||'')+'</small></li>').join('')+'</ul>':'<div class="empty">No known absentees</div>')+'</div>';
+  return '<div class="sec"><h3>Injuries &amp; absences</h3><div class="two">'+col(s.home,fx.home)+col(s.away,fx.away)+'</div></div>';
+}
+function secXI(L,fx,ko,live,fin){
+  const u=L.lineups||{},h=u.home&&u.home.xi,a=u.away&&u.away.xi;if(!(h&&h.length&&a&&a.length))return'';
+  const near=ko-Date.now()<=75*60e3;if(!(live||fin||near))return'';  /* only show once teams are officially out */
+  const col=(x,team)=>'<div><div class="lab">'+esc(team)+(x.formation?' · '+esc(x.formation):'')+'</div><ul class="names xi">'+x.xi.map(p=>'<li><span class="n">'+esc(p.num||'')+'</span><span>'+esc(p.name)+'</span></li>').join('')+'</ul></div>';
+  return '<div class="sec"><h3>Starting line-ups</h3><div class="two">'+col(u.home,fx.home)+col(u.away,fx.away)+'</div></div>';
+}
+function tick(){
+  const c=$('#cd');if(!c)return;const P=pick();if(!P)return;
+  const ms=utc(P.fx.kickoff_utc)-Date.now();if(ms<=0){c.textContent='any moment';return}
+  const d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4),s=Math.floor(ms%6e4/1e3);
+  c.textContent=d?d+'d '+h+'h '+String(m).padStart(2,'0')+'m':(h?h+'h ':'')+String(m).padStart(2,'0')+'m '+String(s).padStart(2,'0')+'s';
+}
+function report(){
+  if(window.parent===window)return;
+  const h=Math.ceil($('#card').getBoundingClientRect().height)+4;if(!h||Math.abs(h-lastH)<2)return;lastH=h;
+  try{window.parent.postMessage({type:'cah-card-height',height:h},'*')}catch(e){}
+}
+async function loadLive(){try{LIVE=await getJSON('live.json');render()}catch(e){}}
+async function loadFx(){try{FX=await getJSON('fixtures.json');render()}catch(e){}}
+loadFx();loadLive();
+setInterval(loadLive,30000);setInterval(loadFx,600000);setInterval(tick,1000);
+if('ResizeObserver' in window)new ResizeObserver(report).observe($('#card'));
+window.addEventListener('load',report);setInterval(report,1500);
+})();
+</script>
+</body>
+</html>
