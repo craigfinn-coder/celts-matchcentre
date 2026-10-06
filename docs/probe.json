@@ -1,0 +1,734 @@
+{
+ "ran_at": "2026-10-06T08:06:31Z",
+ "tests": {
+  "last:lineups.details.type": {
+   "http": 200,
+   "sample": {
+    "id": 19722782,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407967,
+    "state_id": 5,
+    "venue_id": 8909,
+    "name": "Celtic vs Rangers",
+    "starting_at": "2026-09-20 11:00:00",
+    "result_info": "Rangers won after full-time.",
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1789902000,
+    "lineups": [
+     {
+      "id": 14674765131,
+      "sport_id": 1,
+      "fixture_id": 19722782,
+      "player_id": 529045,
+      "team_id": 53,
+      "position_id": 24,
+      "formation_field": "1:1",
+      "type_id": 11,
+      "formation_position": 1,
+      "player_name": "Viljami Sinisalo",
+      "jersey_number": 1,
+      "details": [
+       "{...}",
+       "(+21 more)"
+      ]
+     },
+     "(+39 more)"
+    ]
+   }
+  },
+  "last:lineups.xGLineup": {
+   "http": 403,
+   "error": "You do not have access to the 'xglineup' include"
+  },
+  "last:xGFixture": {
+   "http": 403,
+   "error": "You do not have access to the 'xgfixture' include"
+  },
+  "last:pressure": {
+   "http": 403,
+   "error": "You do not have access to the 'pressure' include"
+  },
+  "last:comments": {
+   "http": 200,
+   "sample": {
+    "id": 19722782,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407967,
+    "state_id": 5,
+    "venue_id": 8909,
+    "name": "Celtic vs Rangers",
+    "starting_at": "2026-09-20 11:00:00",
+    "result_info": "Rangers won after full-time.",
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1789902000,
+    "comments": [
+     {
+      "id": 11313550,
+      "fixture_id": 19722782,
+      "comment": "Kick-off! Referee\uff1aJohn Beaton",
+      "minute": 1,
+      "extra_minute": null,
+      "is_goal": false,
+      "is_important": false,
+      "order": 1
+     },
+     "(+58 more)"
+    ]
+   }
+  },
+  "last:timeline": {
+   "http": 200,
+   "sample": {
+    "id": 19722782,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407967,
+    "state_id": 5,
+    "venue_id": 8909,
+    "name": "Celtic vs Rangers",
+    "starting_at": "2026-09-20 11:00:00",
+    "result_info": "Rangers won after full-time.",
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1789902000,
+    "timeline": [
+     {
+      "id": 157984498,
+      "fixture_id": 19722782,
+      "period_id": 7117948,
+      "participant_id": 53,
+      "type_id": 126,
+      "section": "timeline",
+      "player_id": null,
+      "related_player_id": null,
+      "player_name": null,
+      "related_player_name": null,
+      "result": null,
+      "info": null,
+      "addition": "1st Corner",
+      "minute": 15,
+      "extra_minute": null,
+      "injured": null,
+      "on_bench": false,
+      "coach_id": null,
+      "sub_type_id": null,
+      "detailed_period_id": 7117948,
+      "rescinded": null,
+      "sort_order": 1
+     },
+     "(+38 more)"
+    ]
+   }
+  },
+  "last:tvStations": {
+   "http": 200,
+   "sample": {
+    "id": 19722782,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407967,
+    "state_id": 5,
+    "venue_id": 8909,
+    "name": "Celtic vs Rangers",
+    "starting_at": "2026-09-20 11:00:00",
+    "result_info": "Rangers won after full-time.",
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1789902000,
+    "tvstations": [
+     {
+      "id": 118792476,
+      "fixture_id": 19722782,
+      "tvstation_id": 41,
+      "country_id": 11
+     },
+     "(+108 more)"
+    ]
+   }
+  },
+  "last:referees.referee": {
+   "http": 200,
+   "sample": {
+    "id": 19722782,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407967,
+    "state_id": 5,
+    "venue_id": 8909,
+    "name": "Celtic vs Rangers",
+    "starting_at": "2026-09-20 11:00:00",
+    "result_info": "Rangers won after full-time.",
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1789902000,
+    "referees": [
+     {
+      "id": 6054916,
+      "fixture_id": 19722782,
+      "referee_id": 17265,
+      "type_id": 6,
+      "referee": {
+       "id": 17265,
+       "sport_id": 1,
+       "country_id": 1161,
+       "city_id": null,
+       "common_name": "J. Beaton",
+       "firstname": "John",
+       "lastname": "Beaton",
+       "name": "John Beaton",
+       "display_name": "John Beaton",
+       "image_path": "https://cdn.sportmonks.com/images/soccer/placeholder.png",
+       "height": null,
+       "weight": null,
+       "date_of_birth": null,
+       "gender": null
+      }
+     },
+     "(+3 more)"
+    ]
+   }
+  },
+  "last:coaches": {
+   "http": 200,
+   "sample": {
+    "id": 19722782,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407967,
+    "state_id": 5,
+    "venue_id": 8909,
+    "name": "Celtic vs Rangers",
+    "starting_at": "2026-09-20 11:00:00",
+    "result_info": "Rangers won after full-time.",
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1789902000,
+    "coaches": [
+     {
+      "id": 896306,
+      "player_id": 896306,
+      "sport_id": 1,
+      "country_id": 491,
+      "nationality_id": 491,
+      "city_id": null,
+      "common_name": "M. O'Neill",
+      "firstname": "Martin",
+      "lastname": "O'Neill",
+      "name": "Martin O'Neill",
+      "display_name": "Martin O'Neill",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/players/18/896306.png",
+      "height": null,
+      "weight": null,
+      "date_of_birth": "1952-03-01",
+      "gender": "male",
+      "meta": {
+       "fixture_id": 19722782,
+       "coach_id": 896306,
+       "participant_id": 53
+      }
+     },
+     "(+1 more)"
+    ]
+   }
+  },
+  "last:weatherReport": {
+   "http": 200,
+   "sample": {
+    "id": 19722782,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407967,
+    "state_id": 5,
+    "venue_id": 8909,
+    "name": "Celtic vs Rangers",
+    "starting_at": "2026-09-20 11:00:00",
+    "result_info": "Rangers won after full-time.",
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1789902000,
+    "weatherreport": {
+     "id": 793481,
+     "fixture_id": 19722782,
+     "venue_id": 8909,
+     "temperature": {
+      "current": 15.67
+     },
+     "feels_like": {
+      "current": 15.04
+     },
+     "wind": {
+      "speed": 6.17,
+      "direction": 270
+     },
+     "humidity": "67%",
+     "pressure": 1024,
+     "clouds": "65%",
+     "description": "broken clouds",
+     "icon": "https://cdn.sportmonks.com/images/weather/04d.png",
+     "type": "actual",
+     "metric": "celcius",
+     "current": {
+      "temp": 15.67,
+      "wind": 6.17,
+      "clouds": "65%",
+      "humidity": "67%",
+      "pressure": 1024,
+      "direction": 270,
+      "feels_like": 15.04,
+      "description": "broken clouds"
+     }
+    }
+   }
+  },
+  "last:predictions": {
+   "http": 403,
+   "error": "You do not have access to the 'predictions' include"
+  },
+  "last:trends": {
+   "http": 200,
+   "sample": {
+    "id": 19722782,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407967,
+    "state_id": 5,
+    "venue_id": 8909,
+    "name": "Celtic vs Rangers",
+    "starting_at": "2026-09-20 11:00:00",
+    "result_info": "Rangers won after full-time.",
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1789902000,
+    "trends": [
+     {
+      "id": 564154190,
+      "fixture_id": 19722782,
+      "participant_id": 62,
+      "type_id": 45,
+      "period_id": 7117948,
+      "value": 50,
+      "minute": 0
+     },
+     "(+1330 more)"
+    ]
+   }
+  },
+  "last:ballCoordinates": {
+   "http": 200,
+   "sample": {
+    "id": 19722782,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407967,
+    "state_id": 5,
+    "venue_id": 8909,
+    "name": "Celtic vs Rangers",
+    "starting_at": "2026-09-20 11:00:00",
+    "result_info": "Rangers won after full-time.",
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1789902000,
+    "ballcoordinates": [
+     {
+      "id": 308053458,
+      "fixture_id": 19722782,
+      "period_id": 7118167,
+      "timer": "94:13",
+      "x": 0.41,
+      "y": 0.24
+     },
+     "(+997 more)"
+    ]
+   }
+  },
+  "last:metadata.type": {
+   "http": 200,
+   "sample": {
+    "id": 19722782,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407967,
+    "state_id": 5,
+    "venue_id": 8909,
+    "name": "Celtic vs Rangers",
+    "starting_at": "2026-09-20 11:00:00",
+    "result_info": "Rangers won after full-time.",
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1789902000,
+    "metadata": [
+     {
+      "id": 10075647,
+      "metadatable_id": 19722782,
+      "type_id": 35,
+      "value_type": "object",
+      "values": {
+       "neutral": false
+      },
+      "type": {
+       "id": 35,
+       "name": "Neutral Venue",
+       "code": "neutral_venue",
+       "developer_name": "NEUTRAL_VENUE",
+       "model_type": "metadata",
+       "stat_group": null
+      }
+     },
+     "(+10 more)"
+    ]
+   }
+  },
+  "last:venue": {
+   "http": 200,
+   "sample": {
+    "id": 19722782,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407967,
+    "state_id": 5,
+    "venue_id": 8909,
+    "name": "Celtic vs Rangers",
+    "starting_at": "2026-09-20 11:00:00",
+    "result_info": "Rangers won after full-time.",
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1789902000,
+    "venue": {
+     "id": 8909,
+     "country_id": 1161,
+     "city_id": 32191,
+     "name": "Celtic Park",
+     "address": "The Celtic Way Parkhead, Glasgow",
+     "zipcode": null,
+     "latitude": "55.849722",
+     "longitude": "-4.205556",
+     "capacity": 60411,
+     "image_path": "https://cdn.sportmonks.com/images/core/venues/13/8909.png",
+     "city_name": "Glasgow",
+     "surface": "grass",
+     "national_team": false
+    }
+   }
+  },
+  "next:tvStations": {
+   "http": 200,
+   "sample": {
+    "id": 19722777,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407966,
+    "state_id": 1,
+    "venue_id": 8922,
+    "name": "Motherwell vs Celtic",
+    "starting_at": "2026-10-11 11:00:00",
+    "result_info": null,
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1791716400,
+    "tvstations": [
+     {
+      "id": 118833912,
+      "fixture_id": 19722777,
+      "tvstation_id": 51,
+      "country_id": 3483
+     },
+     "(+0 more)"
+    ]
+   }
+  },
+  "next:referees.referee": {
+   "http": 200,
+   "sample": {
+    "id": 19722777,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407966,
+    "state_id": 1,
+    "venue_id": 8922,
+    "name": "Motherwell vs Celtic",
+    "starting_at": "2026-10-11 11:00:00",
+    "result_info": null,
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1791716400,
+    "referees": []
+   }
+  },
+  "next:coaches": {
+   "http": 200,
+   "sample": {
+    "id": 19722777,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407966,
+    "state_id": 1,
+    "venue_id": 8922,
+    "name": "Motherwell vs Celtic",
+    "starting_at": "2026-10-11 11:00:00",
+    "result_info": null,
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1791716400,
+    "coaches": [
+     {
+      "id": 896306,
+      "player_id": 896306,
+      "sport_id": 1,
+      "country_id": 491,
+      "nationality_id": 491,
+      "city_id": null,
+      "common_name": "M. O'Neill",
+      "firstname": "Martin",
+      "lastname": "O'Neill",
+      "name": "Martin O'Neill",
+      "display_name": "Martin O'Neill",
+      "image_path": "https://cdn.sportmonks.com/images/soccer/players/18/896306.png",
+      "height": null,
+      "weight": null,
+      "date_of_birth": "1952-03-01",
+      "gender": "male",
+      "meta": {
+       "fixture_id": 19722777,
+       "coach_id": 896306,
+       "participant_id": 53
+      }
+     },
+     "(+1 more)"
+    ]
+   }
+  },
+  "next:weatherReport": {
+   "http": 200,
+   "sample": {
+    "id": 19722777,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407966,
+    "state_id": 1,
+    "venue_id": 8922,
+    "name": "Motherwell vs Celtic",
+    "starting_at": "2026-10-11 11:00:00",
+    "result_info": null,
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1791716400,
+    "weatherreport": null
+   }
+  },
+  "next:predictions": {
+   "http": 403,
+   "error": "You do not have access to the 'predictions' include"
+  },
+  "next:metadata.type": {
+   "http": 200,
+   "sample": {
+    "id": 19722777,
+    "sport_id": 1,
+    "league_id": 501,
+    "season_id": 28275,
+    "stage_id": 77482564,
+    "group_id": null,
+    "aggregate_id": null,
+    "round_id": 407966,
+    "state_id": 1,
+    "venue_id": 8922,
+    "name": "Motherwell vs Celtic",
+    "starting_at": "2026-10-11 11:00:00",
+    "result_info": null,
+    "leg": "1/1",
+    "details": null,
+    "length": 90,
+    "placeholder": false,
+    "has_odds": true,
+    "has_premium_odds": true,
+    "starting_at_timestamp": 1791716400,
+    "metadata": [
+     {
+      "id": 10075689,
+      "metadatable_id": 19722777,
+      "type_id": 35,
+      "value_type": "object",
+      "values": {
+       "neutral": false
+      },
+      "type": {
+       "id": 35,
+       "name": "Neutral Venue",
+       "code": "neutral_venue",
+       "developer_name": "NEUTRAL_VENUE",
+       "model_type": "metadata",
+       "stat_group": null
+      }
+     },
+     "(+5 more)"
+    ]
+   }
+  },
+  "next:expectedLineups": {
+   "http": 403,
+   "error": "You do not have access to the 'expectedlineups' include"
+  },
+  "next:premiumExpectedLineups": {
+   "http": 404,
+   "error": "The requested include 'premiumexpectedlineups' does not exist"
+  },
+  "team:statistics.type": {
+   "http": 404,
+   "error": "The requested include 'type' does not exist on TeamStatistic"
+  },
+  "team:statistics(season filter)": {
+   "http": 404,
+   "error": "The requested include 'type' does not exist on TeamStatistic"
+  },
+  "topscorers:all types": {
+   "http": 200,
+   "topscorer_types": {
+    "83": "Redcards",
+    "84": "Yellowcards"
+   }
+  }
+ },
+ "last_fixture": {
+  "id": 19722782,
+  "home": "Celtic",
+  "away": "Rangers",
+  "score": {
+   "home": 0,
+   "away": 1
+  },
+  "kickoff_utc": "2026-09-20 11:00:00",
+  "league": "Premiership"
+ },
+ "next_fixture": {
+  "id": 19722777,
+  "home": "Motherwell",
+  "away": "Celtic",
+  "kickoff_utc": "2026-10-11 11:00:00",
+  "league": "Premiership"
+ },
+ "season_id": 28275
+}
