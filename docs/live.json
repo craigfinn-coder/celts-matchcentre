@@ -1919,20 +1919,6 @@
   },
   "commentary": [
    {
-    "m": null,
-    "x": null,
-    "t": "First Half Ends！0-1",
-    "goal": false,
-    "key": false
-   },
-   {
-    "m": null,
-    "x": null,
-    "t": "Match Ends！ 0-1",
-    "goal": false,
-    "key": false
-   },
-   {
     "m": 1,
     "x": null,
     "t": "Kick-off! Referee：John Beaton",
@@ -2097,6 +2083,13 @@
     "m": 45,
     "x": 1,
     "t": "Corner",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": null,
+    "x": null,
+    "t": "First Half Ends！0-1",
     "goal": false,
     "key": false
    },
@@ -2330,8 +2323,15 @@
     "t": "On Shumaira Mheuka，Off Liam Scales",
     "goal": false,
     "key": false
+   },
+   {
+    "m": null,
+    "x": null,
+    "t": "Match Ends！ 0-1",
+    "goal": false,
+    "key": false
    }
   ]
  },
- "updated_at": "2026-10-06T08:58:33.840254+00:00"
+ "updated_at": "2026-10-06T10:57:13.763837+00:00"
 }
