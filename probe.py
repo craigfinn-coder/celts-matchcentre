@@ -1,6 +1,6 @@
-"""One-off probe: which Sportmonks includes work on this plan, and what they return.
+"""Probe round 2: ratings in lineups.details, TV channel names, team season stats, commentary sample.
 Writes docs/probe.json (no secrets). Safe to delete after use."""
-import json, os, sys, time, urllib.parse, urllib.request, urllib.error
+import json, os, time, urllib.parse, urllib.request, urllib.error
 
 TOKEN = os.environ["SPORTMONKS_TOKEN"]
 BASE = "https://api.sportmonks.com/v3/football/"
@@ -24,94 +24,95 @@ def get(path, **params):
         return 0, {"error": str(e)}
 
 
-def shape(o, depth=0):
-    """Compact description of a JSON value: keys + a sample."""
-    if isinstance(o, dict):
-        if depth > 3:
-            return "{...}"
-        return {k: shape(v, depth + 1) for k, v in list(o.items())[:30]}
-    if isinstance(o, list):
-        return [shape(o[0], depth + 1), f"(+{len(o)-1} more)"] if o else []
-    if isinstance(o, str):
-        return o[:80]
-    return o
-
-
-out = {"ran_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "tests": {}}
-
+out = {"ran_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
 fx = json.load(open("docs/fixtures.json"))["fixtures"]
-done = [x for x in fx if x.get("finished") and not x.get("void")]
-nxt = [x for x in fx if not x.get("finished")]
-done.sort(key=lambda x: x["ts"])
-nxt.sort(key=lambda x: x["ts"])
-last = done[-1]
-nextfx = nxt[0] if nxt else None
-out["last_fixture"] = {k: last.get(k) for k in ("id", "home", "away", "score", "kickoff_utc", "league")}
-out["next_fixture"] = {k: nextfx.get(k) for k in ("id", "home", "away", "kickoff_utc", "league")} if nextfx else None
+done = sorted([x for x in fx if x.get("finished") and not x.get("void")], key=lambda x: x["ts"])
+nxt = sorted([x for x in fx if not x.get("finished")], key=lambda x: x["ts"])
+LAST = done[-1]["id"]
+NEXT = nxt[0]["id"] if nxt else None
 
+# 1. Player match stats + ratings
+code, b = get(f"fixtures/{LAST}", include="lineups.details.type")
+out["lineups_details"] = {"http": code}
+if code == 200:
+    lu = b["data"].get("lineups", [])
+    names = {}
+    for p in lu:
+        for d in p.get("details", []):
+            t = d.get("type") or {}
+            names[d.get("type_id")] = t.get("name")
+    out["lineups_details"]["type_ids_seen"] = names
+    out["lineups_details"]["rating_present"] = any(
+        (d.get("type") or {}).get("name", "").lower() == "rating" or d.get("type_id") == 118
+        for p in lu for d in p.get("details", [])
+    )
+    ex = [p for p in lu if p.get("details")][:2]
+    out["lineups_details"]["example_players"] = [
+        {"name": p.get("player_name"), "team_id": p.get("team_id"), "type_id": p.get("type_id"),
+         "details": [{"type": (d.get("type") or {}).get("name"), "value": d.get("data")} for d in p["details"]][:40]}
+        for p in ex
+    ]
+else:
+    out["lineups_details"]["error"] = b.get("message") or b
 
-def test(name, path, **params):
-    code, body = get(path, **params)
-    entry = {"http": code}
+# 2. TV channels with names (last + next)
+for tag, fid in (("last", LAST), ("next", NEXT)):
+    if not fid:
+        continue
+    code, b = get(f"fixtures/{fid}", include="tvStations.tvStation;tvStations.country")
+    e = {"http": code}
     if code == 200:
-        entry["sample"] = shape(body.get("data"))
+        rows = []
+        for t in b["data"].get("tvstations", b["data"].get("tvStations", [])):
+            rows.append({"channel": (t.get("tvstation") or {}).get("name"),
+                         "country": (t.get("country") or {}).get("name"),
+                         "country_id": t.get("country_id")})
+        e["count"] = len(rows)
+        e["uk_or_scotland"] = [r for r in rows if (r.get("country") or "").lower() in ("united kingdom", "scotland", "england", "uk", "ireland")]
+        e["first_10"] = rows[:10]
     else:
-        entry["error"] = body.get("message") or body
-    if isinstance(body, dict) and "subscription" in body:
-        pass
-    out["tests"][name] = entry
-    print(name, code)
-    return code, body
+        e["error"] = b.get("message") or b
+    out[f"tv_{tag}"] = e
 
+# 3. Commentary sample
+code, b = get(f"fixtures/{LAST}", include="comments")
+out["comments"] = {"http": code}
+if code == 200:
+    cs = b["data"].get("comments", [])
+    out["comments"]["count"] = len(cs)
+    out["comments"]["sample"] = [{"minute": c.get("minute"), "extra": c.get("extra_minute"), "goal": c.get("is_goal"),
+                                  "important": c.get("is_important"), "text": (c.get("comment") or "")[:160]}
+                                 for c in cs[:6] + [c for c in cs if c.get("is_important")][:4]]
 
-LAST = last["id"]
-# --- per-include probes on the last finished Celtic game ---
-for inc in [
-    "lineups.details.type",       # per-player match stats incl. rating?
-    "lineups.xGLineup",           # player xG
-    "xGFixture",                  # team xG
-    "pressure",                   # momentum
-    "comments",                   # text commentary
-    "timeline",
-    "tvStations",
-    "referees.referee",
-    "coaches",
-    "weatherReport",
-    "predictions",
-    "trends",
-    "ballCoordinates",
-    "metadata.type",
-    "venue",
-]:
-    test("last:" + inc, f"fixtures/{LAST}", include=inc)
-
-# --- upcoming game ---
-if nextfx:
-    NX = nextfx["id"]
-    for inc in ["tvStations", "referees.referee", "coaches", "weatherReport", "predictions", "metadata.type", "expectedLineups", "premiumExpectedLineups"]:
-        test("next:" + inc, f"fixtures/{NX}", include=inc)
-
-# --- team season stats (for comparison bars) ---
+# 4. Team season stats
 code, lg = get("leagues/501", include="currentSeason")
 sid = None
 if code == 200:
     sid = (lg["data"].get("currentseason") or lg["data"].get("currentSeason") or {}).get("id")
-out["season_id"] = sid
-test("team:statistics.type", f"teams/{TEAM}", include="statistics.type")
-if sid:
-    test("team:statistics(season filter)", f"teams/{TEAM}", include="statistics.type", filters=f"teamStatisticSeasons:{sid}")
-    code, ts = get(f"topscorers/seasons/{sid}", include="player;type")
-    entry = {"http": code}
+for name, params in (
+    ("stats_details_type", dict(include="statistics.details.type", filters=f"teamStatisticSeasons:{sid}")),
+    ("stats_details", dict(include="statistics.details", filters=f"teamStatisticSeasons:{sid}")),
+    ("stats_plain", dict(include="statistics")),
+):
+    code, b = get(f"teams/{TEAM}", **params)
+    e = {"http": code}
     if code == 200:
-        types = {}
-        for r in ts["data"]:
-            t = (r.get("type") or {})
-            types.setdefault(r.get("type_id"), t.get("name"))
-        entry["topscorer_types"] = types
+        st = b["data"].get("statistics", [])
+        e["seasons"] = len(st)
+        rows = []
+        for s in st[:1]:
+            for d in s.get("details", [])[:60]:
+                rows.append({"type": (d.get("type") or {}).get("name") or d.get("type_id"), "value": d.get("value")})
+        e["first_season_stats"] = rows
+        e["season_ids"] = [s.get("season_id") for s in st]
     else:
-        entry["error"] = ts.get("message") or ts
-    out["tests"]["topscorers:all types"] = entry
-    print("topscorers", code)
+        e["error"] = b.get("message") or b
+    out[name] = e
+
+# 5. Topscorer types
+for flt in ("seasontopscorerTypes:208", "seasontopscorerTypes:209", "seasontopscorerTypes:83,84,208,209"):
+    code, b = get(f"topscorers/seasons/{sid}", include="player", filters=flt)
+    out["topscorers " + flt] = {"http": code, "rows": len(b.get("data", [])) if code == 200 else b.get("message")}
 
 json.dump(out, open("docs/probe.json", "w"), indent=1)
 print("done")
