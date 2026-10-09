@@ -281,7 +281,7 @@
      "id": 28912742
     },
     {
-     "name": "Tawanda Maswanhise",
+     "name": "Tawanda Jethro Maswanhise",
      "num": 18,
      "pos": 8,
      "field": "4:1",
@@ -685,7 +685,7 @@
   },
   {
    "pos": 4,
-   "player": "Tawanda Maswanhise",
+   "player": "Tawanda Jethro Maswanhise",
    "team": "Motherwell",
    "team_id": 309,
    "assists": 2
@@ -2338,5 +2338,5 @@
    }
   ]
  },
- "updated_at": "2026-10-09T00:50:31.795902+00:00"
+ "updated_at": "2026-10-09T14:12:27.390351+00:00"
 }
