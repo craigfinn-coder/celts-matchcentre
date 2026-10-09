@@ -742,7 +742,11 @@
   "weather": {
    "temp_c": 12,
    "desc": "overcast clouds"
-  }
+  },
+  "tv": [
+   "NOW",
+   "Sky Sports Football"
+  ]
  },
  "season_stats": {
   "label": "Premiership",
@@ -2338,5 +2342,5 @@
    }
   ]
  },
- "updated_at": "2026-10-09T14:12:27.390351+00:00"
+ "updated_at": "2026-10-09T23:43:03.868947+00:00"
 }
