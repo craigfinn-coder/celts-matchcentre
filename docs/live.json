@@ -42,6 +42,20 @@
  "standings": [
   {
    "pos": 1,
+   "team": "Rangers",
+   "team_id": 62,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+   "pts": 19,
+   "p": 8,
+   "w": 6,
+   "d": 1,
+   "l": 1,
+   "gf": 11,
+   "ga": 5,
+   "gd": 6
+  },
+  {
+   "pos": 2,
    "team": "Celtic",
    "team_id": 53,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
@@ -55,63 +69,63 @@
    "gd": 10
   },
   {
-   "pos": 2,
-   "team": "Rangers",
-   "team_id": 62,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 16,
-   "p": 7,
-   "w": 5,
-   "d": 1,
-   "l": 1,
-   "gf": 8,
-   "ga": 4,
-   "gd": 4
-  },
-  {
    "pos": 3,
    "team": "Hearts",
    "team_id": 314,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-   "pts": 13,
-   "p": 7,
-   "w": 4,
+   "pts": 16,
+   "p": 8,
+   "w": 5,
    "d": 1,
    "l": 2,
-   "gf": 14,
+   "gf": 19,
    "ga": 8,
-   "gd": 6
+   "gd": 11
   },
   {
    "pos": 4,
    "team": "Dundee",
    "team_id": 284,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
-   "pts": 10,
-   "p": 7,
-   "w": 3,
+   "pts": 13,
+   "p": 8,
+   "w": 4,
    "d": 1,
    "l": 3,
-   "gf": 9,
-   "ga": 7,
-   "gd": 2
+   "gf": 11,
+   "ga": 8,
+   "gd": 3
   },
   {
    "pos": 5,
-   "team": "St. Mirren",
-   "team_id": 496,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "pts": 10,
-   "p": 7,
+   "team": "Dundee United",
+   "team_id": 282,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
+   "pts": 11,
+   "p": 8,
    "w": 3,
-   "d": 1,
+   "d": 2,
    "l": 3,
-   "gf": 8,
-   "ga": 9,
+   "gf": 10,
+   "ga": 11,
    "gd": -1
   },
   {
    "pos": 6,
+   "team": "St. Mirren",
+   "team_id": 496,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
+   "pts": 10,
+   "p": 8,
+   "w": 3,
+   "d": 1,
+   "l": 4,
+   "gf": 8,
+   "ga": 14,
+   "gd": -6
+  },
+  {
+   "pos": 7,
    "team": "St. Johnstone",
    "team_id": 734,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
@@ -125,7 +139,7 @@
    "gd": -1
   },
   {
-   "pos": 7,
+   "pos": 8,
    "team": "Aberdeen",
    "team_id": 273,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
@@ -137,20 +151,6 @@
    "gf": 7,
    "ga": 8,
    "gd": -1
-  },
-  {
-   "pos": 8,
-   "team": "Dundee United",
-   "team_id": 282,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
-   "pts": 8,
-   "p": 7,
-   "w": 2,
-   "d": 2,
-   "l": 3,
-   "gf": 9,
-   "ga": 11,
-   "gd": -2
   },
   {
    "pos": 9,
@@ -172,13 +172,13 @@
    "team_id": 66,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
    "pts": 7,
-   "p": 7,
+   "p": 8,
    "w": 2,
    "d": 1,
-   "l": 4,
+   "l": 5,
    "gf": 8,
-   "ga": 11,
-   "gd": -3
+   "ga": 12,
+   "gd": -4
   },
   {
    "pos": 11,
@@ -186,13 +186,13 @@
    "team_id": 770,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
    "pts": 6,
-   "p": 7,
+   "p": 8,
    "w": 1,
    "d": 3,
-   "l": 3,
-   "gf": 6,
-   "ga": 9,
-   "gd": -3
+   "l": 4,
+   "gf": 7,
+   "ga": 11,
+   "gd": -4
   },
   {
    "pos": 12,
@@ -200,13 +200,13 @@
    "team_id": 180,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
    "pts": 5,
-   "p": 7,
+   "p": 8,
    "w": 1,
    "d": 2,
-   "l": 4,
-   "gf": 6,
-   "ga": 15,
-   "gd": -9
+   "l": 5,
+   "gf": 7,
+   "ga": 18,
+   "gd": -11
   }
  ],
  "state_name": "Not started",
@@ -2344,5 +2344,5 @@
    }
   ]
  },
- "updated_at": "2026-10-10T10:16:11.806417+00:00"
+ "updated_at": "2026-10-10T16:01:19.258004+00:00"
 }
