@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T11:11:00.516758+00:00",
+ "updated_at": "2026-10-11T11:13:30.268590+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 9,
+ "minute": 11,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -339,23 +339,23 @@
  "stats": {
   "Corners": {
    "home": 0,
-   "away": 1
+   "away": 2
   },
   "Shots Total": {
    "home": 1,
-   "away": 0
+   "away": 1
   },
   "Attacks": {
    "home": 6,
-   "away": 11
+   "away": 16
   },
   "Dangerous Attacks": {
    "home": 2,
-   "away": 7
+   "away": 12
   },
   "Ball Possession %": {
-   "home": 42,
-   "away": 58
+   "home": 38,
+   "away": 62
   },
   "Shots Outsidebox": {
    "home": 1,
@@ -386,28 +386,32 @@
    "away": 2
   },
   "Long Passes": {
-   "home": 6,
-   "away": 6
+   "home": 7,
+   "away": 8
   },
   "Tackles": {
    "home": 3,
    "away": 3
   },
   "Passes": {
-   "home": 48,
-   "away": 64
+   "home": 53,
+   "away": 83
   },
   "Successful Passes": {
-   "home": 42,
-   "away": 57
+   "home": 45,
+   "away": 75
   },
   "Successful Passes Percentage": {
-   "home": 88,
-   "away": 89
+   "home": 85,
+   "away": 90
+  },
+  "Shots On Target": {
+   "home": 0,
+   "away": 1
   },
   "Total Crosses": {
    "home": 1,
-   "away": 3
+   "away": 4
   },
   "Accurate Crosses": {
    "home": 0,
@@ -431,11 +435,11 @@
   },
   "Successful Long Passes": {
    "home": 3,
-   "away": 4
+   "away": 6
   },
   "Successful Long Passes Percentage": {
-   "home": 50,
-   "away": 67
+   "home": 43,
+   "away": 75
   },
   "Tackles Won": {
    "home": 2,
@@ -449,7 +453,7 @@
    "team": "Celtic",
    "team_id": 53,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "pts": 19,
+   "pts": 21,
    "p": 7,
    "w": 6,
    "d": 0,
@@ -530,20 +534,6 @@
   },
   {
    "pos": 7,
-   "team": "Motherwell",
-   "team_id": 309,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
-   "pts": 9,
-   "p": 7,
-   "w": 2,
-   "d": 2,
-   "l": 3,
-   "gf": 9,
-   "ga": 11,
-   "gd": -2
-  },
-  {
-   "pos": 8,
    "team": "St. Johnstone",
    "team_id": 734,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
@@ -557,7 +547,7 @@
    "gd": -1
   },
   {
-   "pos": 9,
+   "pos": 8,
    "team": "Aberdeen",
    "team_id": 273,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
@@ -569,6 +559,20 @@
    "gf": 7,
    "ga": 8,
    "gd": -1
+  },
+  {
+   "pos": 9,
+   "team": "Motherwell",
+   "team_id": 309,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
+   "pts": 8,
+   "p": 7,
+   "w": 2,
+   "d": 2,
+   "l": 3,
+   "gf": 9,
+   "ga": 11,
+   "gd": -2
   },
   {
    "pos": 10,
@@ -998,16 +1002,16 @@
  "player_stats": {
   "529045": {
    "rating": 6.5,
-   "pass": 3,
+   "pass": 5,
    "touches": 4,
    "min": 9,
    "side": "away",
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 16,
+   "pass": 18,
    "touches": 20,
-   "rating": 6.69,
+   "rating": 6.7,
    "tkl": 1,
    "clr": 1,
    "duels_t": 1,
@@ -1019,7 +1023,7 @@
   "19979885": {
    "touches": 5,
    "pass": 5,
-   "rating": 6.47,
+   "rating": 6.45,
    "min": 9,
    "side": "away",
    "name": "Benjamin Nygren"
@@ -1034,8 +1038,8 @@
   },
   "37709508": {
    "touches": 4,
-   "rating": 6.47,
-   "pass": 3,
+   "rating": 7.18,
+   "pass": 4,
    "min": 9,
    "g": 1,
    "sh": 1,
@@ -1044,10 +1048,10 @@
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 6.55,
+   "rating": 6.43,
    "duels": 2,
    "duels_t": 4,
-   "pass": 3,
+   "pass": 6,
    "tkl": 2,
    "min": 9,
    "touches": 9,
@@ -1055,17 +1059,17 @@
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 6.36,
+   "rating": 6.35,
    "min": 9,
    "duels_t": 1,
-   "pass": 1,
+   "pass": 2,
    "touches": 3,
    "side": "away",
    "name": "Mika Joel Baur"
   },
   "8585": {
-   "pass": 8,
-   "rating": 6.46,
+   "pass": 12,
+   "rating": 6.44,
    "min": 9,
    "touches": 8,
    "side": "away",
@@ -1073,16 +1077,16 @@
   },
   "37342595": {
    "touches": 18,
-   "pass": 17,
-   "rating": 6.45,
+   "pass": 22,
+   "rating": 6.43,
    "min": 9,
    "clr": 1,
    "side": "away",
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 3,
-   "rating": 6.52,
+   "pass": 4,
+   "rating": 6.5,
    "duels_t": 1,
    "duels": 1,
    "min": 9,
@@ -1091,7 +1095,7 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 6.5,
+   "rating": 6.45,
    "clr": 2,
    "min": 9,
    "pass": 3,
@@ -1100,23 +1104,23 @@
    "name": "Kieran Tierney"
   },
   "24469041": {
-   "rating": 6.55,
+   "rating": 6.2,
    "touches": 8,
    "min": 9,
-   "pass": 8,
+   "pass": 10,
    "side": "home",
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 6.42,
+   "rating": 6.13,
    "min": 9,
-   "pass": 13,
+   "pass": 14,
    "touches": 13,
    "side": "home",
    "name": "Stephen O'Donnell"
   },
   "21036704": {
-   "rating": 6.52,
+   "rating": 6.31,
    "min": 9,
    "kp": 1,
    "touches": 4,
@@ -1126,7 +1130,7 @@
    "name": "Martin Moormann"
   },
   "28912717": {
-   "rating": 6.34,
+   "rating": 6.06,
    "pass": 5,
    "min": 9,
    "touches": 10,
@@ -1136,7 +1140,7 @@
   },
   "2823438": {
    "touches": 9,
-   "rating": 6.57,
+   "rating": 6.45,
    "pass": 7,
    "duels_t": 1,
    "duels": 1,
@@ -1146,7 +1150,7 @@
    "name": "Lukas Fadinger"
   },
   "37260641": {
-   "rating": 6.42,
+   "rating": 6.28,
    "pass": 5,
    "clr": 1,
    "min": 9,
@@ -1158,7 +1162,7 @@
    "name": "Alex Lowry"
   },
   "4969690": {
-   "rating": 6.44,
+   "rating": 6.19,
    "pass": 1,
    "min": 9,
    "touches": 2,
@@ -1166,15 +1170,16 @@
    "name": "Emmanuel Longelo"
   },
   "37550449": {
-   "rating": 6.48,
+   "rating": 6.42,
    "touches": 2,
    "sh": 1,
+   "pass": 2,
    "min": 9,
    "side": "home",
    "name": "S. Palmer-Houlden"
   },
   "7742181": {
-   "rating": 6.47,
+   "rating": 6.36,
    "touches": 4,
    "pass": 4,
    "min": 9,
@@ -1182,7 +1187,7 @@
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "rating": 6.41,
+   "rating": 6.27,
    "pass": 2,
    "min": 9,
    "touches": 2,
@@ -1192,7 +1197,7 @@
    "name": "Joe Hodge"
   },
   "37643521": {
-   "rating": 6.59,
+   "rating": 6.47,
    "duels_t": 1,
    "touches": 2,
    "min": 9,
@@ -1237,7 +1242,14 @@
    "t": "Goal! Camilo Duran scores to make it 0-1.",
    "goal": true,
    "key": true
+  },
+  {
+   "m": 9,
+   "x": null,
+   "t": "Camilo Duran scores with a left-footed shot.",
+   "goal": false,
+   "key": true
   }
  ],
- "rate_remaining": 2449
+ "rate_remaining": 2441
 }
