@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T11:22:00.317835+00:00",
+ "updated_at": "2026-10-11T11:26:00.265348+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 20,
+ "minute": 24,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -343,27 +343,27 @@
   },
   "Shots Off Target": {
    "home": 0,
-   "away": 1
+   "away": 2
   },
   "Shots Total": {
    "home": 1,
-   "away": 5
+   "away": 7
   },
   "Attacks": {
-   "home": 14,
-   "away": 31
+   "home": 19,
+   "away": 39
   },
   "Dangerous Attacks": {
    "home": 6,
-   "away": 20
+   "away": 26
   },
   "Ball Possession %": {
-   "home": 34,
-   "away": 66
+   "home": 32,
+   "away": 68
   },
   "Shots Insidebox": {
    "home": 0,
-   "away": 3
+   "away": 4
   },
   "Shots Outsidebox": {
    "home": 1,
@@ -390,16 +390,16 @@
    "away": 0
   },
   "Saves": {
-   "home": 2,
+   "home": 3,
    "away": 0
   },
   "Shots Blocked": {
    "home": 1,
-   "away": 0
+   "away": 1
   },
   "Throwins": {
    "home": 6,
-   "away": 7
+   "away": 9
   },
   "Long Passes": {
    "home": 9,
@@ -415,15 +415,15 @@
   },
   "Passes": {
    "home": 85,
-   "away": 162
+   "away": 182
   },
   "Successful Passes": {
    "home": 71,
-   "away": 145
+   "away": 165
   },
   "Successful Passes Percentage": {
    "home": 84,
-   "away": 90
+   "away": 91
   },
   "Shots On Target": {
    "home": 0,
@@ -451,7 +451,7 @@
   },
   "Key Passes": {
    "home": 1,
-   "away": 2
+   "away": 3
   },
   "Successful Dribbles Percentage": {
    "home": 0,
@@ -467,7 +467,7 @@
   },
   "Tackles Won": {
    "home": 4,
-   "away": 2
+   "away": 3
   }
  },
  "next_fixtures": [],
@@ -1025,39 +1025,39 @@
  },
  "player_stats": {
   "529045": {
-   "rating": 6.66,
-   "pass": 9,
-   "touches": 9,
-   "min": 19,
+   "rating": 6.63,
+   "pass": 11,
+   "touches": 12,
+   "min": 21,
    "pass_pct": 100,
    "side": "away",
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 32,
-   "touches": 37,
+   "pass": 37,
+   "touches": 43,
    "rating": 6.97,
    "tkl": 1,
    "clr": 3,
    "duels_t": 1,
-   "min": 19,
+   "min": 21,
    "duels": 1,
    "pass_pct": 85,
    "side": "away",
    "name": "Liam Scales"
   },
   "19979885": {
-   "touches": 9,
-   "pass": 10,
-   "rating": 6.53,
-   "min": 19,
+   "touches": 12,
+   "pass": 11,
+   "rating": 6.54,
+   "min": 21,
    "pass_pct": 80,
    "side": "away",
    "name": "Benjamin Nygren"
   },
   "15061513": {
    "rating": 6.59,
-   "min": 19,
+   "min": 21,
    "pass": 5,
    "touches": 6,
    "sh": 1,
@@ -1066,101 +1066,108 @@
    "name": "Kasper Høgh"
   },
   "37709508": {
-   "touches": 12,
-   "rating": 7.48,
+   "touches": 13,
+   "rating": 7.53,
    "pass": 8,
-   "min": 19,
+   "min": 21,
    "g": 1,
    "sh": 2,
    "sot": 2,
    "kp": 1,
    "pass_pct": 71,
+   "duels": 1,
+   "duels_t": 1,
+   "tkl": 1,
    "side": "away",
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 6.47,
+   "rating": 6.65,
    "duels": 2,
    "duels_t": 6,
-   "pass": 11,
+   "pass": 12,
    "tkl": 2,
-   "min": 19,
-   "touches": 21,
+   "min": 21,
+   "touches": 23,
    "pass_pct": 86,
+   "sot": 1,
    "int": 1,
+   "sh": 1,
+   "kp": 1,
    "side": "away",
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 6.77,
-   "min": 19,
+   "rating": 6.74,
+   "min": 21,
    "duels_t": 1,
-   "pass": 9,
-   "touches": 12,
-   "sot": 2,
+   "pass": 10,
+   "sot": 1,
    "sh": 2,
    "pass_pct": 100,
+   "kp": 1,
+   "touches": 14,
    "side": "away",
    "name": "Mika Joel Baur"
   },
   "8585": {
-   "pass": 23,
+   "pass": 25,
    "rating": 6.59,
-   "min": 19,
+   "min": 21,
    "pass_pct": 93,
-   "touches": 24,
+   "touches": 26,
    "side": "away",
    "name": "Callum McGregor"
   },
   "37342595": {
-   "touches": 34,
-   "pass": 35,
+   "touches": 41,
+   "pass": 39,
    "rating": 6.58,
-   "min": 19,
+   "min": 21,
    "clr": 2,
    "pass_pct": 95,
    "side": "away",
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 12,
-   "rating": 6.6,
+   "pass": 15,
+   "rating": 6.59,
    "duels_t": 1,
    "duels": 1,
-   "min": 19,
+   "min": 21,
    "pass_pct": 100,
-   "touches": 22,
+   "touches": 27,
    "clr": 2,
    "sh": 1,
    "side": "away",
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 6.54,
+   "rating": 6.57,
    "clr": 2,
-   "min": 19,
-   "pass": 8,
-   "touches": 17,
+   "min": 21,
+   "pass": 9,
+   "touches": 21,
    "pass_pct": 67,
    "side": "away",
    "name": "Kieran Tierney"
   },
   "24469041": {
    "rating": 6.8,
-   "touches": 20,
-   "min": 19,
+   "touches": 21,
+   "min": 21,
    "pass": 14,
    "clr": 2,
    "duels_t": 1,
    "duels": 1,
-   "saves": 2,
+   "saves": 3,
    "pass_pct": 77,
    "side": "home",
    "name": "Alex Paulsen"
   },
   "12321": {
    "rating": 6.19,
-   "min": 19,
+   "min": 21,
    "pass": 17,
    "touches": 19,
    "pass_pct": 88,
@@ -1170,11 +1177,11 @@
   },
   "21036704": {
    "rating": 6.46,
-   "min": 19,
+   "min": 21,
    "kp": 1,
-   "touches": 11,
+   "touches": 12,
    "pass": 6,
-   "clr": 4,
+   "clr": 5,
    "pass_pct": 60,
    "side": "home",
    "name": "Martin Moormann"
@@ -1182,7 +1189,7 @@
   "28912717": {
    "rating": 6.13,
    "pass": 10,
-   "min": 19,
+   "min": 21,
    "touches": 19,
    "duels_t": 1,
    "pass_pct": 90,
@@ -1194,7 +1201,7 @@
    "rating": 6.89,
    "pass": 9,
    "duels_t": 3,
-   "min": 19,
+   "min": 21,
    "tkl": 3,
    "clr": 1,
    "pass_pct": 100,
@@ -1206,10 +1213,10 @@
    "rating": 6.42,
    "pass": 9,
    "clr": 3,
-   "min": 19,
+   "min": 21,
    "duels": 1,
-   "duels_t": 3,
-   "touches": 13,
+   "duels_t": 4,
+   "touches": 15,
    "tkl": 1,
    "pass_pct": 88,
    "side": "home",
@@ -1218,8 +1225,8 @@
   "4969690": {
    "rating": 6.83,
    "pass": 4,
-   "min": 19,
-   "touches": 7,
+   "min": 21,
+   "touches": 9,
    "pass_pct": 100,
    "side": "home",
    "name": "Emmanuel Longelo"
@@ -1228,7 +1235,7 @@
    "rating": 6.42,
    "sh": 1,
    "pass": 2,
-   "min": 19,
+   "min": 21,
    "pass_pct": 50,
    "touches": 4,
    "side": "home",
@@ -1238,19 +1245,20 @@
    "rating": 6.37,
    "touches": 8,
    "pass": 6,
-   "min": 19,
+   "min": 21,
    "pass_pct": 100,
    "side": "home",
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "rating": 6.33,
+   "rating": 6.35,
    "pass": 7,
-   "min": 19,
-   "touches": 8,
+   "min": 21,
+   "touches": 10,
    "fouls": 1,
    "duels_t": 1,
    "pass_pct": 67,
+   "clr": 1,
    "side": "home",
    "name": "Joe Hodge"
   },
@@ -1258,7 +1266,7 @@
    "rating": 6.51,
    "duels_t": 1,
    "pass": 1,
-   "min": 19,
+   "min": 21,
    "tkl": 1,
    "duels": 1,
    "pass_pct": 100,
@@ -1320,14 +1328,21 @@
   {
    "m": 11,
    "x": null,
-   "t": "Camilo Duran takes a left-footed shot, but it's saved.",
+   "t": "Camilo Duran takes a left-footed shot, but it's blocked off the line.",
    "goal": false,
    "key": false
   },
   {
    "m": 12,
    "x": null,
-   "t": "Mika Baur takes a shot with his right foot, but it's saved.",
+   "t": "Kasper Waarst Hogh attempts a header but misses the shot.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 12,
+   "x": null,
+   "t": "Mika Baur takes a right-footed shot but misses.",
    "goal": false,
    "key": false
   },
@@ -1339,12 +1354,26 @@
    "key": false
   },
   {
-   "m": 18,
+   "m": 19,
    "x": null,
    "t": "Corner awarded.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 19,
+   "x": null,
+   "t": "Colby Donovan takes a right-footed shot, but it is blocked.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 21,
+   "x": null,
+   "t": "Sebastian Tounekti takes a shot with his right foot, but it's saved.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2496
+ "rate_remaining": 2484
 }
