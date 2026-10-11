@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:46:00.605045+00:00",
+ "updated_at": "2026-10-11T12:50:00.428227+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,9 +311,9 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 86,
+ "minute": 90,
  "minute_estimated": false,
- "added_time": null,
+ "added_time": 0,
  "score": {
   "home": 0,
   "away": 2
@@ -502,12 +502,24 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 158181527,
+   "minute": 85,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Celtic",
+   "player": null,
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
   "Corners": {
    "home": 2,
-   "away": 8
+   "away": 9
   },
   "Shots Off Target": {
    "home": 3,
@@ -518,12 +530,12 @@
    "away": 24
   },
   "Attacks": {
-   "home": 83,
-   "away": 121
+   "home": 84,
+   "away": 130
   },
   "Dangerous Attacks": {
-   "home": 43,
-   "away": 98
+   "home": 45,
+   "away": 103
   },
   "Ball Possession %": {
    "home": 35,
@@ -550,7 +562,7 @@
    "away": 2
   },
   "Goal Kicks": {
-   "home": 7,
+   "home": 8,
    "away": 3
   },
   "Goal Attempts": {
@@ -579,22 +591,22 @@
   },
   "Throwins": {
    "home": 24,
-   "away": 17
+   "away": 20
   },
   "Long Passes": {
-   "home": 35,
-   "away": 43
+   "home": 36,
+   "away": 44
   },
   "Hit Woodwork": {
    "home": 0,
    "away": 1
   },
   "Successful Headers": {
-   "home": 5,
+   "home": 7,
    "away": 7
   },
   "Tackles": {
-   "home": 13,
+   "home": 15,
    "away": 13
   },
   "Assists": {
@@ -602,12 +614,12 @@
    "away": 1
   },
   "Passes": {
-   "home": 376,
-   "away": 710
+   "home": 381,
+   "away": 732
   },
   "Successful Passes": {
-   "home": 324,
-   "away": 654
+   "home": 326,
+   "away": 675
   },
   "Successful Passes Percentage": {
    "home": 86,
@@ -615,7 +627,7 @@
   },
   "Yellowcards": {
    "home": 1,
-   "away": 1
+   "away": 2
   },
   "Shots On Target": {
    "home": 2,
@@ -626,28 +638,28 @@
    "away": 0
   },
   "Total Crosses": {
-   "home": 19,
-   "away": 32
+   "home": 20,
+   "away": 34
   },
   "Accurate Crosses": {
    "home": 3,
    "away": 8
   },
   "Interceptions": {
-   "home": 6,
+   "home": 7,
    "away": 9
   },
   "Duels Won": {
-   "home": 26,
-   "away": 30
+   "home": 28,
+   "away": 31
   },
   "Dribble Attempts": {
    "home": 8,
-   "away": 13
+   "away": 16
   },
   "Successful Dribbles": {
    "home": 2,
-   "away": 7
+   "away": 8
   },
   "Key Passes": {
    "home": 8,
@@ -663,18 +675,18 @@
   },
   "Successful Dribbles Percentage": {
    "home": 25,
-   "away": 54
+   "away": 50
   },
   "Successful Long Passes": {
    "home": 15,
    "away": 30
   },
   "Successful Long Passes Percentage": {
-   "home": 43,
-   "away": 70
+   "home": 42,
+   "away": 68
   },
   "Tackles Won": {
-   "home": 7,
+   "home": 9,
    "away": 8
   }
  },
@@ -1234,7 +1246,7 @@
  "player_stats": {
   "529045": {
    "rating": 7.17,
-   "pass": 51,
+   "pass": 53,
    "touches": 59,
    "min": 85,
    "pass_pct": 100,
@@ -1248,15 +1260,15 @@
    "min": 3,
    "touches": 1,
    "pass_pct": 100,
-   "pass": 1,
+   "pass": 4,
    "fouls": 1,
    "side": "away",
    "name": "Jordan Lotomba"
   },
   "123659": {
-   "pass": 139,
+   "pass": 141,
    "touches": 155,
-   "rating": 8.25,
+   "rating": 8.21,
    "clr": 6,
    "duels_t": 5,
    "min": 85,
@@ -1271,12 +1283,12 @@
   },
   "163711": {
    "min": 11,
-   "pass": 9,
-   "pass_pct": 67,
+   "pass": 10,
+   "pass_pct": 70,
    "duels": 1,
    "duels_t": 2,
    "touches": 11,
-   "rating": 6.6,
+   "rating": 6.52,
    "side": "away",
    "name": "Jota"
   },
@@ -1346,6 +1358,7 @@
   },
   "23698076": {
    "min": 7,
+   "rating": 6.52,
    "pass": 1,
    "pass_pct": 100,
    "touches": 1,
@@ -1353,10 +1366,10 @@
    "name": "Oliver Sørensen"
   },
   "37582048": {
-   "rating": 8.21,
+   "rating": 8.29,
    "min": 85,
    "duels_t": 9,
-   "pass": 56,
+   "pass": 60,
    "sot": 3,
    "sh": 5,
    "pass_pct": 93,
@@ -1369,13 +1382,13 @@
    "name": "Mika Joel Baur"
   },
   "18584306": {
-   "pass": 4,
+   "pass": 6,
    "min": 12,
    "duels_t": 1,
-   "pass_pct": 75,
+   "pass_pct": 83,
    "duels": 1,
    "touches": 6,
-   "rating": 6.59,
+   "rating": 6.61,
    "side": "away",
    "name": "Haissem Hassan"
   },
@@ -1385,7 +1398,7 @@
    "duels_t": 2,
    "touches": 7,
    "sh": 1,
-   "rating": 6.49,
+   "rating": 6.5,
    "pass": 3,
    "pass_pct": 67,
    "min": 12,
@@ -1393,7 +1406,7 @@
    "name": "Shumaira Mheuka"
   },
   "8585": {
-   "pass": 90,
+   "pass": 92,
    "min": 85,
    "pass_pct": 96,
    "tkl": 1,
@@ -1411,8 +1424,8 @@
   },
   "37342595": {
    "touches": 106,
-   "pass": 95,
-   "rating": 7.45,
+   "pass": 99,
+   "rating": 7.38,
    "min": 85,
    "pass_pct": 92,
    "int": 1,
@@ -1425,8 +1438,8 @@
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 49,
-   "rating": 7.43,
+   "pass": 51,
+   "rating": 7.44,
    "duels_t": 5,
    "duels": 3,
    "min": 85,
@@ -1441,7 +1454,7 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 8.14,
+   "rating": 8.11,
    "clr": 5,
    "min": 82,
    "pass": 65,
@@ -1459,10 +1472,10 @@
    "name": "Kieran Tierney"
   },
   "24469041": {
-   "rating": 9.07,
+   "rating": 9.1,
    "touches": 64,
    "min": 85,
-   "pass": 43,
+   "pass": 44,
    "clr": 2,
    "duels_t": 3,
    "duels": 2,
@@ -1488,6 +1501,7 @@
    "pass": 9,
    "min": 2,
    "pass_pct": 100,
+   "rating": 6.68,
    "duels_t": 1,
    "touches": 10,
    "kp": 1,
@@ -1496,11 +1510,11 @@
    "name": "Jake Girdwood-Reich"
   },
   "21036704": {
-   "rating": 6.88,
+   "rating": 6.87,
    "min": 85,
    "kp": 1,
    "touches": 51,
-   "pass": 32,
+   "pass": 34,
    "clr": 8,
    "pass_pct": 76,
    "int": 2,
@@ -1510,7 +1524,7 @@
    "name": "Martin Moormann"
   },
   "28912717": {
-   "rating": 6.56,
+   "rating": 6.7,
    "pass": 40,
    "min": 85,
    "touches": 66,
@@ -1535,7 +1549,7 @@
    "duels": 3,
    "sot": 1,
    "sh": 1,
-   "rating": 7.42,
+   "rating": 7.45,
    "side": "home",
    "name": "Lukas Fadinger"
   },
@@ -1554,7 +1568,7 @@
    "name": "Alex Lowry"
   },
   "37565377": {
-   "rating": 6.75,
+   "rating": 6.65,
    "pass": 5,
    "bcc": 1,
    "pass_pct": 100,
@@ -1566,11 +1580,11 @@
    "name": "Jardell Kanga"
   },
   "37574652": {
-   "pass": 1,
-   "pass_pct": 100,
+   "pass": 2,
+   "pass_pct": 50,
    "sh": 2,
    "duels_t": 2,
-   "rating": 6.23,
+   "rating": 6.31,
    "min": 14,
    "touches": 5,
    "duels": 1,
@@ -1595,7 +1609,7 @@
    "pass": 10,
    "pass_pct": 90,
    "bcc": 1,
-   "rating": 6.99,
+   "rating": 7.1,
    "duels": 5,
    "tkl": 2,
    "side": "home",
@@ -1603,7 +1617,7 @@
   },
   "4969690": {
    "rating": 6.4,
-   "pass": 28,
+   "pass": 29,
    "min": 85,
    "touches": 50,
    "pass_pct": 100,
@@ -1650,7 +1664,7 @@
    "tkl": 2,
    "duels": 3,
    "yc": 1,
-   "rating": 6.8,
+   "rating": 6.81,
    "int": 2,
    "sh": 1,
    "side": "home",
@@ -2098,5 +2112,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2424
+ "rate_remaining": 2412
 }
