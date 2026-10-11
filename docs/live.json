@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:04:30.381044+00:00",
+ "updated_at": "2026-10-11T12:05:00.354362+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -309,8 +309,8 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "HT",
- "state_name": "Half Time",
+ "state": "INPLAY_2ND_HALF",
+ "state_name": "2nd Half",
  "minute": 45,
  "minute_estimated": false,
  "added_time": null,
@@ -1091,7 +1091,7 @@
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 6.81,
+   "rating": 6.83,
    "min": 47,
    "pass": 11,
    "touches": 16,
@@ -1492,5 +1492,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2367
+ "rate_remaining": 2366
 }
