@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:38:00.378170+00:00",
+ "updated_at": "2026-10-11T12:40:30.386853+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 78,
+ "minute": 80,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -454,20 +454,20 @@
    "away": 3
   },
   "Shots Total": {
-   "home": 6,
+   "home": 7,
    "away": 23
   },
   "Attacks": {
-   "home": 72,
+   "home": 75,
    "away": 120
   },
   "Dangerous Attacks": {
-   "home": 38,
+   "home": 42,
    "away": 95
   },
   "Ball Possession %": {
-   "home": 32,
-   "away": 68
+   "home": 34,
+   "away": 66
   },
   "Ball Safe": {
    "home": 29,
@@ -478,7 +478,7 @@
    "away": 17
   },
   "Shots Outsidebox": {
-   "home": 1,
+   "home": 2,
    "away": 6
   },
   "Offsides": {
@@ -498,19 +498,19 @@
    "away": 6
   },
   "Free Kicks": {
-   "home": 1,
+   "home": 2,
    "away": 3
   },
   "Fouls": {
    "home": 3,
-   "away": 1
+   "away": 2
   },
   "Saves": {
    "home": 11,
    "away": 2
   },
   "Shots Blocked": {
-   "home": 2,
+   "home": 3,
    "away": 7
   },
   "Substitutions": {
@@ -518,12 +518,12 @@
    "away": 4
   },
   "Throwins": {
-   "home": 21,
+   "home": 24,
    "away": 17
   },
   "Long Passes": {
    "home": 33,
-   "away": 39
+   "away": 41
   },
   "Hit Woodwork": {
    "home": 0,
@@ -534,24 +534,24 @@
    "away": 7
   },
   "Tackles": {
-   "home": 10,
-   "away": 10
+   "home": 11,
+   "away": 11
   },
   "Assists": {
    "home": 0,
    "away": 1
   },
   "Passes": {
-   "home": 316,
-   "away": 685
+   "home": 344,
+   "away": 690
   },
   "Successful Passes": {
-   "home": 268,
-   "away": 634
+   "home": 292,
+   "away": 637
   },
   "Successful Passes Percentage": {
    "home": 85,
-   "away": 93
+   "away": 92
   },
   "Yellowcards": {
    "home": 1,
@@ -575,22 +575,22 @@
   },
   "Interceptions": {
    "home": 6,
-   "away": 8
+   "away": 9
   },
   "Duels Won": {
-   "home": 18,
-   "away": 26
+   "home": 20,
+   "away": 28
   },
   "Dribble Attempts": {
-   "home": 6,
-   "away": 11
+   "home": 7,
+   "away": 13
   },
   "Successful Dribbles": {
    "home": 2,
-   "away": 5
+   "away": 7
   },
   "Key Passes": {
-   "home": 6,
+   "home": 7,
    "away": 18
   },
   "Big Chances Created": {
@@ -602,20 +602,20 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 33,
-   "away": 55
+   "home": 29,
+   "away": 54
   },
   "Successful Long Passes": {
    "home": 13,
-   "away": 29
+   "away": 30
   },
   "Successful Long Passes Percentage": {
    "home": 39,
-   "away": 74
+   "away": 73
   },
   "Tackles Won": {
-   "home": 5,
-   "away": 6
+   "home": 6,
+   "away": 7
   }
  },
  "next_fixtures": [],
@@ -1174,7 +1174,7 @@
  "player_stats": {
   "529045": {
    "rating": 7.06,
-   "pass": 47,
+   "pass": 48,
    "touches": 54,
    "min": 75,
    "pass_pct": 100,
@@ -1184,7 +1184,7 @@
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 137,
+   "pass": 136,
    "touches": 143,
    "rating": 7.97,
    "clr": 5,
@@ -1201,8 +1201,8 @@
   },
   "163711": {
    "min": 1,
-   "pass": 6,
-   "pass_pct": 67,
+   "pass": 7,
+   "pass_pct": 57,
    "duels": 1,
    "duels_t": 1,
    "tkl": 1,
@@ -1274,7 +1274,7 @@
    "name": "Sebastian Tounekti"
   },
   "23698076": {
-   "min": 1,
+   "min": 2,
    "side": "away",
    "name": "Oliver Sørensen"
   },
@@ -1282,7 +1282,7 @@
    "rating": 8.14,
    "min": 75,
    "duels_t": 6,
-   "pass": 53,
+   "pass": 54,
    "sot": 3,
    "sh": 5,
    "pass_pct": 93,
@@ -1307,7 +1307,7 @@
    "name": "Shumaira Mheuka"
   },
   "8585": {
-   "pass": 87,
+   "pass": 88,
    "min": 75,
    "pass_pct": 96,
    "tkl": 1,
@@ -1319,7 +1319,7 @@
    "sh": 2,
    "kp": 1,
    "sot": 1,
-   "rating": 7.46,
+   "rating": 7.43,
    "side": "away",
    "name": "Callum McGregor"
   },
@@ -1339,8 +1339,8 @@
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 46,
-   "rating": 7.37,
+   "pass": 47,
+   "rating": 7.38,
    "duels_t": 5,
    "duels": 3,
    "min": 75,
@@ -1375,7 +1375,7 @@
    "rating": 8.99,
    "touches": 55,
    "min": 75,
-   "pass": 35,
+   "pass": 39,
    "clr": 2,
    "duels_t": 2,
    "duels": 1,
@@ -1385,9 +1385,9 @@
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 5.95,
+   "rating": 5.94,
    "min": 75,
-   "pass": 46,
+   "pass": 49,
    "touches": 58,
    "pass_pct": 85,
    "clr": 5,
@@ -1412,7 +1412,7 @@
   },
   "28912717": {
    "rating": 6.41,
-   "pass": 36,
+   "pass": 37,
    "min": 75,
    "touches": 57,
    "duels_t": 4,
@@ -1427,7 +1427,7 @@
   },
   "2823438": {
    "touches": 49,
-   "pass": 36,
+   "pass": 40,
    "duels_t": 5,
    "min": 75,
    "tkl": 3,
@@ -1465,6 +1465,7 @@
    "name": "Jardell Kanga"
   },
   "37574652": {
+   "pass": 1,
    "min": 4,
    "sh": 1,
    "touches": 1,
@@ -1477,12 +1478,12 @@
    "min": 15,
    "kp": 2,
    "duels_t": 5,
-   "pass": 8,
+   "pass": 10,
    "tkl": 1,
    "duels": 2,
-   "pass_pct": 88,
+   "pass_pct": 90,
    "bcc": 1,
-   "rating": 6.76,
+   "rating": 6.78,
    "side": "home",
    "name": "Ibrahim Said"
   },
@@ -1524,7 +1525,7 @@
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "pass": 28,
+   "pass": 31,
    "min": 75,
    "touches": 43,
    "fouls": 2,
@@ -1534,8 +1535,9 @@
    "tkl": 2,
    "duels": 3,
    "yc": 1,
-   "rating": 6.78,
+   "rating": 6.77,
    "int": 2,
+   "sh": 1,
    "side": "home",
    "name": "Joe Hodge"
   },
@@ -1909,7 +1911,21 @@
    "t": "Joao Pedro Neves Filipe is on, and Sebastian Tounekti is off.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 78,
+   "x": null,
+   "t": "Oliver Sorensen is substituted for Benjamin Nygren.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 79,
+   "x": null,
+   "t": "Joseph Hodge takes a right-footed shot, but it is blocked.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2448
+ "rate_remaining": 2440
 }
