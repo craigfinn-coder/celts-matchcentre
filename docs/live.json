@@ -1,8 +1,6 @@
 {
- "updated_at": "2026-10-11T10:20:38.776387+00:00",
+ "updated_at": "2026-10-11T10:57:00.493284+00:00",
  "live": false,
- "state": "NS",
- "state_name": "Not started",
  "fixture": {
   "id": 19722777,
   "kickoff_utc": "2026-10-11 11:00:00",
@@ -15,7 +13,312 @@
   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
  },
+ "lineups": {
+  "home": {
+   "xi": [
+    {
+     "name": "Alex Paulsen",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 24469041
+    },
+    {
+     "name": "Tom Sparrow",
+     "num": 7,
+     "pos": 2,
+     "field": "2:1",
+     "id": 28912717
+    },
+    {
+     "name": "Stephen O'Donnell",
+     "num": 2,
+     "pos": 3,
+     "field": "2:2",
+     "id": 12321
+    },
+    {
+     "name": "Martin Moormann",
+     "num": 5,
+     "pos": 4,
+     "field": "2:3",
+     "id": 21036704
+    },
+    {
+     "name": "Emmanuel Longelo",
+     "num": 45,
+     "pos": 5,
+     "field": "2:4",
+     "id": 4969690
+    },
+    {
+     "name": "Lukas Fadinger",
+     "num": 8,
+     "pos": 6,
+     "field": "3:1",
+     "id": 2823438
+    },
+    {
+     "name": "Joe Hodge",
+     "num": 71,
+     "pos": 7,
+     "field": "3:2",
+     "id": 28912742
+    },
+    {
+     "name": "Willy Vogt",
+     "num": 77,
+     "pos": 8,
+     "field": "4:1",
+     "id": 37643521
+    },
+    {
+     "name": "Dylan Levitt",
+     "num": 63,
+     "pos": 9,
+     "field": "4:2",
+     "id": 7742181
+    },
+    {
+     "name": "Alex Lowry",
+     "num": 11,
+     "pos": 10,
+     "field": "4:3",
+     "id": 37260641
+    },
+    {
+     "name": "S. Palmer-Houlden",
+     "num": 47,
+     "pos": 11,
+     "field": "5:1",
+     "id": 37550449
+    }
+   ],
+   "bench": [
+    {
+     "name": "Jake Girdwood-Reich",
+     "num": 3,
+     "pos": null,
+     "field": null,
+     "id": 37532994
+    },
+    {
+     "name": "Jamie Knight-Lebel",
+     "num": 4,
+     "pos": null,
+     "field": null,
+     "id": 37609158
+    },
+    {
+     "name": "Jordan McGhee",
+     "num": 6,
+     "pos": null,
+     "field": null,
+     "id": 172695
+    },
+    {
+     "name": "Jardell Kanga",
+     "num": 13,
+     "pos": null,
+     "field": null,
+     "id": 37565377
+    },
+    {
+     "name": "Eythor Bjørgolfsson",
+     "num": 15,
+     "pos": null,
+     "field": null,
+     "id": 37574652
+    },
+    {
+     "name": "Tawanda Jethro Maswanhise",
+     "num": 18,
+     "pos": null,
+     "field": null,
+     "id": 33991811
+    },
+    {
+     "name": "Ibrahim Said",
+     "num": 19,
+     "pos": null,
+     "field": null,
+     "id": 37341882
+    },
+    {
+     "name": "Matty Connelly",
+     "num": 21,
+     "pos": null,
+     "field": null,
+     "id": 37541046
+    },
+    {
+     "name": "Mikey Booth",
+     "num": 27,
+     "pos": null,
+     "field": null,
+     "id": 37706498
+    }
+   ],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "xi": [
+    {
+     "name": "Viljami Sinisalo",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 529045
+    },
+    {
+     "name": "Colby Donovan",
+     "num": 51,
+     "pos": 2,
+     "field": "2:4",
+     "id": 37732189
+    },
+    {
+     "name": "Dane Murray",
+     "num": 47,
+     "pos": 3,
+     "field": "2:3",
+     "id": 37342595
+    },
+    {
+     "name": "Liam Scales",
+     "num": 5,
+     "pos": 4,
+     "field": "2:2",
+     "id": 123659
+    },
+    {
+     "name": "Kieran Tierney",
+     "num": 63,
+     "pos": 5,
+     "field": "2:1",
+     "id": 172960
+    },
+    {
+     "name": "Callum McGregor",
+     "num": 42,
+     "pos": 6,
+     "field": "3:2",
+     "id": 8585
+    },
+    {
+     "name": "Mika Joel Baur",
+     "num": 22,
+     "pos": 7,
+     "field": "3:1",
+     "id": 37582048
+    },
+    {
+     "name": "Camilo Durán",
+     "num": 11,
+     "pos": 8,
+     "field": "4:3",
+     "id": 37709508
+    },
+    {
+     "name": "Benjamin Nygren",
+     "num": 8,
+     "pos": 9,
+     "field": "4:2",
+     "id": 19979885
+    },
+    {
+     "name": "Sebastian Tounekti",
+     "num": 17,
+     "pos": 10,
+     "field": "4:1",
+     "id": 15169863
+    },
+    {
+     "name": "Kasper Høgh",
+     "num": 9,
+     "pos": 11,
+     "field": "5:1",
+     "id": 15061513
+    }
+   ],
+   "bench": [
+    {
+     "name": "Jordan Lotomba",
+     "num": 3,
+     "pos": null,
+     "field": null,
+     "id": 198116
+    },
+    {
+     "name": "Auston Trusty",
+     "num": 6,
+     "pos": null,
+     "field": null,
+     "id": 262280
+    },
+    {
+     "name": "Jota",
+     "num": 7,
+     "pos": null,
+     "field": null,
+     "id": 163711
+    },
+    {
+     "name": "Oliver Sørensen",
+     "num": 18,
+     "pos": null,
+     "field": null,
+     "id": 23698076
+    },
+    {
+     "name": "Alex Oxlade-Chamberlain",
+     "num": 21,
+     "pos": null,
+     "field": null,
+     "id": 850
+    },
+    {
+     "name": "Haissem Hassan",
+     "num": 23,
+     "pos": null,
+     "field": null,
+     "id": 18584306
+    },
+    {
+     "name": "Sam Johnstone",
+     "num": 26,
+     "pos": null,
+     "field": null,
+     "id": 1008
+    },
+    {
+     "name": "Shumaira Mheuka",
+     "num": 29,
+     "pos": null,
+     "field": null,
+     "id": 37714106
+    },
+    {
+     "name": "James Forrest",
+     "num": 49,
+     "pos": null,
+     "field": null,
+     "id": 172104
+    }
+   ],
+   "formation": "4-2-3-1"
+  }
+ },
+ "state": "NS",
+ "state_name": "Not Started",
+ "minute": null,
+ "minute_estimated": false,
+ "added_time": null,
  "score": {
+  "home": 0,
+  "away": 0
+ },
+ "half_time": {
   "home": 0,
   "away": 0
  },
@@ -192,6 +495,7 @@
    "gd": -11
   }
  ],
+ "live_table": false,
  "form": {
   "home": [
    {
@@ -573,300 +877,5 @@
    "rating": 7.13
   }
  },
- "lineups": {
-  "home": {
-   "xi": [
-    {
-     "name": "Alex Paulsen",
-     "num": 1,
-     "pos": 1,
-     "field": "1:1",
-     "id": 24469041
-    },
-    {
-     "name": "Tom Sparrow",
-     "num": 7,
-     "pos": 2,
-     "field": "2:1",
-     "id": 28912717
-    },
-    {
-     "name": "Stephen O'Donnell",
-     "num": 2,
-     "pos": 3,
-     "field": "2:2",
-     "id": 12321
-    },
-    {
-     "name": "Martin Moormann",
-     "num": 5,
-     "pos": 4,
-     "field": "2:3",
-     "id": 21036704
-    },
-    {
-     "name": "Emmanuel Longelo",
-     "num": 45,
-     "pos": 5,
-     "field": "2:4",
-     "id": 4969690
-    },
-    {
-     "name": "Joe Hodge",
-     "num": 71,
-     "pos": 6,
-     "field": "3:1",
-     "id": 28912742
-    },
-    {
-     "name": "Lukas Fadinger",
-     "num": 8,
-     "pos": 7,
-     "field": "3:2",
-     "id": 2823438
-    },
-    {
-     "name": "Willy Vogt",
-     "num": 77,
-     "pos": 8,
-     "field": "4:1",
-     "id": 37643521
-    },
-    {
-     "name": "Dylan Levitt",
-     "num": 63,
-     "pos": 9,
-     "field": "4:2",
-     "id": 7742181
-    },
-    {
-     "name": "Alex Lowry",
-     "num": 11,
-     "pos": 10,
-     "field": "4:3",
-     "id": 37260641
-    },
-    {
-     "name": "S. Palmer-Houlden",
-     "num": 47,
-     "pos": 11,
-     "field": "5:1",
-     "id": 37550449
-    }
-   ],
-   "bench": [
-    {
-     "name": "Jake Girdwood-Reich",
-     "num": 3,
-     "pos": null,
-     "field": null,
-     "id": 37532994
-    },
-    {
-     "name": "Jamie Knight-Lebel",
-     "num": 4,
-     "pos": null,
-     "field": null,
-     "id": 37609158
-    },
-    {
-     "name": "Jordan McGhee",
-     "num": 6,
-     "pos": null,
-     "field": null,
-     "id": 172695
-    },
-    {
-     "name": "Jardell Kanga",
-     "num": 13,
-     "pos": null,
-     "field": null,
-     "id": 37565377
-    },
-    {
-     "name": "Eythor Bjørgolfsson",
-     "num": 15,
-     "pos": null,
-     "field": null,
-     "id": 37574652
-    },
-    {
-     "name": "Tawanda Jethro Maswanhise",
-     "num": 18,
-     "pos": null,
-     "field": null,
-     "id": 33991811
-    },
-    {
-     "name": "Ibrahim Said",
-     "num": 19,
-     "pos": null,
-     "field": null,
-     "id": 37341882
-    },
-    {
-     "name": "Matty Connelly",
-     "num": 21,
-     "pos": null,
-     "field": null,
-     "id": 37541046
-    },
-    {
-     "name": "Mikey Booth",
-     "num": 27,
-     "pos": null,
-     "field": null,
-     "id": 37706498
-    }
-   ],
-   "formation": "4-2-3-1"
-  },
-  "away": {
-   "xi": [
-    {
-     "name": "Viljami Sinisalo",
-     "num": 1,
-     "pos": 1,
-     "field": "1:1",
-     "id": 529045
-    },
-    {
-     "name": "Colby Donovan",
-     "num": 51,
-     "pos": 2,
-     "field": "2:4",
-     "id": 37732189
-    },
-    {
-     "name": "Dane Murray",
-     "num": 47,
-     "pos": 3,
-     "field": "2:3",
-     "id": 37342595
-    },
-    {
-     "name": "Liam Scales",
-     "num": 5,
-     "pos": 4,
-     "field": "2:2",
-     "id": 123659
-    },
-    {
-     "name": "Kieran Tierney",
-     "num": 63,
-     "pos": 5,
-     "field": "2:1",
-     "id": 172960
-    },
-    {
-     "name": "Callum McGregor",
-     "num": 42,
-     "pos": 6,
-     "field": "3:2",
-     "id": 8585
-    },
-    {
-     "name": "Mika Joel Baur",
-     "num": 22,
-     "pos": 7,
-     "field": "3:1",
-     "id": 37582048
-    },
-    {
-     "name": "Camilo Durán",
-     "num": 11,
-     "pos": 8,
-     "field": "4:3",
-     "id": 37709508
-    },
-    {
-     "name": "Benjamin Nygren",
-     "num": 8,
-     "pos": 9,
-     "field": "4:2",
-     "id": 19979885
-    },
-    {
-     "name": "Sebastian Tounekti",
-     "num": 17,
-     "pos": 10,
-     "field": "4:1",
-     "id": 15169863
-    },
-    {
-     "name": "Kasper Høgh",
-     "num": 9,
-     "pos": 11,
-     "field": "5:1",
-     "id": 15061513
-    }
-   ],
-   "bench": [
-    {
-     "name": "Jordan Lotomba",
-     "num": 3,
-     "pos": null,
-     "field": null,
-     "id": 198116
-    },
-    {
-     "name": "Auston Trusty",
-     "num": 6,
-     "pos": null,
-     "field": null,
-     "id": 262280
-    },
-    {
-     "name": "Jota",
-     "num": 7,
-     "pos": null,
-     "field": null,
-     "id": 163711
-    },
-    {
-     "name": "Oliver Sørensen",
-     "num": 18,
-     "pos": null,
-     "field": null,
-     "id": 23698076
-    },
-    {
-     "name": "Alex Oxlade-Chamberlain",
-     "num": 21,
-     "pos": null,
-     "field": null,
-     "id": 850
-    },
-    {
-     "name": "Haissem Hassan",
-     "num": 23,
-     "pos": null,
-     "field": null,
-     "id": 18584306
-    },
-    {
-     "name": "Sam Johnstone",
-     "num": 26,
-     "pos": null,
-     "field": null,
-     "id": 1008
-    },
-    {
-     "name": "Shumaira Mheuka",
-     "num": 29,
-     "pos": null,
-     "field": null,
-     "id": 37714106
-    },
-    {
-     "name": "James Forrest",
-     "num": 49,
-     "pos": null,
-     "field": null,
-     "id": 172104
-    }
-   ],
-   "formation": "4-2-3-1"
-  }
- }
+ "rate_remaining": 2491
 }
