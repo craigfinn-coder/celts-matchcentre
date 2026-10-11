@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:16:00.383312+00:00",
+ "updated_at": "2026-10-11T12:18:00.352816+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,12 +311,12 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 56,
+ "minute": 58,
  "minute_estimated": false,
  "added_time": null,
  "score": {
   "home": 0,
-  "away": 1
+  "away": 2
  },
  "half_time": {
   "home": 0,
@@ -359,15 +359,15 @@
   },
   "Shots Total": {
    "home": 2,
-   "away": 16
+   "away": 18
   },
   "Attacks": {
-   "home": 53,
-   "away": 92
+   "home": 55,
+   "away": 95
   },
   "Dangerous Attacks": {
    "home": 20,
-   "away": 69
+   "away": 72
   },
   "Ball Possession %": {
    "home": 32,
@@ -379,7 +379,7 @@
   },
   "Shots Insidebox": {
    "home": 1,
-   "away": 12
+   "away": 14
   },
   "Shots Outsidebox": {
    "home": 1,
@@ -391,7 +391,7 @@
   },
   "Goals": {
    "home": 0,
-   "away": 1
+   "away": 2
   },
   "Goal Kicks": {
    "home": 7,
@@ -415,31 +415,31 @@
   },
   "Shots Blocked": {
    "home": 1,
-   "away": 5
+   "away": 6
   },
   "Throwins": {
-   "home": 17,
-   "away": 14
+   "home": 18,
+   "away": 15
   },
   "Long Passes": {
-   "home": 27,
-   "away": 31
+   "home": 28,
+   "away": 32
   },
   "Successful Headers": {
    "home": 3,
-   "away": 4
+   "away": 5
   },
   "Tackles": {
    "home": 9,
    "away": 6
   },
   "Passes": {
-   "home": 242,
-   "away": 514
+   "home": 249,
+   "away": 535
   },
   "Successful Passes": {
-   "home": 204,
-   "away": 476
+   "home": 209,
+   "away": 496
   },
   "Successful Passes Percentage": {
    "home": 84,
@@ -451,7 +451,7 @@
   },
   "Shots On Target": {
    "home": 1,
-   "away": 8
+   "away": 9
   },
   "Injuries": {
    "home": 1,
@@ -459,7 +459,7 @@
   },
   "Total Crosses": {
    "home": 12,
-   "away": 26
+   "away": 27
   },
   "Accurate Crosses": {
    "home": 0,
@@ -470,11 +470,11 @@
    "away": 5
   },
   "Duels Won": {
-   "home": 13,
-   "away": 16
+   "home": 14,
+   "away": 17
   },
   "Dribble Attempts": {
-   "home": 1,
+   "home": 2,
    "away": 8
   },
   "Successful Dribbles": {
@@ -483,19 +483,19 @@
   },
   "Key Passes": {
    "home": 2,
-   "away": 12
+   "away": 13
   },
   "Successful Dribbles Percentage": {
-   "home": 0,
+   "home": 50,
    "away": 38
   },
   "Successful Long Passes": {
    "home": 10,
-   "away": 23
+   "away": 24
   },
   "Successful Long Passes Percentage": {
-   "home": 37,
-   "away": 74
+   "home": 36,
+   "away": 75
   },
   "Tackles Won": {
    "home": 5,
@@ -1058,7 +1058,7 @@
  "player_stats": {
   "529045": {
    "rating": 6.8,
-   "pass": 31,
+   "pass": 33,
    "touches": 37,
    "min": 56,
    "pass_pct": 100,
@@ -1068,9 +1068,9 @@
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 107,
+   "pass": 113,
    "touches": 116,
-   "rating": 7.26,
+   "rating": 7.41,
    "clr": 3,
    "duels_t": 1,
    "min": 56,
@@ -1081,7 +1081,7 @@
   },
   "19979885": {
    "pass": 26,
-   "rating": 6.7,
+   "rating": 6.8,
    "min": 56,
    "pass_pct": 89,
    "duels": 1,
@@ -1106,7 +1106,7 @@
   "37709508": {
    "touches": 32,
    "rating": 7.57,
-   "pass": 25,
+   "pass": 26,
    "min": 56,
    "g": 1,
    "sh": 2,
@@ -1120,10 +1120,10 @@
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 7.19,
+   "rating": 7.18,
    "duels": 3,
    "duels_t": 8,
-   "pass": 44,
+   "pass": 46,
    "tkl": 1,
    "min": 56,
    "touches": 64,
@@ -1137,12 +1137,12 @@
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 7.29,
+   "rating": 7.51,
    "min": 56,
    "duels_t": 3,
-   "pass": 40,
-   "sot": 2,
-   "sh": 3,
+   "pass": 41,
+   "sot": 3,
+   "sh": 5,
    "pass_pct": 93,
    "kp": 3,
    "touches": 49,
@@ -1153,7 +1153,7 @@
    "name": "Mika Joel Baur"
   },
   "8585": {
-   "pass": 68,
+   "pass": 71,
    "min": 56,
    "pass_pct": 96,
    "tkl": 1,
@@ -1163,15 +1163,15 @@
    "clr": 2,
    "int": 1,
    "sh": 1,
-   "rating": 7.05,
+   "rating": 7.13,
    "kp": 1,
    "side": "away",
    "name": "Callum McGregor"
   },
   "37342595": {
    "touches": 88,
-   "pass": 79,
-   "rating": 7.2,
+   "pass": 81,
+   "rating": 7.23,
    "min": 56,
    "pass_pct": 92,
    "int": 1,
@@ -1199,10 +1199,10 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 7.55,
+   "rating": 7.72,
    "clr": 3,
    "min": 56,
-   "pass": 48,
+   "pass": 52,
    "pass_pct": 95,
    "kp": 3,
    "int": 1,
@@ -1216,10 +1216,10 @@
    "name": "Kieran Tierney"
   },
   "24469041": {
-   "rating": 7.53,
+   "rating": 8.31,
    "touches": 48,
    "min": 56,
-   "pass": 32,
+   "pass": 33,
    "clr": 2,
    "duels_t": 1,
    "duels": 1,
@@ -1229,7 +1229,7 @@
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 6.33,
+   "rating": 6.32,
    "min": 56,
    "pass": 40,
    "touches": 48,
@@ -1241,11 +1241,11 @@
    "name": "Stephen O'Donnell"
   },
   "21036704": {
-   "rating": 6.92,
+   "rating": 6.94,
    "min": 56,
    "kp": 1,
    "touches": 39,
-   "pass": 23,
+   "pass": 24,
    "clr": 7,
    "pass_pct": 76,
    "int": 1,
@@ -1268,7 +1268,7 @@
   },
   "2823438": {
    "touches": 39,
-   "pass": 28,
+   "pass": 31,
    "duels_t": 4,
    "min": 56,
    "tkl": 3,
@@ -1277,12 +1277,12 @@
    "duels": 3,
    "sot": 1,
    "sh": 1,
-   "rating": 6.98,
+   "rating": 7.05,
    "side": "home",
    "name": "Lukas Fadinger"
   },
   "37260641": {
-   "rating": 6.38,
+   "rating": 6.4,
    "pass": 18,
    "clr": 3,
    "min": 56,
@@ -1321,17 +1321,17 @@
   },
   "7742181": {
    "touches": 29,
-   "pass": 24,
+   "pass": 25,
    "min": 56,
    "pass_pct": 100,
    "duels_t": 1,
    "clr": 1,
-   "rating": 6.41,
+   "rating": 6.42,
    "side": "home",
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "pass": 16,
+   "pass": 17,
    "min": 56,
    "touches": 26,
    "fouls": 2,
@@ -1341,7 +1341,7 @@
    "tkl": 2,
    "duels": 2,
    "yc": 1,
-   "rating": 6.62,
+   "rating": 6.63,
    "side": "home",
    "name": "Joe Hodge"
   },
@@ -1526,7 +1526,14 @@
    "t": "Dane Murray takes a header shot but misses.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 56,
+   "x": null,
+   "t": "Mika Baur's header is saved.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2333
+ "rate_remaining": 2327
 }
