@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T11:10:00.322879+00:00",
+ "updated_at": "2026-10-11T11:11:00.516758+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -59,11 +59,11 @@
      "id": 2823438
     },
     {
-     "name": "Joe Hodge",
-     "num": 71,
+     "name": "Dylan Levitt",
+     "num": 63,
      "pos": 7,
      "field": "3:2",
-     "id": 28912742
+     "id": 7742181
     },
     {
      "name": "Willy Vogt",
@@ -80,11 +80,11 @@
      "id": 37260641
     },
     {
-     "name": "Dylan Levitt",
-     "num": 63,
+     "name": "Joe Hodge",
+     "num": 71,
      "pos": 10,
      "field": "4:3",
-     "id": 7742181
+     "id": 28912742
     },
     {
      "name": "S. Palmer-Houlden",
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 8,
+ "minute": 9,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -322,7 +322,20 @@
   "home": 0,
   "away": 1
  },
- "events": [],
+ "events": [
+  {
+   "id": 158178724,
+   "minute": 9,
+   "extra": null,
+   "type": "Goal",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Camilo Durán",
+   "related": null,
+   "result": "0-1",
+   "info": "Right foot shot"
+  }
+ ],
  "stats": {
   "Corners": {
    "home": 0,
@@ -341,14 +354,18 @@
    "away": 7
   },
   "Ball Possession %": {
-   "home": 44,
-   "away": 56
+   "home": 42,
+   "away": 58
   },
   "Shots Outsidebox": {
    "home": 1,
-   "away": 0
+   "away": 1
   },
   "Offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "Goals": {
    "home": 0,
    "away": 1
   },
@@ -369,7 +386,7 @@
    "away": 2
   },
   "Long Passes": {
-   "home": 5,
+   "home": 6,
    "away": 6
   },
   "Tackles": {
@@ -377,16 +394,16 @@
    "away": 3
   },
   "Passes": {
-   "home": 43,
-   "away": 52
+   "home": 48,
+   "away": 64
   },
   "Successful Passes": {
-   "home": 38,
-   "away": 45
+   "home": 42,
+   "away": 57
   },
   "Successful Passes Percentage": {
    "home": 88,
-   "away": 87
+   "away": 89
   },
   "Total Crosses": {
    "home": 1,
@@ -417,7 +434,7 @@
    "away": 4
   },
   "Successful Long Passes Percentage": {
-   "home": 60,
+   "home": 50,
    "away": 67
   },
   "Tackles Won": {
@@ -982,141 +999,160 @@
   "529045": {
    "rating": 6.5,
    "pass": 3,
-   "min": 1,
+   "touches": 4,
+   "min": 9,
    "side": "away",
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 14,
-   "touches": 2,
-   "rating": 6.71,
+   "pass": 16,
+   "touches": 20,
+   "rating": 6.69,
    "tkl": 1,
    "clr": 1,
    "duels_t": 1,
-   "min": 1,
+   "min": 9,
    "duels": 1,
    "side": "away",
    "name": "Liam Scales"
   },
   "19979885": {
-   "touches": 1,
-   "pass": 4,
+   "touches": 5,
+   "pass": 5,
    "rating": 6.47,
-   "min": 1,
+   "min": 9,
    "side": "away",
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 6.5,
-   "min": 1,
-   "pass": 1,
+   "rating": 6.48,
+   "min": 9,
+   "pass": 2,
+   "touches": 2,
    "side": "away",
    "name": "Kasper Høgh"
   },
   "37709508": {
-   "touches": 1,
+   "touches": 4,
    "rating": 6.47,
-   "pass": 2,
-   "min": 1,
+   "pass": 3,
+   "min": 9,
+   "g": 1,
+   "sh": 1,
+   "sot": 1,
    "side": "away",
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 6.45,
+   "rating": 6.55,
    "duels": 2,
    "duels_t": 4,
    "pass": 3,
-   "min": 1,
    "tkl": 2,
+   "min": 9,
+   "touches": 9,
    "side": "away",
    "name": "Sebastian Tounekti"
   },
   "37582048": {
    "rating": 6.36,
-   "min": 1,
+   "min": 9,
+   "duels_t": 1,
    "pass": 1,
+   "touches": 3,
    "side": "away",
    "name": "Mika Joel Baur"
   },
   "8585": {
-   "rating": 6.47,
-   "pass": 6,
-   "min": 1,
+   "pass": 8,
+   "rating": 6.46,
+   "min": 9,
+   "touches": 8,
    "side": "away",
    "name": "Callum McGregor"
   },
   "37342595": {
-   "touches": 4,
-   "pass": 14,
-   "rating": 6.43,
-   "min": 1,
+   "touches": 18,
+   "pass": 17,
+   "rating": 6.45,
+   "min": 9,
    "clr": 1,
    "side": "away",
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 1,
-   "rating": 6.53,
+   "pass": 3,
+   "rating": 6.52,
    "duels_t": 1,
    "duels": 1,
-   "min": 1,
+   "min": 9,
+   "touches": 7,
    "side": "away",
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 6.49,
+   "rating": 6.5,
    "clr": 2,
-   "min": 1,
+   "min": 9,
    "pass": 3,
+   "touches": 6,
    "side": "away",
    "name": "Kieran Tierney"
   },
   "24469041": {
-   "rating": 6.51,
-   "min": 1,
-   "pass": 6,
+   "rating": 6.55,
+   "touches": 8,
+   "min": 9,
+   "pass": 8,
    "side": "home",
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 6.44,
-   "min": 1,
-   "pass": 11,
+   "rating": 6.42,
+   "min": 9,
+   "pass": 13,
+   "touches": 13,
    "side": "home",
    "name": "Stephen O'Donnell"
   },
   "21036704": {
    "rating": 6.52,
-   "min": 1,
+   "min": 9,
+   "kp": 1,
+   "touches": 4,
    "pass": 3,
    "clr": 1,
    "side": "home",
    "name": "Martin Moormann"
   },
   "28912717": {
-   "rating": 6.35,
+   "rating": 6.34,
    "pass": 5,
-   "min": 1,
+   "min": 9,
+   "touches": 10,
+   "duels_t": 1,
    "side": "home",
    "name": "Tom Sparrow"
   },
   "2823438": {
-   "rating": 6.56,
-   "pass": 6,
+   "touches": 9,
+   "rating": 6.57,
+   "pass": 7,
    "duels_t": 1,
    "duels": 1,
-   "min": 1,
+   "min": 9,
    "tkl": 1,
    "side": "home",
    "name": "Lukas Fadinger"
   },
   "37260641": {
-   "rating": 6.56,
+   "rating": 6.42,
    "pass": 5,
    "clr": 1,
-   "min": 1,
+   "min": 9,
    "duels": 1,
-   "duels_t": 2,
+   "duels_t": 3,
+   "touches": 8,
    "tkl": 1,
    "side": "home",
    "name": "Alex Lowry"
@@ -1124,36 +1160,42 @@
   "4969690": {
    "rating": 6.44,
    "pass": 1,
-   "min": 1,
+   "min": 9,
+   "touches": 2,
    "side": "home",
    "name": "Emmanuel Longelo"
   },
   "37550449": {
    "rating": 6.48,
+   "touches": 2,
    "sh": 1,
-   "min": 1,
+   "min": 9,
    "side": "home",
    "name": "S. Palmer-Houlden"
   },
   "7742181": {
-   "rating": 6.48,
+   "rating": 6.47,
+   "touches": 4,
    "pass": 4,
-   "min": 1,
+   "min": 9,
    "side": "home",
    "name": "Dylan Levitt"
   },
   "28912742": {
    "rating": 6.41,
    "pass": 2,
-   "min": 1,
+   "min": 9,
+   "touches": 2,
    "fouls": 1,
+   "duels_t": 1,
    "side": "home",
    "name": "Joe Hodge"
   },
   "37643521": {
    "rating": 6.59,
    "duels_t": 1,
-   "min": 1,
+   "touches": 2,
+   "min": 9,
    "tkl": 1,
    "duels": 1,
    "side": "home",
@@ -1188,7 +1230,14 @@
    "t": "Offside.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 9,
+   "x": null,
+   "t": "Goal! Camilo Duran scores to make it 0-1.",
+   "goal": true,
+   "key": true
   }
  ],
- "rate_remaining": 2452
+ "rate_remaining": 2449
 }
