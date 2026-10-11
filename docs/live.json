@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:43:30.335516+00:00",
+ "updated_at": "2026-10-11T12:44:00.425481+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 83,
+ "minute": 84,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -456,6 +456,18 @@
    "info": null
   },
   {
+   "id": 158181311,
+   "minute": 82,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Kieran Tierney",
+   "related": null,
+   "result": null,
+   "info": "Foul"
+  },
+  {
    "id": 158181275,
    "minute": 83,
    "extra": null,
@@ -490,8 +502,8 @@
    "away": 3
   },
   "Shots Total": {
-   "home": 6,
-   "away": 23
+   "home": 7,
+   "away": 24
   },
   "Attacks": {
    "home": 76,
@@ -502,15 +514,15 @@
    "away": 98
   },
   "Ball Possession %": {
-   "home": 34,
-   "away": 66
+   "home": 35,
+   "away": 65
   },
   "Ball Safe": {
    "home": 29,
    "away": 37
   },
   "Shots Insidebox": {
-   "home": 5,
+   "home": 6,
    "away": 18
   },
   "Shots Outsidebox": {
@@ -527,7 +539,7 @@
   },
   "Goal Kicks": {
    "home": 7,
-   "away": 2
+   "away": 3
   },
   "Goal Attempts": {
    "home": 1,
@@ -546,7 +558,7 @@
    "away": 2
   },
   "Shots Blocked": {
-   "home": 2,
+   "home": 3,
    "away": 7
   },
   "Substitutions": {
@@ -558,8 +570,8 @@
    "away": 17
   },
   "Long Passes": {
-   "home": 34,
-   "away": 41
+   "home": 35,
+   "away": 42
   },
   "Hit Woodwork": {
    "home": 0,
@@ -578,15 +590,15 @@
    "away": 1
   },
   "Passes": {
-   "home": 353,
-   "away": 699
+   "home": 366,
+   "away": 701
   },
   "Successful Passes": {
-   "home": 301,
-   "away": 646
+   "home": 314,
+   "away": 647
   },
   "Successful Passes Percentage": {
-   "home": 85,
+   "home": 86,
    "away": 92
   },
   "Yellowcards": {
@@ -595,7 +607,7 @@
   },
   "Shots On Target": {
    "home": 2,
-   "away": 13
+   "away": 14
   },
   "Injuries": {
    "home": 1,
@@ -642,16 +654,16 @@
    "away": 54
   },
   "Successful Long Passes": {
-   "home": 14,
+   "home": 15,
    "away": 30
   },
   "Successful Long Passes Percentage": {
-   "home": 41,
-   "away": 73
+   "home": 43,
+   "away": 71
   },
   "Tackles Won": {
-   "home": 5,
-   "away": 6
+   "home": 7,
+   "away": 7
   }
  },
  "next_fixtures": [],
@@ -1220,7 +1232,7 @@
    "name": "Viljami Sinisalo"
   },
   "198116": {
-   "min": 2,
+   "min": 3,
    "side": "away",
    "name": "Jordan Lotomba"
   },
@@ -1356,7 +1368,7 @@
    "duels_t": 2,
    "touches": 4,
    "sh": 1,
-   "rating": 6.48,
+   "rating": 6.49,
    "pass": 1,
    "pass_pct": 100,
    "side": "away",
@@ -1432,7 +1444,7 @@
    "rating": 9.07,
    "touches": 61,
    "min": 81,
-   "pass": 40,
+   "pass": 42,
    "clr": 2,
    "duels_t": 3,
    "duels": 2,
@@ -1454,12 +1466,19 @@
    "side": "home",
    "name": "Stephen O'Donnell"
   },
+  "37532994": {
+   "min": 2,
+   "pass": 3,
+   "pass_pct": 100,
+   "side": "home",
+   "name": "Jake Girdwood-Reich"
+  },
   "21036704": {
    "rating": 6.87,
    "min": 81,
    "kp": 1,
    "touches": 49,
-   "pass": 30,
+   "pass": 31,
    "clr": 8,
    "pass_pct": 76,
    "int": 2,
@@ -1485,7 +1504,7 @@
   },
   "2823438": {
    "touches": 57,
-   "pass": 43,
+   "pass": 44,
    "duels_t": 6,
    "min": 81,
    "tkl": 3,
@@ -1534,6 +1553,11 @@
    "side": "home",
    "name": "Eythor Bjørgolfsson"
   },
+  "33991811": {
+   "min": 2,
+   "side": "home",
+   "name": "Tawanda Jethro Maswanhise"
+  },
   "37341882": {
    "touches": 21,
    "clr": 1,
@@ -1544,7 +1568,7 @@
    "tkl": 1,
    "pass_pct": 90,
    "bcc": 1,
-   "rating": 6.93,
+   "rating": 6.99,
    "duels": 3,
    "side": "home",
    "name": "Ibrahim Said"
@@ -2002,7 +2026,21 @@
    "t": "Jordan Lotomba replaces Kieran Tierney.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 83,
+   "x": null,
+   "t": "On comes Jake Girdwood Reich, off goes Stephen Odonnell.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 83,
+   "x": null,
+   "t": "Tawanda Maswanhise comes on for Alex Lowry.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2431
+ "rate_remaining": 2430
 }
