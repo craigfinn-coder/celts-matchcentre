@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T11:04:30.298922+00:00",
+ "updated_at": "2026-10-11T11:09:00.392642+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -73,18 +73,18 @@
      "id": 37643521
     },
     {
-     "name": "Dylan Levitt",
-     "num": 63,
-     "pos": 9,
-     "field": "4:2",
-     "id": 7742181
-    },
-    {
      "name": "Alex Lowry",
      "num": 11,
+     "pos": 9,
+     "field": "4:2",
+     "id": 37260641
+    },
+    {
+     "name": "Dylan Levitt",
+     "num": 63,
      "pos": 10,
      "field": "4:3",
-     "id": 37260641
+     "id": 7742181
     },
     {
      "name": "S. Palmer-Houlden",
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 2,
+ "minute": 7,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -324,37 +324,101 @@
  },
  "events": [],
  "stats": {
-  "Attacks": {
+  "Corners": {
+   "home": 0,
+   "away": 1
+  },
+  "Shots Total": {
    "home": 1,
-   "away": 4
+   "away": 0
+  },
+  "Attacks": {
+   "home": 5,
+   "away": 8
   },
   "Dangerous Attacks": {
-   "home": 0,
-   "away": 3
+   "home": 2,
+   "away": 6
   },
   "Ball Possession %": {
+   "home": 38,
+   "away": 62
+  },
+  "Shots Outsidebox": {
+   "home": 1,
+   "away": 0
+  },
+  "Offsides": {
    "home": 0,
-   "away": 100
+   "away": 1
+  },
+  "Free Kicks": {
+   "home": 0,
+   "away": 1
+  },
+  "Fouls": {
+   "home": 1,
+   "away": 0
+  },
+  "Shots Blocked": {
+   "home": 1,
+   "away": 0
   },
   "Throwins": {
-   "home": 1,
-   "away": 1
+   "home": 3,
+   "away": 2
+  },
+  "Long Passes": {
+   "home": 3,
+   "away": 5
   },
   "Tackles": {
-   "home": 1,
-   "away": 1
+   "home": 3,
+   "away": 2
   },
   "Passes": {
-   "home": 0,
-   "away": 8
+   "home": 30,
+   "away": 48
   },
   "Successful Passes": {
-   "home": 0,
-   "away": 8
+   "home": 27,
+   "away": 44
   },
   "Successful Passes Percentage": {
+   "home": 90,
+   "away": 92
+  },
+  "Total Crosses": {
+   "home": 1,
+   "away": 2
+  },
+  "Duels Won": {
+   "home": 3,
+   "away": 3
+  },
+  "Dribble Attempts": {
    "home": 0,
-   "away": 100
+   "away": 1
+  },
+  "Key Passes": {
+   "home": 1,
+   "away": 0
+  },
+  "Successful Dribbles Percentage": {
+   "home": 0,
+   "away": 0
+  },
+  "Successful Long Passes": {
+   "home": 3,
+   "away": 4
+  },
+  "Successful Long Passes Percentage": {
+   "home": 100,
+   "away": 80
+  },
+  "Tackles Won": {
+   "home": 2,
+   "away": 2
   }
  },
  "next_fixtures": [],
@@ -913,119 +977,180 @@
  "player_stats": {
   "529045": {
    "rating": 6.5,
+   "pass": 3,
+   "min": 1,
    "side": "away",
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 2,
+   "pass": 13,
    "touches": 2,
-   "rating": 6.41,
+   "rating": 6.71,
+   "tkl": 1,
+   "clr": 1,
+   "duels_t": 1,
+   "min": 1,
+   "duels": 1,
    "side": "away",
    "name": "Liam Scales"
   },
   "19979885": {
    "touches": 1,
-   "pass": 1,
-   "rating": 6.48,
+   "pass": 3,
+   "rating": 6.47,
+   "min": 1,
    "side": "away",
    "name": "Benjamin Nygren"
   },
   "15061513": {
    "rating": 6.5,
+   "min": 1,
+   "pass": 1,
    "side": "away",
    "name": "Kasper Høgh"
   },
   "37709508": {
    "touches": 1,
-   "rating": 6.48,
-   "pass": 1,
+   "rating": 6.47,
+   "pass": 2,
+   "min": 1,
    "side": "away",
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 6.5,
+   "rating": 6.45,
+   "duels": 1,
+   "duels_t": 3,
+   "pass": 3,
+   "min": 1,
+   "tkl": 1,
    "side": "away",
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 6.5,
+   "rating": 6.36,
+   "min": 1,
+   "pass": 1,
    "side": "away",
    "name": "Mika Joel Baur"
   },
   "8585": {
-   "rating": 6.5,
+   "rating": 6.47,
+   "pass": 5,
+   "min": 1,
    "side": "away",
    "name": "Callum McGregor"
   },
   "37342595": {
    "touches": 4,
-   "pass": 4,
-   "rating": 6.41,
+   "pass": 13,
+   "rating": 6.43,
+   "min": 1,
+   "clr": 1,
    "side": "away",
    "name": "Dane Murray"
   },
   "37732189": {
-   "rating": 6.5,
+   "pass": 1,
+   "rating": 6.53,
+   "duels_t": 1,
+   "duels": 1,
+   "min": 1,
    "side": "away",
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 6.5,
+   "rating": 6.49,
+   "clr": 2,
+   "min": 1,
+   "pass": 3,
    "side": "away",
    "name": "Kieran Tierney"
   },
   "24469041": {
-   "rating": 6.5,
+   "rating": 6.51,
+   "min": 1,
+   "pass": 4,
    "side": "home",
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 6.5,
+   "rating": 6.44,
+   "min": 1,
+   "pass": 7,
    "side": "home",
    "name": "Stephen O'Donnell"
   },
   "21036704": {
-   "rating": 6.5,
+   "rating": 6.52,
+   "min": 1,
+   "pass": 3,
+   "clr": 1,
    "side": "home",
    "name": "Martin Moormann"
   },
   "28912717": {
-   "rating": 6.5,
+   "rating": 6.35,
+   "pass": 3,
+   "min": 1,
    "side": "home",
    "name": "Tom Sparrow"
   },
   "2823438": {
-   "rating": 6.5,
+   "rating": 6.56,
+   "pass": 6,
+   "duels_t": 1,
+   "duels": 1,
+   "min": 1,
+   "tkl": 1,
    "side": "home",
    "name": "Lukas Fadinger"
   },
   "37260641": {
-   "rating": 6.5,
+   "rating": 6.56,
+   "pass": 3,
+   "min": 1,
+   "duels": 1,
+   "duels_t": 1,
+   "tkl": 1,
    "side": "home",
    "name": "Alex Lowry"
   },
   "4969690": {
-   "rating": 6.5,
+   "rating": 6.44,
+   "pass": 1,
+   "min": 1,
    "side": "home",
    "name": "Emmanuel Longelo"
   },
   "37550449": {
-   "rating": 6.5,
+   "rating": 6.48,
+   "sh": 1,
+   "min": 1,
    "side": "home",
    "name": "S. Palmer-Houlden"
   },
   "7742181": {
-   "rating": 6.5,
+   "rating": 6.48,
+   "pass": 1,
+   "min": 1,
    "side": "home",
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "rating": 6.5,
+   "rating": 6.41,
+   "pass": 2,
+   "min": 1,
+   "fouls": 1,
    "side": "home",
    "name": "Joe Hodge"
   },
   "37643521": {
-   "rating": 6.5,
+   "rating": 6.59,
+   "duels_t": 1,
+   "min": 1,
+   "tkl": 1,
+   "duels": 1,
    "side": "home",
    "name": "Willy Vogt"
   }
@@ -1037,7 +1162,21 @@
    "t": "Kick-off! The referee is Steven McLean.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 6,
+   "x": null,
+   "t": "Seb Palmer-Houlden takes a right-footed shot, but it's blocked.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 7,
+   "x": null,
+   "t": "Corner awarded.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2468
+ "rate_remaining": 2455
 }
