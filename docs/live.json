@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:53:00.384022+00:00",
+ "updated_at": "2026-10-11T12:53:30.352877+00:00",
  "live": false,
  "fixture": {
   "id": 19722777,
@@ -531,7 +531,7 @@
   },
   "Attacks": {
    "home": 84,
-   "away": 132
+   "away": 134
   },
   "Dangerous Attacks": {
    "home": 45,
@@ -542,8 +542,8 @@
    "away": 66
   },
   "Ball Safe": {
-   "home": 77,
-   "away": 91
+   "home": 82,
+   "away": 101
   },
   "Shots Insidebox": {
    "home": 6,
@@ -591,7 +591,7 @@
   },
   "Throwins": {
    "home": 25,
-   "away": 20
+   "away": 21
   },
   "Long Passes": {
    "home": 37,
@@ -602,7 +602,7 @@
    "away": 1
   },
   "Successful Headers": {
-   "home": 7,
+   "home": 8,
    "away": 7
   },
   "Tackles": {
@@ -615,11 +615,11 @@
   },
   "Passes": {
    "home": 386,
-   "away": 757
+   "away": 762
   },
   "Successful Passes": {
    "home": 330,
-   "away": 698
+   "away": 702
   },
   "Successful Passes Percentage": {
    "home": 85,
@@ -694,20 +694,6 @@
  "standings": [
   {
    "pos": 1,
-   "team": "Celtic",
-   "team_id": 53,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "pts": 21,
-   "p": 7,
-   "w": 6,
-   "d": 0,
-   "l": 1,
-   "gf": 14,
-   "ga": 4,
-   "gd": 10
-  },
-  {
-   "pos": 2,
    "team": "Rangers",
    "team_id": 62,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
@@ -719,6 +705,20 @@
    "gf": 11,
    "ga": 5,
    "gd": 6
+  },
+  {
+   "pos": 2,
+   "team": "Celtic",
+   "team_id": 53,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "pts": 18,
+   "p": 7,
+   "w": 6,
+   "d": 0,
+   "l": 1,
+   "gf": 14,
+   "ga": 4,
+   "gd": 10
   },
   {
    "pos": 3,
@@ -1248,7 +1248,7 @@
    "rating": 7.19,
    "pass": 56,
    "touches": 63,
-   "min": 91,
+   "min": 90,
    "pass_pct": 96,
    "saves": 2,
    "clr": 1,
@@ -1257,7 +1257,7 @@
   },
   "198116": {
    "duels_t": 1,
-   "min": 9,
+   "min": 8,
    "pass_pct": 100,
    "pass": 6,
    "fouls": 1,
@@ -1273,7 +1273,7 @@
    "rating": 8.29,
    "clr": 6,
    "duels_t": 5,
-   "min": 91,
+   "min": 90,
    "pass_pct": 96,
    "kp": 1,
    "tkl": 2,
@@ -1284,7 +1284,7 @@
    "name": "Liam Scales"
   },
   "163711": {
-   "min": 17,
+   "min": 16,
    "pass": 11,
    "pass_pct": 70,
    "duels": 1,
@@ -1360,7 +1360,7 @@
    "name": "Sebastian Tounekti"
   },
   "23698076": {
-   "min": 13,
+   "min": 12,
    "rating": 6.75,
    "pass": 1,
    "pass_pct": 100,
@@ -1372,7 +1372,7 @@
   },
   "37582048": {
    "rating": 8.29,
-   "min": 91,
+   "min": 90,
    "duels_t": 9,
    "pass": 64,
    "sot": 3,
@@ -1388,7 +1388,7 @@
   },
   "18584306": {
    "pass": 9,
-   "min": 18,
+   "min": 17,
    "duels_t": 1,
    "pass_pct": 88,
    "duels": 1,
@@ -1407,14 +1407,14 @@
    "rating": 6.52,
    "pass": 3,
    "pass_pct": 67,
-   "min": 18,
+   "min": 17,
    "duels": 1,
    "side": "away",
    "name": "Shumaira Mheuka"
   },
   "8585": {
    "pass": 96,
-   "min": 91,
+   "min": 90,
    "pass_pct": 97,
    "tkl": 1,
    "duels": 2,
@@ -1432,8 +1432,8 @@
   "37342595": {
    "touches": 113,
    "pass": 103,
-   "rating": 7.47,
-   "min": 91,
+   "rating": 7.45,
+   "min": 90,
    "pass_pct": 92,
    "int": 1,
    "duels_t": 8,
@@ -1449,7 +1449,7 @@
    "rating": 7.51,
    "duels_t": 5,
    "duels": 3,
-   "min": 91,
+   "min": 90,
    "pass_pct": 92,
    "touches": 82,
    "clr": 7,
@@ -1480,9 +1480,9 @@
    "name": "Kieran Tierney"
   },
   "24469041": {
-   "rating": 9.05,
+   "rating": 9.02,
    "touches": 66,
-   "min": 91,
+   "min": 90,
    "pass": 45,
    "clr": 2,
    "duels_t": 3,
@@ -1507,9 +1507,9 @@
   },
   "37532994": {
    "pass": 10,
-   "min": 8,
+   "min": 7,
    "pass_pct": 100,
-   "rating": 6.7,
+   "rating": 6.69,
    "duels_t": 1,
    "touches": 11,
    "kp": 1,
@@ -1520,7 +1520,7 @@
   },
   "21036704": {
    "rating": 7.04,
-   "min": 91,
+   "min": 90,
    "kp": 1,
    "touches": 55,
    "pass": 35,
@@ -1535,7 +1535,7 @@
   "28912717": {
    "rating": 6.87,
    "pass": 40,
-   "min": 91,
+   "min": 90,
    "touches": 68,
    "duels_t": 8,
    "pass_pct": 85,
@@ -1551,7 +1551,7 @@
    "touches": 65,
    "pass": 49,
    "duels_t": 6,
-   "min": 91,
+   "min": 90,
    "tkl": 3,
    "clr": 3,
    "pass_pct": 92,
@@ -1582,7 +1582,7 @@
    "pass_pct": 100,
    "kp": 1,
    "touches": 6,
-   "min": 20,
+   "min": 19,
    "bcc": 1,
    "duels_t": 2,
    "side": "home",
@@ -1594,14 +1594,14 @@
    "sh": 2,
    "duels_t": 2,
    "rating": 6.29,
-   "min": 20,
+   "min": 19,
    "touches": 6,
    "duels": 1,
    "side": "home",
    "name": "Eythor Bjørgolfsson"
   },
   "33991811": {
-   "min": 8,
+   "min": 7,
    "pass": 2,
    "pass_pct": 100,
    "duels_t": 1,
@@ -1613,7 +1613,7 @@
   "37341882": {
    "touches": 23,
    "clr": 1,
-   "min": 31,
+   "min": 30,
    "kp": 3,
    "duels_t": 8,
    "pass": 10,
@@ -1626,9 +1626,9 @@
    "name": "Ibrahim Said"
   },
   "4969690": {
-   "rating": 6.43,
+   "rating": 6.44,
    "pass": 30,
-   "min": 91,
+   "min": 90,
    "touches": 52,
    "pass_pct": 93,
    "clr": 5,
@@ -1665,7 +1665,7 @@
   },
   "28912742": {
    "pass": 38,
-   "min": 91,
+   "min": 90,
    "touches": 56,
    "fouls": 2,
    "duels_t": 7,
@@ -2136,5 +2136,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2403
+ "rate_remaining": 2401
 }
