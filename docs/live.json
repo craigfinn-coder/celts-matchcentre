@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:30:00.390394+00:00",
+ "updated_at": "2026-10-11T12:31:00.442872+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 70,
+ "minute": 71,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -370,6 +370,18 @@
    "related": "Willy Vogt",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158180836,
+   "minute": 71,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Motherwell",
+   "player": "Jardell Kanga",
+   "related": "S. Palmer-Houlden",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -382,8 +394,8 @@
    "away": 3
   },
   "Shots Total": {
-   "home": 4,
-   "away": 21
+   "home": 5,
+   "away": 22
   },
   "Attacks": {
    "home": 65,
@@ -394,8 +406,8 @@
    "away": 86
   },
   "Ball Possession %": {
-   "home": 33,
-   "away": 67
+   "home": 32,
+   "away": 68
   },
   "Ball Safe": {
    "home": 29,
@@ -442,7 +454,7 @@
    "away": 7
   },
   "Substitutions": {
-   "home": 1,
+   "home": 3,
    "away": 0
   },
   "Throwins": {
@@ -471,11 +483,11 @@
   },
   "Passes": {
    "home": 299,
-   "away": 625
+   "away": 638
   },
   "Successful Passes": {
    "home": 252,
-   "away": 580
+   "away": 592
   },
   "Successful Passes Percentage": {
    "home": 84,
@@ -486,8 +498,8 @@
    "away": 0
   },
   "Shots On Target": {
-   "home": 1,
-   "away": 11
+   "home": 2,
+   "away": 12
   },
   "Injuries": {
    "home": 1,
@@ -1103,8 +1115,8 @@
   "529045": {
    "rating": 6.93,
    "pass": 40,
-   "touches": 42,
-   "min": 66,
+   "touches": 51,
+   "min": 71,
    "pass_pct": 100,
    "saves": 1,
    "clr": 1,
@@ -1113,11 +1125,11 @@
   },
   "123659": {
    "pass": 124,
-   "touches": 129,
+   "touches": 137,
    "rating": 7.69,
    "clr": 4,
    "duels_t": 4,
-   "min": 66,
+   "min": 71,
    "pass_pct": 94,
    "kp": 1,
    "tkl": 1,
@@ -1128,11 +1140,11 @@
   "19979885": {
    "pass": 36,
    "rating": 7.62,
-   "min": 66,
+   "min": 71,
    "pass_pct": 89,
    "duels": 2,
    "duels_t": 2,
-   "touches": 40,
+   "touches": 42,
    "sh": 1,
    "kp": 1,
    "g": 1,
@@ -1142,12 +1154,12 @@
   },
   "15061513": {
    "rating": 7.3,
-   "min": 66,
+   "min": 71,
    "pass": 20,
-   "touches": 27,
+   "touches": 31,
    "sh": 5,
    "pass_pct": 73,
-   "duels_t": 1,
+   "duels_t": 2,
    "duels": 1,
    "kp": 1,
    "bcc": 1,
@@ -1156,10 +1168,10 @@
    "name": "Kasper Høgh"
   },
   "37709508": {
-   "touches": 41,
+   "touches": 47,
    "rating": 7.49,
    "pass": 38,
-   "min": 66,
+   "min": 71,
    "g": 1,
    "sh": 3,
    "sot": 3,
@@ -1174,11 +1186,11 @@
   "15169863": {
    "rating": 7.43,
    "duels": 4,
-   "duels_t": 9,
+   "duels_t": 10,
    "pass": 49,
    "tkl": 2,
-   "min": 66,
-   "touches": 70,
+   "min": 71,
+   "touches": 74,
    "pass_pct": 85,
    "sot": 2,
    "int": 1,
@@ -1190,15 +1202,15 @@
   },
   "37582048": {
    "rating": 7.8,
-   "min": 66,
+   "min": 71,
    "duels_t": 5,
    "pass": 47,
    "sot": 3,
    "sh": 5,
    "pass_pct": 93,
    "kp": 3,
-   "touches": 56,
-   "int": 1,
+   "touches": 64,
+   "int": 2,
    "tkl": 2,
    "duels": 3,
    "side": "away",
@@ -1206,26 +1218,26 @@
   },
   "8585": {
    "pass": 79,
-   "min": 66,
+   "min": 71,
    "pass_pct": 96,
    "tkl": 1,
    "duels": 2,
-   "touches": 84,
+   "touches": 92,
    "duels_t": 2,
    "clr": 2,
    "int": 1,
    "sh": 2,
-   "rating": 7.38,
+   "rating": 7.41,
    "kp": 1,
    "sot": 1,
    "side": "away",
    "name": "Callum McGregor"
   },
   "37342595": {
-   "touches": 94,
+   "touches": 101,
    "pass": 89,
    "rating": 7.35,
-   "min": 66,
+   "min": 71,
    "pass_pct": 92,
    "int": 1,
    "duels_t": 7,
@@ -1241,25 +1253,26 @@
    "rating": 7.09,
    "duels_t": 5,
    "duels": 3,
-   "min": 66,
+   "min": 71,
    "pass_pct": 92,
-   "touches": 62,
+   "touches": 70,
    "clr": 7,
    "sh": 2,
    "fouls": 1,
    "sot": 1,
+   "kp": 2,
    "side": "away",
    "name": "Colby Donovan"
   },
   "172960": {
    "rating": 8.05,
    "clr": 5,
-   "min": 66,
+   "min": 71,
    "pass": 61,
    "pass_pct": 95,
    "kp": 4,
-   "int": 2,
-   "touches": 83,
+   "int": 3,
+   "touches": 91,
    "duels_t": 1,
    "tkl": 1,
    "duels": 1,
@@ -1270,24 +1283,24 @@
   },
   "24469041": {
    "rating": 8.56,
-   "touches": 51,
-   "min": 66,
+   "touches": 53,
+   "min": 71,
    "pass": 34,
    "clr": 2,
    "duels_t": 2,
    "duels": 1,
-   "saves": 9,
+   "saves": 11,
    "pass_pct": 68,
    "side": "home",
    "name": "Alex Paulsen"
   },
   "12321": {
    "rating": 5.65,
-   "min": 66,
+   "min": 71,
    "pass": 43,
-   "touches": 52,
+   "touches": 55,
    "pass_pct": 85,
-   "clr": 4,
+   "clr": 5,
    "duels_t": 1,
    "fouls": 1,
    "side": "home",
@@ -1295,7 +1308,7 @@
   },
   "21036704": {
    "rating": 6.8,
-   "min": 66,
+   "min": 71,
    "kp": 1,
    "touches": 46,
    "pass": 28,
@@ -1310,22 +1323,23 @@
   "28912717": {
    "rating": 6.37,
    "pass": 35,
-   "min": 66,
-   "touches": 51,
+   "min": 71,
+   "touches": 55,
    "duels_t": 4,
    "pass_pct": 92,
    "duels": 2,
    "tkl": 2,
    "kp": 1,
    "bcc": 1,
+   "clr": 1,
    "side": "home",
    "name": "Tom Sparrow"
   },
   "2823438": {
-   "touches": 44,
+   "touches": 46,
    "pass": 33,
    "duels_t": 4,
-   "min": 66,
+   "min": 71,
    "tkl": 3,
    "clr": 2,
    "pass_pct": 92,
@@ -1340,33 +1354,36 @@
    "rating": 6.34,
    "pass": 24,
    "clr": 3,
-   "min": 66,
+   "min": 71,
    "duels": 1,
    "duels_t": 6,
    "tkl": 1,
    "kp": 1,
    "pass_pct": 78,
-   "touches": 38,
+   "touches": 40,
    "side": "home",
    "name": "Alex Lowry"
   },
   "37341882": {
    "rating": 6.37,
-   "touches": 13,
+   "touches": 18,
    "clr": 1,
-   "min": 6,
-   "kp": 1,
-   "duels_t": 3,
+   "min": 11,
+   "kp": 2,
+   "duels_t": 5,
    "pass": 8,
+   "tkl": 1,
+   "duels": 2,
    "pass_pct": 88,
+   "bcc": 1,
    "side": "home",
    "name": "Ibrahim Said"
   },
   "4969690": {
    "rating": 6.36,
    "pass": 24,
-   "min": 66,
-   "touches": 41,
+   "min": 71,
+   "touches": 42,
    "pass_pct": 100,
    "clr": 4,
    "int": 1,
@@ -1374,10 +1391,10 @@
    "name": "Emmanuel Longelo"
   },
   "37550449": {
-   "rating": 6.46,
+   "rating": 6.5,
    "sh": 4,
    "pass": 11,
-   "min": 66,
+   "min": 71,
    "pass_pct": 70,
    "touches": 21,
    "duels_t": 9,
@@ -1389,19 +1406,19 @@
    "name": "S. Palmer-Houlden"
   },
   "7742181": {
-   "touches": 33,
+   "touches": 34,
    "pass": 27,
-   "min": 66,
+   "min": 71,
    "pass_pct": 100,
    "duels_t": 1,
-   "clr": 1,
+   "clr": 2,
    "rating": 6.34,
    "side": "home",
    "name": "Dylan Levitt"
   },
   "28912742": {
    "pass": 27,
-   "min": 66,
+   "min": 71,
    "touches": 41,
    "fouls": 2,
    "duels_t": 6,
@@ -1689,20 +1706,6 @@
    "key": false
   },
   {
-   "m": 65,
-   "x": null,
-   "t": "Seb Palmer-Houlden attempts a header but misses the shot.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 69,
-   "x": null,
-   "t": "Kasper Waarst Hogh takes a right-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
    "m": 69,
    "x": null,
    "t": "Corner awarded.",
@@ -1710,5 +1713,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2472
+ "rate_remaining": 2469
 }
