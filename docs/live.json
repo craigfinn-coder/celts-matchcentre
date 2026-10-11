@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:18:00.352816+00:00",
+ "updated_at": "2026-10-11T12:18:30.369283+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -346,6 +346,18 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 158180434,
+   "minute": 58,
+   "extra": null,
+   "type": "Goal",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Benjamin Nygren",
+   "related": null,
+   "result": "0-2",
+   "info": "Left foot shot"
   }
  ],
  "stats": {
@@ -1535,5 +1547,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2327
+ "rate_remaining": 2325
 }
