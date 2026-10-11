@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T11:42:00.313255+00:00",
+ "updated_at": "2026-10-11T11:43:30.332269+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 40,
+ "minute": 41,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -334,6 +334,18 @@
    "related": null,
    "result": "0-1",
    "info": "Right foot shot"
+  },
+  {
+   "id": 158179518,
+   "minute": 41,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "home",
+   "team": "Motherwell",
+   "player": "Joe Hodge",
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
@@ -350,16 +362,16 @@
    "away": 9
   },
   "Attacks": {
-   "home": 43,
-   "away": 54
+   "home": 47,
+   "away": 56
   },
   "Dangerous Attacks": {
    "home": 18,
-   "away": 37
+   "away": 39
   },
   "Ball Possession %": {
-   "home": 39,
-   "away": 61
+   "home": 40,
+   "away": 60
   },
   "Ball Safe": {
    "home": 29,
@@ -382,7 +394,7 @@
    "away": 1
   },
   "Goal Kicks": {
-   "home": 3,
+   "home": 4,
    "away": 0
   },
   "Goal Attempts": {
@@ -391,10 +403,10 @@
   },
   "Free Kicks": {
    "home": 1,
-   "away": 2
+   "away": 3
   },
   "Fouls": {
-   "home": 2,
+   "home": 3,
    "away": 1
   },
   "Saves": {
@@ -406,15 +418,15 @@
    "away": 2
   },
   "Throwins": {
-   "home": 13,
+   "home": 15,
    "away": 9
   },
   "Long Passes": {
-   "home": 22,
+   "home": 23,
    "away": 21
   },
   "Successful Headers": {
-   "home": 2,
+   "home": 3,
    "away": 1
   },
   "Tackles": {
@@ -422,16 +434,20 @@
    "away": 5
   },
   "Passes": {
-   "home": 196,
-   "away": 310
+   "home": 204,
+   "away": 314
   },
   "Successful Passes": {
-   "home": 164,
-   "away": 282
+   "home": 170,
+   "away": 284
   },
   "Successful Passes Percentage": {
-   "home": 84,
-   "away": 91
+   "home": 83,
+   "away": 90
+  },
+  "Yellowcards": {
+   "home": 1,
+   "away": 0
   },
   "Shots On Target": {
    "home": 1,
@@ -451,11 +467,11 @@
   },
   "Interceptions": {
    "home": 2,
-   "away": 4
+   "away": 5
   },
   "Duels Won": {
    "home": 11,
-   "away": 10
+   "away": 13
   },
   "Dribble Attempts": {
    "home": 1,
@@ -467,7 +483,7 @@
   },
   "Key Passes": {
    "home": 2,
-   "away": 4
+   "away": 5
   },
   "Successful Dribbles Percentage": {
    "home": 0,
@@ -478,7 +494,7 @@
    "away": 15
   },
   "Successful Long Passes Percentage": {
-   "home": 36,
+   "home": 35,
    "away": 71
   },
   "Tackles Won": {
@@ -1054,7 +1070,7 @@
   "123659": {
    "pass": 66,
    "touches": 71,
-   "rating": 7.19,
+   "rating": 7.18,
    "tkl": 1,
    "clr": 4,
    "duels_t": 1,
@@ -1076,7 +1092,7 @@
   "15061513": {
    "rating": 6.76,
    "min": 39,
-   "pass": 7,
+   "pass": 8,
    "touches": 11,
    "sh": 2,
    "pass_pct": 83,
@@ -1119,10 +1135,10 @@
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 7.02,
+   "rating": 7.05,
    "min": 39,
    "duels_t": 1,
-   "pass": 19,
+   "pass": 20,
    "sot": 2,
    "sh": 3,
    "pass_pct": 100,
@@ -1133,7 +1149,7 @@
    "name": "Mika Joel Baur"
   },
   "8585": {
-   "pass": 37,
+   "pass": 38,
    "rating": 6.75,
    "min": 39,
    "pass_pct": 94,
@@ -1159,7 +1175,7 @@
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 20,
+   "pass": 21,
    "rating": 6.65,
    "duels_t": 2,
    "duels": 1,
@@ -1173,7 +1189,7 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 6.99,
+   "rating": 6.97,
    "clr": 2,
    "min": 39,
    "pass": 29,
@@ -1188,7 +1204,7 @@
    "rating": 7.3,
    "touches": 36,
    "min": 39,
-   "pass": 26,
+   "pass": 27,
    "clr": 2,
    "duels_t": 1,
    "duels": 1,
@@ -1214,7 +1230,7 @@
    "min": 39,
    "kp": 1,
    "touches": 27,
-   "pass": 17,
+   "pass": 20,
    "clr": 6,
    "pass_pct": 77,
    "int": 1,
@@ -1238,7 +1254,7 @@
   "2823438": {
    "touches": 30,
    "rating": 7.02,
-   "pass": 21,
+   "pass": 24,
    "duels_t": 3,
    "min": 39,
    "tkl": 3,
@@ -1289,7 +1305,7 @@
   "7742181": {
    "rating": 6.41,
    "touches": 22,
-   "pass": 18,
+   "pass": 19,
    "min": 39,
    "pass_pct": 100,
    "duels_t": 1,
@@ -1449,5 +1465,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2435
+ "rate_remaining": 2430
 }
