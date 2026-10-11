@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:18:30.369283+00:00",
+ "updated_at": "2026-10-11T12:19:00.357410+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 58,
+ "minute": 59,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -355,9 +355,9 @@
    "side": "away",
    "team": "Celtic",
    "player": "Benjamin Nygren",
-   "related": null,
+   "related": "Kasper Høgh",
    "result": "0-2",
-   "info": "Left foot shot"
+   "info": "Right foot shot"
   }
  ],
  "stats": {
@@ -371,14 +371,14 @@
   },
   "Shots Total": {
    "home": 2,
-   "away": 18
+   "away": 19
   },
   "Attacks": {
-   "home": 55,
+   "home": 57,
    "away": 95
   },
   "Dangerous Attacks": {
-   "home": 20,
+   "home": 22,
    "away": 72
   },
   "Ball Possession %": {
@@ -391,7 +391,7 @@
   },
   "Shots Insidebox": {
    "home": 1,
-   "away": 14
+   "away": 15
   },
   "Shots Outsidebox": {
    "home": 1,
@@ -446,12 +446,12 @@
    "away": 6
   },
   "Passes": {
-   "home": 249,
-   "away": 535
+   "home": 251,
+   "away": 538
   },
   "Successful Passes": {
-   "home": 209,
-   "away": 496
+   "home": 210,
+   "away": 498
   },
   "Successful Passes Percentage": {
    "home": 84,
@@ -463,7 +463,7 @@
   },
   "Shots On Target": {
    "home": 1,
-   "away": 9
+   "away": 10
   },
   "Injuries": {
    "home": 1,
@@ -483,23 +483,27 @@
   },
   "Duels Won": {
    "home": 14,
-   "away": 17
+   "away": 18
   },
   "Dribble Attempts": {
    "home": 2,
-   "away": 8
+   "away": 9
   },
   "Successful Dribbles": {
-   "home": 0,
-   "away": 3
+   "home": 1,
+   "away": 4
   },
   "Key Passes": {
    "home": 2,
    "away": 13
   },
+  "Big Chances Created": {
+   "home": 0,
+   "away": 1
+  },
   "Successful Dribbles Percentage": {
    "home": 50,
-   "away": 38
+   "away": 44
   },
   "Successful Long Passes": {
    "home": 10,
@@ -1069,7 +1073,7 @@
  },
  "player_stats": {
   "529045": {
-   "rating": 6.8,
+   "rating": 6.92,
    "pass": 33,
    "touches": 37,
    "min": 56,
@@ -1099,19 +1103,23 @@
    "duels": 1,
    "duels_t": 1,
    "touches": 29,
+   "sh": 1,
    "kp": 1,
+   "g": 1,
+   "sot": 1,
    "side": "away",
    "name": "Benjamin Nygren"
   },
   "15061513": {
    "rating": 6.84,
    "min": 56,
-   "pass": 16,
+   "pass": 18,
    "touches": 22,
    "sh": 4,
    "pass_pct": 73,
    "duels_t": 1,
    "duels": 1,
+   "a": 1,
    "side": "away",
    "name": "Kasper Høgh"
   },
@@ -1132,7 +1140,7 @@
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 7.18,
+   "rating": 7.19,
    "duels": 3,
    "duels_t": 8,
    "pass": 46,
@@ -1149,10 +1157,10 @@
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 7.51,
+   "rating": 7.7,
    "min": 56,
    "duels_t": 3,
-   "pass": 41,
+   "pass": 42,
    "sot": 3,
    "sh": 5,
    "pass_pct": 93,
@@ -1175,7 +1183,7 @@
    "clr": 2,
    "int": 1,
    "sh": 1,
-   "rating": 7.13,
+   "rating": 7.14,
    "kp": 1,
    "side": "away",
    "name": "Callum McGregor"
@@ -1243,7 +1251,7 @@
   "12321": {
    "rating": 6.32,
    "min": 56,
-   "pass": 40,
+   "pass": 41,
    "touches": 48,
    "pass_pct": 85,
    "clr": 4,
@@ -1268,7 +1276,7 @@
   },
   "28912717": {
    "rating": 6.3,
-   "pass": 28,
+   "pass": 29,
    "min": 56,
    "touches": 45,
    "duels_t": 4,
@@ -1545,7 +1553,14 @@
    "t": "Mika Baur's header is saved.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 58,
+   "x": null,
+   "t": "Goal! Benjamin Nygren scores, making it 0-2.",
+   "goal": true,
+   "key": true
   }
  ],
- "rate_remaining": 2325
+ "rate_remaining": 2324
 }
