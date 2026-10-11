@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T11:46:00.292921+00:00",
+ "updated_at": "2026-10-11T11:49:00.321051+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -309,9 +309,9 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "INPLAY_1ST_HALF",
- "state_name": "1st Half",
- "minute": 44,
+ "state": "HT",
+ "state_name": "Half Time",
+ "minute": 45,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -362,16 +362,16 @@
    "away": 9
   },
   "Attacks": {
-   "home": 47,
-   "away": 60
+   "home": 48,
+   "away": 72
   },
   "Dangerous Attacks": {
-   "home": 18,
-   "away": 41
+   "home": 19,
+   "away": 51
   },
   "Ball Possession %": {
-   "home": 38,
-   "away": 62
+   "home": 35,
+   "away": 65
   },
   "Ball Safe": {
    "home": 29,
@@ -379,7 +379,7 @@
   },
   "Shots Insidebox": {
    "home": 1,
-   "away": 6
+   "away": 7
   },
   "Shots Outsidebox": {
    "home": 1,
@@ -418,32 +418,32 @@
    "away": 2
   },
   "Throwins": {
-   "home": 15,
-   "away": 9
+   "home": 16,
+   "away": 10
   },
   "Long Passes": {
    "home": 24,
-   "away": 23
+   "away": 24
   },
   "Successful Headers": {
    "home": 3,
    "away": 3
   },
   "Tackles": {
-   "home": 7,
-   "away": 5
+   "home": 8,
+   "away": 6
   },
   "Passes": {
-   "home": 207,
-   "away": 346
+   "home": 213,
+   "away": 398
   },
   "Successful Passes": {
-   "home": 172,
-   "away": 316
+   "home": 178,
+   "away": 367
   },
   "Successful Passes Percentage": {
-   "home": 83,
-   "away": 91
+   "home": 84,
+   "away": 92
   },
   "Yellowcards": {
    "home": 1,
@@ -458,8 +458,8 @@
    "away": 0
   },
   "Total Crosses": {
-   "home": 10,
-   "away": 15
+   "home": 11,
+   "away": 19
   },
   "Accurate Crosses": {
    "home": 0,
@@ -467,15 +467,15 @@
   },
   "Interceptions": {
    "home": 2,
-   "away": 5
+   "away": 6
   },
   "Duels Won": {
-   "home": 11,
-   "away": 13
+   "home": 12,
+   "away": 14
   },
   "Dribble Attempts": {
    "home": 1,
-   "away": 5
+   "away": 6
   },
   "Successful Dribbles": {
    "home": 0,
@@ -487,15 +487,15 @@
   },
   "Successful Dribbles Percentage": {
    "home": 0,
-   "away": 40
+   "away": 33
   },
   "Successful Long Passes": {
    "home": 9,
-   "away": 17
+   "away": 18
   },
   "Successful Long Passes Percentage": {
    "home": 38,
-   "away": 74
+   "away": 75
   },
   "Tackles Won": {
    "home": 4,
@@ -1057,7 +1057,7 @@
  },
  "player_stats": {
   "529045": {
-   "rating": 6.77,
+   "rating": 6.8,
    "pass": 22,
    "touches": 26,
    "min": 43,
@@ -1068,9 +1068,9 @@
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 74,
+   "pass": 87,
    "touches": 83,
-   "rating": 7.21,
+   "rating": 7.31,
    "tkl": 1,
    "clr": 4,
    "duels_t": 1,
@@ -1082,19 +1082,19 @@
   },
   "19979885": {
    "touches": 20,
-   "pass": 19,
-   "rating": 6.53,
+   "pass": 20,
+   "rating": 6.56,
    "min": 43,
    "pass_pct": 88,
    "side": "away",
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 6.77,
+   "rating": 6.78,
    "min": 43,
-   "pass": 8,
+   "pass": 11,
    "touches": 12,
-   "sh": 2,
+   "sh": 3,
    "pass_pct": 83,
    "duels_t": 1,
    "duels": 1,
@@ -1118,10 +1118,10 @@
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 6.87,
+   "rating": 6.81,
    "duels": 4,
    "duels_t": 10,
-   "pass": 28,
+   "pass": 34,
    "tkl": 2,
    "min": 43,
    "touches": 46,
@@ -1138,7 +1138,7 @@
    "rating": 7.05,
    "min": 43,
    "duels_t": 1,
-   "pass": 21,
+   "pass": 29,
    "sot": 2,
    "sh": 3,
    "pass_pct": 100,
@@ -1149,8 +1149,8 @@
    "name": "Mika Joel Baur"
   },
   "8585": {
-   "pass": 41,
-   "rating": 6.77,
+   "pass": 50,
+   "rating": 6.89,
    "min": 43,
    "pass_pct": 94,
    "tkl": 1,
@@ -1164,8 +1164,8 @@
   },
   "37342595": {
    "touches": 67,
-   "pass": 60,
-   "rating": 6.9,
+   "pass": 65,
+   "rating": 7.0,
    "min": 43,
    "pass_pct": 94,
    "int": 1,
@@ -1176,8 +1176,8 @@
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 23,
-   "rating": 6.65,
+   "pass": 25,
+   "rating": 6.69,
    "duels_t": 3,
    "duels": 2,
    "min": 43,
@@ -1190,10 +1190,10 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 6.97,
+   "rating": 7.1,
    "clr": 2,
    "min": 43,
-   "pass": 33,
+   "pass": 38,
    "pass_pct": 90,
    "kp": 2,
    "int": 1,
@@ -1202,7 +1202,7 @@
    "name": "Kieran Tierney"
   },
   "24469041": {
-   "rating": 7.3,
+   "rating": 7.29,
    "touches": 38,
    "min": 43,
    "pass": 28,
@@ -1215,7 +1215,7 @@
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 6.29,
+   "rating": 6.3,
    "min": 43,
    "pass": 33,
    "touches": 36,
@@ -1241,7 +1241,7 @@
    "name": "Martin Moormann"
   },
   "28912717": {
-   "rating": 6.29,
+   "rating": 6.34,
    "pass": 25,
    "min": 43,
    "touches": 40,
@@ -1254,8 +1254,8 @@
   },
   "2823438": {
    "touches": 33,
-   "rating": 7.01,
-   "pass": 24,
+   "rating": 7.02,
+   "pass": 26,
    "duels_t": 3,
    "min": 43,
    "tkl": 3,
@@ -1269,7 +1269,7 @@
   },
   "37260641": {
    "rating": 6.43,
-   "pass": 17,
+   "pass": 18,
    "clr": 3,
    "min": 43,
    "duels": 1,
@@ -1282,8 +1282,8 @@
    "name": "Alex Lowry"
   },
   "4969690": {
-   "rating": 6.24,
-   "pass": 11,
+   "rating": 6.26,
+   "pass": 12,
    "min": 43,
    "touches": 21,
    "pass_pct": 100,
@@ -1291,7 +1291,7 @@
    "name": "Emmanuel Longelo"
   },
   "37550449": {
-   "rating": 6.51,
+   "rating": 6.49,
    "sh": 1,
    "pass": 11,
    "min": 43,
@@ -1306,7 +1306,7 @@
   "7742181": {
    "rating": 6.41,
    "touches": 24,
-   "pass": 19,
+   "pass": 20,
    "min": 43,
    "pass_pct": 100,
    "duels_t": 1,
@@ -1315,8 +1315,8 @@
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "rating": 6.46,
-   "pass": 13,
+   "rating": 6.38,
+   "pass": 14,
    "min": 43,
    "touches": 19,
    "fouls": 2,
@@ -1474,5 +1474,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2423
+ "rate_remaining": 2414
 }
