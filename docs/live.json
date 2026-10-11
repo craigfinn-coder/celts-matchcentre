@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:32:00.304750+00:00",
+ "updated_at": "2026-10-11T12:33:30.351061+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 72,
+ "minute": 73,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -394,6 +394,42 @@
    "related": "S. Palmer-Houlden",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158180917,
+   "minute": 73,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Haissem Hassan",
+   "related": "Camilo Durán",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 158180918,
+   "minute": 73,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Shumaira Mheuka",
+   "related": "Kasper Høgh",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 158180923,
+   "minute": 74,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Jota",
+   "related": "Sebastian Tounekti",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -402,19 +438,19 @@
    "away": 8
   },
   "Shots Off Target": {
-   "home": 1,
+   "home": 2,
    "away": 3
   },
   "Shots Total": {
-   "home": 5,
-   "away": 22
+   "home": 6,
+   "away": 23
   },
   "Attacks": {
-   "home": 69,
+   "home": 71,
    "away": 112
   },
   "Dangerous Attacks": {
-   "home": 37,
+   "home": 38,
    "away": 86
   },
   "Ball Possession %": {
@@ -426,7 +462,7 @@
    "away": 37
   },
   "Shots Insidebox": {
-   "home": 4,
+   "home": 5,
    "away": 17
   },
   "Shots Outsidebox": {
@@ -467,7 +503,7 @@
   },
   "Substitutions": {
    "home": 3,
-   "away": 0
+   "away": 3
   },
   "Throwins": {
    "home": 21,
@@ -483,7 +519,7 @@
   },
   "Successful Headers": {
    "home": 5,
-   "away": 6
+   "away": 7
   },
   "Tackles": {
    "home": 10,
@@ -494,11 +530,11 @@
    "away": 1
   },
   "Passes": {
-   "home": 312,
+   "home": 315,
    "away": 639
   },
   "Successful Passes": {
-   "home": 264,
+   "home": 267,
    "away": 593
   },
   "Successful Passes Percentage": {
@@ -511,7 +547,7 @@
   },
   "Shots On Target": {
    "home": 2,
-   "away": 12
+   "away": 13
   },
   "Injuries": {
    "home": 1,
@@ -531,7 +567,7 @@
   },
   "Duels Won": {
    "home": 18,
-   "away": 22
+   "away": 23
   },
   "Dribble Attempts": {
    "home": 6,
@@ -543,7 +579,7 @@
   },
   "Key Passes": {
    "home": 5,
-   "away": 17
+   "away": 18
   },
   "Big Chances Created": {
    "home": 2,
@@ -1125,7 +1161,7 @@
  },
  "player_stats": {
   "529045": {
-   "rating": 7.02,
+   "rating": 7.01,
    "pass": 44,
    "touches": 51,
    "min": 71,
@@ -1138,7 +1174,7 @@
   "123659": {
    "pass": 126,
    "touches": 137,
-   "rating": 7.78,
+   "rating": 7.97,
    "clr": 4,
    "duels_t": 4,
    "min": 71,
@@ -1198,7 +1234,7 @@
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 7.4,
+   "rating": 7.41,
    "duels": 4,
    "duels_t": 10,
    "pass": 50,
@@ -1215,7 +1251,7 @@
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 7.89,
+   "rating": 7.88,
    "min": 71,
    "duels_t": 5,
    "pass": 49,
@@ -1241,16 +1277,16 @@
    "clr": 2,
    "int": 1,
    "sh": 2,
-   "rating": 7.4,
    "kp": 1,
    "sot": 1,
+   "rating": 7.41,
    "side": "away",
    "name": "Callum McGregor"
   },
   "37342595": {
    "touches": 101,
    "pass": 91,
-   "rating": 7.39,
+   "rating": 7.37,
    "min": 71,
    "pass_pct": 92,
    "int": 1,
@@ -1279,7 +1315,7 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 8.16,
+   "rating": 8.15,
    "clr": 5,
    "min": 71,
    "pass": 61,
@@ -1309,7 +1345,7 @@
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 5.84,
+   "rating": 5.85,
    "min": 71,
    "pass": 45,
    "touches": 55,
@@ -1360,7 +1396,7 @@
    "duels": 3,
    "sot": 1,
    "sh": 1,
-   "rating": 7.09,
+   "rating": 7.1,
    "side": "home",
    "name": "Lukas Fadinger"
   },
@@ -1379,13 +1415,15 @@
    "name": "Alex Lowry"
   },
   "37565377": {
-   "min": 2,
-   "pass": 2,
+   "min": 3,
+   "pass": 3,
+   "pass_pct": 100,
    "side": "home",
    "name": "Jardell Kanga"
   },
   "37574652": {
-   "min": 2,
+   "min": 3,
+   "sh": 1,
    "side": "home",
    "name": "Eythor Bjørgolfsson"
   },
@@ -1400,13 +1438,13 @@
    "duels": 2,
    "pass_pct": 88,
    "bcc": 1,
-   "rating": 6.77,
+   "rating": 6.76,
    "side": "home",
    "name": "Ibrahim Said"
   },
   "4969690": {
    "rating": 6.36,
-   "pass": 26,
+   "pass": 27,
    "min": 71,
    "touches": 42,
    "pass_pct": 100,
@@ -1442,7 +1480,7 @@
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "pass": 27,
+   "pass": 28,
    "min": 71,
    "touches": 41,
    "fouls": 2,
@@ -1724,6 +1762,13 @@
    "key": false
   },
   {
+   "m": 63,
+   "x": null,
+   "t": "Seb Palmer-Houlden's header is blocked.",
+   "goal": false,
+   "key": false
+  },
+  {
    "m": 64,
    "x": null,
    "t": "Corner awarded.",
@@ -1731,33 +1776,19 @@
    "key": false
   },
   {
-   "m": 69,
+   "m": 70,
    "x": null,
    "t": "Corner awarded.",
    "goal": false,
    "key": false
   },
   {
-   "m": 69,
-   "x": null,
-   "t": "Kasper Waarst Hogh takes a right-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 70,
-   "x": null,
-   "t": "Callum McGregor takes a left-footed shot, but it's saved.",
-   "goal": false,
-   "key": false
-  },
-  {
    "m": 71,
    "x": null,
-   "t": "Jardell Kanga is substituted for Seb Palmer-Houlden.",
+   "t": "Eythor Bjorgolfsson is substituted off for Dylan Levitt.",
    "goal": false,
    "key": false
   }
  ],
- "rate_remaining": 2466
+ "rate_remaining": 2461
 }
