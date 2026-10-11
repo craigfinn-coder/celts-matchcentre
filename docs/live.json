@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:36:00.354285+00:00",
+ "updated_at": "2026-10-11T12:38:00.378170+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 76,
+ "minute": 78,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -430,6 +430,18 @@
    "related": "Sebastian Tounekti",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158181041,
+   "minute": 78,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Oliver Sørensen",
+   "related": "Benjamin Nygren",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -447,11 +459,11 @@
   },
   "Attacks": {
    "home": 72,
-   "away": 116
+   "away": 120
   },
   "Dangerous Attacks": {
    "home": 38,
-   "away": 87
+   "away": 95
   },
   "Ball Possession %": {
    "home": 32,
@@ -503,7 +515,7 @@
   },
   "Substitutions": {
    "home": 3,
-   "away": 3
+   "away": 4
   },
   "Throwins": {
    "home": 21,
@@ -511,7 +523,7 @@
   },
   "Long Passes": {
    "home": 33,
-   "away": 38
+   "away": 39
   },
   "Hit Woodwork": {
    "home": 0,
@@ -531,11 +543,11 @@
   },
   "Passes": {
    "home": 316,
-   "away": 671
+   "away": 685
   },
   "Successful Passes": {
    "home": 268,
-   "away": 621
+   "away": 634
   },
   "Successful Passes Percentage": {
    "home": 85,
@@ -567,11 +579,11 @@
   },
   "Duels Won": {
    "home": 18,
-   "away": 25
+   "away": 26
   },
   "Dribble Attempts": {
    "home": 6,
-   "away": 10
+   "away": 11
   },
   "Successful Dribbles": {
    "home": 2,
@@ -582,16 +594,16 @@
    "away": 18
   },
   "Big Chances Created": {
-   "home": 2,
+   "home": 3,
    "away": 2
   },
   "Big Chances Missed": {
-   "home": 2,
+   "home": 3,
    "away": 1
   },
   "Successful Dribbles Percentage": {
    "home": 33,
-   "away": 50
+   "away": 55
   },
   "Successful Long Passes": {
    "home": 13,
@@ -599,7 +611,7 @@
   },
   "Successful Long Passes Percentage": {
    "home": 39,
-   "away": 76
+   "away": 74
   },
   "Tackles Won": {
    "home": 5,
@@ -1161,8 +1173,8 @@
  },
  "player_stats": {
   "529045": {
-   "rating": 6.94,
-   "pass": 46,
+   "rating": 7.06,
+   "pass": 47,
    "touches": 54,
    "min": 75,
    "pass_pct": 100,
@@ -1172,9 +1184,9 @@
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 130,
+   "pass": 137,
    "touches": 143,
-   "rating": 7.95,
+   "rating": 7.97,
    "clr": 5,
    "duels_t": 4,
    "min": 75,
@@ -1189,8 +1201,8 @@
   },
   "163711": {
    "min": 1,
-   "pass": 2,
-   "pass_pct": 50,
+   "pass": 6,
+   "pass_pct": 67,
    "duels": 1,
    "duels_t": 1,
    "tkl": 1,
@@ -1199,8 +1211,8 @@
    "name": "Jota"
   },
   "19979885": {
-   "pass": 36,
-   "rating": 7.63,
+   "pass": 38,
+   "rating": 7.67,
    "min": 75,
    "pass_pct": 89,
    "duels": 2,
@@ -1230,7 +1242,7 @@
   },
   "37709508": {
    "touches": 48,
-   "rating": 7.52,
+   "rating": 7.55,
    "pass": 39,
    "min": 73,
    "g": 1,
@@ -1261,11 +1273,16 @@
    "side": "away",
    "name": "Sebastian Tounekti"
   },
+  "23698076": {
+   "min": 1,
+   "side": "away",
+   "name": "Oliver Sørensen"
+  },
   "37582048": {
-   "rating": 7.88,
+   "rating": 8.14,
    "min": 75,
    "duels_t": 6,
-   "pass": 51,
+   "pass": 53,
    "sot": 3,
    "sh": 5,
    "pass_pct": 93,
@@ -1278,7 +1295,9 @@
    "name": "Mika Joel Baur"
   },
   "18584306": {
+   "pass": 4,
    "min": 2,
+   "pass_pct": 75,
    "side": "away",
    "name": "Haissem Hassan"
   },
@@ -1288,7 +1307,7 @@
    "name": "Shumaira Mheuka"
   },
   "8585": {
-   "pass": 81,
+   "pass": 87,
    "min": 75,
    "pass_pct": 96,
    "tkl": 1,
@@ -1300,14 +1319,14 @@
    "sh": 2,
    "kp": 1,
    "sot": 1,
-   "rating": 7.41,
+   "rating": 7.46,
    "side": "away",
    "name": "Callum McGregor"
   },
   "37342595": {
    "touches": 102,
-   "pass": 91,
-   "rating": 7.37,
+   "pass": 94,
+   "rating": 7.44,
    "min": 75,
    "pass_pct": 92,
    "int": 1,
@@ -1320,8 +1339,8 @@
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 43,
-   "rating": 7.36,
+   "pass": 46,
+   "rating": 7.37,
    "duels_t": 5,
    "duels": 3,
    "min": 75,
@@ -1339,7 +1358,7 @@
    "rating": 8.16,
    "clr": 5,
    "min": 75,
-   "pass": 62,
+   "pass": 64,
    "pass_pct": 95,
    "kp": 4,
    "int": 3,
@@ -1353,7 +1372,7 @@
    "name": "Kieran Tierney"
   },
   "24469041": {
-   "rating": 8.98,
+   "rating": 8.99,
    "touches": 55,
    "min": 75,
    "pass": 35,
@@ -1366,7 +1385,7 @@
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 5.86,
+   "rating": 5.95,
    "min": 75,
    "pass": 46,
    "touches": 58,
@@ -1378,7 +1397,7 @@
    "name": "Stephen O'Donnell"
   },
   "21036704": {
-   "rating": 6.8,
+   "rating": 6.87,
    "min": 75,
    "kp": 1,
    "touches": 49,
@@ -1392,7 +1411,7 @@
    "name": "Martin Moormann"
   },
   "28912717": {
-   "rating": 6.38,
+   "rating": 6.41,
    "pass": 36,
    "min": 75,
    "touches": 57,
@@ -1417,7 +1436,7 @@
    "duels": 3,
    "sot": 1,
    "sh": 1,
-   "rating": 7.11,
+   "rating": 7.1,
    "side": "home",
    "name": "Lukas Fadinger"
   },
@@ -1436,7 +1455,7 @@
    "name": "Alex Lowry"
   },
   "37565377": {
-   "rating": 6.55,
+   "rating": 6.61,
    "min": 4,
    "pass": 3,
    "pass_pct": 100,
@@ -1446,7 +1465,6 @@
    "name": "Jardell Kanga"
   },
   "37574652": {
-   "rating": 6.59,
    "min": 4,
    "sh": 1,
    "touches": 1,
@@ -1469,7 +1487,7 @@
    "name": "Ibrahim Said"
   },
   "4969690": {
-   "rating": 6.37,
+   "rating": 6.36,
    "pass": 27,
    "min": 75,
    "touches": 48,
@@ -1516,7 +1534,7 @@
    "tkl": 2,
    "duels": 3,
    "yc": 1,
-   "rating": 6.83,
+   "rating": 6.78,
    "int": 2,
    "side": "home",
    "name": "Joe Hodge"
@@ -1893,5 +1911,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2454
+ "rate_remaining": 2448
 }
