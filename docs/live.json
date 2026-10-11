@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T11:51:30.310272+00:00",
+ "updated_at": "2026-10-11T12:02:00.357393+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -431,15 +431,15 @@
   },
   "Tackles": {
    "home": 8,
-   "away": 7
+   "away": 6
   },
   "Passes": {
    "home": 213,
-   "away": 398
+   "away": 400
   },
   "Successful Passes": {
-   "home": 178,
-   "away": 367
+   "home": 179,
+   "away": 369
   },
   "Successful Passes Percentage": {
    "home": 84,
@@ -471,15 +471,15 @@
   },
   "Duels Won": {
    "home": 12,
-   "away": 15
+   "away": 16
   },
   "Dribble Attempts": {
    "home": 1,
-   "away": 6
+   "away": 7
   },
   "Successful Dribbles": {
    "home": 0,
-   "away": 2
+   "away": 3
   },
   "Key Passes": {
    "home": 2,
@@ -487,7 +487,7 @@
   },
   "Successful Dribbles Percentage": {
    "home": 0,
-   "away": 33
+   "away": 43
   },
   "Successful Long Passes": {
    "home": 9,
@@ -499,7 +499,7 @@
   },
   "Tackles Won": {
    "home": 4,
-   "away": 5
+   "away": 4
   }
  },
  "next_fixtures": [],
@@ -1068,11 +1068,10 @@
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 87,
-   "touches": 97,
-   "rating": 7.3,
-   "tkl": 1,
-   "clr": 4,
+   "pass": 86,
+   "touches": 94,
+   "rating": 7.33,
+   "clr": 3,
    "duels_t": 1,
    "min": 47,
    "duels": 1,
@@ -1082,15 +1081,17 @@
   },
   "19979885": {
    "touches": 21,
-   "pass": 20,
-   "rating": 6.56,
+   "pass": 19,
+   "rating": 6.65,
    "min": 47,
    "pass_pct": 88,
+   "duels": 1,
+   "duels_t": 1,
    "side": "away",
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 6.82,
+   "rating": 6.81,
    "min": 47,
    "pass": 11,
    "touches": 16,
@@ -1102,9 +1103,9 @@
    "name": "Kasper Høgh"
   },
   "37709508": {
-   "touches": 24,
-   "rating": 7.59,
-   "pass": 17,
+   "touches": 25,
+   "rating": 7.5,
+   "pass": 18,
    "min": 47,
    "g": 1,
    "sh": 2,
@@ -1118,13 +1119,13 @@
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 6.78,
-   "duels": 4,
-   "duels_t": 10,
-   "pass": 34,
-   "tkl": 2,
+   "rating": 6.93,
+   "duels": 3,
+   "duels_t": 8,
+   "pass": 33,
+   "tkl": 1,
    "min": 47,
-   "touches": 54,
+   "touches": 51,
    "pass_pct": 81,
    "sot": 1,
    "int": 1,
@@ -1135,15 +1136,15 @@
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 7.05,
+   "rating": 7.15,
    "min": 47,
-   "duels_t": 2,
+   "duels_t": 3,
    "pass": 29,
    "sot": 2,
    "sh": 3,
    "pass_pct": 100,
    "kp": 1,
-   "touches": 37,
+   "touches": 38,
    "int": 1,
    "tkl": 1,
    "duels": 1,
@@ -1152,7 +1153,7 @@
   },
   "8585": {
    "pass": 50,
-   "rating": 6.92,
+   "rating": 6.93,
    "min": 47,
    "pass_pct": 94,
    "tkl": 1,
@@ -1167,7 +1168,7 @@
   "37342595": {
    "touches": 73,
    "pass": 65,
-   "rating": 6.99,
+   "rating": 7.11,
    "min": 47,
    "pass_pct": 94,
    "int": 1,
@@ -1180,7 +1181,7 @@
   },
   "37732189": {
    "pass": 25,
-   "rating": 6.69,
+   "rating": 6.7,
    "duels_t": 3,
    "duels": 2,
    "min": 47,
@@ -1193,14 +1194,17 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 7.12,
-   "clr": 2,
+   "rating": 7.34,
+   "clr": 3,
    "min": 47,
-   "pass": 38,
+   "pass": 40,
    "pass_pct": 90,
    "kp": 2,
    "int": 1,
-   "touches": 55,
+   "touches": 59,
+   "duels_t": 1,
+   "tkl": 1,
+   "duels": 1,
    "side": "away",
    "name": "Kieran Tierney"
   },
@@ -1218,10 +1222,10 @@
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 6.3,
+   "rating": 6.25,
    "min": 47,
-   "pass": 33,
-   "touches": 38,
+   "pass": 34,
+   "touches": 39,
    "pass_pct": 81,
    "clr": 2,
    "duels_t": 1,
@@ -1230,10 +1234,10 @@
    "name": "Stephen O'Donnell"
   },
   "21036704": {
-   "rating": 6.6,
+   "rating": 6.77,
    "min": 47,
    "kp": 1,
-   "touches": 33,
+   "touches": 34,
    "pass": 21,
    "clr": 7,
    "pass_pct": 77,
@@ -1256,8 +1260,8 @@
    "name": "Tom Sparrow"
   },
   "2823438": {
-   "touches": 35,
-   "rating": 7.02,
+   "touches": 34,
+   "rating": 6.94,
    "pass": 26,
    "duels_t": 3,
    "min": 47,
@@ -1271,7 +1275,7 @@
    "name": "Lukas Fadinger"
   },
   "37260641": {
-   "rating": 6.44,
+   "rating": 6.39,
    "pass": 18,
    "clr": 3,
    "min": 47,
@@ -1285,25 +1289,26 @@
    "name": "Alex Lowry"
   },
   "4969690": {
-   "rating": 6.26,
-   "pass": 12,
+   "rating": 6.37,
+   "pass": 13,
    "min": 47,
-   "touches": 25,
+   "touches": 26,
    "pass_pct": 100,
    "clr": 2,
    "side": "home",
    "name": "Emmanuel Longelo"
   },
   "37550449": {
-   "rating": 6.49,
+   "rating": 6.47,
    "sh": 1,
-   "pass": 11,
+   "pass": 9,
    "min": 47,
    "pass_pct": 71,
-   "touches": 17,
+   "touches": 16,
    "duels_t": 5,
    "int": 1,
    "duels": 2,
+   "clr": 1,
    "side": "home",
    "name": "S. Palmer-Houlden"
   },
@@ -1319,10 +1324,10 @@
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "rating": 6.38,
+   "rating": 6.54,
    "pass": 14,
    "min": 47,
-   "touches": 21,
+   "touches": 22,
    "fouls": 2,
    "duels_t": 4,
    "pass_pct": 70,
@@ -1494,5 +1499,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2406
+ "rate_remaining": 2375
 }
