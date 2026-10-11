@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:22:00.295988+00:00",
+ "updated_at": "2026-10-11T12:24:30.339023+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 62,
+ "minute": 64,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -374,7 +374,7 @@
  ],
  "stats": {
   "Corners": {
-   "home": 1,
+   "home": 2,
    "away": 6
   },
   "Shots Off Target": {
@@ -382,27 +382,27 @@
    "away": 3
   },
   "Shots Total": {
-   "home": 2,
+   "home": 3,
    "away": 20
   },
   "Attacks": {
-   "home": 58,
-   "away": 98
+   "home": 61,
+   "away": 100
   },
   "Dangerous Attacks": {
-   "home": 22,
-   "away": 76
+   "home": 31,
+   "away": 79
   },
   "Ball Possession %": {
-   "home": 33,
-   "away": 67
+   "home": 34,
+   "away": 66
   },
   "Ball Safe": {
    "home": 29,
    "away": 37
   },
   "Shots Insidebox": {
-   "home": 1,
+   "home": 2,
    "away": 16
   },
   "Shots Outsidebox": {
@@ -438,7 +438,7 @@
    "away": 1
   },
   "Shots Blocked": {
-   "home": 1,
+   "home": 2,
    "away": 6
   },
   "Substitutions": {
@@ -453,28 +453,32 @@
    "home": 28,
    "away": 33
   },
+  "Hit Woodwork": {
+   "home": 0,
+   "away": 1
+  },
   "Successful Headers": {
-   "home": 3,
-   "away": 5
+   "home": 4,
+   "away": 6
   },
   "Tackles": {
    "home": 9,
-   "away": 7
+   "away": 9
   },
   "Assists": {
    "home": 0,
    "away": 1
   },
   "Passes": {
-   "home": 265,
-   "away": 550
+   "home": 283,
+   "away": 558
   },
   "Successful Passes": {
-   "home": 223,
-   "away": 508
+   "home": 240,
+   "away": 515
   },
   "Successful Passes Percentage": {
-   "home": 84,
+   "home": 85,
    "away": 92
   },
   "Yellowcards": {
@@ -490,23 +494,23 @@
    "away": 0
   },
   "Total Crosses": {
-   "home": 12,
+   "home": 17,
    "away": 29
   },
   "Accurate Crosses": {
-   "home": 0,
-   "away": 5
+   "home": 1,
+   "away": 6
   },
   "Interceptions": {
-   "home": 3,
+   "home": 4,
    "away": 6
   },
   "Duels Won": {
-   "home": 14,
-   "away": 19
+   "home": 15,
+   "away": 22
   },
   "Dribble Attempts": {
-   "home": 3,
+   "home": 5,
    "away": 9
   },
   "Successful Dribbles": {
@@ -526,7 +530,7 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 33,
+   "home": 20,
    "away": 44
   },
   "Successful Long Passes": {
@@ -539,7 +543,7 @@
   },
   "Tackles Won": {
    "home": 5,
-   "away": 4
+   "away": 5
   }
  },
  "next_fixtures": [],
@@ -1098,7 +1102,7 @@
  "player_stats": {
   "529045": {
    "rating": 6.91,
-   "pass": 33,
+   "pass": 34,
    "touches": 39,
    "min": 61,
    "pass_pct": 100,
@@ -1108,9 +1112,9 @@
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 114,
+   "pass": 115,
    "touches": 122,
-   "rating": 7.44,
+   "rating": 7.45,
    "clr": 3,
    "duels_t": 1,
    "min": 61,
@@ -1120,7 +1124,7 @@
    "name": "Liam Scales"
   },
   "19979885": {
-   "pass": 29,
+   "pass": 31,
    "rating": 7.58,
    "min": 61,
    "pass_pct": 89,
@@ -1151,7 +1155,7 @@
   },
   "37709508": {
    "touches": 35,
-   "rating": 7.71,
+   "rating": 7.45,
    "pass": 30,
    "min": 61,
    "g": 1,
@@ -1166,7 +1170,7 @@
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 7.19,
+   "rating": 7.27,
    "duels": 3,
    "duels_t": 8,
    "pass": 46,
@@ -1183,7 +1187,7 @@
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 7.8,
+   "rating": 7.69,
    "min": 61,
    "duels_t": 5,
    "pass": 42,
@@ -1216,8 +1220,8 @@
   },
   "37342595": {
    "touches": 90,
-   "pass": 82,
-   "rating": 7.23,
+   "pass": 83,
+   "rating": 7.24,
    "min": 61,
    "pass_pct": 92,
    "int": 1,
@@ -1230,8 +1234,8 @@
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 31,
-   "rating": 6.9,
+   "pass": 34,
+   "rating": 6.91,
    "duels_t": 5,
    "duels": 3,
    "min": 61,
@@ -1245,7 +1249,7 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 7.99,
+   "rating": 8.02,
    "clr": 4,
    "min": 61,
    "pass": 53,
@@ -1275,9 +1279,9 @@
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 5.64,
+   "rating": 5.65,
    "min": 61,
-   "pass": 42,
+   "pass": 43,
    "touches": 51,
    "pass_pct": 85,
    "clr": 4,
@@ -1287,11 +1291,11 @@
    "name": "Stephen O'Donnell"
   },
   "21036704": {
-   "rating": 6.76,
+   "rating": 6.77,
    "min": 61,
    "kp": 1,
    "touches": 41,
-   "pass": 25,
+   "pass": 28,
    "clr": 7,
    "pass_pct": 76,
    "int": 1,
@@ -1302,7 +1306,7 @@
   },
   "28912717": {
    "rating": 6.13,
-   "pass": 30,
+   "pass": 32,
    "min": 61,
    "touches": 47,
    "duels_t": 4,
@@ -1329,7 +1333,7 @@
   },
   "37260641": {
    "rating": 6.33,
-   "pass": 20,
+   "pass": 21,
    "clr": 3,
    "min": 61,
    "duels": 1,
@@ -1345,14 +1349,14 @@
    "touches": 3,
    "min": 1,
    "duels_t": 1,
-   "pass": 1,
+   "pass": 5,
    "pass_pct": 100,
    "side": "home",
    "name": "Ibrahim Said"
   },
   "4969690": {
    "rating": 6.27,
-   "pass": 19,
+   "pass": 21,
    "min": 61,
    "touches": 35,
    "pass_pct": 100,
@@ -1361,8 +1365,8 @@
    "name": "Emmanuel Longelo"
   },
   "37550449": {
-   "rating": 6.43,
-   "sh": 1,
+   "rating": 6.44,
+   "sh": 2,
    "pass": 11,
    "min": 61,
    "pass_pct": 70,
@@ -1376,7 +1380,7 @@
   },
   "7742181": {
    "touches": 31,
-   "pass": 26,
+   "pass": 27,
    "min": 61,
    "pass_pct": 100,
    "duels_t": 1,
@@ -1386,7 +1390,7 @@
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "pass": 21,
+   "pass": 25,
    "min": 61,
    "touches": 32,
    "fouls": 2,
@@ -1396,7 +1400,7 @@
    "tkl": 2,
    "duels": 3,
    "yc": 1,
-   "rating": 6.65,
+   "rating": 6.66,
    "side": "home",
    "name": "Joe Hodge"
   },
@@ -1651,7 +1655,21 @@
    "t": "Camilo Duran takes a left-footed shot, but it is saved.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 61,
+   "x": null,
+   "t": "Corner awarded.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 63,
+   "x": null,
+   "t": "Corner awarded.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2496
+ "rate_remaining": 2488
 }
