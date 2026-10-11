@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:07:00.342924+00:00",
+ "updated_at": "2026-10-11T12:09:30.355334+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 47,
+ "minute": 49,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -359,15 +359,15 @@
   },
   "Shots Total": {
    "home": 2,
-   "away": 10
+   "away": 12
   },
   "Attacks": {
    "home": 48,
-   "away": 78
+   "away": 82
   },
   "Dangerous Attacks": {
    "home": 19,
-   "away": 55
+   "away": 57
   },
   "Ball Possession %": {
    "home": 34,
@@ -379,7 +379,7 @@
   },
   "Shots Insidebox": {
    "home": 1,
-   "away": 7
+   "away": 9
   },
   "Shots Outsidebox": {
    "home": 1,
@@ -415,15 +415,15 @@
   },
   "Shots Blocked": {
    "home": 1,
-   "away": 3
+   "away": 4
   },
   "Throwins": {
-   "home": 16,
-   "away": 10
+   "home": 17,
+   "away": 11
   },
   "Long Passes": {
-   "home": 24,
-   "away": 24
+   "home": 26,
+   "away": 26
   },
   "Successful Headers": {
    "home": 3,
@@ -434,12 +434,12 @@
    "away": 6
   },
   "Passes": {
-   "home": 217,
-   "away": 423
+   "home": 227,
+   "away": 438
   },
   "Successful Passes": {
-   "home": 183,
-   "away": 391
+   "home": 190,
+   "away": 403
   },
   "Successful Passes Percentage": {
    "home": 84,
@@ -451,7 +451,7 @@
   },
   "Shots On Target": {
    "home": 1,
-   "away": 5
+   "away": 6
   },
   "Injuries": {
    "home": 1,
@@ -459,11 +459,11 @@
   },
   "Total Crosses": {
    "home": 11,
-   "away": 20
+   "away": 21
   },
   "Accurate Crosses": {
    "home": 0,
-   "away": 2
+   "away": 3
   },
   "Interceptions": {
    "home": 2,
@@ -483,7 +483,7 @@
   },
   "Key Passes": {
    "home": 2,
-   "away": 6
+   "away": 7
   },
   "Successful Dribbles Percentage": {
    "home": 0,
@@ -491,11 +491,11 @@
   },
   "Successful Long Passes": {
    "home": 9,
-   "away": 18
+   "away": 19
   },
   "Successful Long Passes Percentage": {
-   "home": 38,
-   "away": 75
+   "home": 35,
+   "away": 73
   },
   "Tackles Won": {
    "home": 4,
@@ -1058,7 +1058,7 @@
  "player_stats": {
   "529045": {
    "rating": 6.8,
-   "pass": 23,
+   "pass": 24,
    "touches": 27,
    "min": 45,
    "pass_pct": 100,
@@ -1068,9 +1068,9 @@
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 89,
+   "pass": 91,
    "touches": 95,
-   "rating": 7.25,
+   "rating": 7.24,
    "clr": 3,
    "duels_t": 1,
    "min": 45,
@@ -1080,8 +1080,8 @@
   },
   "19979885": {
    "touches": 23,
-   "pass": 22,
-   "rating": 6.69,
+   "pass": 23,
+   "rating": 6.68,
    "min": 45,
    "pass_pct": 89,
    "duels": 1,
@@ -1090,11 +1090,11 @@
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 6.83,
+   "rating": 6.84,
    "min": 45,
-   "pass": 13,
+   "pass": 14,
    "touches": 16,
-   "sh": 3,
+   "sh": 4,
    "pass_pct": 73,
    "duels_t": 1,
    "duels": 1,
@@ -1104,7 +1104,7 @@
   "37709508": {
    "touches": 25,
    "rating": 7.5,
-   "pass": 20,
+   "pass": 21,
    "min": 45,
    "g": 1,
    "sh": 2,
@@ -1118,27 +1118,27 @@
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 6.93,
+   "rating": 7.11,
    "duels": 3,
    "duels_t": 8,
-   "pass": 34,
+   "pass": 36,
    "tkl": 1,
    "min": 45,
    "touches": 51,
    "pass_pct": 85,
-   "sot": 1,
+   "sot": 2,
    "int": 1,
-   "sh": 1,
+   "sh": 2,
    "kp": 2,
    "clr": 1,
    "side": "away",
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 7.14,
+   "rating": 7.11,
    "min": 45,
    "duels_t": 3,
-   "pass": 32,
+   "pass": 33,
    "sot": 2,
    "sh": 3,
    "pass_pct": 93,
@@ -1151,7 +1151,7 @@
    "name": "Mika Joel Baur"
   },
   "8585": {
-   "pass": 54,
+   "pass": 56,
    "rating": 6.96,
    "min": 45,
    "pass_pct": 96,
@@ -1166,7 +1166,7 @@
   },
   "37342595": {
    "touches": 73,
-   "pass": 68,
+   "pass": 69,
    "rating": 7.1,
    "min": 45,
    "pass_pct": 92,
@@ -1179,8 +1179,8 @@
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 27,
-   "rating": 6.67,
+   "pass": 28,
+   "rating": 6.69,
    "duels_t": 3,
    "duels": 2,
    "min": 45,
@@ -1196,7 +1196,7 @@
    "rating": 7.33,
    "clr": 3,
    "min": 45,
-   "pass": 41,
+   "pass": 43,
    "pass_pct": 95,
    "kp": 2,
    "int": 1,
@@ -1208,10 +1208,10 @@
    "name": "Kieran Tierney"
   },
   "24469041": {
-   "rating": 7.29,
+   "rating": 7.27,
    "touches": 39,
    "min": 45,
-   "pass": 28,
+   "pass": 30,
    "clr": 2,
    "duels_t": 1,
    "duels": 1,
@@ -1223,7 +1223,7 @@
   "12321": {
    "rating": 6.25,
    "min": 45,
-   "pass": 36,
+   "pass": 38,
    "touches": 40,
    "pass_pct": 85,
    "clr": 3,
@@ -1248,7 +1248,7 @@
   },
   "28912717": {
    "rating": 6.28,
-   "pass": 25,
+   "pass": 26,
    "min": 45,
    "touches": 41,
    "duels_t": 4,
@@ -1261,7 +1261,7 @@
   "2823438": {
    "touches": 35,
    "rating": 6.95,
-   "pass": 26,
+   "pass": 27,
    "duels_t": 3,
    "min": 45,
    "tkl": 3,
@@ -1289,7 +1289,7 @@
   },
   "4969690": {
    "rating": 6.37,
-   "pass": 13,
+   "pass": 14,
    "min": 45,
    "touches": 26,
    "pass_pct": 100,
@@ -1300,7 +1300,7 @@
   "37550449": {
    "rating": 6.49,
    "sh": 1,
-   "pass": 10,
+   "pass": 11,
    "min": 45,
    "pass_pct": 70,
    "touches": 16,
@@ -1314,7 +1314,7 @@
   "7742181": {
    "rating": 6.41,
    "touches": 25,
-   "pass": 21,
+   "pass": 22,
    "min": 45,
    "pass_pct": 100,
    "duels_t": 1,
@@ -1323,8 +1323,8 @@
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "rating": 6.5,
-   "pass": 14,
+   "rating": 6.51,
+   "pass": 15,
    "min": 45,
    "touches": 22,
    "fouls": 2,
@@ -1497,7 +1497,21 @@
    "t": "First half ends with a score of 0-1.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 47,
+   "x": null,
+   "t": "Corner awarded.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 47,
+   "x": null,
+   "t": "Sebastian Tounekti takes a shot with his right foot, but it's saved.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2360
+ "rate_remaining": 2352
 }
