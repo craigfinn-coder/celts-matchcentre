@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:43:00.404841+00:00",
+ "updated_at": "2026-10-11T12:43:30.335516+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -456,16 +456,28 @@
    "info": null
   },
   {
-   "id": 158181256,
-   "minute": 82,
+   "id": 158181275,
+   "minute": 83,
    "extra": null,
-   "type": "Yellowcard",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Kieran Tierney",
-   "related": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Motherwell",
+   "player": "Tawanda Jethro Maswanhise",
+   "related": "Alex Lowry",
    "result": null,
-   "info": "Foul"
+   "info": null
+  },
+  {
+   "id": 158181276,
+   "minute": 83,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Motherwell",
+   "player": "Jake Girdwood-Reich",
+   "related": "Stephen O'Donnell",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -478,15 +490,15 @@
    "away": 3
   },
   "Shots Total": {
-   "home": 7,
-   "away": 24
+   "home": 6,
+   "away": 23
   },
   "Attacks": {
    "home": 76,
    "away": 121
   },
   "Dangerous Attacks": {
-   "home": 42,
+   "home": 43,
    "away": 98
   },
   "Ball Possession %": {
@@ -534,11 +546,11 @@
    "away": 2
   },
   "Shots Blocked": {
-   "home": 3,
+   "home": 2,
    "away": 7
   },
   "Substitutions": {
-   "home": 3,
+   "home": 5,
    "away": 5
   },
   "Throwins": {
@@ -583,7 +595,7 @@
   },
   "Shots On Target": {
    "home": 2,
-   "away": 14
+   "away": 13
   },
   "Injuries": {
    "home": 1,
@@ -638,8 +650,8 @@
    "away": 73
   },
   "Tackles Won": {
-   "home": 7,
-   "away": 7
+   "home": 5,
+   "away": 6
   }
  },
  "next_fixtures": [],
@@ -1992,5 +2004,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2433
+ "rate_remaining": 2431
 }
