@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-11T11:29:19+00:00",
+ "updated": "2026-10-11T16:42:39+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 12,
-  "w": 8,
+  "p": 13,
+  "w": 9,
   "d": 0,
   "l": 4,
-  "gf": 23,
+  "gf": 25,
   "ga": 15
  },
  "fixtures": [
@@ -400,18 +400,18 @@
    "ha": "A",
    "opp": "Motherwell",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
-   "state": "INPLAY_1ST_HALF",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
    "score": {
     "home": 0,
-    "away": 1
+    "away": 2
    },
    "half_time": {
     "home": 0,
     "away": 1
    },
-   "result": null,
+   "result": "W",
    "tv": []
   },
   {
