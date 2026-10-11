@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T11:09:00.392642+00:00",
+ "updated_at": "2026-10-11T11:10:00.322879+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,16 +311,16 @@
  },
  "state": "INPLAY_1ST_HALF",
  "state_name": "1st Half",
- "minute": 7,
+ "minute": 8,
  "minute_estimated": false,
  "added_time": null,
  "score": {
   "home": 0,
-  "away": 0
+  "away": 1
  },
  "half_time": {
   "home": 0,
-  "away": 0
+  "away": 1
  },
  "events": [],
  "stats": {
@@ -333,16 +333,16 @@
    "away": 0
   },
   "Attacks": {
-   "home": 5,
-   "away": 8
+   "home": 6,
+   "away": 11
   },
   "Dangerous Attacks": {
    "home": 2,
-   "away": 6
+   "away": 7
   },
   "Ball Possession %": {
-   "home": 38,
-   "away": 62
+   "home": 44,
+   "away": 56
   },
   "Shots Outsidebox": {
    "home": 1,
@@ -369,32 +369,36 @@
    "away": 2
   },
   "Long Passes": {
-   "home": 3,
-   "away": 5
+   "home": 5,
+   "away": 6
   },
   "Tackles": {
    "home": 3,
-   "away": 2
+   "away": 3
   },
   "Passes": {
-   "home": 30,
-   "away": 48
+   "home": 43,
+   "away": 52
   },
   "Successful Passes": {
-   "home": 27,
-   "away": 44
+   "home": 38,
+   "away": 45
   },
   "Successful Passes Percentage": {
-   "home": 90,
-   "away": 92
+   "home": 88,
+   "away": 87
   },
   "Total Crosses": {
    "home": 1,
-   "away": 2
+   "away": 3
+  },
+  "Accurate Crosses": {
+   "home": 0,
+   "away": 1
   },
   "Duels Won": {
    "home": 3,
-   "away": 3
+   "away": 4
   },
   "Dribble Attempts": {
    "home": 0,
@@ -413,8 +417,8 @@
    "away": 4
   },
   "Successful Long Passes Percentage": {
-   "home": 100,
-   "away": 80
+   "home": 60,
+   "away": 67
   },
   "Tackles Won": {
    "home": 2,
@@ -983,7 +987,7 @@
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 13,
+   "pass": 14,
    "touches": 2,
    "rating": 6.71,
    "tkl": 1,
@@ -996,7 +1000,7 @@
   },
   "19979885": {
    "touches": 1,
-   "pass": 3,
+   "pass": 4,
    "rating": 6.47,
    "min": 1,
    "side": "away",
@@ -1019,11 +1023,11 @@
   },
   "15169863": {
    "rating": 6.45,
-   "duels": 1,
-   "duels_t": 3,
+   "duels": 2,
+   "duels_t": 4,
    "pass": 3,
    "min": 1,
-   "tkl": 1,
+   "tkl": 2,
    "side": "away",
    "name": "Sebastian Tounekti"
   },
@@ -1036,14 +1040,14 @@
   },
   "8585": {
    "rating": 6.47,
-   "pass": 5,
+   "pass": 6,
    "min": 1,
    "side": "away",
    "name": "Callum McGregor"
   },
   "37342595": {
    "touches": 4,
-   "pass": 13,
+   "pass": 14,
    "rating": 6.43,
    "min": 1,
    "clr": 1,
@@ -1070,14 +1074,14 @@
   "24469041": {
    "rating": 6.51,
    "min": 1,
-   "pass": 4,
+   "pass": 6,
    "side": "home",
    "name": "Alex Paulsen"
   },
   "12321": {
    "rating": 6.44,
    "min": 1,
-   "pass": 7,
+   "pass": 11,
    "side": "home",
    "name": "Stephen O'Donnell"
   },
@@ -1091,7 +1095,7 @@
   },
   "28912717": {
    "rating": 6.35,
-   "pass": 3,
+   "pass": 5,
    "min": 1,
    "side": "home",
    "name": "Tom Sparrow"
@@ -1108,10 +1112,11 @@
   },
   "37260641": {
    "rating": 6.56,
-   "pass": 3,
+   "pass": 5,
+   "clr": 1,
    "min": 1,
    "duels": 1,
-   "duels_t": 1,
+   "duels_t": 2,
    "tkl": 1,
    "side": "home",
    "name": "Alex Lowry"
@@ -1132,7 +1137,7 @@
   },
   "7742181": {
    "rating": 6.48,
-   "pass": 1,
+   "pass": 4,
    "min": 1,
    "side": "home",
    "name": "Dylan Levitt"
@@ -1176,7 +1181,14 @@
    "t": "Corner awarded.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 7,
+   "x": null,
+   "t": "Offside.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2455
+ "rate_remaining": 2452
 }
