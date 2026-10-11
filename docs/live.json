@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:31:30.369198+00:00",
+ "updated_at": "2026-10-11T12:32:00.304750+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 71,
+ "minute": 72,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -378,8 +378,8 @@
    "type": "Substitution",
    "side": "home",
    "team": "Motherwell",
-   "player": "Jardell Kanga",
-   "related": "S. Palmer-Houlden",
+   "player": "Eythor Bjørgolfsson",
+   "related": "Dylan Levitt",
    "result": null,
    "info": null
   },
@@ -390,8 +390,8 @@
    "type": "Substitution",
    "side": "home",
    "team": "Motherwell",
-   "player": null,
-   "related": null,
+   "player": "Jardell Kanga",
+   "related": "S. Palmer-Houlden",
    "result": null,
    "info": null
   }
@@ -410,16 +410,16 @@
    "away": 22
   },
   "Attacks": {
-   "home": 68,
+   "home": 69,
    "away": 112
   },
   "Dangerous Attacks": {
-   "home": 36,
+   "home": 37,
    "away": 86
   },
   "Ball Possession %": {
-   "home": 32,
-   "away": 68
+   "home": 33,
+   "away": 67
   },
   "Ball Safe": {
    "home": 29,
@@ -431,7 +431,7 @@
   },
   "Shots Outsidebox": {
    "home": 1,
-   "away": 5
+   "away": 6
   },
   "Offsides": {
    "home": 0,
@@ -459,7 +459,7 @@
   },
   "Saves": {
    "home": 11,
-   "away": 1
+   "away": 2
   },
   "Shots Blocked": {
    "home": 2,
@@ -470,11 +470,11 @@
    "away": 0
   },
   "Throwins": {
-   "home": 19,
+   "home": 21,
    "away": 16
   },
   "Long Passes": {
-   "home": 30,
+   "home": 33,
    "away": 36
   },
   "Hit Woodwork": {
@@ -494,15 +494,15 @@
    "away": 1
   },
   "Passes": {
-   "home": 299,
-   "away": 638
+   "home": 312,
+   "away": 639
   },
   "Successful Passes": {
-   "home": 252,
-   "away": 592
+   "home": 264,
+   "away": 593
   },
   "Successful Passes Percentage": {
-   "home": 84,
+   "home": 85,
    "away": 93
   },
   "Yellowcards": {
@@ -518,7 +518,7 @@
    "away": 0
   },
   "Total Crosses": {
-   "home": 18,
+   "home": 19,
    "away": 31
   },
   "Accurate Crosses": {
@@ -558,11 +558,11 @@
    "away": 44
   },
   "Successful Long Passes": {
-   "home": 10,
+   "home": 13,
    "away": 28
   },
   "Successful Long Passes Percentage": {
-   "home": 33,
+   "home": 39,
    "away": 78
   },
   "Tackles Won": {
@@ -1125,8 +1125,8 @@
  },
  "player_stats": {
   "529045": {
-   "rating": 6.93,
-   "pass": 40,
+   "rating": 7.02,
+   "pass": 44,
    "touches": 51,
    "min": 71,
    "pass_pct": 100,
@@ -1136,9 +1136,9 @@
    "name": "Viljami Sinisalo"
   },
   "123659": {
-   "pass": 124,
+   "pass": 126,
    "touches": 137,
-   "rating": 7.69,
+   "rating": 7.78,
    "clr": 4,
    "duels_t": 4,
    "min": 71,
@@ -1146,12 +1146,14 @@
    "kp": 1,
    "tkl": 1,
    "duels": 2,
+   "sot": 1,
+   "sh": 1,
    "side": "away",
    "name": "Liam Scales"
   },
   "19979885": {
    "pass": 36,
-   "rating": 7.62,
+   "rating": 7.63,
    "min": 71,
    "pass_pct": 89,
    "duels": 2,
@@ -1165,7 +1167,7 @@
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 7.3,
+   "rating": 7.23,
    "min": 71,
    "pass": 20,
    "touches": 31,
@@ -1181,8 +1183,8 @@
   },
   "37709508": {
    "touches": 47,
-   "rating": 7.49,
-   "pass": 38,
+   "rating": 7.52,
+   "pass": 39,
    "min": 71,
    "g": 1,
    "sh": 3,
@@ -1196,10 +1198,10 @@
    "name": "Camilo Durán"
   },
   "15169863": {
-   "rating": 7.43,
+   "rating": 7.4,
    "duels": 4,
    "duels_t": 10,
-   "pass": 49,
+   "pass": 50,
    "tkl": 2,
    "min": 71,
    "touches": 74,
@@ -1213,10 +1215,10 @@
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 7.8,
+   "rating": 7.89,
    "min": 71,
    "duels_t": 5,
-   "pass": 47,
+   "pass": 49,
    "sot": 3,
    "sh": 5,
    "pass_pct": 93,
@@ -1229,7 +1231,7 @@
    "name": "Mika Joel Baur"
   },
   "8585": {
-   "pass": 79,
+   "pass": 80,
    "min": 71,
    "pass_pct": 96,
    "tkl": 1,
@@ -1239,7 +1241,7 @@
    "clr": 2,
    "int": 1,
    "sh": 2,
-   "rating": 7.41,
+   "rating": 7.4,
    "kp": 1,
    "sot": 1,
    "side": "away",
@@ -1247,8 +1249,8 @@
   },
   "37342595": {
    "touches": 101,
-   "pass": 89,
-   "rating": 7.35,
+   "pass": 91,
+   "rating": 7.39,
    "min": 71,
    "pass_pct": 92,
    "int": 1,
@@ -1261,8 +1263,8 @@
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 42,
-   "rating": 7.09,
+   "pass": 43,
+   "rating": 7.36,
    "duels_t": 5,
    "duels": 3,
    "min": 71,
@@ -1277,7 +1279,7 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 8.05,
+   "rating": 8.16,
    "clr": 5,
    "min": 71,
    "pass": 61,
@@ -1294,10 +1296,10 @@
    "name": "Kieran Tierney"
   },
   "24469041": {
-   "rating": 8.56,
+   "rating": 8.98,
    "touches": 53,
    "min": 71,
-   "pass": 34,
+   "pass": 35,
    "clr": 2,
    "duels_t": 2,
    "duels": 1,
@@ -1307,9 +1309,9 @@
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 5.65,
+   "rating": 5.84,
    "min": 71,
-   "pass": 43,
+   "pass": 45,
    "touches": 55,
    "pass_pct": 85,
    "clr": 5,
@@ -1323,7 +1325,7 @@
    "min": 71,
    "kp": 1,
    "touches": 46,
-   "pass": 28,
+   "pass": 30,
    "clr": 8,
    "pass_pct": 76,
    "int": 1,
@@ -1333,8 +1335,8 @@
    "name": "Martin Moormann"
   },
   "28912717": {
-   "rating": 6.37,
-   "pass": 35,
+   "rating": 6.38,
+   "pass": 36,
    "min": 71,
    "touches": 55,
    "duels_t": 4,
@@ -1349,7 +1351,7 @@
   },
   "2823438": {
    "touches": 46,
-   "pass": 33,
+   "pass": 36,
    "duels_t": 4,
    "min": 71,
    "tkl": 3,
@@ -1363,7 +1365,7 @@
    "name": "Lukas Fadinger"
   },
   "37260641": {
-   "rating": 6.34,
+   "rating": 6.31,
    "pass": 24,
    "clr": 3,
    "min": 71,
@@ -1376,8 +1378,18 @@
    "side": "home",
    "name": "Alex Lowry"
   },
+  "37565377": {
+   "min": 2,
+   "pass": 2,
+   "side": "home",
+   "name": "Jardell Kanga"
+  },
+  "37574652": {
+   "min": 2,
+   "side": "home",
+   "name": "Eythor Bjørgolfsson"
+  },
   "37341882": {
-   "rating": 6.37,
    "touches": 18,
    "clr": 1,
    "min": 11,
@@ -1388,12 +1400,13 @@
    "duels": 2,
    "pass_pct": 88,
    "bcc": 1,
+   "rating": 6.77,
    "side": "home",
    "name": "Ibrahim Said"
   },
   "4969690": {
    "rating": 6.36,
-   "pass": 24,
+   "pass": 26,
    "min": 71,
    "touches": 42,
    "pass_pct": 100,
@@ -1403,7 +1416,7 @@
    "name": "Emmanuel Longelo"
   },
   "37550449": {
-   "rating": 6.5,
+   "rating": 6.06,
    "sh": 4,
    "pass": 11,
    "min": 71,
@@ -1424,7 +1437,7 @@
    "pass_pct": 100,
    "duels_t": 1,
    "clr": 2,
-   "rating": 6.34,
+   "rating": 6.35,
    "side": "home",
    "name": "Dylan Levitt"
   },
@@ -1723,7 +1736,28 @@
    "t": "Corner awarded.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 69,
+   "x": null,
+   "t": "Kasper Waarst Hogh takes a right-footed shot, but it is blocked.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 70,
+   "x": null,
+   "t": "Callum McGregor takes a left-footed shot, but it's saved.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 71,
+   "x": null,
+   "t": "Jardell Kanga is substituted for Seb Palmer-Houlden.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2467
+ "rate_remaining": 2466
 }
