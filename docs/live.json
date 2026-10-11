@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-11T10:57:00.493284+00:00",
- "live": false,
+ "updated_at": "2026-10-11T11:02:00.296003+00:00",
+ "live": true,
  "fixture": {
   "id": 19722777,
   "kickoff_utc": "2026-10-11 11:00:00",
@@ -309,9 +309,9 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "NS",
- "state_name": "Not Started",
- "minute": null,
+ "state": "INPLAY_1ST_HALF",
+ "state_name": "1st Half",
+ "minute": 0,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -323,11 +323,42 @@
   "away": 0
  },
  "events": [],
- "stats": {},
+ "stats": {
+  "Ball Possession %": {
+   "home": 0,
+   "away": 100
+  },
+  "Passes": {
+   "home": 0,
+   "away": 1
+  },
+  "Successful Passes": {
+   "home": 0,
+   "away": 1
+  },
+  "Successful Passes Percentage": {
+   "home": 0,
+   "away": 100
+  }
+ },
  "next_fixtures": [],
  "standings": [
   {
    "pos": 1,
+   "team": "Celtic",
+   "team_id": 53,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "pts": 19,
+   "p": 7,
+   "w": 6,
+   "d": 0,
+   "l": 1,
+   "gf": 14,
+   "ga": 4,
+   "gd": 10
+  },
+  {
+   "pos": 2,
    "team": "Rangers",
    "team_id": 62,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
@@ -339,20 +370,6 @@
    "gf": 11,
    "ga": 5,
    "gd": 6
-  },
-  {
-   "pos": 2,
-   "team": "Celtic",
-   "team_id": 53,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "pts": 18,
-   "p": 7,
-   "w": 6,
-   "d": 0,
-   "l": 1,
-   "gf": 14,
-   "ga": 4,
-   "gd": 10
   },
   {
    "pos": 3,
@@ -412,6 +429,20 @@
   },
   {
    "pos": 7,
+   "team": "Motherwell",
+   "team_id": 309,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
+   "pts": 9,
+   "p": 7,
+   "w": 2,
+   "d": 2,
+   "l": 3,
+   "gf": 9,
+   "ga": 11,
+   "gd": -2
+  },
+  {
+   "pos": 8,
    "team": "St. Johnstone",
    "team_id": 734,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
@@ -425,7 +456,7 @@
    "gd": -1
   },
   {
-   "pos": 8,
+   "pos": 9,
    "team": "Aberdeen",
    "team_id": 273,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
@@ -437,20 +468,6 @@
    "gf": 7,
    "ga": 8,
    "gd": -1
-  },
-  {
-   "pos": 9,
-   "team": "Motherwell",
-   "team_id": 309,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
-   "pts": 8,
-   "p": 7,
-   "w": 2,
-   "d": 2,
-   "l": 3,
-   "gf": 9,
-   "ga": 11,
-   "gd": -2
   },
   {
    "pos": 10,
@@ -495,7 +512,7 @@
    "gd": -11
   }
  ],
- "live_table": false,
+ "live_table": true,
  "form": {
   "home": [
    {
@@ -877,5 +894,14 @@
    "rating": 7.13
   }
  },
- "rate_remaining": 2491
+ "player_stats": {
+  "19979885": {
+   "touches": 1,
+   "pass": 1,
+   "rating": 5.97,
+   "side": "away",
+   "name": "Benjamin Nygren"
+  }
+ },
+ "rate_remaining": 2476
 }
