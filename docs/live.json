@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:42:30.334239+00:00",
+ "updated_at": "2026-10-11T12:43:00.404841+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 82,
+ "minute": 83,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -454,6 +454,18 @@
    "related": "Kieran Tierney",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158181256,
+   "minute": 82,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Kieran Tierney",
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
@@ -478,8 +490,8 @@
    "away": 98
   },
   "Ball Possession %": {
-   "home": 33,
-   "away": 67
+   "home": 34,
+   "away": 66
   },
   "Ball Safe": {
    "home": 29,
@@ -527,7 +539,7 @@
   },
   "Substitutions": {
    "home": 3,
-   "away": 4
+   "away": 5
   },
   "Throwins": {
    "home": 24,
@@ -554,11 +566,11 @@
    "away": 1
   },
   "Passes": {
-   "home": 345,
+   "home": 353,
    "away": 699
   },
   "Successful Passes": {
-   "home": 293,
+   "home": 301,
    "away": 646
   },
   "Successful Passes Percentage": {
@@ -1195,6 +1207,11 @@
    "side": "away",
    "name": "Viljami Sinisalo"
   },
+  "198116": {
+   "min": 2,
+   "side": "away",
+   "name": "Jordan Lotomba"
+  },
   "123659": {
    "pass": 137,
    "touches": 153,
@@ -1213,8 +1230,8 @@
   },
   "163711": {
    "min": 7,
-   "pass": 7,
-   "pass_pct": 57,
+   "pass": 8,
+   "pass_pct": 63,
    "duels": 1,
    "duels_t": 1,
    "touches": 8,
@@ -1288,6 +1305,8 @@
   },
   "23698076": {
    "min": 3,
+   "pass": 1,
+   "pass_pct": 100,
    "side": "away",
    "name": "Oliver Sørensen"
   },
@@ -1325,7 +1344,9 @@
    "duels_t": 2,
    "touches": 4,
    "sh": 1,
-   "rating": 6.5,
+   "rating": 6.48,
+   "pass": 1,
+   "pass_pct": 100,
    "side": "away",
    "name": "Shumaira Mheuka"
   },
@@ -1378,10 +1399,10 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 8.11,
+   "rating": 8.14,
    "clr": 5,
    "min": 81,
-   "pass": 64,
+   "pass": 65,
    "pass_pct": 95,
    "kp": 4,
    "int": 3,
@@ -1452,7 +1473,7 @@
   },
   "2823438": {
    "touches": 57,
-   "pass": 42,
+   "pass": 43,
    "duels_t": 6,
    "min": 81,
    "tkl": 3,
@@ -1955,7 +1976,21 @@
    "t": "Shumaira Mheuka takes a right-footed shot, but it is blocked on the line.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 82,
+   "x": null,
+   "t": "Kieran Tierney receives a yellow card.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 83,
+   "x": null,
+   "t": "Jordan Lotomba replaces Kieran Tierney.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2434
+ "rate_remaining": 2433
 }
