@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:02:00.357393+00:00",
+ "updated_at": "2026-10-11T12:04:30.381044+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -471,7 +471,7 @@
   },
   "Duels Won": {
    "home": 12,
-   "away": 16
+   "away": 15
   },
   "Dribble Attempts": {
    "home": 1,
@@ -1081,8 +1081,8 @@
   },
   "19979885": {
    "touches": 21,
-   "pass": 19,
-   "rating": 6.65,
+   "pass": 21,
+   "rating": 6.68,
    "min": 47,
    "pass_pct": 88,
    "duels": 1,
@@ -1152,7 +1152,7 @@
    "name": "Mika Joel Baur"
   },
   "8585": {
-   "pass": 50,
+   "pass": 51,
    "rating": 6.93,
    "min": 47,
    "pass_pct": 94,
@@ -1180,8 +1180,8 @@
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 25,
-   "rating": 6.7,
+   "pass": 24,
+   "rating": 6.69,
    "duels_t": 3,
    "duels": 2,
    "min": 47,
@@ -1408,7 +1408,7 @@
    "key": false
   },
   {
-   "m": 12,
+   "m": 11,
    "x": null,
    "t": "Kasper Waarst Hogh attempts a header but misses the shot.",
    "goal": false,
@@ -1485,13 +1485,6 @@
    "key": false
   },
   {
-   "m": 45,
-   "x": null,
-   "t": "Kasper Waarst Hogh takes a right-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
    "m": null,
    "x": null,
    "t": "First half ends with a score of 0-1.",
@@ -1499,5 +1492,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2375
+ "rate_remaining": 2367
 }
