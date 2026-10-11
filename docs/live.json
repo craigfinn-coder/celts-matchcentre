@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:19:00.357410+00:00",
+ "updated_at": "2026-10-11T12:20:00.326455+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 59,
+ "minute": 60,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -358,6 +358,18 @@
    "related": "Kasper Høgh",
    "result": "0-2",
    "info": "Right foot shot"
+  },
+  {
+   "id": 158180475,
+   "minute": 60,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Motherwell",
+   "player": "Ibrahim Said",
+   "related": "Willy Vogt",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -382,8 +394,8 @@
    "away": 72
   },
   "Ball Possession %": {
-   "home": 32,
-   "away": 68
+   "home": 33,
+   "away": 67
   },
   "Ball Safe": {
    "home": 29,
@@ -429,6 +441,10 @@
    "home": 1,
    "away": 6
   },
+  "Substitutions": {
+   "home": 1,
+   "away": 0
+  },
   "Throwins": {
    "home": 18,
    "away": 15
@@ -445,12 +461,16 @@
    "home": 9,
    "away": 6
   },
+  "Assists": {
+   "home": 0,
+   "away": 1
+  },
   "Passes": {
-   "home": 251,
+   "home": 265,
    "away": 538
   },
   "Successful Passes": {
-   "home": 210,
+   "home": 223,
    "away": 498
   },
   "Successful Passes Percentage": {
@@ -479,7 +499,7 @@
   },
   "Interceptions": {
    "home": 2,
-   "away": 5
+   "away": 6
   },
   "Duels Won": {
    "home": 14,
@@ -495,7 +515,7 @@
   },
   "Key Passes": {
    "home": 2,
-   "away": 13
+   "away": 14
   },
   "Big Chances Created": {
    "home": 0,
@@ -1086,7 +1106,7 @@
   "123659": {
    "pass": 113,
    "touches": 116,
-   "rating": 7.41,
+   "rating": 7.42,
    "clr": 3,
    "duels_t": 1,
    "min": 56,
@@ -1097,7 +1117,7 @@
   },
   "19979885": {
    "pass": 26,
-   "rating": 6.8,
+   "rating": 7.46,
    "min": 56,
    "pass_pct": 89,
    "duels": 1,
@@ -1111,7 +1131,7 @@
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 6.84,
+   "rating": 6.93,
    "min": 56,
    "pass": 18,
    "touches": 22,
@@ -1157,7 +1177,7 @@
    "name": "Sebastian Tounekti"
   },
   "37582048": {
-   "rating": 7.7,
+   "rating": 7.59,
    "min": 56,
    "duels_t": 3,
    "pass": 42,
@@ -1236,10 +1256,10 @@
    "name": "Kieran Tierney"
   },
   "24469041": {
-   "rating": 8.31,
+   "rating": 8.16,
    "touches": 48,
    "min": 56,
-   "pass": 33,
+   "pass": 34,
    "clr": 2,
    "duels_t": 1,
    "duels": 1,
@@ -1249,9 +1269,9 @@
    "name": "Alex Paulsen"
   },
   "12321": {
-   "rating": 6.32,
+   "rating": 6.17,
    "min": 56,
-   "pass": 41,
+   "pass": 42,
    "touches": 48,
    "pass_pct": 85,
    "clr": 4,
@@ -1261,11 +1281,11 @@
    "name": "Stephen O'Donnell"
   },
   "21036704": {
-   "rating": 6.94,
+   "rating": 6.78,
    "min": 56,
    "kp": 1,
    "touches": 39,
-   "pass": 24,
+   "pass": 25,
    "clr": 7,
    "pass_pct": 76,
    "int": 1,
@@ -1275,8 +1295,8 @@
    "name": "Martin Moormann"
   },
   "28912717": {
-   "rating": 6.3,
-   "pass": 29,
+   "rating": 6.12,
+   "pass": 30,
    "min": 56,
    "touches": 45,
    "duels_t": 4,
@@ -1297,13 +1317,13 @@
    "duels": 3,
    "sot": 1,
    "sh": 1,
-   "rating": 7.05,
+   "rating": 6.98,
    "side": "home",
    "name": "Lukas Fadinger"
   },
   "37260641": {
-   "rating": 6.4,
-   "pass": 18,
+   "rating": 6.32,
+   "pass": 20,
    "clr": 3,
    "min": 56,
    "duels": 1,
@@ -1316,8 +1336,8 @@
    "name": "Alex Lowry"
   },
   "4969690": {
-   "rating": 6.42,
-   "pass": 17,
+   "rating": 6.23,
+   "pass": 19,
    "min": 56,
    "touches": 31,
    "pass_pct": 100,
@@ -1326,7 +1346,7 @@
    "name": "Emmanuel Longelo"
   },
   "37550449": {
-   "rating": 6.47,
+   "rating": 6.43,
    "sh": 1,
    "pass": 11,
    "min": 56,
@@ -1341,17 +1361,17 @@
   },
   "7742181": {
    "touches": 29,
-   "pass": 25,
+   "pass": 26,
    "min": 56,
    "pass_pct": 100,
    "duels_t": 1,
    "clr": 1,
-   "rating": 6.42,
+   "rating": 6.33,
    "side": "home",
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "pass": 17,
+   "pass": 21,
    "min": 56,
    "touches": 26,
    "fouls": 2,
@@ -1361,12 +1381,12 @@
    "tkl": 2,
    "duels": 2,
    "yc": 1,
-   "rating": 6.63,
+   "rating": 6.54,
    "side": "home",
    "name": "Joe Hodge"
   },
   "37643521": {
-   "rating": 6.49,
+   "rating": 6.39,
    "duels_t": 1,
    "pass": 5,
    "min": 56,
@@ -1557,10 +1577,17 @@
   {
    "m": 58,
    "x": null,
-   "t": "Goal! Benjamin Nygren scores, making it 0-2.",
-   "goal": true,
+   "t": "Shot by Benjamin Nygren with his left foot results in a goal.",
+   "goal": false,
    "key": true
+  },
+  {
+   "m": 60,
+   "x": null,
+   "t": "Ibrahim Said comes on for Willy Vogt.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2324
+ "rate_remaining": 2321
 }
