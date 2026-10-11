@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-11T12:52:00.408200+00:00",
- "live": true,
+ "updated_at": "2026-10-11T12:53:00.384022+00:00",
+ "live": false,
  "fixture": {
   "id": 19722777,
   "kickoff_utc": "2026-10-11 11:00:00",
@@ -309,11 +309,11 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "INPLAY_2ND_HALF",
- "state_name": "2nd Half",
- "minute": 92,
+ "state": "FT",
+ "state_name": "Full Time",
+ "minute": null,
  "minute_estimated": false,
- "added_time": 3,
+ "added_time": null,
  "score": {
   "home": 0,
   "away": 2
@@ -535,7 +535,7 @@
   },
   "Dangerous Attacks": {
    "home": 45,
-   "away": 105
+   "away": 107
   },
   "Ball Possession %": {
    "home": 34,
@@ -554,7 +554,7 @@
    "away": 6
   },
   "Offsides": {
-   "home": 1,
+   "home": 2,
    "away": 1
   },
   "Goals": {
@@ -590,12 +590,12 @@
    "away": 5
   },
   "Throwins": {
-   "home": 24,
+   "home": 25,
    "away": 20
   },
   "Long Passes": {
-   "home": 36,
-   "away": 45
+   "home": 37,
+   "away": 46
   },
   "Hit Woodwork": {
    "home": 0,
@@ -606,7 +606,7 @@
    "away": 7
   },
   "Tackles": {
-   "home": 15,
+   "home": 16,
    "away": 14
   },
   "Assists": {
@@ -614,15 +614,15 @@
    "away": 1
   },
   "Passes": {
-   "home": 382,
-   "away": 754
+   "home": 386,
+   "away": 757
   },
   "Successful Passes": {
-   "home": 327,
-   "away": 696
+   "home": 330,
+   "away": 698
   },
   "Successful Passes Percentage": {
-   "home": 86,
+   "home": 85,
    "away": 92
   },
   "Yellowcards": {
@@ -650,11 +650,11 @@
    "away": 9
   },
   "Duels Won": {
-   "home": 28,
+   "home": 30,
    "away": 32
   },
   "Dribble Attempts": {
-   "home": 8,
+   "home": 9,
    "away": 16
   },
   "Successful Dribbles": {
@@ -674,19 +674,19 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 25,
+   "home": 22,
    "away": 50
   },
   "Successful Long Passes": {
-   "home": 15,
+   "home": 16,
    "away": 31
   },
   "Successful Long Passes Percentage": {
-   "home": 42,
-   "away": 69
+   "home": 43,
+   "away": 67
   },
   "Tackles Won": {
-   "home": 9,
+   "home": 10,
    "away": 9
   }
  },
@@ -1246,7 +1246,7 @@
  "player_stats": {
   "529045": {
    "rating": 7.19,
-   "pass": 55,
+   "pass": 56,
    "touches": 63,
    "min": 91,
    "pass_pct": 96,
@@ -1261,16 +1261,16 @@
    "pass_pct": 100,
    "pass": 6,
    "fouls": 1,
-   "rating": 6.45,
+   "rating": 6.41,
    "touches": 8,
    "yc": 1,
    "side": "away",
    "name": "Jordan Lotomba"
   },
   "123659": {
-   "pass": 146,
+   "pass": 147,
    "touches": 160,
-   "rating": 8.25,
+   "rating": 8.29,
    "clr": 6,
    "duels_t": 5,
    "min": 91,
@@ -1290,7 +1290,7 @@
    "duels": 1,
    "duels_t": 3,
    "touches": 14,
-   "rating": 6.55,
+   "rating": 6.56,
    "kp": 1,
    "side": "away",
    "name": "Jota"
@@ -1371,7 +1371,7 @@
    "name": "Oliver Sørensen"
   },
   "37582048": {
-   "rating": 8.3,
+   "rating": 8.29,
    "min": 91,
    "duels_t": 9,
    "pass": 64,
@@ -1393,7 +1393,7 @@
    "pass_pct": 88,
    "duels": 1,
    "touches": 13,
-   "rating": 6.65,
+   "rating": 6.67,
    "clr": 1,
    "side": "away",
    "name": "Haissem Hassan"
@@ -1413,7 +1413,7 @@
    "name": "Shumaira Mheuka"
   },
   "8585": {
-   "pass": 94,
+   "pass": 96,
    "min": 91,
    "pass_pct": 97,
    "tkl": 1,
@@ -1425,13 +1425,13 @@
    "sh": 2,
    "kp": 1,
    "sot": 1,
-   "rating": 7.52,
+   "rating": 7.53,
    "side": "away",
    "name": "Callum McGregor"
   },
   "37342595": {
    "touches": 113,
-   "pass": 101,
+   "pass": 103,
    "rating": 7.47,
    "min": 91,
    "pass_pct": 92,
@@ -1445,7 +1445,7 @@
    "name": "Dane Murray"
   },
   "37732189": {
-   "pass": 52,
+   "pass": 54,
    "rating": 7.51,
    "duels_t": 5,
    "duels": 3,
@@ -1461,7 +1461,7 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 8.13,
+   "rating": 8.06,
    "clr": 5,
    "min": 82,
    "pass": 65,
@@ -1483,7 +1483,7 @@
    "rating": 9.05,
    "touches": 66,
    "min": 91,
-   "pass": 44,
+   "pass": 45,
    "clr": 2,
    "duels_t": 3,
    "duels": 2,
@@ -1506,7 +1506,7 @@
    "name": "Stephen O'Donnell"
   },
   "37532994": {
-   "pass": 9,
+   "pass": 10,
    "min": 8,
    "pass_pct": 100,
    "rating": 6.7,
@@ -1519,11 +1519,11 @@
    "name": "Jake Girdwood-Reich"
   },
   "21036704": {
-   "rating": 7.05,
+   "rating": 7.04,
    "min": 91,
    "kp": 1,
    "touches": 55,
-   "pass": 34,
+   "pass": 35,
    "clr": 9,
    "pass_pct": 85,
    "int": 2,
@@ -1558,7 +1558,7 @@
    "duels": 3,
    "sot": 1,
    "sh": 1,
-   "rating": 7.45,
+   "rating": 7.4,
    "side": "home",
    "name": "Lukas Fadinger"
   },
@@ -1577,7 +1577,7 @@
    "name": "Alex Lowry"
   },
   "37565377": {
-   "rating": 6.48,
+   "rating": 6.57,
    "pass": 5,
    "pass_pct": 100,
    "kp": 1,
@@ -1593,7 +1593,7 @@
    "pass_pct": 50,
    "sh": 2,
    "duels_t": 2,
-   "rating": 6.62,
+   "rating": 6.29,
    "min": 20,
    "touches": 6,
    "duels": 1,
@@ -1626,8 +1626,8 @@
    "name": "Ibrahim Said"
   },
   "4969690": {
-   "rating": 6.48,
-   "pass": 29,
+   "rating": 6.43,
+   "pass": 30,
    "min": 91,
    "touches": 52,
    "pass_pct": 93,
@@ -1674,7 +1674,7 @@
    "tkl": 2,
    "duels": 3,
    "yc": 1,
-   "rating": 6.87,
+   "rating": 6.88,
    "int": 2,
    "sh": 1,
    "side": "home",
@@ -2124,17 +2124,17 @@
   {
    "m": 90,
    "x": null,
-   "t": "Oliver Sorensen takes a shot with his head, but it's saved.",
+   "t": "Corner awarded.",
    "goal": false,
    "key": false
   },
   {
    "m": 90,
    "x": null,
-   "t": "Corner awarded.",
+   "t": "Oliver Sorensen's header is saved.",
    "goal": false,
    "key": false
   }
  ],
- "rate_remaining": 2406
+ "rate_remaining": 2403
 }
