@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T12:44:00.425481+00:00",
+ "updated_at": "2026-10-11T12:46:00.605045+00:00",
  "live": true,
  "fixture": {
   "id": 19722777,
@@ -311,7 +311,7 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 84,
+ "minute": 86,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -456,7 +456,7 @@
    "info": null
   },
   {
-   "id": 158181311,
+   "id": 158181392,
    "minute": 82,
    "extra": null,
    "type": "Yellowcard",
@@ -490,6 +490,18 @@
    "related": "Stephen O'Donnell",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158181311,
+   "minute": 85,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Celtic",
+   "player": "Jordan Lotomba",
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
@@ -498,15 +510,15 @@
    "away": 8
   },
   "Shots Off Target": {
-   "home": 2,
+   "home": 3,
    "away": 3
   },
   "Shots Total": {
-   "home": 7,
+   "home": 8,
    "away": 24
   },
   "Attacks": {
-   "home": 76,
+   "home": 83,
    "away": 121
   },
   "Dangerous Attacks": {
@@ -518,8 +530,8 @@
    "away": 65
   },
   "Ball Safe": {
-   "home": 29,
-   "away": 37
+   "home": 77,
+   "away": 91
   },
   "Shots Insidebox": {
    "home": 6,
@@ -542,16 +554,16 @@
    "away": 3
   },
   "Goal Attempts": {
-   "home": 1,
-   "away": 6
+   "home": 3,
+   "away": 15
   },
   "Free Kicks": {
-   "home": 3,
+   "home": 4,
    "away": 3
   },
   "Fouls": {
    "home": 3,
-   "away": 3
+   "away": 4
   },
   "Saves": {
    "home": 11,
@@ -571,7 +583,7 @@
   },
   "Long Passes": {
    "home": 35,
-   "away": 42
+   "away": 43
   },
   "Hit Woodwork": {
    "home": 0,
@@ -583,19 +595,19 @@
   },
   "Tackles": {
    "home": 13,
-   "away": 11
+   "away": 13
   },
   "Assists": {
    "home": 0,
    "away": 1
   },
   "Passes": {
-   "home": 366,
-   "away": 701
+   "home": 376,
+   "away": 710
   },
   "Successful Passes": {
-   "home": 314,
-   "away": 647
+   "home": 324,
+   "away": 654
   },
   "Successful Passes Percentage": {
    "home": 86,
@@ -626,11 +638,11 @@
    "away": 9
   },
   "Duels Won": {
-   "home": 23,
-   "away": 28
+   "home": 26,
+   "away": 30
   },
   "Dribble Attempts": {
-   "home": 7,
+   "home": 8,
    "away": 13
   },
   "Successful Dribbles": {
@@ -638,7 +650,7 @@
    "away": 7
   },
   "Key Passes": {
-   "home": 7,
+   "home": 8,
    "away": 18
   },
   "Big Chances Created": {
@@ -650,7 +662,7 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 29,
+   "home": 25,
    "away": 54
   },
   "Successful Long Passes": {
@@ -659,11 +671,11 @@
   },
   "Successful Long Passes Percentage": {
    "home": 43,
-   "away": 71
+   "away": 70
   },
   "Tackles Won": {
    "home": 7,
-   "away": 7
+   "away": 8
   }
  },
  "next_fixtures": [],
@@ -1222,9 +1234,9 @@
  "player_stats": {
   "529045": {
    "rating": 7.17,
-   "pass": 50,
-   "touches": 58,
-   "min": 81,
+   "pass": 51,
+   "touches": 59,
+   "min": 85,
    "pass_pct": 100,
    "saves": 2,
    "clr": 1,
@@ -1232,17 +1244,22 @@
    "name": "Viljami Sinisalo"
   },
   "198116": {
+   "duels_t": 1,
    "min": 3,
+   "touches": 1,
+   "pass_pct": 100,
+   "pass": 1,
+   "fouls": 1,
    "side": "away",
    "name": "Jordan Lotomba"
   },
   "123659": {
-   "pass": 137,
-   "touches": 153,
-   "rating": 8.27,
+   "pass": 139,
+   "touches": 155,
+   "rating": 8.25,
    "clr": 6,
    "duels_t": 5,
-   "min": 81,
+   "min": 85,
    "pass_pct": 94,
    "kp": 1,
    "tkl": 2,
@@ -1253,13 +1270,13 @@
    "name": "Liam Scales"
   },
   "163711": {
-   "min": 7,
-   "pass": 8,
-   "pass_pct": 63,
+   "min": 11,
+   "pass": 9,
+   "pass_pct": 67,
    "duels": 1,
-   "duels_t": 1,
-   "touches": 8,
-   "rating": 6.59,
+   "duels_t": 2,
+   "touches": 11,
+   "rating": 6.6,
    "side": "away",
    "name": "Jota"
   },
@@ -1328,31 +1345,32 @@
    "name": "Sebastian Tounekti"
   },
   "23698076": {
-   "min": 3,
+   "min": 7,
    "pass": 1,
    "pass_pct": 100,
+   "touches": 1,
    "side": "away",
    "name": "Oliver Sørensen"
   },
   "37582048": {
    "rating": 8.21,
-   "min": 81,
-   "duels_t": 6,
-   "pass": 54,
+   "min": 85,
+   "duels_t": 9,
+   "pass": 56,
    "sot": 3,
    "sh": 5,
    "pass_pct": 93,
    "kp": 4,
-   "touches": 70,
+   "touches": 74,
    "int": 2,
-   "tkl": 2,
-   "duels": 4,
+   "tkl": 4,
+   "duels": 6,
    "side": "away",
    "name": "Mika Joel Baur"
   },
   "18584306": {
    "pass": 4,
-   "min": 8,
+   "min": 12,
    "duels_t": 1,
    "pass_pct": 75,
    "duels": 1,
@@ -1364,41 +1382,41 @@
   "37714106": {
    "sot": 1,
    "int": 1,
-   "min": 8,
    "duels_t": 2,
-   "touches": 4,
+   "touches": 7,
    "sh": 1,
    "rating": 6.49,
-   "pass": 1,
-   "pass_pct": 100,
+   "pass": 3,
+   "pass_pct": 67,
+   "min": 12,
    "side": "away",
    "name": "Shumaira Mheuka"
   },
   "8585": {
-   "pass": 89,
-   "min": 81,
+   "pass": 90,
+   "min": 85,
    "pass_pct": 96,
    "tkl": 1,
    "duels": 2,
-   "touches": 101,
+   "touches": 102,
    "duels_t": 2,
    "clr": 2,
    "int": 1,
    "sh": 2,
    "kp": 1,
    "sot": 1,
-   "rating": 7.45,
+   "rating": 7.47,
    "side": "away",
    "name": "Callum McGregor"
   },
   "37342595": {
-   "touches": 105,
-   "pass": 94,
-   "rating": 7.44,
-   "min": 81,
+   "touches": 106,
+   "pass": 95,
+   "rating": 7.45,
+   "min": 85,
    "pass_pct": 92,
    "int": 1,
-   "duels_t": 7,
+   "duels_t": 8,
    "duels": 3,
    "tkl": 1,
    "clr": 7,
@@ -1411,7 +1429,7 @@
    "rating": 7.43,
    "duels_t": 5,
    "duels": 3,
-   "min": 81,
+   "min": 85,
    "pass_pct": 92,
    "touches": 77,
    "clr": 7,
@@ -1425,26 +1443,26 @@
   "172960": {
    "rating": 8.14,
    "clr": 5,
-   "min": 81,
+   "min": 82,
    "pass": 65,
    "pass_pct": 95,
    "kp": 4,
    "int": 3,
-   "touches": 96,
-   "duels_t": 2,
+   "touches": 97,
+   "duels_t": 3,
    "tkl": 1,
    "duels": 1,
    "sot": 1,
    "sh": 1,
-   "fouls": 1,
+   "fouls": 2,
    "side": "away",
    "name": "Kieran Tierney"
   },
   "24469041": {
    "rating": 9.07,
-   "touches": 61,
-   "min": 81,
-   "pass": 42,
+   "touches": 64,
+   "min": 85,
+   "pass": 43,
    "clr": 2,
    "duels_t": 3,
    "duels": 2,
@@ -1456,7 +1474,7 @@
   },
   "12321": {
    "rating": 5.92,
-   "min": 81,
+   "min": 83,
    "pass": 52,
    "touches": 64,
    "pass_pct": 85,
@@ -1467,18 +1485,22 @@
    "name": "Stephen O'Donnell"
   },
   "37532994": {
+   "pass": 9,
    "min": 2,
-   "pass": 3,
    "pass_pct": 100,
+   "duels_t": 1,
+   "touches": 10,
+   "kp": 1,
+   "duels": 1,
    "side": "home",
    "name": "Jake Girdwood-Reich"
   },
   "21036704": {
-   "rating": 6.87,
-   "min": 81,
+   "rating": 6.88,
+   "min": 85,
    "kp": 1,
-   "touches": 49,
-   "pass": 31,
+   "touches": 51,
+   "pass": 32,
    "clr": 8,
    "pass_pct": 76,
    "int": 2,
@@ -1488,13 +1510,13 @@
    "name": "Martin Moormann"
   },
   "28912717": {
-   "rating": 6.55,
-   "pass": 38,
-   "min": 81,
-   "touches": 63,
-   "duels_t": 5,
+   "rating": 6.56,
+   "pass": 40,
+   "min": 85,
+   "touches": 66,
+   "duels_t": 6,
    "pass_pct": 92,
-   "duels": 3,
+   "duels": 4,
    "tkl": 3,
    "kp": 1,
    "bcc": 1,
@@ -1503,17 +1525,17 @@
    "name": "Tom Sparrow"
   },
   "2823438": {
-   "touches": 57,
-   "pass": 44,
+   "touches": 64,
+   "pass": 49,
    "duels_t": 6,
-   "min": 81,
+   "min": 85,
    "tkl": 3,
    "clr": 3,
    "pass_pct": 92,
    "duels": 3,
    "sot": 1,
    "sh": 1,
-   "rating": 7.41,
+   "rating": 7.42,
    "side": "home",
    "name": "Lukas Fadinger"
   },
@@ -1521,7 +1543,7 @@
    "rating": 6.37,
    "pass": 25,
    "clr": 3,
-   "min": 81,
+   "min": 83,
    "duels": 1,
    "duels_t": 6,
    "tkl": 1,
@@ -1532,52 +1554,58 @@
    "name": "Alex Lowry"
   },
   "37565377": {
-   "rating": 6.74,
-   "min": 10,
-   "pass": 3,
+   "rating": 6.75,
+   "pass": 5,
    "bcc": 1,
    "pass_pct": 100,
    "kp": 1,
-   "touches": 3,
+   "touches": 6,
+   "duels_t": 1,
+   "min": 14,
    "side": "home",
    "name": "Jardell Kanga"
   },
   "37574652": {
    "pass": 1,
    "pass_pct": 100,
-   "min": 10,
-   "sh": 1,
-   "touches": 4,
-   "duels_t": 1,
-   "rating": 6.11,
+   "sh": 2,
+   "duels_t": 2,
+   "rating": 6.23,
+   "min": 14,
+   "touches": 5,
+   "duels": 1,
    "side": "home",
    "name": "Eythor Bjørgolfsson"
   },
   "33991811": {
    "min": 2,
+   "touches": 2,
+   "pass": 1,
+   "pass_pct": 100,
+   "duels_t": 1,
    "side": "home",
    "name": "Tawanda Jethro Maswanhise"
   },
   "37341882": {
-   "touches": 21,
+   "touches": 23,
    "clr": 1,
-   "min": 21,
+   "min": 25,
    "kp": 3,
-   "duels_t": 6,
+   "duels_t": 8,
    "pass": 10,
-   "tkl": 1,
    "pass_pct": 90,
    "bcc": 1,
    "rating": 6.99,
-   "duels": 3,
+   "duels": 5,
+   "tkl": 2,
    "side": "home",
    "name": "Ibrahim Said"
   },
   "4969690": {
    "rating": 6.4,
-   "pass": 27,
-   "min": 81,
-   "touches": 49,
+   "pass": 28,
+   "min": 85,
+   "touches": 50,
    "pass_pct": 100,
    "clr": 5,
    "int": 1,
@@ -1612,9 +1640,9 @@
    "name": "Dylan Levitt"
   },
   "28912742": {
-   "pass": 34,
-   "min": 81,
-   "touches": 50,
+   "pass": 38,
+   "min": 85,
+   "touches": 54,
    "fouls": 2,
    "duels_t": 7,
    "pass_pct": 79,
@@ -1622,7 +1650,7 @@
    "tkl": 2,
    "duels": 3,
    "yc": 1,
-   "rating": 6.79,
+   "rating": 6.8,
    "int": 2,
    "sh": 1,
    "side": "home",
@@ -2000,6 +2028,20 @@
    "key": false
   },
   {
+   "m": 75,
+   "x": null,
+   "t": "Offside.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 78,
+   "x": null,
+   "t": "Oliver Sorensen is substituted for Benjamin Nygren.",
+   "goal": false,
+   "key": false
+  },
+  {
    "m": 79,
    "x": null,
    "t": "Joseph Hodge takes a right-footed shot, but it is blocked.",
@@ -2040,7 +2082,21 @@
    "t": "Tawanda Maswanhise comes on for Alex Lowry.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 84,
+   "x": null,
+   "t": "Eythor Bjorgolfsson attempts a header but misses the shot.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 85,
+   "x": null,
+   "t": "Jordan Lotomba receives a yellow card.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2430
+ "rate_remaining": 2424
 }
