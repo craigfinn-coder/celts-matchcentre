@@ -230,14 +230,170 @@
  "stats": {},
  "lineups": {
   "home": {
-   "xi": [],
+   "xi": [
+    {
+     "name": "Anatoliy Trubin",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 9938909
+    },
+    {
+     "name": "Daniel Banjaqui",
+     "num": 58,
+     "pos": 2,
+     "field": "2:1",
+     "id": 37738657
+    },
+    {
+     "name": "Alessandro Circati",
+     "num": 3,
+     "pos": 3,
+     "field": "2:2",
+     "id": 37361402
+    },
+    {
+     "name": "Tomás Araújo",
+     "num": 44,
+     "pos": 4,
+     "field": "2:3",
+     "id": 24065379
+    },
+    {
+     "name": "Souffian El Karouani",
+     "num": 34,
+     "pos": 5,
+     "field": "2:4",
+     "id": 37257612
+    },
+    {
+     "name": "Fredrik Aursnes",
+     "num": 8,
+     "pos": 6,
+     "field": "3:1",
+     "id": 151551
+    },
+    {
+     "name": "João Palhinha",
+     "num": 36,
+     "pos": 7,
+     "field": "3:2",
+     "id": 160072
+    },
+    {
+     "name": "Dodi Lukébakio",
+     "num": 11,
+     "pos": 8,
+     "field": "4:1",
+     "id": 62871
+    },
+    {
+     "name": "Georgiy Sudakov",
+     "num": 10,
+     "pos": 9,
+     "field": "4:2",
+     "id": 23277810
+    },
+    {
+     "name": "Andreas Schjelderup",
+     "num": 21,
+     "pos": 10,
+     "field": "4:3",
+     "id": 37555815
+    },
+    {
+     "name": "Jhon Durán",
+     "num": 22,
+     "pos": 11,
+     "field": "5:1",
+     "id": 30071882
+    }
+   ],
    "bench": [],
-   "formation": null
+   "formation": "4-2-3-1"
   },
   "away": {
-   "xi": [],
+   "xi": [
+    {
+     "name": "Viljami Sinisalo",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 529045
+    },
+    {
+     "name": "Colby Donovan",
+     "num": 51,
+     "pos": 2,
+     "field": "2:4",
+     "id": 37732189
+    },
+    {
+     "name": "Dane Murray",
+     "num": 47,
+     "pos": 3,
+     "field": "2:3",
+     "id": 37342595
+    },
+    {
+     "name": "Liam Scales",
+     "num": 5,
+     "pos": 4,
+     "field": "2:2",
+     "id": 123659
+    },
+    {
+     "name": "Kieran Tierney",
+     "num": 63,
+     "pos": 5,
+     "field": "2:1",
+     "id": 172960
+    },
+    {
+     "name": "Callum McGregor",
+     "num": 42,
+     "pos": 6,
+     "field": "3:2",
+     "id": 8585
+    },
+    {
+     "name": "Mika Joel Baur",
+     "num": 22,
+     "pos": 7,
+     "field": "3:1",
+     "id": 37582048
+    },
+    {
+     "name": "Camilo Durán",
+     "num": 11,
+     "pos": 8,
+     "field": "4:3",
+     "id": 37709508
+    },
+    {
+     "name": "Benjamin Nygren",
+     "num": 8,
+     "pos": 9,
+     "field": "4:2",
+     "id": 19979885
+    },
+    {
+     "name": "Sebastian Tounekti",
+     "num": 17,
+     "pos": 10,
+     "field": "4:1",
+     "id": 15169863
+    },
+    {
+     "name": "Kasper Høgh",
+     "num": 9,
+     "pos": 11,
+     "field": "5:1",
+     "id": 15061513
+    }
+   ],
    "bench": [],
-   "formation": null
+   "formation": "4-2-3-1"
   }
  },
  "form": {
@@ -2179,5 +2335,5 @@
    }
   ]
  },
- "updated_at": "2026-10-12T06:47:18.315253+00:00"
+ "updated_at": "2026-10-12T23:22:39.324603+00:00"
 }
