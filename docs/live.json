@@ -730,6 +730,10 @@
    "away": "Martin O'Neill",
    "home": "Marco Da Silva"
   },
+  "weather": {
+   "temp_c": 28,
+   "desc": "scattered clouds"
+  },
   "tv": [
    "TNT Sports 3",
    "HBO Max"
@@ -2335,5 +2339,5 @@
    }
   ]
  },
- "updated_at": "2026-10-12T23:22:39.324603+00:00"
+ "updated_at": "2026-10-13T04:37:35.966028+00:00"
 }
