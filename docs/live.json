@@ -1019,7 +1019,7 @@
    },
    "Saves": {
     "home": 12,
-    "away": 2
+    "away": 1
    },
    "Shots Blocked": {
     "home": 3,
@@ -1034,12 +1034,12 @@
     "away": 21
    },
    "Long Passes": {
-    "home": 37,
+    "home": 41,
     "away": 46
    },
    "Hit Woodwork": {
     "home": 0,
-    "away": 1
+    "away": 2
    },
    "Successful Headers": {
     "home": 8,
@@ -1055,10 +1055,10 @@
    },
    "Passes": {
     "home": 389,
-    "away": 764
+    "away": 763
    },
    "Successful Passes": {
-    "home": 333,
+    "home": 334,
     "away": 703
    },
    "Successful Passes Percentage": {
@@ -1078,12 +1078,12 @@
     "away": 0
    },
    "Total Crosses": {
-    "home": 20,
-    "away": 36
+    "home": 21,
+    "away": 34
    },
    "Accurate Crosses": {
     "home": 3,
-    "away": 9
+    "away": 8
    },
    "Interceptions": {
     "home": 7,
@@ -1107,23 +1107,23 @@
    },
    "Big Chances Created": {
     "home": 3,
-    "away": 2
+    "away": 3
    },
    "Big Chances Missed": {
     "home": 3,
-    "away": 1
+    "away": 2
    },
    "Successful Dribbles Percentage": {
     "home": 22,
-    "away": 50
+    "away": 56
    },
    "Successful Long Passes": {
-    "home": 16,
-    "away": 31
+    "home": 19,
+    "away": 30
    },
    "Successful Long Passes Percentage": {
-    "home": 43,
-    "away": 67
+    "home": 46,
+    "away": 65
    },
    "Tackles Won": {
     "home": 9,
@@ -1430,10 +1430,10 @@
    "529045": {
     "rating": 7.1,
     "pass": 56,
-    "touches": 64,
+    "touches": 63,
     "min": 90,
     "pass_pct": 96,
-    "saves": 2,
+    "saves": 1,
     "clr": 1,
     "side": "away",
     "name": "Viljami Sinisalo"
@@ -1454,7 +1454,7 @@
     "pass": 147,
     "touches": 164,
     "rating": 8.33,
-    "clr": 6,
+    "clr": 8,
     "duels_t": 6,
     "min": 90,
     "pass_pct": 96,
@@ -1555,7 +1555,7 @@
    "37582048": {
     "rating": 8.32,
     "min": 90,
-    "duels_t": 9,
+    "duels_t": 8,
     "pass": 64,
     "sot": 3,
     "sh": 5,
@@ -1571,10 +1571,10 @@
    "18584306": {
     "pass": 9,
     "min": 17,
-    "duels_t": 1,
+    "duels_t": 2,
     "pass_pct": 88,
-    "duels": 1,
-    "touches": 15,
+    "duels": 2,
+    "touches": 16,
     "rating": 6.66,
     "clr": 1,
     "side": "away",
@@ -1601,7 +1601,7 @@
     "tkl": 1,
     "duels": 2,
     "touches": 108,
-    "duels_t": 2,
+    "duels_t": 3,
     "clr": 2,
     "int": 1,
     "sh": 2,
@@ -1621,7 +1621,7 @@
     "duels_t": 8,
     "duels": 3,
     "tkl": 1,
-    "clr": 8,
+    "clr": 9,
     "sh": 1,
     "side": "away",
     "name": "Dane Murray"
@@ -1644,13 +1644,13 @@
    },
    "172960": {
     "rating": 8.05,
-    "clr": 5,
+    "clr": 4,
     "min": 82,
     "pass": 65,
     "pass_pct": 94,
     "kp": 4,
     "int": 3,
-    "touches": 97,
+    "touches": 96,
     "duels_t": 3,
     "tkl": 1,
     "duels": 1,
@@ -1663,7 +1663,7 @@
    },
    "24469041": {
     "rating": 9.02,
-    "touches": 67,
+    "touches": 66,
     "min": 90,
     "pass": 45,
     "clr": 2,
@@ -1730,7 +1730,7 @@
     "name": "Tom Sparrow"
    },
    "2823438": {
-    "touches": 65,
+    "touches": 66,
     "pass": 48,
     "duels_t": 7,
     "min": 90,
@@ -1749,12 +1749,10 @@
     "pass": 25,
     "clr": 3,
     "min": 83,
-    "duels": 1,
-    "duels_t": 6,
-    "tkl": 1,
+    "duels_t": 5,
     "kp": 1,
     "pass_pct": 80,
-    "touches": 41,
+    "touches": 40,
     "side": "home",
     "name": "Alex Lowry"
    },
@@ -1783,11 +1781,13 @@
     "name": "Eythor Bjørgolfsson"
    },
    "33991811": {
+    "duels": 1,
+    "tkl": 1,
     "min": 7,
     "pass": 2,
     "pass_pct": 100,
-    "duels_t": 1,
-    "touches": 5,
+    "duels_t": 2,
+    "touches": 6,
     "rating": 6.38,
     "side": "home",
     "name": "Tawanda Jethro Maswanhise"
@@ -1797,7 +1797,7 @@
     "clr": 1,
     "min": 30,
     "kp": 3,
-    "duels_t": 7,
+    "duels_t": 8,
     "pass": 10,
     "pass_pct": 90,
     "bcc": 1,
@@ -2340,5 +2340,5 @@
    }
   ]
  },
- "updated_at": "2026-10-13T19:39:57.992905+00:00"
+ "updated_at": "2026-10-14T02:46:47.671343+00:00"
 }
