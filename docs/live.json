@@ -1510,7 +1510,7 @@
    },
    "37709508": {
     "touches": 48,
-    "rating": 7.53,
+    "rating": 7.52,
     "pass": 40,
     "min": 73,
     "g": 1,
@@ -1525,7 +1525,7 @@
     "name": "Camilo Durán"
    },
    "15169863": {
-    "rating": 7.45,
+    "rating": 7.47,
     "duels": 4,
     "duels_t": 10,
     "pass": 51,
@@ -1740,7 +1740,7 @@
     "duels": 3,
     "sot": 1,
     "sh": 1,
-    "rating": 7.24,
+    "rating": 7.25,
     "side": "home",
     "name": "Lukas Fadinger"
    },
@@ -2340,5 +2340,5 @@
    }
   ]
  },
- "updated_at": "2026-10-14T08:13:01.888720+00:00"
+ "updated_at": "2026-10-14T14:12:36.817265+00:00"
 }
