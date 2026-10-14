@@ -1091,7 +1091,7 @@
    },
    "Duels Won": {
     "home": 29,
-    "away": 32
+    "away": 33
    },
    "Dribble Attempts": {
     "home": 9,
@@ -1428,7 +1428,7 @@
   },
   "player_stats": {
    "529045": {
-    "rating": 7.1,
+    "rating": 6.88,
     "pass": 56,
     "touches": 63,
     "min": 90,
@@ -1451,9 +1451,9 @@
     "name": "Jordan Lotomba"
    },
    "123659": {
-    "pass": 147,
+    "pass": 146,
     "touches": 164,
-    "rating": 8.33,
+    "rating": 8.25,
     "clr": 8,
     "duels_t": 6,
     "min": 90,
@@ -1510,8 +1510,8 @@
    },
    "37709508": {
     "touches": 48,
-    "rating": 7.55,
-    "pass": 39,
+    "rating": 7.53,
+    "pass": 40,
     "min": 73,
     "g": 1,
     "sh": 3,
@@ -1528,7 +1528,7 @@
     "rating": 7.45,
     "duels": 4,
     "duels_t": 10,
-    "pass": 50,
+    "pass": 51,
     "tkl": 2,
     "min": 74,
     "touches": 74,
@@ -1553,7 +1553,7 @@
     "name": "Oliver Sørensen"
    },
    "37582048": {
-    "rating": 8.32,
+    "rating": 8.45,
     "min": 90,
     "duels_t": 8,
     "pass": 64,
@@ -1575,7 +1575,7 @@
     "pass_pct": 88,
     "duels": 2,
     "touches": 16,
-    "rating": 6.66,
+    "rating": 6.76,
     "clr": 1,
     "side": "away",
     "name": "Haissem Hassan"
@@ -1595,7 +1595,7 @@
     "name": "Shumaira Mheuka"
    },
    "8585": {
-    "pass": 96,
+    "pass": 95,
     "min": 90,
     "pass_pct": 97,
     "tkl": 1,
@@ -1607,14 +1607,14 @@
     "sh": 2,
     "kp": 1,
     "sot": 1,
-    "rating": 7.55,
+    "rating": 7.42,
     "side": "away",
     "name": "Callum McGregor"
    },
    "37342595": {
     "touches": 116,
-    "pass": 105,
-    "rating": 7.44,
+    "pass": 104,
+    "rating": 7.47,
     "min": 90,
     "pass_pct": 92,
     "int": 1,
@@ -1628,7 +1628,7 @@
    },
    "37732189": {
     "pass": 54,
-    "rating": 7.56,
+    "rating": 7.58,
     "duels_t": 5,
     "duels": 3,
     "min": 90,
@@ -1643,7 +1643,7 @@
     "name": "Colby Donovan"
    },
    "172960": {
-    "rating": 8.05,
+    "rating": 7.94,
     "clr": 4,
     "min": 82,
     "pass": 65,
@@ -1662,7 +1662,7 @@
     "name": "Kieran Tierney"
    },
    "24469041": {
-    "rating": 9.02,
+    "rating": 9.03,
     "touches": 66,
     "min": 90,
     "pass": 45,
@@ -1676,7 +1676,7 @@
     "name": "Alex Paulsen"
    },
    "12321": {
-    "rating": 6.07,
+    "rating": 6.05,
     "min": 83,
     "pass": 52,
     "touches": 65,
@@ -1701,7 +1701,7 @@
     "name": "Jake Girdwood-Reich"
    },
    "21036704": {
-    "rating": 7.14,
+    "rating": 6.92,
     "min": 90,
     "kp": 1,
     "touches": 59,
@@ -1740,13 +1740,13 @@
     "duels": 3,
     "sot": 1,
     "sh": 1,
-    "rating": 7.21,
+    "rating": 7.24,
     "side": "home",
     "name": "Lukas Fadinger"
    },
    "37260641": {
-    "rating": 6.38,
-    "pass": 25,
+    "rating": 6.37,
+    "pass": 26,
     "clr": 3,
     "min": 83,
     "duels_t": 5,
@@ -1788,7 +1788,7 @@
     "pass_pct": 100,
     "duels_t": 2,
     "touches": 6,
-    "rating": 6.38,
+    "rating": 6.47,
     "side": "home",
     "name": "Tawanda Jethro Maswanhise"
    },
@@ -1801,7 +1801,7 @@
     "pass": 10,
     "pass_pct": 90,
     "bcc": 1,
-    "rating": 7.24,
+    "rating": 7.22,
     "duels": 5,
     "tkl": 2,
     "side": "home",
@@ -1841,12 +1841,12 @@
     "pass_pct": 100,
     "duels_t": 1,
     "clr": 2,
-    "rating": 6.35,
+    "rating": 6.38,
     "side": "home",
     "name": "Dylan Levitt"
    },
    "28912742": {
-    "pass": 39,
+    "pass": 38,
     "min": 90,
     "touches": 57,
     "fouls": 2,
@@ -1856,7 +1856,7 @@
     "tkl": 2,
     "duels": 3,
     "yc": 1,
-    "rating": 6.87,
+    "rating": 6.96,
     "int": 2,
     "sh": 1,
     "side": "home",
@@ -2340,5 +2340,5 @@
    }
   ]
  },
- "updated_at": "2026-10-14T02:46:47.671343+00:00"
+ "updated_at": "2026-10-14T08:13:01.888720+00:00"
 }
