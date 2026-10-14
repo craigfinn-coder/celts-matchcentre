@@ -232,39 +232,39 @@
   "home": {
    "xi": [
     {
-     "name": "Anatoliy Trubin",
-     "num": 1,
+     "name": "Samuel Soares",
+     "num": 24,
      "pos": 1,
      "field": "1:1",
-     "id": 9938909
+     "id": 24065403
     },
     {
-     "name": "Daniel Banjaqui",
-     "num": 58,
+     "name": "Alexander Bah",
+     "num": 6,
      "pos": 2,
      "field": "2:1",
-     "id": 37738657
-    },
-    {
-     "name": "Alessandro Circati",
-     "num": 3,
-     "pos": 3,
-     "field": "2:2",
-     "id": 37361402
+     "id": 85996
     },
     {
      "name": "Tomás Araújo",
      "num": 44,
-     "pos": 4,
-     "field": "2:3",
+     "pos": 3,
+     "field": "2:2",
      "id": 24065379
     },
     {
-     "name": "Souffian El Karouani",
-     "num": 34,
+     "name": "Clément Lenglet",
+     "num": 2,
+     "pos": 4,
+     "field": "2:3",
+     "id": 96741
+    },
+    {
+     "name": "Samuel Dahl",
+     "num": 26,
      "pos": 5,
      "field": "2:4",
-     "id": 37257612
+     "id": 37295874
     },
     {
      "name": "Fredrik Aursnes",
@@ -288,25 +288,25 @@
      "id": 62871
     },
     {
-     "name": "Georgiy Sudakov",
-     "num": 10,
+     "name": "Gianluca Prestianni",
+     "num": 25,
      "pos": 9,
      "field": "4:2",
+     "id": 37625767
+    },
+    {
+     "name": "Georgiy Sudakov",
+     "num": 10,
+     "pos": 10,
+     "field": "4:3",
      "id": 23277810
     },
     {
-     "name": "Andreas Schjelderup",
-     "num": 21,
-     "pos": 10,
-     "field": "4:3",
-     "id": 37555815
-    },
-    {
-     "name": "Jhon Durán",
-     "num": 22,
+     "name": "Vangelis Pavlidis",
+     "num": 14,
      "pos": 11,
      "field": "5:1",
-     "id": 30071882
+     "id": 36265
     }
    ],
    "bench": [],
@@ -2340,5 +2340,5 @@
    }
   ]
  },
- "updated_at": "2026-10-14T19:04:45.338752+00:00"
+ "updated_at": "2026-10-14T22:51:47.685449+00:00"
 }
