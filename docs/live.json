@@ -1,6 +1,214 @@
 {
- "updated_at": "2026-10-15T20:50:19.298119+00:00",
  "live": false,
+ "state": "FT",
+ "next_fixtures": [
+  {
+   "id": 19722774,
+   "kickoff_utc": "2026-10-18 14:00:00",
+   "league": "Premiership",
+   "venue": "Celtic Park",
+   "home": "Celtic",
+   "away": "Hearts",
+   "home_id": 53,
+   "away_id": 314,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png"
+  },
+  {
+   "id": 19873950,
+   "kickoff_utc": "2026-10-22 19:00:00",
+   "league": "Europa League",
+   "venue": "Celtic Park",
+   "home": "Celtic",
+   "away": "Celta de Vigo",
+   "home_id": 53,
+   "away_id": 36,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/4/36.png"
+  },
+  {
+   "id": 19722767,
+   "kickoff_utc": "2026-10-25 12:00:00",
+   "league": "Premiership",
+   "venue": "Easter Road Stadium",
+   "home": "Hibernian",
+   "away": "Celtic",
+   "home_id": 66,
+   "away_id": 53,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
+  }
+ ],
+ "standings": [
+  {
+   "pos": 1,
+   "team": "Celtic",
+   "team_id": 53,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "pts": 21,
+   "p": 8,
+   "w": 7,
+   "d": 0,
+   "l": 1,
+   "gf": 16,
+   "ga": 4,
+   "gd": 12
+  },
+  {
+   "pos": 2,
+   "team": "Rangers",
+   "team_id": 62,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+   "pts": 19,
+   "p": 8,
+   "w": 6,
+   "d": 1,
+   "l": 1,
+   "gf": 11,
+   "ga": 5,
+   "gd": 6
+  },
+  {
+   "pos": 3,
+   "team": "Hearts",
+   "team_id": 314,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "pts": 16,
+   "p": 8,
+   "w": 5,
+   "d": 1,
+   "l": 2,
+   "gf": 19,
+   "ga": 8,
+   "gd": 11
+  },
+  {
+   "pos": 4,
+   "team": "Dundee",
+   "team_id": 284,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
+   "pts": 13,
+   "p": 8,
+   "w": 4,
+   "d": 1,
+   "l": 3,
+   "gf": 11,
+   "ga": 8,
+   "gd": 3
+  },
+  {
+   "pos": 5,
+   "team": "St. Johnstone",
+   "team_id": 734,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
+   "pts": 11,
+   "p": 8,
+   "w": 3,
+   "d": 2,
+   "l": 3,
+   "gf": 10,
+   "ga": 10,
+   "gd": 0
+  },
+  {
+   "pos": 6,
+   "team": "Dundee United",
+   "team_id": 282,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
+   "pts": 11,
+   "p": 8,
+   "w": 3,
+   "d": 2,
+   "l": 3,
+   "gf": 10,
+   "ga": 11,
+   "gd": -1
+  },
+  {
+   "pos": 7,
+   "team": "St. Mirren",
+   "team_id": 496,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
+   "pts": 10,
+   "p": 8,
+   "w": 3,
+   "d": 1,
+   "l": 4,
+   "gf": 8,
+   "ga": 14,
+   "gd": -6
+  },
+  {
+   "pos": 8,
+   "team": "Aberdeen",
+   "team_id": 273,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
+   "pts": 8,
+   "p": 8,
+   "w": 2,
+   "d": 2,
+   "l": 4,
+   "gf": 7,
+   "ga": 9,
+   "gd": -2
+  },
+  {
+   "pos": 9,
+   "team": "Motherwell",
+   "team_id": 309,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
+   "pts": 8,
+   "p": 8,
+   "w": 2,
+   "d": 2,
+   "l": 4,
+   "gf": 9,
+   "ga": 13,
+   "gd": -4
+  },
+  {
+   "pos": 10,
+   "team": "Hibernian",
+   "team_id": 66,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
+   "pts": 7,
+   "p": 8,
+   "w": 2,
+   "d": 1,
+   "l": 5,
+   "gf": 8,
+   "ga": 12,
+   "gd": -4
+  },
+  {
+   "pos": 11,
+   "team": "Falkirk",
+   "team_id": 770,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
+   "pts": 6,
+   "p": 8,
+   "w": 1,
+   "d": 3,
+   "l": 4,
+   "gf": 7,
+   "ga": 11,
+   "gd": -4
+  },
+  {
+   "pos": 12,
+   "team": "Kilmarnock",
+   "team_id": 180,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+   "pts": 5,
+   "p": 8,
+   "w": 1,
+   "d": 2,
+   "l": 5,
+   "gf": 7,
+   "ga": 18,
+   "gd": -11
+  }
+ ],
  "fixture": {
   "id": 19873852,
   "kickoff_utc": "2026-10-15 19:00:00",
@@ -351,7 +559,6 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "FT",
  "state_name": "Full Time",
  "minute": null,
  "minute_estimated": false,
@@ -399,7 +606,7 @@
    "player": "Jhon Durán",
    "related": "Gianluca Prestianni",
    "result": "3-0",
-   "info": "Right foot shot"
+   "info": "Left foot shot"
   },
   {
    "id": 158238911,
@@ -607,6 +814,10 @@
    "home": 53,
    "away": 47
   },
+  "Ball Safe": {
+   "home": 67,
+   "away": 81
+  },
   "Penalties": {
    "home": 1,
    "away": 0
@@ -630,6 +841,10 @@
   "Goal Kicks": {
    "home": 4,
    "away": 10
+  },
+  "Goal Attempts": {
+   "home": 19,
+   "away": 12
   },
   "Free Kicks": {
    "home": 6,
@@ -657,18 +872,18 @@
   },
   "Long Passes": {
    "home": 50,
-   "away": 36
+   "away": 37
   },
   "Hit Woodwork": {
    "home": 2,
    "away": 3
   },
   "Successful Headers": {
-   "home": 6,
-   "away": 7
+   "home": 7,
+   "away": 8
   },
   "Tackles": {
-   "home": 16,
+   "home": 15,
    "away": 18
   },
   "Assists": {
@@ -676,12 +891,12 @@
    "away": 1
   },
   "Passes": {
-   "home": 576,
-   "away": 514
+   "home": 577,
+   "away": 513
   },
   "Successful Passes": {
-   "home": 525,
-   "away": 457
+   "home": 526,
+   "away": 455
   },
   "Successful Passes Percentage": {
    "home": 91,
@@ -708,7 +923,7 @@
    "away": 4
   },
   "Duels Won": {
-   "home": 37,
+   "home": 36,
    "away": 41
   },
   "Dribble Attempts": {
@@ -737,570 +952,18 @@
   },
   "Successful Long Passes": {
    "home": 36,
-   "away": 14
+   "away": 15
   },
   "Successful Long Passes Percentage": {
    "home": 72,
-   "away": 39
+   "away": 41
   },
   "Tackles Won": {
-   "home": 11,
+   "home": 10,
    "away": 13
   }
  },
- "next_fixtures": [
-  {
-   "id": 19873852,
-   "kickoff_utc": "2026-10-15 19:00:00",
-   "league": "Europa League",
-   "venue": "Estádio do Sport Lisboa e Benfica",
-   "home": "Benfica",
-   "away": "Celtic",
-   "home_id": 605,
-   "away_id": 53,
-   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/29/605.png",
-   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
-  },
-  {
-   "id": 19722774,
-   "kickoff_utc": "2026-10-18 14:00:00",
-   "league": "Premiership",
-   "venue": "Celtic Park",
-   "home": "Celtic",
-   "away": "Hearts",
-   "home_id": 53,
-   "away_id": 314,
-   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png"
-  },
-  {
-   "id": 19873950,
-   "kickoff_utc": "2026-10-22 19:00:00",
-   "league": "Europa League",
-   "venue": "Celtic Park",
-   "home": "Celtic",
-   "away": "Celta de Vigo",
-   "home_id": 53,
-   "away_id": 36,
-   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/4/36.png"
-  }
- ],
- "standings": [
-  {
-   "pos": 1,
-   "team": "Celtic",
-   "team_id": 53,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "pts": 21,
-   "p": 8,
-   "w": 7,
-   "d": 0,
-   "l": 1,
-   "gf": 16,
-   "ga": 4,
-   "gd": 12
-  },
-  {
-   "pos": 2,
-   "team": "Rangers",
-   "team_id": 62,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 19,
-   "p": 8,
-   "w": 6,
-   "d": 1,
-   "l": 1,
-   "gf": 11,
-   "ga": 5,
-   "gd": 6
-  },
-  {
-   "pos": 3,
-   "team": "Hearts",
-   "team_id": 314,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-   "pts": 16,
-   "p": 8,
-   "w": 5,
-   "d": 1,
-   "l": 2,
-   "gf": 19,
-   "ga": 8,
-   "gd": 11
-  },
-  {
-   "pos": 4,
-   "team": "Dundee",
-   "team_id": 284,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
-   "pts": 13,
-   "p": 8,
-   "w": 4,
-   "d": 1,
-   "l": 3,
-   "gf": 11,
-   "ga": 8,
-   "gd": 3
-  },
-  {
-   "pos": 5,
-   "team": "St. Johnstone",
-   "team_id": 734,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
-   "pts": 11,
-   "p": 8,
-   "w": 3,
-   "d": 2,
-   "l": 3,
-   "gf": 10,
-   "ga": 10,
-   "gd": 0
-  },
-  {
-   "pos": 6,
-   "team": "Dundee United",
-   "team_id": 282,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
-   "pts": 11,
-   "p": 8,
-   "w": 3,
-   "d": 2,
-   "l": 3,
-   "gf": 10,
-   "ga": 11,
-   "gd": -1
-  },
-  {
-   "pos": 7,
-   "team": "St. Mirren",
-   "team_id": 496,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "pts": 10,
-   "p": 8,
-   "w": 3,
-   "d": 1,
-   "l": 4,
-   "gf": 8,
-   "ga": 14,
-   "gd": -6
-  },
-  {
-   "pos": 8,
-   "team": "Aberdeen",
-   "team_id": 273,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
-   "pts": 8,
-   "p": 8,
-   "w": 2,
-   "d": 2,
-   "l": 4,
-   "gf": 7,
-   "ga": 9,
-   "gd": -2
-  },
-  {
-   "pos": 9,
-   "team": "Motherwell",
-   "team_id": 309,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
-   "pts": 8,
-   "p": 8,
-   "w": 2,
-   "d": 2,
-   "l": 4,
-   "gf": 9,
-   "ga": 13,
-   "gd": -4
-  },
-  {
-   "pos": 10,
-   "team": "Hibernian",
-   "team_id": 66,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
-   "pts": 7,
-   "p": 8,
-   "w": 2,
-   "d": 1,
-   "l": 5,
-   "gf": 8,
-   "ga": 12,
-   "gd": -4
-  },
-  {
-   "pos": 11,
-   "team": "Falkirk",
-   "team_id": 770,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
-   "pts": 6,
-   "p": 8,
-   "w": 1,
-   "d": 3,
-   "l": 4,
-   "gf": 7,
-   "ga": 11,
-   "gd": -4
-  },
-  {
-   "pos": 12,
-   "team": "Kilmarnock",
-   "team_id": 180,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "pts": 5,
-   "p": 8,
-   "w": 1,
-   "d": 2,
-   "l": 5,
-   "gf": 7,
-   "ga": 18,
-   "gd": -11
-  }
- ],
- "live_table": true,
- "form": {
-  "home": [
-   {
-    "r": "W",
-    "score": "6-1",
-    "home": "Benfica",
-    "away": "Hearts",
-    "opp": "Hearts",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-    "date": "2026-08-06",
-    "league": "Europa League",
-    "ha": "H"
-   },
-   {
-    "r": "D",
-    "score": "1-1",
-    "home": "Hearts",
-    "away": "Benfica",
-    "opp": "Hearts",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-    "date": "2026-08-13",
-    "league": "Europa League",
-    "ha": "A"
-   },
-   {
-    "r": "W",
-    "score": "3-1",
-    "home": "Benfica",
-    "away": "AGF",
-    "opp": "AGF",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/25/2905.png",
-    "date": "2026-08-20",
-    "league": "Europa League",
-    "ha": "H"
-   },
-   {
-    "r": "W",
-    "score": "1-3",
-    "home": "AGF",
-    "away": "Benfica",
-    "opp": "AGF",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/25/2905.png",
-    "date": "2026-08-27",
-    "league": "Europa League",
-    "ha": "A"
-   },
-   {
-    "r": "W",
-    "score": "0-2",
-    "home": "AC Milan",
-    "away": "Benfica",
-    "opp": "AC Milan",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/17/113.png",
-    "date": "2026-09-16",
-    "league": "Europa League",
-    "ha": "A"
-   }
-  ],
-  "away": [
-   {
-    "r": "W",
-    "score": "0-1",
-    "home": "St. Johnstone",
-    "away": "Celtic",
-    "opp": "St. Johnstone",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
-    "date": "2026-09-09",
-    "league": "Premiership",
-    "ha": "A"
-   },
-   {
-    "r": "L",
-    "score": "3-0",
-    "home": "Rangers",
-    "away": "Celtic",
-    "opp": "Rangers",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-    "date": "2026-09-13",
-    "league": "League Cup",
-    "ha": "A"
-   },
-   {
-    "r": "L",
-    "score": "1-3",
-    "home": "Celtic",
-    "away": "Ferencvárosi",
-    "opp": "Ferencvárosi",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png",
-    "date": "2026-09-17",
-    "league": "Europa League",
-    "ha": "H"
-   },
-   {
-    "r": "L",
-    "score": "0-1",
-    "home": "Celtic",
-    "away": "Rangers",
-    "opp": "Rangers",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-    "date": "2026-09-20",
-    "league": "Premiership",
-    "ha": "H"
-   },
-   {
-    "r": "W",
-    "score": "0-2",
-    "home": "Motherwell",
-    "away": "Celtic",
-    "opp": "Motherwell",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
-    "date": "2026-10-11",
-    "league": "Premiership",
-    "ha": "A"
-   }
-  ]
- },
- "h2h": [
-  {
-   "r": "W",
-   "score": "2-1",
-   "home": "Benfica",
-   "away": "Celtic",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2012-11-20",
-   "league": "Champions League",
-   "ha": "H"
-  },
-  {
-   "r": "D",
-   "score": "0-0",
-   "home": "Celtic",
-   "away": "Benfica",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2012-09-19",
-   "league": "Champions League",
-   "ha": "A"
-  },
-  {
-   "r": "L",
-   "score": "1-0",
-   "home": "Celtic",
-   "away": "Benfica",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2007-11-06",
-   "league": "Champions League",
-   "ha": "A"
-  },
-  {
-   "r": "W",
-   "score": "1-0",
-   "home": "Benfica",
-   "away": "Celtic",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2007-10-24",
-   "league": "Champions League",
-   "ha": "H"
-  },
-  {
-   "r": "W",
-   "score": "3-0",
-   "home": "Benfica",
-   "away": "Celtic",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2006-11-01",
-   "league": "Champions League",
-   "ha": "H"
-  }
- ],
- "sidelined": {
-  "home": [],
-  "away": [
-   {
-    "player": "Alistair Johnston",
-    "type": "Leg Injury",
-    "since": "2026-08-10",
-    "until": null,
-    "missed": 11
-   }
-  ]
- },
- "top_scorers": [
-  {
-   "pos": 1,
-   "player": "Josh Fowler",
-   "team": "St. Johnstone",
-   "team_id": 734,
-   "goals": 5
-  },
-  {
-   "pos": 2,
-   "player": "Camilo Durán",
-   "team": "Celtic",
-   "team_id": 53,
-   "goals": 4
-  },
-  {
-   "pos": 3,
-   "player": "Benjamin Nygren",
-   "team": "Celtic",
-   "team_id": 53,
-   "goals": 4
-  },
-  {
-   "pos": 4,
-   "player": "Ryan Naderi",
-   "team": "Rangers",
-   "team_id": 62,
-   "goals": 4
-  },
-  {
-   "pos": 5,
-   "player": "Josh McPake",
-   "team": "Hearts",
-   "team_id": 314,
-   "goals": 3
-  },
-  {
-   "pos": 6,
-   "player": "Kevin Nisbet",
-   "team": "Aberdeen",
-   "team_id": 273,
-   "goals": 3
-  },
-  {
-   "pos": 7,
-   "player": "Cláudio Braga",
-   "team": "Hearts",
-   "team_id": 314,
-   "goals": 3
-  },
-  {
-   "pos": 8,
-   "player": "Kasper Høgh",
-   "team": "Celtic",
-   "team_id": 53,
-   "goals": 3
-  },
-  {
-   "pos": 9,
-   "player": "Calvin Miller",
-   "team": "Hearts",
-   "team_id": 314,
-   "goals": 3
-  },
-  {
-   "pos": 10,
-   "player": "Killian Phillips",
-   "team": "St. Mirren",
-   "team_id": 496,
-   "goals": 3
-  }
- ],
- "top_assists": [
-  {
-   "pos": 1,
-   "player": "Josh McPake",
-   "team": "Hearts",
-   "team_id": 314,
-   "assists": 4
-  },
-  {
-   "pos": 2,
-   "player": "Benjamin Nygren",
-   "team": "Celtic",
-   "team_id": 53,
-   "assists": 3
-  },
-  {
-   "pos": 3,
-   "player": "Camilo Durán",
-   "team": "Celtic",
-   "team_id": 53,
-   "assists": 3
-  },
-  {
-   "pos": 4,
-   "player": "Tawanda Jethro Maswanhise",
-   "team": "Motherwell",
-   "team_id": 309,
-   "assists": 2
-  },
-  {
-   "pos": 5,
-   "player": "Kevin Nisbet",
-   "team": "Aberdeen",
-   "team_id": 273,
-   "assists": 2
-  },
-  {
-   "pos": 6,
-   "player": "Tom Lowery",
-   "team": "Kilmarnock",
-   "team_id": 180,
-   "assists": 2
-  },
-  {
-   "pos": 7,
-   "player": "Ryan Strain",
-   "team": "Falkirk",
-   "team_id": 770,
-   "assists": 2
-  },
-  {
-   "pos": 8,
-   "player": "Cláudio Braga",
-   "team": "Hearts",
-   "team_id": 314,
-   "assists": 2
-  },
-  {
-   "pos": 9,
-   "player": "Samuel Ramos",
-   "team": "St. Mirren",
-   "team_id": 496,
-   "assists": 2
-  },
-  {
-   "pos": 10,
-   "player": "Djeidi Gassama",
-   "team": "Rangers",
-   "team_id": 62,
-   "assists": 2
-  }
- ],
- "info": {
-  "referee": "Nikola Dabanović",
-  "coaches": {
-   "away": "Martin O'Neill",
-   "home": "Marco Da Silva"
-  },
-  "weather": {
-   "temp_c": null,
-   "desc": "clear sky"
-  },
-  "tv": [
-   "TNT Sports 3",
-   "HBO Max"
-  ]
- },
+ "result": true,
  "player_stats": {
   "529045": {
    "rating": 5.82,
@@ -1328,7 +991,7 @@
   "262280": {
    "pass": 84,
    "touches": 86,
-   "rating": 6.3,
+   "rating": 6.31,
    "min": 90,
    "pass_pct": 95,
    "fouls": 1,
@@ -1340,7 +1003,7 @@
   },
   "19979885": {
    "pass_pct": 91,
-   "touches": 24,
+   "touches": 25,
    "rating": 6.43,
    "pass": 23,
    "duels_t": 1,
@@ -1364,7 +1027,7 @@
   "37709508": {
    "pass": 13,
    "touches": 34,
-   "rating": 7.48,
+   "rating": 7.46,
    "min": 90,
    "duels": 7,
    "duels_t": 11,
@@ -1407,21 +1070,22 @@
   "37598290": {
    "min": 44,
    "touches": 21,
-   "duels_t": 5,
+   "duels_t": 4,
    "sh": 3,
-   "rating": 6.36,
-   "pass": 9,
-   "pass_pct": 63,
+   "rating": 6.53,
+   "pass": 10,
+   "pass_pct": 70,
    "duels": 1,
    "fouls": 1,
+   "kp": 1,
    "side": "away",
    "name": "Callum Osmand"
   },
   "850": {
    "min": 33,
-   "pass": 18,
-   "pass_pct": 61,
-   "touches": 22,
+   "pass": 17,
+   "pass_pct": 59,
+   "touches": 21,
    "duels_t": 3,
    "rating": 6.22,
    "kp": 1,
@@ -1449,11 +1113,11 @@
    "sot": 2,
    "min": 44,
    "pass": 18,
-   "touches": 28,
+   "touches": 29,
    "duels": 3,
    "duels_t": 5,
    "rating": 7.55,
-   "pass_pct": 76,
+   "pass_pct": 78,
    "kp": 2,
    "a": 1,
    "tkl": 1,
@@ -1464,7 +1128,7 @@
   "8585": {
    "pass": 72,
    "touches": 78,
-   "rating": 6.72,
+   "rating": 6.68,
    "min": 90,
    "clr": 3,
    "kp": 2,
@@ -1477,12 +1141,12 @@
   },
   "37342595": {
    "touches": 90,
-   "rating": 5.96,
+   "rating": 6.03,
    "pass": 79,
    "min": 90,
    "fouls": 1,
    "duels_t": 6,
-   "pass_pct": 94,
+   "pass_pct": 91,
    "clr": 5,
    "duels": 4,
    "int": 1,
@@ -1491,7 +1155,7 @@
    "name": "Dane Murray"
   },
   "37732189": {
-   "touches": 51,
+   "touches": 50,
    "rating": 6.6,
    "pass": 29,
    "min": 77,
@@ -1507,12 +1171,12 @@
   },
   "172960": {
    "touches": 76,
-   "rating": 6.97,
+   "rating": 6.96,
    "min": 90,
    "clr": 4,
    "pass": 57,
    "duels_t": 8,
-   "pass_pct": 93,
+   "pass_pct": 91,
    "duels": 6,
    "sh": 1,
    "sot": 1,
@@ -1522,10 +1186,10 @@
    "name": "Kieran Tierney"
   },
   "9938909": {
-   "touches": 25,
+   "touches": 26,
    "min": 90,
-   "rating": 7.36,
-   "saves": 5,
+   "rating": 7.72,
+   "saves": 6,
    "pass": 17,
    "pass_pct": 88,
    "duels_t": 1,
@@ -1535,7 +1199,7 @@
   "96741": {
    "min": 90,
    "pass": 83,
-   "rating": 6.99,
+   "rating": 7.03,
    "touches": 89,
    "clr": 3,
    "duels": 1,
@@ -1549,7 +1213,7 @@
   },
   "37361402": {
    "duels_t": 2,
-   "rating": 6.71,
+   "rating": 6.62,
    "pass_pct": 100,
    "pass": 3,
    "touches": 5,
@@ -1559,16 +1223,16 @@
   },
   "85996": {
    "min": 80,
-   "rating": 7.35,
+   "rating": 7.29,
    "pass": 63,
    "touches": 78,
    "sh": 1,
    "sot": 1,
    "g": 1,
    "clr": 2,
-   "duels": 4,
-   "duels_t": 5,
-   "tkl": 4,
+   "duels": 3,
+   "duels_t": 4,
+   "tkl": 3,
    "fouls": 1,
    "int": 1,
    "yc": 1,
@@ -1579,7 +1243,7 @@
   "151551": {
    "rating": 7.19,
    "touches": 73,
-   "pass": 62,
+   "pass": 63,
    "min": 90,
    "duels": 4,
    "duels_t": 6,
@@ -1617,29 +1281,31 @@
    "name": "Dodi Lukébakio"
   },
   "36265": {
-   "pass_pct": 80,
+   "pass_pct": 86,
    "min": 23,
-   "touches": 12,
-   "rating": 7.2,
-   "pass": 6,
+   "touches": 13,
+   "rating": 7.41,
+   "pass": 7,
    "sh": 2,
    "duels": 1,
    "duels_t": 3,
+   "kp": 1,
    "sot": 1,
    "g": 1,
+   "bcc": 1,
    "side": "home",
    "name": "Vangelis Pavlidis"
   },
   "37555815": {
    "touches": 16,
    "sh": 2,
-   "pass_pct": 83,
+   "pass_pct": 89,
    "pass": 9,
    "min": 22,
    "tkl": 1,
    "duels_t": 4,
    "duels": 2,
-   "rating": 6.75,
+   "rating": 6.74,
    "side": "home",
    "name": "Andreas Schjelderup"
   },
@@ -1659,7 +1325,7 @@
    "name": "Jhon Durán"
   },
   "37625767": {
-   "rating": 9.36,
+   "rating": 9.37,
    "min": 90,
    "pass": 50,
    "touches": 75,
@@ -1676,11 +1342,11 @@
    "name": "Gianluca Prestianni"
   },
   "37295874": {
-   "touches": 42,
+   "touches": 41,
    "clr": 1,
    "min": 64,
-   "rating": 6.14,
-   "pass": 35,
+   "rating": 6.12,
+   "pass": 34,
    "fouls": 3,
    "duels_t": 4,
    "yc": 1,
@@ -1692,9 +1358,9 @@
    "min": 26,
    "touches": 19,
    "pass_pct": 100,
-   "rating": 6.4,
+   "rating": 6.45,
    "duels_t": 3,
-   "pass": 11,
+   "pass": 12,
    "kp": 1,
    "duels": 1,
    "side": "home",
@@ -1708,7 +1374,7 @@
    "duels_t": 2,
    "tkl": 1,
    "duels": 1,
-   "rating": 6.56,
+   "rating": 6.59,
    "int": 1,
    "fouls": 1,
    "side": "home",
@@ -1722,7 +1388,7 @@
    "min": 90,
    "sh": 1,
    "pass": 72,
-   "pass_pct": 94,
+   "pass_pct": 93,
    "rating": 7.02,
    "int": 3,
    "clr": 1,
@@ -1733,25 +1399,31 @@
   },
   "24065379": {
    "min": 90,
-   "rating": 7.61,
-   "touches": 87,
-   "pass": 74,
+   "rating": 7.69,
+   "touches": 89,
+   "pass": 75,
    "pass_pct": 95,
    "clr": 5,
    "sh": 3,
-   "duels_t": 7,
-   "duels": 6,
+   "duels_t": 8,
+   "duels": 7,
    "tkl": 5,
    "fouls": 1,
    "int": 1,
    "kp": 1,
    "a": 1,
-   "sot": 1,
    "side": "home",
    "name": "Tomás Araújo"
   }
  },
  "commentary": [
+  {
+   "m": null,
+   "x": null,
+   "t": "The second half ends with Benfica leading 4-1 against Celtic.",
+   "goal": false,
+   "key": false
+  },
   {
    "m": 1,
    "x": null,
@@ -2203,7 +1875,7 @@
   {
    "m": 63,
    "x": null,
-   "t": "Goal! Benfica 3, Celtic 1. Camilo Durán scores for Celtic with a close-range shot into the bottom right corner, assisted by Haissem Hassan's cross.",
+   "t": "Goal! Celtic scores to make it 3-1 against Benfica. Camilo Durán heads the ball from close range into the bottom right corner, assisted by Haissem Hassan's cross.",
    "goal": true,
    "key": true
   },
@@ -2472,7 +2144,386 @@
    "t": "The fourth official has indicated there will be 2 minutes of added time.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 90,
+   "x": 1,
+   "t": "Tomás Araújo from Benfica hits the bar with a header from the center of the box. He was assisted by Vangelis Pavlidis, who delivered a cross after a corner.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 90,
+   "x": 2,
+   "t": "Camilo Durán's left-footed shot from the left side of the box is saved in the bottom left corner by Anatoliy Trubin. The attempt was assisted by Callum Osmand.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 90,
+   "x": 2,
+   "t": "Celtic is called offside as Alex Oxlade-Chamberlain is caught in an offside position.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 90,
+   "x": 2,
+   "t": "Celtic win a corner after Vangelis Pavlidis concedes.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": null,
+   "x": null,
+   "t": "The match ends with Benfica winning 4-1 against Celtic.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2471
+ "form": {
+  "home": [
+   {
+    "r": "D",
+    "score": "1-1",
+    "home": "Hearts",
+    "away": "Benfica",
+    "opp": "Hearts",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+    "date": "2026-08-13",
+    "league": "Europa League",
+    "ha": "A"
+   },
+   {
+    "r": "W",
+    "score": "3-1",
+    "home": "Benfica",
+    "away": "AGF",
+    "opp": "AGF",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/25/2905.png",
+    "date": "2026-08-20",
+    "league": "Europa League",
+    "ha": "H"
+   },
+   {
+    "r": "W",
+    "score": "1-3",
+    "home": "AGF",
+    "away": "Benfica",
+    "opp": "AGF",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/25/2905.png",
+    "date": "2026-08-27",
+    "league": "Europa League",
+    "ha": "A"
+   },
+   {
+    "r": "W",
+    "score": "0-2",
+    "home": "AC Milan",
+    "away": "Benfica",
+    "opp": "AC Milan",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/17/113.png",
+    "date": "2026-09-16",
+    "league": "Europa League",
+    "ha": "A"
+   },
+   {
+    "r": "W",
+    "score": "4-1",
+    "home": "Benfica",
+    "away": "Celtic",
+    "opp": "Celtic",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+    "date": "2026-10-15",
+    "league": "Europa League",
+    "ha": "H"
+   }
+  ],
+  "away": [
+   {
+    "r": "L",
+    "score": "3-0",
+    "home": "Rangers",
+    "away": "Celtic",
+    "opp": "Rangers",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+    "date": "2026-09-13",
+    "league": "League Cup",
+    "ha": "A"
+   },
+   {
+    "r": "L",
+    "score": "1-3",
+    "home": "Celtic",
+    "away": "Ferencvárosi",
+    "opp": "Ferencvárosi",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png",
+    "date": "2026-09-17",
+    "league": "Europa League",
+    "ha": "H"
+   },
+   {
+    "r": "L",
+    "score": "0-1",
+    "home": "Celtic",
+    "away": "Rangers",
+    "opp": "Rangers",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+    "date": "2026-09-20",
+    "league": "Premiership",
+    "ha": "H"
+   },
+   {
+    "r": "W",
+    "score": "0-2",
+    "home": "Motherwell",
+    "away": "Celtic",
+    "opp": "Motherwell",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
+    "date": "2026-10-11",
+    "league": "Premiership",
+    "ha": "A"
+   },
+   {
+    "r": "L",
+    "score": "4-1",
+    "home": "Benfica",
+    "away": "Celtic",
+    "opp": "Benfica",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/29/605.png",
+    "date": "2026-10-15",
+    "league": "Europa League",
+    "ha": "A"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "r": "W",
+   "score": "4-1",
+   "home": "Benfica",
+   "away": "Celtic",
+   "opp": "Celtic",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "date": "2026-10-15",
+   "league": "Europa League",
+   "ha": "H"
+  },
+  {
+   "r": "W",
+   "score": "2-1",
+   "home": "Benfica",
+   "away": "Celtic",
+   "opp": "Celtic",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "date": "2012-11-20",
+   "league": "Champions League",
+   "ha": "H"
+  },
+  {
+   "r": "D",
+   "score": "0-0",
+   "home": "Celtic",
+   "away": "Benfica",
+   "opp": "Celtic",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "date": "2012-09-19",
+   "league": "Champions League",
+   "ha": "A"
+  },
+  {
+   "r": "L",
+   "score": "1-0",
+   "home": "Celtic",
+   "away": "Benfica",
+   "opp": "Celtic",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "date": "2007-11-06",
+   "league": "Champions League",
+   "ha": "A"
+  },
+  {
+   "r": "W",
+   "score": "1-0",
+   "home": "Benfica",
+   "away": "Celtic",
+   "opp": "Celtic",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "date": "2007-10-24",
+   "league": "Champions League",
+   "ha": "H"
+  }
+ ],
+ "sidelined": {
+  "home": [],
+  "away": [
+   {
+    "player": "Alistair Johnston",
+    "type": "Leg Injury",
+    "since": "2026-08-10",
+    "until": null,
+    "missed": 11
+   }
+  ]
+ },
+ "top_scorers": [
+  {
+   "pos": 1,
+   "player": "Josh Fowler",
+   "team": "St. Johnstone",
+   "team_id": 734,
+   "goals": 5
+  },
+  {
+   "pos": 2,
+   "player": "Camilo Durán",
+   "team": "Celtic",
+   "team_id": 53,
+   "goals": 4
+  },
+  {
+   "pos": 3,
+   "player": "Benjamin Nygren",
+   "team": "Celtic",
+   "team_id": 53,
+   "goals": 4
+  },
+  {
+   "pos": 4,
+   "player": "Ryan Naderi",
+   "team": "Rangers",
+   "team_id": 62,
+   "goals": 4
+  },
+  {
+   "pos": 5,
+   "player": "Josh McPake",
+   "team": "Hearts",
+   "team_id": 314,
+   "goals": 3
+  },
+  {
+   "pos": 6,
+   "player": "Kevin Nisbet",
+   "team": "Aberdeen",
+   "team_id": 273,
+   "goals": 3
+  },
+  {
+   "pos": 7,
+   "player": "Cláudio Braga",
+   "team": "Hearts",
+   "team_id": 314,
+   "goals": 3
+  },
+  {
+   "pos": 8,
+   "player": "Kasper Høgh",
+   "team": "Celtic",
+   "team_id": 53,
+   "goals": 3
+  },
+  {
+   "pos": 9,
+   "player": "Calvin Miller",
+   "team": "Hearts",
+   "team_id": 314,
+   "goals": 3
+  },
+  {
+   "pos": 10,
+   "player": "Killian Phillips",
+   "team": "St. Mirren",
+   "team_id": 496,
+   "goals": 3
+  }
+ ],
+ "top_assists": [
+  {
+   "pos": 1,
+   "player": "Josh McPake",
+   "team": "Hearts",
+   "team_id": 314,
+   "assists": 4
+  },
+  {
+   "pos": 2,
+   "player": "Benjamin Nygren",
+   "team": "Celtic",
+   "team_id": 53,
+   "assists": 3
+  },
+  {
+   "pos": 3,
+   "player": "Camilo Durán",
+   "team": "Celtic",
+   "team_id": 53,
+   "assists": 3
+  },
+  {
+   "pos": 4,
+   "player": "Tawanda Jethro Maswanhise",
+   "team": "Motherwell",
+   "team_id": 309,
+   "assists": 2
+  },
+  {
+   "pos": 5,
+   "player": "Kevin Nisbet",
+   "team": "Aberdeen",
+   "team_id": 273,
+   "assists": 2
+  },
+  {
+   "pos": 6,
+   "player": "Tom Lowery",
+   "team": "Kilmarnock",
+   "team_id": 180,
+   "assists": 2
+  },
+  {
+   "pos": 7,
+   "player": "Ryan Strain",
+   "team": "Falkirk",
+   "team_id": 770,
+   "assists": 2
+  },
+  {
+   "pos": 8,
+   "player": "Cláudio Braga",
+   "team": "Hearts",
+   "team_id": 314,
+   "assists": 2
+  },
+  {
+   "pos": 9,
+   "player": "Samuel Ramos",
+   "team": "St. Mirren",
+   "team_id": 496,
+   "assists": 2
+  },
+  {
+   "pos": 10,
+   "player": "Djeidi Gassama",
+   "team": "Rangers",
+   "team_id": 62,
+   "assists": 2
+  }
+ ],
+ "info": {
+  "referee": "Nikola Dabanović",
+  "coaches": {
+   "away": "Martin O'Neill",
+   "home": "Marco Da Silva"
+  },
+  "weather": {
+   "temp_c": null,
+   "desc": "clear sky"
+  },
+  "tv": [
+   "TNT Sports 3",
+   "HBO Max"
+  ]
+ },
+ "updated_at": "2026-10-15T23:26:44.194903+00:00"
 }
