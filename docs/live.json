@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15T20:46:49.294309+00:00",
+ "updated_at": "2026-10-15T20:47:49.282281+00:00",
  "live": true,
  "fixture": {
   "id": 19873852,
@@ -353,9 +353,9 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 89,
+ "minute": 90,
  "minute_estimated": false,
- "added_time": null,
+ "added_time": 2,
  "score": {
   "home": 4,
   "away": 1
@@ -577,7 +577,7 @@
    "side": "home",
    "team": "Benfica",
    "player": "Vangelis Pavlidis",
-   "related": null,
+   "related": "Tomás Araújo",
    "result": "4-1",
    "info": "Right foot shot"
   }
@@ -596,7 +596,7 @@
    "away": 13
   },
   "Attacks": {
-   "home": 113,
+   "home": 114,
    "away": 73
   },
   "Dangerous Attacks": {
@@ -604,8 +604,8 @@
    "away": 28
   },
   "Ball Possession %": {
-   "home": 53,
-   "away": 47
+   "home": 52,
+   "away": 48
   },
   "Penalties": {
    "home": 1,
@@ -677,11 +677,11 @@
   },
   "Passes": {
    "home": 564,
-   "away": 506
+   "away": 508
   },
   "Successful Passes": {
    "home": 514,
-   "away": 451
+   "away": 453
   },
   "Successful Passes Percentage": {
    "home": 91,
@@ -720,7 +720,7 @@
    "away": 6
   },
   "Key Passes": {
-   "home": 21,
+   "home": 22,
    "away": 11
   },
   "Big Chances Created": {
@@ -1303,9 +1303,9 @@
  },
  "player_stats": {
   "529045": {
-   "rating": 6.05,
+   "rating": 5.95,
    "touches": 52,
-   "min": 89,
+   "min": 90,
    "pass": 44,
    "int": 1,
    "pass_pct": 83,
@@ -1314,13 +1314,13 @@
    "name": "Viljami Sinisalo"
   },
   "198116": {
-   "min": 12,
+   "min": 13,
    "pass": 7,
    "tkl": 1,
    "touches": 9,
    "duels": 2,
    "duels_t": 2,
-   "rating": 6.6,
+   "rating": 6.36,
    "pass_pct": 86,
    "side": "away",
    "name": "Jordan Lotomba"
@@ -1328,8 +1328,8 @@
   "262280": {
    "pass": 84,
    "touches": 86,
-   "rating": 6.45,
-   "min": 89,
+   "rating": 6.27,
+   "min": 90,
    "pass_pct": 95,
    "fouls": 1,
    "duels_t": 3,
@@ -1340,11 +1340,11 @@
   },
   "19979885": {
    "pass_pct": 100,
-   "touches": 23,
-   "rating": 6.46,
-   "pass": 22,
+   "touches": 24,
+   "rating": 6.43,
+   "pass": 23,
    "duels_t": 1,
-   "min": 32,
+   "min": 33,
    "side": "away",
    "name": "Benjamin Nygren"
   },
@@ -1364,8 +1364,8 @@
   "37709508": {
    "pass": 13,
    "touches": 33,
-   "rating": 7.43,
-   "min": 89,
+   "rating": 7.34,
+   "min": 90,
    "duels": 7,
    "duels_t": 11,
    "sh": 3,
@@ -1405,11 +1405,11 @@
    "name": "Oliver Sørensen"
   },
   "37598290": {
-   "min": 44,
+   "min": 45,
    "touches": 20,
    "duels_t": 5,
    "sh": 3,
-   "rating": 6.57,
+   "rating": 6.36,
    "pass": 8,
    "pass_pct": 75,
    "duels": 1,
@@ -1418,12 +1418,12 @@
    "name": "Callum Osmand"
   },
   "850": {
-   "min": 32,
+   "min": 33,
    "pass": 18,
    "pass_pct": 71,
    "touches": 22,
    "duels_t": 3,
-   "rating": 6.34,
+   "rating": 6.24,
    "kp": 1,
    "side": "away",
    "name": "Alex Oxlade-Chamberlain"
@@ -1447,12 +1447,12 @@
   "18584306": {
    "sh": 2,
    "sot": 2,
-   "min": 44,
+   "min": 45,
    "pass": 17,
    "touches": 27,
    "duels": 3,
    "duels_t": 5,
-   "rating": 7.6,
+   "rating": 7.55,
    "pass_pct": 75,
    "kp": 2,
    "a": 1,
@@ -1462,10 +1462,10 @@
    "name": "Haissem Hassan"
   },
   "8585": {
-   "pass": 71,
-   "touches": 77,
-   "rating": 6.87,
-   "min": 89,
+   "pass": 72,
+   "touches": 78,
+   "rating": 6.76,
+   "min": 90,
    "clr": 3,
    "kp": 2,
    "duels": 1,
@@ -1476,9 +1476,9 @@
   },
   "37342595": {
    "touches": 87,
-   "rating": 6.12,
+   "rating": 5.94,
    "pass": 77,
-   "min": 89,
+   "min": 90,
    "fouls": 1,
    "duels_t": 5,
    "pass_pct": 92,
@@ -1506,8 +1506,8 @@
   },
   "172960": {
    "touches": 75,
-   "rating": 7.08,
-   "min": 89,
+   "rating": 7.03,
+   "min": 90,
    "clr": 4,
    "pass": 56,
    "duels_t": 8,
@@ -1522,7 +1522,7 @@
   },
   "9938909": {
    "touches": 25,
-   "min": 89,
+   "min": 90,
    "rating": 7.36,
    "saves": 5,
    "pass": 17,
@@ -1532,7 +1532,7 @@
    "name": "Anatoliy Trubin"
   },
   "96741": {
-   "min": 89,
+   "min": 90,
    "pass": 82,
    "rating": 6.98,
    "touches": 88,
@@ -1548,11 +1548,11 @@
   },
   "37361402": {
    "duels_t": 1,
-   "rating": 6.6,
+   "rating": 6.76,
    "pass_pct": 100,
    "pass": 3,
    "touches": 5,
-   "min": 9,
+   "min": 10,
    "side": "home",
    "name": "Alessandro Circati"
   },
@@ -1576,10 +1576,10 @@
    "name": "Alexander Bah"
   },
   "151551": {
-   "rating": 7.14,
+   "rating": 7.18,
    "touches": 71,
    "pass": 60,
-   "min": 89,
+   "min": 90,
    "duels": 4,
    "duels_t": 6,
    "pass_pct": 96,
@@ -1617,9 +1617,9 @@
   },
   "36265": {
    "pass_pct": 100,
-   "min": 22,
+   "min": 23,
    "touches": 9,
-   "rating": 6.52,
+   "rating": 7.21,
    "pass": 5,
    "sh": 2,
    "duels": 1,
@@ -1634,7 +1634,7 @@
    "sh": 2,
    "pass_pct": 67,
    "pass": 6,
-   "min": 21,
+   "min": 22,
    "tkl": 1,
    "duels_t": 4,
    "duels": 2,
@@ -1658,8 +1658,8 @@
    "name": "Jhon Durán"
   },
   "37625767": {
-   "rating": 9.32,
-   "min": 89,
+   "rating": 9.35,
+   "min": 90,
    "pass": 50,
    "touches": 74,
    "kp": 9,
@@ -1688,10 +1688,10 @@
    "name": "Samuel Dahl"
   },
   "37639080": {
-   "min": 25,
+   "min": 26,
    "touches": 16,
    "pass_pct": 75,
-   "rating": 6.39,
+   "rating": 6.4,
    "duels_t": 2,
    "pass": 9,
    "kp": 1,
@@ -1700,13 +1700,13 @@
   },
   "37257612": {
    "touches": 16,
-   "min": 25,
+   "min": 26,
    "pass": 11,
    "pass_pct": 100,
    "duels_t": 2,
    "tkl": 1,
    "duels": 1,
-   "rating": 6.57,
+   "rating": 6.52,
    "int": 1,
    "fouls": 1,
    "side": "home",
@@ -1717,11 +1717,11 @@
    "touches": 86,
    "duels_t": 8,
    "duels": 4,
-   "min": 89,
+   "min": 90,
    "sh": 1,
    "pass": 71,
    "pass_pct": 95,
-   "rating": 7.04,
+   "rating": 7.07,
    "int": 3,
    "clr": 1,
    "fouls": 1,
@@ -1729,8 +1729,8 @@
    "name": "João Palhinha"
   },
   "24065379": {
-   "min": 89,
-   "rating": 7.26,
+   "min": 90,
+   "rating": 7.3,
    "touches": 87,
    "pass": 74,
    "pass_pct": 94,
@@ -1741,6 +1741,8 @@
    "tkl": 5,
    "fouls": 1,
    "int": 1,
+   "kp": 1,
+   "a": 1,
    "side": "home",
    "name": "Tomás Araújo"
   }
@@ -2431,7 +2433,14 @@
    "t": "Callum Osmand's right-footed shot from the left side of the box is blocked. Kieran Tierney provided the assist.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 89,
+   "x": null,
+   "t": "Goal! Benfica 4, Celtic 1. Vangelis Pavlidis scores for Benfica with a right-footed shot from outside the box into the bottom left corner, assisted by Tomás Araújo with a through ball.",
+   "goal": true,
+   "key": true
   }
  ],
- "rate_remaining": 2482
+ "rate_remaining": 2479
 }
