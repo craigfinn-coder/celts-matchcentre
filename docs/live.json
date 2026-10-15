@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15T20:49:49.268216+00:00",
+ "updated_at": "2026-10-15T20:50:19.298119+00:00",
  "live": false,
  "fixture": {
   "id": 19873852,
@@ -612,7 +612,7 @@
    "away": 0
   },
   "Shots Insidebox": {
-   "home": 20,
+   "home": 21,
    "away": 12
   },
   "Shots Outsidebox": {
@@ -621,7 +621,7 @@
   },
   "Offsides": {
    "home": 2,
-   "away": 1
+   "away": 2
   },
   "Goals": {
    "home": 4,
@@ -640,7 +640,7 @@
    "away": 7
   },
   "Saves": {
-   "home": 5,
+   "home": 6,
    "away": 3
   },
   "Shots Blocked": {
@@ -660,7 +660,7 @@
    "away": 36
   },
   "Hit Woodwork": {
-   "home": 1,
+   "home": 2,
    "away": 3
   },
   "Successful Headers": {
@@ -676,12 +676,12 @@
    "away": 1
   },
   "Passes": {
-   "home": 574,
-   "away": 513
+   "home": 576,
+   "away": 514
   },
   "Successful Passes": {
-   "home": 524,
-   "away": 456
+   "home": 525,
+   "away": 457
   },
   "Successful Passes Percentage": {
    "home": 91,
@@ -708,7 +708,7 @@
    "away": 4
   },
   "Duels Won": {
-   "home": 36,
+   "home": 37,
    "away": 41
   },
   "Dribble Attempts": {
@@ -720,15 +720,15 @@
    "away": 6
   },
   "Key Passes": {
-   "home": 22,
-   "away": 11
+   "home": 23,
+   "away": 12
   },
   "Big Chances Created": {
-   "home": 2,
+   "home": 3,
    "away": 2
   },
   "Big Chances Missed": {
-   "home": 0,
+   "home": 1,
    "away": 1
   },
   "Successful Dribbles Percentage": {
@@ -1305,7 +1305,7 @@
   "529045": {
    "rating": 5.82,
    "touches": 52,
-   "min": 92,
+   "min": 90,
    "pass": 44,
    "int": 1,
    "pass_pct": 84,
@@ -1314,7 +1314,7 @@
    "name": "Viljami Sinisalo"
   },
   "198116": {
-   "min": 15,
+   "min": 13,
    "pass": 7,
    "tkl": 1,
    "touches": 10,
@@ -1329,7 +1329,7 @@
    "pass": 84,
    "touches": 86,
    "rating": 6.3,
-   "min": 92,
+   "min": 90,
    "pass_pct": 95,
    "fouls": 1,
    "duels_t": 4,
@@ -1344,7 +1344,7 @@
    "rating": 6.43,
    "pass": 23,
    "duels_t": 1,
-   "min": 35,
+   "min": 33,
    "side": "away",
    "name": "Benjamin Nygren"
   },
@@ -1352,7 +1352,7 @@
    "pass": 12,
    "touches": 18,
    "rating": 6.43,
-   "min": 45,
+   "min": 46,
    "pass_pct": 92,
    "sh": 2,
    "duels_t": 1,
@@ -1365,7 +1365,7 @@
    "pass": 13,
    "touches": 34,
    "rating": 7.48,
-   "min": 92,
+   "min": 90,
    "duels": 7,
    "duels_t": 11,
    "sh": 4,
@@ -1376,7 +1376,7 @@
    "name": "Camilo Durán"
   },
   "15169863": {
-   "min": 45,
+   "min": 46,
    "touches": 22,
    "duels_t": 2,
    "kp": 2,
@@ -1405,7 +1405,7 @@
    "name": "Oliver Sørensen"
   },
   "37598290": {
-   "min": 47,
+   "min": 44,
    "touches": 21,
    "duels_t": 5,
    "sh": 3,
@@ -1418,7 +1418,7 @@
    "name": "Callum Osmand"
   },
   "850": {
-   "min": 35,
+   "min": 33,
    "pass": 18,
    "pass_pct": 61,
    "touches": 22,
@@ -1447,7 +1447,7 @@
   "18584306": {
    "sh": 2,
    "sot": 2,
-   "min": 47,
+   "min": 44,
    "pass": 18,
    "touches": 28,
    "duels": 3,
@@ -1465,7 +1465,7 @@
    "pass": 72,
    "touches": 78,
    "rating": 6.72,
-   "min": 92,
+   "min": 90,
    "clr": 3,
    "kp": 2,
    "duels": 1,
@@ -1479,7 +1479,7 @@
    "touches": 90,
    "rating": 5.96,
    "pass": 79,
-   "min": 92,
+   "min": 90,
    "fouls": 1,
    "duels_t": 6,
    "pass_pct": 94,
@@ -1508,7 +1508,7 @@
   "172960": {
    "touches": 76,
    "rating": 6.97,
-   "min": 92,
+   "min": 90,
    "clr": 4,
    "pass": 57,
    "duels_t": 8,
@@ -1523,7 +1523,7 @@
   },
   "9938909": {
    "touches": 25,
-   "min": 92,
+   "min": 90,
    "rating": 7.36,
    "saves": 5,
    "pass": 17,
@@ -1533,7 +1533,7 @@
    "name": "Anatoliy Trubin"
   },
   "96741": {
-   "min": 92,
+   "min": 90,
    "pass": 83,
    "rating": 6.99,
    "touches": 89,
@@ -1553,7 +1553,7 @@
    "pass_pct": 100,
    "pass": 3,
    "touches": 5,
-   "min": 12,
+   "min": 10,
    "side": "home",
    "name": "Alessandro Circati"
   },
@@ -1580,7 +1580,7 @@
    "rating": 7.19,
    "touches": 73,
    "pass": 62,
-   "min": 92,
+   "min": 90,
    "duels": 4,
    "duels_t": 6,
    "pass_pct": 97,
@@ -1618,7 +1618,7 @@
   },
   "36265": {
    "pass_pct": 80,
-   "min": 25,
+   "min": 23,
    "touches": 12,
    "rating": 7.2,
    "pass": 6,
@@ -1635,7 +1635,7 @@
    "sh": 2,
    "pass_pct": 83,
    "pass": 9,
-   "min": 24,
+   "min": 22,
    "tkl": 1,
    "duels_t": 4,
    "duels": 2,
@@ -1660,7 +1660,7 @@
   },
   "37625767": {
    "rating": 9.36,
-   "min": 92,
+   "min": 90,
    "pass": 50,
    "touches": 75,
    "kp": 9,
@@ -1689,7 +1689,7 @@
    "name": "Samuel Dahl"
   },
   "37639080": {
-   "min": 28,
+   "min": 26,
    "touches": 19,
    "pass_pct": 100,
    "rating": 6.4,
@@ -1702,7 +1702,7 @@
   },
   "37257612": {
    "touches": 17,
-   "min": 28,
+   "min": 26,
    "pass": 11,
    "pass_pct": 91,
    "duels_t": 2,
@@ -1719,7 +1719,7 @@
    "touches": 87,
    "duels_t": 8,
    "duels": 4,
-   "min": 92,
+   "min": 90,
    "sh": 1,
    "pass": 72,
    "pass_pct": 94,
@@ -1732,13 +1732,13 @@
    "name": "João Palhinha"
   },
   "24065379": {
-   "min": 92,
+   "min": 90,
    "rating": 7.61,
    "touches": 87,
    "pass": 74,
    "pass_pct": 95,
    "clr": 5,
-   "sh": 2,
+   "sh": 3,
    "duels_t": 7,
    "duels": 6,
    "tkl": 5,
@@ -1746,6 +1746,7 @@
    "int": 1,
    "kp": 1,
    "a": 1,
+   "sot": 1,
    "side": "home",
    "name": "Tomás Araújo"
   }
@@ -2471,14 +2472,7 @@
    "t": "The fourth official has indicated there will be 2 minutes of added time.",
    "goal": false,
    "key": false
-  },
-  {
-   "m": 90,
-   "x": 2,
-   "t": "Attempt saved. Camilo Durán from Celtic has a left-footed shot from the left side of the box that is saved.",
-   "goal": false,
-   "key": false
   }
  ],
- "rate_remaining": 2473
+ "rate_remaining": 2471
 }
