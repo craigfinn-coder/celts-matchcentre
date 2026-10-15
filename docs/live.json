@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15T20:43:49.414551+00:00",
+ "updated_at": "2026-10-15T20:46:19.559002+00:00",
  "live": true,
  "fixture": {
   "id": 19873852,
@@ -353,11 +353,11 @@
  },
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 86,
+ "minute": 89,
  "minute_estimated": false,
  "added_time": null,
  "score": {
-  "home": 3,
+  "home": 4,
   "away": 1
  },
  "half_time": {
@@ -576,20 +576,20 @@
    "away": 5
   },
   "Shots Off Target": {
-   "home": 9,
+   "home": 10,
    "away": 5
   },
   "Shots Total": {
-   "home": 23,
-   "away": 12
+   "home": 24,
+   "away": 13
   },
   "Attacks": {
-   "home": 110,
-   "away": 69
+   "home": 113,
+   "away": 73
   },
   "Dangerous Attacks": {
-   "home": 61,
-   "away": 27
+   "home": 62,
+   "away": 28
   },
   "Ball Possession %": {
    "home": 52,
@@ -600,8 +600,8 @@
    "away": 0
   },
   "Shots Insidebox": {
-   "home": 19,
-   "away": 10
+   "home": 20,
+   "away": 11
   },
   "Shots Outsidebox": {
    "home": 4,
@@ -617,14 +617,14 @@
   },
   "Goal Kicks": {
    "home": 4,
-   "away": 9
+   "away": 10
   },
   "Free Kicks": {
    "home": 5,
-   "away": 8
+   "away": 9
   },
   "Fouls": {
-   "home": 8,
+   "home": 9,
    "away": 6
   },
   "Saves": {
@@ -633,7 +633,7 @@
   },
   "Shots Blocked": {
    "home": 8,
-   "away": 1
+   "away": 2
   },
   "Substitutions": {
    "home": 5,
@@ -652,8 +652,8 @@
    "away": 3
   },
   "Successful Headers": {
-   "home": 5,
-   "away": 6
+   "home": 6,
+   "away": 7
   },
   "Tackles": {
    "home": 16,
@@ -664,12 +664,12 @@
    "away": 1
   },
   "Passes": {
-   "home": 538,
-   "away": 486
+   "home": 560,
+   "away": 506
   },
   "Successful Passes": {
-   "home": 488,
-   "away": 433
+   "home": 510,
+   "away": 451
   },
   "Successful Passes Percentage": {
    "home": 91,
@@ -692,23 +692,23 @@
    "away": 3
   },
   "Interceptions": {
-   "home": 7,
+   "home": 9,
    "away": 4
   },
   "Duels Won": {
    "home": 35,
-   "away": 39
+   "away": 40
   },
   "Dribble Attempts": {
    "home": 19,
    "away": 14
   },
   "Successful Dribbles": {
-   "home": 7,
+   "home": 8,
    "away": 6
   },
   "Key Passes": {
-   "home": 20,
+   "home": 21,
    "away": 10
   },
   "Big Chances Created": {
@@ -1292,9 +1292,9 @@
  "player_stats": {
   "529045": {
    "rating": 6.05,
-   "touches": 50,
-   "min": 86,
-   "pass": 42,
+   "touches": 52,
+   "min": 88,
+   "pass": 44,
    "int": 1,
    "pass_pct": 83,
    "saves": 3,
@@ -1302,22 +1302,22 @@
    "name": "Viljami Sinisalo"
   },
   "198116": {
-   "min": 9,
-   "pass": 5,
+   "min": 11,
+   "pass": 7,
    "tkl": 1,
-   "touches": 7,
+   "touches": 9,
    "duels": 2,
    "duels_t": 2,
-   "rating": 6.59,
+   "rating": 6.6,
    "pass_pct": 80,
    "side": "away",
    "name": "Jordan Lotomba"
   },
   "262280": {
-   "pass": 81,
-   "touches": 83,
+   "pass": 84,
+   "touches": 86,
    "rating": 6.44,
-   "min": 86,
+   "min": 88,
    "pass_pct": 95,
    "fouls": 1,
    "duels_t": 3,
@@ -1328,11 +1328,11 @@
   },
   "19979885": {
    "pass_pct": 100,
-   "touches": 20,
+   "touches": 22,
    "rating": 6.45,
-   "pass": 19,
+   "pass": 21,
    "duels_t": 1,
-   "min": 29,
+   "min": 31,
    "side": "away",
    "name": "Benjamin Nygren"
   },
@@ -1353,7 +1353,7 @@
    "pass": 13,
    "touches": 33,
    "rating": 7.43,
-   "min": 86,
+   "min": 88,
    "duels": 7,
    "duels_t": 11,
    "sh": 3,
@@ -1393,12 +1393,12 @@
    "name": "Oliver Sørensen"
   },
   "37598290": {
-   "min": 41,
-   "touches": 18,
+   "min": 43,
+   "touches": 19,
    "duels_t": 5,
    "sh": 2,
    "rating": 6.38,
-   "pass": 7,
+   "pass": 8,
    "pass_pct": 75,
    "duels": 1,
    "fouls": 1,
@@ -1406,10 +1406,10 @@
    "name": "Callum Osmand"
   },
   "850": {
-   "min": 29,
-   "pass": 17,
+   "min": 31,
+   "pass": 18,
    "pass_pct": 71,
-   "touches": 21,
+   "touches": 22,
    "duels_t": 3,
    "rating": 6.34,
    "kp": 1,
@@ -1435,11 +1435,11 @@
   "18584306": {
    "sh": 2,
    "sot": 2,
-   "min": 41,
-   "pass": 15,
-   "touches": 24,
-   "duels": 2,
-   "duels_t": 4,
+   "min": 43,
+   "pass": 16,
+   "touches": 26,
+   "duels": 3,
+   "duels_t": 5,
    "rating": 7.53,
    "pass_pct": 75,
    "kp": 2,
@@ -1450,10 +1450,10 @@
    "name": "Haissem Hassan"
   },
   "8585": {
-   "pass": 70,
-   "touches": 76,
-   "rating": 6.89,
-   "min": 86,
+   "pass": 71,
+   "touches": 77,
+   "rating": 6.86,
+   "min": 88,
    "clr": 3,
    "kp": 2,
    "duels": 1,
@@ -1463,10 +1463,10 @@
    "name": "Callum McGregor"
   },
   "37342595": {
-   "touches": 83,
-   "rating": 6.1,
-   "pass": 73,
-   "min": 86,
+   "touches": 85,
+   "rating": 6.11,
+   "pass": 75,
+   "min": 88,
    "fouls": 1,
    "duels_t": 5,
    "pass_pct": 92,
@@ -1494,8 +1494,8 @@
   },
   "172960": {
    "touches": 74,
-   "rating": 6.88,
-   "min": 86,
+   "rating": 7.0,
+   "min": 88,
    "clr": 4,
    "pass": 55,
    "duels_t": 8,
@@ -1509,7 +1509,7 @@
   },
   "9938909": {
    "touches": 25,
-   "min": 86,
+   "min": 88,
    "rating": 7.36,
    "saves": 5,
    "pass": 17,
@@ -1519,27 +1519,27 @@
    "name": "Anatoliy Trubin"
   },
   "96741": {
-   "min": 86,
+   "min": 88,
    "pass": 78,
-   "rating": 6.89,
-   "touches": 83,
+   "rating": 6.9,
+   "touches": 84,
    "clr": 3,
    "duels": 1,
    "duels_t": 4,
    "pass_pct": 93,
    "kp": 2,
    "fouls": 1,
-   "int": 1,
+   "int": 2,
    "side": "home",
    "name": "Clément Lenglet"
   },
   "37361402": {
    "duels_t": 1,
-   "rating": 6.53,
+   "rating": 6.6,
    "pass_pct": 100,
    "pass": 2,
    "touches": 3,
-   "min": 6,
+   "min": 8,
    "side": "home",
    "name": "Alessandro Circati"
   },
@@ -1564,13 +1564,13 @@
   },
   "151551": {
    "rating": 7.02,
-   "touches": 64,
-   "pass": 53,
-   "min": 86,
+   "touches": 65,
+   "pass": 54,
+   "min": 88,
    "duels": 4,
    "duels_t": 6,
    "pass_pct": 96,
-   "kp": 2,
+   "kp": 3,
    "tkl": 2,
    "sh": 1,
    "side": "home",
@@ -1604,9 +1604,9 @@
   },
   "36265": {
    "pass_pct": 100,
-   "min": 19,
+   "min": 21,
    "touches": 8,
-   "rating": 6.47,
+   "rating": 6.52,
    "pass": 5,
    "sh": 1,
    "duels": 1,
@@ -1619,7 +1619,7 @@
    "sh": 2,
    "pass_pct": 67,
    "pass": 6,
-   "min": 18,
+   "min": 20,
    "tkl": 1,
    "duels_t": 4,
    "duels": 2,
@@ -1643,15 +1643,15 @@
    "name": "Jhon Durán"
   },
   "37625767": {
-   "rating": 9.23,
-   "min": 86,
+   "rating": 9.22,
+   "min": 88,
    "pass": 47,
-   "touches": 70,
+   "touches": 71,
    "kp": 9,
    "pass_pct": 79,
    "duels_t": 15,
    "duels": 8,
-   "sh": 6,
+   "sh": 7,
    "bcc": 1,
    "a": 2,
    "tkl": 2,
@@ -1673,39 +1673,40 @@
    "name": "Samuel Dahl"
   },
   "37639080": {
-   "min": 22,
-   "touches": 14,
+   "min": 24,
+   "touches": 15,
    "pass_pct": 75,
-   "rating": 6.52,
+   "rating": 6.39,
    "duels_t": 2,
-   "pass": 7,
+   "pass": 8,
    "kp": 1,
    "side": "home",
    "name": "Claudio Echeverri"
   },
   "37257612": {
-   "touches": 14,
-   "min": 22,
-   "pass": 9,
+   "touches": 15,
+   "min": 24,
+   "pass": 10,
    "pass_pct": 100,
-   "duels_t": 1,
+   "duels_t": 2,
    "tkl": 1,
    "duels": 1,
    "rating": 6.63,
    "int": 1,
+   "fouls": 1,
    "side": "home",
    "name": "Souffian El Karouani"
   },
   "160072": {
    "tkl": 1,
-   "touches": 82,
+   "touches": 83,
    "duels_t": 8,
    "duels": 4,
-   "min": 86,
+   "min": 88,
    "sh": 1,
-   "pass": 67,
+   "pass": 68,
    "pass_pct": 95,
-   "rating": 6.94,
+   "rating": 7.03,
    "int": 3,
    "clr": 1,
    "fouls": 1,
@@ -1713,7 +1714,7 @@
    "name": "João Palhinha"
   },
   "24065379": {
-   "min": 86,
+   "min": 88,
    "rating": 7.25,
    "touches": 83,
    "pass": 71,
@@ -2386,7 +2387,28 @@
    "t": "Kieran Tierney from Celtic wins a free kick in the attacking half.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 87,
+   "x": null,
+   "t": "Foul committed by Souffian El Karouani of Benfica.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 87,
+   "x": null,
+   "t": "Haissem Hassan from Celtic wins a free kick in the defensive half.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 87,
+   "x": null,
+   "t": "Gianluca Prestianni from Benfica misses a right-footed shot from the right side of the box, sending it to the left. He was assisted by Fredrik Aursnes.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2491
+ "rate_remaining": 2483
 }
