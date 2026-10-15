@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T12:48:58+00:00",
+ "updated": "2026-10-15T20:25:34+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
@@ -431,11 +431,17 @@
    "ha": "A",
    "opp": "Benfica",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/29/605.png",
-   "state": "NS",
+   "state": "INPLAY_2ND_HALF",
    "finished": false,
    "void": false,
-   "score": null,
-   "half_time": null,
+   "score": {
+    "home": 3,
+    "away": 1
+   },
+   "half_time": {
+    "home": 3,
+    "away": 0
+   },
    "result": null,
    "tv": []
   },
