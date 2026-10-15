@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-15T20:47:49.282281+00:00",
- "live": true,
+ "updated_at": "2026-10-15T20:49:49.268216+00:00",
+ "live": false,
  "fixture": {
   "id": 19873852,
   "kickoff_utc": "2026-10-15 19:00:00",
@@ -351,11 +351,11 @@
    "formation": "4-2-3-1"
   }
  },
- "state": "INPLAY_2ND_HALF",
- "state_name": "2nd Half",
- "minute": 90,
+ "state": "FT",
+ "state_name": "Full Time",
+ "minute": null,
  "minute_estimated": false,
- "added_time": 2,
+ "added_time": null,
  "score": {
   "home": 4,
   "away": 1
@@ -584,28 +584,28 @@
  ],
  "stats": {
   "Corners": {
-   "home": 7,
-   "away": 5
+   "home": 8,
+   "away": 6
   },
   "Shots Off Target": {
-   "home": 10,
+   "home": 11,
    "away": 5
   },
   "Shots Total": {
-   "home": 25,
-   "away": 13
+   "home": 26,
+   "away": 14
   },
   "Attacks": {
-   "home": 114,
+   "home": 115,
    "away": 73
   },
   "Dangerous Attacks": {
-   "home": 62,
-   "away": 28
+   "home": 67,
+   "away": 30
   },
   "Ball Possession %": {
-   "home": 52,
-   "away": 48
+   "home": 53,
+   "away": 47
   },
   "Penalties": {
    "home": 1,
@@ -613,7 +613,7 @@
   },
   "Shots Insidebox": {
    "home": 20,
-   "away": 11
+   "away": 12
   },
   "Shots Outsidebox": {
    "home": 5,
@@ -632,12 +632,12 @@
    "away": 10
   },
   "Free Kicks": {
-   "home": 5,
+   "home": 6,
    "away": 9
   },
   "Fouls": {
    "home": 9,
-   "away": 6
+   "away": 7
   },
   "Saves": {
    "home": 5,
@@ -657,7 +657,7 @@
   },
   "Long Passes": {
    "home": 50,
-   "away": 35
+   "away": 36
   },
   "Hit Woodwork": {
    "home": 1,
@@ -672,16 +672,16 @@
    "away": 18
   },
   "Assists": {
-   "home": 2,
+   "home": 3,
    "away": 1
   },
   "Passes": {
-   "home": 564,
-   "away": 508
+   "home": 574,
+   "away": 513
   },
   "Successful Passes": {
-   "home": 514,
-   "away": 453
+   "home": 524,
+   "away": 456
   },
   "Successful Passes Percentage": {
    "home": 91,
@@ -693,14 +693,14 @@
   },
   "Shots On Target": {
    "home": 7,
-   "away": 6
+   "away": 7
   },
   "Total Crosses": {
-   "home": 11,
+   "home": 13,
    "away": 12
   },
   "Accurate Crosses": {
-   "home": 4,
+   "home": 5,
    "away": 3
   },
   "Interceptions": {
@@ -708,8 +708,8 @@
    "away": 4
   },
   "Duels Won": {
-   "home": 35,
-   "away": 40
+   "home": 36,
+   "away": 41
   },
   "Dribble Attempts": {
    "home": 19,
@@ -741,7 +741,7 @@
   },
   "Successful Long Passes Percentage": {
    "home": 72,
-   "away": 40
+   "away": 39
   },
   "Tackles Won": {
    "home": 11,
@@ -1303,21 +1303,21 @@
  },
  "player_stats": {
   "529045": {
-   "rating": 5.95,
+   "rating": 5.82,
    "touches": 52,
-   "min": 90,
+   "min": 92,
    "pass": 44,
    "int": 1,
-   "pass_pct": 83,
+   "pass_pct": 84,
    "saves": 3,
    "side": "away",
    "name": "Viljami Sinisalo"
   },
   "198116": {
-   "min": 13,
+   "min": 15,
    "pass": 7,
    "tkl": 1,
-   "touches": 9,
+   "touches": 10,
    "duels": 2,
    "duels_t": 2,
    "rating": 6.36,
@@ -1328,23 +1328,23 @@
   "262280": {
    "pass": 84,
    "touches": 86,
-   "rating": 6.27,
-   "min": 90,
+   "rating": 6.3,
+   "min": 92,
    "pass_pct": 95,
    "fouls": 1,
-   "duels_t": 3,
+   "duels_t": 4,
    "kp": 2,
    "clr": 1,
    "side": "away",
    "name": "Auston Trusty"
   },
   "19979885": {
-   "pass_pct": 100,
+   "pass_pct": 91,
    "touches": 24,
    "rating": 6.43,
    "pass": 23,
    "duels_t": 1,
-   "min": 33,
+   "min": 35,
    "side": "away",
    "name": "Benjamin Nygren"
   },
@@ -1363,14 +1363,14 @@
   },
   "37709508": {
    "pass": 13,
-   "touches": 33,
-   "rating": 7.34,
-   "min": 90,
+   "touches": 34,
+   "rating": 7.48,
+   "min": 92,
    "duels": 7,
    "duels_t": 11,
-   "sh": 3,
+   "sh": 4,
    "pass_pct": 85,
-   "sot": 1,
+   "sot": 2,
    "g": 1,
    "side": "away",
    "name": "Camilo Durán"
@@ -1405,25 +1405,25 @@
    "name": "Oliver Sørensen"
   },
   "37598290": {
-   "min": 45,
-   "touches": 20,
+   "min": 47,
+   "touches": 21,
    "duels_t": 5,
    "sh": 3,
    "rating": 6.36,
-   "pass": 8,
-   "pass_pct": 75,
+   "pass": 9,
+   "pass_pct": 63,
    "duels": 1,
    "fouls": 1,
    "side": "away",
    "name": "Callum Osmand"
   },
   "850": {
-   "min": 33,
+   "min": 35,
    "pass": 18,
-   "pass_pct": 71,
+   "pass_pct": 61,
    "touches": 22,
    "duels_t": 3,
-   "rating": 6.24,
+   "rating": 6.22,
    "kp": 1,
    "side": "away",
    "name": "Alex Oxlade-Chamberlain"
@@ -1447,13 +1447,13 @@
   "18584306": {
    "sh": 2,
    "sot": 2,
-   "min": 45,
-   "pass": 17,
-   "touches": 27,
+   "min": 47,
+   "pass": 18,
+   "touches": 28,
    "duels": 3,
    "duels_t": 5,
    "rating": 7.55,
-   "pass_pct": 75,
+   "pass_pct": 76,
    "kp": 2,
    "a": 1,
    "tkl": 1,
@@ -1464,26 +1464,27 @@
   "8585": {
    "pass": 72,
    "touches": 78,
-   "rating": 6.76,
-   "min": 90,
+   "rating": 6.72,
+   "min": 92,
    "clr": 3,
    "kp": 2,
    "duels": 1,
-   "duels_t": 2,
+   "duels_t": 3,
    "pass_pct": 97,
+   "fouls": 1,
    "side": "away",
    "name": "Callum McGregor"
   },
   "37342595": {
-   "touches": 87,
-   "rating": 5.94,
-   "pass": 77,
-   "min": 90,
+   "touches": 90,
+   "rating": 5.96,
+   "pass": 79,
+   "min": 92,
    "fouls": 1,
-   "duels_t": 5,
-   "pass_pct": 92,
-   "clr": 4,
-   "duels": 3,
+   "duels_t": 6,
+   "pass_pct": 94,
+   "clr": 5,
+   "duels": 4,
    "int": 1,
    "tkl": 1,
    "side": "away",
@@ -1505,13 +1506,13 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "touches": 75,
-   "rating": 7.03,
-   "min": 90,
+   "touches": 76,
+   "rating": 6.97,
+   "min": 92,
    "clr": 4,
-   "pass": 56,
+   "pass": 57,
    "duels_t": 8,
-   "pass_pct": 92,
+   "pass_pct": 93,
    "duels": 6,
    "sh": 1,
    "sot": 1,
@@ -1522,24 +1523,24 @@
   },
   "9938909": {
    "touches": 25,
-   "min": 90,
+   "min": 92,
    "rating": 7.36,
    "saves": 5,
    "pass": 17,
-   "pass_pct": 93,
+   "pass_pct": 88,
    "duels_t": 1,
    "side": "home",
    "name": "Anatoliy Trubin"
   },
   "96741": {
-   "min": 90,
-   "pass": 82,
-   "rating": 6.98,
-   "touches": 88,
+   "min": 92,
+   "pass": 83,
+   "rating": 6.99,
+   "touches": 89,
    "clr": 3,
    "duels": 1,
    "duels_t": 4,
-   "pass_pct": 93,
+   "pass_pct": 94,
    "kp": 2,
    "fouls": 1,
    "int": 2,
@@ -1547,12 +1548,12 @@
    "name": "Clément Lenglet"
   },
   "37361402": {
-   "duels_t": 1,
-   "rating": 6.76,
+   "duels_t": 2,
+   "rating": 6.71,
    "pass_pct": 100,
    "pass": 3,
    "touches": 5,
-   "min": 10,
+   "min": 12,
    "side": "home",
    "name": "Alessandro Circati"
   },
@@ -1571,18 +1572,18 @@
    "fouls": 1,
    "int": 1,
    "yc": 1,
-   "pass_pct": 85,
+   "pass_pct": 86,
    "side": "home",
    "name": "Alexander Bah"
   },
   "151551": {
-   "rating": 7.18,
-   "touches": 71,
-   "pass": 60,
-   "min": 90,
+   "rating": 7.19,
+   "touches": 73,
+   "pass": 62,
+   "min": 92,
    "duels": 4,
    "duels_t": 6,
-   "pass_pct": 96,
+   "pass_pct": 97,
    "kp": 3,
    "tkl": 2,
    "sh": 1,
@@ -1616,11 +1617,11 @@
    "name": "Dodi Lukébakio"
   },
   "36265": {
-   "pass_pct": 100,
-   "min": 23,
-   "touches": 9,
-   "rating": 7.21,
-   "pass": 5,
+   "pass_pct": 80,
+   "min": 25,
+   "touches": 12,
+   "rating": 7.2,
+   "pass": 6,
    "sh": 2,
    "duels": 1,
    "duels_t": 3,
@@ -1630,11 +1631,11 @@
    "name": "Vangelis Pavlidis"
   },
   "37555815": {
-   "touches": 12,
+   "touches": 16,
    "sh": 2,
-   "pass_pct": 67,
-   "pass": 6,
-   "min": 22,
+   "pass_pct": 83,
+   "pass": 9,
+   "min": 24,
    "tkl": 1,
    "duels_t": 4,
    "duels": 2,
@@ -1658,12 +1659,12 @@
    "name": "Jhon Durán"
   },
   "37625767": {
-   "rating": 9.35,
-   "min": 90,
+   "rating": 9.36,
+   "min": 92,
    "pass": 50,
-   "touches": 74,
+   "touches": 75,
    "kp": 9,
-   "pass_pct": 79,
+   "pass_pct": 80,
    "duels_t": 15,
    "duels": 8,
    "sh": 7,
@@ -1688,25 +1689,26 @@
    "name": "Samuel Dahl"
   },
   "37639080": {
-   "min": 26,
-   "touches": 16,
-   "pass_pct": 75,
+   "min": 28,
+   "touches": 19,
+   "pass_pct": 100,
    "rating": 6.4,
-   "duels_t": 2,
-   "pass": 9,
+   "duels_t": 3,
+   "pass": 11,
    "kp": 1,
+   "duels": 1,
    "side": "home",
    "name": "Claudio Echeverri"
   },
   "37257612": {
-   "touches": 16,
-   "min": 26,
+   "touches": 17,
+   "min": 28,
    "pass": 11,
-   "pass_pct": 100,
+   "pass_pct": 91,
    "duels_t": 2,
    "tkl": 1,
    "duels": 1,
-   "rating": 6.52,
+   "rating": 6.56,
    "int": 1,
    "fouls": 1,
    "side": "home",
@@ -1714,26 +1716,27 @@
   },
   "160072": {
    "tkl": 1,
-   "touches": 86,
+   "touches": 87,
    "duels_t": 8,
    "duels": 4,
-   "min": 90,
+   "min": 92,
    "sh": 1,
-   "pass": 71,
-   "pass_pct": 95,
-   "rating": 7.07,
+   "pass": 72,
+   "pass_pct": 94,
+   "rating": 7.02,
    "int": 3,
    "clr": 1,
    "fouls": 1,
+   "yc": 1,
    "side": "home",
    "name": "João Palhinha"
   },
   "24065379": {
-   "min": 90,
-   "rating": 7.3,
+   "min": 92,
+   "rating": 7.61,
    "touches": 87,
    "pass": 74,
-   "pass_pct": 94,
+   "pass_pct": 95,
    "clr": 5,
    "sh": 2,
    "duels_t": 7,
@@ -2440,7 +2443,42 @@
    "t": "Goal! Benfica 4, Celtic 1. Vangelis Pavlidis scores for Benfica with a right-footed shot from outside the box into the bottom left corner, assisted by Tomás Araújo with a through ball.",
    "goal": true,
    "key": true
+  },
+  {
+   "m": 90,
+   "x": null,
+   "t": "Claudio Echeverri from Benfica wins a free kick in the attacking half.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 90,
+   "x": null,
+   "t": "Callum McGregor from Celtic commits a foul.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 90,
+   "x": 1,
+   "t": "Benfica is awarded a corner after Jordan Lotomba concedes it.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 90,
+   "x": 1,
+   "t": "The fourth official has indicated there will be 2 minutes of added time.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 90,
+   "x": 2,
+   "t": "Attempt saved. Camilo Durán from Celtic has a left-footed shot from the left side of the box that is saved.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2479
+ "rate_remaining": 2473
 }
