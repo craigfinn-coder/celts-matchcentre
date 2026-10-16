@@ -1083,7 +1083,7 @@
     "away": 10
    },
    "Goal Attempts": {
-    "home": 19,
+    "home": 18,
     "away": 12
    },
    "Free Kicks": {
@@ -1163,8 +1163,8 @@
     "away": 7
    },
    "Duels Won": {
-    "home": 36,
-    "away": 41
+    "home": 37,
+    "away": 37
    },
    "Dribble Attempts": {
     "home": 17,
@@ -1200,7 +1200,7 @@
    },
    "Tackles Won": {
     "home": 10,
-    "away": 13
+    "away": 10
    }
   },
   "lineups": {
@@ -1543,7 +1543,7 @@
   },
   "player_stats": {
    "529045": {
-    "rating": 5.82,
+    "rating": 5.81,
     "touches": 51,
     "min": 90,
     "pass": 45,
@@ -1559,7 +1559,7 @@
     "touches": 9,
     "duels": 1,
     "duels_t": 2,
-    "rating": 6.36,
+    "rating": 6.34,
     "pass_pct": 86,
     "side": "away",
     "name": "Jordan Lotomba"
@@ -1567,7 +1567,7 @@
    "262280": {
     "pass": 84,
     "touches": 87,
-    "rating": 6.31,
+    "rating": 6.33,
     "min": 90,
     "pass_pct": 95,
     "fouls": 1,
@@ -1581,7 +1581,7 @@
    "19979885": {
     "pass_pct": 91,
     "touches": 25,
-    "rating": 6.43,
+    "rating": 6.47,
     "pass": 23,
     "duels_t": 1,
     "min": 33,
@@ -1649,7 +1649,7 @@
     "touches": 23,
     "duels_t": 4,
     "sh": 3,
-    "rating": 6.53,
+    "rating": 6.54,
     "pass": 11,
     "pass_pct": 70,
     "duels": 1,
@@ -1670,7 +1670,7 @@
     "name": "Alex Oxlade-Chamberlain"
    },
    "37582048": {
-    "rating": 6.92,
+    "rating": 6.87,
     "duels": 4,
     "touches": 31,
     "tkl": 3,
@@ -1693,7 +1693,7 @@
     "touches": 29,
     "duels": 2,
     "duels_t": 4,
-    "rating": 7.55,
+    "rating": 7.51,
     "pass_pct": 78,
     "kp": 2,
     "a": 1,
@@ -1718,7 +1718,7 @@
    },
    "37342595": {
     "touches": 90,
-    "rating": 6.03,
+    "rating": 6.09,
     "pass": 79,
     "min": 90,
     "fouls": 1,
@@ -1733,7 +1733,7 @@
    },
    "37732189": {
     "touches": 50,
-    "rating": 6.6,
+    "rating": 6.63,
     "pass": 27,
     "min": 77,
     "duels": 7,
@@ -1748,7 +1748,7 @@
    },
    "172960": {
     "touches": 76,
-    "rating": 6.96,
+    "rating": 6.97,
     "min": 90,
     "clr": 4,
     "pass": 56,
@@ -1765,7 +1765,7 @@
    "9938909": {
     "touches": 26,
     "min": 90,
-    "rating": 7.72,
+    "rating": 7.74,
     "saves": 6,
     "pass": 17,
     "pass_pct": 88,
@@ -1776,7 +1776,7 @@
    "96741": {
     "min": 90,
     "pass": 83,
-    "rating": 7.03,
+    "rating": 6.97,
     "touches": 89,
     "clr": 3,
     "duels": 1,
@@ -1800,7 +1800,7 @@
    },
    "85996": {
     "min": 80,
-    "rating": 7.29,
+    "rating": 7.32,
     "pass": 63,
     "touches": 78,
     "sh": 1,
@@ -1832,7 +1832,7 @@
     "name": "Fredrik Aursnes"
    },
    "23277810": {
-    "rating": 7.18,
+    "rating": 7.15,
     "min": 64,
     "touches": 48,
     "pass": 36,
@@ -1853,7 +1853,7 @@
     "pass_pct": 88,
     "fouls": 1,
     "sh": 2,
-    "rating": 6.22,
+    "rating": 6.17,
     "side": "home",
     "name": "Dodi Lukébakio"
    },
@@ -1861,7 +1861,7 @@
     "pass_pct": 86,
     "min": 23,
     "touches": 13,
-    "rating": 7.41,
+    "rating": 7.46,
     "pass": 7,
     "sh": 2,
     "duels": 2,
@@ -1883,7 +1883,7 @@
     "tkl": 1,
     "duels_t": 3,
     "duels": 2,
-    "rating": 6.74,
+    "rating": 6.81,
     "side": "home",
     "name": "Andreas Schjelderup"
    },
@@ -1903,7 +1903,7 @@
     "name": "Jhon Durán"
    },
    "37625767": {
-    "rating": 9.37,
+    "rating": 9.54,
     "min": 90,
     "pass": 49,
     "touches": 76,
@@ -1923,7 +1923,7 @@
     "touches": 40,
     "clr": 1,
     "min": 64,
-    "rating": 6.12,
+    "rating": 6.16,
     "pass": 33,
     "fouls": 3,
     "duels_t": 4,
@@ -1937,7 +1937,7 @@
     "min": 26,
     "touches": 19,
     "pass_pct": 100,
-    "rating": 6.45,
+    "rating": 6.54,
     "duels_t": 3,
     "pass": 12,
     "kp": 1,
@@ -1953,7 +1953,7 @@
     "duels_t": 2,
     "tkl": 1,
     "duels": 1,
-    "rating": 6.59,
+    "rating": 6.58,
     "int": 1,
     "fouls": 1,
     "side": "home",
@@ -1968,7 +1968,7 @@
     "sh": 1,
     "pass": 72,
     "pass_pct": 93,
-    "rating": 7.02,
+    "rating": 7.08,
     "int": 3,
     "clr": 1,
     "fouls": 1,
@@ -1978,7 +1978,7 @@
    },
    "24065379": {
     "min": 90,
-    "rating": 7.69,
+    "rating": 7.68,
     "touches": 89,
     "pass": 75,
     "pass_pct": 95,
@@ -2761,5 +2761,5 @@
    }
   ]
  },
- "updated_at": "2026-10-16T02:19:49.893382+00:00"
+ "updated_at": "2026-10-16T07:41:40.197288+00:00"
 }
