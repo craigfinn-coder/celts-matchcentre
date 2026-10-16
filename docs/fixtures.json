@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-15T20:25:34+00:00",
+ "updated": "2026-10-16T01:31:29+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 13,
+  "p": 14,
   "w": 9,
   "d": 0,
-  "l": 4,
-  "gf": 25,
-  "ga": 15
+  "l": 5,
+  "gf": 26,
+  "ga": 19
  },
  "fixtures": [
   {
@@ -431,18 +431,18 @@
    "ha": "A",
    "opp": "Benfica",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/29/605.png",
-   "state": "INPLAY_2ND_HALF",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
    "score": {
-    "home": 3,
+    "home": 4,
     "away": 1
    },
    "half_time": {
     "home": 3,
     "away": 0
    },
-   "result": null,
+   "result": "L",
    "tv": []
   },
   {
