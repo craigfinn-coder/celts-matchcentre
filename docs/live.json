@@ -1,6 +1,6 @@
 {
  "live": false,
- "state": "FT",
+ "state": "NS",
  "next_fixtures": [
   {
    "id": 19722774,
@@ -209,188 +209,27 @@
    "gd": -11
   }
  ],
+ "state_name": "Not started",
  "fixture": {
-  "id": 19873852,
-  "kickoff_utc": "2026-10-15 19:00:00",
-  "league": "Europa League",
-  "venue": "Estádio do Sport Lisboa e Benfica",
-  "home": "Benfica",
-  "away": "Celtic",
-  "home_id": 605,
-  "away_id": 53,
-  "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/29/605.png",
-  "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
+  "id": 19722774,
+  "kickoff_utc": "2026-10-18 14:00:00",
+  "league": "Premiership",
+  "venue": "Celtic Park",
+  "home": "Celtic",
+  "away": "Hearts",
+  "home_id": 53,
+  "away_id": 314,
+  "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+  "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png"
  },
+ "score": {
+  "home": 0,
+  "away": 0
+ },
+ "events": [],
+ "stats": {},
  "lineups": {
   "home": {
-   "xi": [
-    {
-     "name": "Anatoliy Trubin",
-     "num": 1,
-     "pos": 1,
-     "field": "1:1",
-     "id": 9938909
-    },
-    {
-     "name": "Alexander Bah",
-     "num": 6,
-     "pos": 2,
-     "field": "2:1",
-     "id": 85996
-    },
-    {
-     "name": "Tomás Araújo",
-     "num": 44,
-     "pos": 3,
-     "field": "2:2",
-     "id": 24065379
-    },
-    {
-     "name": "Clément Lenglet",
-     "num": 2,
-     "pos": 4,
-     "field": "2:3",
-     "id": 96741
-    },
-    {
-     "name": "Samuel Dahl",
-     "num": 26,
-     "pos": 5,
-     "field": "2:4",
-     "id": 37295874
-    },
-    {
-     "name": "Fredrik Aursnes",
-     "num": 8,
-     "pos": 6,
-     "field": "3:1",
-     "id": 151551
-    },
-    {
-     "name": "João Palhinha",
-     "num": 36,
-     "pos": 7,
-     "field": "3:2",
-     "id": 160072
-    },
-    {
-     "name": "Dodi Lukébakio",
-     "num": 11,
-     "pos": 8,
-     "field": "4:1",
-     "id": 62871
-    },
-    {
-     "name": "Georgiy Sudakov",
-     "num": 10,
-     "pos": 9,
-     "field": "4:2",
-     "id": 23277810
-    },
-    {
-     "name": "Gianluca Prestianni",
-     "num": 25,
-     "pos": 10,
-     "field": "4:3",
-     "id": 37625767
-    },
-    {
-     "name": "Jhon Durán",
-     "num": 22,
-     "pos": 11,
-     "field": "5:1",
-     "id": 30071882
-    }
-   ],
-   "bench": [
-    {
-     "name": "Alessandro Circati",
-     "num": 3,
-     "pos": null,
-     "field": null,
-     "id": 37361402
-    },
-    {
-     "name": "Vangelis Pavlidis",
-     "num": 14,
-     "pos": null,
-     "field": null,
-     "id": 36265
-    },
-    {
-     "name": "Manu Silva",
-     "num": 16,
-     "pos": null,
-     "field": null,
-     "id": 37548047
-    },
-    {
-     "name": "Leandro Barreiro",
-     "num": 18,
-     "pos": null,
-     "field": null,
-     "id": 3862667
-    },
-    {
-     "name": "Andreas Schjelderup",
-     "num": 21,
-     "pos": null,
-     "field": null,
-     "id": 37555815
-    },
-    {
-     "name": "Samuel Soares",
-     "num": 24,
-     "pos": null,
-     "field": null,
-     "id": 24065403
-    },
-    {
-     "name": "Rafa Silva",
-     "num": 27,
-     "pos": null,
-     "field": null,
-     "id": 159402
-    },
-    {
-     "name": "Claudio Echeverri",
-     "num": 30,
-     "pos": null,
-     "field": null,
-     "id": 37639080
-    },
-    {
-     "name": "Gabriel Índio",
-     "num": 33,
-     "pos": null,
-     "field": null,
-     "id": 38200878
-    },
-    {
-     "name": "Souffian El Karouani",
-     "num": 34,
-     "pos": null,
-     "field": null,
-     "id": 37257612
-    },
-    {
-     "name": "Anísio Cabral",
-     "num": 72,
-     "pos": null,
-     "field": null,
-     "id": 37738662
-    },
-    {
-     "name": "Tiago Freitas",
-     "num": 88,
-     "pos": null,
-     "field": null,
-     "id": 37656849
-    }
-   ],
-   "formation": "4-2-3-1"
-  },
-  "away": {
    "xi": [
     {
      "name": "Viljami Sinisalo",
@@ -403,63 +242,63 @@
      "name": "Colby Donovan",
      "num": 51,
      "pos": 2,
-     "field": "2:4",
+     "field": "2:1",
      "id": 37732189
     },
     {
      "name": "Dane Murray",
      "num": 47,
      "pos": 3,
-     "field": "2:3",
+     "field": "2:2",
      "id": 37342595
     },
     {
-     "name": "Auston Trusty",
-     "num": 6,
+     "name": "Liam Scales",
+     "num": 5,
      "pos": 4,
-     "field": "2:2",
-     "id": 262280
+     "field": "2:3",
+     "id": 123659
     },
     {
      "name": "Kieran Tierney",
      "num": 63,
      "pos": 5,
-     "field": "2:1",
+     "field": "2:4",
      "id": 172960
     },
     {
      "name": "Callum McGregor",
      "num": 42,
      "pos": 6,
-     "field": "3:2",
+     "field": "3:1",
      "id": 8585
     },
     {
      "name": "Mika Joel Baur",
      "num": 22,
      "pos": 7,
-     "field": "3:1",
+     "field": "3:2",
      "id": 37582048
     },
     {
      "name": "Camilo Durán",
      "num": 11,
      "pos": 8,
-     "field": "4:3",
+     "field": "4:1",
      "id": 37709508
     },
     {
-     "name": "Oliver Sørensen",
-     "num": 18,
+     "name": "Benjamin Nygren",
+     "num": 8,
      "pos": 9,
      "field": "4:2",
-     "id": 23698076
+     "id": 19979885
     },
     {
      "name": "Sebastian Tounekti",
      "num": 17,
      "pos": 10,
-     "field": "4:1",
+     "field": "4:3",
      "id": 15169863
     },
     {
@@ -470,1776 +309,95 @@
      "id": 15061513
     }
    ],
-   "bench": [
+   "bench": [],
+   "formation": "4-2-3-1"
+  },
+  "away": {
+   "xi": [
     {
-     "name": "Jordan Lotomba",
-     "num": 3,
-     "pos": null,
-     "field": null,
-     "id": 198116
+     "name": "Beau Reus",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 21772899
     },
     {
-     "name": "Liam Scales",
-     "num": 5,
-     "pos": null,
-     "field": null,
-     "id": 123659
-    },
-    {
-     "name": "Benjamin Nygren",
-     "num": 8,
-     "pos": null,
-     "field": null,
-     "id": 19979885
-    },
-    {
-     "name": "Luke McCowan",
-     "num": 14,
-     "pos": null,
-     "field": null,
-     "id": 1548366
-    },
-    {
-     "name": "Callum Osmand",
-     "num": 19,
-     "pos": null,
-     "field": null,
-     "id": 37598290
-    },
-    {
-     "name": "Alex Oxlade-Chamberlain",
-     "num": 21,
-     "pos": null,
-     "field": null,
-     "id": 850
-    },
-    {
-     "name": "Haissem Hassan",
+     "name": "Jordi Altena",
      "num": 23,
-     "pos": null,
-     "field": null,
-     "id": 18584306
+     "pos": 2,
+     "field": "2:4",
+     "id": 37709746
     },
     {
-     "name": "Sam Johnstone",
-     "num": 26,
-     "pos": null,
-     "field": null,
-     "id": 1008
+     "name": "Malachi Fagan-Walcott",
+     "num": 64,
+     "pos": 3,
+     "field": "2:3",
+     "id": 23277905
     },
     {
-     "name": "James Forrest",
-     "num": 49,
-     "pos": null,
-     "field": null,
-     "id": 172104
+     "name": "Jamie McCart",
+     "num": 5,
+     "pos": 4,
+     "field": "2:2",
+     "id": 173767
     },
     {
-     "name": "Anthony Ralston",
-     "num": 56,
-     "pos": null,
-     "field": null,
-     "id": 173129
+     "name": "Harry Milne",
+     "num": 18,
+     "pos": 5,
+     "field": "2:1",
+     "id": 377964
     },
     {
-     "name": "Lucas Clearie",
-     "num": 62,
-     "pos": null,
-     "field": null,
-     "id": null
+     "name": "Ageu",
+     "num": 8,
+     "pos": 6,
+     "field": "3:2",
+     "id": 37615475
     },
     {
-     "name": "Liam Kennedy",
-     "num": 65,
-     "pos": null,
-     "field": null,
-     "id": 38223386
+     "name": "Laurent Mendy",
+     "num": 78,
+     "pos": 7,
+     "field": "3:1",
+     "id": 37528016
+    },
+    {
+     "name": "Calvin Miller",
+     "num": 7,
+     "pos": 8,
+     "field": "4:3",
+     "id": 173230
+    },
+    {
+     "name": "Cláudio Braga",
+     "num": 10,
+     "pos": 9,
+     "field": "4:2",
+     "id": 37289500
+    },
+    {
+     "name": "Josh McPake",
+     "num": 15,
+     "pos": 10,
+     "field": "4:1",
+     "id": 32422759
+    },
+    {
+     "name": "James Thomas Wilson",
+     "num": 21,
+     "pos": 11,
+     "field": "5:1",
+     "id": 37696485
     }
    ],
+   "bench": [],
    "formation": "4-2-3-1"
   }
  },
- "state_name": "Full Time",
- "minute": null,
- "minute_estimated": false,
- "added_time": null,
- "score": {
-  "home": 4,
-  "away": 1
- },
- "half_time": {
-  "home": 3,
-  "away": 0
- },
- "events": [
-  {
-   "id": 158238328,
-   "minute": 5,
-   "extra": null,
-   "type": "Penalty",
-   "side": "home",
-   "team": "Benfica",
-   "player": "Jhon Durán",
-   "related": null,
-   "result": "1-0",
-   "info": "Penalty"
-  },
-  {
-   "id": 158238588,
-   "minute": 23,
-   "extra": null,
-   "type": "Goal",
-   "side": "home",
-   "team": "Benfica",
-   "player": "Alexander Bah",
-   "related": "Gianluca Prestianni",
-   "result": "2-0",
-   "info": "Right foot shot"
-  },
-  {
-   "id": 158238779,
-   "minute": 36,
-   "extra": null,
-   "type": "Goal",
-   "side": "home",
-   "team": "Benfica",
-   "player": "Jhon Durán",
-   "related": "Gianluca Prestianni",
-   "result": "3-0",
-   "info": "Left foot shot"
-  },
-  {
-   "id": 158238911,
-   "minute": 44,
-   "extra": null,
-   "type": "Yellowcard",
-   "side": "home",
-   "team": "Benfica",
-   "player": "Samuel Dahl",
-   "related": null,
-   "result": null,
-   "info": "Foul"
-  },
-  {
-   "id": 158239004,
-   "minute": 46,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Haissem Hassan",
-   "related": "Kasper Høgh",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158239013,
-   "minute": 46,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Callum Osmand",
-   "related": "Sebastian Tounekti",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158239159,
-   "minute": 57,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Alex Oxlade-Chamberlain",
-   "related": "Mika Joel Baur",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158239160,
-   "minute": 57,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Benjamin Nygren",
-   "related": "Oliver Sørensen",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158239252,
-   "minute": 63,
-   "extra": null,
-   "type": "Goal",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Camilo Durán",
-   "related": "Haissem Hassan",
-   "result": "3-1",
-   "info": "Right foot shot"
-  },
-  {
-   "id": 158239287,
-   "minute": 64,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "Benfica",
-   "player": "Claudio Echeverri",
-   "related": "Georgiy Sudakov",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158239288,
-   "minute": 64,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "Benfica",
-   "player": "Souffian El Karouani",
-   "related": "Samuel Dahl",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158239358,
-   "minute": 67,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "Benfica",
-   "player": "Vangelis Pavlidis",
-   "related": "Jhon Durán",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158239393,
-   "minute": 68,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "Benfica",
-   "player": "Andreas Schjelderup",
-   "related": "Dodi Lukébakio",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158239396,
-   "minute": 69,
-   "extra": null,
-   "type": "Yellowcard",
-   "side": "home",
-   "team": "Benfica",
-   "player": "Alexander Bah",
-   "related": null,
-   "result": null,
-   "info": "Foul"
-  },
-  {
-   "id": 158239577,
-   "minute": 77,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "Celtic",
-   "player": "Jordan Lotomba",
-   "related": "Colby Donovan",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158239621,
-   "minute": 80,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "Benfica",
-   "player": "Alessandro Circati",
-   "related": "Alexander Bah",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158239731,
-   "minute": 85,
-   "extra": null,
-   "type": "Yellowcard",
-   "side": "home",
-   "team": "Benfica",
-   "player": "João Palhinha",
-   "related": null,
-   "result": null,
-   "info": "Foul"
-  },
-  {
-   "id": 158239795,
-   "minute": 89,
-   "extra": null,
-   "type": "Goal",
-   "side": "home",
-   "team": "Benfica",
-   "player": "Vangelis Pavlidis",
-   "related": "Tomás Araújo",
-   "result": "4-1",
-   "info": "Right foot shot"
-  }
- ],
- "stats": {
-  "Corners": {
-   "home": 8,
-   "away": 6
-  },
-  "Shots Off Target": {
-   "home": 11,
-   "away": 5
-  },
-  "Shots Total": {
-   "home": 26,
-   "away": 14
-  },
-  "Attacks": {
-   "home": 115,
-   "away": 73
-  },
-  "Dangerous Attacks": {
-   "home": 67,
-   "away": 30
-  },
-  "Ball Possession %": {
-   "home": 53,
-   "away": 47
-  },
-  "Ball Safe": {
-   "home": 67,
-   "away": 81
-  },
-  "Penalties": {
-   "home": 1,
-   "away": 0
-  },
-  "Shots Insidebox": {
-   "home": 21,
-   "away": 12
-  },
-  "Shots Outsidebox": {
-   "home": 5,
-   "away": 2
-  },
-  "Offsides": {
-   "home": 2,
-   "away": 2
-  },
-  "Goals": {
-   "home": 4,
-   "away": 1
-  },
-  "Goal Kicks": {
-   "home": 4,
-   "away": 10
-  },
-  "Goal Attempts": {
-   "home": 19,
-   "away": 12
-  },
-  "Free Kicks": {
-   "home": 6,
-   "away": 9
-  },
-  "Fouls": {
-   "home": 9,
-   "away": 7
-  },
-  "Saves": {
-   "home": 6,
-   "away": 3
-  },
-  "Shots Blocked": {
-   "home": 8,
-   "away": 2
-  },
-  "Substitutions": {
-   "home": 5,
-   "away": 5
-  },
-  "Throwins": {
-   "home": 10,
-   "away": 11
-  },
-  "Long Passes": {
-   "home": 50,
-   "away": 37
-  },
-  "Hit Woodwork": {
-   "home": 2,
-   "away": 3
-  },
-  "Successful Headers": {
-   "home": 7,
-   "away": 8
-  },
-  "Tackles": {
-   "home": 15,
-   "away": 18
-  },
-  "Assists": {
-   "home": 3,
-   "away": 1
-  },
-  "Passes": {
-   "home": 577,
-   "away": 513
-  },
-  "Successful Passes": {
-   "home": 526,
-   "away": 455
-  },
-  "Successful Passes Percentage": {
-   "home": 91,
-   "away": 89
-  },
-  "Yellowcards": {
-   "home": 3,
-   "away": 0
-  },
-  "Shots On Target": {
-   "home": 7,
-   "away": 7
-  },
-  "Total Crosses": {
-   "home": 13,
-   "away": 12
-  },
-  "Accurate Crosses": {
-   "home": 5,
-   "away": 3
-  },
-  "Interceptions": {
-   "home": 9,
-   "away": 4
-  },
-  "Duels Won": {
-   "home": 36,
-   "away": 41
-  },
-  "Dribble Attempts": {
-   "home": 19,
-   "away": 14
-  },
-  "Successful Dribbles": {
-   "home": 8,
-   "away": 6
-  },
-  "Key Passes": {
-   "home": 23,
-   "away": 12
-  },
-  "Big Chances Created": {
-   "home": 3,
-   "away": 2
-  },
-  "Big Chances Missed": {
-   "home": 1,
-   "away": 1
-  },
-  "Successful Dribbles Percentage": {
-   "home": 42,
-   "away": 43
-  },
-  "Successful Long Passes": {
-   "home": 36,
-   "away": 15
-  },
-  "Successful Long Passes Percentage": {
-   "home": 72,
-   "away": 41
-  },
-  "Tackles Won": {
-   "home": 10,
-   "away": 13
-  }
- },
- "result": true,
- "player_stats": {
-  "529045": {
-   "rating": 5.82,
-   "touches": 52,
-   "min": 90,
-   "pass": 44,
-   "int": 1,
-   "pass_pct": 84,
-   "saves": 3,
-   "side": "away",
-   "name": "Viljami Sinisalo"
-  },
-  "198116": {
-   "min": 13,
-   "pass": 7,
-   "tkl": 1,
-   "touches": 10,
-   "duels": 2,
-   "duels_t": 2,
-   "rating": 6.36,
-   "pass_pct": 86,
-   "side": "away",
-   "name": "Jordan Lotomba"
-  },
-  "262280": {
-   "pass": 84,
-   "touches": 86,
-   "rating": 6.31,
-   "min": 90,
-   "pass_pct": 95,
-   "fouls": 1,
-   "duels_t": 4,
-   "kp": 2,
-   "clr": 1,
-   "side": "away",
-   "name": "Auston Trusty"
-  },
-  "19979885": {
-   "pass_pct": 91,
-   "touches": 25,
-   "rating": 6.43,
-   "pass": 23,
-   "duels_t": 1,
-   "min": 33,
-   "side": "away",
-   "name": "Benjamin Nygren"
-  },
-  "15061513": {
-   "pass": 12,
-   "touches": 18,
-   "rating": 6.43,
-   "min": 46,
-   "pass_pct": 92,
-   "sh": 2,
-   "duels_t": 1,
-   "sot": 1,
-   "int": 1,
-   "side": "away",
-   "name": "Kasper Høgh"
-  },
-  "37709508": {
-   "pass": 13,
-   "touches": 34,
-   "rating": 7.46,
-   "min": 90,
-   "duels": 7,
-   "duels_t": 11,
-   "sh": 4,
-   "pass_pct": 85,
-   "sot": 2,
-   "g": 1,
-   "side": "away",
-   "name": "Camilo Durán"
-  },
-  "15169863": {
-   "min": 46,
-   "touches": 22,
-   "duels_t": 2,
-   "kp": 2,
-   "rating": 6.75,
-   "pass": 13,
-   "pass_pct": 100,
-   "sh": 1,
-   "bcc": 1,
-   "clr": 1,
-   "duels": 1,
-   "tkl": 1,
-   "side": "away",
-   "name": "Sebastian Tounekti"
-  },
-  "23698076": {
-   "touches": 19,
-   "duels_t": 5,
-   "min": 57,
-   "pass": 14,
-   "pass_pct": 71,
-   "fouls": 2,
-   "rating": 6.22,
-   "duels": 2,
-   "tkl": 2,
-   "side": "away",
-   "name": "Oliver Sørensen"
-  },
-  "37598290": {
-   "min": 44,
-   "touches": 21,
-   "duels_t": 4,
-   "sh": 3,
-   "rating": 6.53,
-   "pass": 10,
-   "pass_pct": 70,
-   "duels": 1,
-   "fouls": 1,
-   "kp": 1,
-   "side": "away",
-   "name": "Callum Osmand"
-  },
-  "850": {
-   "min": 33,
-   "pass": 17,
-   "pass_pct": 59,
-   "touches": 21,
-   "duels_t": 3,
-   "rating": 6.22,
-   "kp": 1,
-   "side": "away",
-   "name": "Alex Oxlade-Chamberlain"
-  },
-  "37582048": {
-   "rating": 6.92,
-   "duels": 6,
-   "touches": 32,
-   "tkl": 5,
-   "min": 57,
-   "duels_t": 8,
-   "sot": 1,
-   "sh": 1,
-   "pass": 21,
-   "kp": 1,
-   "pass_pct": 86,
-   "clr": 1,
-   "side": "away",
-   "name": "Mika Joel Baur"
-  },
-  "18584306": {
-   "sh": 2,
-   "sot": 2,
-   "min": 44,
-   "pass": 18,
-   "touches": 29,
-   "duels": 3,
-   "duels_t": 5,
-   "rating": 7.55,
-   "pass_pct": 78,
-   "kp": 2,
-   "a": 1,
-   "tkl": 1,
-   "bcc": 1,
-   "side": "away",
-   "name": "Haissem Hassan"
-  },
-  "8585": {
-   "pass": 72,
-   "touches": 78,
-   "rating": 6.68,
-   "min": 90,
-   "clr": 3,
-   "kp": 2,
-   "duels": 1,
-   "duels_t": 3,
-   "pass_pct": 97,
-   "fouls": 1,
-   "side": "away",
-   "name": "Callum McGregor"
-  },
-  "37342595": {
-   "touches": 90,
-   "rating": 6.03,
-   "pass": 79,
-   "min": 90,
-   "fouls": 1,
-   "duels_t": 6,
-   "pass_pct": 91,
-   "clr": 5,
-   "duels": 4,
-   "int": 1,
-   "tkl": 1,
-   "side": "away",
-   "name": "Dane Murray"
-  },
-  "37732189": {
-   "touches": 50,
-   "rating": 6.6,
-   "pass": 29,
-   "min": 77,
-   "duels": 8,
-   "pass_pct": 79,
-   "duels_t": 14,
-   "tkl": 5,
-   "fouls": 1,
-   "int": 1,
-   "clr": 1,
-   "side": "away",
-   "name": "Colby Donovan"
-  },
-  "172960": {
-   "touches": 76,
-   "rating": 6.96,
-   "min": 90,
-   "clr": 4,
-   "pass": 57,
-   "duels_t": 8,
-   "pass_pct": 91,
-   "duels": 6,
-   "sh": 1,
-   "sot": 1,
-   "tkl": 2,
-   "kp": 1,
-   "side": "away",
-   "name": "Kieran Tierney"
-  },
-  "9938909": {
-   "touches": 26,
-   "min": 90,
-   "rating": 7.72,
-   "saves": 6,
-   "pass": 17,
-   "pass_pct": 88,
-   "duels_t": 1,
-   "side": "home",
-   "name": "Anatoliy Trubin"
-  },
-  "96741": {
-   "min": 90,
-   "pass": 83,
-   "rating": 7.03,
-   "touches": 89,
-   "clr": 3,
-   "duels": 1,
-   "duels_t": 4,
-   "pass_pct": 94,
-   "kp": 2,
-   "fouls": 1,
-   "int": 2,
-   "side": "home",
-   "name": "Clément Lenglet"
-  },
-  "37361402": {
-   "duels_t": 2,
-   "rating": 6.62,
-   "pass_pct": 100,
-   "pass": 3,
-   "touches": 5,
-   "min": 10,
-   "side": "home",
-   "name": "Alessandro Circati"
-  },
-  "85996": {
-   "min": 80,
-   "rating": 7.29,
-   "pass": 63,
-   "touches": 78,
-   "sh": 1,
-   "sot": 1,
-   "g": 1,
-   "clr": 2,
-   "duels": 3,
-   "duels_t": 4,
-   "tkl": 3,
-   "fouls": 1,
-   "int": 1,
-   "yc": 1,
-   "pass_pct": 86,
-   "side": "home",
-   "name": "Alexander Bah"
-  },
-  "151551": {
-   "rating": 7.19,
-   "touches": 73,
-   "pass": 63,
-   "min": 90,
-   "duels": 4,
-   "duels_t": 6,
-   "pass_pct": 97,
-   "kp": 3,
-   "tkl": 2,
-   "sh": 1,
-   "side": "home",
-   "name": "Fredrik Aursnes"
-  },
-  "23277810": {
-   "rating": 7.18,
-   "min": 64,
-   "touches": 49,
-   "pass": 37,
-   "kp": 5,
-   "duels_t": 2,
-   "sh": 2,
-   "pass_pct": 89,
-   "int": 1,
-   "side": "home",
-   "name": "Georgiy Sudakov"
-  },
-  "62871": {
-   "duels": 1,
-   "pass": 33,
-   "touches": 46,
-   "duels_t": 8,
-   "min": 68,
-   "pass_pct": 88,
-   "fouls": 1,
-   "sh": 2,
-   "rating": 6.22,
-   "side": "home",
-   "name": "Dodi Lukébakio"
-  },
-  "36265": {
-   "pass_pct": 86,
-   "min": 23,
-   "touches": 13,
-   "rating": 7.41,
-   "pass": 7,
-   "sh": 2,
-   "duels": 1,
-   "duels_t": 3,
-   "kp": 1,
-   "sot": 1,
-   "g": 1,
-   "bcc": 1,
-   "side": "home",
-   "name": "Vangelis Pavlidis"
-  },
-  "37555815": {
-   "touches": 16,
-   "sh": 2,
-   "pass_pct": 89,
-   "pass": 9,
-   "min": 22,
-   "tkl": 1,
-   "duels_t": 4,
-   "duels": 2,
-   "rating": 6.74,
-   "side": "home",
-   "name": "Andreas Schjelderup"
-  },
-  "30071882": {
-   "rating": 9.0,
-   "min": 67,
-   "duels": 3,
-   "duels_t": 3,
-   "touches": 20,
-   "g": 2,
-   "sh": 5,
-   "sot": 2,
-   "pass": 8,
-   "pass_pct": 75,
-   "kp": 1,
-   "side": "home",
-   "name": "Jhon Durán"
-  },
-  "37625767": {
-   "rating": 9.37,
-   "min": 90,
-   "pass": 50,
-   "touches": 75,
-   "kp": 9,
-   "pass_pct": 80,
-   "duels_t": 15,
-   "duels": 8,
-   "sh": 7,
-   "bcc": 1,
-   "a": 2,
-   "tkl": 2,
-   "sot": 3,
-   "side": "home",
-   "name": "Gianluca Prestianni"
-  },
-  "37295874": {
-   "touches": 41,
-   "clr": 1,
-   "min": 64,
-   "rating": 6.12,
-   "pass": 34,
-   "fouls": 3,
-   "duels_t": 4,
-   "yc": 1,
-   "pass_pct": 97,
-   "side": "home",
-   "name": "Samuel Dahl"
-  },
-  "37639080": {
-   "min": 26,
-   "touches": 19,
-   "pass_pct": 100,
-   "rating": 6.45,
-   "duels_t": 3,
-   "pass": 12,
-   "kp": 1,
-   "duels": 1,
-   "side": "home",
-   "name": "Claudio Echeverri"
-  },
-  "37257612": {
-   "touches": 17,
-   "min": 26,
-   "pass": 11,
-   "pass_pct": 91,
-   "duels_t": 2,
-   "tkl": 1,
-   "duels": 1,
-   "rating": 6.59,
-   "int": 1,
-   "fouls": 1,
-   "side": "home",
-   "name": "Souffian El Karouani"
-  },
-  "160072": {
-   "tkl": 1,
-   "touches": 87,
-   "duels_t": 8,
-   "duels": 4,
-   "min": 90,
-   "sh": 1,
-   "pass": 72,
-   "pass_pct": 93,
-   "rating": 7.02,
-   "int": 3,
-   "clr": 1,
-   "fouls": 1,
-   "yc": 1,
-   "side": "home",
-   "name": "João Palhinha"
-  },
-  "24065379": {
-   "min": 90,
-   "rating": 7.69,
-   "touches": 89,
-   "pass": 75,
-   "pass_pct": 95,
-   "clr": 5,
-   "sh": 3,
-   "duels_t": 8,
-   "duels": 7,
-   "tkl": 5,
-   "fouls": 1,
-   "int": 1,
-   "kp": 1,
-   "a": 1,
-   "side": "home",
-   "name": "Tomás Araújo"
-  }
- },
- "commentary": [
-  {
-   "m": null,
-   "x": null,
-   "t": "The second half ends with Benfica leading 4-1 against Celtic.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 1,
-   "x": null,
-   "t": "First half begins.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 1,
-   "x": null,
-   "t": "Celtic win a corner after João Palhinha concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 3,
-   "x": null,
-   "t": "Penalty awarded to Benfica as Jhon Durán is fouled in the penalty area.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 3,
-   "x": null,
-   "t": "Dane Murray from Celtic concedes a penalty for a foul in the penalty area.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 3,
-   "x": null,
-   "t": "João Palhinha's left-footed shot from the left side of the box is blocked. The attempt was assisted by Gianluca Prestianni.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 5,
-   "x": null,
-   "t": "Goal! Benfica leads 1-0 after Jhon Durán converts a penalty with a left-footed shot to the center of the goal.",
-   "goal": true,
-   "key": true
-  },
-  {
-   "m": 7,
-   "x": null,
-   "t": "Attempt saved. Mika Baur's right-footed shot from outside the box is saved in the top center of the goal by Anatoliy Trubin. The shot was assisted by Sebastian Tounekti.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 7,
-   "x": null,
-   "t": "Kasper Høgh of Celtic has a left-footed shot from a tough angle on the left, but it is saved in the bottom left corner by Anatoliy Trubin of Benfica. The attempt was assisted by Mika Baur.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 8,
-   "x": null,
-   "t": "Gianluca Prestianni from Benfica is awarded a free kick on the left wing.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 8,
-   "x": null,
-   "t": "Colby Donovan from Celtic commits a foul.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 9,
-   "x": null,
-   "t": "Foul committed by Samuel Dahl of Benfica.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 9,
-   "x": null,
-   "t": "Camilo Durán from Celtic wins a free kick in the defensive half.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 10,
-   "x": null,
-   "t": "Benfica wins a corner after Dane Murray concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 11,
-   "x": null,
-   "t": "Jhon Durán from Benfica misses a header from the center of the box, sending it close but to the left. The attempt was assisted by Gianluca Prestianni, who delivered a cross following a corner.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 12,
-   "x": null,
-   "t": "Fredrik Aursnes from Benfica is awarded a free kick in the defensive half.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 12,
-   "x": null,
-   "t": "Foul committed by Oliver Sørensen of Celtic.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 19,
-   "x": null,
-   "t": "Gianluca Prestianni from Benfica misses a right-footed shot from the left side of the box, just missing the top right corner. He was assisted by Heorhiy Sudakov.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 19,
-   "x": null,
-   "t": "Gianluca Prestianni's right-footed shot from the center of the box is blocked. He was assisted by Heorhiy Sudakov.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 20,
-   "x": null,
-   "t": "Dodi Lukébakio from Benfica commits a foul.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 20,
-   "x": null,
-   "t": "Kieran Tierney from Celtic wins a free kick in the defensive half.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 23,
-   "x": null,
-   "t": "Goal! Benfica lead 2-0 against Celtic. Alexander Bah scores with a right-footed shot from the center of the box into the top left corner, assisted by Gianluca Prestianni's through ball.",
-   "goal": true,
-   "key": true
-  },
-  {
-   "m": 24,
-   "x": null,
-   "t": "Attempt missed. Jhon Durán (Benfica) had a left-footed shot from the left side of the box that was close but went to the left. He was assisted by Gianluca Prestianni.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 25,
-   "x": null,
-   "t": "Benfica is awarded a corner after Callum McGregor concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 28,
-   "x": null,
-   "t": "Attempt missed. Sebastian Tounekti from Celtic takes a right-footed shot from the center of the box, but it goes high and wide to the right.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 28,
-   "x": null,
-   "t": "Kasper Høgh from Celtic hits the right post with a right-footed shot from the right side of the six-yard box, assisted by Sebastian Tounekti's cross.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 28,
-   "x": null,
-   "t": "Camilo Durán from Celtic hits the bar with a left-footed shot from the right side of the box.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 31,
-   "x": null,
-   "t": "Camilo Durán from Celtic wins a free kick in the defensive half.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 31,
-   "x": null,
-   "t": "Foul committed by Samuel Dahl of Benfica.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 32,
-   "x": null,
-   "t": "Celtic win a corner after Tomás Araújo concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 34,
-   "x": null,
-   "t": "Benfica is awarded a corner after Sebastian Tounekti concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 35,
-   "x": null,
-   "t": "Benfica is awarded a corner after Kieran Tierney concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 35,
-   "x": null,
-   "t": "Tomás Araújo's right-footed shot from the center of the box for Benfica is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 35,
-   "x": null,
-   "t": "Benfica is flagged for offside as Fredrik Aursnes is caught in an offside position.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 35,
-   "x": null,
-   "t": "Jhon Durán from Benfica misses a header from the center of the box, sending it to the right. He was assisted by Heorhiy Sudakov, who provided a cross after a corner.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 36,
-   "x": null,
-   "t": "Goal! Benfica leads 3-0 against Celtic. Jhon Durán scores for Benfica with a left-footed shot from a tough angle on the left into the bottom left corner, assisted by Gianluca Prestianni with a through ball after a quick break.",
-   "goal": true,
-   "key": true
-  },
-  {
-   "m": 38,
-   "x": null,
-   "t": "Jhon Durán from Benfica wins a free kick in the defensive half.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 38,
-   "x": null,
-   "t": "Auston Trusty from Celtic commits a foul.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 39,
-   "x": null,
-   "t": "Gianluca Prestianni's left-footed shot from the left side of the six-yard box is saved in the bottom left corner by Viljami Sinisalo. Clément Lenglet provided the assist.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 41,
-   "x": null,
-   "t": "João Palhinha from Benfica wins a free kick in the attacking half.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 41,
-   "x": null,
-   "t": "Oliver Sørensen from Celtic commits a foul.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 42,
-   "x": null,
-   "t": "Benfica wins a corner after Colby Donovan concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 43,
-   "x": null,
-   "t": "Tomás Araújo from Benfica misses an attempt with a header from the center of the box, sending it too high. He was assisted by Heorhiy Sudakov, who provided a cross after a corner.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 44,
-   "x": null,
-   "t": "Kieran Tierney's right-footed shot from outside the box is saved in the bottom left corner by Anatoliy Trubin. The attempt was assisted by Callum McGregor.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 44,
-   "x": null,
-   "t": "Samuel Dahl of Benfica receives a yellow card for a bad foul.",
-   "goal": false,
-   "key": true
-  },
-  {
-   "m": 44,
-   "x": null,
-   "t": "Foul committed by Samuel Dahl of Benfica.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 44,
-   "x": null,
-   "t": "Camilo Durán from Celtic wins a free kick on the right wing.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 44,
-   "x": null,
-   "t": "Celtic win a corner after Anatoliy Trubin concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 45,
-   "x": null,
-   "t": "Fourth official has announced 0 minutes of added time.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": null,
-   "x": null,
-   "t": "The first half ends with Benfica leading 3-0 against Celtic.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 46,
-   "x": null,
-   "t": "Substitution for Celtic: Haissem Hassan comes on for Kasper Høgh.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 46,
-   "x": null,
-   "t": "The second half begins with Benfica leading Celtic 3-0.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 46,
-   "x": null,
-   "t": "Substitution for Celtic: Callum Osmand comes on for Sebastian Tounekti.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 48,
-   "x": null,
-   "t": "Heorhiy Sudakov's left-footed shot from the center of the box is blocked. The attempt was assisted by Fredrik Aursnes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 50,
-   "x": null,
-   "t": "Attempt saved. Haissem Hassan from Celtic has a left-footed shot from the right side of the box, but it's saved in the bottom right corner by Anatoliy Trubin from Benfica. The assist came from Auston Trusty.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 51,
-   "x": null,
-   "t": "Attempt missed. Callum Osmand from Celtic shoots left-footed from a tough angle on the left, but it's too high. He was assisted by Haissem Hassan's cross.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 52,
-   "x": null,
-   "t": "Gianluca Prestianni from Benfica has a left-footed shot from a tough angle on the left, but it goes too high. He was assisted by Heorhiy Sudakov.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 54,
-   "x": null,
-   "t": "Benfica is awarded a corner after Kieran Tierney concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 56,
-   "x": null,
-   "t": "Attempt saved. Haissem Hassan from Celtic has a left-footed shot from the right side of the box, but it's saved in the center of the goal by Anatoliy Trubin from Benfica. The assist comes from Callum McGregor.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 56,
-   "x": null,
-   "t": "Dodi Lukébakio from Benfica has a left-footed shot from the right side of the box, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 56,
-   "x": null,
-   "t": "Gianluca Prestianni from Benfica has a right-footed shot from outside the box, but it's saved in the bottom right corner by Viljami Sinisalo of Celtic. The attempt was assisted by Jhon Durán.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 57,
-   "x": null,
-   "t": "Substitution for Celtic: Benjamin Nygren comes on for Oliver Sørensen.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 57,
-   "x": null,
-   "t": "Substitution for Celtic: Alex Oxlade-Chamberlain comes on for Mika Baur.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 61,
-   "x": null,
-   "t": "Dodi Lukébakio from Benfica misses a left-footed shot from outside the box, sending it to the right. Clément Lenglet provided the assist.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 62,
-   "x": null,
-   "t": "Attempt blocked. Heorhiy Sudakov from Benfica has a right-footed shot from outside the box that is blocked. Gianluca Prestianni provided the assist.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 63,
-   "x": null,
-   "t": "Goal! Celtic scores to make it 3-1 against Benfica. Camilo Durán heads the ball from close range into the bottom right corner, assisted by Haissem Hassan's cross.",
-   "goal": true,
-   "key": true
-  },
-  {
-   "m": 64,
-   "x": null,
-   "t": "Substitution for Benfica: Souffian El Karouani comes on for Samuel Dahl.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 64,
-   "x": null,
-   "t": "Substitution for Benfica: Claudio Echeverri comes on for Heorhiy Sudakov.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 67,
-   "x": null,
-   "t": "Clément Lenglet from Benfica commits a foul.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 67,
-   "x": null,
-   "t": "Camilo Durán from Celtic is awarded a free kick in the defensive half.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 67,
-   "x": null,
-   "t": "Substitution for Benfica: Vangelis Pavlidis comes on for Jhon Durán.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 68,
-   "x": null,
-   "t": "Substitution for Benfica: Andreas Schjelderup comes on for Dodi Lukébakio.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 69,
-   "x": null,
-   "t": "Alexander Bah from Benfica receives a yellow card for a bad foul.",
-   "goal": false,
-   "key": true
-  },
-  {
-   "m": 69,
-   "x": null,
-   "t": "Foul committed by Alexander Bah of Benfica.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 69,
-   "x": null,
-   "t": "Kieran Tierney from Celtic wins a free kick on the left wing.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 71,
-   "x": null,
-   "t": "Celtic win a corner after Tomás Araújo concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 72,
-   "x": null,
-   "t": "Camilo Durán from Celtic hits the left post with a left-footed shot from the center of the box, assisted by Alex Oxlade-Chamberlain.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 73,
-   "x": null,
-   "t": "Andreas Schjelderup's right-footed shot from outside the box is blocked. He was assisted by Gianluca Prestianni.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 74,
-   "x": null,
-   "t": "Andreas Schjelderup from Benfica hits the left post with a left-footed shot from the left side of the box, assisted by Claudio Echeverri.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 76,
-   "x": null,
-   "t": "Benfica is awarded a corner after Viljami Sinisalo concedes it.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 76,
-   "x": null,
-   "t": "Gianluca Prestianni's left-footed shot from the right side of the box is saved in the bottom right corner by Viljami Sinisalo. The attempt was assisted by Fredrik Aursnes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 76,
-   "x": null,
-   "t": "Attempt blocked. Vangelis Pavlidis from Benfica has a left-footed shot from the right side of the box that is blocked. Gianluca Prestianni provided the assist.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 77,
-   "x": null,
-   "t": "Fredrik Aursnes from Benfica misses an attempt with a header from the center of the box, sending it too high. Gianluca Prestianni provided the assist with a cross after a corner.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 77,
-   "x": null,
-   "t": "Substitution for Celtic: Jordan Lotomba comes on for Colby Donovan.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 78,
-   "x": null,
-   "t": "Offside for Benfica. Fredrik Aursnes is flagged for offside.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 80,
-   "x": null,
-   "t": "Substitution for Benfica: Alessandro Circati comes on for Alexander Bah.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 81,
-   "x": null,
-   "t": "Foul committed by Tomás Araújo of Benfica.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 81,
-   "x": null,
-   "t": "Camilo Durán from Celtic is awarded a free kick in the defensive half.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 82,
-   "x": null,
-   "t": "Callum Osmand's right-footed shot from the center of the box is blocked. He was assisted by Auston Trusty.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 82,
-   "x": null,
-   "t": "Celtic are flagged for offside as Haissem Hassan is caught in an offside position.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 82,
-   "x": null,
-   "t": "Celtic wins a corner after Alessandro Circati concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 84,
-   "x": null,
-   "t": "Callum Osmand from Celtic commits a handball.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 85,
-   "x": null,
-   "t": "João Palhinha from Benfica receives a yellow card for a bad foul.",
-   "goal": false,
-   "key": true
-  },
-  {
-   "m": 85,
-   "x": null,
-   "t": "Foul committed by João Palhinha of Benfica.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 85,
-   "x": null,
-   "t": "Kieran Tierney from Celtic wins a free kick in the attacking half.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 87,
-   "x": null,
-   "t": "Foul committed by Souffian El Karouani of Benfica.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 87,
-   "x": null,
-   "t": "Haissem Hassan from Celtic wins a free kick in the defensive half.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 87,
-   "x": null,
-   "t": "Gianluca Prestianni from Benfica misses a right-footed shot from the right side of the box, sending it to the left. He was assisted by Fredrik Aursnes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 88,
-   "x": null,
-   "t": "Callum Osmand's right-footed shot from the left side of the box is blocked. Kieran Tierney provided the assist.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 89,
-   "x": null,
-   "t": "Goal! Benfica 4, Celtic 1. Vangelis Pavlidis scores for Benfica with a right-footed shot from outside the box into the bottom left corner, assisted by Tomás Araújo with a through ball.",
-   "goal": true,
-   "key": true
-  },
-  {
-   "m": 90,
-   "x": null,
-   "t": "Claudio Echeverri from Benfica wins a free kick in the attacking half.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 90,
-   "x": null,
-   "t": "Callum McGregor from Celtic commits a foul.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 90,
-   "x": 1,
-   "t": "Benfica is awarded a corner after Jordan Lotomba concedes it.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 90,
-   "x": 1,
-   "t": "The fourth official has indicated there will be 2 minutes of added time.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 90,
-   "x": 1,
-   "t": "Tomás Araújo from Benfica hits the bar with a header from the center of the box. He was assisted by Vangelis Pavlidis, who delivered a cross after a corner.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 90,
-   "x": 2,
-   "t": "Camilo Durán's left-footed shot from the left side of the box is saved in the bottom left corner by Anatoliy Trubin. The attempt was assisted by Callum Osmand.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 90,
-   "x": 2,
-   "t": "Celtic is called offside as Alex Oxlade-Chamberlain is caught in an offside position.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 90,
-   "x": 2,
-   "t": "Celtic win a corner after Vangelis Pavlidis concedes.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": null,
-   "x": null,
-   "t": "The match ends with Benfica winning 4-1 against Celtic.",
-   "goal": false,
-   "key": false
-  }
- ],
  "form": {
   "home": [
-   {
-    "r": "D",
-    "score": "1-1",
-    "home": "Hearts",
-    "away": "Benfica",
-    "opp": "Hearts",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-    "date": "2026-08-13",
-    "league": "Europa League",
-    "ha": "A"
-   },
-   {
-    "r": "W",
-    "score": "3-1",
-    "home": "Benfica",
-    "away": "AGF",
-    "opp": "AGF",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/25/2905.png",
-    "date": "2026-08-20",
-    "league": "Europa League",
-    "ha": "H"
-   },
-   {
-    "r": "W",
-    "score": "1-3",
-    "home": "AGF",
-    "away": "Benfica",
-    "opp": "AGF",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/25/2905.png",
-    "date": "2026-08-27",
-    "league": "Europa League",
-    "ha": "A"
-   },
-   {
-    "r": "W",
-    "score": "0-2",
-    "home": "AC Milan",
-    "away": "Benfica",
-    "opp": "AC Milan",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/17/113.png",
-    "date": "2026-09-16",
-    "league": "Europa League",
-    "ha": "A"
-   },
-   {
-    "r": "W",
-    "score": "4-1",
-    "home": "Benfica",
-    "away": "Celtic",
-    "opp": "Celtic",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-    "date": "2026-10-15",
-    "league": "Europa League",
-    "ha": "H"
-   }
-  ],
-  "away": [
    {
     "r": "L",
     "score": "3-0",
@@ -2295,74 +453,153 @@
     "league": "Europa League",
     "ha": "A"
    }
+  ],
+  "away": [
+   {
+    "r": "W",
+    "score": "0-3",
+    "home": "Stenhousemuir",
+    "away": "Hearts",
+    "opp": "Stenhousemuir",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/0/224.png",
+    "date": "2026-09-11",
+    "league": "League Cup",
+    "ha": "A"
+   },
+   {
+    "r": "L",
+    "score": "2-1",
+    "home": "Falkirk",
+    "away": "Hearts",
+    "opp": "Falkirk",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
+    "date": "2026-09-15",
+    "league": "Premiership",
+    "ha": "A"
+   },
+   {
+    "r": "D",
+    "score": "1-1",
+    "home": "Kilmarnock",
+    "away": "Hearts",
+    "opp": "Kilmarnock",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+    "date": "2026-09-19",
+    "league": "Premiership",
+    "ha": "A"
+   },
+   {
+    "r": "W",
+    "score": "5-0",
+    "home": "Hearts",
+    "away": "St. Mirren",
+    "opp": "St. Mirren",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
+    "date": "2026-10-10",
+    "league": "Premiership",
+    "ha": "H"
+   },
+   {
+    "r": "D",
+    "score": "1-1",
+    "home": "Hearts",
+    "away": "Nordsjælland",
+    "opp": "Nordsjælland",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/2394.png",
+    "date": "2026-10-15",
+    "league": "Europa Conference League",
+    "ha": "H"
+   }
   ]
  },
  "h2h": [
   {
    "r": "W",
-   "score": "4-1",
-   "home": "Benfica",
-   "away": "Celtic",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2026-10-15",
-   "league": "Europa League",
-   "ha": "H"
-  },
-  {
-   "r": "W",
-   "score": "2-1",
-   "home": "Benfica",
-   "away": "Celtic",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2012-11-20",
-   "league": "Champions League",
+   "score": "3-1",
+   "home": "Celtic",
+   "away": "Hearts",
+   "opp": "Hearts",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "date": "2026-05-16",
+   "league": "Premiership",
    "ha": "H"
   },
   {
    "r": "D",
-   "score": "0-0",
-   "home": "Celtic",
-   "away": "Benfica",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2012-09-19",
-   "league": "Champions League",
+   "score": "2-2",
+   "home": "Hearts",
+   "away": "Celtic",
+   "opp": "Hearts",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "date": "2026-01-25",
+   "league": "Premiership",
    "ha": "A"
   },
   {
    "r": "L",
-   "score": "1-0",
+   "score": "1-2",
    "home": "Celtic",
-   "away": "Benfica",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2007-11-06",
-   "league": "Champions League",
+   "away": "Hearts",
+   "opp": "Hearts",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "date": "2025-12-07",
+   "league": "Premiership",
+   "ha": "H"
+  },
+  {
+   "r": "L",
+   "score": "3-1",
+   "home": "Hearts",
+   "away": "Celtic",
+   "opp": "Hearts",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "date": "2025-10-26",
+   "league": "Premiership",
    "ha": "A"
   },
   {
    "r": "W",
-   "score": "1-0",
-   "home": "Benfica",
-   "away": "Celtic",
-   "opp": "Celtic",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "date": "2007-10-24",
-   "league": "Champions League",
+   "score": "3-0",
+   "home": "Celtic",
+   "away": "Hearts",
+   "opp": "Hearts",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "date": "2025-03-29",
+   "league": "Premiership",
    "ha": "H"
   }
  ],
  "sidelined": {
-  "home": [],
-  "away": [
+  "home": [
    {
     "player": "Alistair Johnston",
     "type": "Leg Injury",
     "since": "2026-08-10",
     "until": null,
-    "missed": 11
+    "missed": 12
+   }
+  ],
+  "away": [
+   {
+    "player": "Blair Spittal",
+    "type": "Ankle Injury",
+    "since": "2026-09-04",
+    "until": "2026-12-07",
+    "missed": 6
+   },
+   {
+    "player": "Craig Halkett ",
+    "type": "Achilles tendon rupture",
+    "since": "2026-05-09",
+    "until": "2026-12-31",
+    "missed": 25
+   },
+   {
+    "player": "Tom Renaud",
+    "type": "Ankle Injury",
+    "since": "2026-08-27",
+    "until": "2026-12-28",
+    "missed": 8
    }
   ]
  },
@@ -2511,19 +748,2018 @@
   }
  ],
  "info": {
-  "referee": "Nikola Dabanović",
+  "referee": "David Dickinson",
   "coaches": {
-   "away": "Martin O'Neill",
-   "home": "Marco Da Silva"
+   "home": "Martin O'Neill",
+   "away": "Wouter Vrancken"
   },
   "weather": {
-   "temp_c": null,
-   "desc": "clear sky"
+   "temp_c": 9,
+   "desc": "sky is clear"
   },
   "tv": [
-   "TNT Sports 3",
-   "HBO Max"
+   "NOW",
+   "Sky Sports Football"
   ]
  },
- "updated_at": "2026-10-15T23:26:44.194903+00:00"
+ "season_stats": {
+  "label": "Premiership",
+  "home": {
+   "played": 8,
+   "goals_pg": 2.0,
+   "conceded_pg": 0.5,
+   "clean_sheet_pct": 50.0,
+   "btts_pct": 37.5,
+   "possession": 61.75,
+   "corners_pg": 9.38,
+   "fouls_pg": 9.88,
+   "yellows_pg": 1.38,
+   "rating": 7.15
+  },
+  "away": {
+   "played": 8,
+   "goals_pg": 2.38,
+   "conceded_pg": 1.0,
+   "clean_sheet_pct": 25.0,
+   "btts_pct": 75.0,
+   "possession": 54.38,
+   "corners_pg": 7.38,
+   "fouls_pg": 13.0,
+   "yellows_pg": 1.5,
+   "rating": 6.91
+  }
+ },
+ "last_match": {
+  "fixture": {
+   "id": 19873852,
+   "kickoff_utc": "2026-10-15 19:00:00",
+   "league": "Europa League",
+   "venue": "Estádio do Sport Lisboa e Benfica",
+   "home": "Benfica",
+   "away": "Celtic",
+   "home_id": 605,
+   "away_id": 53,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/29/605.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
+  },
+  "state": "FT",
+  "score": {
+   "home": 4,
+   "away": 1
+  },
+  "half_time": {
+   "home": 3,
+   "away": 0
+  },
+  "events": [
+   {
+    "id": 158238328,
+    "minute": 5,
+    "extra": null,
+    "type": "Penalty",
+    "side": "home",
+    "team": "Benfica",
+    "player": "Jhon Durán",
+    "related": null,
+    "result": "1-0",
+    "info": "Penalty"
+   },
+   {
+    "id": 158238588,
+    "minute": 23,
+    "extra": null,
+    "type": "Goal",
+    "side": "home",
+    "team": "Benfica",
+    "player": "Alexander Bah",
+    "related": "Gianluca Prestianni",
+    "result": "2-0",
+    "info": "Right foot shot"
+   },
+   {
+    "id": 158238779,
+    "minute": 36,
+    "extra": null,
+    "type": "Goal",
+    "side": "home",
+    "team": "Benfica",
+    "player": "Jhon Durán",
+    "related": "Gianluca Prestianni",
+    "result": "3-0",
+    "info": "Left foot shot"
+   },
+   {
+    "id": 158238911,
+    "minute": 44,
+    "extra": null,
+    "type": "Yellowcard",
+    "side": "home",
+    "team": "Benfica",
+    "player": "Samuel Dahl",
+    "related": null,
+    "result": null,
+    "info": "Foul"
+   },
+   {
+    "id": 158239004,
+    "minute": 46,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Haissem Hassan",
+    "related": "Kasper Høgh",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158239013,
+    "minute": 46,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Callum Osmand",
+    "related": "Sebastian Tounekti",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158239159,
+    "minute": 57,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Alex Oxlade-Chamberlain",
+    "related": "Mika Joel Baur",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158239160,
+    "minute": 57,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Benjamin Nygren",
+    "related": "Oliver Sørensen",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158239252,
+    "minute": 63,
+    "extra": null,
+    "type": "Goal",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Camilo Durán",
+    "related": "Haissem Hassan",
+    "result": "3-1",
+    "info": "Right foot shot"
+   },
+   {
+    "id": 158239287,
+    "minute": 64,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "Benfica",
+    "player": "Claudio Echeverri",
+    "related": "Georgiy Sudakov",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158239288,
+    "minute": 64,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "Benfica",
+    "player": "Souffian El Karouani",
+    "related": "Samuel Dahl",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158239358,
+    "minute": 67,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "Benfica",
+    "player": "Vangelis Pavlidis",
+    "related": "Jhon Durán",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158239393,
+    "minute": 68,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "Benfica",
+    "player": "Andreas Schjelderup",
+    "related": "Dodi Lukébakio",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158239396,
+    "minute": 69,
+    "extra": null,
+    "type": "Yellowcard",
+    "side": "home",
+    "team": "Benfica",
+    "player": "Alexander Bah",
+    "related": null,
+    "result": null,
+    "info": "Foul"
+   },
+   {
+    "id": 158239577,
+    "minute": 77,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "Celtic",
+    "player": "Jordan Lotomba",
+    "related": "Colby Donovan",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158239621,
+    "minute": 80,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "Benfica",
+    "player": "Alessandro Circati",
+    "related": "Alexander Bah",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158239731,
+    "minute": 85,
+    "extra": null,
+    "type": "Yellowcard",
+    "side": "home",
+    "team": "Benfica",
+    "player": "João Palhinha",
+    "related": null,
+    "result": null,
+    "info": "Foul"
+   },
+   {
+    "id": 158239795,
+    "minute": 89,
+    "extra": null,
+    "type": "Goal",
+    "side": "home",
+    "team": "Benfica",
+    "player": "Vangelis Pavlidis",
+    "related": "Tomás Araújo",
+    "result": "4-1",
+    "info": "Right foot shot"
+   }
+  ],
+  "stats": {
+   "Corners": {
+    "home": 8,
+    "away": 6
+   },
+   "Shots Off Target": {
+    "home": 11,
+    "away": 5
+   },
+   "Shots Total": {
+    "home": 26,
+    "away": 14
+   },
+   "Attacks": {
+    "home": 115,
+    "away": 73
+   },
+   "Dangerous Attacks": {
+    "home": 67,
+    "away": 30
+   },
+   "Ball Possession %": {
+    "home": 53,
+    "away": 47
+   },
+   "Ball Safe": {
+    "home": 67,
+    "away": 81
+   },
+   "Penalties": {
+    "home": 1,
+    "away": 0
+   },
+   "Shots Insidebox": {
+    "home": 21,
+    "away": 12
+   },
+   "Shots Outsidebox": {
+    "home": 5,
+    "away": 2
+   },
+   "Offsides": {
+    "home": 2,
+    "away": 2
+   },
+   "Goals": {
+    "home": 4,
+    "away": 1
+   },
+   "Goal Kicks": {
+    "home": 4,
+    "away": 10
+   },
+   "Goal Attempts": {
+    "home": 19,
+    "away": 12
+   },
+   "Free Kicks": {
+    "home": 6,
+    "away": 9
+   },
+   "Fouls": {
+    "home": 9,
+    "away": 7
+   },
+   "Saves": {
+    "home": 6,
+    "away": 3
+   },
+   "Shots Blocked": {
+    "home": 8,
+    "away": 2
+   },
+   "Substitutions": {
+    "home": 5,
+    "away": 5
+   },
+   "Throwins": {
+    "home": 10,
+    "away": 11
+   },
+   "Long Passes": {
+    "home": 41,
+    "away": 33
+   },
+   "Hit Woodwork": {
+    "home": 2,
+    "away": 3
+   },
+   "Successful Headers": {
+    "home": 7,
+    "away": 8
+   },
+   "Tackles": {
+    "home": 15,
+    "away": 14
+   },
+   "Assists": {
+    "home": 3,
+    "away": 1
+   },
+   "Passes": {
+    "home": 576,
+    "away": 509
+   },
+   "Successful Passes": {
+    "home": 526,
+    "away": 455
+   },
+   "Successful Passes Percentage": {
+    "home": 91,
+    "away": 89
+   },
+   "Yellowcards": {
+    "home": 3,
+    "away": 0
+   },
+   "Shots On Target": {
+    "home": 7,
+    "away": 7
+   },
+   "Total Crosses": {
+    "home": 13,
+    "away": 12
+   },
+   "Accurate Crosses": {
+    "home": 5,
+    "away": 3
+   },
+   "Interceptions": {
+    "home": 11,
+    "away": 7
+   },
+   "Duels Won": {
+    "home": 36,
+    "away": 41
+   },
+   "Dribble Attempts": {
+    "home": 17,
+    "away": 14
+   },
+   "Successful Dribbles": {
+    "home": 8,
+    "away": 6
+   },
+   "Key Passes": {
+    "home": 23,
+    "away": 12
+   },
+   "Big Chances Created": {
+    "home": 4,
+    "away": 2
+   },
+   "Big Chances Missed": {
+    "home": 2,
+    "away": 1
+   },
+   "Successful Dribbles Percentage": {
+    "home": 47,
+    "away": 50
+   },
+   "Successful Long Passes": {
+    "home": 29,
+    "away": 13
+   },
+   "Successful Long Passes Percentage": {
+    "home": 71,
+    "away": 39
+   },
+   "Tackles Won": {
+    "home": 10,
+    "away": 13
+   }
+  },
+  "lineups": {
+   "home": {
+    "xi": [
+     {
+      "name": "Anatoliy Trubin",
+      "num": 1,
+      "pos": 1,
+      "field": "1:1",
+      "id": 9938909
+     },
+     {
+      "name": "Alexander Bah",
+      "num": 6,
+      "pos": 2,
+      "field": "2:1",
+      "id": 85996
+     },
+     {
+      "name": "Tomás Araújo",
+      "num": 44,
+      "pos": 3,
+      "field": "2:2",
+      "id": 24065379
+     },
+     {
+      "name": "Clément Lenglet",
+      "num": 2,
+      "pos": 4,
+      "field": "2:3",
+      "id": 96741
+     },
+     {
+      "name": "Samuel Dahl",
+      "num": 26,
+      "pos": 5,
+      "field": "2:4",
+      "id": 37295874
+     },
+     {
+      "name": "Fredrik Aursnes",
+      "num": 8,
+      "pos": 6,
+      "field": "3:1",
+      "id": 151551
+     },
+     {
+      "name": "João Palhinha",
+      "num": 36,
+      "pos": 7,
+      "field": "3:2",
+      "id": 160072
+     },
+     {
+      "name": "Dodi Lukébakio",
+      "num": 11,
+      "pos": 8,
+      "field": "4:1",
+      "id": 62871
+     },
+     {
+      "name": "Georgiy Sudakov",
+      "num": 10,
+      "pos": 9,
+      "field": "4:2",
+      "id": 23277810
+     },
+     {
+      "name": "Gianluca Prestianni",
+      "num": 25,
+      "pos": 10,
+      "field": "4:3",
+      "id": 37625767
+     },
+     {
+      "name": "Jhon Durán",
+      "num": 22,
+      "pos": 11,
+      "field": "5:1",
+      "id": 30071882
+     }
+    ],
+    "bench": [
+     {
+      "name": "Alessandro Circati",
+      "num": 3,
+      "pos": null,
+      "field": null,
+      "id": 37361402
+     },
+     {
+      "name": "Vangelis Pavlidis",
+      "num": 14,
+      "pos": null,
+      "field": null,
+      "id": 36265
+     },
+     {
+      "name": "Manu Silva",
+      "num": 16,
+      "pos": null,
+      "field": null,
+      "id": 37548047
+     },
+     {
+      "name": "Leandro Barreiro",
+      "num": 18,
+      "pos": null,
+      "field": null,
+      "id": 3862667
+     },
+     {
+      "name": "Andreas Schjelderup",
+      "num": 21,
+      "pos": null,
+      "field": null,
+      "id": 37555815
+     },
+     {
+      "name": "Samuel Soares",
+      "num": 24,
+      "pos": null,
+      "field": null,
+      "id": 24065403
+     },
+     {
+      "name": "Rafa Silva",
+      "num": 27,
+      "pos": null,
+      "field": null,
+      "id": 159402
+     },
+     {
+      "name": "Claudio Echeverri",
+      "num": 30,
+      "pos": null,
+      "field": null,
+      "id": 37639080
+     },
+     {
+      "name": "Gabriel Índio",
+      "num": 33,
+      "pos": null,
+      "field": null,
+      "id": 38200878
+     },
+     {
+      "name": "Souffian El Karouani",
+      "num": 34,
+      "pos": null,
+      "field": null,
+      "id": 37257612
+     },
+     {
+      "name": "Anísio Cabral",
+      "num": 72,
+      "pos": null,
+      "field": null,
+      "id": 37738662
+     },
+     {
+      "name": "Tiago Freitas",
+      "num": 88,
+      "pos": null,
+      "field": null,
+      "id": 37656849
+     }
+    ],
+    "formation": "4-2-3-1"
+   },
+   "away": {
+    "xi": [
+     {
+      "name": "Viljami Sinisalo",
+      "num": 1,
+      "pos": 1,
+      "field": "1:1",
+      "id": 529045
+     },
+     {
+      "name": "Colby Donovan",
+      "num": 51,
+      "pos": 2,
+      "field": "2:4",
+      "id": 37732189
+     },
+     {
+      "name": "Dane Murray",
+      "num": 47,
+      "pos": 3,
+      "field": "2:3",
+      "id": 37342595
+     },
+     {
+      "name": "Auston Trusty",
+      "num": 6,
+      "pos": 4,
+      "field": "2:2",
+      "id": 262280
+     },
+     {
+      "name": "Kieran Tierney",
+      "num": 63,
+      "pos": 5,
+      "field": "2:1",
+      "id": 172960
+     },
+     {
+      "name": "Callum McGregor",
+      "num": 42,
+      "pos": 6,
+      "field": "3:2",
+      "id": 8585
+     },
+     {
+      "name": "Mika Joel Baur",
+      "num": 22,
+      "pos": 7,
+      "field": "3:1",
+      "id": 37582048
+     },
+     {
+      "name": "Camilo Durán",
+      "num": 11,
+      "pos": 8,
+      "field": "4:3",
+      "id": 37709508
+     },
+     {
+      "name": "Oliver Sørensen",
+      "num": 18,
+      "pos": 9,
+      "field": "4:2",
+      "id": 23698076
+     },
+     {
+      "name": "Sebastian Tounekti",
+      "num": 17,
+      "pos": 10,
+      "field": "4:1",
+      "id": 15169863
+     },
+     {
+      "name": "Kasper Høgh",
+      "num": 9,
+      "pos": 11,
+      "field": "5:1",
+      "id": 15061513
+     }
+    ],
+    "bench": [
+     {
+      "name": "Jordan Lotomba",
+      "num": 3,
+      "pos": null,
+      "field": null,
+      "id": 198116
+     },
+     {
+      "name": "Liam Scales",
+      "num": 5,
+      "pos": null,
+      "field": null,
+      "id": 123659
+     },
+     {
+      "name": "Benjamin Nygren",
+      "num": 8,
+      "pos": null,
+      "field": null,
+      "id": 19979885
+     },
+     {
+      "name": "Luke McCowan",
+      "num": 14,
+      "pos": null,
+      "field": null,
+      "id": 1548366
+     },
+     {
+      "name": "Callum Osmand",
+      "num": 19,
+      "pos": null,
+      "field": null,
+      "id": 37598290
+     },
+     {
+      "name": "Alex Oxlade-Chamberlain",
+      "num": 21,
+      "pos": null,
+      "field": null,
+      "id": 850
+     },
+     {
+      "name": "Haissem Hassan",
+      "num": 23,
+      "pos": null,
+      "field": null,
+      "id": 18584306
+     },
+     {
+      "name": "Sam Johnstone",
+      "num": 26,
+      "pos": null,
+      "field": null,
+      "id": 1008
+     },
+     {
+      "name": "James Forrest",
+      "num": 49,
+      "pos": null,
+      "field": null,
+      "id": 172104
+     },
+     {
+      "name": "Anthony Ralston",
+      "num": 56,
+      "pos": null,
+      "field": null,
+      "id": 173129
+     },
+     {
+      "name": "Lucas Clearie",
+      "num": 62,
+      "pos": null,
+      "field": null,
+      "id": null
+     },
+     {
+      "name": "Liam Kennedy",
+      "num": 65,
+      "pos": null,
+      "field": null,
+      "id": 38223386
+     }
+    ],
+    "formation": "4-2-3-1"
+   }
+  },
+  "player_stats": {
+   "529045": {
+    "rating": 5.82,
+    "touches": 51,
+    "min": 90,
+    "pass": 45,
+    "pass_pct": 84,
+    "saves": 3,
+    "side": "away",
+    "name": "Viljami Sinisalo"
+   },
+   "198116": {
+    "min": 13,
+    "pass": 6,
+    "tkl": 1,
+    "touches": 9,
+    "duels": 1,
+    "duels_t": 2,
+    "rating": 6.36,
+    "pass_pct": 86,
+    "side": "away",
+    "name": "Jordan Lotomba"
+   },
+   "262280": {
+    "pass": 84,
+    "touches": 87,
+    "rating": 6.31,
+    "min": 90,
+    "pass_pct": 95,
+    "fouls": 1,
+    "duels_t": 4,
+    "kp": 2,
+    "clr": 1,
+    "int": 1,
+    "side": "away",
+    "name": "Auston Trusty"
+   },
+   "19979885": {
+    "pass_pct": 91,
+    "touches": 25,
+    "rating": 6.43,
+    "pass": 23,
+    "duels_t": 1,
+    "min": 33,
+    "side": "away",
+    "name": "Benjamin Nygren"
+   },
+   "15061513": {
+    "pass": 12,
+    "touches": 18,
+    "rating": 6.43,
+    "min": 46,
+    "pass_pct": 92,
+    "sh": 2,
+    "duels_t": 1,
+    "sot": 1,
+    "int": 1,
+    "side": "away",
+    "name": "Kasper Høgh"
+   },
+   "37709508": {
+    "pass": 13,
+    "touches": 33,
+    "rating": 7.46,
+    "min": 90,
+    "duels": 7,
+    "duels_t": 11,
+    "sh": 4,
+    "pass_pct": 85,
+    "sot": 2,
+    "g": 1,
+    "side": "away",
+    "name": "Camilo Durán"
+   },
+   "15169863": {
+    "min": 46,
+    "touches": 22,
+    "duels_t": 2,
+    "kp": 2,
+    "rating": 6.75,
+    "pass": 13,
+    "pass_pct": 100,
+    "sh": 1,
+    "bcc": 1,
+    "clr": 1,
+    "duels": 1,
+    "tkl": 1,
+    "side": "away",
+    "name": "Sebastian Tounekti"
+   },
+   "23698076": {
+    "touches": 18,
+    "duels_t": 5,
+    "min": 57,
+    "pass": 14,
+    "pass_pct": 71,
+    "fouls": 2,
+    "rating": 6.22,
+    "duels": 2,
+    "tkl": 2,
+    "side": "away",
+    "name": "Oliver Sørensen"
+   },
+   "37598290": {
+    "min": 44,
+    "touches": 23,
+    "duels_t": 4,
+    "sh": 3,
+    "rating": 6.53,
+    "pass": 11,
+    "pass_pct": 70,
+    "duels": 1,
+    "fouls": 1,
+    "kp": 1,
+    "side": "away",
+    "name": "Callum Osmand"
+   },
+   "850": {
+    "min": 33,
+    "pass": 16,
+    "pass_pct": 59,
+    "touches": 21,
+    "duels_t": 3,
+    "rating": 6.22,
+    "kp": 1,
+    "side": "away",
+    "name": "Alex Oxlade-Chamberlain"
+   },
+   "37582048": {
+    "rating": 6.92,
+    "duels": 4,
+    "touches": 31,
+    "tkl": 3,
+    "min": 57,
+    "duels_t": 6,
+    "sot": 1,
+    "sh": 1,
+    "pass": 20,
+    "kp": 1,
+    "pass_pct": 86,
+    "clr": 2,
+    "side": "away",
+    "name": "Mika Joel Baur"
+   },
+   "18584306": {
+    "sh": 2,
+    "sot": 2,
+    "min": 44,
+    "pass": 18,
+    "touches": 29,
+    "duels": 2,
+    "duels_t": 4,
+    "rating": 7.55,
+    "pass_pct": 78,
+    "kp": 2,
+    "a": 1,
+    "bcc": 1,
+    "int": 1,
+    "side": "away",
+    "name": "Haissem Hassan"
+   },
+   "8585": {
+    "pass": 72,
+    "touches": 78,
+    "rating": 6.68,
+    "min": 90,
+    "clr": 3,
+    "kp": 2,
+    "duels": 1,
+    "duels_t": 3,
+    "pass_pct": 97,
+    "fouls": 1,
+    "side": "away",
+    "name": "Callum McGregor"
+   },
+   "37342595": {
+    "touches": 90,
+    "rating": 6.03,
+    "pass": 79,
+    "min": 90,
+    "fouls": 1,
+    "duels_t": 6,
+    "pass_pct": 91,
+    "clr": 5,
+    "duels": 4,
+    "int": 2,
+    "tkl": 1,
+    "side": "away",
+    "name": "Dane Murray"
+   },
+   "37732189": {
+    "touches": 50,
+    "rating": 6.6,
+    "pass": 27,
+    "min": 77,
+    "duels": 7,
+    "pass_pct": 79,
+    "duels_t": 13,
+    "tkl": 4,
+    "fouls": 1,
+    "int": 2,
+    "clr": 2,
+    "side": "away",
+    "name": "Colby Donovan"
+   },
+   "172960": {
+    "touches": 76,
+    "rating": 6.96,
+    "min": 90,
+    "clr": 4,
+    "pass": 56,
+    "duels_t": 9,
+    "pass_pct": 91,
+    "duels": 7,
+    "sh": 1,
+    "sot": 1,
+    "tkl": 2,
+    "kp": 1,
+    "side": "away",
+    "name": "Kieran Tierney"
+   },
+   "9938909": {
+    "touches": 26,
+    "min": 90,
+    "rating": 7.72,
+    "saves": 6,
+    "pass": 17,
+    "pass_pct": 88,
+    "duels_t": 1,
+    "side": "home",
+    "name": "Anatoliy Trubin"
+   },
+   "96741": {
+    "min": 90,
+    "pass": 83,
+    "rating": 7.03,
+    "touches": 89,
+    "clr": 3,
+    "duels": 1,
+    "duels_t": 4,
+    "pass_pct": 94,
+    "kp": 2,
+    "fouls": 1,
+    "int": 2,
+    "side": "home",
+    "name": "Clément Lenglet"
+   },
+   "37361402": {
+    "duels_t": 2,
+    "rating": 6.62,
+    "pass_pct": 100,
+    "pass": 3,
+    "touches": 5,
+    "min": 10,
+    "side": "home",
+    "name": "Alessandro Circati"
+   },
+   "85996": {
+    "min": 80,
+    "rating": 7.29,
+    "pass": 63,
+    "touches": 78,
+    "sh": 1,
+    "sot": 1,
+    "g": 1,
+    "clr": 2,
+    "duels": 3,
+    "duels_t": 4,
+    "tkl": 3,
+    "fouls": 1,
+    "int": 2,
+    "yc": 1,
+    "pass_pct": 86,
+    "side": "home",
+    "name": "Alexander Bah"
+   },
+   "151551": {
+    "rating": 7.19,
+    "touches": 74,
+    "pass": 63,
+    "min": 90,
+    "duels": 4,
+    "duels_t": 6,
+    "pass_pct": 97,
+    "kp": 3,
+    "tkl": 2,
+    "sh": 1,
+    "side": "home",
+    "name": "Fredrik Aursnes"
+   },
+   "23277810": {
+    "rating": 7.18,
+    "min": 64,
+    "touches": 48,
+    "pass": 36,
+    "kp": 5,
+    "duels_t": 2,
+    "sh": 2,
+    "pass_pct": 89,
+    "int": 1,
+    "side": "home",
+    "name": "Georgiy Sudakov"
+   },
+   "62871": {
+    "duels": 1,
+    "pass": 35,
+    "touches": 47,
+    "duels_t": 8,
+    "min": 68,
+    "pass_pct": 88,
+    "fouls": 1,
+    "sh": 2,
+    "rating": 6.22,
+    "side": "home",
+    "name": "Dodi Lukébakio"
+   },
+   "36265": {
+    "pass_pct": 86,
+    "min": 23,
+    "touches": 13,
+    "rating": 7.41,
+    "pass": 7,
+    "sh": 2,
+    "duels": 2,
+    "duels_t": 3,
+    "kp": 1,
+    "sot": 1,
+    "g": 1,
+    "bcc": 1,
+    "clr": 1,
+    "side": "home",
+    "name": "Vangelis Pavlidis"
+   },
+   "37555815": {
+    "touches": 16,
+    "sh": 2,
+    "pass_pct": 89,
+    "pass": 9,
+    "min": 22,
+    "tkl": 1,
+    "duels_t": 3,
+    "duels": 2,
+    "rating": 6.74,
+    "side": "home",
+    "name": "Andreas Schjelderup"
+   },
+   "30071882": {
+    "rating": 9.0,
+    "min": 67,
+    "duels": 3,
+    "duels_t": 3,
+    "touches": 20,
+    "g": 2,
+    "sh": 5,
+    "sot": 2,
+    "pass": 8,
+    "pass_pct": 75,
+    "kp": 1,
+    "side": "home",
+    "name": "Jhon Durán"
+   },
+   "37625767": {
+    "rating": 9.37,
+    "min": 90,
+    "pass": 49,
+    "touches": 76,
+    "kp": 9,
+    "pass_pct": 80,
+    "duels_t": 14,
+    "duels": 8,
+    "sh": 7,
+    "bcc": 1,
+    "a": 2,
+    "tkl": 2,
+    "sot": 3,
+    "side": "home",
+    "name": "Gianluca Prestianni"
+   },
+   "37295874": {
+    "touches": 40,
+    "clr": 1,
+    "min": 64,
+    "rating": 6.12,
+    "pass": 33,
+    "fouls": 3,
+    "duels_t": 4,
+    "yc": 1,
+    "pass_pct": 97,
+    "int": 1,
+    "side": "home",
+    "name": "Samuel Dahl"
+   },
+   "37639080": {
+    "min": 26,
+    "touches": 19,
+    "pass_pct": 100,
+    "rating": 6.45,
+    "duels_t": 3,
+    "pass": 12,
+    "kp": 1,
+    "duels": 1,
+    "side": "home",
+    "name": "Claudio Echeverri"
+   },
+   "37257612": {
+    "touches": 16,
+    "min": 26,
+    "pass": 11,
+    "pass_pct": 91,
+    "duels_t": 2,
+    "tkl": 1,
+    "duels": 1,
+    "rating": 6.59,
+    "int": 1,
+    "fouls": 1,
+    "side": "home",
+    "name": "Souffian El Karouani"
+   },
+   "160072": {
+    "tkl": 1,
+    "touches": 87,
+    "duels_t": 7,
+    "duels": 4,
+    "min": 90,
+    "sh": 1,
+    "pass": 72,
+    "pass_pct": 93,
+    "rating": 7.02,
+    "int": 3,
+    "clr": 1,
+    "fouls": 1,
+    "yc": 1,
+    "side": "home",
+    "name": "João Palhinha"
+   },
+   "24065379": {
+    "min": 90,
+    "rating": 7.69,
+    "touches": 89,
+    "pass": 75,
+    "pass_pct": 95,
+    "clr": 5,
+    "sh": 3,
+    "duels_t": 8,
+    "duels": 7,
+    "tkl": 5,
+    "fouls": 1,
+    "int": 1,
+    "kp": 1,
+    "a": 1,
+    "side": "home",
+    "name": "Tomás Araújo"
+   }
+  },
+  "commentary": [
+   {
+    "m": null,
+    "x": null,
+    "t": "The second half ends with Benfica leading 4-1 against Celtic.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 1,
+    "x": null,
+    "t": "First half begins.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 1,
+    "x": null,
+    "t": "Celtic win a corner after João Palhinha concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 3,
+    "x": null,
+    "t": "Penalty awarded to Benfica as Jhon Durán is fouled in the penalty area.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 3,
+    "x": null,
+    "t": "Dane Murray from Celtic concedes a penalty for a foul in the penalty area.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 3,
+    "x": null,
+    "t": "João Palhinha's left-footed shot from the left side of the box is blocked. The attempt was assisted by Gianluca Prestianni.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 5,
+    "x": null,
+    "t": "Goal! Benfica leads 1-0 after Jhon Durán converts a penalty with a left-footed shot to the center of the goal.",
+    "goal": true,
+    "key": true
+   },
+   {
+    "m": 7,
+    "x": null,
+    "t": "Attempt saved. Mika Baur's right-footed shot from outside the box is saved in the top center of the goal by Anatoliy Trubin. The shot was assisted by Sebastian Tounekti.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 7,
+    "x": null,
+    "t": "Attempt saved. Kasper Høgh from Celtic has a left-footed shot from a tough angle on the left, but Anatoliy Trubin from Benfica saves it in the center of the goal. The assist came from Mika Baur.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 8,
+    "x": null,
+    "t": "Gianluca Prestianni from Benfica is awarded a free kick on the left wing.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 8,
+    "x": null,
+    "t": "Colby Donovan from Celtic commits a foul.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 9,
+    "x": null,
+    "t": "Foul committed by Samuel Dahl of Benfica.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 9,
+    "x": null,
+    "t": "Camilo Durán from Celtic wins a free kick in the defensive half.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 10,
+    "x": null,
+    "t": "Benfica wins a corner after Dane Murray concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 11,
+    "x": null,
+    "t": "Jhon Durán from Benfica misses a header from the center of the box, sending it close but to the left. The attempt was assisted by Gianluca Prestianni, who delivered a cross following a corner.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 12,
+    "x": null,
+    "t": "Fredrik Aursnes from Benfica is awarded a free kick in the defensive half.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 12,
+    "x": null,
+    "t": "Foul committed by Oliver Sørensen of Celtic.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 19,
+    "x": null,
+    "t": "Gianluca Prestianni from Benfica misses a right-footed shot from the left side of the box, just missing the top right corner. He was assisted by Heorhiy Sudakov.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 19,
+    "x": null,
+    "t": "Gianluca Prestianni's right-footed shot from the center of the box is blocked. He was assisted by Heorhiy Sudakov.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 20,
+    "x": null,
+    "t": "Dodi Lukébakio from Benfica commits a foul.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 20,
+    "x": null,
+    "t": "Kieran Tierney from Celtic wins a free kick in the defensive half.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 23,
+    "x": null,
+    "t": "Goal! Benfica lead 2-0 against Celtic. Alexander Bah scores with a right-footed shot from the center of the box into the top left corner, assisted by Gianluca Prestianni's through ball.",
+    "goal": true,
+    "key": true
+   },
+   {
+    "m": 24,
+    "x": null,
+    "t": "Jhon Durán from Benfica missed an attempt with a left-footed shot from a difficult angle on the left, just missing to the left. Gianluca Prestianni provided the assist.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 25,
+    "x": null,
+    "t": "Benfica is awarded a corner after Callum McGregor concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 28,
+    "x": null,
+    "t": "Attempt missed. Sebastian Tounekti from Celtic takes a right-footed shot from the center of the box, but it goes high and wide to the right.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 28,
+    "x": null,
+    "t": "Kasper Høgh from Celtic hits the right post with a right-footed shot from the right side of the six-yard box, assisted by Sebastian Tounekti's cross.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 28,
+    "x": null,
+    "t": "Camilo Durán from Celtic hits the bar with a left-footed shot from the right side of the box.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 31,
+    "x": null,
+    "t": "Camilo Durán from Celtic wins a free kick in the defensive half.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 31,
+    "x": null,
+    "t": "Foul committed by Samuel Dahl of Benfica.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 32,
+    "x": null,
+    "t": "Celtic win a corner after Tomás Araújo concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 34,
+    "x": null,
+    "t": "Benfica is awarded a corner after Sebastian Tounekti concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 35,
+    "x": null,
+    "t": "Benfica is awarded a corner after Kieran Tierney concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 35,
+    "x": null,
+    "t": "Tomás Araújo's right-footed shot from the center of the box for Benfica is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 35,
+    "x": null,
+    "t": "Benfica is flagged for offside as Fredrik Aursnes is caught in an offside position.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 35,
+    "x": null,
+    "t": "Jhon Durán from Benfica misses a header from the center of the box, sending it to the right. He was assisted by Heorhiy Sudakov, who provided a cross after a corner.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 36,
+    "x": null,
+    "t": "Goal! Benfica leads 3-0 against Celtic. Jhon Durán scores for Benfica with a left-footed shot from a tough angle on the left into the bottom left corner, assisted by Gianluca Prestianni with a through ball after a quick break.",
+    "goal": true,
+    "key": true
+   },
+   {
+    "m": 38,
+    "x": null,
+    "t": "Jhon Durán from Benfica wins a free kick in the defensive half.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 38,
+    "x": null,
+    "t": "Auston Trusty from Celtic commits a foul.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 39,
+    "x": null,
+    "t": "Gianluca Prestianni's left-footed shot from the left side of the six-yard box is saved in the bottom left corner by Viljami Sinisalo. Clément Lenglet provided the assist.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 41,
+    "x": null,
+    "t": "João Palhinha from Benfica wins a free kick in the attacking half.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 41,
+    "x": null,
+    "t": "Oliver Sørensen from Celtic commits a foul.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 42,
+    "x": null,
+    "t": "Benfica wins a corner after Colby Donovan concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 43,
+    "x": null,
+    "t": "Tomás Araújo from Benfica misses an attempt with a header from the center of the box, sending it too high. He was assisted by Heorhiy Sudakov, who provided a cross after a corner.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 44,
+    "x": null,
+    "t": "Kieran Tierney's right-footed shot from outside the box is saved in the bottom left corner by Anatoliy Trubin. The attempt was assisted by Callum McGregor.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 44,
+    "x": null,
+    "t": "Samuel Dahl of Benfica receives a yellow card for a bad foul.",
+    "goal": false,
+    "key": true
+   },
+   {
+    "m": 44,
+    "x": null,
+    "t": "Foul committed by Samuel Dahl of Benfica.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 44,
+    "x": null,
+    "t": "Camilo Durán from Celtic wins a free kick on the right wing.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 44,
+    "x": null,
+    "t": "Celtic win a corner after Anatoliy Trubin concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 45,
+    "x": 1,
+    "t": "Fourth official has announced 0 minutes of added time.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": null,
+    "x": null,
+    "t": "The first half ends with Benfica leading 3-0 against Celtic.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 46,
+    "x": null,
+    "t": "Substitution for Celtic: Haissem Hassan comes on for Kasper Høgh.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 46,
+    "x": null,
+    "t": "The second half begins with Benfica leading Celtic 3-0.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 46,
+    "x": null,
+    "t": "Substitution for Celtic: Callum Osmand comes on for Sebastian Tounekti.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 48,
+    "x": null,
+    "t": "Heorhiy Sudakov's left-footed shot from the center of the box is blocked. The attempt was assisted by Fredrik Aursnes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 50,
+    "x": null,
+    "t": "Attempt saved. Haissem Hassan from Celtic has a left-footed shot from the right side of the box, but it's saved in the bottom right corner by Anatoliy Trubin from Benfica. The assist came from Auston Trusty.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 51,
+    "x": null,
+    "t": "Attempt missed. Callum Osmand from Celtic takes a left-footed shot from the left side of the box, but it goes too high. Haissem Hassan provided the assist with a cross.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 52,
+    "x": null,
+    "t": "Gianluca Prestianni from Benfica has a left-footed shot from a tough angle on the left, but it goes too high. He was assisted by Heorhiy Sudakov.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 54,
+    "x": null,
+    "t": "Benfica is awarded a corner after Kieran Tierney concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 56,
+    "x": null,
+    "t": "Attempt saved. Haissem Hassan from Celtic has a left-footed shot from the right side of the box, but it's saved in the center of the goal by Anatoliy Trubin from Benfica. The assist comes from Callum McGregor.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 56,
+    "x": null,
+    "t": "Dodi Lukébakio from Benfica has a left-footed shot from the right side of the box, but it is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 56,
+    "x": null,
+    "t": "Gianluca Prestianni from Benfica has a right-footed shot from outside the box, but it's saved in the bottom right corner by Viljami Sinisalo of Celtic. The attempt was assisted by Jhon Durán.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 57,
+    "x": null,
+    "t": "Substitution for Celtic: Benjamin Nygren comes on for Oliver Sørensen.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 57,
+    "x": null,
+    "t": "Substitution for Celtic: Alex Oxlade-Chamberlain comes on for Mika Baur.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 61,
+    "x": null,
+    "t": "Dodi Lukébakio from Benfica misses a left-footed shot from outside the box, sending it to the right. Clément Lenglet provided the assist.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 62,
+    "x": null,
+    "t": "Attempt blocked. Heorhiy Sudakov from Benfica has a right-footed shot from outside the box that is blocked. Gianluca Prestianni provided the assist.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 63,
+    "x": null,
+    "t": "Goal! Celtic scores to make it 3-1 against Benfica. Camilo Durán heads the ball from close range into the bottom right corner, assisted by Haissem Hassan's cross.",
+    "goal": true,
+    "key": true
+   },
+   {
+    "m": 64,
+    "x": null,
+    "t": "Substitution for Benfica: Souffian El Karouani comes on for Samuel Dahl.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 64,
+    "x": null,
+    "t": "Substitution for Benfica: Claudio Echeverri comes on for Heorhiy Sudakov.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 67,
+    "x": null,
+    "t": "Clément Lenglet from Benfica commits a foul.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 67,
+    "x": null,
+    "t": "Camilo Durán from Celtic is awarded a free kick in the defensive half.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 67,
+    "x": null,
+    "t": "Substitution for Benfica: Vangelis Pavlidis comes on for Jhon Durán.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 68,
+    "x": null,
+    "t": "Substitution for Benfica: Andreas Schjelderup comes on for Dodi Lukébakio.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 69,
+    "x": null,
+    "t": "Alexander Bah from Benfica receives a yellow card for a bad foul.",
+    "goal": false,
+    "key": true
+   },
+   {
+    "m": 69,
+    "x": null,
+    "t": "Foul committed by Alexander Bah of Benfica.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 69,
+    "x": null,
+    "t": "Kieran Tierney from Celtic wins a free kick on the left wing.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 71,
+    "x": null,
+    "t": "Celtic win a corner after Tomás Araújo concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 72,
+    "x": null,
+    "t": "Camilo Durán from Celtic hits the left post with a left-footed shot from the left side of the box, assisted by Alex Oxlade-Chamberlain.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 73,
+    "x": null,
+    "t": "Andreas Schjelderup's right-footed shot from outside the box is blocked. He was assisted by Gianluca Prestianni.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 74,
+    "x": null,
+    "t": "Andreas Schjelderup from Benfica hits the left post with a left-footed shot from the left side of the box, assisted by Claudio Echeverri.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 76,
+    "x": null,
+    "t": "Benfica is awarded a corner after Viljami Sinisalo concedes it.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 76,
+    "x": null,
+    "t": "Gianluca Prestianni's left-footed shot from the right side of the box is saved in the bottom right corner by Viljami Sinisalo. The attempt was assisted by Fredrik Aursnes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 76,
+    "x": null,
+    "t": "Attempt blocked. Vangelis Pavlidis from Benfica has a left-footed shot from the right side of the box that is blocked. Gianluca Prestianni provided the assist.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 77,
+    "x": null,
+    "t": "Fredrik Aursnes from Benfica misses an attempt with a header from the center of the box, sending it too high. Gianluca Prestianni provided the assist with a cross after a corner.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 77,
+    "x": null,
+    "t": "Substitution for Celtic: Jordan Lotomba comes on for Colby Donovan.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 78,
+    "x": null,
+    "t": "Offside for Benfica. Fredrik Aursnes is flagged for offside.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 80,
+    "x": null,
+    "t": "Substitution for Benfica: Alessandro Circati comes on for Alexander Bah.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 81,
+    "x": null,
+    "t": "Foul committed by Tomás Araújo of Benfica.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 81,
+    "x": null,
+    "t": "Camilo Durán from Celtic is awarded a free kick in the defensive half.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 82,
+    "x": null,
+    "t": "Callum Osmand's right-footed shot from the center of the box is blocked. He was assisted by Auston Trusty.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 82,
+    "x": null,
+    "t": "Celtic are flagged for offside as Haissem Hassan is caught in an offside position.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 82,
+    "x": null,
+    "t": "Celtic wins a corner after Alessandro Circati concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 84,
+    "x": null,
+    "t": "Callum Osmand from Celtic commits a handball.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 85,
+    "x": null,
+    "t": "João Palhinha from Benfica receives a yellow card for a bad foul.",
+    "goal": false,
+    "key": true
+   },
+   {
+    "m": 85,
+    "x": null,
+    "t": "Foul committed by João Palhinha of Benfica.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 85,
+    "x": null,
+    "t": "Kieran Tierney from Celtic wins a free kick in the attacking half.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 87,
+    "x": null,
+    "t": "Foul committed by Souffian El Karouani of Benfica.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 87,
+    "x": null,
+    "t": "Haissem Hassan from Celtic wins a free kick in the defensive half.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 87,
+    "x": null,
+    "t": "Gianluca Prestianni from Benfica misses a right-footed shot from the right side of the box, sending it to the left. He was assisted by Fredrik Aursnes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 88,
+    "x": null,
+    "t": "Callum Osmand's right-footed shot from the left side of the box is blocked. Kieran Tierney provided the assist.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 89,
+    "x": null,
+    "t": "Goal! Benfica 4, Celtic 1. Vangelis Pavlidis scores for Benfica with a right-footed shot from outside the box into the bottom left corner, assisted by Tomás Araújo with a through ball.",
+    "goal": true,
+    "key": true
+   },
+   {
+    "m": 90,
+    "x": null,
+    "t": "Claudio Echeverri from Benfica wins a free kick in the attacking half.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 90,
+    "x": null,
+    "t": "Callum McGregor from Celtic commits a foul.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 90,
+    "x": 1,
+    "t": "Benfica is awarded a corner after Jordan Lotomba concedes it.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 90,
+    "x": 1,
+    "t": "The fourth official has indicated there will be 2 minutes of added time.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 90,
+    "x": 1,
+    "t": "Tomás Araújo from Benfica hits the bar with a header from the center of the box. He was assisted by Vangelis Pavlidis, who delivered a cross after a corner.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 90,
+    "x": 2,
+    "t": "Camilo Durán's left-footed shot from the left side of the box is saved in the bottom left corner by Anatoliy Trubin. The attempt was assisted by Callum Osmand.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 90,
+    "x": 2,
+    "t": "Celtic is called offside as Alex Oxlade-Chamberlain is caught in an offside position.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 90,
+    "x": 2,
+    "t": "Celtic win a corner after Vangelis Pavlidis concedes.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": null,
+    "x": null,
+    "t": "The match ends with Benfica winning 4-1 against Celtic.",
+    "goal": false,
+    "key": false
+   }
+  ]
+ },
+ "updated_at": "2026-10-16T02:19:49.893382+00:00"
 }
