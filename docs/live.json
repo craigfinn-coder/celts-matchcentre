@@ -582,24 +582,59 @@
   "away": [
    {
     "player": "Blair Spittal",
-    "type": "Ankle Injury",
-    "since": "2026-09-04",
-    "until": "2026-12-07",
-    "missed": 6
+    "type": "No Eligibility",
+    "since": "2026-09-03",
+    "until": "2026-12-18",
+    "missed": 7
    },
    {
-    "player": "Craig Halkett ",
-    "type": "Achilles tendon rupture",
-    "since": "2026-05-09",
-    "until": "2026-12-31",
-    "missed": 25
+    "player": "Yan Dhanda",
+    "type": "No Eligibility",
+    "since": "2026-09-03",
+    "until": "2026-12-18",
+    "missed": 7
+   },
+   {
+    "player": "Elton Kabangu",
+    "type": "No Eligibility",
+    "since": "2026-09-03",
+    "until": "2026-12-18",
+    "missed": 7
    },
    {
     "player": "Tom Renaud",
-    "type": "Ankle Injury",
-    "since": "2026-08-27",
-    "until": "2026-12-28",
-    "missed": 8
+    "type": "No Eligibility",
+    "since": "2026-09-03",
+    "until": "2026-12-18",
+    "missed": 7
+   },
+   {
+    "player": "Kieran Wright",
+    "type": "No Eligibility",
+    "since": "2026-09-03",
+    "until": "2026-12-18",
+    "missed": 7
+   },
+   {
+    "player": "Amadou Ba-Sy",
+    "type": "No Eligibility",
+    "since": "2026-09-03",
+    "until": "2026-12-18",
+    "missed": 7
+   },
+   {
+    "player": "Leart Kabashi",
+    "type": "No Eligibility",
+    "since": "2026-09-03",
+    "until": "2026-12-18",
+    "missed": 7
+   },
+   {
+    "player": "Craig Halkett ",
+    "type": "No Eligibility",
+    "since": "2026-09-03",
+    "until": "2026-12-18",
+    "missed": 7
    }
   ]
  },
@@ -1543,7 +1578,7 @@
   },
   "player_stats": {
    "529045": {
-    "rating": 5.81,
+    "rating": 5.84,
     "touches": 51,
     "min": 90,
     "pass": 45,
@@ -1567,7 +1602,7 @@
    "262280": {
     "pass": 84,
     "touches": 87,
-    "rating": 6.33,
+    "rating": 6.34,
     "min": 90,
     "pass_pct": 95,
     "fouls": 1,
@@ -1591,7 +1626,7 @@
    "15061513": {
     "pass": 12,
     "touches": 18,
-    "rating": 6.43,
+    "rating": 6.48,
     "min": 46,
     "pass_pct": 92,
     "sh": 2,
@@ -1649,7 +1684,7 @@
     "touches": 23,
     "duels_t": 4,
     "sh": 3,
-    "rating": 6.54,
+    "rating": 6.55,
     "pass": 11,
     "pass_pct": 70,
     "duels": 1,
@@ -1670,7 +1705,7 @@
     "name": "Alex Oxlade-Chamberlain"
    },
    "37582048": {
-    "rating": 6.87,
+    "rating": 6.8,
     "duels": 4,
     "touches": 31,
     "tkl": 3,
@@ -1705,7 +1740,7 @@
    "8585": {
     "pass": 72,
     "touches": 78,
-    "rating": 6.68,
+    "rating": 6.69,
     "min": 90,
     "clr": 3,
     "kp": 2,
@@ -1718,7 +1753,7 @@
    },
    "37342595": {
     "touches": 90,
-    "rating": 6.09,
+    "rating": 6.01,
     "pass": 79,
     "min": 90,
     "fouls": 1,
@@ -1733,7 +1768,7 @@
    },
    "37732189": {
     "touches": 50,
-    "rating": 6.63,
+    "rating": 6.55,
     "pass": 27,
     "min": 77,
     "duels": 7,
@@ -1748,7 +1783,7 @@
    },
    "172960": {
     "touches": 76,
-    "rating": 6.97,
+    "rating": 6.96,
     "min": 90,
     "clr": 4,
     "pass": 56,
@@ -1800,7 +1835,7 @@
    },
    "85996": {
     "min": 80,
-    "rating": 7.32,
+    "rating": 7.29,
     "pass": 63,
     "touches": 78,
     "sh": 1,
@@ -1832,7 +1867,7 @@
     "name": "Fredrik Aursnes"
    },
    "23277810": {
-    "rating": 7.15,
+    "rating": 7.13,
     "min": 64,
     "touches": 48,
     "pass": 36,
@@ -1861,7 +1896,7 @@
     "pass_pct": 86,
     "min": 23,
     "touches": 13,
-    "rating": 7.46,
+    "rating": 7.43,
     "pass": 7,
     "sh": 2,
     "duels": 2,
@@ -1937,7 +1972,7 @@
     "min": 26,
     "touches": 19,
     "pass_pct": 100,
-    "rating": 6.54,
+    "rating": 6.53,
     "duels_t": 3,
     "pass": 12,
     "kp": 1,
@@ -1978,7 +2013,7 @@
    },
    "24065379": {
     "min": 90,
-    "rating": 7.68,
+    "rating": 7.65,
     "touches": 89,
     "pass": 75,
     "pass_pct": 95,
@@ -2761,5 +2796,5 @@
    }
   ]
  },
- "updated_at": "2026-10-16T07:41:40.197288+00:00"
+ "updated_at": "2026-10-16T12:51:55.342997+00:00"
 }
