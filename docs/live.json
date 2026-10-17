@@ -588,6 +588,13 @@
     "missed": 7
    },
    {
+    "player": "Craig Halkett ",
+    "type": "Achilles tendon rupture",
+    "since": "2026-05-09",
+    "until": "2026-12-31",
+    "missed": 25
+   },
+   {
     "player": "Yan Dhanda",
     "type": "No Eligibility",
     "since": "2026-09-03",
@@ -624,13 +631,6 @@
    },
    {
     "player": "Leart Kabashi",
-    "type": "No Eligibility",
-    "since": "2026-09-03",
-    "until": "2026-12-18",
-    "missed": 7
-   },
-   {
-    "player": "Craig Halkett ",
     "type": "No Eligibility",
     "since": "2026-09-03",
     "until": "2026-12-18",
@@ -2798,5 +2798,5 @@
    }
   ]
  },
- "updated_at": "2026-10-17T07:19:42.756340+00:00"
+ "updated_at": "2026-10-17T11:51:53.599370+00:00"
 }
