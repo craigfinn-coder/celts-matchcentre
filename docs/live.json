@@ -794,7 +794,9 @@
   },
   "tv": [
    "NOW",
-   "Sky Sports Football"
+   "Sky Sports Football",
+   "Hearts TV",
+   "Celtic TV"
   ]
  },
  "season_stats": {
@@ -2796,5 +2798,5 @@
    }
   ]
  },
- "updated_at": "2026-10-16T12:51:55.342997+00:00"
+ "updated_at": "2026-10-17T07:19:42.756340+00:00"
 }
