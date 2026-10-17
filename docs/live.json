@@ -59,13 +59,13 @@
    "team": "Rangers",
    "team_id": 62,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 19,
-   "p": 8,
+   "pts": 20,
+   "p": 9,
    "w": 6,
-   "d": 1,
+   "d": 2,
    "l": 1,
-   "gf": 11,
-   "ga": 5,
+   "gf": 13,
+   "ga": 7,
    "gd": 6
   },
   {
@@ -87,13 +87,13 @@
    "team": "Dundee",
    "team_id": 284,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
-   "pts": 13,
-   "p": 8,
+   "pts": 14,
+   "p": 9,
    "w": 4,
-   "d": 1,
+   "d": 2,
    "l": 3,
-   "gf": 11,
-   "ga": 8,
+   "gf": 13,
+   "ga": 10,
    "gd": 3
   },
   {
@@ -720,21 +720,21 @@
   },
   {
    "pos": 2,
-   "player": "Camilo Durán",
-   "team": "Celtic",
-   "team_id": 53,
-   "assists": 3
-  },
-  {
-   "pos": 3,
    "player": "Jesse Randall",
    "team": "Dundee United",
    "team_id": 282,
    "assists": 3
   },
   {
-   "pos": 4,
+   "pos": 3,
    "player": "Benjamin Nygren",
+   "team": "Celtic",
+   "team_id": 53,
+   "assists": 3
+  },
+  {
+   "pos": 4,
+   "player": "Camilo Durán",
    "team": "Celtic",
    "team_id": 53,
    "assists": 3
@@ -748,9 +748,9 @@
   },
   {
    "pos": 6,
-   "player": "Tawanda Jethro Maswanhise",
-   "team": "Motherwell",
-   "team_id": 309,
+   "player": "Jamie Brandon",
+   "team": "Kilmarnock",
+   "team_id": 180,
    "assists": 2
   },
   {
@@ -762,23 +762,23 @@
   },
   {
    "pos": 8,
-   "player": "Jamie Gullan",
-   "team": "St. Johnstone",
-   "team_id": 734,
-   "assists": 2
-  },
-  {
-   "pos": 9,
-   "player": "Connor Ronan",
+   "player": "Kevin Nisbet",
    "team": "Aberdeen",
    "team_id": 273,
    "assists": 2
   },
   {
+   "pos": 9,
+   "player": "Tawanda Jethro Maswanhise",
+   "team": "Motherwell",
+   "team_id": 309,
+   "assists": 2
+  },
+  {
    "pos": 10,
-   "player": "Cláudio Braga",
-   "team": "Hearts",
-   "team_id": 314,
+   "player": "Jamie Gullan",
+   "team": "St. Johnstone",
+   "team_id": 734,
    "assists": 2
   }
  ],
@@ -2798,5 +2798,5 @@
    }
   ]
  },
- "updated_at": "2026-10-17T17:38:23.942692+00:00"
+ "updated_at": "2026-10-17T21:52:46.595796+00:00"
 }
