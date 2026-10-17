@@ -101,13 +101,13 @@
    "team": "St. Johnstone",
    "team_id": 734,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
-   "pts": 11,
-   "p": 8,
+   "pts": 12,
+   "p": 9,
    "w": 3,
-   "d": 2,
+   "d": 3,
    "l": 3,
-   "gf": 10,
-   "ga": 10,
+   "gf": 11,
+   "ga": 11,
    "gd": 0
   },
   {
@@ -115,98 +115,98 @@
    "team": "Dundee United",
    "team_id": 282,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
-   "pts": 11,
-   "p": 8,
+   "pts": 12,
+   "p": 9,
    "w": 3,
-   "d": 2,
+   "d": 3,
    "l": 3,
-   "gf": 10,
-   "ga": 11,
+   "gf": 11,
+   "ga": 12,
    "gd": -1
   },
   {
    "pos": 7,
+   "team": "Aberdeen",
+   "team_id": 273,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
+   "pts": 11,
+   "p": 9,
+   "w": 3,
+   "d": 2,
+   "l": 4,
+   "gf": 10,
+   "ga": 10,
+   "gd": 0
+  },
+  {
+   "pos": 8,
    "team": "St. Mirren",
    "team_id": 496,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
    "pts": 10,
-   "p": 8,
+   "p": 9,
    "w": 3,
    "d": 1,
-   "l": 4,
-   "gf": 8,
-   "ga": 14,
-   "gd": -6
-  },
-  {
-   "pos": 8,
-   "team": "Aberdeen",
-   "team_id": 273,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
-   "pts": 8,
-   "p": 8,
-   "w": 2,
-   "d": 2,
-   "l": 4,
-   "gf": 7,
-   "ga": 9,
-   "gd": -2
+   "l": 5,
+   "gf": 9,
+   "ga": 17,
+   "gd": -8
   },
   {
    "pos": 9,
+   "team": "Falkirk",
+   "team_id": 770,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
+   "pts": 9,
+   "p": 9,
+   "w": 2,
+   "d": 3,
+   "l": 4,
+   "gf": 9,
+   "ga": 12,
+   "gd": -3
+  },
+  {
+   "pos": 10,
    "team": "Motherwell",
    "team_id": 309,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
    "pts": 8,
-   "p": 8,
+   "p": 9,
    "w": 2,
    "d": 2,
-   "l": 4,
-   "gf": 9,
-   "ga": 13,
-   "gd": -4
+   "l": 5,
+   "gf": 11,
+   "ga": 16,
+   "gd": -5
   },
   {
-   "pos": 10,
+   "pos": 11,
+   "team": "Kilmarnock",
+   "team_id": 180,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+   "pts": 8,
+   "p": 9,
+   "w": 2,
+   "d": 2,
+   "l": 5,
+   "gf": 10,
+   "ga": 20,
+   "gd": -10
+  },
+  {
+   "pos": 12,
    "team": "Hibernian",
    "team_id": 66,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
    "pts": 7,
-   "p": 8,
+   "p": 9,
    "w": 2,
    "d": 1,
-   "l": 5,
-   "gf": 8,
-   "ga": 12,
-   "gd": -4
-  },
-  {
-   "pos": 11,
-   "team": "Falkirk",
-   "team_id": 770,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
-   "pts": 6,
-   "p": 8,
-   "w": 1,
-   "d": 3,
-   "l": 4,
-   "gf": 7,
-   "ga": 11,
-   "gd": -4
-  },
-  {
-   "pos": 12,
-   "team": "Kilmarnock",
-   "team_id": 180,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "pts": 5,
-   "p": 8,
-   "w": 1,
-   "d": 2,
-   "l": 5,
-   "gf": 7,
-   "ga": 18,
-   "gd": -11
+   "l": 6,
+   "gf": 9,
+   "ga": 14,
+   "gd": -5
   }
  ],
  "state_name": "Not started",
@@ -644,7 +644,7 @@
    "player": "Josh Fowler",
    "team": "St. Johnstone",
    "team_id": 734,
-   "goals": 5
+   "goals": 6
   },
   {
    "pos": 2,
@@ -662,44 +662,44 @@
   },
   {
    "pos": 4,
+   "player": "Kevin Nisbet",
+   "team": "Aberdeen",
+   "team_id": 273,
+   "goals": 4
+  },
+  {
+   "pos": 5,
    "player": "Ryan Naderi",
    "team": "Rangers",
    "team_id": 62,
    "goals": 4
   },
   {
-   "pos": 5,
+   "pos": 6,
+   "player": "Jacob Murrell",
+   "team": "Falkirk",
+   "team_id": 770,
+   "goals": 4
+  },
+  {
+   "pos": 7,
    "player": "Josh McPake",
    "team": "Hearts",
    "team_id": 314,
    "goals": 3
   },
   {
-   "pos": 6,
-   "player": "Kevin Nisbet",
-   "team": "Aberdeen",
-   "team_id": 273,
-   "goals": 3
-  },
-  {
-   "pos": 7,
+   "pos": 8,
    "player": "Cláudio Braga",
    "team": "Hearts",
    "team_id": 314,
    "goals": 3
   },
   {
-   "pos": 8,
+   "pos": 9,
    "player": "Kasper Høgh",
    "team": "Celtic",
    "team_id": 53,
-   "goals": 3
-  },
-  {
-   "pos": 9,
-   "player": "Calvin Miller",
-   "team": "Hearts",
-   "team_id": 314,
    "goals": 3
   },
   {
@@ -720,65 +720,65 @@
   },
   {
    "pos": 2,
-   "player": "Benjamin Nygren",
-   "team": "Celtic",
-   "team_id": 53,
-   "assists": 3
-  },
-  {
-   "pos": 3,
    "player": "Camilo Durán",
    "team": "Celtic",
    "team_id": 53,
    "assists": 3
   },
   {
+   "pos": 3,
+   "player": "Jesse Randall",
+   "team": "Dundee United",
+   "team_id": 282,
+   "assists": 3
+  },
+  {
    "pos": 4,
+   "player": "Benjamin Nygren",
+   "team": "Celtic",
+   "team_id": 53,
+   "assists": 3
+  },
+  {
+   "pos": 5,
+   "player": "Ryan Strain",
+   "team": "Falkirk",
+   "team_id": 770,
+   "assists": 3
+  },
+  {
+   "pos": 6,
    "player": "Tawanda Jethro Maswanhise",
    "team": "Motherwell",
    "team_id": 309,
    "assists": 2
   },
   {
-   "pos": 5,
-   "player": "Kevin Nisbet",
+   "pos": 7,
+   "player": "Mehdi Merghem",
+   "team": "Dundee United",
+   "team_id": 282,
+   "assists": 2
+  },
+  {
+   "pos": 8,
+   "player": "Jamie Gullan",
+   "team": "St. Johnstone",
+   "team_id": 734,
+   "assists": 2
+  },
+  {
+   "pos": 9,
+   "player": "Connor Ronan",
    "team": "Aberdeen",
    "team_id": 273,
    "assists": 2
   },
   {
-   "pos": 6,
-   "player": "Tom Lowery",
-   "team": "Kilmarnock",
-   "team_id": 180,
-   "assists": 2
-  },
-  {
-   "pos": 7,
-   "player": "Ryan Strain",
-   "team": "Falkirk",
-   "team_id": 770,
-   "assists": 2
-  },
-  {
-   "pos": 8,
+   "pos": 10,
    "player": "Cláudio Braga",
    "team": "Hearts",
    "team_id": 314,
-   "assists": 2
-  },
-  {
-   "pos": 9,
-   "player": "Samuel Ramos",
-   "team": "St. Mirren",
-   "team_id": 496,
-   "assists": 2
-  },
-  {
-   "pos": 10,
-   "player": "Djeidi Gassama",
-   "team": "Rangers",
-   "team_id": 62,
    "assists": 2
   }
  ],
@@ -2798,5 +2798,5 @@
    }
   ]
  },
- "updated_at": "2026-10-17T14:40:37.479316+00:00"
+ "updated_at": "2026-10-17T17:38:23.942692+00:00"
 }
