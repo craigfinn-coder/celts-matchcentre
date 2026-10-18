@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T01:31:29+00:00",
+ "updated": "2026-10-18T14:41:45+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
@@ -462,11 +462,17 @@
    "ha": "H",
    "opp": "Hearts",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-   "state": "NS",
+   "state": "INPLAY_1ST_HALF",
    "finished": false,
    "void": false,
-   "score": null,
-   "half_time": null,
+   "score": {
+    "home": 4,
+    "away": 1
+   },
+   "half_time": {
+    "home": 4,
+    "away": 1
+   },
    "result": null,
    "tv": []
   },
