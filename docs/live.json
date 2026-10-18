@@ -2164,56 +2164,56 @@
     "type": "Ankle Injury",
     "since": "2026-09-04",
     "until": "2026-12-07",
-    "missed": 6
-   },
-   {
-    "player": "Blair Spittal",
-    "type": "No Eligibility",
-    "since": "2026-09-03",
-    "until": "2026-12-18",
     "missed": 7
-   },
-   {
-    "player": "Craig Halkett ",
-    "type": "Achilles tendon rupture",
-    "since": "2026-05-09",
-    "until": "2026-12-31",
-    "missed": 25
    },
    {
     "player": "Ageu",
     "type": "No Eligibility",
     "since": "2026-09-03",
     "until": "2026-12-18",
-    "missed": 7
-   },
-   {
-    "player": "Yan Dhanda",
-    "type": "No Eligibility",
-    "since": "2026-09-03",
-    "until": "2026-12-18",
-    "missed": 7
+    "missed": 8
    },
    {
     "player": "Elton Kabangu",
     "type": "No Eligibility",
     "since": "2026-09-03",
     "until": "2026-12-18",
-    "missed": 7
+    "missed": 8
+   },
+   {
+    "player": "Blair Spittal",
+    "type": "No Eligibility",
+    "since": "2026-09-03",
+    "until": "2026-12-18",
+    "missed": 8
+   },
+   {
+    "player": "Craig Halkett ",
+    "type": "Achilles tendon rupture",
+    "since": "2026-05-09",
+    "until": "2026-12-31",
+    "missed": 26
+   },
+   {
+    "player": "Yan Dhanda",
+    "type": "No Eligibility",
+    "since": "2026-09-03",
+    "until": "2026-12-18",
+    "missed": 8
    },
    {
     "player": "Tom Renaud",
     "type": "No Eligibility",
     "since": "2026-09-03",
     "until": "2026-12-18",
-    "missed": 7
+    "missed": 8
    },
    {
     "player": "Kieran Wright",
     "type": "No Eligibility",
     "since": "2026-09-03",
     "until": "2026-12-18",
-    "missed": 7
+    "missed": 8
    }
   ]
  },
@@ -2405,5 +2405,5 @@
    "rating": 6.86
   }
  },
- "updated_at": "2026-10-18T16:14:31.408634+00:00"
+ "updated_at": "2026-10-18T19:05:47.769616+00:00"
 }
