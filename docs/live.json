@@ -582,6 +582,13 @@
   "away": [
    {
     "player": "Blair Spittal",
+    "type": "Ankle Injury",
+    "since": "2026-09-04",
+    "until": "2026-12-07",
+    "missed": 6
+   },
+   {
+    "player": "Blair Spittal",
     "type": "No Eligibility",
     "since": "2026-09-03",
     "until": "2026-12-18",
@@ -624,13 +631,6 @@
    },
    {
     "player": "Amadou Ba-Sy",
-    "type": "No Eligibility",
-    "since": "2026-09-03",
-    "until": "2026-12-18",
-    "missed": 7
-   },
-   {
-    "player": "Leart Kabashi",
     "type": "No Eligibility",
     "since": "2026-09-03",
     "until": "2026-12-18",
@@ -2798,5 +2798,5 @@
    }
   ]
  },
- "updated_at": "2026-10-17T21:52:46.595796+00:00"
+ "updated_at": "2026-10-18T12:17:42.235942+00:00"
 }
