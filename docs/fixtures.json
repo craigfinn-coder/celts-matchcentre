@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-18T14:41:45+00:00",
+ "updated": "2026-10-18T19:29:50+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 14,
-  "w": 9,
+  "p": 15,
+  "w": 10,
   "d": 0,
   "l": 5,
-  "gf": 26,
-  "ga": 19
+  "gf": 33,
+  "ga": 20
  },
  "fixtures": [
   {
@@ -462,18 +462,18 @@
    "ha": "H",
    "opp": "Hearts",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-   "state": "INPLAY_1ST_HALF",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
    "score": {
-    "home": 4,
+    "home": 7,
     "away": 1
    },
    "half_time": {
-    "home": 4,
+    "home": 5,
     "away": 1
    },
-   "result": null,
+   "result": "W",
    "tv": []
   },
   {
