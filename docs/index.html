@@ -363,7 +363,9 @@ function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show'
 /* which match do the data tabs describe? */
 function featured(d){
   if(d.fixture&&(d.live||fin(d)||(d.events&&d.events.length)))return {m:d,fx:d.fixture,isLive:true};
-  if(d.last_match&&d.last_match.fixture)return {m:d.last_match,fx:d.last_match.fixture,isLive:false};
+  /* show the last match only until 24h before the next kick-off; inside that window the tabs switch to the upcoming game */
+  const ko=d.fixture&&d.fixture.kickoff_utc?new Date(d.fixture.kickoff_utc).getTime():NaN;const nextSoon=!isNaN(ko)&&(ko-Date.now())<864e5;
+  if(!nextSoon&&d.last_match&&d.last_match.fixture)return {m:d.last_match,fx:d.last_match.fixture,isLive:false};
   return {m:d,fx:d.fixture,isLive:true};
 }
 
