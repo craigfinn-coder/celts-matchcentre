@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T10:59:14+00:00",
+ "updated": "2026-10-19T17:36:04+00:00",
  "team_id": 53,
  "season": "2026/2027",
  "competitions": [
@@ -787,7 +787,7 @@
      "season": "2026/2027",
      "goals": 6,
      "sub_apps": 6,
-     "assists": 3,
+     "assists": 4,
      "minutes": 654,
      "apps": 9,
      "starts": 8
@@ -808,7 +808,7 @@
    "total": {
     "goals": 8,
     "sub_apps": 11,
-    "assists": 6,
+    "assists": 7,
     "minutes": 1005,
     "apps": 15,
     "starts": 12,
