@@ -768,11 +768,11 @@
     "id": 158296493,
     "minute": 45,
     "extra": 1,
-    "type": "Own Goal",
+    "type": "Goal",
     "side": "home",
     "team": "Celtic",
     "player": "Jamie McCart",
-    "related": null,
+    "related": "Benjamin Nygren",
     "result": "5-1",
     "info": "Own Goal"
    },
@@ -1107,7 +1107,7 @@
     "away": 1
    },
    "Big Chances Missed": {
-    "home": 2,
+    "home": 1,
     "away": 1
    },
    "Successful Dribbles Percentage": {
@@ -1469,6 +1469,7 @@
     "name": "Jota"
    },
    "19979885": {
+    "a": 1,
     "rating": 9.31,
     "min": 90,
     "touches": 61,
@@ -1565,6 +1566,7 @@
     "name": "Alex Oxlade-Chamberlain"
    },
    "37582048": {
+    "g": 1,
     "rating": 6.72,
     "pass": 43,
     "touches": 63,
@@ -1695,7 +1697,7 @@
    },
    "173767": {
     "rating": 5.59,
-    "touches": 104,
+    "touches": 103,
     "pass": 90,
     "min": 90,
     "fouls": 1,
@@ -2433,5 +2435,5 @@
    }
   ]
  },
- "updated_at": "2026-10-19T05:29:54.262118+00:00"
+ "updated_at": "2026-10-19T17:58:35.430875+00:00"
 }
