@@ -1041,7 +1041,7 @@
    },
    "Long Passes": {
     "home": 41,
-    "away": 58
+    "away": 56
    },
    "Hit Woodwork": {
     "home": 1,
@@ -1060,15 +1060,15 @@
     "away": 1
    },
    "Passes": {
-    "home": 485,
-    "away": 529
+    "home": 491,
+    "away": 525
    },
    "Successful Passes": {
-    "home": 423,
-    "away": 458
+    "home": 424,
+    "away": 456
    },
    "Successful Passes Percentage": {
-    "home": 87,
+    "home": 86,
     "away": 87
    },
    "Yellowcards": {
@@ -1088,8 +1088,8 @@
     "away": 6
    },
    "Interceptions": {
-    "home": 12,
-    "away": 7
+    "home": 11,
+    "away": 6
    },
    "Duels Won": {
     "home": 53,
@@ -1097,7 +1097,7 @@
    },
    "Dribble Attempts": {
     "home": 17,
-    "away": 19
+    "away": 18
    },
    "Successful Dribbles": {
     "home": 8,
@@ -1108,23 +1108,23 @@
     "away": 15
    },
    "Big Chances Created": {
-    "home": 7,
+    "home": 9,
     "away": 1
    },
    "Big Chances Missed": {
-    "home": 1,
+    "home": 2,
     "away": 1
    },
    "Successful Dribbles Percentage": {
     "home": 47,
-    "away": 42
+    "away": 44
    },
    "Successful Long Passes": {
-    "home": 23,
-    "away": 32
+    "home": 22,
+    "away": 31
    },
    "Successful Long Passes Percentage": {
-    "home": 56,
+    "home": 54,
     "away": 55
    },
    "Tackles Won": {
@@ -1430,8 +1430,8 @@
   },
   "player_stats": {
    "529045": {
-    "touches": 64,
-    "pass": 52,
+    "touches": 63,
+    "pass": 51,
     "rating": 7.15,
     "pass_pct": 87,
     "min": 90,
@@ -1443,7 +1443,7 @@
    "123659": {
     "rating": 7.76,
     "duels": 7,
-    "clr": 12,
+    "clr": 9,
     "tkl": 2,
     "min": 90,
     "touches": 117,
@@ -1452,7 +1452,7 @@
     "bcc": 1,
     "duels_t": 11,
     "pass_pct": 89,
-    "pass": 100,
+    "pass": 103,
     "fouls": 1,
     "side": "home",
     "name": "Liam Scales"
@@ -1463,7 +1463,7 @@
     "int": 2,
     "pass": 18,
     "duels_t": 8,
-    "touches": 30,
+    "touches": 29,
     "fouls": 2,
     "rating": 6.58,
     "yc": 1,
@@ -1486,7 +1486,7 @@
     "pass_pct": 94,
     "tkl": 1,
     "pass": 47,
-    "int": 2,
+    "int": 1,
     "kp": 4,
     "bcc": 1,
     "side": "home",
@@ -1507,8 +1507,8 @@
    },
    "37709508": {
     "rating": 8.99,
-    "pass": 9,
-    "touches": 18,
+    "pass": 10,
+    "touches": 19,
     "min": 60,
     "pass_pct": 67,
     "duels": 2,
@@ -1529,7 +1529,7 @@
     "pass": 17,
     "touches": 26,
     "rating": 6.37,
-    "duels_t": 5,
+    "duels_t": 4,
     "fouls": 2,
     "duels": 1,
     "int": 1,
@@ -1541,10 +1541,10 @@
     "duels": 4,
     "rating": 8.29,
     "duels_t": 10,
-    "touches": 25,
+    "touches": 26,
     "tkl": 2,
     "min": 46,
-    "pass": 12,
+    "pass": 13,
     "bcc": 1,
     "pass_pct": 75,
     "kp": 1,
@@ -1578,7 +1578,7 @@
     "pass_pct": 91,
     "min": 90,
     "kp": 1,
-    "duels_t": 18,
+    "duels_t": 19,
     "tkl": 3,
     "fouls": 5,
     "duels": 6,
@@ -1615,13 +1615,13 @@
     "name": "Callum McGregor"
    },
    "37342595": {
-    "clr": 7,
+    "clr": 5,
     "rating": 7.66,
-    "pass": 41,
+    "pass": 43,
     "pass_pct": 93,
     "a": 1,
     "duels_t": 13,
-    "touches": 54,
+    "touches": 55,
     "min": 90,
     "kp": 2,
     "duels": 10,
@@ -1641,9 +1641,9 @@
    },
    "37732189": {
     "touches": 58,
-    "pass": 29,
+    "pass": 30,
     "duels": 10,
-    "clr": 6,
+    "clr": 5,
     "duels_t": 17,
     "rating": 7.51,
     "pass_pct": 66,
@@ -1658,8 +1658,8 @@
     "name": "Colby Donovan"
    },
    "172960": {
-    "pass": 38,
-    "touches": 51,
+    "pass": 37,
+    "touches": 50,
     "rating": 7.99,
     "sh": 1,
     "sot": 1,
@@ -1690,7 +1690,7 @@
    "1628": {
     "rating": 5.9,
     "sh": 2,
-    "touches": 62,
+    "touches": 61,
     "pass": 44,
     "min": 90,
     "pass_pct": 84,
@@ -1703,12 +1703,12 @@
    "173767": {
     "rating": 5.59,
     "touches": 103,
-    "pass": 90,
+    "pass": 89,
     "min": 90,
     "fouls": 1,
     "duels_t": 5,
     "pass_pct": 90,
-    "clr": 6,
+    "clr": 7,
     "sh": 3,
     "duels": 2,
     "side": "away",
@@ -1762,10 +1762,10 @@
     "touches": 23,
     "pass": 13,
     "min": 54,
-    "duels_t": 8,
+    "duels_t": 9,
     "pass_pct": 92,
     "kp": 3,
-    "duels": 2,
+    "duels": 3,
     "sh": 1,
     "a": 1,
     "side": "away",
@@ -1829,11 +1829,11 @@
     "name": "Jordi Altena"
    },
    "37908539": {
-    "touches": 25,
+    "touches": 24,
     "min": 36,
-    "duels": 6,
+    "duels": 5,
     "tkl": 3,
-    "duels_t": 7,
+    "duels_t": 6,
     "fouls": 1,
     "pass_pct": 71,
     "pass": 14,
@@ -1846,21 +1846,21 @@
    "23277905": {
     "rating": 5.96,
     "touches": 96,
-    "pass": 86,
+    "pass": 84,
     "min": 90,
     "duels_t": 6,
-    "int": 3,
+    "int": 2,
     "tkl": 1,
     "duels": 4,
     "pass_pct": 95,
-    "clr": 5,
+    "clr": 6,
     "fouls": 1,
     "kp": 1,
     "side": "away",
     "name": "Malachi Fagan-Walcott"
    },
    "37614366": {
-    "pass": 8,
+    "pass": 7,
     "min": 36,
     "fouls": 1,
     "touches": 16,
@@ -2440,5 +2440,5 @@
    }
   ]
  },
- "updated_at": "2026-10-20T17:37:55.802129+00:00"
+ "updated_at": "2026-10-20T21:00:58.225773+00:00"
 }
