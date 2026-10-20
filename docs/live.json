@@ -664,6 +664,10 @@
    "away": "Claudio Giráldez",
    "home": "Martin O'Neill"
   },
+  "weather": {
+   "temp_c": 9,
+   "desc": "light rain"
+  },
   "tv": [
    "TNT Sports 3",
    "HBO Max"
@@ -1673,7 +1677,7 @@
     "name": "Kieran Tierney"
    },
    "21772899": {
-    "rating": 5.62,
+    "rating": 5.25,
     "touches": 45,
     "pass": 41,
     "min": 90,
@@ -2435,5 +2439,5 @@
    }
   ]
  },
- "updated_at": "2026-10-19T22:03:18.751050+00:00"
+ "updated_at": "2026-10-20T01:22:00.557806+00:00"
 }
