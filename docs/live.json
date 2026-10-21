@@ -1958,13 +1958,6 @@
    {
     "m": 10,
     "x": null,
-    "t": "Corner awarded.",
-    "goal": false,
-    "key": false
-   },
-   {
-    "m": 10,
-    "x": null,
     "t": "Goal! Benjamin Nygren scores to make it 2-0, assisted by Dane Murray.",
     "goal": true,
     "key": true
@@ -1972,14 +1965,7 @@
    {
     "m": 10,
     "x": null,
-    "t": "Shot by Benjamin Nygren with his left foot results in a goal.",
-    "goal": false,
-    "key": true
-   },
-   {
-    "m": 10,
-    "x": null,
-    "t": "Shot by Benjamin Nygren with his left foot results in a goal.",
+    "t": "Benjamin Nygren scores with a left-footed shot.",
     "goal": false,
     "key": true
    },
@@ -2000,14 +1986,14 @@
    {
     "m": 15,
     "x": null,
-    "t": "Shot from Sabri Guendouz with his right foot is saved.",
+    "t": "Shot by Sabri Guendouz with his right foot is saved.",
     "goal": false,
     "key": false
    },
    {
     "m": 17,
     "x": null,
-    "t": "Shot by Haissem Hassan with his left foot hits the post.",
+    "t": "Haissem Hassan takes a left-footed shot that hits the post.",
     "goal": false,
     "key": false
    },
@@ -2021,7 +2007,7 @@
    {
     "m": 23,
     "x": null,
-    "t": "Benjamin Nygren takes a left-footed shot, but it's saved.",
+    "t": "Shot by Benjamin Nygren with his left foot is saved.",
     "goal": false,
     "key": false
    },
@@ -2049,7 +2035,7 @@
    {
     "m": 31,
     "x": null,
-    "t": "Claudio Braga takes a left-footed shot, but it is blocked.",
+    "t": "Claudio Braga takes a left-footed shot, but it's blocked.",
     "goal": false,
     "key": false
    },
@@ -2098,7 +2084,7 @@
    {
     "m": 38,
     "x": null,
-    "t": "Camilo Duran takes a left-footed shot, but it is saved.",
+    "t": "Camilo Duran's left-footed shot is saved.",
     "goal": false,
     "key": false
    },
@@ -2112,14 +2098,14 @@
    {
     "m": 38,
     "x": null,
-    "t": "Shot on goal! Callum Osmand scores with a header.",
+    "t": "Shot - Callum Osmand Head Shot Goal",
     "goal": false,
     "key": true
    },
    {
     "m": 41,
     "x": null,
-    "t": "Goal! Laurent Mendy scores to make it 4-1, assisted by Joshua McPake.",
+    "t": "Goal! Laurent Mendy scores, making it 4-1, assisted by Joshua McPake.",
     "goal": true,
     "key": true
    },
@@ -2133,21 +2119,21 @@
    {
     "m": 41,
     "x": null,
-    "t": "Laurent Mendy takes a right-footed shot, but it is blocked.",
+    "t": "Laurent Mendy takes a right-footed shot, but it's blocked.",
     "goal": false,
     "key": false
    },
    {
     "m": 41,
     "x": null,
-    "t": "Jamie McCarthy takes a right-footed shot, but it is blocked.",
+    "t": "Jamie McCarthy takes a right-footed shot, but it's blocked.",
     "goal": false,
     "key": false
    },
    {
     "m": 41,
     "x": null,
-    "t": "Shot from Laurent Mendy with his right foot results in a goal.",
+    "t": "Shot by Laurent Mendy with his right foot results in a goal.",
     "goal": false,
     "key": true
    },
@@ -2161,7 +2147,7 @@
    {
     "m": 45,
     "x": 1,
-    "t": "Goal! An own goal by Jamie McCarthy makes it 5-1.",
+    "t": "Own goal by Jamie McCarthy makes it 5-1.",
     "goal": true,
     "key": true
    },
@@ -2175,7 +2161,7 @@
    {
     "m": 45,
     "x": 1,
-    "t": "Mika Baur takes a right-footed shot, but it is blocked off the line.",
+    "t": "Mika Baur's right-footed shot is blocked off the line.",
     "goal": false,
     "key": false
    },
@@ -2189,21 +2175,21 @@
    {
     "m": 46,
     "x": null,
-    "t": "Joao Pedro Neves Filipe comes on for Callum Osmand.",
+    "t": "Joao Pedro Neves Filipe replaces Callum Osmand.",
     "goal": false,
     "key": false
    },
    {
     "m": 46,
     "x": null,
-    "t": "On comes Tomas Bent Magnusson, off goes Oisin McEntee.",
+    "t": "Tomas Bent Magnusson comes on for Oisin McEntee.",
     "goal": false,
     "key": false
    },
    {
     "m": 48,
     "x": null,
-    "t": "Haissem Hassan takes a left-footed shot, but it's blocked.",
+    "t": "Haissem Hassan takes a left-footed shot, but it is blocked.",
     "goal": false,
     "key": false
    },
@@ -2231,7 +2217,7 @@
    {
     "m": 51,
     "x": null,
-    "t": "Mika Baur receives a yellow card.",
+    "t": "Yellow card issued to Mika Baur.",
     "goal": false,
     "key": false
    },
@@ -2252,7 +2238,7 @@
    {
     "m": 53,
     "x": null,
-    "t": "Stephen Kingsley takes a left-footed shot, but it is blocked.",
+    "t": "Stephen Kingsley takes a left-footed shot, but it's blocked.",
     "goal": false,
     "key": false
    },
@@ -2266,14 +2252,14 @@
    {
     "m": 54,
     "x": null,
-    "t": "Sabah Kerjota replaces Joshua McPake.",
+    "t": "Substitution: Joshua McPake is replaced by Sabah Kerjota.",
     "goal": false,
     "key": false
    },
    {
     "m": 56,
     "x": null,
-    "t": "Colby Donovan's right-footed shot is saved.",
+    "t": "Colby Donovan takes a right-footed shot, but it's saved.",
     "goal": false,
     "key": false
    },
@@ -2301,7 +2287,7 @@
    {
     "m": 59,
     "x": null,
-    "t": "Camilo Duran's left-footed shot is blocked.",
+    "t": "Camilo Duran takes a left-footed shot, but it's blocked.",
     "goal": false,
     "key": false
    },
@@ -2315,14 +2301,14 @@
    {
     "m": 60,
     "x": null,
-    "t": "Landon Emenalo comes on for Kieran Tierney.",
+    "t": "Landon Emenalo replaces Kieran Tierney.",
     "goal": false,
     "key": false
    },
    {
     "m": 60,
     "x": null,
-    "t": "Kasper Waarst Hogh is substituted off for Camilo Duran.",
+    "t": "Kasper Waarst Hogh is on, and Camilo Duran is off.",
     "goal": false,
     "key": false
    },
@@ -2357,21 +2343,21 @@
    {
     "m": 70,
     "x": null,
-    "t": "James Forrest is on, and Haissem Hassan is off.",
+    "t": "On comes James Forrest, off goes Haissem Hassan.",
     "goal": false,
     "key": false
    },
    {
     "m": 71,
     "x": null,
-    "t": "Shot by Rogers Mato Kassim with a header, but it misses the target.",
+    "t": "Rogers Mato Kassim attempts a header but misses the shot.",
     "goal": false,
     "key": false
    },
    {
     "m": 72,
     "x": null,
-    "t": "Amadou Ba Sy comes on for Claudio Braga.",
+    "t": "Amadou Ba Sy replaces Claudio Braga.",
     "goal": false,
     "key": false
    },
@@ -2392,7 +2378,7 @@
    {
     "m": 83,
     "x": null,
-    "t": "Shot from Benjamin Nygren with his left foot results in a goal.",
+    "t": "Goal! Benjamin Nygren scores with a left-footed shot.",
     "goal": false,
     "key": true
    },
@@ -2427,7 +2413,7 @@
    {
     "m": 87,
     "x": null,
-    "t": "Jamie McCarthy takes a left-footed shot, but it's blocked.",
+    "t": "Jamie McCarthy takes a left-footed shot, but it is blocked.",
     "goal": false,
     "key": false
    },
@@ -2440,5 +2426,5 @@
    }
   ]
  },
- "updated_at": "2026-10-21T00:14:40.857315+00:00"
+ "updated_at": "2026-10-21T05:33:08.288530+00:00"
 }
