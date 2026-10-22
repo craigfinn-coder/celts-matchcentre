@@ -879,7 +879,7 @@
    "away": 649
   },
   "Successful Passes": {
-   "home": 436,
+   "home": 435,
    "away": 580
   },
   "Successful Passes Percentage": {
@@ -907,15 +907,15 @@
    "away": 15
   },
   "Duels Won": {
-   "home": 38,
+   "home": 37,
    "away": 28
   },
   "Dribble Attempts": {
-   "home": 12,
+   "home": 11,
    "away": 19
   },
   "Successful Dribbles": {
-   "home": 6,
+   "home": 5,
    "away": 7
   },
   "Key Passes": {
@@ -931,7 +931,7 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 50,
+   "home": 45,
    "away": 37
   },
   "Successful Long Passes": {
@@ -965,8 +965,8 @@
   "6006071": {
    "min": 90,
    "pass": 63,
-   "touches": 82,
-   "rating": 7.41,
+   "touches": 81,
+   "rating": 7.42,
    "fouls": 1,
    "duels_t": 7,
    "duels": 6,
@@ -1075,10 +1075,10 @@
   "37528864": {
    "min": 27,
    "pass": 10,
-   "touches": 17,
+   "touches": 18,
    "pass_pct": 70,
-   "rating": 6.58,
-   "duels_t": 3,
+   "rating": 6.57,
+   "duels_t": 2,
    "sh": 3,
    "kp": 1,
    "clr": 1,
@@ -1117,12 +1117,12 @@
    "name": "Sebastián Cáceres"
   },
   "190049": {
-   "touches": 7,
+   "touches": 8,
    "int": 1,
    "min": 8,
    "pass": 3,
    "pass_pct": 33,
-   "rating": 6.51,
+   "rating": 6.53,
    "side": "away",
    "name": "Javi Galán"
   },
@@ -1186,7 +1186,7 @@
    "name": "Liam Scales"
   },
   "19979885": {
-   "rating": 6.53,
+   "rating": 6.52,
    "min": 90,
    "pass": 37,
    "touches": 50,
@@ -1244,9 +1244,8 @@
    "duels_t": 4,
    "min": 11,
    "fouls": 1,
-   "clr": 1,
-   "touches": 9,
-   "rating": 6.32,
+   "touches": 8,
+   "rating": 6.3,
    "sh": 1,
    "int": 1,
    "yc": 1,
@@ -1327,14 +1326,14 @@
    "name": "Callum McGregor"
   },
   "37342595": {
-   "touches": 69,
+   "touches": 68,
    "min": 90,
    "pass": 57,
-   "rating": 7.16,
-   "duels_t": 5,
+   "rating": 6.99,
+   "duels_t": 4,
    "pass_pct": 93,
-   "duels": 3,
-   "clr": 4,
+   "duels": 2,
+   "clr": 5,
    "fouls": 1,
    "side": "home",
    "name": "Dane Murray"
@@ -1352,9 +1351,9 @@
    "name": "James Forrest"
   },
   "37732189": {
-   "touches": 57,
+   "touches": 58,
    "pass": 28,
-   "rating": 7.04,
+   "rating": 7.19,
    "min": 90,
    "fouls": 3,
    "duels_t": 7,
@@ -2346,12 +2345,12 @@
   },
   "weather": {
    "temp_c": null,
-   "desc": "scattered clouds"
+   "desc": "few clouds"
   },
   "tv": [
    "TNT Sports 3",
    "HBO Max"
   ]
  },
- "updated_at": "2026-10-22T20:59:18.742450+00:00"
+ "updated_at": "2026-10-22T23:54:15.168121+00:00"
 }
