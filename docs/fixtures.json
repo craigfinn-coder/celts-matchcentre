@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T19:29:50+00:00",
+ "updated": "2026-10-22T20:38:38+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
@@ -493,11 +493,17 @@
    "ha": "H",
    "opp": "Celta de Vigo",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/4/36.png",
-   "state": "NS",
+   "state": "INPLAY_2ND_HALF",
    "finished": false,
    "void": false,
-   "score": null,
-   "half_time": null,
+   "score": {
+    "home": 1,
+    "away": 2
+   },
+   "half_time": {
+    "home": 0,
+    "away": 0
+   },
    "result": null,
    "tv": []
   },
