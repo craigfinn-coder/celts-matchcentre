@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T17:36:04+00:00",
+ "updated": "2026-10-22T01:39:07+00:00",
  "team_id": 53,
  "season": "2026/2027",
  "competitions": [
@@ -1422,7 +1422,7 @@
    "dob": "2009-01-16",
    "nationality": "Scotland",
    "position": "Midfielder",
-   "jersey": 65,
+   "jersey": 62,
    "captain": false,
    "competitions": [],
    "total": {}
