@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-22T20:38:38+00:00",
+ "updated": "2026-10-23T01:41:04+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 15,
+  "p": 16,
   "w": 10,
   "d": 0,
-  "l": 5,
-  "gf": 33,
-  "ga": 20
+  "l": 6,
+  "gf": 34,
+  "ga": 22
  },
  "fixtures": [
   {
@@ -493,8 +493,8 @@
    "ha": "H",
    "opp": "Celta de Vigo",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/4/36.png",
-   "state": "INPLAY_2ND_HALF",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
    "score": {
     "home": 1,
@@ -504,7 +504,7 @@
     "home": 0,
     "away": 0
    },
-   "result": null,
+   "result": "L",
    "tv": []
   },
   {
