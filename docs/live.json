@@ -357,7 +357,7 @@
      "id": 8585
     },
     {
-     "name": "Mika Joel Baur",
+     "name": "Mika Baur",
      "num": 22,
      "pos": 7,
      "field": "3:1",
@@ -817,7 +817,7 @@
     "type": "Goal",
     "side": "home",
     "team": "Celtic",
-    "player": "Mika Joel Baur",
+    "player": "Mika Baur",
     "related": null,
     "result": "1-0",
     "info": "Right foot shot"
@@ -926,7 +926,7 @@
     "side": "home",
     "team": "Celtic",
     "player": "Oliver Sørensen",
-    "related": "Mika Joel Baur",
+    "related": "Mika Baur",
     "result": null,
     "info": null
    },
@@ -1034,11 +1034,11 @@
    },
    "Shots Insidebox": {
     "home": 6,
-    "away": 8
+    "away": 9
    },
    "Shots Outsidebox": {
     "home": 2,
-    "away": 14
+    "away": 13
    },
    "Offsides": {
     "home": 3,
@@ -1081,8 +1081,8 @@
     "away": 19
    },
    "Long Passes": {
-    "home": 39,
-    "away": 44
+    "home": 38,
+    "away": 42
    },
    "Hit Woodwork": {
     "home": 1,
@@ -1101,12 +1101,12 @@
     "away": 1
    },
    "Passes": {
-    "home": 493,
-    "away": 649
+    "home": 494,
+    "away": 647
    },
    "Successful Passes": {
-    "home": 435,
-    "away": 580
+    "home": 436,
+    "away": 579
    },
    "Successful Passes Percentage": {
     "home": 88,
@@ -1121,16 +1121,16 @@
     "away": 4
    },
    "Total Crosses": {
-    "home": 21,
-    "away": 16
+    "home": 20,
+    "away": 17
    },
    "Accurate Crosses": {
     "home": 6,
-    "away": 4
+    "away": 5
    },
    "Interceptions": {
-    "home": 12,
-    "away": 15
+    "home": 13,
+    "away": 14
    },
    "Duels Won": {
     "home": 37,
@@ -1138,7 +1138,7 @@
    },
    "Dribble Attempts": {
     "home": 11,
-    "away": 19
+    "away": 20
    },
    "Successful Dribbles": {
     "home": 5,
@@ -1149,7 +1149,7 @@
     "away": 17
    },
    "Big Chances Created": {
-    "home": 1,
+    "home": 2,
     "away": 2
    },
    "Big Chances Missed": {
@@ -1158,15 +1158,15 @@
    },
    "Successful Dribbles Percentage": {
     "home": 45,
-    "away": 37
+    "away": 35
    },
    "Successful Long Passes": {
-    "home": 18,
-    "away": 26
+    "home": 17,
+    "away": 24
    },
    "Successful Long Passes Percentage": {
-    "home": 46,
-    "away": 59
+    "home": 45,
+    "away": 57
    },
    "Tackles Won": {
     "home": 9,
@@ -1219,7 +1219,7 @@
       "id": 8585
      },
      {
-      "name": "Mika Joel Baur",
+      "name": "Mika Baur",
       "num": 22,
       "pos": 7,
       "field": "3:2",
@@ -1527,7 +1527,7 @@
    },
    "6006071": {
     "min": 90,
-    "pass": 63,
+    "pass": 62,
     "touches": 81,
     "rating": 7.42,
     "fouls": 1,
@@ -1557,7 +1557,7 @@
    "22859283": {
     "min": 77,
     "pass": 19,
-    "touches": 31,
+    "touches": 32,
     "duels_t": 6,
     "rating": 6.9,
     "sh": 4,
@@ -1607,10 +1607,10 @@
    },
    "446998": {
     "rating": 6.87,
-    "touches": 75,
+    "touches": 74,
     "min": 90,
     "pass": 62,
-    "int": 2,
+    "int": 1,
     "fouls": 1,
     "kp": 3,
     "duels_t": 5,
@@ -1667,8 +1667,8 @@
    },
    "13653174": {
     "min": 90,
-    "pass": 69,
-    "touches": 81,
+    "pass": 68,
+    "touches": 80,
     "rating": 6.89,
     "clr": 7,
     "pass_pct": 91,
@@ -1685,7 +1685,7 @@
     "min": 5,
     "pass": 3,
     "pass_pct": 33,
-    "rating": 6.53,
+    "rating": 6.51,
     "side": "away",
     "name": "Javi Galán"
    },
@@ -1718,7 +1718,7 @@
    "29720457": {
     "rating": 6.98,
     "min": 63,
-    "touches": 58,
+    "touches": 59,
     "pass": 48,
     "kp": 2,
     "tkl": 2,
@@ -1733,13 +1733,13 @@
    },
    "123659": {
     "rating": 6.92,
-    "touches": 121,
+    "touches": 118,
     "min": 90,
-    "pass": 104,
+    "pass": 103,
     "pass_pct": 88,
     "duels_t": 10,
     "int": 1,
-    "clr": 7,
+    "clr": 5,
     "tkl": 4,
     "duels": 6,
     "sh": 1,
@@ -1751,7 +1751,7 @@
    "19979885": {
     "rating": 6.52,
     "min": 90,
-    "pass": 37,
+    "pass": 38,
     "touches": 50,
     "duels_t": 3,
     "pass_pct": 89,
@@ -1833,8 +1833,8 @@
     "name": "Callum Osmand"
    },
    "37582048": {
-    "pass": 49,
-    "touches": 62,
+    "pass": 50,
+    "touches": 63,
     "min": 79,
     "rating": 7.31,
     "pass_pct": 88,
@@ -1848,11 +1848,11 @@
     "tkl": 1,
     "duels": 1,
     "side": "home",
-    "name": "Mika Joel Baur"
+    "name": "Mika Baur"
    },
    "18584306": {
     "rating": 6.68,
-    "pass": 13,
+    "pass": 14,
     "touches": 31,
     "min": 73,
     "clr": 1,
@@ -1875,7 +1875,7 @@
     "name": "Sam Johnstone"
    },
    "8585": {
-    "touches": 53,
+    "touches": 54,
     "duels": 5,
     "duels_t": 5,
     "rating": 7.11,
@@ -1889,7 +1889,7 @@
     "name": "Callum McGregor"
    },
    "37342595": {
-    "touches": 68,
+    "touches": 69,
     "min": 90,
     "pass": 57,
     "rating": 6.99,
@@ -1898,15 +1898,16 @@
     "duels": 2,
     "clr": 5,
     "fouls": 1,
+    "int": 1,
     "side": "home",
     "name": "Dane Murray"
    },
    "172104": {
-    "touches": 15,
+    "touches": 14,
     "rating": 6.52,
     "pass_pct": 92,
     "min": 32,
-    "pass": 12,
+    "pass": 11,
     "duels": 1,
     "duels_t": 1,
     "kp": 1,
@@ -1935,12 +1936,12 @@
     "pass": 55,
     "duels_t": 4,
     "min": 90,
-    "touches": 79,
+    "touches": 80,
     "duels": 4,
     "rating": 6.82,
     "tkl": 2,
     "pass_pct": 84,
-    "clr": 1,
+    "clr": 2,
     "sh": 1,
     "int": 1,
     "kp": 1,
@@ -2190,13 +2191,13 @@
    {
     "m": 45,
     "x": null,
-    "t": "Attempt saved. Ferran Jutglà from Celta Vigo has his right-footed shot from outside the box saved in the center of the goal by Sam Johnstone of Celtic. The shot was assisted by Aleix Febas.",
+    "t": "Attempt saved. Ferran Jutglà from Celta Vigo has his right-footed shot from the right side of the box saved in the bottom left corner by Sam Johnstone of Celtic. The assist came from Aleix Febas.",
     "goal": false,
     "key": false
    },
    {
     "m": 45,
-    "x": null,
+    "x": 1,
     "t": "Fourth official has announced 0 minutes of added time.",
     "goal": false,
     "key": false
@@ -2616,5 +2617,5 @@
    }
   ]
  },
- "updated_at": "2026-10-23T02:36:52.700290+00:00"
+ "updated_at": "2026-10-23T13:56:51.393560+00:00"
 }
