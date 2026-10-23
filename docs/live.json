@@ -1529,7 +1529,7 @@
     "min": 90,
     "pass": 62,
     "touches": 81,
-    "rating": 7.42,
+    "rating": 7.43,
     "fouls": 1,
     "duels_t": 7,
     "duels": 6,
@@ -1599,14 +1599,14 @@
     "pass": 28,
     "min": 90,
     "touches": 35,
-    "rating": 6.9,
+    "rating": 6.89,
     "saves": 3,
     "pass_pct": 82,
     "side": "away",
     "name": "Ionuț Radu"
    },
    "446998": {
-    "rating": 6.87,
+    "rating": 6.82,
     "touches": 74,
     "min": 90,
     "pass": 62,
@@ -1625,7 +1625,7 @@
     "touches": 56,
     "min": 85,
     "pass": 38,
-    "rating": 6.58,
+    "rating": 6.55,
     "duels_t": 5,
     "pass_pct": 84,
     "sh": 1,
@@ -1640,7 +1640,7 @@
     "pass": 10,
     "touches": 18,
     "pass_pct": 70,
-    "rating": 6.57,
+    "rating": 6.54,
     "duels_t": 2,
     "sh": 3,
     "kp": 1,
@@ -1682,7 +1682,7 @@
    "190049": {
     "touches": 8,
     "int": 1,
-    "min": 5,
+    "min": 8,
     "pass": 3,
     "pass_pct": 33,
     "rating": 6.51,
@@ -1705,7 +1705,7 @@
     "name": "Hugo Álvarez"
    },
    "37766765": {
-    "min": 5,
+    "min": 8,
     "rating": 6.38,
     "sh": 1,
     "touches": 4,
@@ -1716,7 +1716,7 @@
     "name": "Andrés Antañón"
    },
    "29720457": {
-    "rating": 6.98,
+    "rating": 7.01,
     "min": 63,
     "touches": 59,
     "pass": 48,
@@ -1732,7 +1732,7 @@
     "name": "Hugo Burcio"
    },
    "123659": {
-    "rating": 6.92,
+    "rating": 6.88,
     "touches": 118,
     "min": 90,
     "pass": 103,
@@ -1749,7 +1749,7 @@
     "name": "Liam Scales"
    },
    "19979885": {
-    "rating": 6.52,
+    "rating": 6.51,
     "min": 90,
     "pass": 38,
     "touches": 50,
@@ -1836,7 +1836,7 @@
     "pass": 50,
     "touches": 63,
     "min": 79,
-    "rating": 7.31,
+    "rating": 7.33,
     "pass_pct": 88,
     "clr": 3,
     "duels_t": 3,
@@ -1851,7 +1851,7 @@
     "name": "Mika Baur"
    },
    "18584306": {
-    "rating": 6.68,
+    "rating": 6.67,
     "pass": 14,
     "touches": 31,
     "min": 73,
@@ -1870,7 +1870,7 @@
     "touches": 69,
     "pass_pct": 93,
     "saves": 2,
-    "rating": 6.56,
+    "rating": 6.6,
     "side": "home",
     "name": "Sam Johnstone"
    },
@@ -1878,7 +1878,7 @@
     "touches": 54,
     "duels": 5,
     "duels_t": 5,
-    "rating": 7.11,
+    "rating": 7.08,
     "pass": 37,
     "tkl": 4,
     "min": 90,
@@ -1892,7 +1892,7 @@
     "touches": 69,
     "min": 90,
     "pass": 57,
-    "rating": 6.99,
+    "rating": 7.06,
     "duels_t": 4,
     "pass_pct": 93,
     "duels": 2,
@@ -1904,7 +1904,7 @@
    },
    "172104": {
     "touches": 14,
-    "rating": 6.52,
+    "rating": 6.51,
     "pass_pct": 92,
     "min": 32,
     "pass": 11,
@@ -1917,7 +1917,7 @@
    "37732189": {
     "touches": 58,
     "pass": 28,
-    "rating": 7.19,
+    "rating": 7.17,
     "min": 90,
     "fouls": 3,
     "duels_t": 7,
@@ -1938,7 +1938,7 @@
     "min": 90,
     "touches": 80,
     "duels": 4,
-    "rating": 6.82,
+    "rating": 6.86,
     "tkl": 2,
     "pass_pct": 84,
     "clr": 2,
@@ -2617,5 +2617,5 @@
    }
   ]
  },
- "updated_at": "2026-10-23T18:04:05.494752+00:00"
+ "updated_at": "2026-10-23T21:46:27.125124+00:00"
 }
