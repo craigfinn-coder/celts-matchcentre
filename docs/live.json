@@ -1518,7 +1518,7 @@
     "pass": 111,
     "min": 90,
     "touches": 119,
-    "rating": 6.99,
+    "rating": 6.97,
     "int": 1,
     "duels": 1,
     "duels_t": 3,
@@ -1601,7 +1601,7 @@
     "pass": 28,
     "min": 90,
     "touches": 35,
-    "rating": 6.89,
+    "rating": 6.84,
     "saves": 3,
     "pass_pct": 82,
     "side": "away",
@@ -1651,7 +1651,7 @@
     "name": "Williot Swedberg"
    },
    "37652784": {
-    "rating": 8.84,
+    "rating": 8.86,
     "min": 90,
     "touches": 101,
     "duels": 3,
@@ -1718,7 +1718,7 @@
     "name": "Andrés Antañón"
    },
    "29720457": {
-    "rating": 7.01,
+    "rating": 6.99,
     "min": 63,
     "touches": 59,
     "pass": 48,
@@ -1776,7 +1776,7 @@
     "name": "Kasper Høgh"
    },
    "37709508": {
-    "rating": 6.74,
+    "rating": 6.75,
     "min": 80,
     "pass": 10,
     "sh": 1,
@@ -1838,7 +1838,7 @@
     "pass": 50,
     "touches": 63,
     "min": 79,
-    "rating": 7.33,
+    "rating": 7.3,
     "pass_pct": 88,
     "clr": 3,
     "duels_t": 3,
@@ -1853,7 +1853,7 @@
     "name": "Mika Baur"
    },
    "18584306": {
-    "rating": 6.67,
+    "rating": 6.66,
     "pass": 14,
     "touches": 31,
     "min": 73,
@@ -1940,7 +1940,7 @@
     "min": 90,
     "touches": 80,
     "duels": 4,
-    "rating": 6.86,
+    "rating": 6.87,
     "tkl": 2,
     "pass_pct": 84,
     "clr": 2,
@@ -2619,5 +2619,5 @@
    }
   ]
  },
- "updated_at": "2026-10-24T05:13:27.904347+00:00"
+ "updated_at": "2026-10-24T13:53:19.419640+00:00"
 }
