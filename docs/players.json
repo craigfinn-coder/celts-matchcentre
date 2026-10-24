@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T20:31:50+00:00",
+ "updated": "2026-10-24T19:35:33+00:00",
  "team_id": 53,
  "season": "2026/2027",
  "competitions": [
@@ -201,14 +201,14 @@
      "season": "2026/2027",
      "goals": 2,
      "sub_apps": 3,
-     "minutes": 74,
+     "minutes": 73,
      "apps": 3,
      "starts": 1
     }
    ],
    "total": {
     "sub_apps": 5,
-    "minutes": 176,
+    "minutes": 175,
     "apps": 5,
     "starts": 2,
     "goals": 2
@@ -1420,14 +1420,14 @@
      "season": "2026/2027",
      "sub_apps": 2,
      "yellows": 1,
-     "minutes": 60,
+     "minutes": 61,
      "apps": 2
     }
    ],
    "total": {
     "sub_apps": 2,
     "yellows": 1,
-    "minutes": 60,
+    "minutes": 61,
     "apps": 2
    }
   },
