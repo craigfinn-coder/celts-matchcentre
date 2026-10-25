@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-23T01:41:04+00:00",
+ "updated": "2026-10-25T14:58:54+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 16,
-  "w": 10,
+  "p": 17,
+  "w": 11,
   "d": 0,
   "l": 6,
-  "gf": 34,
-  "ga": 22
+  "gf": 36,
+  "ga": 23
  },
  "fixtures": [
   {
@@ -524,12 +524,18 @@
    "ha": "A",
    "opp": "Hibernian",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
-   "state": "NS",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
-   "score": null,
-   "half_time": null,
-   "result": null,
+   "score": {
+    "home": 1,
+    "away": 2
+   },
+   "half_time": {
+    "home": 1,
+    "away": 2
+   },
+   "result": "W",
    "tv": []
   },
   {
