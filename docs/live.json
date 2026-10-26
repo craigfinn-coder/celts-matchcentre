@@ -1304,7 +1304,7 @@
    },
    "123659": {
     "clr": 7,
-    "rating": 7.47,
+    "rating": 7.4,
     "touches": 128,
     "duels": 7,
     "duels_t": 11,
@@ -1463,7 +1463,7 @@
    "8585": {
     "touches": 64,
     "pass": 51,
-    "rating": 7.24,
+    "rating": 7.16,
     "sot": 1,
     "sh": 1,
     "tkl": 3,
@@ -1530,7 +1530,7 @@
     "name": "Raphael Sallinger"
    },
    "37653423": {
-    "rating": 6.32,
+    "rating": 6.27,
     "fouls": 2,
     "duels_t": 11,
     "touches": 64,
@@ -1557,7 +1557,7 @@
     "name": "Grant Hanley"
    },
    "37562348": {
-    "rating": 6.4,
+    "rating": 6.39,
     "duels_t": 4,
     "touches": 62,
     "pass": 53,
@@ -1572,7 +1572,7 @@
     "name": "Marko Ivezic"
    },
    "173154": {
-    "rating": 7.06,
+    "rating": 6.99,
     "touches": 76,
     "min": 90,
     "clr": 9,
@@ -1604,7 +1604,7 @@
     "name": "Owen Elding"
    },
    "35683623": {
-    "rating": 6.19,
+    "rating": 6.22,
     "min": 90,
     "pass": 23,
     "pass_pct": 86,
@@ -1665,7 +1665,7 @@
    "14338021": {
     "pass": 10,
     "touches": 25,
-    "rating": 6.05,
+    "rating": 6.19,
     "min": 68,
     "pass_pct": 80,
     "fouls": 3,
@@ -1710,7 +1710,7 @@
     "min": 22,
     "pass_pct": 80,
     "touches": 13,
-    "rating": 6.49,
+    "rating": 6.5,
     "pass": 5,
     "duels_t": 6,
     "duels": 2,
@@ -1725,7 +1725,7 @@
     "clr": 1,
     "duels_t": 2,
     "touches": 14,
-    "rating": 6.4,
+    "rating": 6.41,
     "pass_pct": 38,
     "int": 1,
     "pass": 8,
@@ -2177,5 +2177,5 @@
    }
   ]
  },
- "updated_at": "2026-10-26T00:55:47.830148+00:00"
+ "updated_at": "2026-10-26T11:53:57.185919+00:00"
 }
