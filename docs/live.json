@@ -230,14 +230,170 @@
  "stats": {},
  "lineups": {
   "home": {
-   "xi": [],
+   "xi": [
+    {
+     "name": "Sam Johnstone",
+     "num": 26,
+     "pos": 1,
+     "field": "1:1",
+     "id": 1008
+    },
+    {
+     "name": "Colby Donovan",
+     "num": 51,
+     "pos": 2,
+     "field": "2:1",
+     "id": 37732189
+    },
+    {
+     "name": "Dane Murray",
+     "num": 47,
+     "pos": 3,
+     "field": "2:2",
+     "id": 37342595
+    },
+    {
+     "name": "Liam Scales",
+     "num": 5,
+     "pos": 4,
+     "field": "2:3",
+     "id": 123659
+    },
+    {
+     "name": "Kieran Tierney",
+     "num": 63,
+     "pos": 5,
+     "field": "2:4",
+     "id": 172960
+    },
+    {
+     "name": "Callum McGregor",
+     "num": 42,
+     "pos": 6,
+     "field": "3:1",
+     "id": 8585
+    },
+    {
+     "name": "Mika Baur",
+     "num": 22,
+     "pos": 7,
+     "field": "3:2",
+     "id": 37582048
+    },
+    {
+     "name": "Camilo Durán",
+     "num": 11,
+     "pos": 8,
+     "field": "4:1",
+     "id": 37709508
+    },
+    {
+     "name": "Benjamin Nygren",
+     "num": 8,
+     "pos": 9,
+     "field": "4:2",
+     "id": 19979885
+    },
+    {
+     "name": "Callum Osmand",
+     "num": 19,
+     "pos": 10,
+     "field": "4:3",
+     "id": 37598290
+    },
+    {
+     "name": "Kasper Høgh",
+     "num": 9,
+     "pos": 11,
+     "field": "5:1",
+     "id": 15061513
+    }
+   ],
    "bench": [],
-   "formation": null
+   "formation": "4-2-3-1"
   },
   "away": {
-   "xi": [],
+   "xi": [
+    {
+     "name": "Jack Walton",
+     "num": 1,
+     "pos": 1,
+     "field": "1:1",
+     "id": 9428
+    },
+    {
+     "name": "Joshua Rawlins",
+     "num": 23,
+     "pos": 2,
+     "field": "2:4",
+     "id": 37253440
+    },
+    {
+     "name": "Bert Esselink",
+     "num": 3,
+     "pos": 3,
+     "field": "2:3",
+     "id": 37545409
+    },
+    {
+     "name": "Michael Forbes",
+     "num": 18,
+     "pos": 4,
+     "field": "2:2",
+     "id": 37536785
+    },
+    {
+     "name": "Kevin Ciubotaru",
+     "num": 19,
+     "pos": 5,
+     "field": "2:1",
+     "id": 37668964
+    },
+    {
+     "name": "Zidane Iqbal",
+     "num": 14,
+     "pos": 6,
+     "field": "3:3",
+     "id": 37365874
+    },
+    {
+     "name": "Dylan Tait",
+     "num": 10,
+     "pos": 7,
+     "field": "3:2",
+     "id": 33608588
+    },
+    {
+     "name": "Lyall Cameron",
+     "num": 16,
+     "pos": 8,
+     "field": "3:1",
+     "id": 35683622
+    },
+    {
+     "name": "Jesse Randall",
+     "num": 21,
+     "pos": 9,
+     "field": "4:3",
+     "id": 37341839
+    },
+    {
+     "name": "Zachary Sapsford",
+     "num": 9,
+     "pos": 10,
+     "field": "4:2",
+     "id": 37559122
+    },
+    {
+     "name": "Daniel Bennie",
+     "num": 77,
+     "pos": 11,
+     "field": "4:1",
+     "id": 37697232
+    }
+   ],
    "bench": [],
-   "formation": null
+   "formation": "4-3-3"
   }
  },
  "form": {
@@ -562,6 +718,7 @@
   }
  ],
  "info": {
+  "referee": "Steven McLean",
   "coaches": {
    "home": "Martin O'Neill",
    "away": "Jim Goodwin"
@@ -1604,7 +1761,7 @@
     "name": "Owen Elding"
    },
    "35683623": {
-    "rating": 6.22,
+    "rating": 6.24,
     "min": 90,
     "pass": 23,
     "pass_pct": 86,
@@ -1620,7 +1777,7 @@
     "name": "Josh Mulligan"
    },
    "2781": {
-    "rating": 6.96,
+    "rating": 6.97,
     "pass": 22,
     "a": 1,
     "touches": 36,
@@ -1710,7 +1867,7 @@
     "min": 22,
     "pass_pct": 80,
     "touches": 13,
-    "rating": 6.5,
+    "rating": 6.48,
     "pass": 5,
     "duels_t": 6,
     "duels": 2,
@@ -2177,5 +2334,5 @@
    }
   ]
  },
- "updated_at": "2026-10-26T11:53:57.185919+00:00"
+ "updated_at": "2026-10-26T17:57:03.591324+00:00"
 }
