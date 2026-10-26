@@ -565,6 +565,10 @@
   "coaches": {
    "home": "Martin O'Neill",
    "away": "Jim Goodwin"
+  },
+  "weather": {
+   "temp_c": 11,
+   "desc": "moderate rain"
   }
  },
  "season_stats": {
@@ -900,7 +904,7 @@
     "away": 17
    },
    "Long Passes": {
-    "home": 72,
+    "home": 73,
     "away": 44
    },
    "Successful Headers": {
@@ -908,7 +912,7 @@
     "away": 16
    },
    "Tackles": {
-    "home": 9,
+    "home": 10,
     "away": 18
    },
    "Assists": {
@@ -916,15 +920,15 @@
     "away": 0
    },
    "Passes": {
-    "home": 355,
-    "away": 571
+    "home": 357,
+    "away": 570
    },
    "Successful Passes": {
-    "home": 268,
-    "away": 488
+    "home": 270,
+    "away": 487
    },
    "Successful Passes Percentage": {
-    "home": 75,
+    "home": 76,
     "away": 85
    },
    "Yellowcards": {
@@ -945,10 +949,10 @@
    },
    "Interceptions": {
     "home": 9,
-    "away": 7
+    "away": 6
    },
    "Duels Won": {
-    "home": 38,
+    "home": 39,
     "away": 53
    },
    "Dribble Attempts": {
@@ -1301,7 +1305,7 @@
    "123659": {
     "clr": 7,
     "rating": 7.47,
-    "touches": 129,
+    "touches": 128,
     "duels": 7,
     "duels_t": 11,
     "min": 90,
@@ -1309,7 +1313,7 @@
     "fouls": 1,
     "tkl": 2,
     "pass": 114,
-    "int": 2,
+    "int": 1,
     "side": "away",
     "name": "Liam Scales"
    },
@@ -1458,7 +1462,7 @@
    },
    "8585": {
     "touches": 64,
-    "pass": 52,
+    "pass": 51,
     "rating": 7.24,
     "sot": 1,
     "sh": 1,
@@ -1466,7 +1470,7 @@
     "duels": 6,
     "pass_pct": 90,
     "fouls": 1,
-    "duels_t": 7,
+    "duels_t": 8,
     "clr": 2,
     "min": 90,
     "side": "away",
@@ -1528,7 +1532,7 @@
    "37653423": {
     "rating": 6.32,
     "fouls": 2,
-    "duels_t": 10,
+    "duels_t": 11,
     "touches": 64,
     "duels": 4,
     "pass_pct": 59,
@@ -1545,8 +1549,8 @@
    "807": {
     "min": 8,
     "pass_pct": 100,
-    "touches": 5,
-    "pass": 3,
+    "touches": 4,
+    "pass": 2,
     "duels_t": 1,
     "rating": 6.43,
     "side": "home",
@@ -1555,8 +1559,8 @@
    "37562348": {
     "rating": 6.4,
     "duels_t": 4,
-    "touches": 61,
-    "pass": 52,
+    "touches": 62,
+    "pass": 53,
     "pass_pct": 96,
     "clr": 5,
     "min": 90,
@@ -1569,19 +1573,18 @@
    },
    "173154": {
     "rating": 7.06,
-    "touches": 78,
+    "touches": 76,
     "min": 90,
     "clr": 9,
     "pass_pct": 79,
-    "pass": 56,
+    "pass": 55,
     "fouls": 1,
-    "duels_t": 5,
+    "duels_t": 4,
     "kp": 1,
-    "duels": 3,
+    "duels": 2,
     "bcc": 1,
     "sh": 2,
     "int": 3,
-    "tkl": 1,
     "side": "home",
     "name": "Jason Kerr"
    },
@@ -1589,11 +1592,11 @@
     "rating": 7.27,
     "sh": 2,
     "g": 1,
-    "touches": 22,
+    "touches": 23,
     "sot": 1,
     "min": 90,
     "duels": 2,
-    "pass": 14,
+    "pass": 15,
     "duels_t": 6,
     "pass_pct": 57,
     "kp": 2,
@@ -1603,15 +1606,16 @@
    "35683623": {
     "rating": 6.19,
     "min": 90,
-    "pass": 21,
+    "pass": 23,
     "pass_pct": 86,
     "duels_t": 9,
-    "touches": 31,
+    "touches": 34,
     "int": 1,
     "fouls": 3,
     "kp": 1,
     "tkl": 1,
     "duels": 2,
+    "sh": 1,
     "side": "home",
     "name": "Josh Mulligan"
    },
@@ -1660,14 +1664,14 @@
    },
    "14338021": {
     "pass": 10,
-    "touches": 23,
+    "touches": 25,
     "rating": 6.05,
     "min": 68,
     "pass_pct": 80,
     "fouls": 3,
-    "duels_t": 10,
-    "duels": 3,
-    "tkl": 1,
+    "duels_t": 12,
+    "duels": 5,
+    "tkl": 3,
     "sh": 1,
     "yc": 1,
     "side": "home",
@@ -1705,12 +1709,12 @@
    "2875852": {
     "min": 22,
     "pass_pct": 80,
-    "touches": 14,
+    "touches": 13,
     "rating": 6.49,
     "pass": 5,
-    "duels_t": 7,
+    "duels_t": 6,
     "duels": 2,
-    "sh": 4,
+    "sh": 3,
     "fouls": 1,
     "side": "home",
     "name": "Rabbi Matondo"
@@ -2173,5 +2177,5 @@
    }
   ]
  },
- "updated_at": "2026-10-25T20:32:50.330148+00:00"
+ "updated_at": "2026-10-26T00:55:47.830148+00:00"
 }
