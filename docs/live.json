@@ -1014,11 +1014,11 @@
    },
    "Shots Insidebox": {
     "home": 10,
-    "away": 8
+    "away": 9
    },
    "Shots Outsidebox": {
     "home": 3,
-    "away": 7
+    "away": 6
    },
    "Offsides": {
     "home": 3,
@@ -1062,7 +1062,7 @@
    },
    "Long Passes": {
     "home": 73,
-    "away": 44
+    "away": 45
    },
    "Successful Headers": {
     "home": 10,
@@ -1070,23 +1070,23 @@
    },
    "Tackles": {
     "home": 10,
-    "away": 18
+    "away": 17
    },
    "Assists": {
     "home": 1,
     "away": 0
    },
    "Passes": {
-    "home": 357,
-    "away": 570
+    "home": 359,
+    "away": 568
    },
    "Successful Passes": {
-    "home": 270,
-    "away": 487
+    "home": 272,
+    "away": 486
    },
    "Successful Passes Percentage": {
     "home": 76,
-    "away": 85
+    "away": 86
    },
    "Yellowcards": {
     "home": 2,
@@ -1098,19 +1098,19 @@
    },
    "Total Crosses": {
     "home": 18,
-    "away": 14
+    "away": 13
    },
    "Accurate Crosses": {
     "home": 4,
     "away": 3
    },
    "Interceptions": {
-    "home": 9,
+    "home": 10,
     "away": 6
    },
    "Duels Won": {
-    "home": 39,
-    "away": 53
+    "home": 40,
+    "away": 54
    },
    "Dribble Attempts": {
     "home": 15,
@@ -1133,16 +1133,16 @@
     "away": 3
    },
    "Successful Dribbles Percentage": {
-    "home": 33,
+    "home": 40,
     "away": 55
    },
    "Successful Long Passes": {
     "home": 24,
-    "away": 15
+    "away": 17
    },
    "Successful Long Passes Percentage": {
     "home": 33,
-    "away": 34
+    "away": 38
    },
    "Tackles Won": {
     "home": 7,
@@ -1447,22 +1447,22 @@
   },
   "player_stats": {
    "35659846": {
-    "duels_t": 2,
+    "duels_t": 3,
     "touches": 17,
     "pass": 11,
     "tkl": 1,
     "pass_pct": 64,
     "min": 21,
-    "duels": 2,
+    "duels": 3,
     "rating": 6.69,
     "kp": 1,
     "side": "away",
     "name": "Alistair Johnston"
    },
    "123659": {
-    "clr": 7,
+    "clr": 8,
     "rating": 7.4,
-    "touches": 128,
+    "touches": 129,
     "duels": 7,
     "duels_t": 11,
     "min": 90,
@@ -1505,7 +1505,7 @@
    "15061513": {
     "rating": 6.12,
     "touches": 18,
-    "pass": 11,
+    "pass": 10,
     "sh": 2,
     "duels": 3,
     "duels_t": 5,
@@ -1564,7 +1564,7 @@
     "name": "Cameron Carter-Vickers"
    },
    "37582048": {
-    "pass": 42,
+    "pass": 41,
     "rating": 7.53,
     "int": 2,
     "duels_t": 4,
@@ -1576,6 +1576,7 @@
     "pass_pct": 90,
     "sot": 1,
     "sh": 1,
+    "clr": 1,
     "side": "away",
     "name": "Mika Baur"
    },
@@ -1583,13 +1584,13 @@
     "min": 26,
     "duels_t": 4,
     "sh": 2,
-    "pass": 8,
+    "pass": 9,
     "rating": 6.83,
     "pass_pct": 63,
-    "duels": 3,
+    "duels": 2,
     "kp": 1,
-    "tkl": 2,
-    "touches": 18,
+    "tkl": 1,
+    "touches": 17,
     "side": "away",
     "name": "Haissem Hassan"
    },
@@ -1635,7 +1636,7 @@
    },
    "37342595": {
     "clr": 5,
-    "duels": 4,
+    "duels": 5,
     "rating": 6.87,
     "touches": 94,
     "fouls": 2,
@@ -1643,7 +1644,7 @@
     "min": 90,
     "pass_pct": 86,
     "int": 2,
-    "duels_t": 9,
+    "duels_t": 10,
     "side": "away",
     "name": "Dane Murray"
    },
@@ -1662,10 +1663,10 @@
     "name": "Colby Donovan"
    },
    "172960": {
-    "touches": 76,
-    "pass": 54,
+    "touches": 77,
+    "pass": 53,
     "rating": 6.57,
-    "clr": 3,
+    "clr": 4,
     "duels": 3,
     "pass_pct": 83,
     "duels_t": 5,
@@ -1681,7 +1682,7 @@
     "rating": 6.59,
     "saves": 3,
     "min": 90,
-    "touches": 41,
+    "touches": 42,
     "pass_pct": 44,
     "side": "home",
     "name": "Raphael Sallinger"
@@ -1691,7 +1692,7 @@
     "fouls": 2,
     "duels_t": 11,
     "touches": 64,
-    "duels": 4,
+    "duels": 5,
     "pass_pct": 59,
     "pass": 39,
     "tkl": 3,
@@ -1716,7 +1717,7 @@
    "37562348": {
     "rating": 6.39,
     "duels_t": 4,
-    "touches": 62,
+    "touches": 61,
     "pass": 53,
     "pass_pct": 96,
     "clr": 5,
@@ -1730,11 +1731,11 @@
    },
    "173154": {
     "rating": 6.99,
-    "touches": 76,
+    "touches": 77,
     "min": 90,
     "clr": 9,
     "pass_pct": 79,
-    "pass": 55,
+    "pass": 56,
     "fouls": 1,
     "duels_t": 4,
     "kp": 1,
@@ -1754,7 +1755,7 @@
     "min": 90,
     "duels": 2,
     "pass": 15,
-    "duels_t": 6,
+    "duels_t": 7,
     "pass_pct": 57,
     "kp": 2,
     "side": "home",
@@ -1780,7 +1781,7 @@
     "rating": 6.97,
     "pass": 22,
     "a": 1,
-    "touches": 36,
+    "touches": 40,
     "kp": 2,
     "bcc": 1,
     "clr": 2,
@@ -1789,6 +1790,8 @@
     "duels_t": 7,
     "pass_pct": 86,
     "fouls": 1,
+    "sh": 1,
+    "int": 1,
     "side": "home",
     "name": "Joe Newell"
    },
@@ -1806,22 +1809,22 @@
     "name": "Miguel Chaiwa"
    },
    "121792": {
-    "touches": 24,
+    "touches": 23,
     "duels": 6,
     "rating": 6.46,
     "min": 68,
     "pass_pct": 77,
     "fouls": 1,
     "pass": 13,
-    "duels_t": 14,
+    "duels_t": 15,
     "tkl": 1,
     "kp": 1,
     "side": "home",
     "name": "Jamie McGrath"
    },
    "14338021": {
-    "pass": 10,
-    "touches": 25,
+    "pass": 11,
+    "touches": 26,
     "rating": 6.19,
     "min": 68,
     "pass_pct": 80,
@@ -2334,5 +2337,5 @@
    }
   ]
  },
- "updated_at": "2026-10-26T17:57:03.591324+00:00"
+ "updated_at": "2026-10-27T19:05:30.783683+00:00"
 }
