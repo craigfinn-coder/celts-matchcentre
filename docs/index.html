@@ -46,6 +46,9 @@ img{display:block}
 .score .sep{font-weight:600;font-size:56px;opacity:.5;position:relative;top:-6px}
 .score .ht{font-family:Rubik,sans-serif;font-size:12px;font-weight:500;color:var(--hero-muted);position:absolute;left:50%;transform:translateX(-50%);bottom:6px;white-space:nowrap}
 .scorewrap{position:relative;padding-bottom:20px;text-align:center}
+.scorewrap .ht.on{color:var(--hero-ink);font-weight:600;font-variant-numeric:tabular-nums}
+.team .scorers .sc1{display:block;white-space:nowrap}
+.team .scorers .sn{display:none}
 .nextstrip{background:rgba(255,255,255,.06);margin:0 -24px;padding:12px 24px;display:flex;gap:18px;align-items:center;justify-content:space-between;font-size:13px;color:var(--hero-muted);flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.08)}
 .nextstrip b{color:var(--hero-ink);font-weight:600}
 .nextstrip img{width:22px;height:22px;object-fit:contain;display:inline-block;vertical-align:-6px;margin:0 4px}
@@ -132,6 +135,8 @@ td .tm img{width:22px;height:22px;object-fit:contain}
 td .pos{color:var(--ink-3);width:18px;display:inline-block}
 .tablewrap{overflow-x:auto}
 tr.zone td{border-bottom:2px solid var(--green)}
+/* phones: drop goals for/against so goal difference and points always fit on screen */
+@media (max-width:600px){#tbl .x{display:none}#tbl th,#tbl td{padding-left:5px;padding-right:5px}#tbl td .tm{gap:7px}}
 .legend{font-size:12px;color:var(--ink-3);margin-top:10px}
 
 /* pitch */
@@ -201,6 +206,7 @@ th.on{color:var(--ink)}
   .nextstrip{margin:0 -16px;padding:10px 16px}
 }
 @media (max-width:480px){
+  .team .scorers .fn{display:none}.team .scorers .sn{display:inline}
   .team{flex-direction:column;align-items:flex-start;gap:6px}
   .team.away{align-items:flex-end}
   .teams{gap:8px}
@@ -280,7 +286,7 @@ th.on{color:var(--ink)}
         <div><h2>Celtic form <small id="formLbl"></small></h2><div class="formrow" id="formChips"></div><ul class="formlist" id="formList"></ul></div>
         <div id="oppFormWrap"><h2 id="oppFormH"></h2><div class="formrow" id="oppFormChips"></div><ul class="formlist" id="oppFormList"></ul></div>
         <div id="h2hWrap"><h2>Head to head <small>last five</small></h2><ul class="formlist h2hlist" id="h2h"></ul></div>
-        <div><h2 id="newsH">Team news</h2><ul class="news" id="teamNews"></ul></div>
+        <div id="newsWrap"><h2 id="newsH">Team news</h2><ul class="news" id="teamNews"></ul></div>
         <div><h2><span id="lbH">Premiership top scorers</span><small><button class="lnk" data-lb="goals" aria-pressed="true">Goals</button><button class="lnk" data-lb="assists" aria-pressed="false" id="lbAssists" hidden>Assists</button></small></h2><ul class="news" id="scorers"></ul></div>
       </aside>
     </div>
@@ -310,7 +316,7 @@ th.on{color:var(--ink)}
 
   <section class="panel" id="p-table" hidden>
     <h2>Premiership <small>as it stands</small></h2>
-    <div class="tablewrap"><table id="tbl"><thead><tr><th class="l">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr></thead><tbody></tbody></table></div>
+    <div class="tablewrap"><table id="tbl"><thead><tr><th class="l">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th class="x">GF</th><th class="x">GA</th><th>GD</th><th>Pts</th></tr></thead><tbody></tbody></table></div>
     <p class="legend">Top six split after 33 games. Bottom side relegated, 11th into the play-off.</p>
   </section>
 
@@ -358,6 +364,12 @@ let LIVE=null,FX=null,PL=null,first=true,lastGoalIds=null;
 const fin=d=>/^(FT|AET|FT_PEN)$/.test(d.state||'');
 const ns=d=>d.state==='NS'||!d.state;
 function clock(d){let m=d.minute;if(m&&d.updated_at&&!d.added_time){const drift=Math.floor((Date.now()-new Date(d.updated_at))/6e4);const cap=d.state==='INPLAY_1ST_HALF'?45:d.state==='INPLAY_2ND_HALF'?90:999;m=Math.min(cap,m+Math.max(0,drift));}return m?m+(d.added_time?'+'+d.added_time:'')+"'":(d.state_name||'');}
+/* line under the big score: the minute while live, so a second-half score never reads as half-time */
+function underScore(d){const hasHT=d.half_time&&d.half_time.home!=null,htS=hasHT?` · HT ${d.half_time.home}–${d.half_time.away}`:'';
+  if(d.state==='HT')return 'Half-time';
+  if(d.live)return clock(d)+(d.state!=='INPLAY_1ST_HALF'?htS:'');
+  if(fin(d))return 'Full time'+htS;
+  return '';}
 function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),5000);}
 
 /* which match do the data tabs describe? */
@@ -378,19 +390,22 @@ function renderBoard(d){
   const sc=d.score||{};
   $('#hS').textContent=n?'':sc.home??0;$('#aS').textContent=n?'':sc.away??0;
   $('.score .sep').textContent=n?'v':'–';
-  const ht=d.half_time&&d.half_time.home!=null&&(f||d.state==='HT'||d.state==='INPLAY_2ND_HALF');
-  $('#htLbl').textContent=ht?`Half-time ${d.half_time.home}–${d.half_time.away}`:n?uk(fx.kickoff_utc,{hour:'2-digit',minute:'2-digit'})+' kick-off':'';
+  $('#htLbl').textContent=n?uk(fx.kickoff_utc,{hour:'2-digit',minute:'2-digit'})+' kick-off':underScore(d);$('#htLbl').classList.toggle('on',live||f);
   const st=$('#stateLbl');st.classList.toggle('live',live);
   st.querySelector('span:last-child').textContent=live?(d.state==='HT'?'Half-time':'Live · '+clock(d)):f?'Full time · '+uk(fx.kickoff_utc,{weekday:'short',day:'numeric',month:'short'}):uk(fx.kickoff_utc,{weekday:'long',day:'numeric',month:'long'});
   st.querySelector('.dot').style.background=live?'var(--red)':'rgba(255,255,255,.45)';
   $('#metaR').innerHTML=`<b>${esc(fx.league||'')}</b>${fx.venue?' · '+esc(fx.venue):''}${n?'':' · '+uk(fx.kickoff_utc,{hour:'2-digit',minute:'2-digit'})+' kick-off'}`;
   const goals=(d.events||[]).filter(e=>isGoal(e.type));
-  const list=side=>goals.filter(e=>e.side===side).map(e=>`${plink(e.player,CELTIC.test(e.team))} ${e.minute}${e.extra?'+'+e.extra:''}'${/own/i.test(e.type)?' (og)':/pen/i.test(e.type)?' (pen)':''}`).join('<br>');
+  /* one scorer per line; surname only on phones so the column never wraps. Own goals sit under the side that benefits, marked (og), and never link to a Celtic player page */
+  const list=side=>goals.filter(e=>e.side===side).map(e=>{const og=/own/i.test(e.type),lk=!og&&CELTIC.test(e.team),nm=e.player||'',sn=nm.split(' ').slice(-1)[0];
+    return `<span class="sc1"><span class="fn">${plink(nm,lk)}</span><span class="sn">${plink(sn,false)}</span> ${e.minute}${e.extra?'+'+e.extra:''}'${og?' (og)':/pen/i.test(e.type)?' (pen)':''}</span>`}).join('');
   $('#hScorers').innerHTML=n?'':list('home');$('#aScorers').innerHTML=n?'':list('away');
-  const ids=goals.map(g=>g.id).join(',');if(!first&&lastGoalIds!==null&&ids!==lastGoalIds){const g=goals[goals.length-1];if(g)toast((CELTIC.test(g.team)?'GOAL! ':'Goal: ')+g.player+' '+g.minute+"'");}lastGoalIds=ids;
+  const ids=goals.map(g=>g.id).join(',');if(!first&&lastGoalIds!==null&&ids!==lastGoalIds){const g=goals[goals.length-1];if(g)toast((CELTIC.test(g.team)?'GOAL! ':'Goal: ')+g.player+(/own/i.test(g.type)?' (og)':'')+' '+g.minute+"'");}lastGoalIds=ids;
   /* strip: countdown to this game if not started, otherwise next fixture */
-  const strip=$('#nextstrip');
-  if(n){strip.dataset.ko=fx.kickoff_utc;strip.innerHTML=`<span>Kick-off in</span><span class="cd" id="cd"></span><span>${d.last_match&&d.last_match.fixture?`Last match <b>${esc(d.last_match.fixture.home)} ${d.last_match.score.home}–${d.last_match.score.away} ${esc(d.last_match.fixture.away)}</b>`:''}</span>`;}
+  const strip=$('#nextstrip');strip.hidden=live;
+  /* during the game the strip is hidden: the next fixture's countdown was crowding the live score */
+  if(live){strip.innerHTML='';delete strip.dataset.ko;}
+  else if(n){strip.dataset.ko=fx.kickoff_utc;strip.innerHTML=`<span>Kick-off in</span><span class="cd" id="cd"></span><span>${d.last_match&&d.last_match.fixture?`Last match <b>${esc(d.last_match.fixture.home)} ${d.last_match.score.home}–${d.last_match.score.away} ${esc(d.last_match.fixture.away)}</b>`:''}</span>`;}
   else{const N=(d.next_fixtures||[]).find(x=>x.id!==fx.id)||(d.next_fixtures||[])[0];if(N){strip.dataset.ko=N.kickoff_utc;strip.innerHTML=`<span>Next match <b><img src="${N.home_logo}" alt="">${esc(N.home)} v ${esc(N.away)}<img src="${N.away_logo}" alt=""></b></span><span>${esc(N.league||'')}${N.venue?' · '+esc(N.venue):''} · ${uk(N.kickoff_utc,{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}</span><span class="cd" id="cd"></span>`;}else strip.innerHTML='';}
   tickCountdown();
   const ed=d.editorial;$('#editorial').hidden=!(ed&&ed.text);if(ed&&ed.text)$('#editorial').innerHTML=esc(ed.text)+(ed.link_url?` <a href="${esc(ed.link_url)}" target="_top">${esc(ed.link_title||'Read more')} ›</a>`:'');
@@ -398,7 +413,11 @@ function renderBoard(d){
 function tickCountdown(){const c=$('#cd');const ko=$('#nextstrip').dataset.ko;if(!c||!ko)return;const ms=new Date(ko.replace(' ','T')+'Z')-Date.now();if(ms<=0){c.textContent='Kick-off';return;}const d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4),s=Math.floor(ms%6e4/1e3);c.textContent=d?`${d}d ${h}h ${String(m).padStart(2,'0')}m`:`${h?h+'h ':''}${String(m).padStart(2,'0')}m ${String(s).padStart(2,'0')}s`;}
 
 const icon=e=>isGoal(e.type)?(/own/i.test(e.type)?'<i class="ico goal">og</i>':/pen/i.test(e.type)?'<i class="ico goal">P</i>':'<i class="ico goal">⚽</i>'):/yellowred/i.test(e.type)?'<i class="ico rc"></i>':/yellow/i.test(e.type)?'<i class="ico yc"></i>':/red/i.test(e.type)?'<i class="ico rc"></i>':/subst/i.test(e.type)?'<i class="ico sub">⇅</i>':/var/i.test(e.type)?'<i class="ico var">VAR</i>':'<i class="ico sub">•</i>';
-const evLine=e=>{const c=CELTIC.test(e.team);const extra=/subst/i.test(e.type)&&e.related?`<small>for ${esc(e.related)}</small>`:e.info&&!/subst/i.test(e.type)?`<small>${esc(e.info)}</small>`:'';return `<li class="${c?'celtic':''}"><span class="m">${e.minute}${e.extra?'+'+e.extra:''}'</span>${icon(e)}<span class="who">${plink(e.player,c)}${extra}<small>${esc(e.team)}</small></span></li>`};
+/* own goals: the feed files them under the team that benefits, so show the scorer's real team, or it reads as if one of ours scored for us */
+const evLine=(e,fx)=>{const c=CELTIC.test(e.team),og=isGoal(e.type)&&/own/i.test(e.type);
+  const pTeam=og&&fx?(fx[e.side==='home'?'away':'home']||''):e.team,pC=CELTIC.test(pTeam||'');
+  const extra=og?'<small>Own goal</small>':/subst/i.test(e.type)&&e.related?`<small>for ${esc(e.related)}</small>`:e.info&&!/subst/i.test(e.type)?`<small>${esc(e.info)}</small>`:'';
+  return `<li class="${c?'celtic':''}"><span class="m">${e.minute}${e.extra?'+'+e.extra:''}'</span>${icon(e)}<span class="who">${plink(e.player,pC)}${extra}<small>${esc(pTeam)}</small></span></li>`};
 
 function renderMatch(d){
   const {m,fx,isLive}=featured(d);
@@ -407,9 +426,9 @@ function renderMatch(d){
   else note.hidden=true;
   const evs=(m.events||[]).slice().sort((a,b)=>(a.minute||0)-(b.minute||0)||(a.extra||0)-(b.extra||0)||(a.id||0)-(b.id||0));
   const key=evs.filter(e=>isGoal(e.type)||/red|var/i.test(e.type));
-  $('#keyMoments').innerHTML=key.length?key.map(evLine).join(''):`<li><span class="m"></span><span></span><span class="who" style="color:var(--ink-3)">${ns(m)&&isLive?'Kicks off '+uk(fx.kickoff_utc,{weekday:'long',hour:'2-digit',minute:'2-digit'})+'.':'No goals or red cards yet.'}</span></li>`;
+  $('#keyMoments').innerHTML=key.length?key.map(e=>evLine(e,fx)).join(''):`<li><span class="m"></span><span></span><span class="who" style="color:var(--ink-3)">${ns(m)&&isLive?'Kicks off '+uk(fx.kickoff_utc,{weekday:'long',hour:'2-digit',minute:'2-digit'})+'.':'No goals or red cards yet.'}</span></li>`;
   const desc=[...evs].reverse();let html='',placed=false;const showHT=fin(m)||m.state==='HT'||m.state==='INPLAY_2ND_HALF';
-  desc.forEach(e=>{if(showHT&&!placed&&(e.minute||0)<=45){html+=`<li class="half" style="display:flex">Half-time${m.half_time&&m.half_time.home!=null?' '+m.half_time.home+'–'+m.half_time.away:''}</li>`;placed=true;}html+=evLine(e);});
+  desc.forEach(e=>{if(showHT&&!placed&&(e.minute||0)<=45){html+=`<li class="half" style="display:flex">Half-time${m.half_time&&m.half_time.home!=null?' '+m.half_time.home+'–'+m.half_time.away:''}</li>`;placed=true;}html+=evLine(e,fx);});
   $('#allEvents').innerHTML=html||'<li><span class="m"></span><span></span><span class="who" style="color:var(--ink-3)">Events appear as they happen.</span></li>';
   $('#cTimeline').textContent=evs.length||'';
   renderComm(m);
@@ -494,14 +513,18 @@ function renderRail(d){
   const formOf=(arr)=>arr||[];
   const cf=formOf(d.form&&d.form[cSide]).slice(-6),of=formOf(d.form&&d.form[oSide]).slice(-6);
   const chips=a=>a.map(x=>`<span class="chip ${x.r}" title="${esc(x.home)} ${esc(x.score)} ${esc(x.away)}">${x.r}</span>`).join('');
-  const rows=a=>[...a].reverse().map(x=>`<li><img src="${x.opp_logo||''}" alt=""><span>${esc(x.opp)} <span class="d">${x.ha==='H'?'home':'away'} · ${esc(x.league||'')}</span></span><span class="sc">${esc(x.score)}</span><span class="rr ${x.r}">${x.r}</span></li>`).join('');
+  /* form rows: the team's own score first, so an away win reads 2-1 W, not 1-2 W */
+  const own=x=>{const p=String(x.score||'').split('-');return p.length===2&&x.ha==='A'?p[1].trim()+'-'+p[0].trim():String(x.score||'');};
+  const rows=a=>[...a].reverse().map(x=>`<li><img src="${x.opp_logo||''}" alt=""><span>${esc(x.opp)} <span class="d">${x.ha==='H'?'home':'away'} · ${esc(x.league||'')}</span></span><span class="sc">${esc(own(x))}</span><span class="rr ${x.r}">${x.r}</span></li>`).join('');
   $('#formLbl').textContent='last '+cf.length;$('#formChips').innerHTML=chips(cf);$('#formList').innerHTML=rows(cf);
   const ow=$('#oppFormWrap');ow.hidden=!of.length||!opp;if(of.length&&opp){$('#oppFormH').innerHTML=`${esc(opp)} form <small>last ${of.length}</small>`;$('#oppFormChips').innerHTML=chips(of);$('#oppFormList').innerHTML=rows(of);}
   const h=(d.h2h||[]).slice(0,5);$('#h2hWrap').hidden=!h.length;
   $('#h2h').innerHTML=h.map(x=>{const cw=(CELTIC.test(x.home)&&+x.score.split('-')[0]>+x.score.split('-')[1])||(CELTIC.test(x.away)&&+x.score.split('-')[1]>+x.score.split('-')[0]);const dr=x.score.split('-')[0]===x.score.split('-')[1];const r=dr?'D':cw?'W':'L';return `<li><span>${esc(x.home)} v ${esc(x.away)} <span class="d">${uk(x.date+' 12:00:00',{day:'numeric',month:'short',year:'numeric'})} · ${esc(x.league||'')}</span></span><span class="sc">${esc(x.score)}</span><span class="rr ${r}">${r}</span></li>`}).join('');
   const sd=d.sidelined||{};const news=[...(sd[cSide]||[]).map(p=>({...p,team:'Celtic',c:true})),...(sd[oSide]||[]).map(p=>({...p,team:opp}))];
   $('#newsH').innerHTML=`Team news${opp?` <small>${esc(fx.home)} v ${esc(fx.away)}</small>`:''}`;
-  $('#teamNews').innerHTML=news.length?news.map(p=>`<li><span style="color:var(--ink)">${p.c?plink(p.player,true):esc(p.player)} <small style="color:var(--ink-3)">${esc(p.team)}</small></span><span>${esc(p.type||'')}${p.missed?` · ${p.missed} missed`:''}</span></li>`).join(''):'<li><span>No absences reported.</span></li>';
+  /* an empty injury feed is not the same as a fully fit squad, so hide the panel rather than claim "no absences" */
+  $('#newsWrap').hidden=!news.length;
+  $('#teamNews').innerHTML=news.map(p=>`<li><span style="color:var(--ink)">${p.c?plink(p.player,true):esc(p.player)} <small style="color:var(--ink-3)">${esc(p.team)}</small></span><span>${esc(p.type||'')}${p.missed?` · ${p.missed} missed`:''}</span></li>`).join('');
   renderScorers(d);
   /* insights from data already on the page */
   const ins=[];const res=(FX?FX.fixtures:[]).filter(x=>x.finished&&!x.void).sort((a,b)=>b.kickoff_utc.localeCompare(a.kickoff_utc));
@@ -513,7 +536,7 @@ function renderRail(d){
   const hh=(d.h2h||[]);if(hh.length>=3){const w=hh.filter(x=>{const [a,b]=x.score.split('-').map(Number);return CELTIC.test(x.home)?a>b:b>a}).length;if(w>=hh.length-1)ins.push(`Celtic have won <b>${w} of the last ${hh.length}</b> against ${esc(opp)}.`)}
   $('#insights').innerHTML=ins.map(i=>`<li>${i}</li>`).join('')||'<li>More insights appear as the season goes on.</li>';
   /* table */
-  $('#tbl tbody').innerHTML=tb.map(t=>`<tr class="${t.team_id===CEL?'celtic':''}${t.pos===6?' zone':''}"><td class="l"><span class="tm"><span class="pos">${t.pos}</span><img src="${t.logo||''}" alt="">${esc(t.team)}</span></td><td>${t.p}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td><td>${t.gf}</td><td>${t.ga}</td><td>${t.gd>0?'+':''}${t.gd}</td><td class="pts">${t.pts}</td></tr>`).join('');
+  $('#tbl tbody').innerHTML=tb.map(t=>`<tr class="${t.team_id===CEL?'celtic':''}${t.pos===6?' zone':''}"><td class="l"><span class="tm"><span class="pos">${t.pos}</span><img src="${t.logo||''}" alt="">${esc(t.team)}</span></td><td>${t.p}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td><td class="x">${t.gf}</td><td class="x">${t.ga}</td><td>${t.gd>0?'+':''}${t.gd}</td><td class="pts">${t.pts}</td></tr>`).join('');
 }
 
 let fxMode='upcoming';
@@ -554,7 +577,7 @@ async function loadLive(){try{LIVE=await getJSON('live.json');renderAll();$('#up
 async function loadStatic(){try{FX=await getJSON('fixtures.json');}catch(e){}try{PL=await getJSON('players.json');}catch(e){}renderAll();}
 loadPlayers();loadStatic();loadLive();
 setInterval(loadLive,20000);setInterval(loadStatic,600000);
-setInterval(()=>{tickCountdown();if(LIVE&&LIVE.live)$('#stateLbl span:last-child').textContent=LIVE.state==='HT'?'Half-time':'Live · '+clock(LIVE);},1000);
+setInterval(()=>{tickCountdown();if(LIVE&&LIVE.live){$('#stateLbl span:last-child').textContent=LIVE.state==='HT'?'Half-time':'Live · '+clock(LIVE);$('#htLbl').textContent=underScore(LIVE);}},1000);
 })();
 </script>
 </body>
