@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T21:27:45.344575+00:00",
+ "updated_at": "2026-10-28T21:28:15.303373+00:00",
  "live": true,
  "fixture": {
   "id": 19722762,
@@ -527,6 +527,18 @@
    "related": null,
    "result": null,
    "info": "Time wasting"
+  },
+  {
+   "id": 158444466,
+   "minute": 84,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Shumaira Mheuka",
+   "related": "Camilo Durán",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -536,18 +548,18 @@
   },
   "Shots Off Target": {
    "home": 8,
-   "away": 5
+   "away": 4
   },
   "Shots Total": {
    "home": 21,
-   "away": 12
+   "away": 11
   },
   "Attacks": {
-   "home": 140,
-   "away": 54
+   "home": 141,
+   "away": 55
   },
   "Dangerous Attacks": {
-   "home": 83,
+   "home": 86,
    "away": 23
   },
   "Ball Possession %": {
@@ -556,7 +568,7 @@
   },
   "Shots Insidebox": {
    "home": 10,
-   "away": 8
+   "away": 7
   },
   "Shots Outsidebox": {
    "home": 11,
@@ -600,7 +612,7 @@
   },
   "Long Passes": {
    "home": 21,
-   "away": 31
+   "away": 32
   },
   "Hit Woodwork": {
    "home": 1,
@@ -608,7 +620,7 @@
   },
   "Successful Headers": {
    "home": 12,
-   "away": 12
+   "away": 13
   },
   "Tackles": {
    "home": 11,
@@ -619,16 +631,16 @@
    "away": 1
   },
   "Passes": {
-   "home": 561,
-   "away": 298
+   "home": 567,
+   "away": 299
   },
   "Successful Passes": {
-   "home": 512,
+   "home": 516,
    "away": 237
   },
   "Successful Passes Percentage": {
    "home": 91,
-   "away": 80
+   "away": 79
   },
   "Yellowcards": {
    "home": 2,
@@ -644,22 +656,22 @@
   },
   "Accurate Crosses": {
    "home": 4,
-   "away": 5
+   "away": 4
   },
   "Interceptions": {
    "home": 10,
    "away": 6
   },
   "Duels Won": {
-   "home": 34,
+   "home": 36,
    "away": 32
   },
   "Dribble Attempts": {
-   "home": 11,
+   "home": 12,
    "away": 7
   },
   "Successful Dribbles": {
-   "home": 6,
+   "home": 7,
    "away": 1
   },
   "Key Passes": {
@@ -675,7 +687,7 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 55,
+   "home": 58,
    "away": 14
   },
   "Successful Long Passes": {
@@ -684,7 +696,7 @@
   },
   "Successful Long Passes Percentage": {
    "home": 67,
-   "away": 39
+   "away": 38
   },
   "Tackles Won": {
    "home": 8,
@@ -2140,5 +2152,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2489
+ "rate_remaining": 2487
 }
