@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-25T14:58:54+00:00",
+ "updated": "2026-10-28T21:46:53+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 17,
+  "p": 18,
   "w": 11,
-  "d": 0,
+  "d": 1,
   "l": 6,
-  "gf": 36,
-  "ga": 23
+  "gf": 38,
+  "ga": 25
  },
  "fixtures": [
   {
@@ -555,12 +555,18 @@
    "ha": "H",
    "opp": "Dundee United",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
-   "state": "NS",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
-   "score": null,
-   "half_time": null,
-   "result": null,
+   "score": {
+    "home": 2,
+    "away": 2
+   },
+   "half_time": {
+    "home": 1,
+    "away": 2
+   },
+   "result": "D",
    "tv": []
   },
   {
