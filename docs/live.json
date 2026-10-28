@@ -1454,14 +1454,14 @@
     "pass_pct": 64,
     "min": 21,
     "duels": 3,
-    "rating": 6.69,
+    "rating": 6.7,
     "kp": 1,
     "side": "away",
     "name": "Alistair Johnston"
    },
    "123659": {
     "clr": 8,
-    "rating": 7.4,
+    "rating": 7.46,
     "touches": 129,
     "duels": 7,
     "duels_t": 11,
@@ -1565,7 +1565,7 @@
    },
    "37582048": {
     "pass": 41,
-    "rating": 7.53,
+    "rating": 7.5,
     "int": 2,
     "duels_t": 4,
     "duels": 4,
@@ -1585,7 +1585,7 @@
     "duels_t": 4,
     "sh": 2,
     "pass": 9,
-    "rating": 6.83,
+    "rating": 6.74,
     "pass_pct": 63,
     "duels": 2,
     "kp": 1,
@@ -1637,7 +1637,7 @@
    "37342595": {
     "clr": 5,
     "duels": 5,
-    "rating": 6.87,
+    "rating": 6.92,
     "touches": 94,
     "fouls": 2,
     "pass": 81,
@@ -1650,7 +1650,7 @@
    },
    "37732189": {
     "fouls": 2,
-    "rating": 6.57,
+    "rating": 6.6,
     "touches": 46,
     "pass": 30,
     "duels_t": 11,
@@ -1665,7 +1665,7 @@
    "172960": {
     "touches": 77,
     "pass": 53,
-    "rating": 6.57,
+    "rating": 6.62,
     "clr": 4,
     "duels": 3,
     "pass_pct": 83,
@@ -1679,7 +1679,7 @@
    },
    "35708": {
     "pass": 36,
-    "rating": 6.59,
+    "rating": 6.67,
     "saves": 3,
     "min": 90,
     "touches": 42,
@@ -1688,7 +1688,7 @@
     "name": "Raphael Sallinger"
    },
    "37653423": {
-    "rating": 6.27,
+    "rating": 6.47,
     "fouls": 2,
     "duels_t": 11,
     "touches": 64,
@@ -1715,7 +1715,7 @@
     "name": "Grant Hanley"
    },
    "37562348": {
-    "rating": 6.39,
+    "rating": 6.38,
     "duels_t": 4,
     "touches": 61,
     "pass": 53,
@@ -1778,7 +1778,7 @@
     "name": "Josh Mulligan"
    },
    "2781": {
-    "rating": 6.97,
+    "rating": 6.99,
     "pass": 22,
     "a": 1,
     "touches": 40,
@@ -1811,7 +1811,7 @@
    "121792": {
     "touches": 23,
     "duels": 6,
-    "rating": 6.46,
+    "rating": 6.42,
     "min": 68,
     "pass_pct": 77,
     "fouls": 1,
@@ -1825,7 +1825,7 @@
    "14338021": {
     "pass": 11,
     "touches": 26,
-    "rating": 6.19,
+    "rating": 6.2,
     "min": 68,
     "pass_pct": 80,
     "fouls": 3,
@@ -2337,5 +2337,5 @@
    }
   ]
  },
- "updated_at": "2026-10-27T19:05:30.783683+00:00"
+ "updated_at": "2026-10-28T03:08:37.442204+00:00"
 }
