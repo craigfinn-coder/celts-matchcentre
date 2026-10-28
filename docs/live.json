@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T21:26:45.632370+00:00",
+ "updated_at": "2026-10-28T21:27:15.357833+00:00",
  "live": true,
  "fixture": {
   "id": 19722762,
@@ -515,6 +515,18 @@
    "related": "Kieran Tierney",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158444442,
+   "minute": 83,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Dundee United",
+   "player": "Jack Walton",
+   "related": null,
+   "result": null,
+   "info": "Delay of game"
   }
  ],
  "stats": {
@@ -532,7 +544,7 @@
   },
   "Attacks": {
    "home": 140,
-   "away": 54
+   "away": 55
   },
   "Dangerous Attacks": {
    "home": 83,
@@ -2124,5 +2136,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2492
+ "rate_remaining": 2490
 }
