@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T21:38:45.294337+00:00",
+ "updated_at": "2026-10-28T21:39:15.420792+00:00",
  "live": false,
  "fixture": {
   "id": 19722762,
@@ -551,7 +551,7 @@
    "away": 4
   },
   "Shots Total": {
-   "home": 28,
+   "home": 29,
    "away": 11
   },
   "Attacks": {
@@ -599,7 +599,7 @@
    "away": 5
   },
   "Shots Blocked": {
-   "home": 12,
+   "home": 13,
    "away": 2
   },
   "Substitutions": {
@@ -620,7 +620,7 @@
   },
   "Successful Headers": {
    "home": 14,
-   "away": 15
+   "away": 16
   },
   "Tackles": {
    "home": 13,
@@ -663,8 +663,8 @@
    "away": 6
   },
   "Duels Won": {
-   "home": 40,
-   "away": 36
+   "home": 41,
+   "away": 37
   },
   "Dribble Attempts": {
    "home": 12,
@@ -748,12 +748,12 @@
    "team_id": 53,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
    "pts": 28,
-   "p": 10,
+   "p": 11,
    "w": 9,
-   "d": 0,
+   "d": 1,
    "l": 1,
-   "gf": 25,
-   "ga": 6,
+   "gf": 27,
+   "ga": 8,
    "gd": 19
   },
   {
@@ -775,7 +775,7 @@
    "team": "Hearts",
    "team_id": 314,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-   "pts": 22,
+   "pts": 19,
    "p": 10,
    "w": 6,
    "d": 1,
@@ -790,13 +790,13 @@
    "team_id": 284,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
    "pts": 17,
-   "p": 10,
-   "w": 4,
+   "p": 11,
+   "w": 5,
    "d": 2,
    "l": 4,
-   "gf": 14,
-   "ga": 12,
-   "gd": 2
+   "gf": 17,
+   "ga": 13,
+   "gd": 4
   },
   {
    "pos": 5,
@@ -804,12 +804,12 @@
    "team_id": 282,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
    "pts": 16,
-   "p": 10,
+   "p": 11,
    "w": 4,
-   "d": 3,
+   "d": 4,
    "l": 3,
-   "gf": 14,
-   "ga": 14,
+   "gf": 16,
+   "ga": 16,
    "gd": 0
   },
   {
@@ -818,13 +818,13 @@
    "team_id": 770,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
    "pts": 15,
-   "p": 10,
-   "w": 3,
+   "p": 11,
+   "w": 4,
    "d": 3,
    "l": 4,
-   "gf": 12,
+   "gf": 13,
    "ga": 12,
-   "gd": 0
+   "gd": 1
   },
   {
    "pos": 7,
@@ -832,12 +832,12 @@
    "team_id": 496,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
    "pts": 14,
-   "p": 10,
+   "p": 11,
    "w": 4,
-   "d": 1,
+   "d": 2,
    "l": 5,
-   "gf": 11,
-   "ga": 18,
+   "gf": 12,
+   "ga": 19,
    "gd": -7
   },
   {
@@ -846,12 +846,12 @@
    "team_id": 734,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
    "pts": 13,
-   "p": 10,
+   "p": 11,
    "w": 3,
-   "d": 3,
+   "d": 4,
    "l": 4,
-   "gf": 11,
-   "ga": 15,
+   "gf": 13,
+   "ga": 17,
    "gd": -4
   },
   {
@@ -860,13 +860,13 @@
    "team_id": 273,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
    "pts": 11,
-   "p": 10,
+   "p": 11,
    "w": 3,
    "d": 2,
-   "l": 5,
+   "l": 6,
    "gf": 12,
-   "ga": 13,
-   "gd": -1
+   "ga": 14,
+   "gd": -2
   },
   {
    "pos": 10,
@@ -874,12 +874,12 @@
    "team_id": 309,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
    "pts": 9,
-   "p": 10,
+   "p": 11,
    "w": 2,
-   "d": 2,
+   "d": 3,
    "l": 6,
-   "gf": 11,
-   "ga": 18,
+   "gf": 13,
+   "ga": 20,
    "gd": -7
   },
   {
@@ -888,12 +888,12 @@
    "team_id": 66,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
    "pts": 8,
-   "p": 10,
+   "p": 11,
    "w": 2,
-   "d": 1,
+   "d": 2,
    "l": 7,
-   "gf": 10,
-   "ga": 16,
+   "gf": 11,
+   "ga": 17,
    "gd": -6
   },
   {
@@ -902,13 +902,13 @@
    "team_id": 180,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
    "pts": 8,
-   "p": 10,
+   "p": 11,
    "w": 2,
    "d": 2,
-   "l": 6,
-   "gf": 10,
-   "ga": 23,
-   "gd": -13
+   "l": 7,
+   "gf": 11,
+   "ga": 26,
+   "gd": -15
   }
  ],
  "live_table": true,
@@ -1303,7 +1303,7 @@
    "duels": 1,
    "sot": 1,
    "duels_t": 3,
-   "sh": 3,
+   "sh": 4,
    "a": 1,
    "side": "home",
    "name": "Jota"
@@ -1421,7 +1421,7 @@
    "tkl": 1,
    "duels_t": 3,
    "duels": 2,
-   "sh": 3,
+   "sh": 4,
    "sot": 1,
    "kp": 2,
    "bcc": 1,
@@ -1472,7 +1472,7 @@
    "duels": 6,
    "clr": 5,
    "sot": 1,
-   "sh": 1,
+   "sh": 2,
    "tkl": 1,
    "kp": 1,
    "side": "home",
@@ -2275,7 +2275,14 @@
    "t": "Corner awarded.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 90,
+   "x": 3,
+   "t": "Joao Pedro Neves Filipe takes a right-footed shot, but it is blocked.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2456
+ "rate_remaining": 2454
 }
