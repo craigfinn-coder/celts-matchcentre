@@ -550,6 +550,34 @@ def parse_lineups(fx, meta):
     return out
 
 
+# Sportmonks returns a PREDICTED starting XI on the lineups include for a
+# fixture that has not started. It looks identical to a real team sheet, so
+# nothing downstream can tell them apart on its own. Everything that writes
+# lineups therefore also writes lineups_confirmed, and consumers must treat
+# a lineup as a team announcement only when that flag is true.
+LINEUP_WINDOW_MINUTES = 75
+
+
+def empty_lineups():
+    return {"home": {"xi": [], "bench": [], "formation": None},
+            "away": {"xi": [], "bench": [], "formation": None}}
+
+
+def full_xis(lu):
+    """Both sides have named eleven. Necessary but not sufficient on its own."""
+    return len(lu["home"]["xi"]) >= 11 and len(lu["away"]["xi"]) >= 11
+
+
+def lineups_confirmed(lu, ko, now, started=False):
+    """True only for a real team announcement: either the match is under way,
+    or both sides have named an XI inside the window before kick-off."""
+    if not full_xis(lu):
+        return False
+    if started:
+        return True
+    return (ko - now).total_seconds() <= LINEUP_WINDOW_MINUTES * 60
+
+
 def get_live_standings():
     """In-play table (paid plan); falls back to the season table."""
     try:
@@ -653,9 +681,12 @@ def build_live(fx, meta):
         side = "home" if s.get("participant_id") == home_id else "away"
         stats.setdefault(name, {"home": None, "away": None})[side] = (s.get("data") or {}).get("value")
 
+    lu = parse_lineups(fx, meta)
     return {
         "fixture": meta,
-        "lineups": parse_lineups(fx, meta),
+        "lineups": lu,
+        # A match that has kicked off has a real team sheet, not a prediction.
+        "lineups_confirmed": bool(state_code != "NS" and full_xis(lu)),
         "state": state_code,
         "state_name": state_name,
         "minute": minute,
@@ -735,14 +766,18 @@ def main():
             # and the last result tucked in as a collapsible summary
             meta = fixture_summary(upcoming[0])
             full, _ = get(f"fixtures/{meta['id']}", include="participants;state;league;venue;lineups")
+            nx_lu = parse_lineups(full["data"], meta)
+            nx_ko = parse_ts(upcoming[0]["starting_at"])
+            nx_ok = lineups_confirmed(nx_lu, nx_ko, now)
             payload.update({"state": "NS", "state_name": "Not started", "fixture": meta,
                             "score": {"home": 0, "away": 0}, "events": [], "stats": {},
-                            "lineups": parse_lineups(full["data"], meta)})
+                            "lineups": nx_lu if nx_ok else empty_lineups(),
+                            "lineups_confirmed": nx_ok})
             payload.update(enrich(meta, now, payload["standings"]))
             if last:
                 lm = fixture_summary(last)
                 lb = build_live(last, lm)
-                payload["last_match"] = {k: lb[k] for k in ("fixture", "state", "score", "half_time", "events", "stats", "lineups")}
+                payload["last_match"] = {k: lb[k] for k in ("fixture", "state", "score", "half_time", "events", "stats", "lineups", "lineups_confirmed")}
                 payload["last_match"].update(live_extra(last["id"], lm))
         # Only push when something other than the timestamp changed
         try:
@@ -774,6 +809,8 @@ def main():
         "score": {"home": 0, "away": 0},
         "events": [],
         "stats": {},
+        "lineups": empty_lineups(),
+        "lineups_confirmed": False,
         "next_fixtures": [fixture_summary(f) for f in upcoming],
         "standings": standings,
         **extras,
@@ -790,8 +827,9 @@ def main():
         if wait <= 70 * 60 and not lineups_published:
             data, _ = get(f"fixtures/{meta['id']}", include="participants;lineups")
             lu = parse_lineups(data["data"], meta)
-            if len(lu["home"]["xi"]) >= 11 and len(lu["away"]["xi"]) >= 11:
+            if full_xis(lu):
                 pre["lineups"] = lu
+                pre["lineups_confirmed"] = True
                 pre["updated_at"] = datetime.now(timezone.utc).isoformat()
                 write_json(OUT, pre)
                 commit_push(f"Lineups: {meta['home']} v {meta['away']}", [OUT])
