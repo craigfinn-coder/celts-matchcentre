@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-28T21:27:15.357833+00:00",
+ "updated_at": "2026-10-28T21:27:45.344575+00:00",
  "live": true,
  "fixture": {
   "id": 19722762,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 82,
+ "minute": 83,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -526,7 +526,7 @@
    "player": "Jack Walton",
    "related": null,
    "result": null,
-   "info": "Delay of game"
+   "info": "Time wasting"
   }
  ],
  "stats": {
@@ -544,7 +544,7 @@
   },
   "Attacks": {
    "home": 140,
-   "away": 55
+   "away": 54
   },
   "Dangerous Attacks": {
    "home": 83,
@@ -652,7 +652,7 @@
   },
   "Duels Won": {
    "home": 34,
-   "away": 31
+   "away": 32
   },
   "Dribble Attempts": {
    "home": 11,
@@ -1266,9 +1266,9 @@
  "player_stats": {
   "123659": {
    "rating": 7.72,
-   "touches": 108,
-   "min": 82,
-   "pass": 97,
+   "touches": 110,
+   "min": 83,
+   "pass": 99,
    "duels_t": 5,
    "sh": 3,
    "pass_pct": 83,
@@ -1284,7 +1284,7 @@
    "rating": 7.19,
    "pass": 22,
    "touches": 35,
-   "min": 37,
+   "min": 38,
    "pass_pct": 82,
    "kp": 2,
    "duels": 1,
@@ -1331,7 +1331,7 @@
    "rating": 7.39,
    "duels": 5,
    "duels_t": 7,
-   "min": 82,
+   "min": 83,
    "pass": 17,
    "pass_pct": 100,
    "touches": 31,
@@ -1344,7 +1344,9 @@
    "name": "Camilo Durán"
   },
   "37721324": {
-   "min": 1,
+   "min": 2,
+   "duels_t": 1,
+   "fouls": 1,
    "side": "home",
    "name": "Landon Emenalo"
   },
@@ -1364,13 +1366,13 @@
    "name": "Callum Osmand"
   },
   "850": {
-   "min": 1,
+   "min": 2,
    "side": "home",
    "name": "Alex Oxlade-Chamberlain"
   },
   "37582048": {
    "rating": 6.84,
-   "min": 82,
+   "min": 83,
    "touches": 66,
    "pass": 53,
    "clr": 1,
@@ -1387,8 +1389,8 @@
   },
   "18584306": {
    "pass_pct": 89,
-   "min": 37,
-   "touches": 29,
+   "min": 38,
+   "touches": 30,
    "pass": 19,
    "rating": 7.03,
    "tkl": 1,
@@ -1403,7 +1405,7 @@
   },
   "1008": {
    "rating": 6.79,
-   "min": 82,
+   "min": 83,
    "pass": 16,
    "touches": 30,
    "pass_pct": 100,
@@ -1414,9 +1416,9 @@
   },
   "8585": {
    "rating": 7.54,
-   "touches": 84,
-   "pass": 73,
-   "min": 82,
+   "touches": 85,
+   "pass": 74,
+   "min": 83,
    "pass_pct": 100,
    "duels": 3,
    "duels_t": 3,
@@ -1430,9 +1432,9 @@
   },
   "37342595": {
    "rating": 7.26,
-   "touches": 95,
-   "min": 82,
-   "pass": 82,
+   "touches": 97,
+   "min": 83,
+   "pass": 84,
    "duels_t": 9,
    "pass_pct": 100,
    "int": 4,
@@ -1447,7 +1449,7 @@
   "37732189": {
    "rating": 6.4,
    "pass": 40,
-   "min": 82,
+   "min": 83,
    "touches": 57,
    "pass_pct": 100,
    "duels_t": 5,
@@ -1477,7 +1479,7 @@
    "rating": 7.15,
    "touches": 36,
    "pass": 21,
-   "min": 82,
+   "min": 83,
    "pass_pct": 50,
    "duels_t": 2,
    "saves": 5,
@@ -1487,20 +1489,21 @@
    "name": "Jack Walton"
   },
   "37545409": {
-   "rating": 6.08,
+   "rating": 6.09,
    "pass": 39,
    "duels": 2,
    "tkl": 1,
    "touches": 49,
    "duels_t": 3,
-   "min": 82,
+   "min": 83,
    "pass_pct": 100,
    "clr": 8,
+   "kp": 1,
    "side": "away",
    "name": "Bert Esselink"
   },
   "22268": {
-   "min": 9,
+   "min": 10,
    "touches": 9,
    "pass": 9,
    "pass_pct": 100,
@@ -1527,7 +1530,7 @@
   },
   "33608588": {
    "rating": 6.45,
-   "min": 82,
+   "min": 83,
    "pass": 44,
    "touches": 58,
    "duels_t": 11,
@@ -1554,15 +1557,16 @@
    "name": "Zidane Iqbal"
   },
   "37548361": {
-   "min": 20,
-   "pass": 4,
+   "min": 21,
+   "pass": 3,
    "touches": 10,
    "rating": 6.59,
-   "pass_pct": 50,
-   "duels_t": 2,
-   "kp": 2,
+   "pass_pct": 33,
+   "duels_t": 3,
+   "kp": 1,
    "sh": 1,
    "clr": 1,
+   "duels": 1,
    "side": "away",
    "name": "Lachlan Rose"
   },
@@ -1583,7 +1587,7 @@
   },
   "37536785": {
    "rating": 6.79,
-   "min": 82,
+   "min": 83,
    "pass": 35,
    "duels": 3,
    "touches": 49,
@@ -1599,7 +1603,7 @@
   },
   "37668964": {
    "rating": 6.18,
-   "min": 82,
+   "min": 83,
    "touches": 32,
    "pass": 16,
    "fouls": 1,
@@ -1643,21 +1647,21 @@
   },
   "37253440": {
    "rating": 6.99,
-   "min": 82,
+   "min": 83,
    "pass": 20,
-   "touches": 44,
+   "touches": 45,
    "pass_pct": 33,
    "tkl": 2,
    "duels": 4,
    "duels_t": 6,
-   "clr": 4,
+   "clr": 5,
    "kp": 1,
    "int": 1,
    "side": "away",
    "name": "Joshua Rawlins"
   },
   "37913753": {
-   "min": 9,
+   "min": 10,
    "int": 1,
    "pass_pct": 100,
    "pass": 7,
@@ -1669,7 +1673,7 @@
    "name": "Abdoulaye Yoro"
   },
   "37697232": {
-   "min": 29,
+   "min": 30,
    "duels_t": 3,
    "pass": 4,
    "touches": 9,
@@ -1681,7 +1685,7 @@
    "name": "Daniel Bennie"
   },
   "37556717": {
-   "min": 9,
+   "min": 10,
    "duels": 1,
    "duels_t": 1,
    "pass_pct": 80,
@@ -2115,13 +2119,6 @@
    "key": false
   },
   {
-   "m": 79,
-   "x": null,
-   "t": "Idjessi Metsoko takes a right-footed shot but misses.",
-   "goal": false,
-   "key": false
-  },
-  {
    "m": 81,
    "x": null,
    "t": "Substitution: Alex Oxlade-Chamberlain comes on for Benjamin Nygren.",
@@ -2134,7 +2131,14 @@
    "t": "Landon Emenalo comes on for Kieran Tierney.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 81,
+   "x": null,
+   "t": "Lachlan Rose takes a right-footed shot but misses.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2490
+ "rate_remaining": 2489
 }
