@@ -230,172 +230,17 @@
  "stats": {},
  "lineups": {
   "home": {
-   "xi": [
-    {
-     "name": "Sam Johnstone",
-     "num": 26,
-     "pos": 1,
-     "field": "1:1",
-     "id": 1008
-    },
-    {
-     "name": "Colby Donovan",
-     "num": 51,
-     "pos": 2,
-     "field": "2:1",
-     "id": 37732189
-    },
-    {
-     "name": "Dane Murray",
-     "num": 47,
-     "pos": 3,
-     "field": "2:2",
-     "id": 37342595
-    },
-    {
-     "name": "Liam Scales",
-     "num": 5,
-     "pos": 4,
-     "field": "2:3",
-     "id": 123659
-    },
-    {
-     "name": "Kieran Tierney",
-     "num": 63,
-     "pos": 5,
-     "field": "2:4",
-     "id": 172960
-    },
-    {
-     "name": "Callum McGregor",
-     "num": 42,
-     "pos": 6,
-     "field": "3:1",
-     "id": 8585
-    },
-    {
-     "name": "Mika Baur",
-     "num": 22,
-     "pos": 7,
-     "field": "3:2",
-     "id": 37582048
-    },
-    {
-     "name": "Camilo Durán",
-     "num": 11,
-     "pos": 8,
-     "field": "4:1",
-     "id": 37709508
-    },
-    {
-     "name": "Benjamin Nygren",
-     "num": 8,
-     "pos": 9,
-     "field": "4:2",
-     "id": 19979885
-    },
-    {
-     "name": "Callum Osmand",
-     "num": 19,
-     "pos": 10,
-     "field": "4:3",
-     "id": 37598290
-    },
-    {
-     "name": "Kasper Høgh",
-     "num": 9,
-     "pos": 11,
-     "field": "5:1",
-     "id": 15061513
-    }
-   ],
+   "xi": [],
    "bench": [],
-   "formation": "4-2-3-1"
+   "formation": null
   },
   "away": {
-   "xi": [
-    {
-     "name": "Jack Walton",
-     "num": 1,
-     "pos": 1,
-     "field": "1:1",
-     "id": 9428
-    },
-    {
-     "name": "Joshua Rawlins",
-     "num": 23,
-     "pos": 2,
-     "field": "2:4",
-     "id": 37253440
-    },
-    {
-     "name": "Bert Esselink",
-     "num": 3,
-     "pos": 3,
-     "field": "2:3",
-     "id": 37545409
-    },
-    {
-     "name": "Michael Forbes",
-     "num": 18,
-     "pos": 4,
-     "field": "2:2",
-     "id": 37536785
-    },
-    {
-     "name": "Kevin Ciubotaru",
-     "num": 19,
-     "pos": 5,
-     "field": "2:1",
-     "id": 37668964
-    },
-    {
-     "name": "Zidane Iqbal",
-     "num": 14,
-     "pos": 6,
-     "field": "3:3",
-     "id": 37365874
-    },
-    {
-     "name": "Dylan Tait",
-     "num": 10,
-     "pos": 7,
-     "field": "3:2",
-     "id": 33608588
-    },
-    {
-     "name": "Lyall Cameron",
-     "num": 16,
-     "pos": 8,
-     "field": "3:1",
-     "id": 35683622
-    },
-    {
-     "name": "Jesse Randall",
-     "num": 21,
-     "pos": 9,
-     "field": "4:3",
-     "id": 37341839
-    },
-    {
-     "name": "Zachary Sapsford",
-     "num": 9,
-     "pos": 10,
-     "field": "4:2",
-     "id": 37559122
-    },
-    {
-     "name": "Daniel Bennie",
-     "num": 77,
-     "pos": 11,
-     "field": "4:1",
-     "id": 37697232
-    }
-   ],
+   "xi": [],
    "bench": [],
-   "formation": "4-3-3"
+   "formation": null
   }
  },
+ "lineups_confirmed": false,
  "form": {
   "home": [
    {
@@ -726,7 +571,11 @@
   "weather": {
    "temp_c": 11,
    "desc": "moderate rain"
-  }
+  },
+  "tv": [
+   "Dundee United TV",
+   "Celtic TV"
+  ]
  },
  "season_stats": {
   "label": "Premiership",
@@ -1445,6 +1294,7 @@
     "formation": "4-2-3-1"
    }
   },
+  "lineups_confirmed": true,
   "player_stats": {
    "35659846": {
     "duels_t": 3,
@@ -1747,7 +1597,7 @@
     "name": "Jason Kerr"
    },
    "37691888": {
-    "rating": 7.27,
+    "rating": 7.28,
     "sh": 2,
     "g": 1,
     "touches": 23,
@@ -1811,7 +1661,7 @@
    "121792": {
     "touches": 23,
     "duels": 6,
-    "rating": 6.42,
+    "rating": 6.43,
     "min": 68,
     "pass_pct": 77,
     "fouls": 1,
@@ -2337,5 +2187,5 @@
    }
   ]
  },
- "updated_at": "2026-10-28T03:08:37.442204+00:00"
+ "updated_at": "2026-10-28T10:10:20.245048+00:00"
 }
