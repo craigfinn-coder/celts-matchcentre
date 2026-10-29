@@ -1499,7 +1499,7 @@
     "name": "Callum McGregor"
    },
    "37342595": {
-    "rating": 7.51,
+    "rating": 7.5,
     "touches": 107,
     "min": 90,
     "pass": 92,
@@ -1585,7 +1585,7 @@
     "name": "Panutche Camara"
    },
    "37559122": {
-    "rating": 7.55,
+    "rating": 7.56,
     "pass": 10,
     "touches": 20,
     "min": 62,
@@ -1660,7 +1660,7 @@
     "name": "Lyall Cameron"
    },
    "37536785": {
-    "rating": 7.68,
+    "rating": 7.67,
     "min": 90,
     "pass": 38,
     "duels": 3,
@@ -2343,5 +2343,5 @@
    }
   ]
  },
- "updated_at": "2026-10-29T14:47:54.799192+00:00"
+ "updated_at": "2026-10-29T19:57:46.529233+00:00"
 }
