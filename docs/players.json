@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T21:46:50+00:00",
+ "updated": "2026-10-29T02:34:03+00:00",
  "team_id": 53,
  "season": "2026/2027",
  "competitions": [
@@ -464,7 +464,7 @@
      "sub_apps": 7,
      "assists": 3,
      "yellows": 2,
-     "minutes": 514,
+     "minutes": 515,
      "apps": 8,
      "starts": 6
     },
@@ -479,7 +479,7 @@
     }
    ],
    "total": {
-    "minutes": 963,
+    "minutes": 964,
     "apps": 15,
     "starts": 11,
     "sub_apps": 12,
@@ -1117,7 +1117,7 @@
      "season": "2026/2027",
      "sub_apps": 7,
      "yellows": 1,
-     "minutes": 72,
+     "minutes": 67,
      "apps": 7
     },
     {
@@ -1132,7 +1132,7 @@
    "total": {
     "sub_apps": 8,
     "yellows": 1,
-    "minutes": 85,
+    "minutes": 80,
     "apps": 8
    }
   },
@@ -1426,7 +1426,7 @@
      "sub_apps": 4,
      "assists": 1,
      "yellows": 1,
-     "minutes": 132,
+     "minutes": 131,
      "apps": 4
     }
    ],
@@ -1434,7 +1434,7 @@
     "sub_apps": 4,
     "assists": 1,
     "yellows": 1,
-    "minutes": 132,
+    "minutes": 131,
     "apps": 4
    }
   },
