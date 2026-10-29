@@ -912,7 +912,7 @@
    },
    "Substitutions": {
     "home": 5,
-    "away": 4
+    "away": 5
    },
    "Throwins": {
     "home": 16,
@@ -1314,7 +1314,7 @@
   "lineups_confirmed": true,
   "player_stats": {
    "123659": {
-    "rating": 7.97,
+    "rating": 7.94,
     "touches": 122,
     "min": 90,
     "pass": 108,
@@ -1346,7 +1346,7 @@
     "name": "Jota"
    },
    "19979885": {
-    "rating": 7.7,
+    "rating": 7.78,
     "touches": 67,
     "min": 81,
     "pass_pct": 84,
@@ -1362,7 +1362,7 @@
     "name": "Benjamin Nygren"
    },
    "15061513": {
-    "rating": 7.1,
+    "rating": 7.15,
     "min": 46,
     "duels_t": 3,
     "touches": 14,
@@ -1379,7 +1379,7 @@
     "name": "Kasper Høgh"
    },
    "37709508": {
-    "rating": 7.37,
+    "rating": 7.33,
     "duels": 5,
     "duels_t": 7,
     "min": 84,
@@ -1400,14 +1400,14 @@
     "pass": 6,
     "touches": 8,
     "fouls": 2,
-    "rating": 6.37,
+    "rating": 6.36,
     "duels": 1,
     "pass_pct": 100,
     "side": "home",
     "name": "Landon Emenalo"
    },
    "37598290": {
-    "rating": 6.47,
+    "rating": 6.56,
     "min": 46,
     "kp": 1,
     "pass": 20,
@@ -1433,7 +1433,7 @@
     "name": "Alex Oxlade-Chamberlain"
    },
    "37582048": {
-    "rating": 6.94,
+    "rating": 6.84,
     "min": 90,
     "touches": 73,
     "pass": 59,
@@ -1454,7 +1454,7 @@
     "min": 44,
     "touches": 49,
     "pass": 26,
-    "rating": 7.53,
+    "rating": 7.51,
     "tkl": 1,
     "duels_t": 4,
     "duels": 2,
@@ -1466,7 +1466,7 @@
     "name": "Haissem Hassan"
    },
    "1008": {
-    "rating": 6.77,
+    "rating": 6.75,
     "min": 90,
     "pass": 20,
     "touches": 34,
@@ -1483,7 +1483,7 @@
     "name": "Shumaira Mheuka"
    },
    "8585": {
-    "rating": 7.86,
+    "rating": 7.83,
     "touches": 98,
     "pass": 86,
     "min": 90,
@@ -1516,7 +1516,7 @@
     "name": "Dane Murray"
    },
    "37732189": {
-    "rating": 6.4,
+    "rating": 6.42,
     "pass": 51,
     "min": 90,
     "touches": 74,
@@ -1532,7 +1532,7 @@
     "name": "Colby Donovan"
    },
    "172960": {
-    "rating": 6.78,
+    "rating": 6.73,
     "pass": 59,
     "touches": 81,
     "int": 1,
@@ -1546,7 +1546,7 @@
     "name": "Kieran Tierney"
    },
    "9428": {
-    "rating": 7.19,
+    "rating": 7.25,
     "touches": 42,
     "pass": 27,
     "min": 90,
@@ -1560,7 +1560,7 @@
     "name": "Jack Walton"
    },
    "37545409": {
-    "rating": 6.36,
+    "rating": 6.2,
     "pass": 45,
     "duels": 3,
     "tkl": 1,
@@ -1585,7 +1585,7 @@
     "name": "Panutche Camara"
    },
    "37559122": {
-    "rating": 7.59,
+    "rating": 7.55,
     "pass": 10,
     "touches": 20,
     "min": 62,
@@ -1601,7 +1601,7 @@
     "name": "Zachary Sapsford"
    },
    "33608588": {
-    "rating": 6.51,
+    "rating": 6.36,
     "min": 90,
     "pass": 49,
     "touches": 73,
@@ -1616,7 +1616,7 @@
     "name": "Dylan Tait"
    },
    "37365874": {
-    "rating": 6.85,
+    "rating": 6.83,
     "pass": 37,
     "min": 73,
     "duels_t": 8,
@@ -1633,7 +1633,7 @@
     "min": 28,
     "pass": 7,
     "touches": 18,
-    "rating": 6.67,
+    "rating": 6.81,
     "pass_pct": 29,
     "duels_t": 6,
     "sh": 1,
@@ -1660,7 +1660,7 @@
     "name": "Lyall Cameron"
    },
    "37536785": {
-    "rating": 7.66,
+    "rating": 7.68,
     "min": 90,
     "pass": 38,
     "duels": 3,
@@ -1677,7 +1677,7 @@
     "name": "Michael Forbes"
    },
    "37668964": {
-    "rating": 6.4,
+    "rating": 6.44,
     "min": 90,
     "touches": 41,
     "pass": 19,
@@ -1691,7 +1691,7 @@
     "name": "Kevin Ciubotaru"
    },
    "3187964": {
-    "rating": 7.36,
+    "rating": 7.38,
     "min": 53,
     "duels_t": 4,
     "fouls": 1,
@@ -1709,7 +1709,7 @@
    },
    "37341839": {
     "min": 73,
-    "rating": 5.86,
+    "rating": 5.89,
     "touches": 35,
     "pass": 22,
     "pass_pct": 55,
@@ -1721,7 +1721,7 @@
     "name": "Jesse Randall"
    },
    "37253440": {
-    "rating": 6.89,
+    "rating": 6.87,
     "min": 90,
     "pass": 22,
     "touches": 50,
@@ -1754,7 +1754,7 @@
     "duels_t": 3,
     "pass": 6,
     "touches": 11,
-    "rating": 6.32,
+    "rating": 6.24,
     "sh": 1,
     "pass_pct": 83,
     "clr": 1,
@@ -2343,5 +2343,5 @@
    }
   ]
  },
- "updated_at": "2026-10-29T07:49:49.744023+00:00"
+ "updated_at": "2026-10-29T14:47:54.799192+00:00"
 }
