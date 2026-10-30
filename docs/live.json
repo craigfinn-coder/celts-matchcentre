@@ -1335,7 +1335,7 @@
     "name": "Liam Scales"
    },
    "163711": {
-    "rating": 7.38,
+    "rating": 7.39,
     "pass": 28,
     "touches": 43,
     "min": 44,
@@ -1383,7 +1383,7 @@
     "name": "Kasper Høgh"
    },
    "37709508": {
-    "rating": 7.33,
+    "rating": 7.32,
     "duels": 5,
     "duels_t": 7,
     "min": 84,
@@ -1429,7 +1429,7 @@
     "pass_pct": 67,
     "sh": 2,
     "min": 9,
-    "rating": 6.74,
+    "rating": 6.76,
     "pass": 6,
     "kp": 1,
     "touches": 10,
@@ -1503,7 +1503,7 @@
     "name": "Callum McGregor"
    },
    "37342595": {
-    "rating": 7.5,
+    "rating": 7.49,
     "touches": 107,
     "min": 90,
     "pass": 92,
@@ -1520,7 +1520,7 @@
     "name": "Dane Murray"
    },
    "37732189": {
-    "rating": 6.42,
+    "rating": 6.4,
     "pass": 51,
     "min": 90,
     "touches": 74,
@@ -1589,7 +1589,7 @@
     "name": "Panutche Camara"
    },
    "37559122": {
-    "rating": 7.56,
+    "rating": 7.55,
     "pass": 10,
     "touches": 20,
     "min": 62,
@@ -1664,7 +1664,7 @@
     "name": "Lyall Cameron"
    },
    "37536785": {
-    "rating": 7.67,
+    "rating": 7.68,
     "min": 90,
     "pass": 38,
     "duels": 3,
@@ -1713,7 +1713,7 @@
    },
    "37341839": {
     "min": 73,
-    "rating": 5.89,
+    "rating": 5.88,
     "touches": 35,
     "pass": 22,
     "pass_pct": 55,
@@ -1745,7 +1745,7 @@
     "pass_pct": 88,
     "pass": 8,
     "touches": 11,
-    "rating": 6.82,
+    "rating": 6.79,
     "sot": 1,
     "sh": 1,
     "duels": 1,
@@ -2347,5 +2347,5 @@
    }
   ]
  },
- "updated_at": "2026-10-30T03:37:04.649606+00:00"
+ "updated_at": "2026-10-30T16:52:54.091633+00:00"
 }
