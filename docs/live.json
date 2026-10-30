@@ -568,6 +568,10 @@
    "away": "Martin O'Neill",
    "home": "John McGlynn"
   },
+  "weather": {
+   "temp_c": 7,
+   "desc": "broken clouds"
+  },
   "tv": [
    "Sky Sports Main Event",
    "NOW",
@@ -2343,5 +2347,5 @@
    }
   ]
  },
- "updated_at": "2026-10-29T19:57:46.529233+00:00"
+ "updated_at": "2026-10-30T03:37:04.649606+00:00"
 }
