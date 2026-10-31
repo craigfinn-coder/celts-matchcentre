@@ -126,34 +126,48 @@
   },
   {
    "pos": 7,
+   "team": "St. Johnstone",
+   "team_id": 734,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
+   "pts": 14,
+   "p": 12,
+   "w": 3,
+   "d": 5,
+   "l": 4,
+   "gf": 15,
+   "ga": 19,
+   "gd": -4
+  },
+  {
+   "pos": 8,
    "team": "St. Mirren",
    "team_id": 496,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
    "pts": 14,
-   "p": 11,
+   "p": 12,
    "w": 4,
    "d": 2,
-   "l": 5,
+   "l": 6,
    "gf": 12,
-   "ga": 19,
-   "gd": -7
-  },
-  {
-   "pos": 8,
-   "team": "St. Johnstone",
-   "team_id": 734,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
-   "pts": 13,
-   "p": 11,
-   "w": 3,
-   "d": 4,
-   "l": 4,
-   "gf": 13,
-   "ga": 17,
-   "gd": -4
+   "ga": 20,
+   "gd": -8
   },
   {
    "pos": 9,
+   "team": "Motherwell",
+   "team_id": 309,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
+   "pts": 12,
+   "p": 12,
+   "w": 3,
+   "d": 3,
+   "l": 6,
+   "gf": 14,
+   "ga": 20,
+   "gd": -6
+  },
+  {
+   "pos": 10,
    "team": "Aberdeen",
    "team_id": 273,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
@@ -167,21 +181,21 @@
    "gd": -2
   },
   {
-   "pos": 10,
-   "team": "Motherwell",
-   "team_id": 309,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
+   "pos": 11,
+   "team": "Kilmarnock",
+   "team_id": 180,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
    "pts": 9,
-   "p": 11,
+   "p": 12,
    "w": 2,
    "d": 3,
-   "l": 6,
+   "l": 7,
    "gf": 13,
-   "ga": 20,
-   "gd": -7
+   "ga": 28,
+   "gd": -15
   },
   {
-   "pos": 11,
+   "pos": 12,
    "team": "Hibernian",
    "team_id": 66,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
@@ -193,20 +207,6 @@
    "gf": 11,
    "ga": 17,
    "gd": -6
-  },
-  {
-   "pos": 12,
-   "team": "Kilmarnock",
-   "team_id": 180,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "pts": 8,
-   "p": 11,
-   "w": 2,
-   "d": 2,
-   "l": 7,
-   "gf": 11,
-   "ga": 26,
-   "gd": -15
   }
  ],
  "state_name": "Not started",
@@ -514,14 +514,14 @@
   },
   {
    "pos": 4,
-   "player": "Kieran Tierney",
+   "player": "Benjamin Nygren",
    "team": "Celtic",
    "team_id": 53,
    "assists": 3
   },
   {
    "pos": 5,
-   "player": "Djeidi Gassama",
+   "player": "Ryan Naderi",
    "team": "Rangers",
    "team_id": 62,
    "assists": 3
@@ -542,23 +542,23 @@
   },
   {
    "pos": 8,
-   "player": "Benjamin Nygren",
-   "team": "Celtic",
-   "team_id": 53,
+   "player": "Kevin Nisbet",
+   "team": "Aberdeen",
+   "team_id": 273,
    "assists": 3
   },
   {
    "pos": 9,
-   "player": "Ryan Naderi",
-   "team": "Rangers",
-   "team_id": 62,
+   "player": "Enes Alic",
+   "team": "St. Johnstone",
+   "team_id": 734,
    "assists": 3
   },
   {
    "pos": 10,
-   "player": "Kevin Nisbet",
-   "team": "Aberdeen",
-   "team_id": 273,
+   "player": "Djeidi Gassama",
+   "team": "Rangers",
+   "team_id": 62,
    "assists": 3
   }
  ],
@@ -2348,5 +2348,5 @@
    }
   ]
  },
- "updated_at": "2026-10-31T14:03:19.528026+00:00"
+ "updated_at": "2026-10-31T18:55:37.917756+00:00"
 }
