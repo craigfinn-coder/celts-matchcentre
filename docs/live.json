@@ -575,7 +575,8 @@
   "tv": [
    "Sky Sports Main Event",
    "NOW",
-   "Sky Sports Football"
+   "Sky Sports Football",
+   "Sky Sports App"
   ]
  },
  "season_stats": {
@@ -2347,5 +2348,5 @@
    }
   ]
  },
- "updated_at": "2026-10-30T16:52:54.091633+00:00"
+ "updated_at": "2026-10-31T14:03:19.528026+00:00"
 }
