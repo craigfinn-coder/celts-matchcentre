@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-01T11:55:26+00:00",
+ "updated": "2026-11-01T21:17:11+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 18,
+  "p": 19,
   "w": 11,
   "d": 1,
-  "l": 6,
+  "l": 7,
   "gf": 38,
-  "ga": 25
+  "ga": 27
  },
  "fixtures": [
   {
@@ -586,18 +586,18 @@
    "ha": "A",
    "opp": "Falkirk",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
-   "state": "NS",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
    "score": {
-    "home": 0,
+    "home": 2,
     "away": 0
    },
    "half_time": {
-    "home": 0,
+    "home": 2,
     "away": 0
    },
-   "result": null,
+   "result": "L",
    "tv": []
   },
   {
