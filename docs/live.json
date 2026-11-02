@@ -782,12 +782,12 @@
     "away": 102
    },
    "Shots Insidebox": {
-    "home": 5,
-    "away": 19
+    "home": 4,
+    "away": 20
    },
    "Shots Outsidebox": {
-    "home": 1,
-    "away": 5
+    "home": 2,
+    "away": 4
    },
    "Offsides": {
     "home": 2,
@@ -830,7 +830,7 @@
     "away": 23
    },
    "Long Passes": {
-    "home": 70,
+    "home": 69,
     "away": 60
    },
    "Hit Woodwork": {
@@ -850,12 +850,12 @@
     "away": 0
    },
    "Passes": {
-    "home": 262,
-    "away": 598
+    "home": 263,
+    "away": 599
    },
    "Successful Passes": {
     "home": 168,
-    "away": 514
+    "away": 516
    },
    "Successful Passes Percentage": {
     "home": 64,
@@ -875,7 +875,7 @@
    },
    "Total Crosses": {
     "home": 8,
-    "away": 36
+    "away": 37
    },
    "Accurate Crosses": {
     "home": 1,
@@ -891,7 +891,7 @@
    },
    "Dribble Attempts": {
     "home": 5,
-    "away": 21
+    "away": 20
    },
    "Successful Dribbles": {
     "home": 2,
@@ -903,22 +903,22 @@
    },
    "Big Chances Created": {
     "home": 2,
-    "away": 6
+    "away": 5
    },
    "Big Chances Missed": {
     "home": 0,
-    "away": 6
+    "away": 5
    },
    "Successful Dribbles Percentage": {
     "home": 40,
-    "away": 62
+    "away": 65
    },
    "Successful Long Passes": {
     "home": 24,
     "away": 32
    },
    "Successful Long Passes Percentage": {
-    "home": 34,
+    "home": 35,
     "away": 53
    },
    "Tackles Won": {
@@ -1228,7 +1228,7 @@
     "rating": 7.1,
     "min": 90,
     "pass": 106,
-    "touches": 124,
+    "touches": 122,
     "bcc": 1,
     "kp": 2,
     "pass_pct": 87,
@@ -1367,8 +1367,8 @@
    },
    "18584306": {
     "rating": 7.88,
-    "touches": 53,
-    "pass": 29,
+    "touches": 54,
+    "pass": 30,
     "duels": 10,
     "min": 84,
     "sh": 2,
@@ -1425,8 +1425,8 @@
    },
    "37732189": {
     "rating": 6.89,
-    "touches": 77,
-    "pass": 53,
+    "touches": 79,
+    "pass": 52,
     "min": 90,
     "duels": 6,
     "int": 4,
@@ -1440,8 +1440,8 @@
    },
    "172960": {
     "rating": 6.77,
-    "touches": 103,
-    "pass": 68,
+    "touches": 104,
+    "pass": 69,
     "min": 90,
     "pass_pct": 70,
     "duels_t": 13,
@@ -1457,11 +1457,11 @@
    },
    "173208": {
     "min": 85,
-    "pass": 21,
+    "pass": 22,
     "rating": 6.86,
-    "duels_t": 10,
-    "touches": 37,
-    "fouls": 5,
+    "duels_t": 9,
+    "touches": 38,
+    "fouls": 4,
     "pass_pct": 67,
     "clr": 2,
     "duels": 4,
@@ -1473,9 +1473,9 @@
    "174353": {
     "rating": 6.9,
     "pass": 28,
-    "touches": 38,
+    "touches": 37,
     "min": 90,
-    "clr": 7,
+    "clr": 6,
     "pass_pct": 68,
     "duels_t": 4,
     "sh": 1,
@@ -1509,14 +1509,13 @@
    },
    "37407475": {
     "rating": 7.01,
-    "touches": 37,
+    "touches": 36,
     "pass": 22,
     "min": 90,
     "int": 2,
     "clr": 9,
-    "tkl": 1,
-    "duels": 2,
-    "duels_t": 2,
+    "duels": 1,
+    "duels_t": 1,
     "pass_pct": 71,
     "side": "home",
     "name": "Lewis Neilson"
@@ -1526,9 +1525,9 @@
     "min": 73,
     "duels": 3,
     "duels_t": 14,
-    "pass": 27,
+    "pass": 28,
     "pass_pct": 74,
-    "touches": 39,
+    "touches": 41,
     "clr": 2,
     "fouls": 3,
     "side": "home",
@@ -1537,12 +1536,12 @@
    "8846": {
     "rating": 7.2,
     "pass": 19,
-    "touches": 36,
+    "touches": 37,
     "min": 66,
     "kp": 1,
     "duels": 1,
     "duels_t": 5,
-    "clr": 6,
+    "clr": 7,
     "pass_pct": 58,
     "sh": 1,
     "sot": 1,
@@ -1619,13 +1618,13 @@
    },
    "37740712": {
     "rating": 6.65,
-    "touches": 23,
+    "touches": 20,
     "min": 90,
     "duels_t": 9,
     "clr": 4,
     "sh": 1,
     "pass_pct": 40,
-    "pass": 10,
+    "pass": 9,
     "fouls": 3,
     "duels": 3,
     "kp": 1,
@@ -1647,10 +1646,10 @@
    },
    "37675649": {
     "rating": 6.83,
-    "duels": 2,
-    "tkl": 2,
-    "duels_t": 6,
-    "touches": 23,
+    "duels": 3,
+    "tkl": 3,
+    "duels_t": 7,
+    "touches": 24,
     "min": 73,
     "pass_pct": 63,
     "fouls": 2,
@@ -1668,10 +1667,11 @@
     "clr": 3,
     "touches": 8,
     "int": 1,
-    "duels_t": 3,
+    "duels_t": 4,
     "pass": 2,
     "rating": 6.56,
     "duels": 2,
+    "fouls": 1,
     "side": "home",
     "name": "CJ Fodrey"
    }
@@ -2176,5 +2176,5 @@
    }
   ]
  },
- "updated_at": "2026-11-02T11:50:58.764967+00:00"
+ "updated_at": "2026-11-02T21:06:17.547165+00:00"
 }
