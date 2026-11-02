@@ -365,7 +365,7 @@
     "type": "Leg Injury",
     "since": "2026-08-10",
     "until": null,
-    "missed": 16
+    "missed": 17
    }
   ],
   "away": []
@@ -1284,7 +1284,7 @@
    },
    "1548366": {
     "pass_pct": 50,
-    "min": 10,
+    "min": 6,
     "pass": 7,
     "touches": 11,
     "duels_t": 5,
@@ -1295,7 +1295,7 @@
     "name": "Luke McCowan"
    },
    "15169863": {
-    "min": 10,
+    "min": 6,
     "pass": 6,
     "pass_pct": 100,
     "touches": 14,
@@ -1309,7 +1309,7 @@
     "rating": 6.39,
     "pass": 17,
     "touches": 28,
-    "min": 45,
+    "min": 46,
     "duels_t": 7,
     "duels": 3,
     "clr": 1,
@@ -1412,7 +1412,7 @@
     "pass": 19,
     "rating": 6.75,
     "pass_pct": 85,
-    "min": 45,
+    "min": 44,
     "sot": 3,
     "sh": 3,
     "duels": 1,
@@ -2176,5 +2176,5 @@
    }
   ]
  },
- "updated_at": "2026-11-01T19:58:52.910890+00:00"
+ "updated_at": "2026-11-02T03:30:16.669058+00:00"
 }
