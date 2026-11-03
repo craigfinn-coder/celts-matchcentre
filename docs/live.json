@@ -519,6 +519,10 @@
    "home": "Martin O'Neill",
    "away": "Vincenzo Italiano"
   },
+  "weather": {
+   "temp_c": 9,
+   "desc": "broken clouds"
+  },
   "tv": [
    "TNT Sports 3",
    "HBO Max"
@@ -1225,7 +1229,7 @@
   "lineups_confirmed": true,
   "player_stats": {
    "123659": {
-    "rating": 7.1,
+    "rating": 6.97,
     "min": 90,
     "pass": 106,
     "touches": 122,
@@ -1366,7 +1370,7 @@
     "name": "Mika Baur"
    },
    "18584306": {
-    "rating": 7.88,
+    "rating": 7.93,
     "touches": 54,
     "pass": 30,
     "duels": 10,
@@ -1424,7 +1428,7 @@
     "name": "James Forrest"
    },
    "37732189": {
-    "rating": 6.89,
+    "rating": 6.95,
     "touches": 79,
     "pass": 52,
     "min": 90,
@@ -1439,7 +1443,7 @@
     "name": "Colby Donovan"
    },
    "172960": {
-    "rating": 6.77,
+    "rating": 6.76,
     "touches": 104,
     "pass": 69,
     "min": 90,
@@ -1458,7 +1462,7 @@
    "173208": {
     "min": 85,
     "pass": 22,
-    "rating": 6.86,
+    "rating": 6.9,
     "duels_t": 9,
     "touches": 38,
     "fouls": 4,
@@ -1471,7 +1475,7 @@
     "name": "J. McMillan"
    },
    "174353": {
-    "rating": 6.9,
+    "rating": 6.86,
     "pass": 28,
     "touches": 37,
     "min": 90,
@@ -1508,7 +1512,7 @@
     "name": "Finn Yeats"
    },
    "37407475": {
-    "rating": 7.01,
+    "rating": 6.97,
     "touches": 36,
     "pass": 22,
     "min": 90,
@@ -1521,7 +1525,7 @@
     "name": "Lewis Neilson"
    },
    "37567009": {
-    "rating": 6.22,
+    "rating": 6.19,
     "min": 73,
     "duels": 3,
     "duels_t": 14,
@@ -1534,7 +1538,7 @@
     "name": "Finley Barbrook"
    },
    "8846": {
-    "rating": 7.2,
+    "rating": 7.22,
     "pass": 19,
     "touches": 37,
     "min": 66,
@@ -1578,7 +1582,7 @@
     "name": "Connor Allan"
    },
    "24817158": {
-    "rating": 6.68,
+    "rating": 6.72,
     "duels": 8,
     "min": 90,
     "clr": 7,
@@ -1617,7 +1621,7 @@
     "name": "Ethan Ross"
    },
    "37740712": {
-    "rating": 6.65,
+    "rating": 6.66,
     "touches": 20,
     "min": 90,
     "duels_t": 9,
@@ -1645,7 +1649,7 @@
     "name": "Connor McLeod"
    },
    "37675649": {
-    "rating": 6.83,
+    "rating": 6.89,
     "duels": 3,
     "tkl": 3,
     "duels_t": 7,
@@ -1669,7 +1673,7 @@
     "int": 1,
     "duels_t": 4,
     "pass": 2,
-    "rating": 6.56,
+    "rating": 6.54,
     "duels": 2,
     "fouls": 1,
     "side": "home",
@@ -2176,5 +2180,5 @@
    }
   ]
  },
- "updated_at": "2026-11-02T21:06:17.547165+00:00"
+ "updated_at": "2026-11-03T03:10:43.993014+00:00"
 }
