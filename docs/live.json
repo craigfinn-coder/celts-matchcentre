@@ -1418,7 +1418,7 @@
     "name": "James Forrest"
    },
    "37732189": {
-    "rating": 6.95,
+    "rating": 6.94,
     "touches": 79,
     "pass": 52,
     "min": 90,
@@ -1572,7 +1572,7 @@
     "name": "Connor Allan"
    },
    "24817158": {
-    "rating": 6.72,
+    "rating": 6.71,
     "duels": 8,
     "min": 90,
     "clr": 7,
@@ -1639,7 +1639,7 @@
     "name": "Connor McLeod"
    },
    "37675649": {
-    "rating": 6.89,
+    "rating": 6.88,
     "duels": 3,
     "tkl": 3,
     "duels_t": 7,
@@ -2170,5 +2170,5 @@
    }
   ]
  },
- "updated_at": "2026-11-04T03:58:36.958402+00:00"
+ "updated_at": "2026-11-04T19:06:48.930809+00:00"
 }
