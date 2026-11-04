@@ -301,17 +301,6 @@
   ],
   "away": [
    {
-    "r": "W",
-    "score": "3-0",
-    "home": "Beşiktaş",
-    "away": "Kauno Žalgiris",
-    "opp": "Kauno Žalgiris",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/0/928.png",
-    "date": "2026-08-20",
-    "league": "Europa League",
-    "ha": "H"
-   },
-   {
     "r": "L",
     "score": "1-0",
     "home": "Kauno Žalgiris",
@@ -2181,5 +2170,5 @@
    }
   ]
  },
- "updated_at": "2026-11-03T18:50:22.857405+00:00"
+ "updated_at": "2026-11-04T03:58:36.958402+00:00"
 }
