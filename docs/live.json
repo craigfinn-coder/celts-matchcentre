@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T21:46:15.043567+00:00",
+ "updated_at": "2026-11-05T21:46:45.014480+00:00",
  "live": true,
  "fixture": {
   "id": 19873888,
@@ -354,7 +354,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 87,
+ "minute": 88,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -566,7 +566,7 @@
    "side": "home",
    "team": "Celtic",
    "player": "Camilo Durán",
-   "related": null,
+   "related": "Kieran Tierney",
    "result": "3-2",
    "info": "Right foot shot"
   }
@@ -577,19 +577,19 @@
    "away": 7
   },
   "Shots Off Target": {
-   "home": 3,
+   "home": 4,
    "away": 5
   },
   "Shots Total": {
-   "home": 9,
+   "home": 10,
    "away": 14
   },
   "Attacks": {
    "home": 72,
-   "away": 128
+   "away": 130
   },
   "Dangerous Attacks": {
-   "home": 23,
+   "home": 25,
    "away": 55
   },
   "Ball Possession %": {
@@ -609,7 +609,7 @@
    "away": 7
   },
   "Shots Outsidebox": {
-   "home": 5,
+   "home": 6,
    "away": 7
   },
   "Offsides": {
@@ -670,11 +670,11 @@
   },
   "Passes": {
    "home": 358,
-   "away": 546
+   "away": 547
   },
   "Successful Passes": {
    "home": 269,
-   "away": 469
+   "away": 470
   },
   "Successful Passes Percentage": {
    "home": 75,
@@ -713,7 +713,7 @@
    "away": 9
   },
   "Key Passes": {
-   "home": 7,
+   "home": 8,
    "away": 7
   },
   "Big Chances Created": {
@@ -2287,5 +2287,5 @@
    "key": true
   }
  ],
- "rate_remaining": 2489
+ "rate_remaining": 2487
 }
