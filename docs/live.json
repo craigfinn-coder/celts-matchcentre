@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T21:54:45.038095+00:00",
+ "updated_at": "2026-11-05T21:55:15.071839+00:00",
  "live": false,
  "fixture": {
   "id": 19873888,
@@ -520,7 +520,7 @@
    "player": "Camilo Durán",
    "related": "Callum Osmand",
    "result": "2-1",
-   "info": "Right foot shot"
+   "info": "Left foot shot"
   },
   {
    "id": 158553383,
@@ -568,7 +568,7 @@
    "player": "Camilo Durán",
    "related": "Kieran Tierney",
    "result": "3-2",
-   "info": "Right foot shot"
+   "info": "Left foot shot"
   },
   {
    "id": 158553576,
@@ -1706,6 +1706,13 @@
  },
  "commentary": [
   {
+   "m": null,
+   "x": null,
+   "t": "The second half ends with Celtic defeating Besiktas 3-2.",
+   "goal": false,
+   "key": false
+  },
+  {
    "m": 1,
    "x": null,
    "t": "First half begins.",
@@ -2390,7 +2397,14 @@
    "t": "Benjamin Nygren from Celtic.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": null,
+   "x": null,
+   "t": "The match ends with Celtic defeating Besiktas 3-2.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2463
+ "rate_remaining": 2461
 }
