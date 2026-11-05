@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-04T13:07:43+00:00",
+ "updated": "2026-11-05T22:43:47+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 19,
-  "w": 11,
+  "p": 20,
+  "w": 12,
   "d": 1,
   "l": 7,
-  "gf": 38,
-  "ga": 27
+  "gf": 41,
+  "ga": 29
  },
  "fixtures": [
   {
@@ -617,12 +617,18 @@
    "ha": "H",
    "opp": "Beşiktaş",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/10/554.png",
-   "state": "NS",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
-   "score": null,
-   "half_time": null,
-   "result": null,
+   "score": {
+    "home": 3,
+    "away": 2
+   },
+   "half_time": {
+    "home": 0,
+    "away": 0
+   },
+   "result": "W",
    "tv": []
   },
   {
