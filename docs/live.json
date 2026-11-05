@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T21:51:45.035474+00:00",
+ "updated_at": "2026-11-05T21:52:45.086965+00:00",
  "live": true,
  "fixture": {
   "id": 19873888,
@@ -354,7 +354,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 93,
+ "minute": 94,
  "minute_estimated": false,
  "added_time": 5,
  "score": {
@@ -569,6 +569,18 @@
    "related": "Kieran Tierney",
    "result": "3-2",
    "info": "Right foot shot"
+  },
+  {
+   "id": 158553576,
+   "minute": 90,
+   "extra": 4,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Beşiktaş",
+   "player": "Amir Murillo",
+   "related": null,
+   "result": null,
+   "info": "Argument"
   }
  ],
  "stats": {
@@ -578,11 +590,11 @@
   },
   "Shots Off Target": {
    "home": 4,
-   "away": 5
+   "away": 6
   },
   "Shots Total": {
    "home": 10,
-   "away": 14
+   "away": 15
   },
   "Attacks": {
    "home": 75,
@@ -621,7 +633,7 @@
    "away": 2
   },
   "Goal Kicks": {
-   "home": 10,
+   "home": 11,
    "away": 3
   },
   "Goal Attempts": {
@@ -649,12 +661,12 @@
    "away": 5
   },
   "Throwins": {
-   "home": 17,
+   "home": 18,
    "away": 15
   },
   "Long Passes": {
-   "home": 49,
-   "away": 45
+   "home": 50,
+   "away": 47
   },
   "Successful Headers": {
    "home": 8,
@@ -662,27 +674,27 @@
   },
   "Tackles": {
    "home": 31,
-   "away": 14
+   "away": 15
   },
   "Assists": {
    "home": 2,
    "away": 1
   },
   "Passes": {
-   "home": 368,
-   "away": 585
+   "home": 369,
+   "away": 588
   },
   "Successful Passes": {
-   "home": 274,
-   "away": 504
+   "home": 275,
+   "away": 506
   },
   "Successful Passes Percentage": {
-   "home": 74,
+   "home": 75,
    "away": 86
   },
   "Yellowcards": {
    "home": 1,
-   "away": 0
+   "away": 1
   },
   "Shots On Target": {
    "home": 6,
@@ -729,11 +741,11 @@
    "away": 39
   },
   "Successful Long Passes": {
-   "home": 19,
-   "away": 21
+   "home": 20,
+   "away": 22
   },
   "Successful Long Passes Percentage": {
-   "home": 39,
+   "home": 40,
    "away": 47
   },
   "Tackles Won": {
@@ -1247,7 +1259,7 @@
   "123659": {
    "pass": 65,
    "touches": 81,
-   "min": 92,
+   "min": 93,
    "rating": 6.58,
    "duels": 4,
    "tkl": 3,
@@ -1265,10 +1277,10 @@
    "duels": 9,
    "tkl": 4,
    "pass": 35,
-   "min": 92,
+   "min": 93,
    "rating": 7.25,
    "sh": 2,
-   "touches": 60,
+   "touches": 61,
    "kp": 1,
    "fouls": 3,
    "yc": 1,
@@ -1294,7 +1306,7 @@
    "duels": 2,
    "rating": 8.26,
    "pass_pct": 50,
-   "min": 31,
+   "min": 32,
    "sh": 2,
    "sot": 2,
    "pass": 3,
@@ -1326,7 +1338,7 @@
    "pass_pct": 83,
    "rating": 8.17,
    "duels_t": 3,
-   "min": 31,
+   "min": 32,
    "kp": 2,
    "a": 1,
    "duels": 1,
@@ -1355,7 +1367,7 @@
    "pass": 32,
    "duels_t": 16,
    "tkl": 10,
-   "min": 92,
+   "min": 93,
    "touches": 59,
    "rating": 7.71,
    "pass_pct": 81,
@@ -1367,7 +1379,7 @@
    "name": "Mika Baur"
   },
   "18584306": {
-   "min": 15,
+   "min": 16,
    "sh": 1,
    "sot": 1,
    "pass": 2,
@@ -1379,7 +1391,7 @@
    "name": "Haissem Hassan"
   },
   "1008": {
-   "min": 92,
+   "min": 93,
    "touches": 57,
    "pass_pct": 74,
    "pass": 50,
@@ -1393,7 +1405,7 @@
    "touches": 48,
    "pass": 32,
    "pass_pct": 93,
-   "min": 92,
+   "min": 93,
    "clr": 5,
    "int": 3,
    "duels": 4,
@@ -1405,7 +1417,7 @@
    "name": "Callum McGregor"
   },
   "37342595": {
-   "min": 14,
+   "min": 15,
    "pass": 3,
    "touches": 7,
    "pass_pct": 67,
@@ -1430,7 +1442,7 @@
    "name": "James Forrest"
   },
   "37732189": {
-   "min": 31,
+   "min": 32,
    "touches": 22,
    "duels": 3,
    "duels_t": 3,
@@ -1445,9 +1457,9 @@
   },
   "172960": {
    "rating": 6.7,
-   "touches": 58,
-   "min": 92,
-   "pass": 34,
+   "touches": 60,
+   "min": 93,
+   "pass": 35,
    "tkl": 2,
    "pass_pct": 59,
    "clr": 4,
@@ -1459,9 +1471,9 @@
    "name": "Kieran Tierney"
   },
   "32550": {
-   "pass": 38,
-   "touches": 46,
-   "min": 92,
+   "pass": 39,
+   "touches": 47,
+   "min": 93,
    "rating": 6.35,
    "pass_pct": 84,
    "clr": 1,
@@ -1498,10 +1510,10 @@
    "name": "Hyeon-gyu Oh"
   },
   "4545376": {
-   "touches": 19,
+   "touches": 21,
    "pass_pct": 80,
-   "pass": 16,
-   "min": 16,
+   "pass": 18,
+   "min": 17,
    "g": 1,
    "sh": 1,
    "sot": 1,
@@ -1542,14 +1554,14 @@
   "37572227": {
    "duels": 4,
    "duels_t": 11,
-   "min": 92,
+   "min": 93,
    "rating": 7.28,
    "kp": 2,
-   "pass": 51,
-   "touches": 72,
+   "pass": 52,
+   "touches": 74,
    "pass_pct": 88,
    "g": 1,
-   "sh": 5,
+   "sh": 6,
    "sot": 2,
    "tkl": 1,
    "bcc": 1,
@@ -1560,8 +1572,8 @@
    "duels_t": 14,
    "rating": 7.15,
    "pass": 37,
-   "touches": 62,
-   "min": 92,
+   "touches": 63,
+   "min": 93,
    "tkl": 1,
    "duels": 5,
    "pass_pct": 81,
@@ -1590,22 +1602,22 @@
   },
   "61780": {
    "rating": 6.51,
-   "min": 92,
+   "min": 93,
    "duels_t": 11,
-   "pass": 38,
+   "pass": 40,
    "duels": 4,
    "sh": 4,
    "pass_pct": 89,
-   "touches": 64,
-   "kp": 1,
+   "touches": 66,
+   "kp": 2,
    "tkl": 1,
    "side": "away",
    "name": "Leandro Trossard"
   },
   "177988": {
-   "min": 22,
-   "pass": 5,
-   "touches": 10,
+   "min": 23,
+   "pass": 6,
+   "touches": 11,
    "rating": 6.22,
    "pass_pct": 60,
    "duels_t": 2,
@@ -1615,7 +1627,7 @@
   "37727058": {
    "pass": 7,
    "pass_pct": 100,
-   "min": 9,
+   "min": 10,
    "duels": 1,
    "touches": 9,
    "duels_t": 2,
@@ -1624,7 +1636,7 @@
    "name": "İlhan Fakılı"
   },
   "4545417": {
-   "min": 9,
+   "min": 10,
    "pass": 3,
    "pass_pct": 67,
    "int": 1,
@@ -1635,9 +1647,9 @@
    "name": "Rıdvan Yılmaz"
   },
   "540319": {
-   "min": 22,
+   "min": 23,
    "pass_pct": 95,
-   "touches": 24,
+   "touches": 25,
    "pass": 21,
    "duels_t": 1,
    "rating": 6.15,
@@ -1646,13 +1658,13 @@
    "name": "Tiago Djaló"
   },
   "3187864": {
-   "pass": 73,
+   "pass": 75,
    "int": 7,
    "duels": 4,
    "duels_t": 9,
    "tkl": 2,
-   "min": 92,
-   "touches": 93,
+   "min": 93,
+   "touches": 95,
    "rating": 6.75,
    "clr": 6,
    "fouls": 1,
@@ -1663,10 +1675,10 @@
   "512560": {
    "rating": 6.64,
    "int": 2,
-   "pass": 61,
-   "touches": 85,
+   "pass": 62,
+   "touches": 86,
    "duels": 5,
-   "min": 92,
+   "min": 93,
    "tkl": 2,
    "duels_t": 7,
    "pass_pct": 78,
@@ -2327,7 +2339,14 @@
    "t": "The fourth official has indicated that there will be 5 minutes of added time.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 90,
+   "x": 3,
+   "t": "Attempt missed. Junior Olaïtan from Besiktas takes a right-footed shot from outside the box, but it goes too high. Leandro Trossard provided the assist.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2472
+ "rate_remaining": 2469
 }
