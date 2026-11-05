@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T21:46:45.014480+00:00",
+ "updated_at": "2026-11-05T21:49:15.026208+00:00",
  "live": true,
  "fixture": {
   "id": 19873888,
@@ -354,9 +354,9 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 88,
+ "minute": 90,
  "minute_estimated": false,
- "added_time": null,
+ "added_time": 5,
  "score": {
   "home": 3,
   "away": 2
@@ -585,16 +585,16 @@
    "away": 14
   },
   "Attacks": {
-   "home": 72,
-   "away": 130
+   "home": 74,
+   "away": 132
   },
   "Dangerous Attacks": {
    "home": 25,
-   "away": 55
+   "away": 61
   },
   "Ball Possession %": {
-   "home": 40,
-   "away": 60
+   "home": 39,
+   "away": 61
   },
   "Ball Safe": {
    "home": 38,
@@ -614,14 +614,14 @@
   },
   "Offsides": {
    "home": 2,
-   "away": 1
+   "away": 2
   },
   "Goals": {
    "home": 3,
    "away": 2
   },
   "Goal Kicks": {
-   "home": 9,
+   "home": 10,
    "away": 3
   },
   "Goal Attempts": {
@@ -650,31 +650,31 @@
   },
   "Throwins": {
    "home": 16,
-   "away": 12
+   "away": 14
   },
   "Long Passes": {
-   "home": 43,
-   "away": 43
+   "home": 45,
+   "away": 44
   },
   "Successful Headers": {
    "home": 8,
-   "away": 5
+   "away": 6
   },
   "Tackles": {
-   "home": 29,
-   "away": 13
+   "home": 30,
+   "away": 14
   },
   "Assists": {
    "home": 2,
    "away": 1
   },
   "Passes": {
-   "home": 358,
-   "away": 547
+   "home": 360,
+   "away": 560
   },
   "Successful Passes": {
-   "home": 269,
-   "away": 470
+   "home": 270,
+   "away": 482
   },
   "Successful Passes Percentage": {
    "home": 75,
@@ -701,8 +701,8 @@
    "away": 13
   },
   "Duels Won": {
-   "home": 58,
-   "away": 36
+   "home": 59,
+   "away": 37
   },
   "Dribble Attempts": {
    "home": 20,
@@ -729,15 +729,15 @@
    "away": 39
   },
   "Successful Long Passes": {
-   "home": 17,
-   "away": 20
+   "home": 18,
+   "away": 21
   },
   "Successful Long Passes Percentage": {
    "home": 40,
-   "away": 47
+   "away": 48
   },
   "Tackles Won": {
-   "home": 17,
+   "home": 18,
    "away": 11
   }
  },
@@ -1246,14 +1246,14 @@
   },
   "123659": {
    "pass": 65,
-   "touches": 80,
-   "min": 87,
+   "touches": 81,
+   "min": 90,
    "rating": 6.59,
    "duels": 4,
    "tkl": 3,
    "duels_t": 7,
    "int": 1,
-   "clr": 4,
+   "clr": 5,
    "pass_pct": 74,
    "sot": 1,
    "sh": 1,
@@ -1265,8 +1265,8 @@
    "duels": 9,
    "tkl": 4,
    "pass": 34,
-   "min": 87,
-   "rating": 7.12,
+   "min": 90,
+   "rating": 7.28,
    "sh": 2,
    "touches": 59,
    "kp": 1,
@@ -1292,9 +1292,9 @@
    "duels_t": 5,
    "touches": 8,
    "duels": 2,
-   "rating": 7.4,
+   "rating": 8.26,
    "pass_pct": 50,
-   "min": 26,
+   "min": 29,
    "sh": 2,
    "sot": 2,
    "pass": 2,
@@ -1326,7 +1326,7 @@
    "pass_pct": 100,
    "rating": 7.97,
    "duels_t": 2,
-   "min": 26,
+   "min": 29,
    "kp": 2,
    "a": 1,
    "duels": 1,
@@ -1352,36 +1352,36 @@
   "37582048": {
    "int": 5,
    "pass": 32,
-   "duels_t": 13,
-   "tkl": 8,
-   "min": 87,
-   "touches": 54,
-   "rating": 7.48,
+   "duels_t": 15,
+   "tkl": 9,
+   "min": 90,
+   "touches": 57,
+   "rating": 7.57,
    "pass_pct": 80,
    "clr": 1,
    "fouls": 1,
-   "duels": 9,
+   "duels": 10,
    "kp": 1,
    "side": "home",
    "name": "Mika Baur"
   },
   "18584306": {
-   "min": 10,
+   "min": 13,
    "sh": 1,
    "sot": 1,
    "pass": 2,
-   "touches": 4,
-   "rating": 6.64,
+   "touches": 6,
+   "rating": 6.51,
    "duels_t": 1,
    "pass_pct": 50,
    "side": "home",
    "name": "Haissem Hassan"
   },
   "1008": {
-   "min": 87,
-   "touches": 55,
+   "min": 90,
+   "touches": 56,
    "pass_pct": 76,
-   "pass": 48,
+   "pass": 49,
    "rating": 6.89,
    "saves": 2,
    "side": "home",
@@ -1392,7 +1392,7 @@
    "touches": 46,
    "pass": 30,
    "pass_pct": 93,
-   "min": 87,
+   "min": 90,
    "clr": 5,
    "int": 3,
    "duels": 4,
@@ -1404,12 +1404,12 @@
    "name": "Callum McGregor"
   },
   "37342595": {
-   "min": 9,
-   "pass": 2,
-   "touches": 5,
-   "pass_pct": 100,
+   "min": 12,
+   "pass": 3,
+   "touches": 6,
+   "pass_pct": 67,
    "clr": 2,
-   "rating": 6.27,
+   "rating": 6.24,
    "side": "home",
    "name": "Dane Murray"
   },
@@ -1429,7 +1429,7 @@
    "name": "James Forrest"
   },
   "37732189": {
-   "min": 26,
+   "min": 29,
    "touches": 21,
    "duels": 3,
    "duels_t": 3,
@@ -1437,14 +1437,15 @@
    "int": 2,
    "pass_pct": 71,
    "tkl": 1,
-   "rating": 6.45,
+   "rating": 6.65,
+   "kp": 1,
    "side": "home",
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 6.52,
-   "touches": 54,
-   "min": 87,
+   "rating": 6.58,
+   "touches": 55,
+   "min": 90,
    "pass": 33,
    "tkl": 2,
    "pass_pct": 59,
@@ -1452,13 +1453,14 @@
    "int": 1,
    "duels": 4,
    "duels_t": 5,
+   "sh": 1,
    "side": "home",
    "name": "Kieran Tierney"
   },
   "32550": {
-   "pass": 37,
-   "touches": 45,
-   "min": 87,
+   "pass": 38,
+   "touches": 46,
+   "min": 90,
    "rating": 6.37,
    "pass_pct": 85,
    "clr": 1,
@@ -1495,17 +1497,17 @@
    "name": "Hyeon-gyu Oh"
   },
   "4545376": {
-   "touches": 14,
+   "touches": 16,
    "pass_pct": 100,
-   "pass": 11,
-   "min": 11,
-   "rating": 6.95,
+   "pass": 13,
+   "min": 14,
    "g": 1,
    "sh": 1,
    "sot": 1,
    "tkl": 1,
    "duels": 1,
    "duels_t": 1,
+   "rating": 7.06,
    "side": "away",
    "name": "Orkun Kökçü"
   },
@@ -1539,11 +1541,11 @@
   "37572227": {
    "duels": 4,
    "duels_t": 11,
-   "min": 87,
-   "rating": 7.29,
+   "min": 90,
+   "rating": 7.26,
    "kp": 2,
-   "pass": 46,
-   "touches": 66,
+   "pass": 48,
+   "touches": 68,
    "pass_pct": 86,
    "g": 1,
    "sh": 5,
@@ -1558,7 +1560,7 @@
    "rating": 7.12,
    "pass": 36,
    "touches": 61,
-   "min": 87,
+   "min": 90,
    "tkl": 1,
    "duels": 5,
    "pass_pct": 78,
@@ -1586,53 +1588,56 @@
    "name": "Vaclav Cerny"
   },
   "61780": {
-   "rating": 6.51,
-   "min": 87,
-   "duels_t": 10,
-   "pass": 37,
-   "duels": 3,
+   "rating": 6.5,
+   "min": 90,
+   "duels_t": 11,
+   "pass": 38,
+   "duels": 4,
    "sh": 4,
    "pass_pct": 88,
-   "touches": 61,
+   "touches": 64,
    "kp": 1,
+   "tkl": 1,
    "side": "away",
    "name": "Leandro Trossard"
   },
   "177988": {
-   "min": 17,
-   "pass": 4,
-   "touches": 8,
-   "duels_t": 1,
-   "rating": 6.28,
-   "pass_pct": 50,
+   "min": 20,
+   "pass": 5,
+   "touches": 10,
+   "rating": 6.23,
+   "pass_pct": 60,
+   "duels_t": 2,
    "side": "away",
    "name": "Dušan Vlahović"
   },
   "37727058": {
-   "pass": 2,
+   "pass": 5,
    "pass_pct": 100,
-   "min": 4,
+   "min": 7,
    "duels": 1,
-   "touches": 2,
+   "touches": 6,
    "duels_t": 1,
+   "rating": 6.48,
    "side": "away",
    "name": "İlhan Fakılı"
   },
   "4545417": {
-   "min": 4,
-   "pass": 1,
-   "touches": 3,
-   "pass_pct": 100,
+   "min": 7,
+   "pass": 2,
+   "pass_pct": 50,
    "int": 1,
    "duels_t": 1,
+   "rating": 6.14,
+   "touches": 6,
    "side": "away",
    "name": "Rıdvan Yılmaz"
   },
   "540319": {
-   "min": 17,
+   "min": 20,
    "pass_pct": 83,
-   "touches": 18,
-   "pass": 17,
+   "touches": 20,
+   "pass": 19,
    "duels_t": 1,
    "rating": 6.02,
    "side": "away",
@@ -1644,9 +1649,9 @@
    "duels": 4,
    "duels_t": 9,
    "tkl": 2,
-   "min": 87,
+   "min": 90,
    "touches": 92,
-   "rating": 6.71,
+   "rating": 6.74,
    "clr": 6,
    "fouls": 1,
    "pass_pct": 91,
@@ -1657,9 +1662,9 @@
    "rating": 6.53,
    "int": 2,
    "pass": 59,
-   "touches": 81,
+   "touches": 82,
    "duels": 4,
-   "min": 87,
+   "min": 90,
    "tkl": 2,
    "duels_t": 6,
    "pass_pct": 78,
@@ -2285,7 +2290,28 @@
    "t": "Goal! The score is now 2-2 between Celtic and Besiktas. Orkun Kökçü scores for Besiktas with a right-footed shot from outside the box into the bottom left corner, assisted by Ernest Poku.",
    "goal": true,
    "key": true
+  },
+  {
+   "m": 87,
+   "x": null,
+   "t": "Goal! Celtic lead 3-2 against Besiktas as Camilo Durán scores with a left-footed shot from the center of the box into the center of the goal.",
+   "goal": true,
+   "key": true
+  },
+  {
+   "m": 87,
+   "x": null,
+   "t": "Kieran Tierney from Celtic misses a left-footed shot from outside the box, sending it to the right. Colby Donovan provided the assist.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 90,
+   "x": null,
+   "t": "Dusan Vlahovic of Besiktas is caught offside.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2487
+ "rate_remaining": 2480
 }
