@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T21:52:45.086965+00:00",
+ "updated_at": "2026-11-05T21:54:15.056756+00:00",
  "live": true,
  "fixture": {
   "id": 19873888,
@@ -354,7 +354,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 94,
+ "minute": 95,
  "minute_estimated": false,
  "added_time": 5,
  "score": {
@@ -581,6 +581,18 @@
    "related": null,
    "result": null,
    "info": "Argument"
+  },
+  {
+   "id": 158553605,
+   "minute": 90,
+   "extra": 5,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Beşiktaş",
+   "player": "Emirhan Topçu",
+   "related": null,
+   "result": null,
+   "info": "Unsportsmanlike conduct"
   }
  ],
  "stats": {
@@ -597,11 +609,11 @@
    "away": 15
   },
   "Attacks": {
-   "home": 75,
-   "away": 138
+   "home": 76,
+   "away": 141
   },
   "Dangerous Attacks": {
-   "home": 26,
+   "home": 31,
    "away": 63
   },
   "Ball Possession %": {
@@ -634,7 +646,7 @@
   },
   "Goal Kicks": {
    "home": 11,
-   "away": 3
+   "away": 4
   },
   "Goal Attempts": {
    "home": 1,
@@ -642,10 +654,10 @@
   },
   "Free Kicks": {
    "home": 11,
-   "away": 8
+   "away": 9
   },
   "Fouls": {
-   "home": 9,
+   "home": 10,
    "away": 11
   },
   "Saves": {
@@ -662,7 +674,7 @@
   },
   "Throwins": {
    "home": 18,
-   "away": 15
+   "away": 16
   },
   "Long Passes": {
    "home": 50,
@@ -681,12 +693,12 @@
    "away": 1
   },
   "Passes": {
-   "home": 369,
-   "away": 588
+   "home": 372,
+   "away": 592
   },
   "Successful Passes": {
-   "home": 275,
-   "away": 506
+   "home": 278,
+   "away": 508
   },
   "Successful Passes Percentage": {
    "home": 75,
@@ -694,7 +706,7 @@
   },
   "Yellowcards": {
    "home": 1,
-   "away": 1
+   "away": 2
   },
   "Shots On Target": {
    "home": 6,
@@ -709,24 +721,24 @@
    "away": 1
   },
   "Interceptions": {
-   "home": 15,
+   "home": 17,
    "away": 14
   },
   "Duels Won": {
-   "home": 60,
-   "away": 38
+   "home": 61,
+   "away": 40
   },
   "Dribble Attempts": {
-   "home": 20,
+   "home": 22,
    "away": 23
   },
   "Successful Dribbles": {
-   "home": 12,
+   "home": 13,
    "away": 9
   },
   "Key Passes": {
    "home": 8,
-   "away": 7
+   "away": 8
   },
   "Big Chances Created": {
    "home": 2,
@@ -737,7 +749,7 @@
    "away": 2
   },
   "Successful Dribbles Percentage": {
-   "home": 60,
+   "home": 59,
    "away": 39
   },
   "Successful Long Passes": {
@@ -750,7 +762,7 @@
   },
   "Tackles Won": {
    "home": 19,
-   "away": 11
+   "away": 12
   }
  },
  "next_fixtures": [
@@ -1259,7 +1271,7 @@
   "123659": {
    "pass": 65,
    "touches": 81,
-   "min": 93,
+   "min": 94,
    "rating": 6.58,
    "duels": 4,
    "tkl": 3,
@@ -1277,10 +1289,10 @@
    "duels": 9,
    "tkl": 4,
    "pass": 35,
-   "min": 93,
-   "rating": 7.25,
+   "min": 94,
+   "rating": 7.26,
    "sh": 2,
-   "touches": 61,
+   "touches": 62,
    "kp": 1,
    "fouls": 3,
    "yc": 1,
@@ -1302,11 +1314,11 @@
   },
   "37709508": {
    "duels_t": 5,
-   "touches": 9,
+   "touches": 10,
    "duels": 2,
-   "rating": 8.26,
+   "rating": 8.24,
    "pass_pct": 50,
-   "min": 32,
+   "min": 33,
    "sh": 2,
    "sot": 2,
    "pass": 3,
@@ -1338,7 +1350,7 @@
    "pass_pct": 83,
    "rating": 8.17,
    "duels_t": 3,
-   "min": 32,
+   "min": 33,
    "kp": 2,
    "a": 1,
    "duels": 1,
@@ -1365,11 +1377,11 @@
   "37582048": {
    "int": 5,
    "pass": 32,
-   "duels_t": 16,
+   "duels_t": 17,
    "tkl": 10,
-   "min": 93,
-   "touches": 59,
-   "rating": 7.71,
+   "min": 94,
+   "touches": 60,
+   "rating": 7.61,
    "pass_pct": 81,
    "clr": 2,
    "fouls": 1,
@@ -1379,7 +1391,7 @@
    "name": "Mika Baur"
   },
   "18584306": {
-   "min": 16,
+   "min": 17,
    "sh": 1,
    "sot": 1,
    "pass": 2,
@@ -1391,11 +1403,11 @@
    "name": "Haissem Hassan"
   },
   "1008": {
-   "min": 93,
-   "touches": 57,
+   "min": 94,
+   "touches": 58,
    "pass_pct": 74,
-   "pass": 50,
-   "rating": 6.86,
+   "pass": 51,
+   "rating": 6.91,
    "saves": 2,
    "side": "home",
    "name": "Sam Johnstone"
@@ -1405,7 +1417,7 @@
    "touches": 48,
    "pass": 32,
    "pass_pct": 93,
-   "min": 93,
+   "min": 94,
    "clr": 5,
    "int": 3,
    "duels": 4,
@@ -1417,7 +1429,7 @@
    "name": "Callum McGregor"
   },
   "37342595": {
-   "min": 15,
+   "min": 16,
    "pass": 3,
    "touches": 7,
    "pass_pct": 67,
@@ -1442,7 +1454,7 @@
    "name": "James Forrest"
   },
   "37732189": {
-   "min": 32,
+   "min": 33,
    "touches": 22,
    "duels": 3,
    "duels_t": 3,
@@ -1456,9 +1468,9 @@
    "name": "Colby Donovan"
   },
   "172960": {
-   "rating": 6.7,
-   "touches": 60,
-   "min": 93,
+   "rating": 6.69,
+   "touches": 61,
+   "min": 94,
    "pass": 35,
    "tkl": 2,
    "pass_pct": 59,
@@ -1471,10 +1483,10 @@
    "name": "Kieran Tierney"
   },
   "32550": {
-   "pass": 39,
-   "touches": 47,
-   "min": 93,
-   "rating": 6.35,
+   "pass": 40,
+   "touches": 48,
+   "min": 94,
+   "rating": 6.37,
    "pass_pct": 84,
    "clr": 1,
    "saves": 3,
@@ -1513,14 +1525,14 @@
    "touches": 21,
    "pass_pct": 80,
    "pass": 18,
-   "min": 17,
+   "min": 18,
    "g": 1,
    "sh": 1,
    "sot": 1,
    "tkl": 1,
    "duels": 1,
    "duels_t": 1,
-   "rating": 7.08,
+   "rating": 7.09,
    "side": "away",
    "name": "Orkun Kökçü"
   },
@@ -1554,8 +1566,8 @@
   "37572227": {
    "duels": 4,
    "duels_t": 11,
-   "min": 93,
-   "rating": 7.28,
+   "min": 94,
+   "rating": 7.32,
    "kp": 2,
    "pass": 52,
    "touches": 74,
@@ -1570,10 +1582,10 @@
   },
   "37568511": {
    "duels_t": 14,
-   "rating": 7.15,
+   "rating": 7.16,
    "pass": 37,
    "touches": 63,
-   "min": 93,
+   "min": 94,
    "tkl": 1,
    "duels": 5,
    "pass_pct": 81,
@@ -1601,8 +1613,8 @@
    "name": "Vaclav Cerny"
   },
   "61780": {
-   "rating": 6.51,
-   "min": 93,
+   "rating": 6.65,
+   "min": 94,
    "duels_t": 11,
    "pass": 40,
    "duels": 4,
@@ -1615,10 +1627,10 @@
    "name": "Leandro Trossard"
   },
   "177988": {
-   "min": 23,
+   "min": 24,
    "pass": 6,
    "touches": 11,
-   "rating": 6.22,
+   "rating": 6.23,
    "pass_pct": 60,
    "duels_t": 2,
    "side": "away",
@@ -1627,7 +1639,7 @@
   "37727058": {
    "pass": 7,
    "pass_pct": 100,
-   "min": 10,
+   "min": 11,
    "duels": 1,
    "touches": 9,
    "duels_t": 2,
@@ -1636,7 +1648,7 @@
    "name": "İlhan Fakılı"
   },
   "4545417": {
-   "min": 10,
+   "min": 11,
    "pass": 3,
    "pass_pct": 67,
    "int": 1,
@@ -1647,10 +1659,10 @@
    "name": "Rıdvan Yılmaz"
   },
   "540319": {
-   "min": 23,
+   "min": 24,
    "pass_pct": 95,
-   "touches": 25,
-   "pass": 21,
+   "touches": 27,
+   "pass": 23,
    "duels_t": 1,
    "rating": 6.15,
    "int": 1,
@@ -1663,9 +1675,9 @@
    "duels": 4,
    "duels_t": 9,
    "tkl": 2,
-   "min": 93,
+   "min": 94,
    "touches": 95,
-   "rating": 6.75,
+   "rating": 6.74,
    "clr": 6,
    "fouls": 1,
    "pass_pct": 92,
@@ -1673,14 +1685,14 @@
    "name": "Emirhan Topçu"
   },
   "512560": {
-   "rating": 6.64,
+   "rating": 6.67,
    "int": 2,
    "pass": 62,
-   "touches": 86,
-   "duels": 5,
-   "min": 93,
-   "tkl": 2,
-   "duels_t": 7,
+   "touches": 87,
+   "duels": 6,
+   "min": 94,
+   "tkl": 3,
+   "duels_t": 8,
    "pass_pct": 78,
    "clr": 3,
    "kp": 1,
@@ -2346,7 +2358,14 @@
    "t": "Attempt missed. Junior Olaïtan from Besiktas takes a right-footed shot from outside the box, but it goes too high. Leandro Trossard provided the assist.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 90,
+   "x": 4,
+   "t": "Amir Murillo from Besiktas receives a yellow card.",
+   "goal": false,
+   "key": true
   }
  ],
- "rate_remaining": 2469
+ "rate_remaining": 2465
 }
