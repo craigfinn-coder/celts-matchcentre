@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05T21:45:15.642811+00:00",
+ "updated_at": "2026-11-05T21:45:45.129526+00:00",
  "live": true,
  "fixture": {
   "id": 19873888,
@@ -354,7 +354,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 86,
+ "minute": 87,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -567,8 +567,8 @@
    "team": "Celtic",
    "player": "Camilo Durán",
    "related": null,
-   "result": null,
-   "info": "Field Goal"
+   "result": "3-2",
+   "info": "Left foot shot"
   }
  ],
  "stats": {
@@ -709,7 +709,7 @@
    "away": 23
   },
   "Successful Dribbles": {
-   "home": 11,
+   "home": 12,
    "away": 9
   },
   "Key Passes": {
@@ -2258,5 +2258,5 @@
    "key": true
   }
  ],
- "rate_remaining": 2492
+ "rate_remaining": 2490
 }
