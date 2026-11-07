@@ -102,26 +102,26 @@
    "team_id": 284,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
    "pts": 17,
-   "p": 11,
+   "p": 12,
    "w": 5,
    "d": 2,
-   "l": 4,
-   "gf": 17,
-   "ga": 13,
-   "gd": 4
+   "l": 5,
+   "gf": 18,
+   "ga": 15,
+   "gd": 3
   },
   {
    "pos": 6,
    "team": "Dundee United",
    "team_id": 282,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
-   "pts": 16,
-   "p": 11,
+   "pts": 17,
+   "p": 12,
    "w": 4,
-   "d": 4,
+   "d": 5,
    "l": 3,
-   "gf": 16,
-   "ga": 16,
+   "gf": 17,
+   "ga": 17,
    "gd": 0
   },
   {
@@ -129,14 +129,14 @@
    "team": "St. Johnstone",
    "team_id": 734,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
-   "pts": 14,
-   "p": 12,
-   "w": 3,
+   "pts": 17,
+   "p": 13,
+   "w": 4,
    "d": 5,
    "l": 4,
-   "gf": 15,
-   "ga": 19,
-   "gd": -4
+   "gf": 17,
+   "ga": 20,
+   "gd": -3
   },
   {
    "pos": 8,
@@ -157,31 +157,45 @@
    "team": "Motherwell",
    "team_id": 309,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
-   "pts": 12,
-   "p": 12,
+   "pts": 13,
+   "p": 13,
    "w": 3,
-   "d": 3,
+   "d": 4,
    "l": 6,
-   "gf": 14,
-   "ga": 20,
+   "gf": 15,
+   "ga": 21,
    "gd": -6
   },
   {
    "pos": 10,
-   "team": "Aberdeen",
-   "team_id": 273,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
+   "team": "Hibernian",
+   "team_id": 66,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
    "pts": 11,
-   "p": 11,
+   "p": 12,
    "w": 3,
    "d": 2,
-   "l": 6,
-   "gf": 12,
-   "ga": 14,
+   "l": 7,
+   "gf": 15,
+   "ga": 17,
    "gd": -2
   },
   {
    "pos": 11,
+   "team": "Aberdeen",
+   "team_id": 273,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
+   "pts": 11,
+   "p": 12,
+   "w": 3,
+   "d": 2,
+   "l": 7,
+   "gf": 12,
+   "ga": 18,
+   "gd": -6
+  },
+  {
+   "pos": 12,
    "team": "Kilmarnock",
    "team_id": 180,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
@@ -193,20 +207,6 @@
    "gf": 13,
    "ga": 28,
    "gd": -15
-  },
-  {
-   "pos": 12,
-   "team": "Hibernian",
-   "team_id": 66,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
-   "pts": 8,
-   "p": 11,
-   "w": 2,
-   "d": 2,
-   "l": 7,
-   "gf": 11,
-   "ga": 17,
-   "gd": -6
   }
  ],
  "state_name": "Not started",
@@ -500,7 +500,7 @@
   },
   {
    "pos": 10,
-   "player": "Bradley Fink",
+   "player": "Joe Westley",
    "team": "Dundee",
    "team_id": 284,
    "goals": 4
@@ -509,16 +509,16 @@
  "top_assists": [
   {
    "pos": 1,
-   "player": "Ryan Strain",
-   "team": "Falkirk",
-   "team_id": 770,
+   "player": "Camilo Durán",
+   "team": "Celtic",
+   "team_id": 53,
    "assists": 5
   },
   {
    "pos": 2,
-   "player": "Camilo Durán",
-   "team": "Celtic",
-   "team_id": 53,
+   "player": "Ryan Strain",
+   "team": "Falkirk",
+   "team_id": 770,
    "assists": 5
   },
   {
@@ -530,10 +530,10 @@
   },
   {
    "pos": 4,
-   "player": "Benjamin Nygren",
-   "team": "Celtic",
-   "team_id": 53,
-   "assists": 3
+   "player": "Enes Alic",
+   "team": "St. Johnstone",
+   "team_id": 734,
+   "assists": 4
   },
   {
    "pos": 5,
@@ -544,30 +544,30 @@
   },
   {
    "pos": 6,
-   "player": "Jesse Randall",
+   "player": "Lyall Cameron",
    "team": "Dundee United",
    "team_id": 282,
    "assists": 3
   },
   {
    "pos": 7,
+   "player": "Jesse Randall",
+   "team": "Dundee United",
+   "team_id": 282,
+   "assists": 3
+  },
+  {
+   "pos": 8,
    "player": "Kasper Høgh",
    "team": "Celtic",
    "team_id": 53,
    "assists": 3
   },
   {
-   "pos": 8,
+   "pos": 9,
    "player": "Kevin Nisbet",
    "team": "Aberdeen",
    "team_id": 273,
-   "assists": 3
-  },
-  {
-   "pos": 9,
-   "player": "Enes Alic",
-   "team": "St. Johnstone",
-   "team_id": 734,
    "assists": 3
   },
   {
@@ -2533,5 +2533,5 @@
    }
   ]
  },
- "updated_at": "2026-11-07T15:16:21.298859+00:00"
+ "updated_at": "2026-11-07T19:44:27.926994+00:00"
 }
