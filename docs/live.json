@@ -1398,7 +1398,7 @@
     "pass": 65,
     "touches": 81,
     "min": 90,
-    "rating": 6.67,
+    "rating": 6.68,
     "duels": 4,
     "tkl": 3,
     "duels_t": 6,
@@ -1640,7 +1640,7 @@
     "min": 70,
     "sh": 1,
     "touches": 27,
-    "rating": 6.19,
+    "rating": 6.22,
     "duels": 1,
     "pass_pct": 73,
     "duels_t": 9,
@@ -1659,7 +1659,7 @@
     "sot": 1,
     "tkl": 1,
     "duels": 2,
-    "rating": 7.13,
+    "rating": 7.11,
     "duels_t": 2,
     "side": "away",
     "name": "Orkun Kökçü"
@@ -1695,7 +1695,7 @@
     "duels": 4,
     "duels_t": 11,
     "min": 90,
-    "rating": 7.3,
+    "rating": 7.31,
     "kp": 2,
     "pass": 53,
     "touches": 75,
@@ -2533,5 +2533,5 @@
    }
   ]
  },
- "updated_at": "2026-11-06T16:29:37.275075+00:00"
+ "updated_at": "2026-11-07T15:16:21.298859+00:00"
 }
