@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:13:16.355341+00:00",
+ "updated_at": "2026-11-08T17:15:46.562712+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 55,
+ "minute": 57,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -423,11 +423,11 @@
    "away": 6
   },
   "Attacks": {
-   "home": 72,
+   "home": 76,
    "away": 55
   },
   "Dangerous Attacks": {
-   "home": 41,
+   "home": 43,
    "away": 30
   },
   "Ball Possession %": {
@@ -443,7 +443,7 @@
    "away": 4
   },
   "Shots Outsidebox": {
-   "home": 5,
+   "home": 6,
    "away": 2
   },
   "Offsides": {
@@ -456,7 +456,7 @@
   },
   "Goal Kicks": {
    "home": 1,
-   "away": 8
+   "away": 9
   },
   "Goal Attempts": {
    "home": 8,
@@ -484,11 +484,11 @@
   },
   "Throwins": {
    "home": 9,
-   "away": 14
+   "away": 15
   },
   "Long Passes": {
    "home": 15,
-   "away": 28
+   "away": 31
   },
   "Successful Headers": {
    "home": 5,
@@ -503,12 +503,12 @@
    "away": 0
   },
   "Passes": {
-   "home": 309,
-   "away": 253
+   "home": 325,
+   "away": 261
   },
   "Successful Passes": {
-   "home": 278,
-   "away": 216
+   "home": 293,
+   "away": 221
   },
   "Successful Passes Percentage": {
    "home": 90,
@@ -536,7 +536,7 @@
   },
   "Duels Won": {
    "home": 20,
-   "away": 21
+   "away": 24
   },
   "Dribble Attempts": {
    "home": 5,
@@ -544,7 +544,7 @@
   },
   "Successful Dribbles": {
    "home": 0,
-   "away": 5
+   "away": 6
   },
   "Key Passes": {
    "home": 10,
@@ -568,7 +568,7 @@
   },
   "Successful Long Passes Percentage": {
    "home": 67,
-   "away": 43
+   "away": 39
   },
   "Tackles Won": {
    "home": 4,
@@ -1164,13 +1164,13 @@
  },
  "player_stats": {
   "123659": {
-   "rating": 7.86,
-   "touches": 58,
-   "pass": 51,
-   "min": 52,
+   "rating": 7.87,
+   "touches": 65,
+   "pass": 57,
+   "min": 58,
    "clr": 3,
    "int": 1,
-   "duels_t": 3,
+   "duels_t": 5,
    "pass_pct": 100,
    "g": 1,
    "sh": 1,
@@ -1196,9 +1196,9 @@
   },
   "19979885": {
    "rating": 6.69,
-   "touches": 32,
-   "min": 52,
-   "pass": 23,
+   "touches": 35,
+   "min": 58,
+   "pass": 26,
    "pass_pct": 100,
    "duels_t": 3,
    "duels": 2,
@@ -1207,14 +1207,14 @@
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 6.83,
-   "touches": 23,
-   "pass": 13,
-   "min": 52,
+   "rating": 6.86,
+   "touches": 26,
+   "pass": 15,
+   "min": 58,
    "pass_pct": 100,
    "duels_t": 4,
    "sot": 1,
-   "sh": 2,
+   "sh": 3,
    "duels": 1,
    "kp": 1,
    "clr": 1,
@@ -1222,12 +1222,12 @@
    "name": "Kasper Høgh"
   },
   "37709508": {
-   "touches": 23,
-   "pass": 13,
-   "min": 52,
+   "touches": 25,
+   "pass": 14,
+   "min": 58,
    "duels_t": 3,
    "kp": 2,
-   "rating": 7.09,
+   "rating": 7.23,
    "bcc": 1,
    "pass_pct": 86,
    "a": 1,
@@ -1239,37 +1239,38 @@
    "name": "Camilo Durán"
   },
   "37563550": {
-   "min": 7,
+   "min": 13,
    "pass_pct": 50,
-   "touches": 5,
+   "touches": 13,
    "duels_t": 2,
    "duels": 2,
-   "rating": 6.63,
-   "pass": 1,
+   "kp": 1,
+   "rating": 6.66,
+   "pass": 6,
    "side": "home",
    "name": "Hyun-jun Yang"
   },
   "1712": {
-   "rating": 7.07,
-   "clr": 4,
-   "min": 52,
+   "rating": 7.05,
+   "clr": 5,
+   "min": 58,
    "duels": 3,
    "duels_t": 4,
-   "touches": 61,
+   "touches": 69,
    "pass_pct": 100,
-   "pass": 54,
+   "pass": 61,
    "sh": 2,
    "fouls": 1,
-   "kp": 1,
+   "kp": 2,
    "side": "home",
    "name": "Cameron Carter-Vickers"
   },
   "37582048": {
    "rating": 6.83,
-   "touches": 29,
-   "pass": 23,
+   "touches": 33,
+   "pass": 27,
    "pass_pct": 50,
-   "min": 52,
+   "min": 58,
    "duels_t": 3,
    "fouls": 1,
    "clr": 1,
@@ -1284,35 +1285,36 @@
    "saves": 3,
    "rating": 7.25,
    "clr": 1,
-   "pass": 18,
-   "min": 52,
-   "touches": 25,
+   "pass": 20,
+   "min": 58,
+   "touches": 27,
    "pass_pct": 100,
    "side": "home",
    "name": "Sam Johnstone"
   },
   "8585": {
    "rating": 6.73,
-   "min": 52,
+   "min": 58,
    "duels_t": 4,
-   "pass": 26,
-   "touches": 34,
+   "pass": 30,
+   "touches": 39,
    "pass_pct": 97,
    "fouls": 1,
    "tkl": 1,
    "clr": 1,
    "duels": 1,
    "kp": 2,
+   "int": 1,
    "side": "home",
    "name": "Callum McGregor"
   },
   "37732189": {
    "rating": 6.94,
-   "pass": 23,
-   "touches": 42,
-   "min": 52,
+   "pass": 29,
+   "touches": 50,
+   "min": 58,
    "pass_pct": 100,
-   "duels_t": 4,
+   "duels_t": 6,
    "sh": 2,
    "duels": 2,
    "tkl": 2,
@@ -1325,21 +1327,21 @@
    "duels_t": 4,
    "rating": 7.02,
    "tkl": 2,
-   "touches": 41,
+   "touches": 42,
    "duels": 4,
    "pass": 26,
-   "min": 52,
-   "clr": 3,
+   "min": 58,
+   "clr": 4,
    "pass_pct": 100,
    "int": 1,
    "side": "home",
    "name": "Kieran Tierney"
   },
   "586850": {
-   "touches": 27,
+   "touches": 33,
    "rating": 6.49,
-   "pass": 16,
-   "min": 52,
+   "pass": 18,
+   "min": 58,
    "clr": 1,
    "duels": 2,
    "duels_t": 5,
@@ -1349,25 +1351,25 @@
    "name": "Jamie Brandon"
   },
   "37751592": {
-   "touches": 42,
-   "pass": 34,
-   "rating": 6.54,
-   "min": 52,
+   "touches": 47,
+   "pass": 38,
+   "rating": 6.53,
+   "min": 58,
    "duels_t": 5,
    "duels": 3,
    "pass_pct": 100,
-   "clr": 3,
+   "clr": 4,
    "tkl": 2,
    "fouls": 2,
    "side": "away",
    "name": "Cathal McCarthy"
   },
   "37341761": {
-   "pass": 5,
-   "touches": 15,
+   "pass": 6,
+   "touches": 17,
    "rating": 6.58,
    "duels_t": 4,
-   "min": 52,
+   "min": 58,
    "duels": 2,
    "pass_pct": 100,
    "tkl": 1,
@@ -1381,24 +1383,24 @@
   "7026565": {
    "rating": 6.49,
    "fouls": 2,
-   "duels_t": 7,
-   "touches": 26,
-   "min": 52,
-   "pass": 12,
+   "duels_t": 9,
+   "touches": 29,
+   "min": 58,
+   "pass": 15,
    "clr": 3,
    "int": 2,
    "sh": 1,
-   "pass_pct": 62,
-   "duels": 1,
+   "pass_pct": 64,
+   "duels": 3,
    "side": "away",
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 5.92,
-   "touches": 29,
-   "pass": 16,
+   "rating": 6.42,
+   "touches": 32,
+   "pass": 17,
    "sh": 1,
-   "min": 52,
+   "min": 58,
    "pass_pct": 100,
    "duels": 2,
    "duels_t": 3,
@@ -1408,11 +1410,11 @@
   },
   "7346244": {
    "rating": 6.63,
-   "touches": 38,
-   "min": 52,
+   "touches": 39,
+   "min": 58,
    "pass": 32,
    "int": 1,
-   "clr": 4,
+   "clr": 5,
    "pass_pct": 50,
    "duels": 1,
    "tkl": 1,
@@ -1421,11 +1423,11 @@
    "name": "George Stanger"
   },
   "13063": {
-   "pass": 31,
-   "touches": 39,
+   "pass": 34,
+   "touches": 43,
    "sot": 2,
    "sh": 2,
-   "min": 52,
+   "min": 58,
    "rating": 6.84,
    "duels_t": 4,
    "fouls": 1,
@@ -1437,12 +1439,12 @@
    "name": "Tom Lowery"
   },
   "19642679": {
-   "touches": 41,
-   "rating": 6.62,
+   "touches": 42,
+   "rating": 6.63,
    "duels": 1,
    "duels_t": 1,
-   "pass": 27,
-   "min": 52,
+   "pass": 28,
+   "min": 58,
    "clr": 2,
    "pass_pct": 33,
    "sh": 1,
@@ -1452,13 +1454,14 @@
   },
   "37674481": {
    "rating": 6.37,
-   "touches": 13,
-   "duels_t": 5,
-   "min": 52,
-   "pass": 4,
+   "touches": 17,
+   "duels_t": 7,
+   "min": 58,
+   "pass": 5,
    "kp": 1,
    "pass_pct": 100,
-   "duels": 1,
+   "tkl": 1,
+   "duels": 3,
    "side": "away",
    "name": "Ieuan Owen"
   },
@@ -1467,7 +1470,7 @@
    "pass": 42,
    "touches": 49,
    "duels": 4,
-   "min": 52,
+   "min": 58,
    "tkl": 2,
    "duels_t": 4,
    "clr": 2,
@@ -1477,13 +1480,13 @@
    "name": "Aaron Tshibola"
   },
   "1846812": {
-   "rating": 6.52,
-   "touches": 31,
-   "pass": 23,
-   "min": 52,
+   "rating": 6.53,
+   "touches": 35,
+   "pass": 26,
+   "min": 58,
    "clr": 3,
    "pass_pct": 50,
-   "saves": 1,
+   "saves": 2,
    "duels_t": 1,
    "duels": 1,
    "side": "away",
@@ -1756,7 +1759,21 @@
    "t": "Camilo Duran takes a left-footed shot, but it is saved.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 55,
+   "x": null,
+   "t": "Corner awarded.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 57,
+   "x": null,
+   "t": "Kasper Waarst Hogh takes a right-footed shot but misses.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2427
+ "rate_remaining": 2420
 }
