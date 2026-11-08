@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:47:46.449743+00:00",
+ "updated_at": "2026-11-08T17:50:16.376823+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,9 +312,9 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 89,
+ "minute": 92,
  "minute_estimated": false,
- "added_time": null,
+ "added_time": 4,
  "score": {
   "home": 1,
   "away": 0
@@ -588,7 +588,7 @@
   },
   "Shots Insidebox": {
    "home": 11,
-   "away": 4
+   "away": 5
   },
   "Shots Outsidebox": {
    "home": 9,
@@ -603,7 +603,7 @@
    "away": 0
   },
   "Goal Kicks": {
-   "home": 2,
+   "home": 4,
    "away": 15
   },
   "Goal Attempts": {
@@ -635,8 +635,8 @@
    "away": 19
   },
   "Long Passes": {
-   "home": 22,
-   "away": 47
+   "home": 27,
+   "away": 48
   },
   "Successful Headers": {
    "home": 8,
@@ -644,19 +644,19 @@
   },
   "Tackles": {
    "home": 11,
-   "away": 16
+   "away": 17
   },
   "Assists": {
    "home": 1,
    "away": 0
   },
   "Passes": {
-   "home": 502,
-   "away": 346
+   "home": 521,
+   "away": 359
   },
   "Successful Passes": {
-   "home": 448,
-   "away": 285
+   "home": 464,
+   "away": 296
   },
   "Successful Passes Percentage": {
    "home": 89,
@@ -672,11 +672,11 @@
   },
   "Total Crosses": {
    "home": 30,
-   "away": 17
+   "away": 19
   },
   "Accurate Crosses": {
    "home": 8,
-   "away": 2
+   "away": 3
   },
   "Interceptions": {
    "home": 7,
@@ -684,7 +684,7 @@
   },
   "Duels Won": {
    "home": 34,
-   "away": 35
+   "away": 36
   },
   "Dribble Attempts": {
    "home": 10,
@@ -700,23 +700,23 @@
   },
   "Big Chances Created": {
    "home": 2,
-   "away": 2
+   "away": 3
   },
   "Big Chances Missed": {
    "home": 1,
-   "away": 2
+   "away": 3
   },
   "Successful Dribbles Percentage": {
    "home": 10,
    "away": 67
   },
   "Successful Long Passes": {
-   "home": 15,
-   "away": 16
+   "home": 16,
+   "away": 17
   },
   "Successful Long Passes Percentage": {
-   "home": 68,
-   "away": 34
+   "home": 59,
+   "away": 35
   },
   "Tackles Won": {
    "home": 6,
@@ -1415,7 +1415,7 @@
    "name": "Luke McCowan"
   },
   "1712": {
-   "rating": 7.41,
+   "rating": 7.43,
    "clr": 6,
    "min": 88,
    "duels": 3,
@@ -1492,7 +1492,7 @@
   },
   "172104": {
    "min": 17,
-   "rating": 6.53,
+   "rating": 6.58,
    "pass_pct": 100,
    "touches": 6,
    "pass": 6,
@@ -1604,7 +1604,7 @@
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 6.42,
+   "rating": 5.93,
    "touches": 36,
    "pass": 21,
    "sh": 1,
@@ -1674,7 +1674,7 @@
    "name": "Michael Schjönning-Larsen"
   },
   "37674481": {
-   "rating": 6.42,
+   "rating": 6.43,
    "touches": 25,
    "duels_t": 8,
    "min": 88,
@@ -2166,7 +2166,14 @@
    "t": "James Forrest takes a left-footed shot, but it misses the target.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 89,
+   "x": null,
+   "t": "On Erik Ring, off Cathal McCarthy.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2324
+ "rate_remaining": 2316
 }
