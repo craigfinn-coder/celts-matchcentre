@@ -1,6 +1,214 @@
 {
- "updated_at": "2026-11-08T17:53:16.387648+00:00",
  "live": false,
+ "state": "FT",
+ "next_fixtures": [
+  {
+   "id": 19722745,
+   "kickoff_utc": "2026-11-21 15:00:00",
+   "league": "Premiership",
+   "venue": "Celtic Park",
+   "home": "Celtic",
+   "away": "St. Mirren",
+   "home_id": 53,
+   "away_id": 496,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png"
+  },
+  {
+   "id": 19873824,
+   "kickoff_utc": "2026-11-26 20:00:00",
+   "league": "Europa League",
+   "venue": "Estádio Manuel Marques",
+   "home": "Torreense",
+   "away": "Celtic",
+   "home_id": 7067,
+   "away_id": 53,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/27/7067.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
+  },
+  {
+   "id": 19722737,
+   "kickoff_utc": "2026-11-29 15:00:00",
+   "league": "Premiership",
+   "venue": "Tynecastle Park",
+   "home": "Hearts",
+   "away": "Celtic",
+   "home_id": 314,
+   "away_id": 53,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
+  }
+ ],
+ "standings": [
+  {
+   "pos": 1,
+   "team": "Celtic",
+   "team_id": 53,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "pts": 31,
+   "p": 13,
+   "w": 10,
+   "d": 1,
+   "l": 2,
+   "gf": 28,
+   "ga": 10,
+   "gd": 18
+  },
+  {
+   "pos": 2,
+   "team": "Rangers",
+   "team_id": 62,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
+   "pts": 27,
+   "p": 12,
+   "w": 8,
+   "d": 3,
+   "l": 1,
+   "gf": 21,
+   "ga": 9,
+   "gd": 12
+  },
+  {
+   "pos": 3,
+   "team": "Falkirk",
+   "team_id": 770,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
+   "pts": 21,
+   "p": 13,
+   "w": 6,
+   "d": 3,
+   "l": 4,
+   "gf": 20,
+   "ga": 14,
+   "gd": 6
+  },
+  {
+   "pos": 4,
+   "team": "Hearts",
+   "team_id": 314,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "pts": 20,
+   "p": 12,
+   "w": 6,
+   "d": 2,
+   "l": 4,
+   "gf": 26,
+   "ga": 22,
+   "gd": 4
+  },
+  {
+   "pos": 5,
+   "team": "Dundee",
+   "team_id": 284,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
+   "pts": 17,
+   "p": 12,
+   "w": 5,
+   "d": 2,
+   "l": 5,
+   "gf": 18,
+   "ga": 15,
+   "gd": 3
+  },
+  {
+   "pos": 6,
+   "team": "Dundee United",
+   "team_id": 282,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
+   "pts": 17,
+   "p": 12,
+   "w": 4,
+   "d": 5,
+   "l": 3,
+   "gf": 17,
+   "ga": 17,
+   "gd": 0
+  },
+  {
+   "pos": 7,
+   "team": "St. Johnstone",
+   "team_id": 734,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
+   "pts": 17,
+   "p": 13,
+   "w": 4,
+   "d": 5,
+   "l": 4,
+   "gf": 17,
+   "ga": 20,
+   "gd": -3
+  },
+  {
+   "pos": 8,
+   "team": "St. Mirren",
+   "team_id": 496,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
+   "pts": 14,
+   "p": 13,
+   "w": 4,
+   "d": 2,
+   "l": 7,
+   "gf": 12,
+   "ga": 22,
+   "gd": -10
+  },
+  {
+   "pos": 9,
+   "team": "Motherwell",
+   "team_id": 309,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
+   "pts": 13,
+   "p": 13,
+   "w": 3,
+   "d": 4,
+   "l": 6,
+   "gf": 15,
+   "ga": 21,
+   "gd": -6
+  },
+  {
+   "pos": 10,
+   "team": "Hibernian",
+   "team_id": 66,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
+   "pts": 11,
+   "p": 12,
+   "w": 3,
+   "d": 2,
+   "l": 7,
+   "gf": 15,
+   "ga": 17,
+   "gd": -2
+  },
+  {
+   "pos": 11,
+   "team": "Aberdeen",
+   "team_id": 273,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
+   "pts": 11,
+   "p": 12,
+   "w": 3,
+   "d": 2,
+   "l": 7,
+   "gf": 12,
+   "ga": 18,
+   "gd": -6
+  },
+  {
+   "pos": 12,
+   "team": "Kilmarnock",
+   "team_id": 180,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+   "pts": 9,
+   "p": 13,
+   "w": 2,
+   "d": 3,
+   "l": 8,
+   "gf": 13,
+   "ga": 29,
+   "gd": -16
+  }
+ ],
  "fixture": {
   "id": 19722750,
   "kickoff_utc": "2026-11-08 16:00:00",
@@ -310,7 +518,6 @@
   }
  },
  "lineups_confirmed": true,
- "state": "FT",
  "state_name": "Full Time",
  "minute": null,
  "minute_estimated": false,
@@ -579,8 +786,8 @@
    "away": 41
   },
   "Ball Safe": {
-   "home": 37,
-   "away": 44
+   "home": 80,
+   "away": 86
   },
   "Penalties": {
    "home": 1,
@@ -607,7 +814,7 @@
    "away": 15
   },
   "Goal Attempts": {
-   "home": 8,
+   "home": 17,
    "away": 2
   },
   "Free Kicks": {
@@ -627,8 +834,8 @@
    "away": 3
   },
   "Substitutions": {
-   "home": 5,
-   "away": 4
+   "home": 3,
+   "away": 2
   },
   "Throwins": {
    "home": 20,
@@ -639,11 +846,11 @@
    "away": 53
   },
   "Successful Headers": {
-   "home": 12,
-   "away": 6
+   "home": 16,
+   "away": 7
   },
   "Tackles": {
-   "home": 11,
+   "home": 10,
    "away": 17
   },
   "Assists": {
@@ -651,7 +858,7 @@
    "away": 0
   },
   "Passes": {
-   "home": 534,
+   "home": 535,
    "away": 375
   },
   "Successful Passes": {
@@ -683,7 +890,7 @@
    "away": 10
   },
   "Duels Won": {
-   "home": 38,
+   "home": 37,
    "away": 37
   },
   "Dribble Attempts": {
@@ -723,607 +930,21 @@
    "away": 9
   }
  },
- "next_fixtures": [
-  {
-   "id": 19722750,
-   "kickoff_utc": "2026-11-08 16:00:00",
-   "league": "Premiership",
-   "venue": "Celtic Park",
-   "home": "Celtic",
-   "away": "Kilmarnock",
-   "home_id": 53,
-   "away_id": 180,
-   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png"
-  },
-  {
-   "id": 19722745,
-   "kickoff_utc": "2026-11-21 15:00:00",
-   "league": "Premiership",
-   "venue": "Celtic Park",
-   "home": "Celtic",
-   "away": "St. Mirren",
-   "home_id": 53,
-   "away_id": 496,
-   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png"
-  },
-  {
-   "id": 19873824,
-   "kickoff_utc": "2026-11-26 20:00:00",
-   "league": "Europa League",
-   "venue": "Estádio Manuel Marques",
-   "home": "Torreense",
-   "away": "Celtic",
-   "home_id": 7067,
-   "away_id": 53,
-   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/27/7067.png",
-   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
-  }
- ],
- "standings": [
-  {
-   "pos": 1,
-   "team": "Celtic",
-   "team_id": 53,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "pts": 28,
-   "p": 12,
-   "w": 9,
-   "d": 1,
-   "l": 2,
-   "gf": 27,
-   "ga": 10,
-   "gd": 17
-  },
-  {
-   "pos": 2,
-   "team": "Rangers",
-   "team_id": 62,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 27,
-   "p": 12,
-   "w": 8,
-   "d": 3,
-   "l": 1,
-   "gf": 21,
-   "ga": 9,
-   "gd": 12
-  },
-  {
-   "pos": 3,
-   "team": "Falkirk",
-   "team_id": 770,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
-   "pts": 21,
-   "p": 13,
-   "w": 6,
-   "d": 3,
-   "l": 4,
-   "gf": 20,
-   "ga": 14,
-   "gd": 6
-  },
-  {
-   "pos": 4,
-   "team": "Hearts",
-   "team_id": 314,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-   "pts": 20,
-   "p": 12,
-   "w": 6,
-   "d": 2,
-   "l": 4,
-   "gf": 26,
-   "ga": 22,
-   "gd": 4
-  },
-  {
-   "pos": 5,
-   "team": "Dundee",
-   "team_id": 284,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
-   "pts": 17,
-   "p": 12,
-   "w": 5,
-   "d": 2,
-   "l": 5,
-   "gf": 18,
-   "ga": 15,
-   "gd": 3
-  },
-  {
-   "pos": 6,
-   "team": "Dundee United",
-   "team_id": 282,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
-   "pts": 17,
-   "p": 12,
-   "w": 4,
-   "d": 5,
-   "l": 3,
-   "gf": 17,
-   "ga": 17,
-   "gd": 0
-  },
-  {
-   "pos": 7,
-   "team": "St. Johnstone",
-   "team_id": 734,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
-   "pts": 17,
-   "p": 13,
-   "w": 4,
-   "d": 5,
-   "l": 4,
-   "gf": 17,
-   "ga": 20,
-   "gd": -3
-  },
-  {
-   "pos": 8,
-   "team": "St. Mirren",
-   "team_id": 496,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "pts": 14,
-   "p": 13,
-   "w": 4,
-   "d": 2,
-   "l": 7,
-   "gf": 12,
-   "ga": 22,
-   "gd": -10
-  },
-  {
-   "pos": 9,
-   "team": "Motherwell",
-   "team_id": 309,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
-   "pts": 13,
-   "p": 13,
-   "w": 3,
-   "d": 4,
-   "l": 6,
-   "gf": 15,
-   "ga": 21,
-   "gd": -6
-  },
-  {
-   "pos": 10,
-   "team": "Hibernian",
-   "team_id": 66,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
-   "pts": 11,
-   "p": 12,
-   "w": 3,
-   "d": 2,
-   "l": 7,
-   "gf": 15,
-   "ga": 17,
-   "gd": -2
-  },
-  {
-   "pos": 11,
-   "team": "Aberdeen",
-   "team_id": 273,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
-   "pts": 11,
-   "p": 12,
-   "w": 3,
-   "d": 2,
-   "l": 7,
-   "gf": 12,
-   "ga": 18,
-   "gd": -6
-  },
-  {
-   "pos": 12,
-   "team": "Kilmarnock",
-   "team_id": 180,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "pts": 9,
-   "p": 12,
-   "w": 2,
-   "d": 3,
-   "l": 7,
-   "gf": 13,
-   "ga": 28,
-   "gd": -15
-  }
- ],
- "live_table": true,
- "form": {
-  "home": [
-   {
-    "r": "L",
-    "score": "1-2",
-    "home": "Celtic",
-    "away": "Celta de Vigo",
-    "opp": "Celta de Vigo",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/4/36.png",
-    "date": "2026-10-22",
-    "league": "Europa League",
-    "ha": "H"
-   },
-   {
-    "r": "W",
-    "score": "1-2",
-    "home": "Hibernian",
-    "away": "Celtic",
-    "opp": "Hibernian",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
-    "date": "2026-10-25",
-    "league": "Premiership",
-    "ha": "A"
-   },
-   {
-    "r": "D",
-    "score": "2-2",
-    "home": "Celtic",
-    "away": "Dundee United",
-    "opp": "Dundee United",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
-    "date": "2026-10-28",
-    "league": "Premiership",
-    "ha": "H"
-   },
-   {
-    "r": "L",
-    "score": "2-0",
-    "home": "Falkirk",
-    "away": "Celtic",
-    "opp": "Falkirk",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
-    "date": "2026-11-01",
-    "league": "Premiership",
-    "ha": "A"
-   },
-   {
-    "r": "W",
-    "score": "3-2",
-    "home": "Celtic",
-    "away": "Beşiktaş",
-    "opp": "Beşiktaş",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/10/554.png",
-    "date": "2026-11-05",
-    "league": "Europa League",
-    "ha": "H"
-   }
-  ],
-  "away": [
-   {
-    "r": "L",
-    "score": "3-1",
-    "home": "Rangers",
-    "away": "Kilmarnock",
-    "opp": "Rangers",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-    "date": "2026-10-10",
-    "league": "Premiership",
-    "ha": "A"
-   },
-   {
-    "r": "W",
-    "score": "3-2",
-    "home": "Kilmarnock",
-    "away": "Motherwell",
-    "opp": "Motherwell",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
-    "date": "2026-10-17",
-    "league": "Premiership",
-    "ha": "H"
-   },
-   {
-    "r": "L",
-    "score": "3-0",
-    "home": "Falkirk",
-    "away": "Kilmarnock",
-    "opp": "Falkirk",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
-    "date": "2026-10-24",
-    "league": "Premiership",
-    "ha": "A"
-   },
-   {
-    "r": "L",
-    "score": "3-1",
-    "home": "Dundee",
-    "away": "Kilmarnock",
-    "opp": "Dundee",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
-    "date": "2026-10-28",
-    "league": "Premiership",
-    "ha": "A"
-   },
-   {
-    "r": "D",
-    "score": "2-2",
-    "home": "Kilmarnock",
-    "away": "St. Johnstone",
-    "opp": "St. Johnstone",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
-    "date": "2026-10-31",
-    "league": "Premiership",
-    "ha": "H"
-   }
-  ]
- },
- "h2h": [
-  {
-   "r": "W",
-   "score": "1-5",
-   "home": "Kilmarnock",
-   "away": "Celtic",
-   "opp": "Kilmarnock",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "date": "2026-08-09",
-   "league": "Premiership",
-   "ha": "A"
-  },
-  {
-   "r": "W",
-   "score": "2-3",
-   "home": "Kilmarnock",
-   "away": "Celtic",
-   "opp": "Kilmarnock",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "date": "2026-02-15",
-   "league": "Premiership",
-   "ha": "A"
-  },
-  {
-   "r": "W",
-   "score": "4-0",
-   "home": "Celtic",
-   "away": "Kilmarnock",
-   "opp": "Kilmarnock",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "date": "2025-11-09",
-   "league": "Premiership",
-   "ha": "H"
-  },
-  {
-   "r": "W",
-   "score": "1-2",
-   "home": "Kilmarnock",
-   "away": "Celtic",
-   "opp": "Kilmarnock",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "date": "2025-09-14",
-   "league": "Premiership",
-   "ha": "A"
-  },
-  {
-   "r": "W",
-   "score": "5-1",
-   "home": "Celtic",
-   "away": "Kilmarnock",
-   "opp": "Kilmarnock",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "date": "2025-04-12",
-   "league": "Premiership",
-   "ha": "H"
-  }
- ],
- "sidelined": {
-  "home": [
-   {
-    "player": "Alistair Johnston",
-    "type": "Leg Injury",
-    "since": "2026-08-10",
-    "until": null,
-    "missed": 18
-   }
-  ],
-  "away": [
-   {
-    "player": "Maksymilian Stryjek",
-    "type": "Knee Injury",
-    "since": "2026-10-09",
-    "until": null,
-    "missed": 5
-   }
-  ]
- },
- "top_scorers": [
-  {
-   "pos": 1,
-   "player": "Camilo Durán",
-   "team": "Celtic",
-   "team_id": 53,
-   "goals": 7
-  },
-  {
-   "pos": 2,
-   "player": "Ryan Naderi",
-   "team": "Rangers",
-   "team_id": 62,
-   "goals": 6
-  },
-  {
-   "pos": 3,
-   "player": "Benjamin Nygren",
-   "team": "Celtic",
-   "team_id": 53,
-   "goals": 6
-  },
-  {
-   "pos": 4,
-   "player": "Josh Fowler",
-   "team": "St. Johnstone",
-   "team_id": 734,
-   "goals": 6
-  },
-  {
-   "pos": 5,
-   "player": "Cláudio Braga",
-   "team": "Hearts",
-   "team_id": 314,
-   "goals": 5
-  },
-  {
-   "pos": 6,
-   "player": "Calvin Miller",
-   "team": "Hearts",
-   "team_id": 314,
-   "goals": 5
-  },
-  {
-   "pos": 7,
-   "player": "Jacob Murrell",
-   "team": "Falkirk",
-   "team_id": 770,
-   "goals": 5
-  },
-  {
-   "pos": 8,
-   "player": "Kevin Nisbet",
-   "team": "Aberdeen",
-   "team_id": 273,
-   "goals": 4
-  },
-  {
-   "pos": 9,
-   "player": "Kevin Kelsy",
-   "team": "Rangers",
-   "team_id": 62,
-   "goals": 4
-  },
-  {
-   "pos": 10,
-   "player": "Joe Westley",
-   "team": "Dundee",
-   "team_id": 284,
-   "goals": 4
-  }
- ],
- "top_assists": [
-  {
-   "pos": 1,
-   "player": "Camilo Durán",
-   "team": "Celtic",
-   "team_id": 53,
-   "assists": 5
-  },
-  {
-   "pos": 2,
-   "player": "Ryan Strain",
-   "team": "Falkirk",
-   "team_id": 770,
-   "assists": 5
-  },
-  {
-   "pos": 3,
-   "player": "Josh McPake",
-   "team": "Hearts",
-   "team_id": 314,
-   "assists": 5
-  },
-  {
-   "pos": 4,
-   "player": "Enes Alic",
-   "team": "St. Johnstone",
-   "team_id": 734,
-   "assists": 4
-  },
-  {
-   "pos": 5,
-   "player": "Benjamin Nygren",
-   "team": "Celtic",
-   "team_id": 53,
-   "assists": 3
-  },
-  {
-   "pos": 6,
-   "player": "Lyall Cameron",
-   "team": "Dundee United",
-   "team_id": 282,
-   "assists": 3
-  },
-  {
-   "pos": 7,
-   "player": "Kevin Nisbet",
-   "team": "Aberdeen",
-   "team_id": 273,
-   "assists": 3
-  },
-  {
-   "pos": 8,
-   "player": "Kieran Tierney",
-   "team": "Celtic",
-   "team_id": 53,
-   "assists": 3
-  },
-  {
-   "pos": 9,
-   "player": "Jesse Randall",
-   "team": "Dundee United",
-   "team_id": 282,
-   "assists": 3
-  },
-  {
-   "pos": 10,
-   "player": "Kasper Høgh",
-   "team": "Celtic",
-   "team_id": 53,
-   "assists": 3
-  }
- ],
- "info": {
-  "referee": "John Beaton",
-  "coaches": {
-   "home": "Martin O'Neill",
-   "away": "Neill McCann"
-  },
-  "weather": {
-   "temp_c": null,
-   "desc": "few clouds"
-  },
-  "tv": [
-   "Killie TV"
-  ]
- },
- "season_stats": {
-  "label": "Premiership",
-  "home": {
-   "played": 12,
-   "goals_pg": 2.25,
-   "conceded_pg": 0.83,
-   "clean_sheet_pct": 33.33,
-   "btts_pct": 50.0,
-   "possession": 61.58,
-   "corners_pg": 9.5,
-   "fouls_pg": 11.17,
-   "yellows_pg": 1.83,
-   "rating": 7.11
-  },
-  "away": {
-   "played": 12,
-   "goals_pg": 1.08,
-   "conceded_pg": 2.33,
-   "clean_sheet_pct": 16.67,
-   "btts_pct": 58.33,
-   "possession": 46.25,
-   "corners_pg": 5.33,
-   "fouls_pg": 12.0,
-   "yellows_pg": 2.0,
-   "rating": 6.69
-  }
- },
+ "result": true,
  "player_stats": {
   "123659": {
-   "rating": 8.11,
-   "touches": 106,
+   "rating": 8.16,
+   "touches": 107,
    "pass": 93,
    "min": 90,
-   "clr": 3,
+   "clr": 4,
    "int": 1,
-   "duels_t": 9,
+   "duels_t": 10,
    "pass_pct": 100,
    "g": 1,
    "sh": 1,
    "sot": 1,
-   "duels": 6,
+   "duels": 7,
    "side": "home",
    "name": "Liam Scales"
   },
@@ -1375,9 +996,9 @@
    "touches": 36,
    "pass": 22,
    "min": 90,
-   "duels_t": 5,
+   "duels_t": 6,
    "kp": 4,
-   "rating": 7.52,
+   "rating": 7.48,
    "bcc": 1,
    "pass_pct": 82,
    "a": 1,
@@ -1390,13 +1011,13 @@
   },
   "37563550": {
    "min": 45,
-   "pass_pct": 70,
-   "touches": 43,
-   "duels_t": 8,
-   "duels": 3,
+   "pass_pct": 74,
+   "touches": 45,
+   "duels_t": 9,
+   "duels": 4,
    "kp": 1,
-   "rating": 6.56,
-   "pass": 25,
+   "rating": 6.62,
+   "pass": 27,
    "sh": 2,
    "fouls": 1,
    "yc": 1,
@@ -1410,20 +1031,20 @@
    "min": 8,
    "fouls": 2,
    "duels_t": 2,
-   "rating": 6.39,
+   "rating": 6.43,
    "touches": 8,
    "side": "home",
    "name": "Luke McCowan"
   },
   "1712": {
-   "rating": 7.48,
+   "rating": 7.54,
    "clr": 6,
    "min": 90,
    "duels": 4,
    "duels_t": 5,
-   "touches": 92,
+   "touches": 95,
    "pass_pct": 100,
-   "pass": 82,
+   "pass": 85,
    "sh": 2,
    "fouls": 1,
    "kp": 2,
@@ -1433,13 +1054,14 @@
   },
   "850": {
    "min": 4,
-   "touches": 6,
-   "rating": 6.67,
+   "touches": 7,
    "pass": 6,
    "kp": 1,
    "pass_pct": 83,
    "duels": 1,
    "duels_t": 1,
+   "clr": 1,
+   "rating": 6.68,
    "side": "home",
    "name": "Alex Oxlade-Chamberlain"
   },
@@ -1462,26 +1084,26 @@
   },
   "1008": {
    "saves": 3,
-   "rating": 7.31,
+   "rating": 7.27,
    "clr": 1,
-   "pass": 33,
+   "pass": 34,
    "min": 90,
-   "touches": 43,
+   "touches": 44,
    "pass_pct": 100,
    "side": "home",
    "name": "Sam Johnstone"
   },
   "8585": {
-   "rating": 7.15,
+   "rating": 7.09,
    "min": 90,
-   "duels_t": 6,
-   "pass": 49,
+   "duels_t": 5,
+   "pass": 50,
    "touches": 61,
-   "pass_pct": 98,
+   "pass_pct": 96,
    "fouls": 1,
-   "tkl": 3,
+   "tkl": 2,
    "clr": 1,
-   "duels": 3,
+   "duels": 2,
    "kp": 3,
    "int": 1,
    "side": "home",
@@ -1494,32 +1116,31 @@
    "pass_pct": 75,
    "duels_t": 1,
    "duels": 1,
-   "rating": 6.45,
    "side": "home",
    "name": "Dane Murray"
   },
   "172104": {
    "min": 19,
-   "rating": 6.59,
+   "rating": 6.61,
    "pass_pct": 100,
-   "touches": 8,
-   "pass": 7,
+   "touches": 10,
+   "pass": 9,
    "sh": 1,
    "side": "home",
    "name": "James Forrest"
   },
   "37732189": {
-   "rating": 6.86,
-   "pass": 36,
-   "touches": 68,
+   "rating": 7.0,
+   "pass": 41,
+   "touches": 75,
    "min": 90,
    "pass_pct": 100,
-   "duels_t": 9,
+   "duels_t": 11,
    "sh": 3,
-   "duels": 2,
+   "duels": 4,
    "tkl": 2,
    "kp": 1,
-   "clr": 3,
+   "clr": 4,
    "side": "home",
    "name": "Colby Donovan"
   },
@@ -1554,18 +1175,20 @@
   },
   "37675238": {
    "pass_pct": 80,
-   "touches": 20,
+   "touches": 23,
    "min": 26,
-   "pass": 18,
-   "int": 1,
-   "rating": 6.62,
+   "pass": 20,
+   "int": 2,
+   "rating": 6.75,
+   "duels": 1,
+   "duels_t": 2,
    "side": "away",
    "name": "MJ Kamson-Kamara"
   },
   "37751592": {
    "touches": 72,
    "pass": 50,
-   "rating": 6.91,
+   "rating": 6.9,
    "min": 89,
    "duels_t": 8,
    "duels": 6,
@@ -1581,13 +1204,13 @@
   "37537029": {
    "min": 1,
    "bcc": 1,
-   "rating": 6.84,
+   "rating": 6.89,
    "duels": 1,
    "duels_t": 1,
    "tkl": 1,
    "kp": 1,
-   "pass": 2,
-   "touches": 5,
+   "pass": 4,
+   "touches": 8,
    "pass_pct": 50,
    "side": "away",
    "name": "Erik Ring"
@@ -1595,8 +1218,8 @@
   "37341761": {
    "pass": 9,
    "touches": 24,
-   "rating": 6.72,
-   "duels_t": 6,
+   "rating": 6.7,
+   "duels_t": 8,
    "min": 90,
    "duels": 4,
    "pass_pct": 100,
@@ -1626,7 +1249,7 @@
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 5.93,
+   "rating": 6.42,
    "touches": 36,
    "pass": 21,
    "sh": 1,
@@ -1639,10 +1262,10 @@
    "name": "Greg Kiltie"
   },
   "7346244": {
-   "rating": 6.83,
-   "touches": 54,
+   "rating": 6.81,
+   "touches": 59,
    "min": 90,
-   "pass": 42,
+   "pass": 47,
    "int": 1,
    "clr": 6,
    "pass_pct": 50,
@@ -1653,13 +1276,13 @@
    "name": "George Stanger"
   },
   "13063": {
-   "pass": 45,
-   "touches": 56,
+   "pass": 46,
+   "touches": 58,
    "sot": 2,
    "sh": 2,
    "min": 90,
-   "rating": 6.81,
-   "duels_t": 4,
+   "rating": 6.79,
+   "duels_t": 5,
    "fouls": 1,
    "pass_pct": 50,
    "duels": 2,
@@ -1671,18 +1294,18 @@
    "name": "Tom Lowery"
   },
   "37289467": {
-   "touches": 7,
+   "touches": 8,
    "min": 20,
-   "rating": 6.25,
+   "rating": 6.24,
    "pass_pct": 100,
-   "pass": 1,
+   "pass": 2,
    "duels_t": 1,
    "side": "away",
    "name": "Nicky Clescenco"
   },
   "19642679": {
-   "touches": 50,
-   "rating": 6.76,
+   "touches": 52,
+   "rating": 6.77,
    "duels": 2,
    "duels_t": 3,
    "pass": 31,
@@ -1697,10 +1320,10 @@
   },
   "37674481": {
    "rating": 6.52,
-   "touches": 25,
-   "duels_t": 9,
+   "touches": 27,
+   "duels_t": 8,
    "min": 90,
-   "pass": 10,
+   "pass": 11,
    "kp": 1,
    "pass_pct": 82,
    "tkl": 1,
@@ -1713,7 +1336,7 @@
    "min": 26,
    "touches": 3,
    "pass": 3,
-   "duels_t": 5,
+   "duels_t": 6,
    "rating": 6.44,
    "pass_pct": 33,
    "duels": 1,
@@ -1721,13 +1344,13 @@
    "name": "Djenairo Daniels"
   },
   "3385": {
-   "rating": 6.84,
-   "pass": 56,
-   "touches": 70,
+   "rating": 6.92,
+   "pass": 59,
+   "touches": 73,
    "duels": 5,
    "min": 90,
    "tkl": 3,
-   "duels_t": 8,
+   "duels_t": 7,
    "clr": 4,
    "pass_pct": 100,
    "int": 1,
@@ -1736,9 +1359,9 @@
    "name": "Aaron Tshibola"
   },
   "1846812": {
-   "rating": 7.68,
-   "touches": 53,
-   "pass": 38,
+   "rating": 7.65,
+   "touches": 54,
+   "pass": 39,
    "min": 90,
    "clr": 3,
    "pass_pct": 50,
@@ -2213,5 +1836,383 @@
    "key": false
   }
  ],
- "rate_remaining": 2494
+ "form": {
+  "home": [
+   {
+    "r": "W",
+    "score": "1-2",
+    "home": "Hibernian",
+    "away": "Celtic",
+    "opp": "Hibernian",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
+    "date": "2026-10-25",
+    "league": "Premiership",
+    "ha": "A"
+   },
+   {
+    "r": "D",
+    "score": "2-2",
+    "home": "Celtic",
+    "away": "Dundee United",
+    "opp": "Dundee United",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
+    "date": "2026-10-28",
+    "league": "Premiership",
+    "ha": "H"
+   },
+   {
+    "r": "L",
+    "score": "2-0",
+    "home": "Falkirk",
+    "away": "Celtic",
+    "opp": "Falkirk",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
+    "date": "2026-11-01",
+    "league": "Premiership",
+    "ha": "A"
+   },
+   {
+    "r": "W",
+    "score": "3-2",
+    "home": "Celtic",
+    "away": "Beşiktaş",
+    "opp": "Beşiktaş",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/10/554.png",
+    "date": "2026-11-05",
+    "league": "Europa League",
+    "ha": "H"
+   },
+   {
+    "r": "W",
+    "score": "1-0",
+    "home": "Celtic",
+    "away": "Kilmarnock",
+    "opp": "Kilmarnock",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+    "date": "2026-11-08",
+    "league": "Premiership",
+    "ha": "H"
+   }
+  ],
+  "away": [
+   {
+    "r": "W",
+    "score": "3-2",
+    "home": "Kilmarnock",
+    "away": "Motherwell",
+    "opp": "Motherwell",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
+    "date": "2026-10-17",
+    "league": "Premiership",
+    "ha": "H"
+   },
+   {
+    "r": "L",
+    "score": "3-0",
+    "home": "Falkirk",
+    "away": "Kilmarnock",
+    "opp": "Falkirk",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
+    "date": "2026-10-24",
+    "league": "Premiership",
+    "ha": "A"
+   },
+   {
+    "r": "L",
+    "score": "3-1",
+    "home": "Dundee",
+    "away": "Kilmarnock",
+    "opp": "Dundee",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
+    "date": "2026-10-28",
+    "league": "Premiership",
+    "ha": "A"
+   },
+   {
+    "r": "D",
+    "score": "2-2",
+    "home": "Kilmarnock",
+    "away": "St. Johnstone",
+    "opp": "St. Johnstone",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
+    "date": "2026-10-31",
+    "league": "Premiership",
+    "ha": "H"
+   },
+   {
+    "r": "L",
+    "score": "1-0",
+    "home": "Celtic",
+    "away": "Kilmarnock",
+    "opp": "Celtic",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+    "date": "2026-11-08",
+    "league": "Premiership",
+    "ha": "A"
+   }
+  ]
+ },
+ "h2h": [
+  {
+   "r": "W",
+   "score": "1-0",
+   "home": "Celtic",
+   "away": "Kilmarnock",
+   "opp": "Kilmarnock",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+   "date": "2026-11-08",
+   "league": "Premiership",
+   "ha": "H"
+  },
+  {
+   "r": "W",
+   "score": "1-5",
+   "home": "Kilmarnock",
+   "away": "Celtic",
+   "opp": "Kilmarnock",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+   "date": "2026-08-09",
+   "league": "Premiership",
+   "ha": "A"
+  },
+  {
+   "r": "W",
+   "score": "2-3",
+   "home": "Kilmarnock",
+   "away": "Celtic",
+   "opp": "Kilmarnock",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+   "date": "2026-02-15",
+   "league": "Premiership",
+   "ha": "A"
+  },
+  {
+   "r": "W",
+   "score": "4-0",
+   "home": "Celtic",
+   "away": "Kilmarnock",
+   "opp": "Kilmarnock",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+   "date": "2025-11-09",
+   "league": "Premiership",
+   "ha": "H"
+  },
+  {
+   "r": "W",
+   "score": "1-2",
+   "home": "Kilmarnock",
+   "away": "Celtic",
+   "opp": "Kilmarnock",
+   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
+   "date": "2025-09-14",
+   "league": "Premiership",
+   "ha": "A"
+  }
+ ],
+ "sidelined": {
+  "home": [
+   {
+    "player": "Alistair Johnston",
+    "type": "Leg Injury",
+    "since": "2026-08-10",
+    "until": null,
+    "missed": 18
+   }
+  ],
+  "away": [
+   {
+    "player": "Maksymilian Stryjek",
+    "type": "Knee Injury",
+    "since": "2026-10-09",
+    "until": null,
+    "missed": 5
+   }
+  ]
+ },
+ "top_scorers": [
+  {
+   "pos": 1,
+   "player": "Camilo Durán",
+   "team": "Celtic",
+   "team_id": 53,
+   "goals": 7
+  },
+  {
+   "pos": 2,
+   "player": "Jacob Murrell",
+   "team": "Falkirk",
+   "team_id": 770,
+   "goals": 7
+  },
+  {
+   "pos": 3,
+   "player": "Ryan Naderi",
+   "team": "Rangers",
+   "team_id": 62,
+   "goals": 6
+  },
+  {
+   "pos": 4,
+   "player": "Benjamin Nygren",
+   "team": "Celtic",
+   "team_id": 53,
+   "goals": 6
+  },
+  {
+   "pos": 5,
+   "player": "Cláudio Braga",
+   "team": "Hearts",
+   "team_id": 314,
+   "goals": 6
+  },
+  {
+   "pos": 6,
+   "player": "Josh Fowler",
+   "team": "St. Johnstone",
+   "team_id": 734,
+   "goals": 6
+  },
+  {
+   "pos": 7,
+   "player": "Calvin Miller",
+   "team": "Hearts",
+   "team_id": 314,
+   "goals": 5
+  },
+  {
+   "pos": 8,
+   "player": "Kevin Nisbet",
+   "team": "Aberdeen",
+   "team_id": 273,
+   "goals": 4
+  },
+  {
+   "pos": 9,
+   "player": "Kevin Kelsy",
+   "team": "Rangers",
+   "team_id": 62,
+   "goals": 4
+  },
+  {
+   "pos": 10,
+   "player": "Joe Westley",
+   "team": "Dundee",
+   "team_id": 284,
+   "goals": 4
+  }
+ ],
+ "top_assists": [
+  {
+   "pos": 1,
+   "player": "Camilo Durán",
+   "team": "Celtic",
+   "team_id": 53,
+   "assists": 6
+  },
+  {
+   "pos": 2,
+   "player": "Josh McPake",
+   "team": "Hearts",
+   "team_id": 314,
+   "assists": 6
+  },
+  {
+   "pos": 3,
+   "player": "Ryan Strain",
+   "team": "Falkirk",
+   "team_id": 770,
+   "assists": 5
+  },
+  {
+   "pos": 4,
+   "player": "Enes Alic",
+   "team": "St. Johnstone",
+   "team_id": 734,
+   "assists": 4
+  },
+  {
+   "pos": 5,
+   "player": "Kevin Nisbet",
+   "team": "Aberdeen",
+   "team_id": 273,
+   "assists": 3
+  },
+  {
+   "pos": 6,
+   "player": "Benjamin Nygren",
+   "team": "Celtic",
+   "team_id": 53,
+   "assists": 3
+  },
+  {
+   "pos": 7,
+   "player": "Lyall Cameron",
+   "team": "Dundee United",
+   "team_id": 282,
+   "assists": 3
+  },
+  {
+   "pos": 8,
+   "player": "Jesse Randall",
+   "team": "Dundee United",
+   "team_id": 282,
+   "assists": 3
+  },
+  {
+   "pos": 9,
+   "player": "Kieran Tierney",
+   "team": "Celtic",
+   "team_id": 53,
+   "assists": 3
+  },
+  {
+   "pos": 10,
+   "player": "Kasper Høgh",
+   "team": "Celtic",
+   "team_id": 53,
+   "assists": 3
+  }
+ ],
+ "info": {
+  "referee": "John Beaton",
+  "coaches": {
+   "home": "Martin O'Neill",
+   "away": "Neill McCann"
+  },
+  "weather": {
+   "temp_c": null,
+   "desc": "broken clouds"
+  },
+  "tv": [
+   "Killie TV"
+  ]
+ },
+ "season_stats": {
+  "label": "Premiership",
+  "home": {
+   "played": 13,
+   "goals_pg": 2.15,
+   "conceded_pg": 0.77,
+   "clean_sheet_pct": 38.46,
+   "btts_pct": 46.15,
+   "possession": 61.38,
+   "corners_pg": 9.38,
+   "fouls_pg": 10.85,
+   "yellows_pg": 1.77,
+   "rating": 7.1
+  },
+  "away": {
+   "played": 13,
+   "goals_pg": 1.0,
+   "conceded_pg": 2.23,
+   "clean_sheet_pct": 15.38,
+   "btts_pct": 53.85,
+   "possession": 45.85,
+   "corners_pg": 5.15,
+   "fouls_pg": 12.0,
+   "yellows_pg": 2.23,
+   "rating": 6.69
+  }
+ },
+ "updated_at": "2026-11-08T20:53:29.669608+00:00"
 }
