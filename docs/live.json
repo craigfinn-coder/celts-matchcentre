@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:34:16.414050+00:00",
+ "updated_at": "2026-11-08T17:34:46.388220+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -469,6 +469,18 @@
    "info": null
   },
   {
+   "id": 158612149,
+   "minute": 73,
+   "extra": null,
+   "type": "VAR",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Hyun-jun Yang",
+   "related": null,
+   "result": null,
+   "info": null
+  },
+  {
    "id": 158612120,
    "minute": 76,
    "extra": null,
@@ -491,7 +503,7 @@
    "away": 0
   },
   "Shots Total": {
-   "home": 16,
+   "home": 17,
    "away": 6
   },
   "Attacks": {
@@ -509,6 +521,10 @@
   "Ball Safe": {
    "home": 37,
    "away": 44
+  },
+  "Penalties": {
+   "home": 1,
+   "away": 0
   },
   "Shots Insidebox": {
    "home": 9,
@@ -591,7 +607,7 @@
    "away": 5
   },
   "Shots On Target": {
-   "home": 3,
+   "home": 4,
    "away": 3
   },
   "Total Crosses": {
@@ -607,7 +623,7 @@
    "away": 8
   },
   "Duels Won": {
-   "home": 27,
+   "home": 28,
    "away": 26
   },
   "Dribble Attempts": {
@@ -1275,6 +1291,8 @@
    "duels_t": 3,
    "duels": 2,
    "tkl": 1,
+   "sot": 1,
+   "sh": 1,
    "side": "home",
    "name": "Benjamin Nygren"
   },
@@ -1312,7 +1330,7 @@
   },
   "37563550": {
    "min": 28,
-   "pass_pct": 82,
+   "pass_pct": 83,
    "touches": 28,
    "duels_t": 3,
    "duels": 2,
@@ -1556,7 +1574,7 @@
    "min": 73,
    "pass": 7,
    "kp": 1,
-   "pass_pct": 86,
+   "pass_pct": 88,
    "tkl": 1,
    "duels": 3,
    "side": "away",
@@ -1568,6 +1586,7 @@
    "pass": 1,
    "duels_t": 1,
    "rating": 6.46,
+   "pass_pct": 50,
    "side": "away",
    "name": "Djenairo Daniels"
   },
@@ -1980,5 +1999,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2364
+ "rate_remaining": 2363
 }
