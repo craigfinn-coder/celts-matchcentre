@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:40:16.405455+00:00",
+ "updated_at": "2026-11-08T17:40:46.371544+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -503,6 +503,18 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 158612331,
+   "minute": 82,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Luke McCowan",
+   "related": "Benjamin Nygren",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -588,7 +600,7 @@
   },
   "Long Passes": {
    "home": 19,
-   "away": 43
+   "away": 44
   },
   "Successful Headers": {
    "home": 8,
@@ -604,15 +616,15 @@
   },
   "Passes": {
    "home": 469,
-   "away": 329
+   "away": 335
   },
   "Successful Passes": {
    "home": 423,
-   "away": 274
+   "away": 280
   },
   "Successful Passes Percentage": {
    "home": 90,
-   "away": 83
+   "away": 84
   },
   "Yellowcards": {
    "home": 1,
@@ -636,7 +648,7 @@
   },
   "Duels Won": {
    "home": 29,
-   "away": 29
+   "away": 30
   },
   "Dribble Attempts": {
    "home": 10,
@@ -664,11 +676,11 @@
   },
   "Successful Long Passes": {
    "home": 12,
-   "away": 15
+   "away": 16
   },
   "Successful Long Passes Percentage": {
    "home": 63,
-   "away": 35
+   "away": 36
   },
   "Tackles Won": {
    "home": 6,
@@ -1265,9 +1277,9 @@
  "player_stats": {
   "123659": {
    "rating": 8.03,
-   "touches": 90,
-   "pass": 80,
-   "min": 76,
+   "touches": 96,
+   "pass": 86,
+   "min": 83,
    "clr": 3,
    "int": 1,
    "duels_t": 7,
@@ -1296,9 +1308,9 @@
   },
   "19979885": {
    "rating": 6.8,
-   "touches": 46,
-   "min": 76,
-   "pass": 35,
+   "touches": 51,
+   "min": 82,
+   "pass": 39,
    "pass_pct": 100,
    "duels_t": 3,
    "duels": 2,
@@ -1324,11 +1336,11 @@
    "name": "Kasper Høgh"
   },
   "37709508": {
-   "touches": 33,
-   "pass": 19,
-   "min": 76,
+   "touches": 34,
+   "pass": 20,
+   "min": 83,
    "duels_t": 5,
-   "kp": 3,
+   "kp": 4,
    "rating": 7.44,
    "bcc": 1,
    "pass_pct": 80,
@@ -1341,39 +1353,48 @@
    "name": "Camilo Durán"
   },
   "37563550": {
-   "min": 31,
+   "min": 38,
    "pass_pct": 80,
-   "touches": 30,
-   "duels_t": 3,
-   "duels": 2,
+   "touches": 36,
+   "duels_t": 6,
+   "duels": 3,
    "kp": 1,
    "rating": 6.82,
-   "pass": 18,
+   "pass": 20,
    "sh": 2,
+   "fouls": 1,
+   "yc": 1,
+   "tkl": 1,
    "side": "home",
    "name": "Hyun-jun Yang"
   },
+  "1548366": {
+   "min": 1,
+   "side": "home",
+   "name": "Luke McCowan"
+  },
   "1712": {
-   "rating": 7.31,
-   "clr": 5,
-   "min": 76,
+   "rating": 7.29,
+   "clr": 6,
+   "min": 83,
    "duels": 3,
    "duels_t": 4,
-   "touches": 81,
+   "touches": 88,
    "pass_pct": 100,
-   "pass": 73,
+   "pass": 78,
    "sh": 2,
    "fouls": 1,
    "kp": 2,
+   "int": 1,
    "side": "home",
    "name": "Cameron Carter-Vickers"
   },
   "37582048": {
-   "rating": 7.05,
-   "touches": 46,
-   "pass": 36,
+   "rating": 7.07,
+   "touches": 51,
+   "pass": 40,
    "pass_pct": 50,
-   "min": 76,
+   "min": 83,
    "duels_t": 4,
    "fouls": 1,
    "clr": 1,
@@ -1381,6 +1402,7 @@
    "sh": 1,
    "duels": 2,
    "tkl": 2,
+   "int": 1,
    "side": "home",
    "name": "Mika Baur"
   },
@@ -1388,19 +1410,19 @@
    "saves": 3,
    "rating": 7.3,
    "clr": 1,
-   "pass": 25,
-   "min": 76,
-   "touches": 34,
+   "pass": 29,
+   "min": 83,
+   "touches": 39,
    "pass_pct": 100,
    "side": "home",
    "name": "Sam Johnstone"
   },
   "8585": {
    "rating": 7.08,
-   "min": 76,
+   "min": 83,
    "duels_t": 5,
-   "pass": 44,
-   "touches": 55,
+   "pass": 47,
+   "touches": 58,
    "pass_pct": 98,
    "fouls": 1,
    "tkl": 2,
@@ -1412,19 +1434,21 @@
    "name": "Callum McGregor"
   },
   "172104": {
-   "min": 5,
+   "min": 12,
    "rating": 6.56,
    "pass_pct": 100,
+   "touches": 3,
+   "pass": 3,
    "side": "home",
    "name": "James Forrest"
   },
   "37732189": {
-   "rating": 6.99,
-   "pass": 34,
-   "touches": 60,
-   "min": 76,
+   "rating": 7.01,
+   "pass": 36,
+   "touches": 66,
+   "min": 83,
    "pass_pct": 100,
-   "duels_t": 7,
+   "duels_t": 9,
    "sh": 3,
    "duels": 2,
    "tkl": 2,
@@ -1437,10 +1461,10 @@
    "duels_t": 4,
    "rating": 7.16,
    "tkl": 2,
-   "touches": 56,
+   "touches": 57,
    "duels": 4,
-   "pass": 36,
-   "min": 76,
+   "pass": 37,
+   "min": 83,
    "clr": 4,
    "pass_pct": 100,
    "int": 1,
@@ -1458,46 +1482,49 @@
    "pass_pct": 100,
    "fouls": 3,
    "tkl": 1,
+   "yc": 1,
    "side": "away",
    "name": "Jamie Brandon"
   },
   "37675238": {
    "pass_pct": 91,
-   "touches": 7,
-   "min": 12,
-   "pass": 5,
+   "touches": 13,
+   "min": 19,
+   "pass": 11,
    "int": 1,
    "rating": 6.68,
    "side": "away",
    "name": "MJ Kamson-Kamara"
   },
   "37751592": {
-   "touches": 59,
-   "pass": 47,
+   "touches": 67,
+   "pass": 49,
    "rating": 6.69,
-   "min": 76,
-   "duels_t": 5,
-   "duels": 3,
+   "min": 83,
+   "duels_t": 6,
+   "duels": 4,
    "pass_pct": 100,
    "clr": 4,
-   "tkl": 2,
+   "tkl": 3,
    "fouls": 2,
+   "yc": 1,
    "side": "away",
    "name": "Cathal McCarthy"
   },
   "37341761": {
-   "pass": 8,
-   "touches": 22,
+   "pass": 9,
+   "touches": 24,
    "rating": 6.68,
-   "duels_t": 4,
-   "min": 76,
-   "duels": 2,
+   "duels_t": 6,
+   "min": 83,
+   "duels": 4,
    "pass_pct": 100,
-   "tkl": 1,
+   "tkl": 2,
    "int": 2,
    "clr": 2,
    "fouls": 1,
    "sh": 1,
+   "yc": 1,
    "side": "away",
    "name": "Joe Hugill"
   },
@@ -1513,6 +1540,7 @@
    "sh": 1,
    "pass_pct": 60,
    "duels": 2,
+   "yc": 1,
    "side": "away",
    "name": "Tyreece John-Jules"
   },
@@ -1531,9 +1559,9 @@
   },
   "7346244": {
    "rating": 6.73,
-   "touches": 48,
-   "min": 76,
-   "pass": 37,
+   "touches": 51,
+   "min": 83,
+   "pass": 40,
    "int": 1,
    "clr": 6,
    "pass_pct": 50,
@@ -1544,11 +1572,11 @@
    "name": "George Stanger"
   },
   "13063": {
-   "pass": 40,
-   "touches": 50,
+   "pass": 41,
+   "touches": 52,
    "sot": 2,
    "sh": 2,
-   "min": 76,
+   "min": 83,
    "rating": 6.84,
    "duels_t": 4,
    "fouls": 1,
@@ -1557,24 +1585,27 @@
    "tkl": 2,
    "kp": 1,
    "clr": 1,
+   "yc": 1,
    "side": "away",
    "name": "Tom Lowery"
   },
   "37289467": {
-   "touches": 2,
-   "min": 6,
+   "touches": 5,
+   "min": 13,
    "rating": 6.36,
    "pass_pct": 100,
+   "pass": 1,
+   "duels_t": 1,
    "side": "away",
    "name": "Nicky Clescenco"
   },
   "19642679": {
-   "touches": 45,
+   "touches": 48,
    "rating": 6.69,
-   "duels": 1,
-   "duels_t": 2,
-   "pass": 29,
-   "min": 76,
+   "duels": 2,
+   "duels_t": 3,
+   "pass": 30,
+   "min": 83,
    "clr": 2,
    "pass_pct": 33,
    "sh": 1,
@@ -1585,10 +1616,10 @@
   },
   "37674481": {
    "rating": 6.45,
-   "touches": 22,
+   "touches": 23,
    "duels_t": 8,
-   "min": 76,
-   "pass": 8,
+   "min": 83,
+   "pass": 9,
    "kp": 1,
    "pass_pct": 89,
    "tkl": 1,
@@ -1597,7 +1628,7 @@
    "name": "Ieuan Owen"
   },
   "32777741": {
-   "min": 12,
+   "min": 19,
    "touches": 2,
    "pass": 2,
    "duels_t": 1,
@@ -1608,13 +1639,13 @@
   },
   "3385": {
    "rating": 6.71,
-   "pass": 50,
-   "touches": 61,
+   "pass": 53,
+   "touches": 65,
    "duels": 4,
-   "min": 76,
+   "min": 83,
    "tkl": 2,
    "duels_t": 6,
-   "clr": 3,
+   "clr": 4,
    "pass_pct": 100,
    "int": 1,
    "fouls": 2,
@@ -1623,12 +1654,12 @@
   },
   "1846812": {
    "rating": 7.35,
-   "touches": 45,
-   "pass": 33,
-   "min": 76,
+   "touches": 50,
+   "pass": 36,
+   "min": 83,
    "clr": 3,
    "pass_pct": 50,
-   "saves": 3,
+   "saves": 4,
    "duels_t": 1,
    "duels": 1,
    "side": "away",
@@ -2041,7 +2072,21 @@
    "t": "Yang Hyun-Jun attempts a header but misses the shot.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 82,
+   "x": null,
+   "t": "Yellow card shown to Yang Hyun-Jun.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 82,
+   "x": null,
+   "t": "Luke McCowan is substituted for Benjamin Nygren.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2346
+ "rate_remaining": 2345
 }
