@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:15:46.562712+00:00",
+ "updated_at": "2026-11-08T17:18:46.408198+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 57,
+ "minute": 60,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -407,32 +407,44 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 158611713,
+   "minute": 61,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Kilmarnock",
+   "player": "Tyreece John-Jules",
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
   "Corners": {
-   "home": 6,
+   "home": 7,
    "away": 3
   },
   "Shots Off Target": {
-   "home": 6,
+   "home": 8,
    "away": 0
   },
   "Shots Total": {
-   "home": 11,
+   "home": 13,
    "away": 6
   },
   "Attacks": {
-   "home": 76,
+   "home": 81,
    "away": 55
   },
   "Dangerous Attacks": {
-   "home": 43,
+   "home": 45,
    "away": 30
   },
   "Ball Possession %": {
-   "home": 56,
-   "away": 44
+   "home": 58,
+   "away": 42
   },
   "Ball Safe": {
    "home": 37,
@@ -443,7 +455,7 @@
    "away": 4
   },
   "Shots Outsidebox": {
-   "home": 6,
+   "home": 7,
    "away": 2
   },
   "Offsides": {
@@ -456,19 +468,19 @@
   },
   "Goal Kicks": {
    "home": 1,
-   "away": 9
+   "away": 10
   },
   "Goal Attempts": {
    "home": 8,
    "away": 2
   },
   "Free Kicks": {
-   "home": 9,
+   "home": 10,
    "away": 4
   },
   "Fouls": {
    "home": 4,
-   "away": 9
+   "away": 10
   },
   "Saves": {
    "home": 3,
@@ -483,12 +495,12 @@
    "away": 0
   },
   "Throwins": {
-   "home": 9,
+   "home": 10,
    "away": 15
   },
   "Long Passes": {
-   "home": 15,
-   "away": 31
+   "home": 16,
+   "away": 33
   },
   "Successful Headers": {
    "home": 5,
@@ -503,16 +515,16 @@
    "away": 0
   },
   "Passes": {
-   "home": 325,
-   "away": 261
+   "home": 353,
+   "away": 264
   },
   "Successful Passes": {
-   "home": 293,
-   "away": 221
+   "home": 318,
+   "away": 222
   },
   "Successful Passes Percentage": {
    "home": 90,
-   "away": 85
+   "away": 84
   },
   "Yellowcards": {
    "home": 0,
@@ -523,7 +535,7 @@
    "away": 3
   },
   "Total Crosses": {
-   "home": 24,
+   "home": 25,
    "away": 13
   },
   "Accurate Crosses": {
@@ -532,11 +544,11 @@
   },
   "Interceptions": {
    "home": 5,
-   "away": 6
+   "away": 7
   },
   "Duels Won": {
-   "home": 20,
-   "away": 24
+   "home": 22,
+   "away": 23
   },
   "Dribble Attempts": {
    "home": 5,
@@ -547,7 +559,7 @@
    "away": 6
   },
   "Key Passes": {
-   "home": 10,
+   "home": 12,
    "away": 2
   },
   "Big Chances Created": {
@@ -563,12 +575,12 @@
    "away": 86
   },
   "Successful Long Passes": {
-   "home": 10,
+   "home": 11,
    "away": 12
   },
   "Successful Long Passes Percentage": {
-   "home": 67,
-   "away": 39
+   "home": 69,
+   "away": 36
   },
   "Tackles Won": {
    "home": 4,
@@ -1195,7 +1207,7 @@
    "name": "Jota"
   },
   "19979885": {
-   "rating": 6.69,
+   "rating": 6.71,
    "touches": 35,
    "min": 58,
    "pass": 26,
@@ -1207,7 +1219,7 @@
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 6.86,
+   "rating": 6.95,
    "touches": 26,
    "pass": 15,
    "min": 58,
@@ -1227,9 +1239,9 @@
    "min": 58,
    "duels_t": 3,
    "kp": 2,
-   "rating": 7.23,
+   "rating": 7.25,
    "bcc": 1,
-   "pass_pct": 86,
+   "pass_pct": 81,
    "a": 1,
    "duels": 1,
    "fouls": 1,
@@ -1240,18 +1252,18 @@
   },
   "37563550": {
    "min": 13,
-   "pass_pct": 50,
+   "pass_pct": 63,
    "touches": 13,
    "duels_t": 2,
    "duels": 2,
    "kp": 1,
-   "rating": 6.66,
+   "rating": 6.7,
    "pass": 6,
    "side": "home",
    "name": "Hyun-jun Yang"
   },
   "1712": {
-   "rating": 7.05,
+   "rating": 7.24,
    "clr": 5,
    "min": 58,
    "duels": 3,
@@ -1266,7 +1278,7 @@
    "name": "Cameron Carter-Vickers"
   },
   "37582048": {
-   "rating": 6.83,
+   "rating": 6.86,
    "touches": 33,
    "pass": 27,
    "pass_pct": 50,
@@ -1283,7 +1295,7 @@
   },
   "1008": {
    "saves": 3,
-   "rating": 7.25,
+   "rating": 7.3,
    "clr": 1,
    "pass": 20,
    "min": 58,
@@ -1293,7 +1305,7 @@
    "name": "Sam Johnstone"
   },
   "8585": {
-   "rating": 6.73,
+   "rating": 6.81,
    "min": 58,
    "duels_t": 4,
    "pass": 30,
@@ -1309,13 +1321,13 @@
    "name": "Callum McGregor"
   },
   "37732189": {
-   "rating": 6.94,
+   "rating": 6.86,
    "pass": 29,
    "touches": 50,
    "min": 58,
    "pass_pct": 100,
    "duels_t": 6,
-   "sh": 2,
+   "sh": 3,
    "duels": 2,
    "tkl": 2,
    "kp": 1,
@@ -1325,7 +1337,7 @@
   },
   "172960": {
    "duels_t": 4,
-   "rating": 7.02,
+   "rating": 7.06,
    "tkl": 2,
    "touches": 42,
    "duels": 4,
@@ -1339,7 +1351,7 @@
   },
   "586850": {
    "touches": 33,
-   "rating": 6.49,
+   "rating": 6.43,
    "pass": 18,
    "min": 58,
    "clr": 1,
@@ -1353,7 +1365,7 @@
   "37751592": {
    "touches": 47,
    "pass": 38,
-   "rating": 6.53,
+   "rating": 6.56,
    "min": 58,
    "duels_t": 5,
    "duels": 3,
@@ -1367,7 +1379,7 @@
   "37341761": {
    "pass": 6,
    "touches": 17,
-   "rating": 6.58,
+   "rating": 6.59,
    "duels_t": 4,
    "min": 58,
    "duels": 2,
@@ -1381,7 +1393,7 @@
    "name": "Joe Hugill"
   },
   "7026565": {
-   "rating": 6.49,
+   "rating": 6.55,
    "fouls": 2,
    "duels_t": 9,
    "touches": 29,
@@ -1396,7 +1408,7 @@
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 6.42,
+   "rating": 5.92,
    "touches": 32,
    "pass": 17,
    "sh": 1,
@@ -1409,7 +1421,7 @@
    "name": "Greg Kiltie"
   },
   "7346244": {
-   "rating": 6.63,
+   "rating": 6.67,
    "touches": 39,
    "min": 58,
    "pass": 32,
@@ -1428,7 +1440,7 @@
    "sot": 2,
    "sh": 2,
    "min": 58,
-   "rating": 6.84,
+   "rating": 6.87,
    "duels_t": 4,
    "fouls": 1,
    "pass_pct": 50,
@@ -1453,7 +1465,7 @@
    "name": "Michael Schjönning-Larsen"
   },
   "37674481": {
-   "rating": 6.37,
+   "rating": 6.52,
    "touches": 17,
    "duels_t": 7,
    "min": 58,
@@ -1480,7 +1492,7 @@
    "name": "Aaron Tshibola"
   },
   "1846812": {
-   "rating": 6.53,
+   "rating": 6.69,
    "touches": 35,
    "pass": 26,
    "min": 58,
@@ -1775,5 +1787,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2420
+ "rate_remaining": 2411
 }
