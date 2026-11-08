@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-05T22:43:47+00:00",
+ "updated": "2026-11-08T21:15:26+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 20,
-  "w": 12,
+  "p": 21,
+  "w": 13,
   "d": 1,
   "l": 7,
-  "gf": 41,
+  "gf": 42,
   "ga": 29
  },
  "fixtures": [
@@ -648,12 +648,18 @@
    "ha": "H",
    "opp": "Kilmarnock",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
-   "state": "NS",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
-   "score": null,
-   "half_time": null,
-   "result": null,
+   "score": {
+    "home": 1,
+    "away": 0
+   },
+   "half_time": {
+    "home": 1,
+    "away": 0
+   },
+   "result": "W",
    "tv": []
   },
   {
