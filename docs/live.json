@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:03:46.383254+00:00",
+ "updated_at": "2026-11-08T17:04:46.386345+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 45,
+ "minute": 46,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -386,7 +386,7 @@
   },
   {
    "id": 158611151,
-   "minute": 45,
+   "minute": 46,
    "extra": null,
    "type": "Substitution",
    "side": "home",
@@ -415,7 +415,7 @@
    "away": 50
   },
   "Dangerous Attacks": {
-   "home": 32,
+   "home": 33,
    "away": 26
   },
   "Ball Possession %": {
@@ -1195,7 +1195,7 @@
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 6.84,
+   "rating": 6.83,
    "touches": 20,
    "pass": 12,
    "min": 46,
@@ -1370,7 +1370,7 @@
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 6.41,
+   "rating": 5.91,
    "touches": 28,
    "pass": 15,
    "sh": 1,
@@ -1689,7 +1689,14 @@
    "t": "First half ends with a score of 1-0.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 46,
+   "x": null,
+   "t": "On comes Yang Hyun-Jun, while Joao Pedro Neves Filipe goes off.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2456
+ "rate_remaining": 2453
 }
