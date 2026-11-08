@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T16:51:46.652892+00:00",
+ "updated_at": "2026-11-08T17:00:46.391579+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -410,6 +410,10 @@
    "home": 53,
    "away": 47
   },
+  "Ball Safe": {
+   "home": 37,
+   "away": 44
+  },
   "Shots Insidebox": {
    "home": 5,
    "away": 4
@@ -429,6 +433,10 @@
   "Goal Kicks": {
    "home": 0,
    "away": 5
+  },
+  "Goal Attempts": {
+   "home": 8,
+   "away": 2
   },
   "Free Kicks": {
    "home": 7,
@@ -1344,8 +1352,7 @@
    "rating": 5.94,
    "touches": 27,
    "pass": 13,
-   "sh": 2,
-   "sot": 1,
+   "sh": 1,
    "min": 46,
    "pass_pct": 100,
    "duels": 2,
@@ -1371,8 +1378,8 @@
   "13063": {
    "pass": 28,
    "touches": 35,
-   "sot": 1,
-   "sh": 1,
+   "sot": 2,
+   "sh": 2,
    "min": 46,
    "rating": 6.68,
    "duels_t": 4,
@@ -1449,13 +1456,6 @@
    "m": 1,
    "x": null,
    "t": "Tom Lowery takes a right-footed shot, but it's saved.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 1,
-   "x": null,
-   "t": "Greg Kiltie's right-footed shot is saved.",
    "goal": false,
    "key": false
   },
@@ -1670,5 +1670,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2492
+ "rate_remaining": 2465
 }
