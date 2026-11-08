@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:22:46.393741+00:00",
+ "updated_at": "2026-11-08T17:25:16.380326+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 64,
+ "minute": 67,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -447,7 +447,7 @@
  ],
  "stats": {
   "Corners": {
-   "home": 7,
+   "home": 8,
    "away": 3
   },
   "Shots Off Target": {
@@ -455,27 +455,27 @@
    "away": 0
   },
   "Shots Total": {
-   "home": 14,
+   "home": 16,
    "away": 6
   },
   "Attacks": {
-   "home": 86,
+   "home": 89,
    "away": 56
   },
   "Dangerous Attacks": {
-   "home": 52,
+   "home": 55,
    "away": 30
   },
   "Ball Possession %": {
-   "home": 58,
-   "away": 42
+   "home": 59,
+   "away": 41
   },
   "Ball Safe": {
    "home": 37,
    "away": 44
   },
   "Shots Insidebox": {
-   "home": 7,
+   "home": 9,
    "away": 4
   },
   "Shots Outsidebox": {
@@ -511,7 +511,7 @@
    "away": 2
   },
   "Shots Blocked": {
-   "home": 2,
+   "home": 4,
    "away": 3
   },
   "Substitutions": {
@@ -519,12 +519,12 @@
    "away": 2
   },
   "Throwins": {
-   "home": 10,
+   "home": 13,
    "away": 15
   },
   "Long Passes": {
-   "home": 17,
-   "away": 35
+   "home": 18,
+   "away": 37
   },
   "Successful Headers": {
    "home": 6,
@@ -539,12 +539,12 @@
    "away": 0
   },
   "Passes": {
-   "home": 373,
-   "away": 272
+   "home": 395,
+   "away": 282
   },
   "Successful Passes": {
-   "home": 334,
-   "away": 225
+   "home": 354,
+   "away": 233
   },
   "Successful Passes Percentage": {
    "home": 90,
@@ -559,19 +559,19 @@
    "away": 3
   },
   "Total Crosses": {
-   "home": 26,
+   "home": 28,
    "away": 13
   },
   "Accurate Crosses": {
-   "home": 7,
+   "home": 8,
    "away": 1
   },
   "Interceptions": {
    "home": 5,
-   "away": 7
+   "away": 8
   },
   "Duels Won": {
-   "home": 24,
+   "home": 25,
    "away": 24
   },
   "Dribble Attempts": {
@@ -600,11 +600,11 @@
   },
   "Successful Long Passes": {
    "home": 11,
-   "away": 12
+   "away": 13
   },
   "Successful Long Passes Percentage": {
-   "home": 65,
-   "away": 34
+   "home": 61,
+   "away": 35
   },
   "Tackles Won": {
    "home": 5,
@@ -1243,14 +1243,14 @@
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 6.95,
+   "rating": 6.99,
    "touches": 26,
    "pass": 15,
    "min": 58,
    "pass_pct": 100,
    "duels_t": 4,
    "sot": 1,
-   "sh": 3,
+   "sh": 5,
    "duels": 1,
    "kp": 1,
    "clr": 1,
@@ -1276,18 +1276,18 @@
   },
   "37563550": {
    "min": 13,
-   "pass_pct": 73,
+   "pass_pct": 77,
    "touches": 13,
    "duels_t": 2,
    "duels": 2,
    "kp": 1,
-   "rating": 6.71,
+   "rating": 6.72,
    "pass": 6,
    "side": "home",
    "name": "Hyun-jun Yang"
   },
   "1712": {
-   "rating": 7.24,
+   "rating": 7.22,
    "clr": 5,
    "min": 58,
    "duels": 3,
@@ -1387,7 +1387,8 @@
    "name": "Jamie Brandon"
   },
   "37675238": {
-   "min": 2,
+   "pass_pct": 100,
+   "min": 4,
    "side": "away",
    "name": "MJ Kamson-Kamara"
   },
@@ -1422,7 +1423,7 @@
    "name": "Joe Hugill"
   },
   "7026565": {
-   "rating": 6.55,
+   "rating": 6.56,
    "fouls": 2,
    "duels_t": 9,
    "touches": 29,
@@ -1437,7 +1438,7 @@
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 5.92,
+   "rating": 6.45,
    "touches": 32,
    "pass": 17,
    "sh": 1,
@@ -1507,7 +1508,7 @@
    "name": "Ieuan Owen"
   },
   "32777741": {
-   "min": 2,
+   "min": 4,
    "side": "away",
    "name": "Djenairo Daniels"
   },
@@ -1854,7 +1855,35 @@
    "t": "Goal! The score is now 2-0.",
    "goal": false,
    "key": true
+  },
+  {
+   "m": 63,
+   "x": null,
+   "t": "Offside.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 64,
+   "x": null,
+   "t": "Djenairo Daniels comes on for Tyreece John Jules.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 64,
+   "x": null,
+   "t": "MJ Kamara is substituted for Jamie Brandon.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 65,
+   "x": null,
+   "t": "Kasper Waarst Hogh takes a right-footed shot, but it is blocked.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2399
+ "rate_remaining": 2391
 }
