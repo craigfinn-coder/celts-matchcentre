@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:22:16.394601+00:00",
+ "updated_at": "2026-11-08T17:22:46.393741+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -431,6 +431,18 @@
    "related": "Tyreece John-Jules",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158611798,
+   "minute": 64,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Kilmarnock",
+   "player": "MJ Kamson-Kamara",
+   "related": "Jamie Brandon",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -504,7 +516,7 @@
   },
   "Substitutions": {
    "home": 1,
-   "away": 0
+   "away": 2
   },
   "Throwins": {
    "home": 10,
@@ -1374,6 +1386,11 @@
    "side": "away",
    "name": "Jamie Brandon"
   },
+  "37675238": {
+   "min": 2,
+   "side": "away",
+   "name": "MJ Kamson-Kamara"
+  },
   "37751592": {
    "touches": 47,
    "pass": 38,
@@ -1414,7 +1431,7 @@
    "clr": 3,
    "int": 2,
    "sh": 1,
-   "pass_pct": 64,
+   "pass_pct": 60,
    "duels": 3,
    "side": "away",
    "name": "Tyreece John-Jules"
@@ -1488,6 +1505,11 @@
    "duels": 3,
    "side": "away",
    "name": "Ieuan Owen"
+  },
+  "32777741": {
+   "min": 2,
+   "side": "away",
+   "name": "Djenairo Daniels"
   },
   "3385": {
    "rating": 6.95,
@@ -1834,5 +1856,5 @@
    "key": true
   }
  ],
- "rate_remaining": 2400
+ "rate_remaining": 2399
 }
