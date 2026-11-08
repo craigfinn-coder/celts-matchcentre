@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:02:46.400704+00:00",
+ "updated_at": "2026-11-08T17:03:16.484207+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -310,8 +310,8 @@
   }
  },
  "lineups_confirmed": true,
- "state": "HT",
- "state_name": "Half Time",
+ "state": "INPLAY_2ND_HALF",
+ "state_name": "2nd Half",
  "minute": 45,
  "minute_estimated": false,
  "added_time": null,
@@ -465,6 +465,10 @@
   "Shots Blocked": {
    "home": 1,
    "away": 3
+  },
+  "Substitutions": {
+   "home": 1,
+   "away": 0
   },
   "Throwins": {
    "home": 7,
@@ -1682,5 +1686,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2459
+ "rate_remaining": 2457
 }
