@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:34:46.388220+00:00",
+ "updated_at": "2026-11-08T17:36:46.409384+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 76,
+ "minute": 78,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -499,20 +499,20 @@
    "away": 3
   },
   "Shots Off Target": {
-   "home": 9,
+   "home": 10,
    "away": 0
   },
   "Shots Total": {
-   "home": 17,
+   "home": 19,
    "away": 6
   },
   "Attacks": {
-   "home": 95,
-   "away": 60
+   "home": 100,
+   "away": 61
   },
   "Dangerous Attacks": {
    "home": 59,
-   "away": 32
+   "away": 34
   },
   "Ball Possession %": {
    "home": 59,
@@ -527,7 +527,7 @@
    "away": 0
   },
   "Shots Insidebox": {
-   "home": 9,
+   "home": 11,
    "away": 4
   },
   "Shots Outsidebox": {
@@ -560,7 +560,7 @@
   },
   "Saves": {
    "home": 3,
-   "away": 3
+   "away": 4
   },
   "Shots Blocked": {
    "home": 4,
@@ -571,32 +571,32 @@
    "away": 3
   },
   "Throwins": {
-   "home": 13,
-   "away": 16
+   "home": 14,
+   "away": 17
   },
   "Long Passes": {
-   "home": 18,
-   "away": 41
+   "home": 19,
+   "away": 42
   },
   "Successful Headers": {
-   "home": 7,
+   "home": 8,
    "away": 4
   },
   "Tackles": {
    "home": 9,
-   "away": 12
+   "away": 13
   },
   "Assists": {
    "home": 1,
    "away": 0
   },
   "Passes": {
-   "home": 434,
-   "away": 313
+   "home": 446,
+   "away": 318
   },
   "Successful Passes": {
-   "home": 390,
-   "away": 261
+   "home": 402,
+   "away": 265
   },
   "Successful Passes Percentage": {
    "home": 90,
@@ -607,16 +607,16 @@
    "away": 5
   },
   "Shots On Target": {
-   "home": 4,
+   "home": 5,
    "away": 3
   },
   "Total Crosses": {
    "home": 29,
-   "away": 14
+   "away": 16
   },
   "Accurate Crosses": {
    "home": 8,
-   "away": 1
+   "away": 2
   },
   "Interceptions": {
    "home": 5,
@@ -624,10 +624,10 @@
   },
   "Duels Won": {
    "home": 28,
-   "away": 26
+   "away": 28
   },
   "Dribble Attempts": {
-   "home": 8,
+   "home": 9,
    "away": 9
   },
   "Successful Dribbles": {
@@ -635,7 +635,7 @@
    "away": 6
   },
   "Key Passes": {
-   "home": 12,
+   "home": 14,
    "away": 2
   },
   "Big Chances Created": {
@@ -647,20 +647,20 @@
    "away": 2
   },
   "Successful Dribbles Percentage": {
-   "home": 13,
+   "home": 11,
    "away": 67
   },
   "Successful Long Passes": {
-   "home": 11,
-   "away": 14
+   "home": 12,
+   "away": 15
   },
   "Successful Long Passes Percentage": {
-   "home": 61,
-   "away": 34
+   "home": 63,
+   "away": 36
   },
   "Tackles Won": {
    "home": 5,
-   "away": 5
+   "away": 6
   }
  },
  "next_fixtures": [
@@ -1255,7 +1255,7 @@
    "rating": 8.03,
    "touches": 90,
    "pass": 80,
-   "min": 73,
+   "min": 76,
    "clr": 3,
    "int": 1,
    "duels_t": 7,
@@ -1283,16 +1283,16 @@
    "name": "Jota"
   },
   "19979885": {
-   "rating": 6.78,
-   "touches": 45,
-   "min": 73,
+   "rating": 6.8,
+   "touches": 46,
+   "min": 76,
    "pass": 35,
    "pass_pct": 100,
    "duels_t": 3,
    "duels": 2,
    "tkl": 1,
-   "sot": 1,
-   "sh": 1,
+   "sot": 2,
+   "sh": 2,
    "side": "home",
    "name": "Benjamin Nygren"
   },
@@ -1314,12 +1314,12 @@
   "37709508": {
    "touches": 33,
    "pass": 19,
-   "min": 73,
+   "min": 76,
    "duels_t": 5,
-   "kp": 2,
-   "rating": 7.29,
+   "kp": 3,
+   "rating": 7.44,
    "bcc": 1,
-   "pass_pct": 79,
+   "pass_pct": 80,
    "a": 1,
    "duels": 2,
    "fouls": 1,
@@ -1329,27 +1329,27 @@
    "name": "Camilo Durán"
   },
   "37563550": {
-   "min": 28,
+   "min": 31,
    "pass_pct": 83,
-   "touches": 28,
+   "touches": 30,
    "duels_t": 3,
    "duels": 2,
    "kp": 1,
-   "rating": 6.66,
-   "pass": 17,
-   "sh": 1,
+   "rating": 6.71,
+   "pass": 18,
+   "sh": 2,
    "side": "home",
    "name": "Hyun-jun Yang"
   },
   "1712": {
-   "rating": 7.29,
+   "rating": 7.28,
    "clr": 5,
-   "min": 73,
+   "min": 76,
    "duels": 3,
    "duels_t": 4,
-   "touches": 80,
+   "touches": 81,
    "pass_pct": 100,
-   "pass": 72,
+   "pass": 73,
    "sh": 2,
    "fouls": 1,
    "kp": 2,
@@ -1361,7 +1361,7 @@
    "touches": 46,
    "pass": 36,
    "pass_pct": 50,
-   "min": 73,
+   "min": 76,
    "duels_t": 4,
    "fouls": 1,
    "clr": 1,
@@ -1377,30 +1377,32 @@
    "rating": 7.3,
    "clr": 1,
    "pass": 25,
-   "min": 73,
+   "min": 76,
    "touches": 34,
    "pass_pct": 100,
    "side": "home",
    "name": "Sam Johnstone"
   },
   "8585": {
-   "rating": 7.01,
-   "min": 73,
-   "duels_t": 4,
-   "pass": 43,
-   "touches": 53,
+   "rating": 7.08,
+   "min": 76,
+   "duels_t": 5,
+   "pass": 44,
+   "touches": 55,
    "pass_pct": 98,
    "fouls": 1,
-   "tkl": 1,
+   "tkl": 2,
    "clr": 1,
-   "duels": 1,
+   "duels": 2,
    "kp": 3,
    "int": 1,
    "side": "home",
    "name": "Callum McGregor"
   },
   "172104": {
-   "min": 2,
+   "min": 5,
+   "rating": 6.5,
+   "pass_pct": 100,
    "side": "home",
    "name": "James Forrest"
   },
@@ -1408,7 +1410,7 @@
    "rating": 6.99,
    "pass": 34,
    "touches": 60,
-   "min": 73,
+   "min": 76,
    "pass_pct": 100,
    "duels_t": 7,
    "sh": 3,
@@ -1426,7 +1428,7 @@
    "touches": 56,
    "duels": 4,
    "pass": 36,
-   "min": 73,
+   "min": 76,
    "clr": 4,
    "pass_pct": 100,
    "int": 1,
@@ -1450,7 +1452,7 @@
   "37675238": {
    "pass_pct": 100,
    "touches": 7,
-   "min": 9,
+   "min": 12,
    "pass": 5,
    "int": 1,
    "rating": 6.68,
@@ -1461,7 +1463,7 @@
    "touches": 59,
    "pass": 47,
    "rating": 6.61,
-   "min": 73,
+   "min": 76,
    "duels_t": 5,
    "duels": 3,
    "pass_pct": 100,
@@ -1476,7 +1478,7 @@
    "touches": 22,
    "rating": 6.63,
    "duels_t": 4,
-   "min": 73,
+   "min": 76,
    "duels": 2,
    "pass_pct": 100,
    "tkl": 1,
@@ -1503,7 +1505,7 @@
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 5.94,
+   "rating": 6.43,
    "touches": 36,
    "pass": 21,
    "sh": 1,
@@ -1518,7 +1520,7 @@
   "7346244": {
    "rating": 6.73,
    "touches": 48,
-   "min": 73,
+   "min": 76,
    "pass": 37,
    "int": 1,
    "clr": 6,
@@ -1534,7 +1536,7 @@
    "touches": 50,
    "sot": 2,
    "sh": 2,
-   "min": 73,
+   "min": 76,
    "rating": 6.84,
    "duels_t": 4,
    "fouls": 1,
@@ -1548,7 +1550,8 @@
   },
   "37289467": {
    "touches": 2,
-   "min": 3,
+   "min": 6,
+   "rating": 6.35,
    "side": "away",
    "name": "Nicky Clescenco"
   },
@@ -1558,7 +1561,7 @@
    "duels": 1,
    "duels_t": 2,
    "pass": 29,
-   "min": 73,
+   "min": 76,
    "clr": 2,
    "pass_pct": 33,
    "sh": 1,
@@ -1568,34 +1571,34 @@
    "name": "Michael Schjönning-Larsen"
   },
   "37674481": {
-   "rating": 6.54,
-   "touches": 19,
-   "duels_t": 7,
-   "min": 73,
-   "pass": 7,
+   "rating": 6.44,
+   "touches": 22,
+   "duels_t": 8,
+   "min": 76,
+   "pass": 8,
    "kp": 1,
-   "pass_pct": 88,
+   "pass_pct": 89,
    "tkl": 1,
    "duels": 3,
    "side": "away",
    "name": "Ieuan Owen"
   },
   "32777741": {
-   "min": 9,
-   "touches": 1,
-   "pass": 1,
+   "min": 12,
+   "touches": 2,
+   "pass": 2,
    "duels_t": 1,
-   "rating": 6.46,
+   "rating": 6.45,
    "pass_pct": 50,
    "side": "away",
    "name": "Djenairo Daniels"
   },
   "3385": {
-   "rating": 6.92,
-   "pass": 49,
-   "touches": 59,
+   "rating": 6.7,
+   "pass": 50,
+   "touches": 61,
    "duels": 4,
-   "min": 73,
+   "min": 76,
    "tkl": 2,
    "duels_t": 6,
    "clr": 3,
@@ -1606,13 +1609,13 @@
    "name": "Aaron Tshibola"
   },
   "1846812": {
-   "rating": 6.66,
-   "touches": 44,
+   "rating": 7.31,
+   "touches": 45,
    "pass": 33,
-   "min": 73,
+   "min": 76,
    "clr": 3,
    "pass_pct": 50,
-   "saves": 2,
+   "saves": 3,
    "duels_t": 1,
    "duels": 1,
    "side": "away",
@@ -1997,7 +2000,35 @@
    "t": "Yang Hyun-Jun takes a right-footed shot, but it is blocked.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 76,
+   "x": null,
+   "t": "Shot by Benjamin Nygren with his left foot is saved.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 76,
+   "x": null,
+   "t": "Penalty saved! Benjamin Nygren's attempt is stopped.",
+   "goal": false,
+   "key": true
+  },
+  {
+   "m": 77,
+   "x": null,
+   "t": "Benjamin Nygren takes a left-footed shot, but it is saved.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 77,
+   "x": null,
+   "t": "Yang Hyun-Jun attempts a header but misses the shot.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2363
+ "rate_remaining": 2357
 }
