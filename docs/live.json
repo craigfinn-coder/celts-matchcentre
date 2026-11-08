@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:44:16.388609+00:00",
+ "updated_at": "2026-11-08T17:46:16.411368+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 86,
+ "minute": 88,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -527,6 +527,18 @@
    "related": "Mika Baur",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158612490,
+   "minute": 86,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Dane Murray",
+   "related": "Kieran Tierney",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -543,11 +555,11 @@
    "away": 6
   },
   "Attacks": {
-   "home": 105,
-   "away": 67
+   "home": 110,
+   "away": 69
   },
   "Dangerous Attacks": {
-   "home": 63,
+   "home": 67,
    "away": 39
   },
   "Ball Possession %": {
@@ -588,10 +600,10 @@
   },
   "Free Kicks": {
    "home": 11,
-   "away": 6
+   "away": 7
   },
   "Fouls": {
-   "home": 6,
+   "home": 7,
    "away": 12
   },
   "Saves": {
@@ -603,16 +615,16 @@
    "away": 3
   },
   "Substitutions": {
-   "home": 4,
+   "home": 5,
    "away": 3
   },
   "Throwins": {
-   "home": 16,
+   "home": 18,
    "away": 19
   },
   "Long Passes": {
-   "home": 19,
-   "away": 44
+   "home": 20,
+   "away": 45
   },
   "Successful Headers": {
    "home": 8,
@@ -620,18 +632,18 @@
   },
   "Tackles": {
    "home": 10,
-   "away": 15
+   "away": 16
   },
   "Assists": {
    "home": 1,
    "away": 0
   },
   "Passes": {
-   "home": 473,
-   "away": 339
+   "home": 489,
+   "away": 340
   },
   "Successful Passes": {
-   "home": 426,
+   "home": 439,
    "away": 283
   },
   "Successful Passes Percentage": {
@@ -656,11 +668,11 @@
   },
   "Interceptions": {
    "home": 7,
-   "away": 8
+   "away": 9
   },
   "Duels Won": {
-   "home": 29,
-   "away": 32
+   "home": 30,
+   "away": 34
   },
   "Dribble Attempts": {
    "home": 10,
@@ -687,11 +699,11 @@
    "away": 67
   },
   "Successful Long Passes": {
-   "home": 12,
+   "home": 13,
    "away": 16
   },
   "Successful Long Passes Percentage": {
-   "home": 63,
+   "home": 65,
    "away": 36
   },
   "Tackles Won": {
@@ -1353,7 +1365,7 @@
    "min": 83,
    "duels_t": 5,
    "kp": 4,
-   "rating": 7.48,
+   "rating": 7.49,
    "bcc": 1,
    "pass_pct": 81,
    "a": 1,
@@ -1400,6 +1412,11 @@
    "int": 1,
    "side": "home",
    "name": "Cameron Carter-Vickers"
+  },
+  "850": {
+   "min": 1,
+   "side": "home",
+   "name": "Alex Oxlade-Chamberlain"
   },
   "37582048": {
    "rating": 7.15,
@@ -1650,7 +1667,7 @@
    "name": "Djenairo Daniels"
   },
   "3385": {
-   "rating": 6.73,
+   "rating": 6.81,
    "pass": 53,
    "touches": 65,
    "duels": 4,
@@ -2098,7 +2115,21 @@
    "t": "Luke McCowan is substituted for Benjamin Nygren.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 86,
+   "x": null,
+   "t": "Substitution: Alex Oxlade-Chamberlain comes on for Mika Baur.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 86,
+   "x": null,
+   "t": "On comes Dane Murray, off goes Kieran Tierney.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2334
+ "rate_remaining": 2328
 }
