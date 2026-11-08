@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:36:46.409384+00:00",
+ "updated_at": "2026-11-08T17:40:16.405455+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 78,
+ "minute": 82,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -491,6 +491,18 @@
    "related": null,
    "result": null,
    "info": null
+  },
+  {
+   "id": 158612309,
+   "minute": 82,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Hyun-jun Yang",
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
@@ -507,12 +519,12 @@
    "away": 6
   },
   "Attacks": {
-   "home": 100,
-   "away": 61
+   "home": 104,
+   "away": 65
   },
   "Dangerous Attacks": {
-   "home": 59,
-   "away": 34
+   "home": 62,
+   "away": 38
   },
   "Ball Possession %": {
    "home": 59,
@@ -543,8 +555,8 @@
    "away": 0
   },
   "Goal Kicks": {
-   "home": 1,
-   "away": 13
+   "home": 2,
+   "away": 14
   },
   "Goal Attempts": {
    "home": 8,
@@ -552,10 +564,10 @@
   },
   "Free Kicks": {
    "home": 11,
-   "away": 4
+   "away": 5
   },
   "Fouls": {
-   "home": 4,
+   "home": 5,
    "away": 12
   },
   "Saves": {
@@ -567,43 +579,43 @@
    "away": 3
   },
   "Substitutions": {
-   "home": 2,
+   "home": 3,
    "away": 3
   },
   "Throwins": {
-   "home": 14,
-   "away": 17
+   "home": 15,
+   "away": 19
   },
   "Long Passes": {
    "home": 19,
-   "away": 42
+   "away": 43
   },
   "Successful Headers": {
    "home": 8,
    "away": 4
   },
   "Tackles": {
-   "home": 9,
-   "away": 13
+   "home": 10,
+   "away": 14
   },
   "Assists": {
    "home": 1,
    "away": 0
   },
   "Passes": {
-   "home": 446,
-   "away": 318
+   "home": 469,
+   "away": 329
   },
   "Successful Passes": {
-   "home": 402,
-   "away": 265
+   "home": 423,
+   "away": 274
   },
   "Successful Passes Percentage": {
    "home": 90,
    "away": 83
   },
   "Yellowcards": {
-   "home": 0,
+   "home": 1,
    "away": 5
   },
   "Shots On Target": {
@@ -611,23 +623,23 @@
    "away": 3
   },
   "Total Crosses": {
-   "home": 29,
-   "away": 16
+   "home": 30,
+   "away": 17
   },
   "Accurate Crosses": {
    "home": 8,
    "away": 2
   },
   "Interceptions": {
-   "home": 5,
+   "home": 7,
    "away": 8
   },
   "Duels Won": {
-   "home": 28,
-   "away": 28
+   "home": 29,
+   "away": 29
   },
   "Dribble Attempts": {
-   "home": 9,
+   "home": 10,
    "away": 9
   },
   "Successful Dribbles": {
@@ -647,7 +659,7 @@
    "away": 2
   },
   "Successful Dribbles Percentage": {
-   "home": 11,
+   "home": 10,
    "away": 67
   },
   "Successful Long Passes": {
@@ -656,11 +668,11 @@
   },
   "Successful Long Passes Percentage": {
    "home": 63,
-   "away": 36
+   "away": 35
   },
   "Tackles Won": {
-   "home": 5,
-   "away": 6
+   "home": 6,
+   "away": 7
   }
  },
  "next_fixtures": [
@@ -1330,19 +1342,19 @@
   },
   "37563550": {
    "min": 31,
-   "pass_pct": 83,
+   "pass_pct": 80,
    "touches": 30,
    "duels_t": 3,
    "duels": 2,
    "kp": 1,
-   "rating": 6.71,
+   "rating": 6.82,
    "pass": 18,
    "sh": 2,
    "side": "home",
    "name": "Hyun-jun Yang"
   },
   "1712": {
-   "rating": 7.28,
+   "rating": 7.31,
    "clr": 5,
    "min": 76,
    "duels": 3,
@@ -1401,7 +1413,7 @@
   },
   "172104": {
    "min": 5,
-   "rating": 6.5,
+   "rating": 6.56,
    "pass_pct": 100,
    "side": "home",
    "name": "James Forrest"
@@ -1423,7 +1435,7 @@
   },
   "172960": {
    "duels_t": 4,
-   "rating": 7.14,
+   "rating": 7.16,
    "tkl": 2,
    "touches": 56,
    "duels": 4,
@@ -1450,7 +1462,7 @@
    "name": "Jamie Brandon"
   },
   "37675238": {
-   "pass_pct": 100,
+   "pass_pct": 91,
    "touches": 7,
    "min": 12,
    "pass": 5,
@@ -1462,7 +1474,7 @@
   "37751592": {
    "touches": 59,
    "pass": 47,
-   "rating": 6.61,
+   "rating": 6.69,
    "min": 76,
    "duels_t": 5,
    "duels": 3,
@@ -1476,7 +1488,7 @@
   "37341761": {
    "pass": 8,
    "touches": 22,
-   "rating": 6.63,
+   "rating": 6.68,
    "duels_t": 4,
    "min": 76,
    "duels": 2,
@@ -1551,7 +1563,8 @@
   "37289467": {
    "touches": 2,
    "min": 6,
-   "rating": 6.35,
+   "rating": 6.36,
+   "pass_pct": 100,
    "side": "away",
    "name": "Nicky Clescenco"
   },
@@ -1571,7 +1584,7 @@
    "name": "Michael Schjönning-Larsen"
   },
   "37674481": {
-   "rating": 6.44,
+   "rating": 6.45,
    "touches": 22,
    "duels_t": 8,
    "min": 76,
@@ -1594,7 +1607,7 @@
    "name": "Djenairo Daniels"
   },
   "3385": {
-   "rating": 6.7,
+   "rating": 6.71,
    "pass": 50,
    "touches": 61,
    "duels": 4,
@@ -1609,7 +1622,7 @@
    "name": "Aaron Tshibola"
   },
   "1846812": {
-   "rating": 7.31,
+   "rating": 7.35,
    "touches": 45,
    "pass": 33,
    "min": 76,
@@ -2030,5 +2043,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2357
+ "rate_remaining": 2346
 }
