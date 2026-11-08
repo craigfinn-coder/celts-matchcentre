@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:18:46.408198+00:00",
+ "updated_at": "2026-11-08T17:20:16.437918+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,11 +312,11 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 60,
+ "minute": 62,
  "minute_estimated": false,
  "added_time": null,
  "score": {
-  "home": 1,
+  "home": 2,
   "away": 0
  },
  "half_time": {
@@ -427,19 +427,19 @@
    "away": 3
   },
   "Shots Off Target": {
-   "home": 8,
+   "home": 9,
    "away": 0
   },
   "Shots Total": {
-   "home": 13,
+   "home": 14,
    "away": 6
   },
   "Attacks": {
-   "home": 81,
+   "home": 82,
    "away": 55
   },
   "Dangerous Attacks": {
-   "home": 45,
+   "home": 50,
    "away": 30
   },
   "Ball Possession %": {
@@ -451,7 +451,7 @@
    "away": 44
   },
   "Shots Insidebox": {
-   "home": 6,
+   "home": 7,
    "away": 4
   },
   "Shots Outsidebox": {
@@ -499,12 +499,12 @@
    "away": 15
   },
   "Long Passes": {
-   "home": 16,
+   "home": 17,
    "away": 33
   },
   "Successful Headers": {
-   "home": 5,
-   "away": 3
+   "home": 6,
+   "away": 4
   },
   "Tackles": {
    "home": 7,
@@ -515,12 +515,12 @@
    "away": 0
   },
   "Passes": {
-   "home": 353,
-   "away": 264
+   "home": 364,
+   "away": 266
   },
   "Successful Passes": {
-   "home": 318,
-   "away": 222
+   "home": 326,
+   "away": 223
   },
   "Successful Passes Percentage": {
    "home": 90,
@@ -528,7 +528,7 @@
   },
   "Yellowcards": {
    "home": 0,
-   "away": 4
+   "away": 5
   },
   "Shots On Target": {
    "home": 3,
@@ -547,15 +547,15 @@
    "away": 7
   },
   "Duels Won": {
-   "home": 22,
+   "home": 23,
    "away": 23
   },
   "Dribble Attempts": {
-   "home": 5,
+   "home": 6,
    "away": 7
   },
   "Successful Dribbles": {
-   "home": 0,
+   "home": 1,
    "away": 6
   },
   "Key Passes": {
@@ -571,7 +571,7 @@
    "away": 2
   },
   "Successful Dribbles Percentage": {
-   "home": 0,
+   "home": 17,
    "away": 86
   },
   "Successful Long Passes": {
@@ -579,7 +579,7 @@
    "away": 12
   },
   "Successful Long Passes Percentage": {
-   "home": 69,
+   "home": 65,
    "away": 36
   },
   "Tackles Won": {
@@ -1176,7 +1176,7 @@
  },
  "player_stats": {
   "123659": {
-   "rating": 7.87,
+   "rating": 7.91,
    "touches": 65,
    "pass": 57,
    "min": 58,
@@ -1245,25 +1245,25 @@
    "a": 1,
    "duels": 1,
    "fouls": 1,
-   "sh": 2,
+   "sh": 3,
    "sot": 1,
    "side": "home",
    "name": "Camilo Durán"
   },
   "37563550": {
    "min": 13,
-   "pass_pct": 63,
+   "pass_pct": 67,
    "touches": 13,
    "duels_t": 2,
    "duels": 2,
    "kp": 1,
-   "rating": 6.7,
+   "rating": 6.71,
    "pass": 6,
    "side": "home",
    "name": "Hyun-jun Yang"
   },
   "1712": {
-   "rating": 7.24,
+   "rating": 7.22,
    "clr": 5,
    "min": 58,
    "duels": 3,
@@ -1321,7 +1321,7 @@
    "name": "Callum McGregor"
   },
   "37732189": {
-   "rating": 6.86,
+   "rating": 6.92,
    "pass": 29,
    "touches": 50,
    "min": 58,
@@ -1408,7 +1408,7 @@
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 5.92,
+   "rating": 6.42,
    "touches": 32,
    "pass": 17,
    "sh": 1,
@@ -1471,7 +1471,7 @@
    "min": 58,
    "pass": 5,
    "kp": 1,
-   "pass_pct": 100,
+   "pass_pct": 83,
    "tkl": 1,
    "duels": 3,
    "side": "away",
@@ -1785,7 +1785,21 @@
    "t": "Kasper Waarst Hogh takes a right-footed shot but misses.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 60,
+   "x": null,
+   "t": "Corner awarded.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 60,
+   "x": null,
+   "t": "Colby Donovan takes a right-footed shot but misses.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2411
+ "rate_remaining": 2406
 }
