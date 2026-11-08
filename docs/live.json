@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:03:16.484207+00:00",
+ "updated_at": "2026-11-08T17:03:46.383254+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -386,7 +386,7 @@
   },
   {
    "id": 158611151,
-   "minute": 46,
+   "minute": 45,
    "extra": null,
    "type": "Substitution",
    "side": "home",
@@ -491,11 +491,11 @@
    "away": 0
   },
   "Passes": {
-   "home": 241,
+   "home": 242,
    "away": 222
   },
   "Successful Passes": {
-   "home": 216,
+   "home": 217,
    "away": 193
   },
   "Successful Passes Percentage": {
@@ -1223,6 +1223,11 @@
    "side": "home",
    "name": "Camilo Durán"
   },
+  "37563550": {
+   "min": 1,
+   "side": "home",
+   "name": "Hyun-jun Yang"
+  },
   "1712": {
    "rating": 6.88,
    "clr": 4,
@@ -1365,7 +1370,7 @@
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 5.91,
+   "rating": 6.41,
    "touches": 28,
    "pass": 15,
    "sh": 1,
@@ -1686,5 +1691,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2457
+ "rate_remaining": 2456
 }
