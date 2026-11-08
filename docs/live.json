@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:06:46.652853+00:00",
+ "updated_at": "2026-11-08T17:08:16.391189+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 48,
+ "minute": 50,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -395,6 +395,18 @@
    "related": "Jota",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158611351,
+   "minute": 50,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "Kilmarnock",
+   "player": "Jamie Brandon",
+   "related": null,
+   "result": null,
+   "info": "Foul"
   }
  ],
  "stats": {
@@ -451,12 +463,12 @@
    "away": 2
   },
   "Free Kicks": {
-   "home": 8,
-   "away": 3
+   "home": 9,
+   "away": 4
   },
   "Fouls": {
-   "home": 3,
-   "away": 8
+   "home": 4,
+   "away": 9
   },
   "Saves": {
    "home": 3,
@@ -472,10 +484,10 @@
   },
   "Throwins": {
    "home": 8,
-   "away": 11
+   "away": 12
   },
   "Long Passes": {
-   "home": 11,
+   "home": 12,
    "away": 23
   },
   "Successful Headers": {
@@ -491,16 +503,16 @@
    "away": 0
   },
   "Passes": {
-   "home": 269,
-   "away": 228
+   "home": 280,
+   "away": 237
   },
   "Successful Passes": {
-   "home": 244,
-   "away": 198
+   "home": 255,
+   "away": 205
   },
   "Successful Passes Percentage": {
    "home": 91,
-   "away": 87
+   "away": 86
   },
   "Yellowcards": {
    "home": 0,
@@ -524,7 +536,7 @@
   },
   "Duels Won": {
    "home": 18,
-   "away": 19
+   "away": 20
   },
   "Dribble Attempts": {
    "home": 5,
@@ -551,11 +563,11 @@
    "away": 83
   },
   "Successful Long Passes": {
-   "home": 7,
+   "home": 8,
    "away": 10
   },
   "Successful Long Passes Percentage": {
-   "home": 64,
+   "home": 67,
    "away": 43
   },
   "Tackles Won": {
@@ -1215,7 +1227,7 @@
    "min": 48,
    "duels_t": 2,
    "kp": 2,
-   "rating": 7.12,
+   "rating": 7.14,
    "bcc": 1,
    "pass_pct": 83,
    "a": 1,
@@ -1275,7 +1287,7 @@
    "name": "Sam Johnstone"
   },
   "8585": {
-   "rating": 6.71,
+   "rating": 6.72,
    "min": 48,
    "duels_t": 4,
    "pass": 24,
@@ -1290,7 +1302,7 @@
    "name": "Callum McGregor"
   },
   "37732189": {
-   "rating": 6.7,
+   "rating": 6.74,
    "pass": 20,
    "touches": 36,
    "min": 48,
@@ -1708,7 +1720,14 @@
    "t": "On comes Yang Hyun-Jun, while Joao Pedro Neves Filipe goes off.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 48,
+   "x": null,
+   "t": "Camilo Duran takes a left-footed shot, but it is blocked.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2447
+ "rate_remaining": 2442
 }
