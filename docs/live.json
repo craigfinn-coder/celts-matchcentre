@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:21:46.377097+00:00",
+ "updated_at": "2026-11-08T17:22:16.394601+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 63,
+ "minute": 64,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -419,6 +419,18 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 158611792,
+   "minute": 64,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Kilmarnock",
+   "player": "Djenairo Daniels",
+   "related": "Tyreece John-Jules",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -1822,5 +1834,5 @@
    "key": true
   }
  ],
- "rate_remaining": 2402
+ "rate_remaining": 2400
 }
