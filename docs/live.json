@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:52:46.346384+00:00",
+ "updated_at": "2026-11-08T17:53:16.387648+00:00",
  "live": false,
  "fixture": {
   "id": 19722750,
@@ -358,7 +358,7 @@
    "player": "Liam Scales",
    "related": "Camilo Durán",
    "result": "1-0",
-   "info": "Right foot shot"
+   "info": "Left foot shot"
   },
   {
    "id": 158609863,
@@ -1315,7 +1315,7 @@
    "rating": 8.11,
    "touches": 106,
    "pass": 93,
-   "min": 92,
+   "min": 90,
    "clr": 3,
    "int": 1,
    "duels_t": 9,
@@ -1374,7 +1374,7 @@
   "37709508": {
    "touches": 36,
    "pass": 22,
-   "min": 92,
+   "min": 90,
    "duels_t": 5,
    "kp": 4,
    "rating": 7.52,
@@ -1389,7 +1389,7 @@
    "name": "Camilo Durán"
   },
   "37563550": {
-   "min": 47,
+   "min": 45,
    "pass_pct": 70,
    "touches": 43,
    "duels_t": 8,
@@ -1407,7 +1407,7 @@
   "1548366": {
    "pass_pct": 75,
    "pass": 8,
-   "min": 10,
+   "min": 8,
    "fouls": 2,
    "duels_t": 2,
    "rating": 6.39,
@@ -1418,7 +1418,7 @@
   "1712": {
    "rating": 7.48,
    "clr": 6,
-   "min": 92,
+   "min": 90,
    "duels": 4,
    "duels_t": 5,
    "touches": 92,
@@ -1432,7 +1432,7 @@
    "name": "Cameron Carter-Vickers"
   },
   "850": {
-   "min": 6,
+   "min": 4,
    "touches": 6,
    "rating": 6.67,
    "pass": 6,
@@ -1465,7 +1465,7 @@
    "rating": 7.31,
    "clr": 1,
    "pass": 33,
-   "min": 92,
+   "min": 90,
    "touches": 43,
    "pass_pct": 100,
    "side": "home",
@@ -1473,7 +1473,7 @@
   },
   "8585": {
    "rating": 7.15,
-   "min": 92,
+   "min": 90,
    "duels_t": 6,
    "pass": 49,
    "touches": 61,
@@ -1489,7 +1489,7 @@
   },
   "37342595": {
    "pass": 8,
-   "min": 6,
+   "min": 4,
    "touches": 8,
    "pass_pct": 75,
    "duels_t": 1,
@@ -1499,7 +1499,7 @@
    "name": "Dane Murray"
   },
   "172104": {
-   "min": 21,
+   "min": 19,
    "rating": 6.59,
    "pass_pct": 100,
    "touches": 8,
@@ -1512,7 +1512,7 @@
    "rating": 6.86,
    "pass": 36,
    "touches": 68,
-   "min": 92,
+   "min": 90,
    "pass_pct": 100,
    "duels_t": 9,
    "sh": 3,
@@ -1555,7 +1555,7 @@
   "37675238": {
    "pass_pct": 80,
    "touches": 20,
-   "min": 28,
+   "min": 26,
    "pass": 18,
    "int": 1,
    "rating": 6.62,
@@ -1579,7 +1579,7 @@
    "name": "Cathal McCarthy"
   },
   "37537029": {
-   "min": 3,
+   "min": 1,
    "bcc": 1,
    "rating": 6.84,
    "duels": 1,
@@ -1597,7 +1597,7 @@
    "touches": 24,
    "rating": 6.72,
    "duels_t": 6,
-   "min": 92,
+   "min": 90,
    "duels": 4,
    "pass_pct": 100,
    "tkl": 2,
@@ -1641,7 +1641,7 @@
   "7346244": {
    "rating": 6.83,
    "touches": 54,
-   "min": 92,
+   "min": 90,
    "pass": 42,
    "int": 1,
    "clr": 6,
@@ -1657,7 +1657,7 @@
    "touches": 56,
    "sot": 2,
    "sh": 2,
-   "min": 92,
+   "min": 90,
    "rating": 6.81,
    "duels_t": 4,
    "fouls": 1,
@@ -1672,7 +1672,7 @@
   },
   "37289467": {
    "touches": 7,
-   "min": 22,
+   "min": 20,
    "rating": 6.25,
    "pass_pct": 100,
    "pass": 1,
@@ -1686,7 +1686,7 @@
    "duels": 2,
    "duels_t": 3,
    "pass": 31,
-   "min": 92,
+   "min": 90,
    "clr": 3,
    "pass_pct": 33,
    "sh": 1,
@@ -1699,7 +1699,7 @@
    "rating": 6.52,
    "touches": 25,
    "duels_t": 9,
-   "min": 92,
+   "min": 90,
    "pass": 10,
    "kp": 1,
    "pass_pct": 82,
@@ -1710,7 +1710,7 @@
    "name": "Ieuan Owen"
   },
   "32777741": {
-   "min": 28,
+   "min": 26,
    "touches": 3,
    "pass": 3,
    "duels_t": 5,
@@ -1725,7 +1725,7 @@
    "pass": 56,
    "touches": 70,
    "duels": 5,
-   "min": 92,
+   "min": 90,
    "tkl": 3,
    "duels_t": 8,
    "clr": 4,
@@ -1739,7 +1739,7 @@
    "rating": 7.68,
    "touches": 53,
    "pass": 38,
-   "min": 92,
+   "min": 90,
    "clr": 3,
    "pass_pct": 50,
    "saves": 4,
@@ -2204,7 +2204,14 @@
    "t": "Ieuan Gwyn Owen takes a right-footed shot but misses.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": null,
+   "x": null,
+   "t": "Match ends with a score of 1-0.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2496
+ "rate_remaining": 2494
 }
