@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:00:46.391579+00:00",
+ "updated_at": "2026-11-08T17:02:46.400704+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -383,6 +383,18 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 158611151,
+   "minute": 46,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Hyun-jun Yang",
+   "related": "Jota",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -620,13 +632,13 @@
    "team_id": 770,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
    "pts": 21,
-   "p": 12,
-   "w": 5,
+   "p": 13,
+   "w": 6,
    "d": 3,
    "l": 4,
-   "gf": 15,
-   "ga": 12,
-   "gd": 3
+   "gf": 20,
+   "ga": 14,
+   "gd": 6
   },
   {
    "pos": 4,
@@ -634,13 +646,13 @@
    "team_id": 314,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
    "pts": 20,
-   "p": 11,
+   "p": 12,
    "w": 6,
    "d": 2,
-   "l": 3,
-   "gf": 24,
-   "ga": 17,
-   "gd": 7
+   "l": 4,
+   "gf": 26,
+   "ga": 22,
+   "gd": 4
   },
   {
    "pos": 5,
@@ -1292,7 +1304,7 @@
   },
   "586850": {
    "touches": 23,
-   "rating": 6.37,
+   "rating": 6.38,
    "pass": 15,
    "min": 46,
    "clr": 1,
@@ -1318,10 +1330,10 @@
    "name": "Cathal McCarthy"
   },
   "37341761": {
-   "pass": 5,
-   "touches": 14,
-   "rating": 6.65,
-   "duels_t": 3,
+   "pass": 3,
+   "touches": 13,
+   "rating": 6.57,
+   "duels_t": 4,
    "min": 46,
    "duels": 2,
    "pass_pct": 100,
@@ -1349,9 +1361,9 @@
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 5.94,
-   "touches": 27,
-   "pass": 13,
+   "rating": 5.91,
+   "touches": 28,
+   "pass": 15,
    "sh": 1,
    "min": 46,
    "pass_pct": 100,
@@ -1377,11 +1389,11 @@
   },
   "13063": {
    "pass": 28,
-   "touches": 35,
+   "touches": 36,
    "sot": 2,
    "sh": 2,
    "min": 46,
-   "rating": 6.68,
+   "rating": 6.83,
    "duels_t": 4,
    "fouls": 1,
    "pass_pct": 50,
@@ -1406,9 +1418,9 @@
    "name": "Michael Schjönning-Larsen"
   },
   "37674481": {
-   "rating": 6.24,
-   "touches": 13,
-   "duels_t": 5,
+   "rating": 6.32,
+   "touches": 12,
+   "duels_t": 4,
    "min": 46,
    "pass": 4,
    "kp": 1,
@@ -1670,5 +1682,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2465
+ "rate_remaining": 2459
 }
