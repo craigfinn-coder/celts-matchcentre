@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:31:46.335351+00:00",
+ "updated_at": "2026-11-08T17:34:16.414050+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 73,
+ "minute": 76,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -467,6 +467,18 @@
    "related": "Kasper Høgh",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158612120,
+   "minute": 76,
+   "extra": null,
+   "type": "Missed Penalty",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Benjamin Nygren",
+   "related": null,
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -479,16 +491,16 @@
    "away": 0
   },
   "Shots Total": {
-   "home": 15,
+   "home": 16,
    "away": 6
   },
   "Attacks": {
-   "home": 94,
+   "home": 95,
    "away": 60
   },
   "Dangerous Attacks": {
-   "home": 56,
-   "away": 31
+   "home": 59,
+   "away": 32
   },
   "Ball Possession %": {
    "home": 59,
@@ -499,11 +511,11 @@
    "away": 44
   },
   "Shots Insidebox": {
-   "home": 8,
+   "home": 9,
    "away": 4
   },
   "Shots Outsidebox": {
-   "home": 7,
+   "home": 8,
    "away": 2
   },
   "Offsides": {
@@ -523,7 +535,7 @@
    "away": 2
   },
   "Free Kicks": {
-   "home": 12,
+   "home": 11,
    "away": 4
   },
   "Fouls": {
@@ -532,10 +544,10 @@
   },
   "Saves": {
    "home": 3,
-   "away": 2
+   "away": 3
   },
   "Shots Blocked": {
-   "home": 3,
+   "home": 4,
    "away": 3
   },
   "Substitutions": {
@@ -555,7 +567,7 @@
    "away": 4
   },
   "Tackles": {
-   "home": 8,
+   "home": 9,
    "away": 12
   },
   "Assists": {
@@ -563,12 +575,12 @@
    "away": 0
   },
   "Passes": {
-   "home": 431,
-   "away": 310
+   "home": 434,
+   "away": 313
   },
   "Successful Passes": {
-   "home": 387,
-   "away": 258
+   "home": 390,
+   "away": 261
   },
   "Successful Passes Percentage": {
    "home": 90,
@@ -600,7 +612,7 @@
   },
   "Dribble Attempts": {
    "home": 8,
-   "away": 8
+   "away": 9
   },
   "Successful Dribbles": {
    "home": 1,
@@ -611,16 +623,16 @@
    "away": 2
   },
   "Big Chances Created": {
-   "home": 1,
+   "home": 2,
    "away": 2
   },
   "Big Chances Missed": {
-   "home": 0,
+   "home": 1,
    "away": 2
   },
   "Successful Dribbles Percentage": {
    "home": 13,
-   "away": 75
+   "away": 67
   },
   "Successful Long Passes": {
    "home": 11,
@@ -1287,7 +1299,7 @@
    "min": 73,
    "duels_t": 5,
    "kp": 2,
-   "rating": 7.32,
+   "rating": 7.29,
    "bcc": 1,
    "pass_pct": 79,
    "a": 1,
@@ -1307,6 +1319,7 @@
    "kp": 1,
    "rating": 6.66,
    "pass": 17,
+   "sh": 1,
    "side": "home",
    "name": "Hyun-jun Yang"
   },
@@ -1485,7 +1498,7 @@
    "name": "Greg Kiltie"
   },
   "7346244": {
-   "rating": 6.76,
+   "rating": 6.73,
    "touches": 48,
    "min": 73,
    "pass": 37,
@@ -1958,7 +1971,14 @@
    "t": "On comes James Forrest, and Kasper Waarst Hogh goes off.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 73,
+   "x": null,
+   "t": "Yang Hyun-Jun takes a right-footed shot, but it is blocked.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2372
+ "rate_remaining": 2364
 }
