@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:40:46.371544+00:00",
+ "updated_at": "2026-11-08T17:44:16.388609+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 82,
+ "minute": 86,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -515,6 +515,18 @@
    "related": "Benjamin Nygren",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158612434,
+   "minute": 86,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Alex Oxlade-Chamberlain",
+   "related": "Mika Baur",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -531,12 +543,12 @@
    "away": 6
   },
   "Attacks": {
-   "home": 104,
-   "away": 65
+   "home": 105,
+   "away": 67
   },
   "Dangerous Attacks": {
-   "home": 62,
-   "away": 38
+   "home": 63,
+   "away": 39
   },
   "Ball Possession %": {
    "home": 59,
@@ -576,10 +588,10 @@
   },
   "Free Kicks": {
    "home": 11,
-   "away": 5
+   "away": 6
   },
   "Fouls": {
-   "home": 5,
+   "home": 6,
    "away": 12
   },
   "Saves": {
@@ -591,11 +603,11 @@
    "away": 3
   },
   "Substitutions": {
-   "home": 3,
+   "home": 4,
    "away": 3
   },
   "Throwins": {
-   "home": 15,
+   "home": 16,
    "away": 19
   },
   "Long Passes": {
@@ -604,27 +616,27 @@
   },
   "Successful Headers": {
    "home": 8,
-   "away": 4
+   "away": 5
   },
   "Tackles": {
    "home": 10,
-   "away": 14
+   "away": 15
   },
   "Assists": {
    "home": 1,
    "away": 0
   },
   "Passes": {
-   "home": 469,
-   "away": 335
+   "home": 473,
+   "away": 339
   },
   "Successful Passes": {
-   "home": 423,
-   "away": 280
+   "home": 426,
+   "away": 283
   },
   "Successful Passes Percentage": {
    "home": 90,
-   "away": 84
+   "away": 83
   },
   "Yellowcards": {
    "home": 1,
@@ -648,7 +660,7 @@
   },
   "Duels Won": {
    "home": 29,
-   "away": 30
+   "away": 32
   },
   "Dribble Attempts": {
    "home": 10,
@@ -684,7 +696,7 @@
   },
   "Tackles Won": {
    "home": 6,
-   "away": 7
+   "away": 8
   }
  },
  "next_fixtures": [
@@ -1276,7 +1288,7 @@
  },
  "player_stats": {
   "123659": {
-   "rating": 8.03,
+   "rating": 8.04,
    "touches": 96,
    "pass": 86,
    "min": 83,
@@ -1292,7 +1304,7 @@
    "name": "Liam Scales"
   },
   "163711": {
-   "rating": 6.54,
+   "rating": 6.52,
    "touches": 29,
    "min": 45,
    "pass": 14,
@@ -1307,7 +1319,7 @@
    "name": "Jota"
   },
   "19979885": {
-   "rating": 6.8,
+   "rating": 6.84,
    "touches": 51,
    "min": 82,
    "pass": 39,
@@ -1321,7 +1333,7 @@
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 7.13,
+   "rating": 7.1,
    "touches": 35,
    "pass": 20,
    "min": 71,
@@ -1341,9 +1353,9 @@
    "min": 83,
    "duels_t": 5,
    "kp": 4,
-   "rating": 7.44,
+   "rating": 7.48,
    "bcc": 1,
-   "pass_pct": 80,
+   "pass_pct": 81,
    "a": 1,
    "duels": 2,
    "fouls": 1,
@@ -1359,7 +1371,7 @@
    "duels_t": 6,
    "duels": 3,
    "kp": 1,
-   "rating": 6.82,
+   "rating": 6.69,
    "pass": 20,
    "sh": 2,
    "fouls": 1,
@@ -1374,7 +1386,7 @@
    "name": "Luke McCowan"
   },
   "1712": {
-   "rating": 7.29,
+   "rating": 7.41,
    "clr": 6,
    "min": 83,
    "duels": 3,
@@ -1390,7 +1402,7 @@
    "name": "Cameron Carter-Vickers"
   },
   "37582048": {
-   "rating": 7.07,
+   "rating": 7.15,
    "touches": 51,
    "pass": 40,
    "pass_pct": 50,
@@ -1408,7 +1420,7 @@
   },
   "1008": {
    "saves": 3,
-   "rating": 7.3,
+   "rating": 7.29,
    "clr": 1,
    "pass": 29,
    "min": 83,
@@ -1418,7 +1430,7 @@
    "name": "Sam Johnstone"
   },
   "8585": {
-   "rating": 7.08,
+   "rating": 7.07,
    "min": 83,
    "duels_t": 5,
    "pass": 47,
@@ -1435,7 +1447,7 @@
   },
   "172104": {
    "min": 12,
-   "rating": 6.56,
+   "rating": 6.51,
    "pass_pct": 100,
    "touches": 3,
    "pass": 3,
@@ -1443,7 +1455,7 @@
    "name": "James Forrest"
   },
   "37732189": {
-   "rating": 7.01,
+   "rating": 6.85,
    "pass": 36,
    "touches": 66,
    "min": 83,
@@ -1473,7 +1485,7 @@
   },
   "586850": {
    "touches": 35,
-   "rating": 6.42,
+   "rating": 6.36,
    "pass": 18,
    "min": 64,
    "clr": 1,
@@ -1487,19 +1499,19 @@
    "name": "Jamie Brandon"
   },
   "37675238": {
-   "pass_pct": 91,
+   "pass_pct": 92,
    "touches": 13,
    "min": 19,
    "pass": 11,
    "int": 1,
-   "rating": 6.68,
+   "rating": 6.62,
    "side": "away",
    "name": "MJ Kamson-Kamara"
   },
   "37751592": {
    "touches": 67,
    "pass": 49,
-   "rating": 6.69,
+   "rating": 6.73,
    "min": 83,
    "duels_t": 6,
    "duels": 4,
@@ -1514,7 +1526,7 @@
   "37341761": {
    "pass": 9,
    "touches": 24,
-   "rating": 6.68,
+   "rating": 6.72,
    "duels_t": 6,
    "min": 83,
    "duels": 4,
@@ -1529,7 +1541,7 @@
    "name": "Joe Hugill"
   },
   "7026565": {
-   "rating": 6.5,
+   "rating": 6.43,
    "fouls": 3,
    "duels_t": 10,
    "touches": 30,
@@ -1545,7 +1557,7 @@
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 6.43,
+   "rating": 5.93,
    "touches": 36,
    "pass": 21,
    "sh": 1,
@@ -1558,7 +1570,7 @@
    "name": "Greg Kiltie"
   },
   "7346244": {
-   "rating": 6.73,
+   "rating": 6.76,
    "touches": 51,
    "min": 83,
    "pass": 40,
@@ -1577,7 +1589,7 @@
    "sot": 2,
    "sh": 2,
    "min": 83,
-   "rating": 6.84,
+   "rating": 6.81,
    "duels_t": 4,
    "fouls": 1,
    "pass_pct": 50,
@@ -1592,7 +1604,7 @@
   "37289467": {
    "touches": 5,
    "min": 13,
-   "rating": 6.36,
+   "rating": 6.25,
    "pass_pct": 100,
    "pass": 1,
    "duels_t": 1,
@@ -1601,7 +1613,7 @@
   },
   "19642679": {
    "touches": 48,
-   "rating": 6.69,
+   "rating": 6.74,
    "duels": 2,
    "duels_t": 3,
    "pass": 30,
@@ -1615,13 +1627,13 @@
    "name": "Michael Schjönning-Larsen"
   },
   "37674481": {
-   "rating": 6.45,
+   "rating": 6.43,
    "touches": 23,
    "duels_t": 8,
    "min": 83,
    "pass": 9,
    "kp": 1,
-   "pass_pct": 89,
+   "pass_pct": 90,
    "tkl": 1,
    "duels": 3,
    "side": "away",
@@ -1638,7 +1650,7 @@
    "name": "Djenairo Daniels"
   },
   "3385": {
-   "rating": 6.71,
+   "rating": 6.73,
    "pass": 53,
    "touches": 65,
    "duels": 4,
@@ -1653,7 +1665,7 @@
    "name": "Aaron Tshibola"
   },
   "1846812": {
-   "rating": 7.35,
+   "rating": 7.7,
    "touches": 50,
    "pass": 36,
    "min": 83,
@@ -2088,5 +2100,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2345
+ "rate_remaining": 2334
 }
