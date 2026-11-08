@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:27:46.548207+00:00",
+ "updated_at": "2026-11-08T17:29:16.393785+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 69,
+ "minute": 71,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -443,6 +443,30 @@
    "related": "Jamie Brandon",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158611997,
+   "minute": 70,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "Kilmarnock",
+   "player": "Nicky Clescenco",
+   "related": "Greg Kiltie",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 158611998,
+   "minute": 71,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "James Forrest",
+   "related": "Kasper Høgh",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -464,7 +488,7 @@
   },
   "Dangerous Attacks": {
    "home": 56,
-   "away": 30
+   "away": 31
   },
   "Ball Possession %": {
    "home": 60,
@@ -515,7 +539,7 @@
    "away": 3
   },
   "Substitutions": {
-   "home": 1,
+   "home": 2,
    "away": 3
   },
   "Throwins": {
@@ -571,7 +595,7 @@
    "away": 8
   },
   "Duels Won": {
-   "home": 25,
+   "home": 26,
    "away": 25
   },
   "Dribble Attempts": {
@@ -1231,7 +1255,7 @@
    "name": "Jota"
   },
   "19979885": {
-   "rating": 6.76,
+   "rating": 6.77,
    "touches": 42,
    "min": 68,
    "pass": 32,
@@ -1243,7 +1267,7 @@
    "name": "Benjamin Nygren"
   },
   "15061513": {
-   "rating": 7.13,
+   "rating": 7.14,
    "touches": 34,
    "pass": 18,
    "min": 68,
@@ -1281,7 +1305,7 @@
    "duels_t": 3,
    "duels": 2,
    "kp": 1,
-   "rating": 6.65,
+   "rating": 6.64,
    "pass": 13,
    "side": "home",
    "name": "Hyun-jun Yang"
@@ -1345,7 +1369,7 @@
    "name": "Callum McGregor"
   },
   "37732189": {
-   "rating": 6.95,
+   "rating": 6.97,
    "pass": 32,
    "touches": 54,
    "min": 68,
@@ -1442,7 +1466,7 @@
    "name": "Tyreece John-Jules"
   },
   "172953": {
-   "rating": 5.94,
+   "rating": 6.43,
    "touches": 35,
    "pass": 20,
    "sh": 1,
@@ -1455,7 +1479,7 @@
    "name": "Greg Kiltie"
   },
   "7346244": {
-   "rating": 6.72,
+   "rating": 6.7,
    "touches": 42,
    "min": 68,
    "pass": 33,
@@ -1474,7 +1498,7 @@
    "sot": 2,
    "sh": 2,
    "min": 68,
-   "rating": 6.86,
+   "rating": 6.85,
    "duels_t": 4,
    "fouls": 1,
    "pass_pct": 50,
@@ -1907,5 +1931,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2384
+ "rate_remaining": 2379
 }
