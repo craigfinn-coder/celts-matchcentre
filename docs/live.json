@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T17:08:16.391189+00:00",
+ "updated_at": "2026-11-08T17:10:46.366749+00:00",
  "live": true,
  "fixture": {
   "id": 19722750,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 50,
+ "minute": 52,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -415,11 +415,11 @@
    "away": 2
   },
   "Shots Off Target": {
-   "home": 5,
+   "home": 6,
    "away": 0
   },
   "Shots Total": {
-   "home": 9,
+   "home": 10,
    "away": 6
   },
   "Attacks": {
@@ -443,7 +443,7 @@
    "away": 4
   },
   "Shots Outsidebox": {
-   "home": 3,
+   "home": 4,
    "away": 2
   },
   "Offsides": {
@@ -456,7 +456,7 @@
   },
   "Goal Kicks": {
    "home": 0,
-   "away": 6
+   "away": 8
   },
   "Goal Attempts": {
    "home": 8,
@@ -487,8 +487,8 @@
    "away": 12
   },
   "Long Passes": {
-   "home": 12,
-   "away": 23
+   "home": 13,
+   "away": 25
   },
   "Successful Headers": {
    "home": 4,
@@ -503,12 +503,12 @@
    "away": 0
   },
   "Passes": {
-   "home": 280,
-   "away": 237
+   "home": 285,
+   "away": 242
   },
   "Successful Passes": {
-   "home": 255,
-   "away": 205
+   "home": 259,
+   "away": 208
   },
   "Successful Passes Percentage": {
    "home": 91,
@@ -516,7 +516,7 @@
   },
   "Yellowcards": {
    "home": 0,
-   "away": 3
+   "away": 4
   },
   "Shots On Target": {
    "home": 2,
@@ -535,7 +535,7 @@
    "away": 6
   },
   "Duels Won": {
-   "home": 18,
+   "home": 20,
    "away": 20
   },
   "Dribble Attempts": {
@@ -563,12 +563,12 @@
    "away": 83
   },
   "Successful Long Passes": {
-   "home": 8,
-   "away": 10
+   "home": 9,
+   "away": 11
   },
   "Successful Long Passes Percentage": {
-   "home": 67,
-   "away": 43
+   "home": 69,
+   "away": 44
   },
   "Tackles Won": {
    "home": 4,
@@ -1165,17 +1165,17 @@
  "player_stats": {
   "123659": {
    "rating": 7.8,
-   "touches": 53,
-   "pass": 46,
-   "min": 48,
+   "touches": 58,
+   "pass": 51,
+   "min": 52,
    "clr": 3,
    "int": 1,
-   "duels_t": 2,
+   "duels_t": 3,
    "pass_pct": 100,
    "g": 1,
    "sh": 1,
    "sot": 1,
-   "duels": 1,
+   "duels": 2,
    "side": "home",
    "name": "Liam Scales"
   },
@@ -1196,9 +1196,9 @@
   },
   "19979885": {
    "rating": 6.69,
-   "touches": 31,
-   "min": 48,
-   "pass": 22,
+   "touches": 32,
+   "min": 52,
+   "pass": 23,
    "pass_pct": 100,
    "duels_t": 3,
    "duels": 2,
@@ -1208,9 +1208,9 @@
   },
   "15061513": {
    "rating": 6.84,
-   "touches": 22,
+   "touches": 23,
    "pass": 13,
-   "min": 48,
+   "min": 52,
    "pass_pct": 100,
    "duels_t": 4,
    "sot": 1,
@@ -1222,40 +1222,43 @@
    "name": "Kasper Høgh"
   },
   "37709508": {
-   "touches": 21,
-   "pass": 12,
-   "min": 48,
-   "duels_t": 2,
+   "touches": 23,
+   "pass": 13,
+   "min": 52,
+   "duels_t": 3,
    "kp": 2,
    "rating": 7.14,
    "bcc": 1,
-   "pass_pct": 83,
+   "pass_pct": 85,
    "a": 1,
    "duels": 1,
+   "fouls": 1,
    "sh": 1,
    "side": "home",
    "name": "Camilo Durán"
   },
   "37563550": {
-   "min": 3,
+   "min": 7,
    "pass_pct": 100,
-   "touches": 3,
-   "duels_t": 1,
-   "duels": 1,
+   "touches": 5,
+   "duels_t": 2,
+   "duels": 2,
+   "pass": 1,
    "side": "home",
    "name": "Hyun-jun Yang"
   },
   "1712": {
-   "rating": 6.88,
+   "rating": 6.94,
    "clr": 4,
-   "min": 48,
+   "min": 52,
    "duels": 3,
    "duels_t": 4,
-   "touches": 54,
+   "touches": 61,
    "pass_pct": 100,
-   "pass": 47,
+   "pass": 54,
    "sh": 2,
    "fouls": 1,
+   "kp": 1,
    "side": "home",
    "name": "Cameron Carter-Vickers"
   },
@@ -1264,7 +1267,7 @@
    "touches": 29,
    "pass": 23,
    "pass_pct": 50,
-   "min": 48,
+   "min": 52,
    "duels_t": 3,
    "fouls": 1,
    "clr": 1,
@@ -1277,21 +1280,21 @@
   },
   "1008": {
    "saves": 3,
-   "rating": 7.22,
+   "rating": 7.26,
    "clr": 1,
-   "pass": 15,
-   "min": 48,
-   "touches": 22,
+   "pass": 18,
+   "min": 52,
+   "touches": 25,
    "pass_pct": 100,
    "side": "home",
    "name": "Sam Johnstone"
   },
   "8585": {
    "rating": 6.72,
-   "min": 48,
+   "min": 52,
    "duels_t": 4,
-   "pass": 24,
-   "touches": 32,
+   "pass": 26,
+   "touches": 34,
    "pass_pct": 96,
    "fouls": 1,
    "tkl": 1,
@@ -1302,15 +1305,17 @@
    "name": "Callum McGregor"
   },
   "37732189": {
-   "rating": 6.74,
-   "pass": 20,
-   "touches": 36,
-   "min": 48,
+   "rating": 6.77,
+   "pass": 23,
+   "touches": 42,
+   "min": 52,
    "pass_pct": 100,
    "duels_t": 4,
-   "sh": 1,
+   "sh": 2,
    "duels": 2,
    "tkl": 2,
+   "kp": 1,
+   "clr": 1,
    "side": "home",
    "name": "Colby Donovan"
   },
@@ -1318,10 +1323,10 @@
    "duels_t": 4,
    "rating": 6.98,
    "tkl": 2,
-   "touches": 36,
+   "touches": 41,
    "duels": 4,
-   "pass": 21,
-   "min": 48,
+   "pass": 26,
+   "min": 52,
    "clr": 3,
    "pass_pct": 100,
    "int": 1,
@@ -1329,23 +1334,23 @@
    "name": "Kieran Tierney"
   },
   "586850": {
-   "touches": 24,
+   "touches": 27,
    "rating": 6.34,
-   "pass": 15,
-   "min": 48,
+   "pass": 16,
+   "min": 52,
    "clr": 1,
    "duels": 2,
-   "duels_t": 4,
+   "duels_t": 5,
    "pass_pct": 100,
-   "fouls": 2,
+   "fouls": 3,
    "side": "away",
    "name": "Jamie Brandon"
   },
   "37751592": {
-   "touches": 40,
-   "pass": 32,
+   "touches": 42,
+   "pass": 34,
    "rating": 6.54,
-   "min": 48,
+   "min": 52,
    "duels_t": 5,
    "duels": 3,
    "pass_pct": 100,
@@ -1356,11 +1361,11 @@
    "name": "Cathal McCarthy"
   },
   "37341761": {
-   "pass": 4,
-   "touches": 14,
+   "pass": 5,
+   "touches": 15,
    "rating": 6.59,
    "duels_t": 4,
-   "min": 48,
+   "min": 52,
    "duels": 2,
    "pass_pct": 100,
    "tkl": 1,
@@ -1374,9 +1379,9 @@
   "7026565": {
    "rating": 6.5,
    "fouls": 2,
-   "duels_t": 6,
+   "duels_t": 7,
    "touches": 26,
-   "min": 48,
+   "min": 52,
    "pass": 12,
    "clr": 3,
    "int": 2,
@@ -1388,10 +1393,10 @@
   },
   "172953": {
    "rating": 5.92,
-   "touches": 28,
-   "pass": 15,
+   "touches": 29,
+   "pass": 16,
    "sh": 1,
-   "min": 48,
+   "min": 52,
    "pass_pct": 100,
    "duels": 2,
    "duels_t": 3,
@@ -1401,9 +1406,9 @@
   },
   "7346244": {
    "rating": 6.62,
-   "touches": 37,
-   "min": 48,
-   "pass": 31,
+   "touches": 38,
+   "min": 52,
+   "pass": 32,
    "int": 1,
    "clr": 4,
    "pass_pct": 50,
@@ -1414,11 +1419,11 @@
    "name": "George Stanger"
   },
   "13063": {
-   "pass": 28,
-   "touches": 36,
+   "pass": 31,
+   "touches": 39,
    "sot": 2,
    "sh": 2,
-   "min": 48,
+   "min": 52,
    "rating": 6.83,
    "duels_t": 4,
    "fouls": 1,
@@ -1430,12 +1435,12 @@
    "name": "Tom Lowery"
   },
   "19642679": {
-   "touches": 39,
+   "touches": 41,
    "rating": 6.62,
    "duels": 1,
    "duels_t": 1,
-   "pass": 26,
-   "min": 48,
+   "pass": 27,
+   "min": 52,
    "clr": 2,
    "pass_pct": 33,
    "sh": 1,
@@ -1445,21 +1450,22 @@
   },
   "37674481": {
    "rating": 6.32,
-   "touches": 12,
-   "duels_t": 4,
-   "min": 48,
+   "touches": 13,
+   "duels_t": 5,
+   "min": 52,
    "pass": 4,
    "kp": 1,
    "pass_pct": 100,
+   "duels": 1,
    "side": "away",
    "name": "Ieuan Owen"
   },
   "3385": {
    "rating": 6.94,
-   "pass": 40,
-   "touches": 47,
+   "pass": 42,
+   "touches": 49,
    "duels": 4,
-   "min": 48,
+   "min": 52,
    "tkl": 2,
    "duels_t": 4,
    "clr": 2,
@@ -1470,9 +1476,9 @@
   },
   "1846812": {
    "rating": 6.51,
-   "touches": 28,
-   "pass": 21,
-   "min": 48,
+   "touches": 31,
+   "pass": 23,
+   "min": 52,
    "clr": 3,
    "pass_pct": 50,
    "saves": 1,
@@ -1727,7 +1733,21 @@
    "t": "Camilo Duran takes a left-footed shot, but it is blocked.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 50,
+   "x": null,
+   "t": "Yellow card issued to Jamie Brandon.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 50,
+   "x": null,
+   "t": "Colby Donovan takes a left-footed shot but misses.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2442
+ "rate_remaining": 2435
 }
