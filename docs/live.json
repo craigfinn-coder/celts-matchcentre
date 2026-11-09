@@ -654,7 +654,7 @@
     "type": "VAR",
     "side": "home",
     "team": "Celtic",
-    "player": "Kasper Høgh",
+    "player": "Mika Baur",
     "related": null,
     "result": null,
     "info": null
@@ -938,8 +938,8 @@
     "away": 3
    },
    "Substitutions": {
-    "home": 3,
-    "away": 2
+    "home": 5,
+    "away": 3
    },
    "Throwins": {
     "home": 20,
@@ -2237,5 +2237,5 @@
    }
   ]
  },
- "updated_at": "2026-11-09T00:20:32.825002+00:00"
+ "updated_at": "2026-11-09T07:27:27.038258+00:00"
 }
