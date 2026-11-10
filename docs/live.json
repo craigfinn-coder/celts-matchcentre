@@ -805,7 +805,7 @@
    },
    {
     "id": 158612309,
-    "minute": 82,
+    "minute": 81,
     "extra": null,
     "type": "Yellowcard",
     "side": "home",
@@ -946,7 +946,7 @@
     "away": 21
    },
    "Long Passes": {
-    "home": 31,
+    "home": 30,
     "away": 51
    },
    "Successful Headers": {
@@ -954,7 +954,7 @@
     "away": 7
    },
    "Tackles": {
-    "home": 10,
+    "home": 11,
     "away": 16
    },
    "Assists": {
@@ -966,7 +966,7 @@
     "away": 375
    },
    "Successful Passes": {
-    "home": 470,
+    "home": 469,
     "away": 305
    },
    "Successful Passes Percentage": {
@@ -982,15 +982,15 @@
     "away": 3
    },
    "Total Crosses": {
-    "home": 29,
+    "home": 28,
     "away": 19
    },
    "Accurate Crosses": {
-    "home": 7,
+    "home": 6,
     "away": 3
    },
    "Interceptions": {
-    "home": 7,
+    "home": 6,
     "away": 10
    },
    "Duels Won": {
@@ -998,7 +998,7 @@
     "away": 38
    },
    "Dribble Attempts": {
-    "home": 10,
+    "home": 8,
     "away": 12
    },
    "Successful Dribbles": {
@@ -1018,15 +1018,15 @@
     "away": 3
    },
    "Successful Dribbles Percentage": {
-    "home": 20,
+    "home": 25,
     "away": 58
    },
    "Successful Long Passes": {
-    "home": 18,
+    "home": 17,
     "away": 16
    },
    "Successful Long Passes Percentage": {
-    "home": 58,
+    "home": 57,
     "away": 31
    },
    "Tackles Won": {
@@ -1379,16 +1379,17 @@
    },
    "15061513": {
     "rating": 7.11,
-    "touches": 36,
+    "touches": 37,
     "pass": 20,
     "min": 71,
     "pass_pct": 100,
-    "duels_t": 8,
+    "duels_t": 9,
     "sot": 1,
     "sh": 4,
-    "duels": 4,
+    "duels": 5,
     "kp": 1,
     "clr": 1,
+    "tkl": 1,
     "side": "home",
     "name": "Kasper Høgh"
    },
@@ -1412,12 +1413,11 @@
    "37563550": {
     "min": 45,
     "pass_pct": 74,
-    "touches": 45,
-    "duels_t": 9,
+    "touches": 44,
+    "duels_t": 8,
     "duels": 4,
-    "kp": 1,
     "rating": 6.66,
-    "pass": 27,
+    "pass": 28,
     "sh": 2,
     "fouls": 1,
     "yc": 1,
@@ -1442,13 +1442,12 @@
     "min": 90,
     "duels": 4,
     "duels_t": 5,
-    "touches": 94,
+    "touches": 93,
     "pass_pct": 100,
     "pass": 84,
     "sh": 2,
     "fouls": 1,
     "kp": 2,
-    "int": 1,
     "side": "home",
     "name": "Cameron Carter-Vickers"
    },
@@ -1467,8 +1466,8 @@
    },
    "37582048": {
     "rating": 7.05,
-    "touches": 54,
-    "pass": 41,
+    "touches": 55,
+    "pass": 42,
     "pass_pct": 50,
     "min": 86,
     "duels_t": 5,
@@ -1497,7 +1496,7 @@
     "rating": 7.09,
     "min": 90,
     "duels_t": 5,
-    "pass": 50,
+    "pass": 49,
     "touches": 61,
     "pass_pct": 96,
     "fouls": 1,
@@ -1531,11 +1530,11 @@
    },
    "37732189": {
     "rating": 7.01,
-    "pass": 41,
+    "pass": 40,
     "touches": 74,
     "min": 90,
     "pass_pct": 100,
-    "duels_t": 11,
+    "duels_t": 12,
     "sh": 3,
     "duels": 4,
     "tkl": 2,
@@ -1564,11 +1563,10 @@
     "pass": 17,
     "min": 64,
     "clr": 1,
-    "duels": 3,
-    "duels_t": 7,
+    "duels": 2,
+    "duels_t": 6,
     "pass_pct": 100,
     "fouls": 3,
-    "tkl": 1,
     "yc": 1,
     "int": 1,
     "side": "away",
@@ -1617,7 +1615,7 @@
     "name": "Erik Ring"
    },
    "37341761": {
-    "pass": 9,
+    "pass": 10,
     "touches": 24,
     "rating": 6.67,
     "duels_t": 8,
@@ -1637,7 +1635,7 @@
     "rating": 6.38,
     "fouls": 3,
     "duels_t": 10,
-    "touches": 29,
+    "touches": 30,
     "min": 64,
     "pass": 15,
     "clr": 3,
@@ -1651,20 +1649,20 @@
    },
    "172953": {
     "rating": 6.41,
-    "touches": 36,
+    "touches": 37,
     "pass": 21,
     "sh": 1,
     "min": 70,
     "pass_pct": 100,
     "duels": 2,
-    "duels_t": 3,
+    "duels_t": 4,
     "clr": 2,
     "side": "away",
     "name": "Greg Kiltie"
    },
    "7346244": {
     "rating": 6.79,
-    "touches": 57,
+    "touches": 58,
     "min": 90,
     "pass": 45,
     "int": 1,
@@ -1677,7 +1675,7 @@
     "name": "George Stanger"
    },
    "13063": {
-    "pass": 46,
+    "pass": 45,
     "touches": 59,
     "sot": 2,
     "sh": 2,
@@ -1722,13 +1720,13 @@
    "37674481": {
     "rating": 6.46,
     "touches": 27,
-    "duels_t": 8,
+    "duels_t": 9,
     "min": 90,
     "pass": 11,
     "kp": 1,
     "pass_pct": 82,
-    "tkl": 1,
-    "duels": 3,
+    "tkl": 2,
+    "duels": 4,
     "sh": 1,
     "side": "away",
     "name": "Ieuan Owen"
@@ -2238,5 +2236,5 @@
    }
   ]
  },
- "updated_at": "2026-11-10T16:48:39.189876+00:00"
+ "updated_at": "2026-11-10T22:03:58.813112+00:00"
 }
