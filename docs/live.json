@@ -1333,7 +1333,7 @@
   "lineups_confirmed": true,
   "player_stats": {
    "123659": {
-    "rating": 8.16,
+    "rating": 8.15,
     "touches": 107,
     "pass": 93,
     "min": 90,
@@ -1378,7 +1378,7 @@
     "name": "Benjamin Nygren"
    },
    "15061513": {
-    "rating": 7.12,
+    "rating": 7.11,
     "touches": 36,
     "pass": 20,
     "min": 71,
@@ -1437,7 +1437,7 @@
     "name": "Luke McCowan"
    },
    "1712": {
-    "rating": 7.59,
+    "rating": 7.61,
     "clr": 6,
     "min": 90,
     "duels": 4,
@@ -1619,7 +1619,7 @@
    "37341761": {
     "pass": 9,
     "touches": 24,
-    "rating": 6.69,
+    "rating": 6.67,
     "duels_t": 8,
     "min": 90,
     "duels": 4,
@@ -1634,7 +1634,7 @@
     "name": "Joe Hugill"
    },
    "7026565": {
-    "rating": 6.39,
+    "rating": 6.38,
     "fouls": 3,
     "duels_t": 10,
     "touches": 29,
@@ -1650,7 +1650,7 @@
     "name": "Tyreece John-Jules"
    },
    "172953": {
-    "rating": 6.42,
+    "rating": 6.41,
     "touches": 36,
     "pass": 21,
     "sh": 1,
@@ -1682,7 +1682,7 @@
     "sot": 2,
     "sh": 2,
     "min": 90,
-    "rating": 6.81,
+    "rating": 6.82,
     "duels_t": 5,
     "fouls": 1,
     "pass_pct": 50,
@@ -1706,7 +1706,7 @@
    },
    "19642679": {
     "touches": 53,
-    "rating": 6.9,
+    "rating": 6.88,
     "duels": 4,
     "duels_t": 5,
     "pass": 31,
@@ -2238,5 +2238,5 @@
    }
   ]
  },
- "updated_at": "2026-11-10T08:58:15.570134+00:00"
+ "updated_at": "2026-11-10T16:48:39.189876+00:00"
 }
