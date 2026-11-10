@@ -1378,7 +1378,7 @@
     "name": "Benjamin Nygren"
    },
    "15061513": {
-    "rating": 7.11,
+    "rating": 7.12,
     "touches": 36,
     "pass": 20,
     "min": 71,
@@ -1416,7 +1416,7 @@
     "duels_t": 9,
     "duels": 4,
     "kp": 1,
-    "rating": 6.62,
+    "rating": 6.66,
     "pass": 27,
     "sh": 2,
     "fouls": 1,
@@ -1437,7 +1437,7 @@
     "name": "Luke McCowan"
    },
    "1712": {
-    "rating": 7.54,
+    "rating": 7.59,
     "clr": 6,
     "min": 90,
     "duels": 4,
@@ -1461,12 +1461,12 @@
     "duels": 1,
     "duels_t": 1,
     "clr": 1,
-    "rating": 6.68,
+    "rating": 6.71,
     "side": "home",
     "name": "Alex Oxlade-Chamberlain"
    },
    "37582048": {
-    "rating": 7.06,
+    "rating": 7.05,
     "touches": 54,
     "pass": 41,
     "pass_pct": 50,
@@ -1530,7 +1530,7 @@
     "name": "James Forrest"
    },
    "37732189": {
-    "rating": 7.0,
+    "rating": 7.01,
     "pass": 41,
     "touches": 74,
     "min": 90,
@@ -1560,7 +1560,7 @@
    },
    "586850": {
     "touches": 36,
-    "rating": 6.42,
+    "rating": 6.41,
     "pass": 17,
     "min": 64,
     "clr": 1,
@@ -1589,7 +1589,7 @@
    "37751592": {
     "touches": 73,
     "pass": 52,
-    "rating": 6.84,
+    "rating": 6.91,
     "min": 89,
     "duels_t": 8,
     "duels": 5,
@@ -1663,7 +1663,7 @@
     "name": "Greg Kiltie"
    },
    "7346244": {
-    "rating": 6.81,
+    "rating": 6.79,
     "touches": 57,
     "min": 90,
     "pass": 45,
@@ -1706,7 +1706,7 @@
    },
    "19642679": {
     "touches": 53,
-    "rating": 6.89,
+    "rating": 6.9,
     "duels": 4,
     "duels_t": 5,
     "pass": 31,
@@ -1760,7 +1760,7 @@
     "name": "Aaron Tshibola"
    },
    "1846812": {
-    "rating": 7.64,
+    "rating": 7.58,
     "touches": 55,
     "pass": 40,
     "min": 90,
@@ -2238,5 +2238,5 @@
    }
   ]
  },
- "updated_at": "2026-11-10T01:17:58.410312+00:00"
+ "updated_at": "2026-11-10T08:58:15.570134+00:00"
 }
