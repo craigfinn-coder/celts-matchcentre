@@ -585,6 +585,12 @@
    "assists": 3
   }
  ],
+ "info": {
+  "coaches": {
+   "home": "Martin O'Neill",
+   "away": "Craig McLeish"
+  }
+ },
  "season_stats": {
   "label": "Premiership",
   "home": {
@@ -1351,7 +1357,7 @@
    "163711": {
     "rating": 6.74,
     "touches": 29,
-    "min": 45,
+    "min": 46,
     "pass": 14,
     "int": 2,
     "pass_pct": 100,
@@ -1411,7 +1417,7 @@
     "name": "Camilo Durán"
    },
    "37563550": {
-    "min": 45,
+    "min": 44,
     "pass_pct": 74,
     "touches": 44,
     "duels_t": 8,
@@ -2236,5 +2242,5 @@
    }
   ]
  },
- "updated_at": "2026-11-11T10:02:01.138107+00:00"
+ "updated_at": "2026-11-11T18:13:03.063083+00:00"
 }
