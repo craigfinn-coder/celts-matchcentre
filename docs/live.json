@@ -426,18 +426,18 @@
   ],
   "away": [
    {
-    "player": "Malik Dijksteel",
-    "type": "Hamstring Injury",
-    "since": "2026-07-31",
-    "until": null,
-    "missed": 14
-   },
-   {
     "player": "Nikolas Agrafiotis",
     "type": "Calf Injury",
     "since": "2026-10-10",
     "until": null,
     "missed": 6
+   },
+   {
+    "player": "Malik Dijksteel",
+    "type": "Hamstring Injury",
+    "since": "2026-07-31",
+    "until": null,
+    "missed": 14
    }
   ]
  },
@@ -2242,5 +2242,5 @@
    }
   ]
  },
- "updated_at": "2026-11-13T11:43:35.553267+00:00"
+ "updated_at": "2026-11-14T14:38:40.713046+00:00"
 }
