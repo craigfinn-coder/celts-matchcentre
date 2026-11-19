@@ -18,7 +18,7 @@
    "id": 19873824,
    "kickoff_utc": "2026-11-26 20:00:00",
    "league": "Europa League",
-   "venue": "Estádio Manuel Marques",
+   "venue": "Estádio Dr. Magalhães Pessoa",
    "home": "Torreense",
    "away": "Celtic",
    "home_id": 7067,
@@ -590,6 +590,10 @@
   "coaches": {
    "home": "Martin O'Neill",
    "away": "Craig McLeish"
+  },
+  "weather": {
+   "temp_c": 1,
+   "desc": "scattered clouds"
   }
  },
  "season_stats": {
@@ -2243,5 +2247,5 @@
    }
   ]
  },
- "updated_at": "2026-11-17T22:05:15.353759+00:00"
+ "updated_at": "2026-11-19T02:22:53.037667+00:00"
 }
