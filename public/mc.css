@@ -150,6 +150,14 @@
 .cahmc .btn.ghost{background:#fff;color:var(--mc-celtic);border:1px solid var(--mc-celtic)}
 .cahmc .btn.ghost:hover{background:#eaf5ee;color:var(--mc-celtic)}
 
+/* From CeltsAreHere block (printed by WordPress under the match centre) */
+.cahmc.cahmc-links{background:none;border-radius:0}
+.cahmc .links a{display:block;text-decoration:none;color:var(--mc-ink);padding:11px 0;border-top:1px solid var(--mc-line)}
+.cahmc .links a:first-of-type{border-top:0;padding-top:0}
+.cahmc .links a:hover .t{color:var(--mc-celtic)}
+.cahmc .links .k{display:block;font:600 10.5px var(--mc-body);letter-spacing:.09em;text-transform:uppercase;color:var(--mc-celtic);margin-bottom:3px}
+.cahmc .links .t{font-weight:600;font-size:15px;line-height:1.3}
+
 /* events */
 .cahmc .ev li{display:grid;grid-template-columns:1fr 54px 1fr;align-items:center;padding:9px 0;border-top:1px solid var(--mc-line);font-size:14px;margin:0}
 .cahmc .ev li:first-child{border-top:0}
