@@ -1,0 +1,10 @@
+{
+  "name": "celts-matchcentre",
+  "private": true,
+  "type": "module",
+  "description": "Celtic Match Centre engine for CeltsAreHere: Vercel cron + data builder + page renderer",
+  "engines": { "node": "22.x" },
+  "dependencies": {
+    "@vercel/blob": "^2.9.0"
+  }
+}
