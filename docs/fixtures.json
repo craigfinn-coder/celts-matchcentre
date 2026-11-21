@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-19T04:19:20+00:00",
+ "updated": "2026-11-21T22:14:37+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 21,
-  "w": 13,
+  "p": 22,
+  "w": 14,
   "d": 1,
   "l": 7,
-  "gf": 42,
-  "ga": 29
+  "gf": 46,
+  "ga": 30
  },
  "fixtures": [
   {
@@ -679,12 +679,18 @@
    "ha": "H",
    "opp": "St. Mirren",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "state": "NS",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
-   "score": null,
-   "half_time": null,
-   "result": null,
+   "score": {
+    "home": 4,
+    "away": 1
+   },
+   "half_time": {
+    "home": 3,
+    "away": 0
+   },
+   "result": "W",
    "tv": []
   },
   {
