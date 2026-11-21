@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:22:15.090180+00:00",
+ "updated_at": "2026-11-21T16:23:45.029585+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,11 +312,11 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 61,
+ "minute": 62,
  "minute_estimated": false,
  "added_time": null,
  "score": {
-  "home": 3,
+  "home": 4,
   "away": 0
  },
  "half_time": {
@@ -399,16 +399,16 @@
    "away": 6
   },
   "Attacks": {
-   "home": 64,
+   "home": 68,
    "away": 57
   },
   "Dangerous Attacks": {
-   "home": 47,
+   "home": 50,
    "away": 33
   },
   "Ball Possession %": {
-   "home": 51,
-   "away": 49
+   "home": 52,
+   "away": 48
   },
   "Ball Safe": {
    "home": 38,
@@ -479,12 +479,12 @@
    "away": 0
   },
   "Passes": {
-   "home": 385,
-   "away": 370
+   "home": 398,
+   "away": 373
   },
   "Successful Passes": {
-   "home": 345,
-   "away": 335
+   "home": 357,
+   "away": 338
   },
   "Successful Passes Percentage": {
    "home": 90,
@@ -495,7 +495,7 @@
    "away": 2
   },
   "Total Crosses": {
-   "home": 12,
+   "home": 15,
    "away": 11
   },
   "Accurate Crosses": {
@@ -1217,9 +1217,14 @@
    "side": "home",
    "name": "Luke McCowan"
   },
+  "37598290": {
+   "min": 2,
+   "side": "home",
+   "name": "Callum Osmand"
+  },
   "1712": {
    "min": 54,
-   "rating": 6.9,
+   "rating": 6.92,
    "touches": 57,
    "pass_pct": 96,
    "pass": 50,
@@ -1236,7 +1241,7 @@
    "min": 54,
    "touches": 35,
    "pass": 25,
-   "rating": 7.6,
+   "rating": 7.59,
    "pass_pct": 90,
    "duels_t": 4,
    "duels": 2,
@@ -1259,9 +1264,14 @@
    "side": "home",
    "name": "Sam Johnstone"
   },
+  "37709264": {
+   "min": 2,
+   "side": "home",
+   "name": "Joël van den Berg"
+  },
   "8585": {
    "min": 54,
-   "rating": 6.69,
+   "rating": 6.7,
    "int": 2,
    "pass": 35,
    "touches": 44,
@@ -1329,7 +1339,7 @@
   },
   "37554466": {
    "min": 54,
-   "rating": 6.85,
+   "rating": 6.94,
    "pass": 56,
    "touches": 70,
    "pass_pct": 100,
@@ -1340,7 +1350,7 @@
   },
   "37631417": {
    "min": 54,
-   "rating": 6.19,
+   "rating": 6.17,
    "pass": 50,
    "pass_pct": 100,
    "clr": 2,
@@ -1395,7 +1405,7 @@
   },
   "37649368": {
    "min": 54,
-   "rating": 6.24,
+   "rating": 6.21,
    "pass": 18,
    "duels_t": 11,
    "fouls": 1,
@@ -1411,7 +1421,7 @@
   },
   "37260590": {
    "min": 54,
-   "rating": 6.38,
+   "rating": 6.42,
    "touches": 43,
    "pass": 26,
    "pass_pct": 100,
@@ -1720,12 +1730,26 @@
    "key": false
   },
   {
-   "m": 59,
+   "m": 61,
    "x": null,
    "t": "Corner awarded.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 61,
+   "x": null,
+   "t": "Joel van den Berg comes on for Alex Oxlade-Chamberlain.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 61,
+   "x": null,
+   "t": "Callum Osmand is on, and Joao Pedro Neves Filipe is off.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2388
+ "rate_remaining": 2384
 }
