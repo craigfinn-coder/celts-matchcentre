@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:04:15.016966+00:00",
+ "updated_at": "2026-11-21T16:06:45.310412+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -310,8 +310,8 @@
   }
  },
  "lineups_confirmed": true,
- "state": "HT",
- "state_name": "Half Time",
+ "state": "INPLAY_2ND_HALF",
+ "state_name": "2nd Half",
  "minute": 45,
  "minute_estimated": false,
  "added_time": null,
@@ -431,7 +431,7 @@
    "away": 16
   },
   "Successful Headers": {
-   "home": 2,
+   "home": 3,
    "away": 1
   },
   "Tackles": {
@@ -1643,5 +1643,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2442
+ "rate_remaining": 2435
 }
