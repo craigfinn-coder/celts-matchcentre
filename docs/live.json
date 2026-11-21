@@ -1,717 +1,7 @@
 {
- "updated_at": "2026-11-21T16:55:15.060824+00:00",
  "live": false,
- "fixture": {
-  "id": 19722745,
-  "kickoff_utc": "2026-11-21 15:00:00",
-  "league": "Premiership",
-  "venue": "Celtic Park",
-  "home": "Celtic",
-  "away": "St. Mirren",
-  "home_id": 53,
-  "away_id": 496,
-  "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-  "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png"
- },
- "lineups": {
-  "home": {
-   "xi": [
-    {
-     "name": "Sam Johnstone",
-     "num": 26,
-     "pos": 1,
-     "field": "1:1",
-     "id": 1008
-    },
-    {
-     "name": "Colby Donovan",
-     "num": 51,
-     "pos": 2,
-     "field": "2:1",
-     "id": 37732189
-    },
-    {
-     "name": "Cameron Carter-Vickers",
-     "num": 20,
-     "pos": 3,
-     "field": "2:2",
-     "id": 1712
-    },
-    {
-     "name": "Liam Scales",
-     "num": 5,
-     "pos": 4,
-     "field": "2:3",
-     "id": 123659
-    },
-    {
-     "name": "Kieran Tierney",
-     "num": 63,
-     "pos": 5,
-     "field": "2:4",
-     "id": 172960
-    },
-    {
-     "name": "Callum McGregor",
-     "num": 42,
-     "pos": 6,
-     "field": "3:1",
-     "id": 8585
-    },
-    {
-     "name": "Alex Oxlade-Chamberlain",
-     "num": 21,
-     "pos": 7,
-     "field": "3:2",
-     "id": 850
-    },
-    {
-     "name": "Hyun-jun Yang",
-     "num": 13,
-     "pos": 8,
-     "field": "4:1",
-     "id": 37563550
-    },
-    {
-     "name": "Luke McCowan",
-     "num": 14,
-     "pos": 9,
-     "field": "4:2",
-     "id": 1548366
-    },
-    {
-     "name": "Jota",
-     "num": 7,
-     "pos": 10,
-     "field": "4:3",
-     "id": 163711
-    },
-    {
-     "name": "Camilo Durán",
-     "num": 11,
-     "pos": 11,
-     "field": "5:1",
-     "id": 37709508
-    }
-   ],
-   "bench": [
-    {
-     "name": "Viljami Sinisalo",
-     "num": 1,
-     "pos": null,
-     "field": null,
-     "id": 529045
-    },
-    {
-     "name": "Auston Trusty",
-     "num": 6,
-     "pos": null,
-     "field": null,
-     "id": 262280
-    },
-    {
-     "name": "Kasper Høgh",
-     "num": 9,
-     "pos": null,
-     "field": null,
-     "id": 15061513
-    },
-    {
-     "name": "Landon Emenalo",
-     "num": 12,
-     "pos": null,
-     "field": null,
-     "id": 37721324
-    },
-    {
-     "name": "Callum Osmand",
-     "num": 19,
-     "pos": null,
-     "field": null,
-     "id": 37598290
-    },
-    {
-     "name": "Shumaira Mheuka",
-     "num": 29,
-     "pos": null,
-     "field": null,
-     "id": 37714106
-    },
-    {
-     "name": "Joël van den Berg",
-     "num": 35,
-     "pos": null,
-     "field": null,
-     "id": 37709264
-    },
-    {
-     "name": "Dane Murray",
-     "num": 47,
-     "pos": null,
-     "field": null,
-     "id": 37342595
-    },
-    {
-     "name": "James Forrest",
-     "num": 49,
-     "pos": null,
-     "field": null,
-     "id": 172104
-    }
-   ],
-   "formation": "4-2-3-1"
-  },
-  "away": {
-   "xi": [
-    {
-     "name": "Jacob Chapman",
-     "num": 1,
-     "pos": 1,
-     "field": "1:1",
-     "id": 20692499
-    },
-    {
-     "name": "Calvin Ramsay",
-     "num": 47,
-     "pos": 2,
-     "field": "2:4",
-     "id": 37260590
-    },
-    {
-     "name": "Alex Gogic",
-     "num": 13,
-     "pos": 3,
-     "field": "2:3",
-     "id": 9781
-    },
-    {
-     "name": "Louis Jackson",
-     "num": 6,
-     "pos": 4,
-     "field": "2:2",
-     "id": 37554466
-    },
-    {
-     "name": "Declan John",
-     "num": 3,
-     "pos": 5,
-     "field": "2:1",
-     "id": 1233
-    },
-    {
-     "name": "Ryan Carr",
-     "num": 8,
-     "pos": 6,
-     "field": "3:2",
-     "id": 37631417
-    },
-    {
-     "name": "Paul Nsio",
-     "num": 48,
-     "pos": 7,
-     "field": "3:1",
-     "id": 37654354
-    },
-    {
-     "name": "Luke Thomas",
-     "num": 16,
-     "pos": 8,
-     "field": "4:3",
-     "id": 15494
-    },
-    {
-     "name": "Killian Phillips",
-     "num": 88,
-     "pos": 9,
-     "field": "4:2",
-     "id": 37529807
-    },
-    {
-     "name": "Ismeal Kabia",
-     "num": 19,
-     "pos": 10,
-     "field": "4:1",
-     "id": 37649368
-    },
-    {
-     "name": "Eseosa Sule",
-     "num": 9,
-     "pos": 11,
-     "field": "5:1",
-     "id": 37685801
-    }
-   ],
-   "bench": [
-    {
-     "name": "Liam Donnelly",
-     "num": 4,
-     "pos": null,
-     "field": null,
-     "id": 7160
-    },
-    {
-     "name": "Samuel Ramos",
-     "num": 10,
-     "pos": null,
-     "field": null,
-     "id": 37308442
-    },
-    {
-     "name": "Jake Young",
-     "num": 20,
-     "pos": null,
-     "field": null,
-     "id": 37532070
-    },
-    {
-     "name": "Marcus Fraser",
-     "num": 22,
-     "pos": null,
-     "field": null,
-     "id": 172748
-    },
-    {
-     "name": "Chris Mochrie",
-     "num": 23,
-     "pos": null,
-     "field": null,
-     "id": 34873964
-    },
-    {
-     "name": "Fraser Taylor",
-     "num": 30,
-     "pos": null,
-     "field": null,
-     "id": 37580336
-    },
-    {
-     "name": "Luke Douglas",
-     "num": 32,
-     "pos": null,
-     "field": null,
-     "id": 38202981
-    },
-    {
-     "name": "Grant Tamosevicius",
-     "num": 35,
-     "pos": null,
-     "field": null,
-     "id": 37764050
-    },
-    {
-     "name": "Henry Fieldson",
-     "num": 53,
-     "pos": null,
-     "field": null,
-     "id": 37548658
-    }
-   ],
-   "formation": "4-2-3-1"
-  }
- },
- "lineups_confirmed": true,
- "state": "FT",
- "state_name": "Full Time",
- "minute": null,
- "minute_estimated": false,
- "added_time": null,
- "score": {
-  "home": 4,
-  "away": 1
- },
- "half_time": {
-  "home": 3,
-  "away": 0
- },
- "events": [
-  {
-   "id": 158722941,
-   "minute": 33,
-   "extra": null,
-   "type": "Goal",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Alex Oxlade-Chamberlain",
-   "related": null,
-   "result": "1-0",
-   "info": "Right foot shot"
-  },
-  {
-   "id": 158723414,
-   "minute": 40,
-   "extra": null,
-   "type": "Goal",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Camilo Durán",
-   "related": "Kieran Tierney",
-   "result": "2-0",
-   "info": "Left foot shot"
-  },
-  {
-   "id": 158723648,
-   "minute": 42,
-   "extra": null,
-   "type": "Goal",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Luke McCowan",
-   "related": "Kieran Tierney",
-   "result": "3-0",
-   "info": "Left foot shot"
-  },
-  {
-   "id": 158725727,
-   "minute": 61,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Joël van den Berg",
-   "related": "Alex Oxlade-Chamberlain",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158725728,
-   "minute": 61,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Callum Osmand",
-   "related": "Jota",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158725843,
-   "minute": 63,
-   "extra": null,
-   "type": "Goal",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Callum McGregor",
-   "related": null,
-   "result": "4-0",
-   "info": "Right foot shot"
-  },
-  {
-   "id": 158726064,
-   "minute": 65,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "St. Mirren",
-   "player": "Chris Mochrie",
-   "related": "Luke Thomas",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158726065,
-   "minute": 65,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "St. Mirren",
-   "player": "Jake Young",
-   "related": "Eseosa Sule",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158726321,
-   "minute": 70,
-   "extra": null,
-   "type": "Penalty",
-   "side": "away",
-   "team": "St. Mirren",
-   "player": "Killian Phillips",
-   "related": null,
-   "result": "4-1",
-   "info": "Penalty"
-  },
-  {
-   "id": 158726376,
-   "minute": 70,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "Celtic",
-   "player": "James Forrest",
-   "related": "Hyun-jun Yang",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158726377,
-   "minute": 71,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Shumaira Mheuka",
-   "related": "Camilo Durán",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158726378,
-   "minute": 71,
-   "extra": null,
-   "type": "Substitution",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Auston Trusty",
-   "related": "Kieran Tierney",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158726557,
-   "minute": 73,
-   "extra": null,
-   "type": "Yellowcard",
-   "side": "away",
-   "team": "St. Mirren",
-   "player": "Alex Gogic",
-   "related": null,
-   "result": null,
-   "info": "Foul"
-  },
-  {
-   "id": 158726617,
-   "minute": 74,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "St. Mirren",
-   "player": "Samuel Ramos",
-   "related": "Killian Phillips",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158727405,
-   "minute": 84,
-   "extra": null,
-   "type": "Yellowcard",
-   "side": "home",
-   "team": "Celtic",
-   "player": "Luke McCowan",
-   "related": null,
-   "result": null,
-   "info": "Foul"
-  },
-  {
-   "id": 158727418,
-   "minute": 84,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "St. Mirren",
-   "player": "Liam Donnelly",
-   "related": "Ryan Carr",
-   "result": null,
-   "info": null
-  },
-  {
-   "id": 158727419,
-   "minute": 84,
-   "extra": null,
-   "type": "Substitution",
-   "side": "away",
-   "team": "St. Mirren",
-   "player": "Fraser Taylor",
-   "related": "Paul Nsio",
-   "result": null,
-   "info": null
-  }
- ],
- "stats": {
-  "Corners": {
-   "home": 4,
-   "away": 5
-  },
-  "Shots Off Target": {
-   "home": 4,
-   "away": 2
-  },
-  "Shots Total": {
-   "home": 19,
-   "away": 13
-  },
-  "Attacks": {
-   "home": 100,
-   "away": 87
-  },
-  "Dangerous Attacks": {
-   "home": 61,
-   "away": 51
-  },
-  "Ball Possession %": {
-   "home": 50,
-   "away": 50
-  },
-  "Ball Safe": {
-   "home": 49,
-   "away": 75
-  },
-  "Penalties": {
-   "home": 0,
-   "away": 1
-  },
-  "Shots Insidebox": {
-   "home": 10,
-   "away": 9
-  },
-  "Shots Outsidebox": {
-   "home": 9,
-   "away": 4
-  },
-  "Offsides": {
-   "home": 5,
-   "away": 1
-  },
-  "Goals": {
-   "home": 4,
-   "away": 1
-  },
-  "Goal Kicks": {
-   "home": 5,
-   "away": 6
-  },
-  "Goal Attempts": {
-   "home": 9,
-   "away": 4
-  },
-  "Free Kicks": {
-   "home": 11,
-   "away": 7
-  },
-  "Fouls": {
-   "home": 8,
-   "away": 11
-  },
-  "Saves": {
-   "home": 4,
-   "away": 3
-  },
-  "Shots Blocked": {
-   "home": 8,
-   "away": 6
-  },
-  "Substitutions": {
-   "home": 5,
-   "away": 5
-  },
-  "Throwins": {
-   "home": 14,
-   "away": 9
-  },
-  "Long Passes": {
-   "home": 27,
-   "away": 31
-  },
-  "Successful Headers": {
-   "home": 4,
-   "away": 3
-  },
-  "Tackles": {
-   "home": 26,
-   "away": 24
-  },
-  "Assists": {
-   "home": 2,
-   "away": 0
-  },
-  "Passes": {
-   "home": 541,
-   "away": 539
-  },
-  "Successful Passes": {
-   "home": 474,
-   "away": 481
-  },
-  "Successful Passes Percentage": {
-   "home": 88,
-   "away": 89
-  },
-  "Yellowcards": {
-   "home": 1,
-   "away": 1
-  },
-  "Shots On Target": {
-   "home": 7,
-   "away": 5
-  },
-  "Total Crosses": {
-   "home": 17,
-   "away": 17
-  },
-  "Accurate Crosses": {
-   "home": 3,
-   "away": 3
-  },
-  "Interceptions": {
-   "home": 9,
-   "away": 10
-  },
-  "Duels Won": {
-   "home": 57,
-   "away": 51
-  },
-  "Dribble Attempts": {
-   "home": 23,
-   "away": 27
-  },
-  "Successful Dribbles": {
-   "home": 14,
-   "away": 15
-  },
-  "Key Passes": {
-   "home": 10,
-   "away": 6
-  },
-  "Big Chances Created": {
-   "home": 2,
-   "away": 2
-  },
-  "Big Chances Missed": {
-   "home": 0,
-   "away": 1
-  },
-  "Successful Dribbles Percentage": {
-   "home": 61,
-   "away": 56
-  },
-  "Successful Long Passes": {
-   "home": 13,
-   "away": 16
-  },
-  "Successful Long Passes Percentage": {
-   "home": 48,
-   "away": 52
-  },
-  "Tackles Won": {
-   "home": 16,
-   "away": 16
-  }
- },
+ "state": "NS",
  "next_fixtures": [
-  {
-   "id": 19722745,
-   "kickoff_utc": "2026-11-21 15:00:00",
-   "league": "Premiership",
-   "venue": "Celtic Park",
-   "home": "Celtic",
-   "away": "St. Mirren",
-   "home_id": 53,
-   "away_id": 496,
-   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
-   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png"
-  },
   {
    "id": 19873824,
    "kickoff_utc": "2026-11-26 20:00:00",
@@ -734,6 +24,18 @@
    "home_id": 314,
    "away_id": 53,
    "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
+  },
+  {
+   "id": 19722733,
+   "kickoff_utc": "2026-12-02 19:45:00",
+   "league": "Premiership",
+   "venue": "Kilmac Stadium at Dens Park",
+   "home": "Dundee",
+   "away": "Celtic",
+   "home_id": 284,
+   "away_id": 53,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
    "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
   }
  ],
@@ -782,6 +84,20 @@
   },
   {
    "pos": 4,
+   "team": "Hearts",
+   "team_id": 314,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "pts": 23,
+   "p": 13,
+   "w": 7,
+   "d": 2,
+   "l": 4,
+   "gf": 34,
+   "ga": 22,
+   "gd": 12
+  },
+  {
+   "pos": 5,
    "team": "Dundee United",
    "team_id": 282,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
@@ -795,35 +111,7 @@
    "gd": 4
   },
   {
-   "pos": 5,
-   "team": "Hearts",
-   "team_id": 314,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-   "pts": 20,
-   "p": 12,
-   "w": 6,
-   "d": 2,
-   "l": 4,
-   "gf": 26,
-   "ga": 22,
-   "gd": 4
-  },
-  {
    "pos": 6,
-   "team": "Dundee",
-   "team_id": 284,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
-   "pts": 17,
-   "p": 12,
-   "w": 5,
-   "d": 2,
-   "l": 5,
-   "gf": 18,
-   "ga": 15,
-   "gd": 3
-  },
-  {
-   "pos": 7,
    "team": "St. Johnstone",
    "team_id": 734,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
@@ -835,6 +123,20 @@
    "gf": 18,
    "ga": 22,
    "gd": -4
+  },
+  {
+   "pos": 7,
+   "team": "Dundee",
+   "team_id": 284,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
+   "pts": 17,
+   "p": 13,
+   "w": 5,
+   "d": 2,
+   "l": 6,
+   "gf": 18,
+   "ga": 23,
+   "gd": -5
   },
   {
    "pos": 8,
@@ -907,20 +209,86 @@
    "gd": -18
   }
  ],
- "live_table": true,
+ "state_name": "Not started",
+ "fixture": {
+  "id": 19873824,
+  "kickoff_utc": "2026-11-26 20:00:00",
+  "league": "Europa League",
+  "venue": "Estádio Dr. Magalhães Pessoa",
+  "home": "Torreense",
+  "away": "Celtic",
+  "home_id": 7067,
+  "away_id": 53,
+  "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/27/7067.png",
+  "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png"
+ },
+ "score": {
+  "home": 0,
+  "away": 0
+ },
+ "events": [],
+ "stats": {},
+ "lineups": {
+  "home": {
+   "xi": [],
+   "bench": [],
+   "formation": null
+  },
+  "away": {
+   "xi": [],
+   "bench": [],
+   "formation": null
+  }
+ },
+ "lineups_confirmed": false,
  "form": {
   "home": [
    {
     "r": "W",
     "score": "1-2",
-    "home": "Hibernian",
-    "away": "Celtic",
-    "opp": "Hibernian",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
-    "date": "2026-10-25",
-    "league": "Premiership",
+    "home": "Lillestrøm",
+    "away": "Torreense",
+    "opp": "Lillestrøm",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/14/2510.png",
+    "date": "2026-09-17",
+    "league": "Europa League",
     "ha": "A"
    },
+   {
+    "r": "L",
+    "score": "1-2",
+    "home": "Torreense",
+    "away": "Sunderland",
+    "opp": "Sunderland",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/3/3.png",
+    "date": "2026-10-15",
+    "league": "Europa League",
+    "ha": "H"
+   },
+   {
+    "r": "L",
+    "score": "4-1",
+    "home": "Ferencvárosi",
+    "away": "Torreense",
+    "opp": "Ferencvárosi",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/112.png",
+    "date": "2026-10-22",
+    "league": "Europa League",
+    "ha": "A"
+   },
+   {
+    "r": "W",
+    "score": "3-2",
+    "home": "Torreense",
+    "away": "Ararat-Armenia",
+    "opp": "Ararat-Armenia",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/9/132649.png",
+    "date": "2026-11-05",
+    "league": "Europa League",
+    "ha": "H"
+   }
+  ],
+  "away": [
    {
     "r": "D",
     "score": "2-2",
@@ -964,147 +332,30 @@
     "date": "2026-11-08",
     "league": "Premiership",
     "ha": "H"
-   }
-  ],
-  "away": [
-   {
-    "r": "L",
-    "score": "3-1",
-    "home": "Aberdeen",
-    "away": "St. Mirren",
-    "opp": "Aberdeen",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
-    "date": "2026-10-17",
-    "league": "Premiership",
-    "ha": "A"
    },
    {
     "r": "W",
-    "score": "2-1",
-    "home": "St. Mirren",
-    "away": "Dundee",
-    "opp": "Dundee",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
-    "date": "2026-10-24",
-    "league": "Premiership",
-    "ha": "H"
-   },
-   {
-    "r": "D",
-    "score": "1-1",
-    "home": "St. Mirren",
-    "away": "Hibernian",
-    "opp": "Hibernian",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
-    "date": "2026-10-28",
-    "league": "Premiership",
-    "ha": "H"
-   },
-   {
-    "r": "L",
-    "score": "1-0",
-    "home": "Motherwell",
+    "score": "4-1",
+    "home": "Celtic",
     "away": "St. Mirren",
-    "opp": "Motherwell",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
-    "date": "2026-10-31",
-    "league": "Premiership",
-    "ha": "A"
-   },
-   {
-    "r": "L",
-    "score": "0-2",
-    "home": "St. Mirren",
-    "away": "Rangers",
-    "opp": "Rangers",
-    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-    "date": "2026-11-07",
+    "opp": "St. Mirren",
+    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
+    "date": "2026-11-21",
     "league": "Premiership",
     "ha": "H"
    }
   ]
  },
- "h2h": [
-  {
-   "r": "W",
-   "score": "1-2",
-   "home": "St. Mirren",
-   "away": "Celtic",
-   "opp": "St. Mirren",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "date": "2026-09-05",
-   "league": "Premiership",
-   "ha": "A"
-  },
-  {
-   "r": "W",
-   "score": "6-2",
-   "home": "Celtic",
-   "away": "St. Mirren",
-   "opp": "St. Mirren",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "date": "2026-04-19",
-   "league": "Scottish Cup",
-   "ha": "H"
-  },
-  {
-   "r": "W",
-   "score": "1-0",
-   "home": "Celtic",
-   "away": "St. Mirren",
-   "opp": "St. Mirren",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "date": "2026-04-11",
-   "league": "Premiership",
-   "ha": "H"
-  },
-  {
-   "r": "L",
-   "score": "3-1",
-   "home": "St. Mirren",
-   "away": "Celtic",
-   "opp": "St. Mirren",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "date": "2025-12-14",
-   "league": "League Cup",
-   "ha": "A"
-  },
-  {
-   "r": "W",
-   "score": "0-1",
-   "home": "St. Mirren",
-   "away": "Celtic",
-   "opp": "St. Mirren",
-   "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
-   "date": "2025-11-22",
-   "league": "Premiership",
-   "ha": "A"
-  }
- ],
+ "h2h": [],
  "sidelined": {
-  "home": [
+  "home": [],
+  "away": [
    {
     "player": "Alistair Johnston",
     "type": "Leg Injury",
     "since": "2026-08-10",
     "until": null,
     "missed": 19
-   }
-  ],
-  "away": [
-   {
-    "player": "Nikolas Agrafiotis",
-    "type": "Calf Injury",
-    "since": "2026-10-10",
-    "until": null,
-    "missed": 6
-   },
-   {
-    "player": "Malik Dijksteel",
-    "type": "Hamstring Injury",
-    "since": "2026-07-31",
-    "until": null,
-    "missed": 14
    }
   ]
  },
@@ -1114,1126 +365,1801 @@
    "player": "Camilo Durán",
    "team": "Celtic",
    "team_id": 53,
-   "goals": 7
+   "goals": 8
   },
   {
    "pos": 2,
    "player": "Jacob Murrell",
    "team": "Falkirk",
    "team_id": 770,
-   "goals": 7
+   "goals": 8
   },
   {
    "pos": 3,
+   "player": "Cláudio Braga",
+   "team": "Hearts",
+   "team_id": 314,
+   "goals": 7
+  },
+  {
+   "pos": 4,
    "player": "Ryan Naderi",
    "team": "Rangers",
    "team_id": 62,
    "goals": 6
   },
   {
-   "pos": 4,
+   "pos": 5,
    "player": "Benjamin Nygren",
    "team": "Celtic",
    "team_id": 53,
    "goals": 6
   },
   {
-   "pos": 5,
-   "player": "Cláudio Braga",
-   "team": "Hearts",
-   "team_id": 314,
+   "pos": 6,
+   "player": "Kevin Nisbet",
+   "team": "Aberdeen",
+   "team_id": 273,
    "goals": 6
   },
   {
-   "pos": 6,
+   "pos": 7,
    "player": "Josh Fowler",
    "team": "St. Johnstone",
    "team_id": 734,
    "goals": 6
   },
   {
-   "pos": 7,
+   "pos": 8,
    "player": "Calvin Miller",
    "team": "Hearts",
    "team_id": 314,
    "goals": 5
   },
   {
-   "pos": 8,
-   "player": "Kevin Nisbet",
-   "team": "Aberdeen",
-   "team_id": 273,
-   "goals": 4
-  },
-  {
    "pos": 9,
-   "player": "Kevin Kelsy",
-   "team": "Rangers",
-   "team_id": 62,
-   "goals": 4
+   "player": "Zachary Sapsford",
+   "team": "Dundee United",
+   "team_id": 282,
+   "goals": 5
   },
   {
    "pos": 10,
-   "player": "Joe Westley",
-   "team": "Dundee",
-   "team_id": 284,
+   "player": "Jesse Randall",
+   "team": "Dundee United",
+   "team_id": 282,
    "goals": 4
   }
  ],
  "top_assists": [
   {
    "pos": 1,
+   "player": "Josh McPake",
+   "team": "Hearts",
+   "team_id": 314,
+   "assists": 7
+  },
+  {
+   "pos": 2,
    "player": "Camilo Durán",
    "team": "Celtic",
    "team_id": 53,
    "assists": 6
   },
   {
-   "pos": 2,
-   "player": "Josh McPake",
-   "team": "Hearts",
-   "team_id": 314,
-   "assists": 6
+   "pos": 3,
+   "player": "Kieran Tierney",
+   "team": "Celtic",
+   "team_id": 53,
+   "assists": 5
   },
   {
-   "pos": 3,
+   "pos": 4,
    "player": "Ryan Strain",
    "team": "Falkirk",
    "team_id": 770,
    "assists": 5
   },
   {
-   "pos": 4,
+   "pos": 5,
    "player": "Enes Alic",
    "team": "St. Johnstone",
    "team_id": 734,
    "assists": 4
   },
   {
-   "pos": 5,
-   "player": "Kevin Nisbet",
-   "team": "Aberdeen",
-   "team_id": 273,
-   "assists": 3
-  },
-  {
    "pos": 6,
-   "player": "Benjamin Nygren",
-   "team": "Celtic",
-   "team_id": 53,
+   "player": "Djeidi Gassama",
+   "team": "Rangers",
+   "team_id": 62,
    "assists": 3
   },
   {
    "pos": 7,
-   "player": "Lyall Cameron",
-   "team": "Dundee United",
-   "team_id": 282,
-   "assists": 3
-  },
-  {
-   "pos": 8,
    "player": "Jesse Randall",
    "team": "Dundee United",
    "team_id": 282,
    "assists": 3
   },
   {
-   "pos": 9,
-   "player": "Kieran Tierney",
+   "pos": 8,
+   "player": "Kasper Høgh",
    "team": "Celtic",
    "team_id": 53,
    "assists": 3
   },
   {
+   "pos": 9,
+   "player": "Ryan Naderi",
+   "team": "Rangers",
+   "team_id": 62,
+   "assists": 3
+  },
+  {
    "pos": 10,
-   "player": "Kasper Høgh",
+   "player": "Benjamin Nygren",
    "team": "Celtic",
    "team_id": 53,
    "assists": 3
   }
  ],
  "info": {
-  "referee": "Michael MacDermid",
   "coaches": {
-   "home": "Martin O'Neill",
-   "away": "Craig McLeish"
-  },
-  "weather": {
-   "temp_c": null,
-   "desc": "few clouds"
+   "away": "Martin O'Neill",
+   "home": "João Nuno"
   },
   "tv": [
-   "Celtic TV",
-   "St Mirren TV"
+   "TNT Sports 3",
+   "HBO Max"
   ]
  },
- "season_stats": {
-  "label": "Premiership",
-  "home": {
-   "played": 13,
-   "goals_pg": 2.15,
-   "conceded_pg": 0.77,
-   "clean_sheet_pct": 38.46,
-   "btts_pct": 46.15,
-   "possession": 61.38,
-   "corners_pg": 9.38,
-   "fouls_pg": 10.85,
-   "yellows_pg": 1.77,
-   "rating": 7.1
+ "last_match": {
+  "fixture": {
+   "id": 19722745,
+   "kickoff_utc": "2026-11-21 15:00:00",
+   "league": "Premiership",
+   "venue": "Celtic Park",
+   "home": "Celtic",
+   "away": "St. Mirren",
+   "home_id": 53,
+   "away_id": 496,
+   "home_logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
+   "away_logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png"
   },
-  "away": {
-   "played": 13,
-   "goals_pg": 0.92,
-   "conceded_pg": 1.69,
-   "clean_sheet_pct": 23.08,
-   "btts_pct": 38.46,
-   "possession": 49.46,
-   "corners_pg": 4.23,
-   "fouls_pg": 13.69,
-   "yellows_pg": 3.0,
-   "rating": 6.74
-  }
+  "state": "FT",
+  "score": {
+   "home": 4,
+   "away": 1
+  },
+  "half_time": {
+   "home": 3,
+   "away": 0
+  },
+  "events": [
+   {
+    "id": 158722941,
+    "minute": 33,
+    "extra": null,
+    "type": "Goal",
+    "side": "home",
+    "team": "Celtic",
+    "player": "Alex Oxlade-Chamberlain",
+    "related": null,
+    "result": "1-0",
+    "info": "Right foot shot"
+   },
+   {
+    "id": 158723414,
+    "minute": 40,
+    "extra": null,
+    "type": "Goal",
+    "side": "home",
+    "team": "Celtic",
+    "player": "Camilo Durán",
+    "related": "Kieran Tierney",
+    "result": "2-0",
+    "info": "Left foot shot"
+   },
+   {
+    "id": 158723648,
+    "minute": 42,
+    "extra": null,
+    "type": "Goal",
+    "side": "home",
+    "team": "Celtic",
+    "player": "Luke McCowan",
+    "related": "Kieran Tierney",
+    "result": "3-0",
+    "info": "Left foot shot"
+   },
+   {
+    "id": 158725727,
+    "minute": 61,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "Celtic",
+    "player": "Joël van den Berg",
+    "related": "Alex Oxlade-Chamberlain",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158725728,
+    "minute": 61,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "Celtic",
+    "player": "Callum Osmand",
+    "related": "Jota",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158725843,
+    "minute": 63,
+    "extra": null,
+    "type": "Goal",
+    "side": "home",
+    "team": "Celtic",
+    "player": "Callum McGregor",
+    "related": null,
+    "result": "4-0",
+    "info": "Right foot shot"
+   },
+   {
+    "id": 158726064,
+    "minute": 65,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "St. Mirren",
+    "player": "Chris Mochrie",
+    "related": "Luke Thomas",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158726065,
+    "minute": 65,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "St. Mirren",
+    "player": "Jake Young",
+    "related": "Eseosa Sule",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158726321,
+    "minute": 70,
+    "extra": null,
+    "type": "Penalty",
+    "side": "away",
+    "team": "St. Mirren",
+    "player": "Killian Phillips",
+    "related": null,
+    "result": "4-1",
+    "info": "Penalty"
+   },
+   {
+    "id": 158726376,
+    "minute": 70,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "Celtic",
+    "player": "James Forrest",
+    "related": "Hyun-jun Yang",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158726377,
+    "minute": 71,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "Celtic",
+    "player": "Shumaira Mheuka",
+    "related": "Camilo Durán",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158726378,
+    "minute": 71,
+    "extra": null,
+    "type": "Substitution",
+    "side": "home",
+    "team": "Celtic",
+    "player": "Auston Trusty",
+    "related": "Kieran Tierney",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158726557,
+    "minute": 73,
+    "extra": null,
+    "type": "Yellowcard",
+    "side": "away",
+    "team": "St. Mirren",
+    "player": "Alex Gogic",
+    "related": null,
+    "result": null,
+    "info": "Foul"
+   },
+   {
+    "id": 158726617,
+    "minute": 74,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "St. Mirren",
+    "player": "Samuel Ramos",
+    "related": "Killian Phillips",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158727405,
+    "minute": 84,
+    "extra": null,
+    "type": "Yellowcard",
+    "side": "home",
+    "team": "Celtic",
+    "player": "Luke McCowan",
+    "related": null,
+    "result": null,
+    "info": "Foul"
+   },
+   {
+    "id": 158727418,
+    "minute": 84,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "St. Mirren",
+    "player": "Liam Donnelly",
+    "related": "Ryan Carr",
+    "result": null,
+    "info": null
+   },
+   {
+    "id": 158727419,
+    "minute": 84,
+    "extra": null,
+    "type": "Substitution",
+    "side": "away",
+    "team": "St. Mirren",
+    "player": "Fraser Taylor",
+    "related": "Paul Nsio",
+    "result": null,
+    "info": null
+   }
+  ],
+  "stats": {
+   "Corners": {
+    "home": 4,
+    "away": 5
+   },
+   "Shots Off Target": {
+    "home": 4,
+    "away": 2
+   },
+   "Shots Total": {
+    "home": 19,
+    "away": 13
+   },
+   "Attacks": {
+    "home": 100,
+    "away": 87
+   },
+   "Dangerous Attacks": {
+    "home": 61,
+    "away": 51
+   },
+   "Ball Possession %": {
+    "home": 50,
+    "away": 50
+   },
+   "Ball Safe": {
+    "home": 63,
+    "away": 94
+   },
+   "Penalties": {
+    "home": 0,
+    "away": 1
+   },
+   "Shots Insidebox": {
+    "home": 10,
+    "away": 9
+   },
+   "Shots Outsidebox": {
+    "home": 9,
+    "away": 4
+   },
+   "Offsides": {
+    "home": 5,
+    "away": 1
+   },
+   "Goals": {
+    "home": 4,
+    "away": 1
+   },
+   "Goal Kicks": {
+    "home": 5,
+    "away": 6
+   },
+   "Goal Attempts": {
+    "home": 10,
+    "away": 7
+   },
+   "Free Kicks": {
+    "home": 11,
+    "away": 7
+   },
+   "Fouls": {
+    "home": 8,
+    "away": 11
+   },
+   "Saves": {
+    "home": 4,
+    "away": 3
+   },
+   "Shots Blocked": {
+    "home": 8,
+    "away": 6
+   },
+   "Substitutions": {
+    "home": 5,
+    "away": 5
+   },
+   "Throwins": {
+    "home": 14,
+    "away": 9
+   },
+   "Long Passes": {
+    "home": 27,
+    "away": 31
+   },
+   "Successful Headers": {
+    "home": 5,
+    "away": 4
+   },
+   "Tackles": {
+    "home": 26,
+    "away": 24
+   },
+   "Assists": {
+    "home": 2,
+    "away": 0
+   },
+   "Passes": {
+    "home": 540,
+    "away": 540
+   },
+   "Successful Passes": {
+    "home": 474,
+    "away": 482
+   },
+   "Successful Passes Percentage": {
+    "home": 88,
+    "away": 89
+   },
+   "Yellowcards": {
+    "home": 1,
+    "away": 1
+   },
+   "Shots On Target": {
+    "home": 7,
+    "away": 5
+   },
+   "Total Crosses": {
+    "home": 17,
+    "away": 17
+   },
+   "Accurate Crosses": {
+    "home": 3,
+    "away": 3
+   },
+   "Interceptions": {
+    "home": 9,
+    "away": 10
+   },
+   "Duels Won": {
+    "home": 56,
+    "away": 50
+   },
+   "Dribble Attempts": {
+    "home": 23,
+    "away": 26
+   },
+   "Successful Dribbles": {
+    "home": 14,
+    "away": 14
+   },
+   "Key Passes": {
+    "home": 10,
+    "away": 6
+   },
+   "Big Chances Created": {
+    "home": 2,
+    "away": 2
+   },
+   "Big Chances Missed": {
+    "home": 0,
+    "away": 1
+   },
+   "Successful Dribbles Percentage": {
+    "home": 61,
+    "away": 54
+   },
+   "Successful Long Passes": {
+    "home": 13,
+    "away": 16
+   },
+   "Successful Long Passes Percentage": {
+    "home": 48,
+    "away": 52
+   },
+   "Tackles Won": {
+    "home": 16,
+    "away": 16
+   }
+  },
+  "lineups": {
+   "home": {
+    "xi": [
+     {
+      "name": "Sam Johnstone",
+      "num": 26,
+      "pos": 1,
+      "field": "1:1",
+      "id": 1008
+     },
+     {
+      "name": "Colby Donovan",
+      "num": 51,
+      "pos": 2,
+      "field": "2:1",
+      "id": 37732189
+     },
+     {
+      "name": "Cameron Carter-Vickers",
+      "num": 20,
+      "pos": 3,
+      "field": "2:2",
+      "id": 1712
+     },
+     {
+      "name": "Liam Scales",
+      "num": 5,
+      "pos": 4,
+      "field": "2:3",
+      "id": 123659
+     },
+     {
+      "name": "Kieran Tierney",
+      "num": 63,
+      "pos": 5,
+      "field": "2:4",
+      "id": 172960
+     },
+     {
+      "name": "Callum McGregor",
+      "num": 42,
+      "pos": 6,
+      "field": "3:1",
+      "id": 8585
+     },
+     {
+      "name": "Alex Oxlade-Chamberlain",
+      "num": 21,
+      "pos": 7,
+      "field": "3:2",
+      "id": 850
+     },
+     {
+      "name": "Hyun-jun Yang",
+      "num": 13,
+      "pos": 8,
+      "field": "4:1",
+      "id": 37563550
+     },
+     {
+      "name": "Luke McCowan",
+      "num": 14,
+      "pos": 9,
+      "field": "4:2",
+      "id": 1548366
+     },
+     {
+      "name": "Jota",
+      "num": 7,
+      "pos": 10,
+      "field": "4:3",
+      "id": 163711
+     },
+     {
+      "name": "Camilo Durán",
+      "num": 11,
+      "pos": 11,
+      "field": "5:1",
+      "id": 37709508
+     }
+    ],
+    "bench": [
+     {
+      "name": "Viljami Sinisalo",
+      "num": 1,
+      "pos": null,
+      "field": null,
+      "id": 529045
+     },
+     {
+      "name": "Auston Trusty",
+      "num": 6,
+      "pos": null,
+      "field": null,
+      "id": 262280
+     },
+     {
+      "name": "Kasper Høgh",
+      "num": 9,
+      "pos": null,
+      "field": null,
+      "id": 15061513
+     },
+     {
+      "name": "Landon Emenalo",
+      "num": 12,
+      "pos": null,
+      "field": null,
+      "id": 37721324
+     },
+     {
+      "name": "Callum Osmand",
+      "num": 19,
+      "pos": null,
+      "field": null,
+      "id": 37598290
+     },
+     {
+      "name": "Shumaira Mheuka",
+      "num": 29,
+      "pos": null,
+      "field": null,
+      "id": 37714106
+     },
+     {
+      "name": "Joël van den Berg",
+      "num": 35,
+      "pos": null,
+      "field": null,
+      "id": 37709264
+     },
+     {
+      "name": "Dane Murray",
+      "num": 47,
+      "pos": null,
+      "field": null,
+      "id": 37342595
+     },
+     {
+      "name": "James Forrest",
+      "num": 49,
+      "pos": null,
+      "field": null,
+      "id": 172104
+     }
+    ],
+    "formation": "4-2-3-1"
+   },
+   "away": {
+    "xi": [
+     {
+      "name": "Jacob Chapman",
+      "num": 1,
+      "pos": 1,
+      "field": "1:1",
+      "id": 20692499
+     },
+     {
+      "name": "Calvin Ramsay",
+      "num": 47,
+      "pos": 2,
+      "field": "2:4",
+      "id": 37260590
+     },
+     {
+      "name": "Alex Gogic",
+      "num": 13,
+      "pos": 3,
+      "field": "2:3",
+      "id": 9781
+     },
+     {
+      "name": "Louis Jackson",
+      "num": 6,
+      "pos": 4,
+      "field": "2:2",
+      "id": 37554466
+     },
+     {
+      "name": "Declan John",
+      "num": 3,
+      "pos": 5,
+      "field": "2:1",
+      "id": 1233
+     },
+     {
+      "name": "Ryan Carr",
+      "num": 8,
+      "pos": 6,
+      "field": "3:2",
+      "id": 37631417
+     },
+     {
+      "name": "Paul Nsio",
+      "num": 48,
+      "pos": 7,
+      "field": "3:1",
+      "id": 37654354
+     },
+     {
+      "name": "Luke Thomas",
+      "num": 16,
+      "pos": 8,
+      "field": "4:3",
+      "id": 15494
+     },
+     {
+      "name": "Killian Phillips",
+      "num": 88,
+      "pos": 9,
+      "field": "4:2",
+      "id": 37529807
+     },
+     {
+      "name": "Ismeal Kabia",
+      "num": 19,
+      "pos": 10,
+      "field": "4:1",
+      "id": 37649368
+     },
+     {
+      "name": "Eseosa Sule",
+      "num": 9,
+      "pos": 11,
+      "field": "5:1",
+      "id": 37685801
+     }
+    ],
+    "bench": [
+     {
+      "name": "Liam Donnelly",
+      "num": 4,
+      "pos": null,
+      "field": null,
+      "id": 7160
+     },
+     {
+      "name": "Samuel Ramos",
+      "num": 10,
+      "pos": null,
+      "field": null,
+      "id": 37308442
+     },
+     {
+      "name": "Jake Young",
+      "num": 20,
+      "pos": null,
+      "field": null,
+      "id": 37532070
+     },
+     {
+      "name": "Marcus Fraser",
+      "num": 22,
+      "pos": null,
+      "field": null,
+      "id": 172748
+     },
+     {
+      "name": "Chris Mochrie",
+      "num": 23,
+      "pos": null,
+      "field": null,
+      "id": 34873964
+     },
+     {
+      "name": "Fraser Taylor",
+      "num": 30,
+      "pos": null,
+      "field": null,
+      "id": 37580336
+     },
+     {
+      "name": "Luke Douglas",
+      "num": 32,
+      "pos": null,
+      "field": null,
+      "id": 38202981
+     },
+     {
+      "name": "Grant Tamosevicius",
+      "num": 35,
+      "pos": null,
+      "field": null,
+      "id": 37764050
+     },
+     {
+      "name": "Henry Fieldson",
+      "num": 53,
+      "pos": null,
+      "field": null,
+      "id": 37548658
+     }
+    ],
+    "formation": "4-2-3-1"
+   }
+  },
+  "lineups_confirmed": true,
+  "player_stats": {
+   "123659": {
+    "min": 90,
+    "rating": 7.25,
+    "touches": 93,
+    "pass": 75,
+    "int": 2,
+    "pass_pct": 95,
+    "tkl": 1,
+    "duels": 3,
+    "duels_t": 4,
+    "clr": 6,
+    "side": "home",
+    "name": "Liam Scales"
+   },
+   "262280": {
+    "min": 19,
+    "rating": 6.69,
+    "pass_pct": 89,
+    "touches": 14,
+    "pass": 9,
+    "duels_t": 2,
+    "duels": 2,
+    "clr": 3,
+    "tkl": 1,
+    "side": "home",
+    "name": "Auston Trusty"
+   },
+   "163711": {
+    "min": 61,
+    "rating": 7.18,
+    "touches": 43,
+    "pass": 23,
+    "sh": 3,
+    "pass_pct": 87,
+    "kp": 2,
+    "duels_t": 9,
+    "duels": 5,
+    "sot": 1,
+    "tkl": 2,
+    "side": "home",
+    "name": "Jota"
+   },
+   "37709508": {
+    "min": 71,
+    "rating": 7.27,
+    "pass": 16,
+    "touches": 27,
+    "pass_pct": 81,
+    "duels_t": 5,
+    "duels": 2,
+    "tkl": 1,
+    "g": 1,
+    "sh": 2,
+    "sot": 1,
+    "fouls": 1,
+    "kp": 1,
+    "side": "home",
+    "name": "Camilo Durán"
+   },
+   "37563550": {
+    "min": 70,
+    "rating": 7.16,
+    "pass": 34,
+    "touches": 47,
+    "duels": 9,
+    "duels_t": 13,
+    "fouls": 1,
+    "tkl": 3,
+    "pass_pct": 85,
+    "kp": 1,
+    "sh": 1,
+    "side": "home",
+    "name": "Hyun-jun Yang"
+   },
+   "1548366": {
+    "min": 90,
+    "touches": 70,
+    "int": 2,
+    "pass": 48,
+    "rating": 7.36,
+    "sh": 4,
+    "pass_pct": 79,
+    "duels": 5,
+    "duels_t": 12,
+    "fouls": 2,
+    "kp": 1,
+    "g": 1,
+    "sot": 1,
+    "tkl": 2,
+    "clr": 1,
+    "yc": 1,
+    "side": "home",
+    "name": "Luke McCowan"
+   },
+   "37598290": {
+    "touches": 23,
+    "min": 29,
+    "pass": 12,
+    "pass_pct": 75,
+    "rating": 6.73,
+    "duels_t": 6,
+    "duels": 3,
+    "sh": 1,
+    "sot": 1,
+    "clr": 1,
+    "side": "home",
+    "name": "Callum Osmand"
+   },
+   "1712": {
+    "min": 90,
+    "rating": 7.28,
+    "touches": 89,
+    "pass_pct": 95,
+    "pass": 74,
+    "duels_t": 7,
+    "duels": 4,
+    "tkl": 3,
+    "int": 1,
+    "clr": 6,
+    "fouls": 2,
+    "side": "home",
+    "name": "Cameron Carter-Vickers"
+   },
+   "850": {
+    "min": 61,
+    "touches": 43,
+    "pass": 32,
+    "rating": 7.53,
+    "pass_pct": 91,
+    "duels_t": 5,
+    "duels": 2,
+    "g": 1,
+    "sh": 2,
+    "sot": 1,
+    "kp": 1,
+    "tkl": 1,
+    "side": "home",
+    "name": "Alex Oxlade-Chamberlain"
+   },
+   "1008": {
+    "min": 90,
+    "rating": 6.88,
+    "touches": 62,
+    "pass": 49,
+    "pass_pct": 86,
+    "clr": 1,
+    "saves": 4,
+    "fouls": 1,
+    "duels_t": 1,
+    "side": "home",
+    "name": "Sam Johnstone"
+   },
+   "37714106": {
+    "min": 19,
+    "pass_pct": 86,
+    "rating": 6.61,
+    "pass": 6,
+    "duels": 2,
+    "duels_t": 4,
+    "touches": 14,
+    "tkl": 1,
+    "sh": 1,
+    "side": "home",
+    "name": "Shumaira Mheuka"
+   },
+   "37709264": {
+    "min": 29,
+    "tkl": 4,
+    "pass": 17,
+    "duels": 7,
+    "duels_t": 9,
+    "pass_pct": 88,
+    "touches": 32,
+    "rating": 7.05,
+    "clr": 2,
+    "fouls": 1,
+    "kp": 1,
+    "int": 1,
+    "side": "home",
+    "name": "Joël van den Berg"
+   },
+   "8585": {
+    "min": 90,
+    "rating": 7.16,
+    "int": 2,
+    "pass": 59,
+    "touches": 74,
+    "kp": 1,
+    "duels": 1,
+    "duels_t": 7,
+    "pass_pct": 92,
+    "sh": 2,
+    "sot": 1,
+    "g": 1,
+    "clr": 1,
+    "side": "home",
+    "name": "Callum McGregor"
+   },
+   "172104": {
+    "min": 20,
+    "pass_pct": 75,
+    "rating": 6.08,
+    "touches": 13,
+    "duels_t": 4,
+    "pass": 8,
+    "side": "home",
+    "name": "James Forrest"
+   },
+   "37732189": {
+    "min": 90,
+    "rating": 6.88,
+    "sot": 1,
+    "sh": 2,
+    "duels": 5,
+    "duels_t": 9,
+    "pass_pct": 89,
+    "tkl": 4,
+    "pass": 45,
+    "touches": 67,
+    "clr": 1,
+    "side": "home",
+    "name": "Colby Donovan"
+   },
+   "172960": {
+    "min": 71,
+    "rating": 7.68,
+    "touches": 49,
+    "pass": 33,
+    "pass_pct": 73,
+    "duels_t": 9,
+    "tkl": 3,
+    "duels": 6,
+    "bcc": 1,
+    "a": 2,
+    "sh": 1,
+    "kp": 2,
+    "int": 1,
+    "side": "home",
+    "name": "Kieran Tierney"
+   },
+   "20692499": {
+    "min": 90,
+    "rating": 6.14,
+    "touches": 45,
+    "pass": 34,
+    "saves": 3,
+    "pass_pct": 74,
+    "clr": 2,
+    "side": "away",
+    "name": "Jacob Chapman"
+   },
+   "1233": {
+    "min": 90,
+    "rating": 6.02,
+    "pass": 49,
+    "touches": 67,
+    "pass_pct": 82,
+    "duels_t": 6,
+    "clr": 5,
+    "duels": 2,
+    "tkl": 2,
+    "kp": 1,
+    "side": "away",
+    "name": "Declan John"
+   },
+   "7160": {
+    "touches": 12,
+    "min": 6,
+    "pass_pct": 86,
+    "pass": 8,
+    "tkl": 1,
+    "duels": 2,
+    "duels_t": 3,
+    "rating": 6.5,
+    "side": "away",
+    "name": "Liam Donnelly"
+   },
+   "37554466": {
+    "min": 90,
+    "rating": 7.34,
+    "pass": 89,
+    "touches": 111,
+    "pass_pct": 99,
+    "clr": 8,
+    "int": 2,
+    "tkl": 2,
+    "duels": 3,
+    "duels_t": 3,
+    "side": "away",
+    "name": "Louis Jackson"
+   },
+   "37631417": {
+    "min": 84,
+    "rating": 6.33,
+    "pass": 62,
+    "pass_pct": 98,
+    "clr": 2,
+    "fouls": 1,
+    "duels_t": 14,
+    "touches": 83,
+    "duels": 6,
+    "int": 2,
+    "tkl": 3,
+    "side": "away",
+    "name": "Ryan Carr"
+   },
+   "37685801": {
+    "min": 65,
+    "rating": 6.36,
+    "touches": 19,
+    "pass": 9,
+    "pass_pct": 78,
+    "duels_t": 9,
+    "fouls": 1,
+    "duels": 4,
+    "tkl": 1,
+    "side": "away",
+    "name": "Eseosa Sule"
+   },
+   "37308442": {
+    "min": 16,
+    "pass_pct": 82,
+    "touches": 19,
+    "duels_t": 4,
+    "sh": 3,
+    "duels": 2,
+    "pass": 11,
+    "sot": 1,
+    "kp": 1,
+    "rating": 6.99,
+    "side": "away",
+    "name": "Samuel Ramos"
+   },
+   "9781": {
+    "min": 90,
+    "rating": 6.6,
+    "touches": 93,
+    "pass": 65,
+    "pass_pct": 89,
+    "duels_t": 9,
+    "duels": 4,
+    "clr": 10,
+    "fouls": 2,
+    "tkl": 3,
+    "int": 5,
+    "sh": 1,
+    "yc": 1,
+    "side": "away",
+    "name": "Alex Gogic"
+   },
+   "15494": {
+    "min": 65,
+    "rating": 6.47,
+    "pass": 28,
+    "touches": 42,
+    "pass_pct": 82,
+    "duels_t": 7,
+    "duels": 4,
+    "tkl": 3,
+    "sh": 1,
+    "side": "away",
+    "name": "Luke Thomas"
+   },
+   "37649368": {
+    "min": 90,
+    "rating": 6.82,
+    "pass": 32,
+    "duels_t": 14,
+    "fouls": 1,
+    "touches": 55,
+    "duels": 5,
+    "pass_pct": 94,
+    "clr": 1,
+    "kp": 4,
+    "sh": 2,
+    "sot": 2,
+    "tkl": 1,
+    "side": "away",
+    "name": "Ismeal Kabia"
+   },
+   "37532070": {
+    "min": 25,
+    "pass": 7,
+    "touches": 10,
+    "duels": 1,
+    "duels_t": 3,
+    "pass_pct": 63,
+    "rating": 6.45,
+    "side": "away",
+    "name": "Jake Young"
+   },
+   "34873964": {
+    "min": 25,
+    "pass_pct": 100,
+    "touches": 14,
+    "pass": 10,
+    "rating": 6.55,
+    "duels": 1,
+    "duels_t": 2,
+    "side": "away",
+    "name": "Chris Mochrie"
+   },
+   "37580336": {
+    "pass_pct": 88,
+    "rating": 6.54,
+    "min": 6,
+    "pass": 16,
+    "touches": 16,
+    "side": "away",
+    "name": "Fraser Taylor"
+   },
+   "37260590": {
+    "min": 90,
+    "rating": 6.55,
+    "touches": 67,
+    "pass": 38,
+    "pass_pct": 92,
+    "duels_t": 16,
+    "duels": 9,
+    "tkl": 6,
+    "clr": 3,
+    "fouls": 1,
+    "sh": 1,
+    "side": "away",
+    "name": "Calvin Ramsay"
+   },
+   "37654354": {
+    "min": 84,
+    "pass": 40,
+    "touches": 56,
+    "rating": 6.89,
+    "duels_t": 12,
+    "duels": 7,
+    "pass_pct": 78,
+    "clr": 1,
+    "tkl": 2,
+    "fouls": 3,
+    "sh": 2,
+    "sot": 1,
+    "int": 1,
+    "side": "away",
+    "name": "Paul Nsio"
+   },
+   "37529807": {
+    "min": 74,
+    "touches": 54,
+    "rating": 6.84,
+    "pass": 42,
+    "pass_pct": 95,
+    "fouls": 2,
+    "duels_t": 4,
+    "sh": 3,
+    "kp": 1,
+    "g": 1,
+    "sot": 1,
+    "side": "away",
+    "name": "Killian Phillips"
+   }
+  },
+  "commentary": [
+   {
+    "m": 1,
+    "x": null,
+    "t": "Kick-off! The referee is Matthew MacDermid.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 3,
+    "x": null,
+    "t": "Luke McCowan takes a left-footed shot, but it is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 3,
+    "x": null,
+    "t": "Joao Pedro Neves Filipe takes a right-footed shot, but it is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 6,
+    "x": null,
+    "t": "Colby Donovan takes a right-footed shot, but it's saved.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 6,
+    "x": null,
+    "t": "Offside.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 9,
+    "x": null,
+    "t": "Goal! The score is now 1-0.",
+    "goal": false,
+    "key": true
+   },
+   {
+    "m": 9,
+    "x": null,
+    "t": "Offside.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 10,
+    "x": null,
+    "t": "Luke McCowan takes a left-footed shot, but it is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 16,
+    "x": null,
+    "t": "Goal! Camilo Duran scores to make it 1-0.",
+    "goal": true,
+    "key": true
+   },
+   {
+    "m": 16,
+    "x": null,
+    "t": "Offside.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 26,
+    "x": null,
+    "t": "Callum McGregor takes a left-footed shot, but it is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 27,
+    "x": null,
+    "t": "Luke McCowan takes a left-footed shot, but it is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 28,
+    "x": null,
+    "t": "Corner awarded.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 29,
+    "x": null,
+    "t": "Joao Pedro Neves Filipe's right-footed shot is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 30,
+    "x": null,
+    "t": "Kieran Tierney takes a right-footed shot, but it is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 31,
+    "x": null,
+    "t": "Alex Oxlade-Chamberlain takes a right-footed shot but misses.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 32,
+    "x": null,
+    "t": "Corner awarded.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 33,
+    "x": null,
+    "t": "Goal! Alex Oxlade-Chamberlain scores to make it 1-0.",
+    "goal": true,
+    "key": true
+   },
+   {
+    "m": 33,
+    "x": null,
+    "t": "Alex Oxlade-Chamberlain takes a right-footed shot and scores.",
+    "goal": false,
+    "key": true
+   },
+   {
+    "m": 37,
+    "x": null,
+    "t": "Shot by Kylian Mbappé, but Joao Pedro Neves Filipe blocks the right-footed attempt.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 37,
+    "x": null,
+    "t": "Paul Nsio takes a right-footed shot, but it is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 38,
+    "x": null,
+    "t": "Alexandros Gogic attempts a header but misses the shot.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 38,
+    "x": null,
+    "t": "Corner awarded.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 39,
+    "x": null,
+    "t": "Corner awarded.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 40,
+    "x": null,
+    "t": "Goal! Camilo Duran scores to make it 2-0, assisted by Kieran Tierney.",
+    "goal": true,
+    "key": true
+   },
+   {
+    "m": 40,
+    "x": null,
+    "t": "Camilo Duran scores with a left-footed shot.",
+    "goal": false,
+    "key": true
+   },
+   {
+    "m": 42,
+    "x": null,
+    "t": "Goal! Luke McCowan scores to make it 3-0, assisted by Kieran Tierney.",
+    "goal": true,
+    "key": true
+   },
+   {
+    "m": 42,
+    "x": null,
+    "t": "Joao Pedro Neves Filipe takes a right-footed shot, but it is saved.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 42,
+    "x": null,
+    "t": "Luke McCowan takes a shot with his left foot and scores.",
+    "goal": false,
+    "key": true
+   },
+   {
+    "m": 45,
+    "x": null,
+    "t": "Paul Nsio takes a right-footed shot, but it's saved.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 45,
+    "x": 3,
+    "t": "Camilo Duran takes a left-footed shot but misses.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 45,
+    "x": 4,
+    "t": "Corner awarded.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": null,
+    "x": null,
+    "t": "First half ends with a score of 3-0.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 52,
+    "x": null,
+    "t": "Corner awarded.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 52,
+    "x": null,
+    "t": "Luke Thomas takes a left-footed shot, but it is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 52,
+    "x": null,
+    "t": "Shot from Ismeal Kabia with his right foot is saved.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 52,
+    "x": null,
+    "t": "Offside.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 57,
+    "x": null,
+    "t": "Yang Hyun-Jun takes a right-footed shot, but it misses the target.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 61,
+    "x": null,
+    "t": "Corner awarded.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 61,
+    "x": null,
+    "t": "Joel van den Berg comes on for Alex Oxlade-Chamberlain.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 61,
+    "x": null,
+    "t": "Callum Osmand is on, and Joao Pedro Neves Filipe is off.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 63,
+    "x": null,
+    "t": "Goal! Callum McGregor scores, making it 4-0.",
+    "goal": true,
+    "key": true
+   },
+   {
+    "m": 63,
+    "x": null,
+    "t": "Callum McGregor scores with a right-footed shot.",
+    "goal": false,
+    "key": true
+   },
+   {
+    "m": 65,
+    "x": null,
+    "t": "Jake Young is substituted off for Eseosa Sule.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 65,
+    "x": null,
+    "t": "Chris Mochrie replaces Luke Thomas.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 66,
+    "x": null,
+    "t": "Corner awarded.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 67,
+    "x": null,
+    "t": "Shot by Kylian Joao Pedro Neves Filipe with a right-footed shot, but it's blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 70,
+    "x": null,
+    "t": "Goal! The score is now 4-1.",
+    "goal": false,
+    "key": true
+   },
+   {
+    "m": 70,
+    "x": null,
+    "t": "Goal - Penalty - 基利安·Joao Pedro Neves Filipe斯 4-1",
+    "goal": true,
+    "key": true
+   },
+   {
+    "m": 70,
+    "x": null,
+    "t": "On comes James Forrest, off goes Jake Young.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 70,
+    "x": null,
+    "t": "Shot by Kylian Mbappé, Joao Pedro Neves Filipe scores with a right-footed shot.",
+    "goal": false,
+    "key": true
+   },
+   {
+    "m": 71,
+    "x": null,
+    "t": "Auston Trusty replaces Kieran Tierney.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 71,
+    "x": null,
+    "t": "On Shumaira Mheuka, off Camilo Duran.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 72,
+    "x": null,
+    "t": "Colby Donovan takes a right-footed shot but misses.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 73,
+    "x": null,
+    "t": "Yellow card shown to Alexandros Gogic.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 74,
+    "x": null,
+    "t": "On Samuel Ramos, off Kylian Joao Pedro Neves Filipe.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 75,
+    "x": null,
+    "t": "Corner awarded.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 78,
+    "x": null,
+    "t": "Samuel Ramos takes a left-footed shot, but it is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 80,
+    "x": null,
+    "t": "Offside.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 82,
+    "x": null,
+    "t": "Samuel Ramos takes a left-footed shot but misses.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 83,
+    "x": null,
+    "t": "Shumaira Mheuka takes a right-footed shot, but it is blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 83,
+    "x": null,
+    "t": "Callum Osmand takes a right-footed shot, but it's saved.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 84,
+    "x": null,
+    "t": "Luke McCowan receives a yellow card.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 84,
+    "x": null,
+    "t": "Liam Donnelly comes on for Ryan Carr.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 84,
+    "x": null,
+    "t": "Fraser Taylor is on, and Paul Nsio is off.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 87,
+    "x": null,
+    "t": "Shot by Ismeal Kabia with his left foot is saved.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 88,
+    "x": null,
+    "t": "Samuel Ramos takes a left-footed shot, but it's saved.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 90,
+    "x": null,
+    "t": "Calvin Ramsay takes a right-footed shot, but it's blocked.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": 90,
+    "x": 1,
+    "t": "Offside.",
+    "goal": false,
+    "key": false
+   },
+   {
+    "m": null,
+    "x": null,
+    "t": "Match ends with a score of 4-1.",
+    "goal": false,
+    "key": false
+   }
+  ]
  },
- "player_stats": {
-  "123659": {
-   "min": 90,
-   "rating": 7.13,
-   "touches": 88,
-   "pass": 73,
-   "int": 1,
-   "pass_pct": 98,
-   "tkl": 1,
-   "duels": 3,
-   "duels_t": 4,
-   "clr": 5,
-   "side": "home",
-   "name": "Liam Scales"
-  },
-  "262280": {
-   "min": 19,
-   "rating": 6.67,
-   "pass_pct": 86,
-   "touches": 13,
-   "pass": 8,
-   "duels_t": 2,
-   "duels": 2,
-   "clr": 3,
-   "tkl": 1,
-   "side": "home",
-   "name": "Auston Trusty"
-  },
-  "163711": {
-   "min": 61,
-   "rating": 7.18,
-   "touches": 43,
-   "pass": 23,
-   "sh": 3,
-   "pass_pct": 87,
-   "kp": 2,
-   "duels_t": 9,
-   "duels": 5,
-   "sot": 1,
-   "tkl": 2,
-   "side": "home",
-   "name": "Jota"
-  },
-  "37709508": {
-   "min": 71,
-   "rating": 7.27,
-   "pass": 16,
-   "touches": 27,
-   "pass_pct": 81,
-   "duels_t": 5,
-   "duels": 2,
-   "tkl": 1,
-   "g": 1,
-   "sh": 2,
-   "sot": 1,
-   "fouls": 1,
-   "kp": 1,
-   "side": "home",
-   "name": "Camilo Durán"
-  },
-  "37563550": {
-   "min": 70,
-   "rating": 7.16,
-   "pass": 34,
-   "touches": 47,
-   "duels": 9,
-   "duels_t": 13,
-   "fouls": 1,
-   "tkl": 3,
-   "pass_pct": 85,
-   "kp": 1,
-   "sh": 1,
-   "side": "home",
-   "name": "Hyun-jun Yang"
-  },
-  "1548366": {
-   "min": 90,
-   "touches": 70,
-   "int": 2,
-   "pass": 47,
-   "rating": 7.42,
-   "sh": 4,
-   "pass_pct": 81,
-   "duels": 5,
-   "duels_t": 12,
-   "fouls": 2,
-   "kp": 1,
-   "g": 1,
-   "sot": 1,
-   "tkl": 2,
-   "clr": 2,
-   "side": "home",
-   "name": "Luke McCowan"
-  },
-  "37598290": {
-   "touches": 19,
-   "min": 29,
-   "pass": 10,
-   "pass_pct": 75,
-   "rating": 6.77,
-   "duels_t": 5,
-   "duels": 3,
-   "sh": 1,
-   "sot": 1,
-   "side": "home",
-   "name": "Callum Osmand"
-  },
-  "1712": {
-   "min": 90,
-   "rating": 7.28,
-   "touches": 89,
-   "pass_pct": 94,
-   "pass": 73,
-   "duels_t": 7,
-   "duels": 4,
-   "tkl": 3,
-   "int": 1,
-   "clr": 5,
-   "fouls": 2,
-   "side": "home",
-   "name": "Cameron Carter-Vickers"
-  },
-  "850": {
-   "min": 61,
-   "touches": 43,
-   "pass": 32,
-   "rating": 7.53,
-   "pass_pct": 91,
-   "duels_t": 5,
-   "duels": 2,
-   "g": 1,
-   "sh": 2,
-   "sot": 1,
-   "kp": 1,
-   "tkl": 1,
-   "side": "home",
-   "name": "Alex Oxlade-Chamberlain"
-  },
-  "1008": {
-   "min": 90,
-   "rating": 6.83,
-   "touches": 61,
-   "pass": 48,
-   "pass_pct": 89,
-   "clr": 1,
-   "saves": 4,
-   "fouls": 1,
-   "duels_t": 1,
-   "side": "home",
-   "name": "Sam Johnstone"
-  },
-  "37714106": {
-   "min": 19,
-   "pass_pct": 100,
-   "rating": 6.61,
-   "pass": 6,
-   "duels": 3,
-   "duels_t": 5,
-   "touches": 12,
-   "tkl": 1,
-   "sh": 1,
-   "side": "home",
-   "name": "Shumaira Mheuka"
-  },
-  "37709264": {
-   "min": 29,
-   "tkl": 4,
-   "pass": 15,
-   "duels": 7,
-   "duels_t": 9,
-   "pass_pct": 100,
-   "touches": 30,
-   "rating": 7.1,
-   "clr": 3,
-   "fouls": 1,
-   "kp": 1,
-   "side": "home",
-   "name": "Joël van den Berg"
-  },
-  "8585": {
-   "min": 90,
-   "rating": 7.16,
-   "int": 2,
-   "pass": 56,
-   "touches": 71,
-   "kp": 1,
-   "duels": 1,
-   "duels_t": 7,
-   "pass_pct": 94,
-   "sh": 2,
-   "sot": 1,
-   "g": 1,
-   "clr": 1,
-   "side": "home",
-   "name": "Callum McGregor"
-  },
-  "172104": {
-   "min": 20,
-   "pass_pct": 60,
-   "rating": 6.09,
-   "touches": 11,
-   "duels_t": 4,
-   "pass": 8,
-   "side": "home",
-   "name": "James Forrest"
-  },
-  "37732189": {
-   "min": 90,
-   "rating": 6.87,
-   "sot": 1,
-   "sh": 2,
-   "duels": 5,
-   "duels_t": 9,
-   "pass_pct": 90,
-   "tkl": 4,
-   "pass": 43,
-   "touches": 63,
-   "clr": 1,
-   "side": "home",
-   "name": "Colby Donovan"
-  },
-  "172960": {
-   "min": 71,
-   "rating": 7.68,
-   "touches": 49,
-   "pass": 33,
-   "pass_pct": 73,
-   "duels_t": 9,
-   "tkl": 3,
-   "duels": 6,
-   "bcc": 1,
-   "a": 2,
-   "sh": 1,
-   "kp": 2,
-   "int": 1,
-   "side": "home",
-   "name": "Kieran Tierney"
-  },
-  "20692499": {
-   "min": 90,
-   "rating": 6.13,
-   "touches": 42,
-   "pass": 32,
-   "saves": 3,
-   "pass_pct": 72,
-   "clr": 2,
-   "side": "away",
-   "name": "Jacob Chapman"
-  },
-  "1233": {
-   "min": 90,
-   "rating": 6.02,
-   "pass": 47,
-   "touches": 65,
-   "pass_pct": 82,
-   "duels_t": 6,
-   "clr": 5,
-   "duels": 2,
-   "tkl": 2,
-   "kp": 1,
-   "side": "away",
-   "name": "Declan John"
-  },
-  "7160": {
-   "touches": 7,
-   "min": 6,
-   "pass_pct": 100,
-   "pass": 3,
-   "tkl": 2,
-   "duels": 3,
-   "duels_t": 4,
-   "rating": 6.62,
-   "side": "away",
-   "name": "Liam Donnelly"
-  },
-  "37554466": {
-   "min": 90,
-   "rating": 7.32,
-   "pass": 85,
-   "touches": 107,
-   "pass_pct": 100,
-   "clr": 8,
-   "int": 2,
-   "tkl": 2,
-   "duels": 3,
-   "duels_t": 3,
-   "side": "away",
-   "name": "Louis Jackson"
-  },
-  "37631417": {
-   "min": 84,
-   "rating": 6.38,
-   "pass": 61,
-   "pass_pct": 98,
-   "clr": 2,
-   "fouls": 1,
-   "duels_t": 13,
-   "touches": 82,
-   "duels": 5,
-   "int": 2,
-   "tkl": 2,
-   "side": "away",
-   "name": "Ryan Carr"
-  },
-  "37685801": {
-   "min": 65,
-   "rating": 6.36,
-   "touches": 19,
-   "pass": 9,
-   "pass_pct": 78,
-   "duels_t": 9,
-   "fouls": 1,
-   "duels": 4,
-   "tkl": 1,
-   "side": "away",
-   "name": "Eseosa Sule"
-  },
-  "37308442": {
-   "min": 16,
-   "pass_pct": 100,
-   "touches": 15,
-   "duels_t": 4,
-   "sh": 3,
-   "duels": 2,
-   "pass": 7,
-   "rating": 6.98,
-   "sot": 1,
-   "side": "away",
-   "name": "Samuel Ramos"
-  },
-  "9781": {
-   "min": 90,
-   "rating": 6.58,
-   "touches": 87,
-   "pass": 59,
-   "pass_pct": 90,
-   "duels_t": 9,
-   "duels": 4,
-   "clr": 10,
-   "fouls": 2,
-   "tkl": 3,
-   "int": 5,
-   "sh": 1,
-   "yc": 1,
-   "side": "away",
-   "name": "Alex Gogic"
-  },
-  "15494": {
-   "min": 65,
-   "rating": 6.47,
-   "pass": 28,
-   "touches": 42,
-   "pass_pct": 82,
-   "duels_t": 7,
-   "duels": 4,
-   "tkl": 3,
-   "sh": 1,
-   "side": "away",
-   "name": "Luke Thomas"
-  },
-  "37649368": {
-   "min": 90,
-   "rating": 6.72,
-   "pass": 31,
-   "duels_t": 14,
-   "fouls": 1,
-   "touches": 53,
-   "duels": 5,
-   "pass_pct": 92,
-   "clr": 1,
-   "kp": 3,
-   "sh": 2,
-   "sot": 2,
-   "tkl": 1,
-   "side": "away",
-   "name": "Ismeal Kabia"
-  },
-  "37532070": {
-   "min": 25,
-   "pass": 8,
-   "touches": 11,
-   "duels": 1,
-   "duels_t": 3,
-   "pass_pct": 75,
-   "rating": 6.44,
-   "side": "away",
-   "name": "Jake Young"
-  },
-  "34873964": {
-   "min": 25,
-   "pass_pct": 100,
-   "touches": 14,
-   "pass": 10,
-   "rating": 6.76,
-   "duels": 2,
-   "duels_t": 2,
-   "side": "away",
-   "name": "Chris Mochrie"
-  },
-  "37580336": {
-   "pass_pct": 86,
-   "min": 6,
-   "pass": 8,
-   "touches": 8,
-   "rating": 6.5,
-   "side": "away",
-   "name": "Fraser Taylor"
-  },
-  "37260590": {
-   "min": 90,
-   "rating": 6.55,
-   "touches": 63,
-   "pass": 36,
-   "pass_pct": 97,
-   "duels_t": 16,
-   "duels": 9,
-   "tkl": 6,
-   "clr": 2,
-   "fouls": 1,
-   "sh": 1,
-   "side": "away",
-   "name": "Calvin Ramsay"
-  },
-  "37654354": {
-   "min": 84,
-   "pass": 40,
-   "touches": 56,
-   "rating": 6.88,
-   "duels_t": 12,
-   "duels": 7,
-   "pass_pct": 79,
-   "clr": 1,
-   "tkl": 2,
-   "fouls": 3,
-   "sh": 2,
-   "sot": 1,
-   "int": 1,
-   "side": "away",
-   "name": "Paul Nsio"
-  },
-  "37529807": {
-   "min": 74,
-   "touches": 54,
-   "rating": 6.84,
-   "pass": 42,
-   "pass_pct": 95,
-   "fouls": 2,
-   "duels_t": 4,
-   "sh": 3,
-   "kp": 1,
-   "g": 1,
-   "sot": 1,
-   "side": "away",
-   "name": "Killian Phillips"
-  }
- },
- "commentary": [
-  {
-   "m": 1,
-   "x": null,
-   "t": "Kick-off! The referee is Matthew MacDermid.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 3,
-   "x": null,
-   "t": "Luke McCowan takes a left-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 3,
-   "x": null,
-   "t": "Joao Pedro Neves Filipe takes a right-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 6,
-   "x": null,
-   "t": "Colby Donovan takes a right-footed shot, but it's saved.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 6,
-   "x": null,
-   "t": "Offside.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 9,
-   "x": null,
-   "t": "Goal! The score is now 1-0.",
-   "goal": false,
-   "key": true
-  },
-  {
-   "m": 9,
-   "x": null,
-   "t": "Offside.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 10,
-   "x": null,
-   "t": "Luke McCowan takes a left-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 16,
-   "x": null,
-   "t": "Goal! Camilo Duran scores to make it 1-0.",
-   "goal": true,
-   "key": true
-  },
-  {
-   "m": 16,
-   "x": null,
-   "t": "Offside.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 26,
-   "x": null,
-   "t": "Callum McGregor takes a left-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 27,
-   "x": null,
-   "t": "Luke McCowan takes a left-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 28,
-   "x": null,
-   "t": "Corner awarded.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 29,
-   "x": null,
-   "t": "Joao Pedro Neves Filipe's right-footed shot is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 30,
-   "x": null,
-   "t": "Kieran Tierney takes a right-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 31,
-   "x": null,
-   "t": "Alex Oxlade-Chamberlain takes a right-footed shot but misses.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 32,
-   "x": null,
-   "t": "Corner awarded.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 33,
-   "x": null,
-   "t": "Goal! Alex Oxlade-Chamberlain scores to make it 1-0.",
-   "goal": true,
-   "key": true
-  },
-  {
-   "m": 33,
-   "x": null,
-   "t": "Alex Oxlade-Chamberlain takes a right-footed shot and scores.",
-   "goal": false,
-   "key": true
-  },
-  {
-   "m": 37,
-   "x": null,
-   "t": "Shot by Kylian Mbappé, but Joao Pedro Neves Filipe blocks the right-footed attempt.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 37,
-   "x": null,
-   "t": "Paul Nsio takes a right-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 38,
-   "x": null,
-   "t": "Alexandros Gogic attempts a header but misses the shot.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 38,
-   "x": null,
-   "t": "Corner awarded.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 39,
-   "x": null,
-   "t": "Corner awarded.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 40,
-   "x": null,
-   "t": "Goal! Camilo Duran scores to make it 2-0, assisted by Kieran Tierney.",
-   "goal": true,
-   "key": true
-  },
-  {
-   "m": 40,
-   "x": null,
-   "t": "Camilo Duran scores with a left-footed shot.",
-   "goal": false,
-   "key": true
-  },
-  {
-   "m": 42,
-   "x": null,
-   "t": "Goal! Luke McCowan scores to make it 3-0, assisted by Kieran Tierney.",
-   "goal": true,
-   "key": true
-  },
-  {
-   "m": 42,
-   "x": null,
-   "t": "Joao Pedro Neves Filipe takes a right-footed shot, but it is saved.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 42,
-   "x": null,
-   "t": "Luke McCowan takes a shot with his left foot and scores.",
-   "goal": false,
-   "key": true
-  },
-  {
-   "m": 45,
-   "x": null,
-   "t": "Paul Nsio takes a right-footed shot, but it's saved.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 45,
-   "x": 3,
-   "t": "Camilo Duran takes a left-footed shot but misses.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 45,
-   "x": 4,
-   "t": "Corner awarded.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": null,
-   "x": null,
-   "t": "First half ends with a score of 3-0.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 52,
-   "x": null,
-   "t": "Corner awarded.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 52,
-   "x": null,
-   "t": "Luke Thomas takes a left-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 52,
-   "x": null,
-   "t": "Shot from Ismeal Kabia with his right foot is saved.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 52,
-   "x": null,
-   "t": "Offside.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 57,
-   "x": null,
-   "t": "Yang Hyun-Jun takes a right-footed shot, but it misses the target.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 61,
-   "x": null,
-   "t": "Corner awarded.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 61,
-   "x": null,
-   "t": "Joel van den Berg comes on for Alex Oxlade-Chamberlain.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 61,
-   "x": null,
-   "t": "Callum Osmand is on, and Joao Pedro Neves Filipe is off.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 63,
-   "x": null,
-   "t": "Goal! Callum McGregor scores, making it 4-0.",
-   "goal": true,
-   "key": true
-  },
-  {
-   "m": 63,
-   "x": null,
-   "t": "Callum McGregor scores with a right-footed shot.",
-   "goal": false,
-   "key": true
-  },
-  {
-   "m": 65,
-   "x": null,
-   "t": "Jake Young is substituted off for Eseosa Sule.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 65,
-   "x": null,
-   "t": "Chris Mochrie replaces Luke Thomas.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 66,
-   "x": null,
-   "t": "Corner awarded.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 67,
-   "x": null,
-   "t": "Shot by Kylian Joao Pedro Neves Filipe with a right-footed shot, but it's blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 70,
-   "x": null,
-   "t": "Goal! The score is now 4-1.",
-   "goal": false,
-   "key": true
-  },
-  {
-   "m": 70,
-   "x": null,
-   "t": "Goal - Penalty - 基利安·Joao Pedro Neves Filipe斯 4-1",
-   "goal": true,
-   "key": true
-  },
-  {
-   "m": 70,
-   "x": null,
-   "t": "On comes James Forrest, off goes Jake Young.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 70,
-   "x": null,
-   "t": "Shot by Kylian Mbappé, Joao Pedro Neves Filipe scores with a right-footed shot.",
-   "goal": false,
-   "key": true
-  },
-  {
-   "m": 71,
-   "x": null,
-   "t": "Auston Trusty replaces Kieran Tierney.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 71,
-   "x": null,
-   "t": "On Shumaira Mheuka, off Camilo Duran.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 72,
-   "x": null,
-   "t": "Colby Donovan takes a right-footed shot but misses.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 73,
-   "x": null,
-   "t": "Yellow card shown to Alexandros Gogic.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 74,
-   "x": null,
-   "t": "On Samuel Ramos, off Kylian Joao Pedro Neves Filipe.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 75,
-   "x": null,
-   "t": "Corner awarded.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 78,
-   "x": null,
-   "t": "Samuel Ramos takes a left-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 80,
-   "x": null,
-   "t": "Offside.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 82,
-   "x": null,
-   "t": "Samuel Ramos takes a left-footed shot but misses.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 83,
-   "x": null,
-   "t": "Shumaira Mheuka takes a right-footed shot, but it is blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 83,
-   "x": null,
-   "t": "Callum Osmand takes a right-footed shot, but it's saved.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 84,
-   "x": null,
-   "t": "Luke McCowan receives a yellow card.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 84,
-   "x": null,
-   "t": "Liam Donnelly comes on for Ryan Carr.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 84,
-   "x": null,
-   "t": "Fraser Taylor is on, and Paul Nsio is off.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 87,
-   "x": null,
-   "t": "Shot by Ismeal Kabia with his left foot is saved.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 88,
-   "x": null,
-   "t": "Samuel Ramos takes a left-footed shot, but it's saved.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 90,
-   "x": null,
-   "t": "Calvin Ramsay takes a right-footed shot, but it's blocked.",
-   "goal": false,
-   "key": false
-  },
-  {
-   "m": 90,
-   "x": 1,
-   "t": "Offside.",
-   "goal": false,
-   "key": false
-  }
- ],
- "rate_remaining": 2476
+ "updated_at": "2026-11-21T21:20:51.933726+00:00"
 }
