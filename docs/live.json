@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:32:47.891615+00:00",
+ "updated_at": "2026-11-21T16:34:45.191394+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 71,
+ "minute": 73,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -467,6 +467,18 @@
    "related": "Kieran Tierney",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158726557,
+   "minute": 73,
+   "extra": null,
+   "type": "Yellowcard",
+   "side": "away",
+   "team": "St. Mirren",
+   "player": "Alex Gogic",
+   "related": null,
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -475,11 +487,11 @@
    "away": 4
   },
   "Shots Off Target": {
-   "home": 3,
+   "home": 4,
    "away": 1
   },
   "Shots Total": {
-   "home": 16,
+   "home": 17,
    "away": 8
   },
   "Attacks": {
@@ -495,8 +507,8 @@
    "away": 48
   },
   "Ball Safe": {
-   "home": 38,
-   "away": 59
+   "home": 46,
+   "away": 71
   },
   "Penalties": {
    "home": 0,
@@ -523,16 +535,16 @@
    "away": 4
   },
   "Goal Attempts": {
-   "home": 6,
+   "home": 8,
    "away": 3
   },
   "Free Kicks": {
-   "home": 8,
+   "home": 9,
    "away": 5
   },
   "Fouls": {
    "home": 6,
-   "away": 8
+   "away": 9
   },
   "Saves": {
    "home": 2,
@@ -544,14 +556,14 @@
   },
   "Substitutions": {
    "home": 5,
-   "away": 2
+   "away": 3
   },
   "Throwins": {
-   "home": 6,
-   "away": 7
+   "home": 7,
+   "away": 8
   },
   "Long Passes": {
-   "home": 19,
+   "home": 21,
    "away": 21
   },
   "Successful Headers": {
@@ -560,23 +572,27 @@
   },
   "Tackles": {
    "home": 21,
-   "away": 17
+   "away": 19
   },
   "Assists": {
    "home": 2,
    "away": 0
   },
   "Passes": {
-   "home": 420,
-   "away": 395
+   "home": 434,
+   "away": 400
   },
   "Successful Passes": {
-   "home": 376,
-   "away": 358
+   "home": 387,
+   "away": 361
   },
   "Successful Passes Percentage": {
-   "home": 90,
-   "away": 91
+   "home": 89,
+   "away": 90
+  },
+  "Yellowcards": {
+   "home": 0,
+   "away": 1
   },
   "Shots On Target": {
    "home": 6,
@@ -591,15 +607,15 @@
    "away": 3
   },
   "Interceptions": {
-   "home": 6,
+   "home": 7,
    "away": 6
   },
   "Duels Won": {
-   "home": 44,
-   "away": 33
+   "home": 45,
+   "away": 35
   },
   "Dribble Attempts": {
-   "home": 18,
+   "home": 19,
    "away": 19
   },
   "Successful Dribbles": {
@@ -615,7 +631,7 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 61,
+   "home": 58,
    "away": 42
   },
   "Successful Long Passes": {
@@ -623,12 +639,12 @@
    "away": 12
   },
   "Successful Long Passes Percentage": {
-   "home": 68,
+   "home": 62,
    "away": 57
   },
   "Tackles Won": {
    "home": 15,
-   "away": 11
+   "away": 12
   }
  },
  "next_fixtures": [
@@ -1242,7 +1258,8 @@
    "name": "Liam Scales"
   },
   "262280": {
-   "min": 1,
+   "min": 3,
+   "pass_pct": 100,
    "side": "home",
    "name": "Auston Trusty"
   },
@@ -1298,7 +1315,7 @@
    "touches": 54,
    "int": 1,
    "pass": 35,
-   "rating": 7.48,
+   "rating": 7.5,
    "sh": 4,
    "pass_pct": 82,
    "duels": 5,
@@ -1367,7 +1384,8 @@
    "name": "Sam Johnstone"
   },
   "37714106": {
-   "min": 1,
+   "min": 3,
+   "pass_pct": 100,
    "side": "home",
    "name": "Shumaira Mheuka"
   },
@@ -1400,7 +1418,8 @@
    "name": "Callum McGregor"
   },
   "172104": {
-   "min": 2,
+   "min": 4,
+   "pass_pct": 100,
    "side": "home",
    "name": "James Forrest"
   },
@@ -1559,6 +1578,7 @@
   },
   "34873964": {
    "min": 2,
+   "pass_pct": 100,
    "side": "away",
    "name": "Chris Mochrie"
   },
@@ -1981,5 +2001,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2357
+ "rate_remaining": 2351
 }
