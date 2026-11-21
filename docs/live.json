@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T15:50:15.035954+00:00",
+ "updated_at": "2026-11-21T15:51:14.975047+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -310,11 +310,11 @@
   }
  },
  "lineups_confirmed": true,
- "state": "INPLAY_1ST_HALF",
- "state_name": "1st Half",
- "minute": 49,
+ "state": "HT",
+ "state_name": "Half Time",
+ "minute": 45,
  "minute_estimated": false,
- "added_time": 5,
+ "added_time": null,
  "score": {
   "home": 3,
   "away": 0
@@ -387,11 +387,11 @@
    "away": 48
   },
   "Shots Insidebox": {
-   "home": 11,
+   "home": 10,
    "away": 3
   },
   "Shots Outsidebox": {
-   "home": 3,
+   "home": 4,
    "away": 1
   },
   "Offsides": {
@@ -403,8 +403,8 @@
    "away": 0
   },
   "Goal Kicks": {
-   "home": 2,
-   "away": 2
+   "home": 3,
+   "away": 3
   },
   "Free Kicks": {
    "home": 6,
@@ -427,8 +427,8 @@
    "away": 4
   },
   "Long Passes": {
-   "home": 11,
-   "away": 13
+   "home": 12,
+   "away": 15
   },
   "Successful Headers": {
    "home": 2,
@@ -443,16 +443,16 @@
    "away": 0
   },
   "Passes": {
-   "home": 258,
-   "away": 245
+   "home": 270,
+   "away": 253
   },
   "Successful Passes": {
-   "home": 229,
-   "away": 222
+   "home": 239,
+   "away": 228
   },
   "Successful Passes Percentage": {
    "home": 89,
-   "away": 91
+   "away": 90
   },
   "Shots On Target": {
    "home": 5,
@@ -460,7 +460,7 @@
   },
   "Total Crosses": {
    "home": 11,
-   "away": 7
+   "away": 10
   },
   "Accurate Crosses": {
    "home": 3,
@@ -471,7 +471,7 @@
    "away": 3
   },
   "Duels Won": {
-   "home": 25,
+   "home": 26,
    "away": 20
   },
   "Dribble Attempts": {
@@ -499,8 +499,8 @@
    "away": 7
   },
   "Successful Long Passes Percentage": {
-   "home": 91,
-   "away": 54
+   "home": 83,
+   "away": 47
   },
   "Tackles Won": {
    "home": 8,
@@ -1596,6 +1596,13 @@
   {
    "m": 42,
    "x": null,
+   "t": "Joao Pedro Neves Filipe takes a right-footed shot, but it is saved.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 42,
+   "x": null,
    "t": "Luke McCowan takes a shot with his left foot and scores.",
    "goal": false,
    "key": true
@@ -1613,7 +1620,14 @@
    "t": "Camilo Duran takes a left-footed shot but misses.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 45,
+   "x": 4,
+   "t": "Corner awarded.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2484
+ "rate_remaining": 2481
 }
