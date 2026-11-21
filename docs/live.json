@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:54:45.187453+00:00",
+ "updated_at": "2026-11-21T16:55:15.060824+00:00",
  "live": false,
  "fixture": {
   "id": 19722745,
@@ -346,7 +346,7 @@
    "player": "Camilo Durán",
    "related": "Kieran Tierney",
    "result": "2-0",
-   "info": "Right foot shot"
+   "info": "Left foot shot"
   },
   {
    "id": 158723648,
@@ -358,7 +358,7 @@
    "player": "Luke McCowan",
    "related": "Kieran Tierney",
    "result": "3-0",
-   "info": "Right foot shot"
+   "info": "Left foot shot"
   },
   {
    "id": 158725727,
@@ -543,7 +543,7 @@
    "away": 13
   },
   "Attacks": {
-   "home": 99,
+   "home": 100,
    "away": 87
   },
   "Dangerous Attacks": {
@@ -2207,12 +2207,33 @@
    "key": false
   },
   {
+   "m": 87,
+   "x": null,
+   "t": "Shot by Ismeal Kabia with his left foot is saved.",
+   "goal": false,
+   "key": false
+  },
+  {
    "m": 88,
    "x": null,
    "t": "Samuel Ramos takes a left-footed shot, but it's saved.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 90,
+   "x": null,
+   "t": "Calvin Ramsay takes a right-footed shot, but it's blocked.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 90,
+   "x": 1,
+   "t": "Offside.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2478
+ "rate_remaining": 2476
 }
