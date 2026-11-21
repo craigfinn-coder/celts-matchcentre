@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:24:15.078360+00:00",
+ "updated_at": "2026-11-21T16:24:45.104835+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -394,7 +394,7 @@
    "player": "Callum McGregor",
    "related": null,
    "result": "4-0",
-   "info": null
+   "info": "Right foot shot"
   }
  ],
  "stats": {
@@ -479,7 +479,7 @@
    "away": 20
   },
   "Successful Headers": {
-   "home": 3,
+   "home": 4,
    "away": 1
   },
   "Tackles": {
@@ -1167,7 +1167,7 @@
   },
   "163711": {
    "min": 54,
-   "rating": 7.33,
+   "rating": 7.22,
    "touches": 35,
    "pass": 17,
    "sh": 3,
@@ -1176,13 +1176,13 @@
    "duels_t": 8,
    "duels": 6,
    "sot": 1,
-   "tkl": 3,
+   "tkl": 2,
    "side": "home",
    "name": "Jota"
   },
   "37709508": {
    "min": 54,
-   "rating": 7.38,
+   "rating": 7.34,
    "pass": 15,
    "touches": 24,
    "pass_pct": 79,
@@ -1230,19 +1230,19 @@
    "name": "Luke McCowan"
   },
   "37598290": {
-   "min": 2,
+   "min": 3,
    "side": "home",
    "name": "Callum Osmand"
   },
   "1712": {
    "min": 54,
-   "rating": 6.92,
+   "rating": 6.93,
    "touches": 57,
    "pass_pct": 96,
    "pass": 50,
    "duels_t": 3,
    "duels": 1,
-   "tkl": 1,
+   "tkl": 2,
    "int": 1,
    "clr": 2,
    "fouls": 1,
@@ -1253,7 +1253,7 @@
    "min": 54,
    "touches": 35,
    "pass": 25,
-   "rating": 7.59,
+   "rating": 7.53,
    "pass_pct": 90,
    "duels_t": 4,
    "duels": 2,
@@ -1277,13 +1277,14 @@
    "name": "Sam Johnstone"
   },
   "37709264": {
-   "min": 2,
+   "min": 3,
+   "tkl": 2,
    "side": "home",
    "name": "Joël van den Berg"
   },
   "8585": {
    "min": 54,
-   "rating": 6.7,
+   "rating": 7.33,
    "int": 2,
    "pass": 35,
    "touches": 44,
@@ -1291,19 +1292,21 @@
    "duels": 1,
    "duels_t": 5,
    "pass_pct": 94,
-   "sh": 1,
+   "sh": 2,
+   "sot": 1,
+   "g": 1,
    "side": "home",
    "name": "Callum McGregor"
   },
   "37732189": {
    "min": 54,
-   "rating": 6.99,
+   "rating": 7.0,
    "sot": 1,
    "sh": 1,
    "duels": 4,
    "duels_t": 6,
    "pass_pct": 88,
-   "tkl": 3,
+   "tkl": 4,
    "pass": 28,
    "touches": 40,
    "side": "home",
@@ -1351,18 +1354,19 @@
   },
   "37554466": {
    "min": 54,
-   "rating": 6.94,
+   "rating": 6.96,
    "pass": 56,
    "touches": 70,
    "pass_pct": 100,
    "clr": 6,
    "int": 2,
+   "tkl": 1,
    "side": "away",
    "name": "Louis Jackson"
   },
   "37631417": {
    "min": 54,
-   "rating": 6.17,
+   "rating": 6.23,
    "pass": 50,
    "pass_pct": 100,
    "clr": 2,
@@ -1371,18 +1375,20 @@
    "touches": 63,
    "duels": 1,
    "int": 1,
+   "tkl": 2,
    "side": "away",
    "name": "Ryan Carr"
   },
   "37685801": {
    "min": 54,
-   "rating": 6.37,
+   "rating": 6.35,
    "touches": 14,
    "pass": 8,
    "pass_pct": 80,
    "duels_t": 6,
    "fouls": 1,
    "duels": 2,
+   "tkl": 1,
    "side": "away",
    "name": "Eseosa Sule"
   },
@@ -1404,7 +1410,7 @@
   },
   "15494": {
    "min": 54,
-   "rating": 6.65,
+   "rating": 6.59,
    "pass": 28,
    "touches": 42,
    "pass_pct": 81,
@@ -1433,13 +1439,13 @@
   },
   "37260590": {
    "min": 54,
-   "rating": 6.42,
+   "rating": 6.4,
    "touches": 43,
    "pass": 26,
    "pass_pct": 100,
    "duels_t": 9,
    "duels": 5,
-   "tkl": 3,
+   "tkl": 4,
    "clr": 2,
    "side": "away",
    "name": "Calvin Ramsay"
@@ -1763,5 +1769,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2382
+ "rate_remaining": 2381
 }
