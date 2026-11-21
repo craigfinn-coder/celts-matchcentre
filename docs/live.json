@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:17:15.029736+00:00",
+ "updated_at": "2026-11-21T16:20:45.049852+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 56,
+ "minute": 59,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -367,24 +367,24 @@
    "away": 4
   },
   "Shots Off Target": {
-   "home": 2,
+   "home": 3,
    "away": 1
   },
   "Shots Total": {
-   "home": 14,
+   "home": 15,
    "away": 6
   },
   "Attacks": {
-   "home": 58,
-   "away": 54
+   "home": 61,
+   "away": 56
   },
   "Dangerous Attacks": {
-   "home": 44,
+   "home": 45,
    "away": 31
   },
   "Ball Possession %": {
-   "home": 49,
-   "away": 51
+   "home": 51,
+   "away": 49
   },
   "Ball Safe": {
    "home": 38,
@@ -395,7 +395,7 @@
    "away": 3
   },
   "Shots Outsidebox": {
-   "home": 5,
+   "home": 6,
    "away": 3
   },
   "Offsides": {
@@ -407,8 +407,8 @@
    "away": 0
   },
   "Goal Kicks": {
-   "home": 3,
-   "away": 3
+   "home": 4,
+   "away": 4
   },
   "Goal Attempts": {
    "home": 6,
@@ -416,10 +416,10 @@
   },
   "Free Kicks": {
    "home": 7,
-   "away": 4
+   "away": 5
   },
   "Fouls": {
-   "home": 4,
+   "home": 5,
    "away": 7
   },
   "Saves": {
@@ -431,11 +431,11 @@
    "away": 3
   },
   "Throwins": {
-   "home": 5,
-   "away": 6
+   "home": 6,
+   "away": 7
   },
   "Long Passes": {
-   "home": 14,
+   "home": 17,
    "away": 20
   },
   "Successful Headers": {
@@ -443,23 +443,23 @@
    "away": 1
   },
   "Tackles": {
-   "home": 17,
-   "away": 12
+   "home": 18,
+   "away": 17
   },
   "Assists": {
    "home": 2,
    "away": 0
   },
   "Passes": {
-   "home": 319,
-   "away": 342
+   "home": 385,
+   "away": 370
   },
   "Successful Passes": {
-   "home": 283,
-   "away": 310
+   "home": 345,
+   "away": 335
   },
   "Successful Passes Percentage": {
-   "home": 89,
+   "home": 90,
    "away": 91
   },
   "Shots On Target": {
@@ -479,15 +479,15 @@
    "away": 6
   },
   "Duels Won": {
-   "home": 36,
-   "away": 25
+   "home": 38,
+   "away": 28
   },
   "Dribble Attempts": {
-   "home": 16,
-   "away": 17
+   "home": 17,
+   "away": 18
   },
   "Successful Dribbles": {
-   "home": 9,
+   "home": 10,
    "away": 8
   },
   "Key Passes": {
@@ -499,11 +499,11 @@
    "away": 0
   },
   "Successful Dribbles Percentage": {
-   "home": 56,
-   "away": 47
+   "home": 59,
+   "away": 44
   },
   "Successful Long Passes": {
-   "home": 10,
+   "home": 12,
    "away": 11
   },
   "Successful Long Passes Percentage": {
@@ -511,8 +511,8 @@
    "away": 55
   },
   "Tackles Won": {
-   "home": 12,
-   "away": 7
+   "home": 13,
+   "away": 9
   }
  },
  "next_fixtures": [
@@ -598,20 +598,6 @@
   },
   {
    "pos": 4,
-   "team": "Hearts",
-   "team_id": 314,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
-   "pts": 20,
-   "p": 12,
-   "w": 6,
-   "d": 2,
-   "l": 4,
-   "gf": 26,
-   "ga": 22,
-   "gd": 4
-  },
-  {
-   "pos": 5,
    "team": "Dundee United",
    "team_id": 282,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
@@ -623,6 +609,20 @@
    "gf": 17,
    "ga": 17,
    "gd": 0
+  },
+  {
+   "pos": 5,
+   "team": "Hearts",
+   "team_id": 314,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/314.png",
+   "pts": 20,
+   "p": 12,
+   "w": 6,
+   "d": 2,
+   "l": 4,
+   "gf": 26,
+   "ga": 22,
+   "gd": 4
   },
   {
    "pos": 6,
@@ -1127,7 +1127,7 @@
   },
   "163711": {
    "min": 54,
-   "rating": 7.36,
+   "rating": 7.33,
    "touches": 35,
    "pass": 17,
    "sh": 3,
@@ -1158,7 +1158,7 @@
   },
   "37563550": {
    "min": 54,
-   "rating": 6.85,
+   "rating": 6.93,
    "pass": 24,
    "touches": 33,
    "duels": 7,
@@ -1167,6 +1167,7 @@
    "tkl": 2,
    "pass_pct": 83,
    "kp": 1,
+   "sh": 1,
    "side": "home",
    "name": "Hyun-jun Yang"
   },
@@ -1190,7 +1191,7 @@
   },
   "1712": {
    "min": 54,
-   "rating": 6.84,
+   "rating": 6.9,
    "touches": 57,
    "pass_pct": 96,
    "pass": 50,
@@ -1207,7 +1208,7 @@
    "min": 54,
    "touches": 35,
    "pass": 25,
-   "rating": 7.59,
+   "rating": 7.6,
    "pass_pct": 90,
    "duels_t": 4,
    "duels": 2,
@@ -1221,7 +1222,7 @@
   },
   "1008": {
    "min": 54,
-   "rating": 7.0,
+   "rating": 6.99,
    "touches": 39,
    "pass": 30,
    "pass_pct": 96,
@@ -1311,7 +1312,7 @@
   },
   "37631417": {
    "min": 54,
-   "rating": 6.11,
+   "rating": 6.19,
    "pass": 50,
    "pass_pct": 100,
    "clr": 2,
@@ -1675,7 +1676,21 @@
    "t": "Shot from Ismeal Kabia with his right foot is saved.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 52,
+   "x": null,
+   "t": "Offside.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 57,
+   "x": null,
+   "t": "Yang Hyun-Jun takes a right-footed shot, but it misses the target.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2403
+ "rate_remaining": 2393
 }
