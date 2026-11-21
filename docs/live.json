@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:51:15.108080+00:00",
+ "updated_at": "2026-11-21T16:53:45.035310+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,9 +312,9 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 90,
+ "minute": 92,
  "minute_estimated": false,
- "added_time": null,
+ "added_time": 3,
  "score": {
   "home": 4,
   "away": 1
@@ -540,7 +540,7 @@
   },
   "Shots Total": {
    "home": 19,
-   "away": 11
+   "away": 12
   },
   "Attacks": {
    "home": 87,
@@ -551,8 +551,8 @@
    "away": 42
   },
   "Ball Possession %": {
-   "home": 51,
-   "away": 49
+   "home": 50,
+   "away": 50
   },
   "Ball Safe": {
    "home": 49,
@@ -564,14 +564,14 @@
   },
   "Shots Insidebox": {
    "home": 10,
-   "away": 8
+   "away": 9
   },
   "Shots Outsidebox": {
    "home": 9,
-   "away": 3
+   "away": 4
   },
   "Offsides": {
-   "home": 4,
+   "home": 5,
    "away": 1
   },
   "Goals": {
@@ -607,12 +607,12 @@
    "away": 5
   },
   "Throwins": {
-   "home": 11,
+   "home": 13,
    "away": 9
   },
   "Long Passes": {
-   "home": 25,
-   "away": 29
+   "home": 27,
+   "away": 31
   },
   "Successful Headers": {
    "home": 4,
@@ -627,16 +627,16 @@
    "away": 0
   },
   "Passes": {
-   "home": 525,
-   "away": 506
+   "home": 531,
+   "away": 532
   },
   "Successful Passes": {
-   "home": 462,
-   "away": 454
+   "home": 466,
+   "away": 476
   },
   "Successful Passes Percentage": {
    "home": 88,
-   "away": 90
+   "away": 89
   },
   "Yellowcards": {
    "home": 1,
@@ -644,7 +644,7 @@
   },
   "Shots On Target": {
    "home": 7,
-   "away": 4
+   "away": 5
   },
   "Total Crosses": {
    "home": 17,
@@ -659,8 +659,8 @@
    "away": 10
   },
   "Duels Won": {
-   "home": 56,
-   "away": 49
+   "home": 57,
+   "away": 51
   },
   "Dribble Attempts": {
    "home": 23,
@@ -691,12 +691,12 @@
    "away": 16
   },
   "Successful Long Passes Percentage": {
-   "home": 52,
-   "away": 55
+   "home": 48,
+   "away": 52
   },
   "Tackles Won": {
    "home": 16,
-   "away": 15
+   "away": 16
   }
  },
  "next_fixtures": [
@@ -1297,7 +1297,7 @@
  "player_stats": {
   "123659": {
    "min": 90,
-   "rating": 7.11,
+   "rating": 7.14,
    "touches": 88,
    "pass": 73,
    "int": 1,
@@ -1311,7 +1311,7 @@
   },
   "262280": {
    "min": 19,
-   "rating": 6.54,
+   "rating": 6.67,
    "pass_pct": 86,
    "touches": 13,
    "pass": 8,
@@ -1393,7 +1393,7 @@
    "min": 29,
    "pass": 10,
    "pass_pct": 75,
-   "rating": 6.65,
+   "rating": 6.77,
    "duels_t": 5,
    "duels": 3,
    "sh": 1,
@@ -1403,7 +1403,7 @@
   },
   "1712": {
    "min": 90,
-   "rating": 7.1,
+   "rating": 7.28,
    "touches": 89,
    "pass_pct": 94,
    "pass": 73,
@@ -1434,7 +1434,7 @@
   },
   "1008": {
    "min": 90,
-   "rating": 6.28,
+   "rating": 6.83,
    "touches": 61,
    "pass": 48,
    "pass_pct": 89,
@@ -1448,7 +1448,7 @@
   "37714106": {
    "min": 19,
    "pass_pct": 100,
-   "rating": 6.71,
+   "rating": 6.6,
    "pass": 6,
    "duels": 3,
    "duels_t": 5,
@@ -1466,7 +1466,7 @@
    "duels_t": 9,
    "pass_pct": 100,
    "touches": 30,
-   "rating": 7.0,
+   "rating": 7.1,
    "clr": 3,
    "fouls": 1,
    "kp": 1,
@@ -1475,7 +1475,7 @@
   },
   "8585": {
    "min": 90,
-   "rating": 7.21,
+   "rating": 7.16,
    "int": 2,
    "pass": 56,
    "touches": 71,
@@ -1493,7 +1493,7 @@
   "172104": {
    "min": 20,
    "pass_pct": 60,
-   "rating": 6.2,
+   "rating": 6.09,
    "touches": 11,
    "duels_t": 4,
    "pass": 8,
@@ -1534,7 +1534,7 @@
   },
   "20692499": {
    "min": 90,
-   "rating": 6.1,
+   "rating": 6.13,
    "touches": 42,
    "pass": 32,
    "saves": 3,
@@ -1545,7 +1545,7 @@
   },
   "1233": {
    "min": 90,
-   "rating": 5.95,
+   "rating": 5.99,
    "pass": 47,
    "touches": 65,
    "pass_pct": 82,
@@ -1565,12 +1565,13 @@
    "tkl": 2,
    "duels": 3,
    "duels_t": 4,
+   "rating": 6.55,
    "side": "away",
    "name": "Liam Donnelly"
   },
   "37554466": {
    "min": 90,
-   "rating": 7.18,
+   "rating": 7.32,
    "pass": 85,
    "touches": 107,
    "pass_pct": 100,
@@ -1618,14 +1619,14 @@
    "sh": 3,
    "duels": 2,
    "pass": 7,
-   "rating": 6.87,
+   "rating": 6.98,
    "sot": 1,
    "side": "away",
    "name": "Samuel Ramos"
   },
   "9781": {
    "min": 90,
-   "rating": 6.49,
+   "rating": 6.58,
    "touches": 87,
    "pass": 59,
    "pass_pct": 90,
@@ -1655,7 +1656,7 @@
   },
   "37649368": {
    "min": 90,
-   "rating": 6.3,
+   "rating": 6.7,
    "pass": 31,
    "duels_t": 14,
    "fouls": 1,
@@ -1664,8 +1665,8 @@
    "pass_pct": 92,
    "clr": 1,
    "kp": 3,
-   "sh": 1,
-   "sot": 1,
+   "sh": 2,
+   "sot": 2,
    "tkl": 1,
    "side": "away",
    "name": "Ismeal Kabia"
@@ -1677,7 +1678,7 @@
    "duels": 1,
    "duels_t": 3,
    "pass_pct": 75,
-   "rating": 6.43,
+   "rating": 6.44,
    "side": "away",
    "name": "Jake Young"
   },
@@ -1686,23 +1687,24 @@
    "pass_pct": 100,
    "touches": 14,
    "pass": 10,
-   "rating": 6.51,
+   "rating": 6.76,
    "duels": 2,
    "duels_t": 2,
    "side": "away",
    "name": "Chris Mochrie"
   },
   "37580336": {
-   "pass_pct": 88,
+   "pass_pct": 92,
    "min": 6,
    "pass": 8,
    "touches": 8,
+   "rating": 6.5,
    "side": "away",
    "name": "Fraser Taylor"
   },
   "37260590": {
    "min": 90,
-   "rating": 6.52,
+   "rating": 6.55,
    "touches": 63,
    "pass": 36,
    "pass_pct": 97,
@@ -2202,7 +2204,14 @@
    "t": "Fraser Taylor is on, and Paul Nsio is off.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 88,
+   "x": null,
+   "t": "Samuel Ramos takes a left-footed shot, but it's saved.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2488
+ "rate_remaining": 2481
 }
