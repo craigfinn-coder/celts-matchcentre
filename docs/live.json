@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:34:45.191394+00:00",
+ "updated_at": "2026-11-21T16:35:15.069472+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 73,
+ "minute": 74,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -478,7 +478,7 @@
    "player": "Alex Gogic",
    "related": null,
    "result": null,
-   "info": null
+   "info": "Foul"
   }
  ],
  "stats": {
@@ -495,11 +495,11 @@
    "away": 8
   },
   "Attacks": {
-   "home": 74,
+   "home": 77,
    "away": 61
   },
   "Dangerous Attacks": {
-   "home": 51,
+   "home": 53,
    "away": 37
   },
   "Ball Possession %": {
@@ -611,7 +611,7 @@
    "away": 6
   },
   "Duels Won": {
-   "home": 45,
+   "home": 47,
    "away": 35
   },
   "Dribble Attempts": {
@@ -2001,5 +2001,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2351
+ "rate_remaining": 2349
 }
