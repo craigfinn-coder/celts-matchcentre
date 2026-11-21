@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:30:46.769959+00:00",
+ "updated_at": "2026-11-21T16:31:45.008592+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 69,
+ "minute": 70,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -419,6 +419,18 @@
    "related": "Eseosa Sule",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158726321,
+   "minute": 70,
+   "extra": null,
+   "type": "Penalty",
+   "side": "away",
+   "team": "St. Mirren",
+   "player": null,
+   "related": null,
+   "result": "4-1",
+   "info": "Penalty"
   }
  ],
  "stats": {
@@ -432,7 +444,7 @@
   },
   "Shots Total": {
    "home": 16,
-   "away": 6
+   "away": 8
   },
   "Attacks": {
    "home": 72,
@@ -456,7 +468,7 @@
   },
   "Shots Insidebox": {
    "home": 9,
-   "away": 4
+   "away": 5
   },
   "Shots Outsidebox": {
    "home": 7,
@@ -468,7 +480,7 @@
   },
   "Goals": {
    "home": 4,
-   "away": 0
+   "away": 1
   },
   "Goal Kicks": {
    "home": 4,
@@ -480,7 +492,7 @@
   },
   "Free Kicks": {
    "home": 8,
-   "away": 6
+   "away": 5
   },
   "Fouls": {
    "home": 6,
@@ -492,10 +504,10 @@
   },
   "Shots Blocked": {
    "home": 7,
-   "away": 3
+   "away": 4
   },
   "Substitutions": {
-   "home": 2,
+   "home": 5,
    "away": 2
   },
   "Throwins": {
@@ -532,7 +544,7 @@
   },
   "Shots On Target": {
    "home": 6,
-   "away": 2
+   "away": 3
   },
   "Total Crosses": {
    "home": 16,
@@ -564,7 +576,7 @@
   },
   "Big Chances Created": {
    "home": 2,
-   "away": 0
+   "away": 1
   },
   "Successful Dribbles Percentage": {
    "home": 61,
@@ -1227,7 +1239,7 @@
   },
   "37563550": {
    "min": 67,
-   "rating": 7.18,
+   "rating": 7.25,
    "pass": 34,
    "touches": 47,
    "duels": 9,
@@ -1245,7 +1257,7 @@
    "touches": 54,
    "int": 1,
    "pass": 35,
-   "rating": 7.57,
+   "rating": 7.56,
    "sh": 4,
    "pass_pct": 82,
    "duels": 5,
@@ -1263,6 +1275,7 @@
    "min": 6,
    "pass": 2,
    "pass_pct": 50,
+   "rating": 6.55,
    "duels_t": 1,
    "duels": 1,
    "side": "home",
@@ -1270,7 +1283,7 @@
   },
   "1712": {
    "min": 67,
-   "rating": 6.98,
+   "rating": 7.15,
    "touches": 70,
    "pass_pct": 95,
    "pass": 61,
@@ -1301,7 +1314,7 @@
   },
   "1008": {
    "min": 67,
-   "rating": 6.92,
+   "rating": 6.66,
    "touches": 48,
    "pass": 39,
    "pass_pct": 92,
@@ -1320,12 +1333,13 @@
    "duels_t": 3,
    "pass_pct": 100,
    "touches": 7,
+   "rating": 6.79,
    "side": "home",
    "name": "Joël van den Berg"
   },
   "8585": {
    "min": 67,
-   "rating": 7.37,
+   "rating": 7.4,
    "int": 2,
    "pass": 48,
    "touches": 59,
@@ -1341,7 +1355,7 @@
   },
   "37732189": {
    "min": 67,
-   "rating": 7.02,
+   "rating": 7.07,
    "sot": 1,
    "sh": 1,
    "duels": 5,
@@ -1355,7 +1369,7 @@
   },
   "172960": {
    "min": 67,
-   "rating": 7.86,
+   "rating": 7.97,
    "touches": 49,
    "pass": 33,
    "pass_pct": 77,
@@ -1372,7 +1386,7 @@
   },
   "20692499": {
    "min": 67,
-   "rating": 5.91,
+   "rating": 5.94,
    "touches": 33,
    "pass": 25,
    "saves": 2,
@@ -1383,7 +1397,7 @@
   },
   "1233": {
    "min": 67,
-   "rating": 5.84,
+   "rating": 5.95,
    "pass": 39,
    "touches": 53,
    "pass_pct": 79,
@@ -1397,7 +1411,7 @@
   },
   "37554466": {
    "min": 67,
-   "rating": 6.85,
+   "rating": 6.84,
    "pass": 66,
    "touches": 82,
    "pass_pct": 100,
@@ -1411,7 +1425,7 @@
   },
   "37631417": {
    "min": 67,
-   "rating": 6.3,
+   "rating": 6.29,
    "pass": 54,
    "pass_pct": 100,
    "clr": 2,
@@ -1439,7 +1453,7 @@
   },
   "9781": {
    "min": 67,
-   "rating": 6.46,
+   "rating": 6.55,
    "touches": 62,
    "pass": 42,
    "pass_pct": 93,
@@ -1468,7 +1482,7 @@
   },
   "37649368": {
    "min": 67,
-   "rating": 6.05,
+   "rating": 6.06,
    "pass": 23,
    "duels_t": 12,
    "fouls": 1,
@@ -1499,7 +1513,7 @@
   },
   "37260590": {
    "min": 67,
-   "rating": 6.22,
+   "rating": 6.6,
    "touches": 51,
    "pass": 29,
    "pass_pct": 97,
@@ -1530,13 +1544,15 @@
   "37529807": {
    "min": 67,
    "touches": 53,
-   "rating": 6.36,
+   "rating": 7.14,
    "pass": 42,
    "pass_pct": 95,
    "fouls": 1,
    "duels_t": 3,
-   "sh": 2,
+   "sh": 3,
    "kp": 1,
+   "g": 1,
+   "sot": 1,
    "side": "away",
    "name": "Killian Phillips"
   }
@@ -1837,6 +1853,13 @@
    "key": true
   },
   {
+   "m": 63,
+   "x": null,
+   "t": "Callum McGregor scores with a right-footed shot.",
+   "goal": false,
+   "key": true
+  },
+  {
    "m": 66,
    "x": null,
    "t": "Corner awarded.",
@@ -1844,5 +1867,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2363
+ "rate_remaining": 2360
 }
