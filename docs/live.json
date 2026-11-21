@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:23:45.029585+00:00",
+ "updated_at": "2026-11-21T16:24:15.078360+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 62,
+ "minute": 63,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -383,6 +383,18 @@
    "related": "Jota",
    "result": null,
    "info": null
+  },
+  {
+   "id": 158725843,
+   "minute": 63,
+   "extra": null,
+   "type": "Goal",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Callum McGregor",
+   "related": null,
+   "result": "4-0",
+   "info": null
   }
  ],
  "stats": {
@@ -419,7 +431,7 @@
    "away": 3
   },
   "Shots Outsidebox": {
-   "home": 6,
+   "home": 7,
    "away": 3
   },
   "Offsides": {
@@ -427,7 +439,7 @@
    "away": 1
   },
   "Goals": {
-   "home": 3,
+   "home": 4,
    "away": 0
   },
   "Goal Kicks": {
@@ -463,7 +475,7 @@
    "away": 7
   },
   "Long Passes": {
-   "home": 17,
+   "home": 18,
    "away": 20
   },
   "Successful Headers": {
@@ -471,7 +483,7 @@
    "away": 1
   },
   "Tackles": {
-   "home": 18,
+   "home": 20,
    "away": 17
   },
   "Assists": {
@@ -479,12 +491,12 @@
    "away": 0
   },
   "Passes": {
-   "home": 398,
-   "away": 373
+   "home": 405,
+   "away": 377
   },
   "Successful Passes": {
-   "home": 357,
-   "away": 338
+   "home": 364,
+   "away": 342
   },
   "Successful Passes Percentage": {
    "home": 90,
@@ -507,7 +519,7 @@
    "away": 6
   },
   "Duels Won": {
-   "home": 39,
+   "home": 41,
    "away": 31
   },
   "Dribble Attempts": {
@@ -531,11 +543,11 @@
    "away": 44
   },
   "Successful Long Passes": {
-   "home": 12,
+   "home": 13,
    "away": 11
   },
   "Successful Long Passes Percentage": {
-   "home": 71,
+   "home": 72,
    "away": 55
   },
   "Tackles Won": {
@@ -1751,5 +1763,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2384
+ "rate_remaining": 2382
 }
