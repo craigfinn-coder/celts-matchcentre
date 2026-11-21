@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:48:45.055265+00:00",
+ "updated_at": "2026-11-21T16:51:15.108080+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 87,
+ "minute": 90,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -540,7 +540,7 @@
   },
   "Shots Total": {
    "home": 19,
-   "away": 10
+   "away": 11
   },
   "Attacks": {
    "home": 87,
@@ -564,7 +564,7 @@
   },
   "Shots Insidebox": {
    "home": 10,
-   "away": 7
+   "away": 8
   },
   "Shots Outsidebox": {
    "home": 9,
@@ -595,7 +595,7 @@
    "away": 11
   },
   "Saves": {
-   "home": 3,
+   "home": 4,
    "away": 3
   },
   "Shots Blocked": {
@@ -607,11 +607,11 @@
    "away": 5
   },
   "Throwins": {
-   "home": 9,
+   "home": 11,
    "away": 9
   },
   "Long Passes": {
-   "home": 23,
+   "home": 25,
    "away": 29
   },
   "Successful Headers": {
@@ -620,22 +620,22 @@
   },
   "Tackles": {
    "home": 26,
-   "away": 22
+   "away": 24
   },
   "Assists": {
    "home": 2,
    "away": 0
   },
   "Passes": {
-   "home": 515,
-   "away": 493
+   "home": 525,
+   "away": 506
   },
   "Successful Passes": {
-   "home": 457,
-   "away": 443
+   "home": 462,
+   "away": 454
   },
   "Successful Passes Percentage": {
-   "home": 89,
+   "home": 88,
    "away": 90
   },
   "Yellowcards": {
@@ -644,7 +644,7 @@
   },
   "Shots On Target": {
    "home": 7,
-   "away": 3
+   "away": 4
   },
   "Total Crosses": {
    "home": 17,
@@ -656,18 +656,18 @@
   },
   "Interceptions": {
    "home": 7,
-   "away": 9
+   "away": 10
   },
   "Duels Won": {
-   "home": 55,
-   "away": 48
+   "home": 56,
+   "away": 49
   },
   "Dribble Attempts": {
-   "home": 22,
+   "home": 23,
    "away": 27
   },
   "Successful Dribbles": {
-   "home": 13,
+   "home": 14,
    "away": 15
   },
   "Key Passes": {
@@ -683,7 +683,7 @@
    "away": 1
   },
   "Successful Dribbles Percentage": {
-   "home": 59,
+   "home": 61,
    "away": 56
   },
   "Successful Long Passes": {
@@ -691,12 +691,12 @@
    "away": 16
   },
   "Successful Long Passes Percentage": {
-   "home": 57,
+   "home": 52,
    "away": 55
   },
   "Tackles Won": {
    "home": 16,
-   "away": 13
+   "away": 15
   }
  },
  "next_fixtures": [
@@ -1296,10 +1296,10 @@
  },
  "player_stats": {
   "123659": {
-   "min": 84,
+   "min": 90,
    "rating": 7.11,
-   "touches": 82,
-   "pass": 70,
+   "touches": 88,
+   "pass": 73,
    "int": 1,
    "pass_pct": 98,
    "tkl": 1,
@@ -1310,14 +1310,15 @@
    "name": "Liam Scales"
   },
   "262280": {
-   "min": 13,
+   "min": 19,
    "rating": 6.54,
    "pass_pct": 86,
-   "touches": 10,
+   "touches": 13,
    "pass": 8,
-   "duels_t": 1,
-   "duels": 1,
-   "clr": 1,
+   "duels_t": 2,
+   "duels": 2,
+   "clr": 3,
+   "tkl": 1,
    "side": "home",
    "name": "Auston Trusty"
   },
@@ -1369,10 +1370,10 @@
    "name": "Hyun-jun Yang"
   },
   "1548366": {
-   "min": 84,
-   "touches": 67,
+   "min": 90,
+   "touches": 70,
    "int": 2,
-   "pass": 46,
+   "pass": 47,
    "rating": 7.42,
    "sh": 4,
    "pass_pct": 81,
@@ -1383,34 +1384,34 @@
    "g": 1,
    "sot": 1,
    "tkl": 2,
-   "clr": 1,
+   "clr": 2,
    "side": "home",
    "name": "Luke McCowan"
   },
   "37598290": {
-   "touches": 15,
-   "min": 23,
-   "pass": 7,
+   "touches": 19,
+   "min": 29,
+   "pass": 10,
    "pass_pct": 75,
    "rating": 6.65,
-   "duels_t": 4,
-   "duels": 2,
+   "duels_t": 5,
+   "duels": 3,
    "sh": 1,
    "sot": 1,
    "side": "home",
    "name": "Callum Osmand"
   },
   "1712": {
-   "min": 84,
+   "min": 90,
    "rating": 7.1,
-   "touches": 83,
+   "touches": 89,
    "pass_pct": 94,
-   "pass": 72,
-   "duels_t": 6,
-   "duels": 3,
-   "tkl": 2,
+   "pass": 73,
+   "duels_t": 7,
+   "duels": 4,
+   "tkl": 3,
    "int": 1,
-   "clr": 3,
+   "clr": 5,
    "fouls": 2,
    "side": "home",
    "name": "Cameron Carter-Vickers"
@@ -1432,56 +1433,55 @@
    "name": "Alex Oxlade-Chamberlain"
   },
   "1008": {
-   "min": 84,
+   "min": 90,
    "rating": 6.28,
-   "touches": 56,
-   "pass": 46,
+   "touches": 61,
+   "pass": 48,
    "pass_pct": 89,
    "clr": 1,
-   "saves": 2,
+   "saves": 4,
    "fouls": 1,
    "duels_t": 1,
    "side": "home",
    "name": "Sam Johnstone"
   },
   "37714106": {
-   "min": 13,
+   "min": 19,
    "pass_pct": 100,
    "rating": 6.71,
    "pass": 6,
-   "duels": 2,
-   "duels_t": 2,
-   "touches": 9,
+   "duels": 3,
+   "duels_t": 5,
+   "touches": 12,
    "tkl": 1,
    "sh": 1,
    "side": "home",
    "name": "Shumaira Mheuka"
   },
   "37709264": {
-   "min": 23,
+   "min": 29,
    "tkl": 4,
-   "pass": 13,
+   "pass": 15,
    "duels": 7,
    "duels_t": 9,
    "pass_pct": 100,
-   "touches": 25,
+   "touches": 30,
    "rating": 7.0,
-   "clr": 1,
+   "clr": 3,
    "fouls": 1,
    "kp": 1,
-   "int": 1,
    "side": "home",
    "name": "Joël van den Berg"
   },
   "8585": {
-   "min": 84,
+   "min": 90,
    "rating": 7.21,
    "int": 2,
    "pass": 56,
-   "touches": 70,
+   "touches": 71,
    "kp": 1,
    "duels": 1,
-   "duels_t": 6,
+   "duels_t": 7,
    "pass_pct": 94,
    "sh": 2,
    "sot": 1,
@@ -1491,17 +1491,17 @@
    "name": "Callum McGregor"
   },
   "172104": {
-   "min": 14,
+   "min": 20,
    "pass_pct": 60,
    "rating": 6.2,
-   "touches": 10,
-   "duels_t": 2,
+   "touches": 11,
+   "duels_t": 4,
    "pass": 8,
    "side": "home",
    "name": "James Forrest"
   },
   "37732189": {
-   "min": 84,
+   "min": 90,
    "rating": 6.87,
    "sot": 1,
    "sh": 2,
@@ -1533,10 +1533,10 @@
    "name": "Kieran Tierney"
   },
   "20692499": {
-   "min": 84,
+   "min": 90,
    "rating": 6.1,
-   "touches": 40,
-   "pass": 30,
+   "touches": 42,
+   "pass": 32,
    "saves": 3,
    "pass_pct": 72,
    "clr": 2,
@@ -1544,10 +1544,10 @@
    "name": "Jacob Chapman"
   },
   "1233": {
-   "min": 84,
+   "min": 90,
    "rating": 5.95,
-   "pass": 44,
-   "touches": 61,
+   "pass": 47,
+   "touches": 65,
    "pass_pct": 82,
    "duels_t": 6,
    "clr": 5,
@@ -1558,22 +1558,27 @@
    "name": "Declan John"
   },
   "7160": {
-   "min": 4,
+   "touches": 7,
+   "min": 6,
    "pass_pct": 100,
+   "pass": 3,
+   "tkl": 2,
+   "duels": 3,
+   "duels_t": 4,
    "side": "away",
    "name": "Liam Donnelly"
   },
   "37554466": {
-   "min": 84,
+   "min": 90,
    "rating": 7.18,
-   "pass": 75,
-   "touches": 96,
+   "pass": 85,
+   "touches": 107,
    "pass_pct": 100,
    "clr": 8,
    "int": 2,
-   "tkl": 1,
-   "duels": 2,
-   "duels_t": 2,
+   "tkl": 2,
+   "duels": 3,
+   "duels_t": 3,
    "side": "away",
    "name": "Louis Jackson"
   },
@@ -1606,29 +1611,30 @@
    "name": "Eseosa Sule"
   },
   "37308442": {
-   "min": 10,
+   "min": 16,
    "pass_pct": 100,
-   "touches": 10,
-   "duels_t": 3,
-   "sh": 2,
+   "touches": 15,
+   "duels_t": 4,
+   "sh": 3,
    "duels": 2,
-   "pass": 4,
+   "pass": 7,
    "rating": 6.87,
+   "sot": 1,
    "side": "away",
    "name": "Samuel Ramos"
   },
   "9781": {
-   "min": 84,
+   "min": 90,
    "rating": 6.49,
-   "touches": 78,
-   "pass": 53,
+   "touches": 87,
+   "pass": 59,
    "pass_pct": 90,
    "duels_t": 9,
    "duels": 4,
    "clr": 10,
    "fouls": 2,
    "tkl": 3,
-   "int": 4,
+   "int": 5,
    "sh": 1,
    "yc": 1,
    "side": "away",
@@ -1648,25 +1654,26 @@
    "name": "Luke Thomas"
   },
   "37649368": {
-   "min": 84,
+   "min": 90,
    "rating": 6.3,
-   "pass": 26,
-   "duels_t": 13,
+   "pass": 31,
+   "duels_t": 14,
    "fouls": 1,
-   "touches": 46,
-   "duels": 4,
+   "touches": 53,
+   "duels": 5,
    "pass_pct": 92,
    "clr": 1,
-   "kp": 2,
+   "kp": 3,
    "sh": 1,
    "sot": 1,
+   "tkl": 1,
    "side": "away",
    "name": "Ismeal Kabia"
   },
   "37532070": {
-   "min": 19,
-   "pass": 5,
-   "touches": 7,
+   "min": 25,
+   "pass": 8,
+   "touches": 11,
    "duels": 1,
    "duels_t": 3,
    "pass_pct": 75,
@@ -1675,25 +1682,29 @@
    "name": "Jake Young"
   },
   "34873964": {
-   "min": 19,
+   "min": 25,
    "pass_pct": 100,
-   "touches": 5,
-   "pass": 4,
+   "touches": 14,
+   "pass": 10,
    "rating": 6.51,
+   "duels": 2,
+   "duels_t": 2,
    "side": "away",
    "name": "Chris Mochrie"
   },
   "37580336": {
-   "min": 4,
-   "pass_pct": 100,
+   "pass_pct": 88,
+   "min": 6,
+   "pass": 8,
+   "touches": 8,
    "side": "away",
    "name": "Fraser Taylor"
   },
   "37260590": {
-   "min": 84,
+   "min": 90,
    "rating": 6.52,
-   "touches": 60,
-   "pass": 34,
+   "touches": 63,
+   "pass": 36,
    "pass_pct": 97,
    "duels_t": 16,
    "duels": 9,
@@ -2149,7 +2160,49 @@
    "t": "Offside.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 82,
+   "x": null,
+   "t": "Samuel Ramos takes a left-footed shot but misses.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 83,
+   "x": null,
+   "t": "Shumaira Mheuka takes a right-footed shot, but it is blocked.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 83,
+   "x": null,
+   "t": "Callum Osmand takes a right-footed shot, but it's saved.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 84,
+   "x": null,
+   "t": "Luke McCowan receives a yellow card.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 84,
+   "x": null,
+   "t": "Liam Donnelly comes on for Ryan Carr.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 84,
+   "x": null,
+   "t": "Fraser Taylor is on, and Paul Nsio is off.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2496
+ "rate_remaining": 2488
 }
