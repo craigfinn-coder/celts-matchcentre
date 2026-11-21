@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:20:45.049852+00:00",
+ "updated_at": "2026-11-21T16:22:15.090180+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 59,
+ "minute": 61,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -359,11 +359,35 @@
    "related": "Kieran Tierney",
    "result": "3-0",
    "info": "Right foot shot"
+  },
+  {
+   "id": 158725727,
+   "minute": 61,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Joël van den Berg",
+   "related": "Alex Oxlade-Chamberlain",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 158725728,
+   "minute": 61,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Callum Osmand",
+   "related": "Jota",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
   "Corners": {
-   "home": 2,
+   "home": 3,
    "away": 4
   },
   "Shots Off Target": {
@@ -375,12 +399,12 @@
    "away": 6
   },
   "Attacks": {
-   "home": 61,
-   "away": 56
+   "home": 64,
+   "away": 57
   },
   "Dangerous Attacks": {
-   "home": 45,
-   "away": 31
+   "home": 47,
+   "away": 33
   },
   "Ball Possession %": {
    "home": 51,
@@ -429,6 +453,10 @@
   "Shots Blocked": {
    "home": 7,
    "away": 3
+  },
+  "Substitutions": {
+   "home": 2,
+   "away": 0
   },
   "Throwins": {
    "home": 6,
@@ -479,8 +507,8 @@
    "away": 6
   },
   "Duels Won": {
-   "home": 38,
-   "away": 28
+   "home": 39,
+   "away": 31
   },
   "Dribble Attempts": {
    "home": 17,
@@ -491,7 +519,7 @@
    "away": 8
   },
   "Key Passes": {
-   "home": 8,
+   "home": 9,
    "away": 2
   },
   "Big Chances Created": {
@@ -512,7 +540,7 @@
   },
   "Tackles Won": {
    "home": 13,
-   "away": 9
+   "away": 11
   }
  },
  "next_fixtures": [
@@ -1142,7 +1170,7 @@
   },
   "37709508": {
    "min": 54,
-   "rating": 7.36,
+   "rating": 7.38,
    "pass": 15,
    "touches": 24,
    "pass_pct": 79,
@@ -1247,7 +1275,7 @@
   },
   "37732189": {
    "min": 54,
-   "rating": 7.01,
+   "rating": 6.99,
    "sot": 1,
    "sh": 1,
    "duels": 4,
@@ -1326,7 +1354,7 @@
   },
   "37685801": {
    "min": 54,
-   "rating": 6.3,
+   "rating": 6.37,
    "touches": 14,
    "pass": 8,
    "pass_pct": 80,
@@ -1413,7 +1441,7 @@
   "37529807": {
    "min": 54,
    "touches": 45,
-   "rating": 6.45,
+   "rating": 6.44,
    "pass": 36,
    "pass_pct": 94,
    "fouls": 1,
@@ -1690,7 +1718,14 @@
    "t": "Yang Hyun-Jun takes a right-footed shot, but it misses the target.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 59,
+   "x": null,
+   "t": "Corner awarded.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2393
+ "rate_remaining": 2388
 }
