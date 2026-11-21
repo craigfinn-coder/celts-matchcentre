@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:35:47.128594+00:00",
+ "updated_at": "2026-11-21T16:38:15.030923+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 74,
+ "minute": 77,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -496,7 +496,7 @@
  "stats": {
   "Corners": {
    "home": 4,
-   "away": 4
+   "away": 5
   },
   "Shots Off Target": {
    "home": 4,
@@ -508,26 +508,26 @@
   },
   "Attacks": {
    "home": 77,
-   "away": 61
+   "away": 70
   },
   "Dangerous Attacks": {
    "home": 53,
-   "away": 37
+   "away": 38
   },
   "Ball Possession %": {
    "home": 52,
    "away": 48
   },
   "Ball Safe": {
-   "home": 46,
-   "away": 71
+   "home": 49,
+   "away": 75
   },
   "Penalties": {
    "home": 0,
    "away": 1
   },
   "Shots Insidebox": {
-   "home": 9,
+   "home": 10,
    "away": 5
   },
   "Shots Outsidebox": {
@@ -544,19 +544,19 @@
   },
   "Goal Kicks": {
    "home": 4,
-   "away": 4
+   "away": 5
   },
   "Goal Attempts": {
-   "home": 8,
-   "away": 3
+   "home": 9,
+   "away": 4
   },
   "Free Kicks": {
-   "home": 9,
+   "home": 10,
    "away": 5
   },
   "Fouls": {
    "home": 6,
-   "away": 9
+   "away": 10
   },
   "Saves": {
    "home": 2,
@@ -575,28 +575,28 @@
    "away": 8
   },
   "Long Passes": {
-   "home": 21,
-   "away": 21
+   "home": 22,
+   "away": 23
   },
   "Successful Headers": {
    "home": 4,
    "away": 1
   },
   "Tackles": {
-   "home": 21,
-   "away": 19
+   "home": 22,
+   "away": 18
   },
   "Assists": {
    "home": 2,
    "away": 0
   },
   "Passes": {
-   "home": 434,
-   "away": 400
+   "home": 449,
+   "away": 412
   },
   "Successful Passes": {
-   "home": 387,
-   "away": 361
+   "home": 401,
+   "away": 371
   },
   "Successful Passes Percentage": {
    "home": 89,
@@ -611,8 +611,8 @@
    "away": 3
   },
   "Total Crosses": {
-   "home": 16,
-   "away": 13
+   "home": 17,
+   "away": 14
   },
   "Accurate Crosses": {
    "home": 3,
@@ -648,10 +648,10 @@
   },
   "Successful Long Passes": {
    "home": 13,
-   "away": 12
+   "away": 13
   },
   "Successful Long Passes Percentage": {
-   "home": 62,
+   "home": 59,
    "away": 57
   },
   "Tackles Won": {
@@ -1270,8 +1270,9 @@
    "name": "Liam Scales"
   },
   "262280": {
-   "min": 4,
-   "pass_pct": 100,
+   "min": 6,
+   "rating": 6.54,
+   "pass_pct": 75,
    "side": "home",
    "name": "Auston Trusty"
   },
@@ -1327,7 +1328,7 @@
    "touches": 54,
    "int": 1,
    "pass": 35,
-   "rating": 7.5,
+   "rating": 7.48,
    "sh": 4,
    "pass_pct": 82,
    "duels": 5,
@@ -1353,7 +1354,7 @@
   },
   "1712": {
    "min": 67,
-   "rating": 6.92,
+   "rating": 6.94,
    "touches": 70,
    "pass_pct": 95,
    "pass": 61,
@@ -1396,8 +1397,9 @@
    "name": "Sam Johnstone"
   },
   "37714106": {
-   "min": 4,
+   "min": 6,
    "pass_pct": 100,
+   "rating": 6.58,
    "side": "home",
    "name": "Shumaira Mheuka"
   },
@@ -1430,14 +1432,15 @@
    "name": "Callum McGregor"
   },
   "172104": {
-   "min": 5,
+   "min": 7,
    "pass_pct": 100,
+   "rating": 6.43,
    "side": "home",
    "name": "James Forrest"
   },
   "37732189": {
    "min": 67,
-   "rating": 6.85,
+   "rating": 6.93,
    "sot": 1,
    "sh": 2,
    "duels": 5,
@@ -1479,7 +1482,7 @@
   },
   "1233": {
    "min": 67,
-   "rating": 5.95,
+   "rating": 5.96,
    "pass": 39,
    "touches": 53,
    "pass_pct": 79,
@@ -1493,7 +1496,7 @@
   },
   "37554466": {
    "min": 67,
-   "rating": 6.84,
+   "rating": 6.9,
    "pass": 66,
    "touches": 82,
    "pass_pct": 100,
@@ -1534,7 +1537,7 @@
    "name": "Eseosa Sule"
   },
   "37308442": {
-   "min": 1,
+   "min": 3,
    "side": "away",
    "name": "Samuel Ramos"
   },
@@ -1601,7 +1604,7 @@
   },
   "37260590": {
    "min": 67,
-   "rating": 6.6,
+   "rating": 6.58,
    "touches": 51,
    "pass": 29,
    "pass_pct": 97,
@@ -1632,7 +1635,7 @@
   "37529807": {
    "min": 67,
    "touches": 53,
-   "rating": 7.04,
+   "rating": 7.05,
    "pass": 42,
    "pass_pct": 95,
    "fouls": 1,
@@ -2023,7 +2026,28 @@
    "t": "Colby Donovan takes a right-footed shot but misses.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 73,
+   "x": null,
+   "t": "Yellow card shown to Alexandros Gogic.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 74,
+   "x": null,
+   "t": "On Samuel Ramos, off Kylian Joao Pedro Neves Filipe.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 75,
+   "x": null,
+   "t": "Corner awarded.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2348
+ "rate_remaining": 2340
 }
