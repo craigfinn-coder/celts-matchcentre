@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:32:15.070067+00:00",
+ "updated_at": "2026-11-21T16:32:47.891615+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -431,6 +431,42 @@
    "related": null,
    "result": "4-1",
    "info": "Penalty"
+  },
+  {
+   "id": 158726376,
+   "minute": 70,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "James Forrest",
+   "related": "Hyun-jun Yang",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 158726377,
+   "minute": 71,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Shumaira Mheuka",
+   "related": "Camilo Durán",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 158726378,
+   "minute": 71,
+   "extra": null,
+   "type": "Substitution",
+   "side": "home",
+   "team": "Celtic",
+   "player": "Auston Trusty",
+   "related": "Kieran Tierney",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -447,12 +483,12 @@
    "away": 8
   },
   "Attacks": {
-   "home": 72,
-   "away": 60
+   "home": 74,
+   "away": 61
   },
   "Dangerous Attacks": {
    "home": 51,
-   "away": 35
+   "away": 37
   },
   "Ball Possession %": {
    "home": 52,
@@ -1193,7 +1229,7 @@
  "player_stats": {
   "123659": {
    "min": 67,
-   "rating": 7.34,
+   "rating": 7.06,
    "touches": 69,
    "pass": 60,
    "int": 1,
@@ -1204,6 +1240,11 @@
    "clr": 4,
    "side": "home",
    "name": "Liam Scales"
+  },
+  "262280": {
+   "min": 1,
+   "side": "home",
+   "name": "Auston Trusty"
   },
   "163711": {
    "min": 61,
@@ -1222,7 +1263,7 @@
   },
   "37709508": {
    "min": 67,
-   "rating": 7.35,
+   "rating": 7.3,
    "pass": 16,
    "touches": 27,
    "pass_pct": 81,
@@ -1239,7 +1280,7 @@
   },
   "37563550": {
    "min": 67,
-   "rating": 7.25,
+   "rating": 7.16,
    "pass": 34,
    "touches": 47,
    "duels": 9,
@@ -1257,7 +1298,7 @@
    "touches": 54,
    "int": 1,
    "pass": 35,
-   "rating": 7.56,
+   "rating": 7.48,
    "sh": 4,
    "pass_pct": 82,
    "duels": 5,
@@ -1275,7 +1316,7 @@
    "min": 6,
    "pass": 2,
    "pass_pct": 50,
-   "rating": 6.55,
+   "rating": 6.52,
    "duels_t": 1,
    "duels": 1,
    "side": "home",
@@ -1283,7 +1324,7 @@
   },
   "1712": {
    "min": 67,
-   "rating": 7.15,
+   "rating": 6.92,
    "touches": 70,
    "pass_pct": 95,
    "pass": 61,
@@ -1314,7 +1355,7 @@
   },
   "1008": {
    "min": 67,
-   "rating": 6.66,
+   "rating": 6.28,
    "touches": 48,
    "pass": 39,
    "pass_pct": 92,
@@ -1325,6 +1366,11 @@
    "side": "home",
    "name": "Sam Johnstone"
   },
+  "37714106": {
+   "min": 1,
+   "side": "home",
+   "name": "Shumaira Mheuka"
+  },
   "37709264": {
    "min": 6,
    "tkl": 2,
@@ -1333,13 +1379,13 @@
    "duels_t": 3,
    "pass_pct": 100,
    "touches": 7,
-   "rating": 6.79,
+   "rating": 6.68,
    "side": "home",
    "name": "Joël van den Berg"
   },
   "8585": {
    "min": 67,
-   "rating": 7.4,
+   "rating": 7.33,
    "int": 2,
    "pass": 48,
    "touches": 59,
@@ -1353,9 +1399,14 @@
    "side": "home",
    "name": "Callum McGregor"
   },
+  "172104": {
+   "min": 2,
+   "side": "home",
+   "name": "James Forrest"
+  },
   "37732189": {
    "min": 67,
-   "rating": 7.07,
+   "rating": 6.85,
    "sot": 1,
    "sh": 1,
    "duels": 5,
@@ -1369,7 +1420,7 @@
   },
   "172960": {
    "min": 67,
-   "rating": 7.97,
+   "rating": 7.68,
    "touches": 49,
    "pass": 33,
    "pass_pct": 77,
@@ -1544,7 +1595,7 @@
   "37529807": {
    "min": 67,
    "touches": 53,
-   "rating": 7.14,
+   "rating": 7.04,
    "pass": 42,
    "pass_pct": 95,
    "fouls": 1,
@@ -1860,12 +1911,75 @@
    "key": true
   },
   {
+   "m": 65,
+   "x": null,
+   "t": "Jake Young is substituted off for Eseosa Sule.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 65,
+   "x": null,
+   "t": "Chris Mochrie replaces Luke Thomas.",
+   "goal": false,
+   "key": false
+  },
+  {
    "m": 66,
    "x": null,
    "t": "Corner awarded.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 67,
+   "x": null,
+   "t": "Shot by Kylian Joao Pedro Neves Filipe with a right-footed shot, but it's blocked.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 70,
+   "x": null,
+   "t": "Goal! The score is now 4-1.",
+   "goal": false,
+   "key": true
+  },
+  {
+   "m": 70,
+   "x": null,
+   "t": "Goal - Penalty - 基利安·Joao Pedro Neves Filipe斯 4-1",
+   "goal": true,
+   "key": true
+  },
+  {
+   "m": 70,
+   "x": null,
+   "t": "On comes James Forrest, off goes Jake Young.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 70,
+   "x": null,
+   "t": "Shot by Kylian Mbappé, Joao Pedro Neves Filipe scores with a right-footed shot.",
+   "goal": false,
+   "key": true
+  },
+  {
+   "m": 71,
+   "x": null,
+   "t": "Auston Trusty replaces Kieran Tierney.",
+   "goal": false,
+   "key": false
+  },
+  {
+   "m": 71,
+   "x": null,
+   "t": "On Shumaira Mheuka, off Camilo Duran.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2358
+ "rate_remaining": 2357
 }
