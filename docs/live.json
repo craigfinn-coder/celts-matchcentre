@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:45:45.062441+00:00",
+ "updated_at": "2026-11-21T16:46:15.037421+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 84,
+ "minute": 85,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -503,6 +503,30 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 158727418,
+   "minute": 84,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "St. Mirren",
+   "player": "Liam Donnelly",
+   "related": "Ryan Carr",
+   "result": null,
+   "info": null
+  },
+  {
+   "id": 158727419,
+   "minute": 84,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "St. Mirren",
+   "player": "Fraser Taylor",
+   "related": "Paul Nsio",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -2117,5 +2141,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2318
+ "rate_remaining": 2316
 }
