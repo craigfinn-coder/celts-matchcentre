@@ -744,13 +744,13 @@
    "team_id": 53,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/53.png",
    "pts": 34,
-   "p": 13,
-   "w": 10,
+   "p": 14,
+   "w": 11,
    "d": 1,
    "l": 2,
-   "gf": 28,
-   "ga": 10,
-   "gd": 18
+   "gf": 32,
+   "ga": 11,
+   "gd": 21
   },
   {
    "pos": 2,
@@ -772,13 +772,13 @@
    "team_id": 770,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/770.png",
    "pts": 24,
-   "p": 13,
-   "w": 6,
+   "p": 14,
+   "w": 7,
    "d": 3,
    "l": 4,
-   "gf": 20,
-   "ga": 14,
-   "gd": 6
+   "gf": 22,
+   "ga": 15,
+   "gd": 7
   },
   {
    "pos": 4,
@@ -786,13 +786,13 @@
    "team_id": 282,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/26/282.png",
    "pts": 20,
-   "p": 12,
-   "w": 4,
+   "p": 13,
+   "w": 5,
    "d": 5,
    "l": 3,
-   "gf": 17,
+   "gf": 21,
    "ga": 17,
-   "gd": 0
+   "gd": 4
   },
   {
    "pos": 5,
@@ -828,13 +828,13 @@
    "team_id": 734,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/734.png",
    "pts": 17,
-   "p": 13,
+   "p": 14,
    "w": 4,
    "d": 5,
-   "l": 4,
-   "gf": 17,
-   "ga": 20,
-   "gd": -3
+   "l": 5,
+   "gf": 18,
+   "ga": 22,
+   "gd": -4
   },
   {
    "pos": 8,
@@ -842,13 +842,13 @@
    "team_id": 273,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
    "pts": 14,
-   "p": 12,
-   "w": 3,
+   "p": 13,
+   "w": 4,
    "d": 2,
    "l": 7,
-   "gf": 12,
-   "ga": 18,
-   "gd": -6
+   "gf": 16,
+   "ga": 20,
+   "gd": -4
   },
   {
    "pos": 9,
@@ -856,13 +856,13 @@
    "team_id": 496,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
    "pts": 14,
-   "p": 13,
+   "p": 14,
    "w": 4,
    "d": 2,
-   "l": 7,
-   "gf": 12,
-   "ga": 22,
-   "gd": -10
+   "l": 8,
+   "gf": 13,
+   "ga": 26,
+   "gd": -13
   },
   {
    "pos": 10,
@@ -884,13 +884,13 @@
    "team_id": 66,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
    "pts": 11,
-   "p": 12,
+   "p": 13,
    "w": 3,
    "d": 2,
-   "l": 7,
+   "l": 8,
    "gf": 15,
-   "ga": 17,
-   "gd": -2
+   "ga": 21,
+   "gd": -6
   },
   {
    "pos": 12,
@@ -898,13 +898,13 @@
    "team_id": 180,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/20/180.png",
    "pts": 9,
-   "p": 13,
+   "p": 14,
    "w": 2,
    "d": 3,
-   "l": 8,
-   "gf": 13,
-   "ga": 29,
-   "gd": -16
+   "l": 9,
+   "gf": 15,
+   "ga": 33,
+   "gd": -18
   }
  ],
  "live_table": true,
