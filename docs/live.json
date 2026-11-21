@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:35:15.069472+00:00",
+ "updated_at": "2026-11-21T16:35:47.128594+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -479,6 +479,18 @@
    "related": null,
    "result": null,
    "info": "Foul"
+  },
+  {
+   "id": 158726617,
+   "minute": 74,
+   "extra": null,
+   "type": "Substitution",
+   "side": "away",
+   "team": "St. Mirren",
+   "player": "Samuel Ramos",
+   "related": "Killian Phillips",
+   "result": null,
+   "info": null
   }
  ],
  "stats": {
@@ -643,8 +655,8 @@
    "away": 57
   },
   "Tackles Won": {
-   "home": 15,
-   "away": 12
+   "home": 16,
+   "away": 11
   }
  },
  "next_fixtures": [
@@ -1258,7 +1270,7 @@
    "name": "Liam Scales"
   },
   "262280": {
-   "min": 3,
+   "min": 4,
    "pass_pct": 100,
    "side": "home",
    "name": "Auston Trusty"
@@ -1384,7 +1396,7 @@
    "name": "Sam Johnstone"
   },
   "37714106": {
-   "min": 3,
+   "min": 4,
    "pass_pct": 100,
    "side": "home",
    "name": "Shumaira Mheuka"
@@ -1418,7 +1430,7 @@
    "name": "Callum McGregor"
   },
   "172104": {
-   "min": 4,
+   "min": 5,
    "pass_pct": 100,
    "side": "home",
    "name": "James Forrest"
@@ -1427,7 +1439,7 @@
    "min": 67,
    "rating": 6.85,
    "sot": 1,
-   "sh": 1,
+   "sh": 2,
    "duels": 5,
    "duels_t": 7,
    "pass_pct": 90,
@@ -1520,6 +1532,11 @@
    "tkl": 1,
    "side": "away",
    "name": "Eseosa Sule"
+  },
+  "37308442": {
+   "min": 1,
+   "side": "away",
+   "name": "Samuel Ramos"
   },
   "9781": {
    "min": 67,
@@ -1999,7 +2016,14 @@
    "t": "On Shumaira Mheuka, off Camilo Duran.",
    "goal": false,
    "key": false
+  },
+  {
+   "m": 72,
+   "x": null,
+   "t": "Colby Donovan takes a right-footed shot but misses.",
+   "goal": false,
+   "key": false
   }
  ],
- "rate_remaining": 2349
+ "rate_remaining": 2348
 }
