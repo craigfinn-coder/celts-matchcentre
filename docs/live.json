@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T16:31:45.008592+00:00",
+ "updated_at": "2026-11-21T16:32:15.070067+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -312,7 +312,7 @@
  "lineups_confirmed": true,
  "state": "INPLAY_2ND_HALF",
  "state_name": "2nd Half",
- "minute": 70,
+ "minute": 71,
  "minute_estimated": false,
  "added_time": null,
  "score": {
@@ -427,7 +427,7 @@
    "type": "Penalty",
    "side": "away",
    "team": "St. Mirren",
-   "player": null,
+   "player": "Killian Phillips",
    "related": null,
    "result": "4-1",
    "info": "Penalty"
@@ -531,15 +531,15 @@
    "away": 0
   },
   "Passes": {
-   "home": 419,
+   "home": 420,
    "away": 395
   },
   "Successful Passes": {
-   "home": 375,
+   "home": 376,
    "away": 358
   },
   "Successful Passes Percentage": {
-   "home": 89,
+   "home": 90,
    "away": 91
   },
   "Shots On Target": {
@@ -1867,5 +1867,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2360
+ "rate_remaining": 2358
 }
