@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T15:53:44.996423+00:00",
+ "updated_at": "2026-11-21T16:04:15.016966+00:00",
  "live": true,
  "fixture": {
   "id": 19722745,
@@ -375,12 +375,12 @@
    "away": 4
   },
   "Attacks": {
-   "home": 45,
-   "away": 41
+   "home": 47,
+   "away": 42
   },
   "Dangerous Attacks": {
-   "home": 35,
-   "away": 24
+   "home": 41,
+   "away": 26
   },
   "Ball Possession %": {
    "home": 52,
@@ -435,7 +435,7 @@
    "away": 1
   },
   "Tackles": {
-   "home": 12,
+   "home": 13,
    "away": 10
   },
   "Assists": {
@@ -444,11 +444,11 @@
   },
   "Passes": {
    "home": 278,
-   "away": 257
+   "away": 258
   },
   "Successful Passes": {
    "home": 246,
-   "away": 231
+   "away": 232
   },
   "Successful Passes Percentage": {
    "home": 88,
@@ -468,22 +468,22 @@
   },
   "Interceptions": {
    "home": 6,
-   "away": 4
+   "away": 5
   },
   "Duels Won": {
-   "home": 30,
+   "home": 31,
    "away": 22
   },
   "Dribble Attempts": {
    "home": 16,
-   "away": 13
+   "away": 15
   },
   "Successful Dribbles": {
    "home": 9,
    "away": 7
   },
   "Key Passes": {
-   "home": 7,
+   "home": 8,
    "away": 1
   },
   "Big Chances Created": {
@@ -492,7 +492,7 @@
   },
   "Successful Dribbles Percentage": {
    "home": 56,
-   "away": 54
+   "away": 47
   },
   "Successful Long Passes": {
    "home": 10,
@@ -504,7 +504,7 @@
   },
   "Tackles Won": {
    "home": 10,
-   "away": 4
+   "away": 5
   }
  },
  "next_fixtures": [
@@ -1164,7 +1164,7 @@
   },
   "1548366": {
    "min": 50,
-   "touches": 39,
+   "touches": 38,
    "int": 2,
    "pass": 23,
    "rating": 7.44,
@@ -1251,13 +1251,13 @@
   },
   "172960": {
    "min": 50,
-   "rating": 7.75,
-   "touches": 32,
+   "rating": 7.77,
+   "touches": 33,
    "pass": 19,
    "pass_pct": 69,
-   "duels_t": 7,
-   "tkl": 2,
-   "duels": 5,
+   "duels_t": 8,
+   "tkl": 3,
+   "duels": 6,
    "bcc": 1,
    "a": 2,
    "sh": 1,
@@ -1291,23 +1291,23 @@
   },
   "37554466": {
    "min": 50,
-   "rating": 6.76,
-   "pass": 44,
-   "touches": 58,
+   "rating": 6.82,
+   "pass": 45,
+   "touches": 59,
    "pass_pct": 100,
-   "clr": 7,
-   "int": 1,
+   "clr": 6,
+   "int": 2,
    "side": "away",
    "name": "Louis Jackson"
   },
   "37631417": {
    "min": 50,
-   "rating": 6.41,
+   "rating": 6.26,
    "pass": 37,
    "pass_pct": 100,
    "clr": 2,
    "fouls": 1,
-   "duels_t": 4,
+   "duels_t": 5,
    "touches": 45,
    "duels": 1,
    "int": 1,
@@ -1328,13 +1328,13 @@
   },
   "9781": {
    "min": 50,
-   "rating": 6.53,
-   "touches": 40,
+   "rating": 6.51,
+   "touches": 39,
    "pass": 25,
    "pass_pct": 93,
    "duels_t": 6,
    "duels": 3,
-   "clr": 5,
+   "clr": 4,
    "fouls": 1,
    "tkl": 2,
    "int": 2,
@@ -1370,14 +1370,14 @@
   },
   "37260590": {
    "min": 50,
-   "rating": 6.15,
-   "touches": 34,
+   "rating": 6.24,
+   "touches": 35,
    "pass": 20,
    "pass_pct": 100,
    "duels_t": 8,
    "duels": 4,
    "tkl": 3,
-   "clr": 1,
+   "clr": 2,
    "side": "away",
    "name": "Calvin Ramsay"
   },
@@ -1643,5 +1643,5 @@
    "key": false
   }
  ],
- "rate_remaining": 2474
+ "rate_remaining": 2442
 }
