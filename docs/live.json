@@ -59,14 +59,14 @@
    "team": "Rangers",
    "team_id": 62,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 27,
-   "p": 12,
-   "w": 8,
+   "pts": 30,
+   "p": 13,
+   "w": 9,
    "d": 3,
    "l": 1,
-   "gf": 21,
-   "ga": 9,
-   "gd": 12
+   "gf": 23,
+   "ga": 10,
+   "gd": 13
   },
   {
    "pos": 3,
@@ -172,13 +172,13 @@
    "team_id": 309,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
    "pts": 13,
-   "p": 13,
+   "p": 14,
    "w": 3,
    "d": 4,
-   "l": 6,
-   "gf": 15,
-   "ga": 21,
-   "gd": -6
+   "l": 7,
+   "gf": 16,
+   "ga": 23,
+   "gd": -7
   },
   {
    "pos": 11,
@@ -355,7 +355,7 @@
     "type": "Leg Injury",
     "since": "2026-08-10",
     "until": null,
-    "missed": 19
+    "missed": 20
    }
   ]
  },
@@ -376,17 +376,17 @@
   },
   {
    "pos": 3,
-   "player": "Cláudio Braga",
-   "team": "Hearts",
-   "team_id": 314,
+   "player": "Ryan Naderi",
+   "team": "Rangers",
+   "team_id": 62,
    "goals": 7
   },
   {
    "pos": 4,
-   "player": "Ryan Naderi",
-   "team": "Rangers",
-   "team_id": 62,
-   "goals": 6
+   "player": "Cláudio Braga",
+   "team": "Hearts",
+   "team_id": 314,
+   "goals": 7
   },
   {
    "pos": 5,
@@ -2161,5 +2161,5 @@
    }
   ]
  },
- "updated_at": "2026-11-21T21:20:51.933726+00:00"
+ "updated_at": "2026-11-22T01:48:16.610116+00:00"
 }
