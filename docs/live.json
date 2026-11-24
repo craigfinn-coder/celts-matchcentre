@@ -376,17 +376,17 @@
   },
   {
    "pos": 3,
-   "player": "Ryan Naderi",
-   "team": "Rangers",
-   "team_id": 62,
-   "goals": 7
-  },
-  {
-   "pos": 4,
    "player": "Cláudio Braga",
    "team": "Hearts",
    "team_id": 314,
    "goals": 7
+  },
+  {
+   "pos": 4,
+   "player": "Ryan Naderi",
+   "team": "Rangers",
+   "team_id": 62,
+   "goals": 6
   },
   {
    "pos": 5,
@@ -469,37 +469,37 @@
   },
   {
    "pos": 6,
-   "player": "Djeidi Gassama",
-   "team": "Rangers",
-   "team_id": 62,
-   "assists": 3
-  },
-  {
-   "pos": 7,
-   "player": "Jesse Randall",
-   "team": "Dundee United",
-   "team_id": 282,
-   "assists": 3
-  },
-  {
-   "pos": 8,
-   "player": "Kasper Høgh",
-   "team": "Celtic",
-   "team_id": 53,
-   "assists": 3
-  },
-  {
-   "pos": 9,
    "player": "Ryan Naderi",
    "team": "Rangers",
    "team_id": 62,
    "assists": 3
   },
   {
-   "pos": 10,
-   "player": "Benjamin Nygren",
+   "pos": 7,
+   "player": "Owen Eames",
+   "team": "Falkirk",
+   "team_id": 770,
+   "assists": 3
+  },
+  {
+   "pos": 8,
+   "player": "Lyall Cameron",
+   "team": "Dundee United",
+   "team_id": 282,
+   "assists": 3
+  },
+  {
+   "pos": 9,
+   "player": "Kasper Høgh",
    "team": "Celtic",
    "team_id": 53,
+   "assists": 3
+  },
+  {
+   "pos": 10,
+   "player": "Sabah Kerjota",
+   "team": "Hearts",
+   "team_id": 314,
    "assists": 3
   }
  ],
@@ -507,6 +507,10 @@
   "coaches": {
    "away": "Martin O'Neill",
    "home": "João Nuno"
+  },
+  "weather": {
+   "temp_c": 16,
+   "desc": "overcast clouds"
   },
   "tv": [
    "TNT Sports 3",
@@ -776,11 +780,11 @@
    },
    "Shots Insidebox": {
     "home": 10,
-    "away": 9
+    "away": 8
    },
    "Shots Outsidebox": {
     "home": 9,
-    "away": 4
+    "away": 5
    },
    "Offsides": {
     "home": 5,
@@ -823,7 +827,7 @@
     "away": 9
    },
    "Long Passes": {
-    "home": 27,
+    "home": 26,
     "away": 31
    },
    "Successful Headers": {
@@ -839,12 +843,12 @@
     "away": 0
    },
    "Passes": {
-    "home": 540,
-    "away": 540
+    "home": 545,
+    "away": 544
    },
    "Successful Passes": {
-    "home": 474,
-    "away": 482
+    "home": 481,
+    "away": 484
    },
    "Successful Passes Percentage": {
     "home": 88,
@@ -860,7 +864,7 @@
    },
    "Total Crosses": {
     "home": 17,
-    "away": 17
+    "away": 16
    },
    "Accurate Crosses": {
     "home": 3,
@@ -868,19 +872,19 @@
    },
    "Interceptions": {
     "home": 9,
-    "away": 10
+    "away": 7
    },
    "Duels Won": {
     "home": 56,
     "away": 50
    },
    "Dribble Attempts": {
-    "home": 23,
-    "away": 26
+    "home": 20,
+    "away": 25
    },
    "Successful Dribbles": {
-    "home": 14,
-    "away": 14
+    "home": 13,
+    "away": 13
    },
    "Key Passes": {
     "home": 10,
@@ -895,15 +899,15 @@
     "away": 1
    },
    "Successful Dribbles Percentage": {
-    "home": 61,
-    "away": 54
+    "home": 65,
+    "away": 52
    },
    "Successful Long Passes": {
-    "home": 13,
+    "home": 14,
     "away": 16
    },
    "Successful Long Passes Percentage": {
-    "home": 48,
+    "home": 54,
     "away": 52
    },
    "Tackles Won": {
@@ -1213,13 +1217,13 @@
     "min": 90,
     "rating": 7.25,
     "touches": 93,
-    "pass": 75,
+    "pass": 77,
     "int": 2,
     "pass_pct": 95,
     "tkl": 1,
     "duels": 3,
     "duels_t": 4,
-    "clr": 6,
+    "clr": 4,
     "side": "home",
     "name": "Liam Scales"
    },
@@ -1285,14 +1289,14 @@
    },
    "1548366": {
     "min": 90,
-    "touches": 70,
+    "touches": 69,
     "int": 2,
-    "pass": 48,
+    "pass": 47,
     "rating": 7.36,
     "sh": 4,
     "pass_pct": 79,
     "duels": 5,
-    "duels_t": 12,
+    "duels_t": 13,
     "fouls": 2,
     "kp": 1,
     "g": 1,
@@ -1304,13 +1308,13 @@
     "name": "Luke McCowan"
    },
    "37598290": {
-    "touches": 23,
+    "touches": 22,
     "min": 29,
     "pass": 12,
     "pass_pct": 75,
     "rating": 6.73,
-    "duels_t": 6,
-    "duels": 3,
+    "duels_t": 5,
+    "duels": 2,
     "sh": 1,
     "sot": 1,
     "clr": 1,
@@ -1320,7 +1324,7 @@
    "1712": {
     "min": 90,
     "rating": 7.28,
-    "touches": 89,
+    "touches": 90,
     "pass_pct": 95,
     "pass": 74,
     "duels_t": 7,
@@ -1335,10 +1339,10 @@
    "850": {
     "min": 61,
     "touches": 43,
-    "pass": 32,
+    "pass": 33,
     "rating": 7.53,
     "pass_pct": 91,
-    "duels_t": 5,
+    "duels_t": 4,
     "duels": 2,
     "g": 1,
     "sh": 2,
@@ -1351,8 +1355,8 @@
    "1008": {
     "min": 90,
     "rating": 6.88,
-    "touches": 62,
-    "pass": 49,
+    "touches": 63,
+    "pass": 50,
     "pass_pct": 86,
     "clr": 1,
     "saves": 4,
@@ -1435,10 +1439,10 @@
    "172960": {
     "min": 71,
     "rating": 7.68,
-    "touches": 49,
-    "pass": 33,
+    "touches": 51,
+    "pass": 35,
     "pass_pct": 73,
-    "duels_t": 9,
+    "duels_t": 8,
     "tkl": 3,
     "duels": 6,
     "bcc": 1,
@@ -1481,7 +1485,7 @@
     "pass": 8,
     "tkl": 1,
     "duels": 2,
-    "duels_t": 3,
+    "duels_t": 2,
     "rating": 6.5,
     "side": "away",
     "name": "Liam Donnelly"
@@ -1492,8 +1496,8 @@
     "pass": 89,
     "touches": 111,
     "pass_pct": 99,
-    "clr": 8,
-    "int": 2,
+    "clr": 9,
+    "int": 1,
     "tkl": 2,
     "duels": 3,
     "duels_t": 3,
@@ -1503,15 +1507,15 @@
    "37631417": {
     "min": 84,
     "rating": 6.33,
-    "pass": 62,
+    "pass": 63,
     "pass_pct": 98,
-    "clr": 2,
+    "clr": 1,
     "fouls": 1,
-    "duels_t": 14,
-    "touches": 83,
-    "duels": 6,
+    "duels_t": 13,
+    "touches": 82,
+    "duels": 5,
     "int": 2,
-    "tkl": 3,
+    "tkl": 2,
     "side": "away",
     "name": "Ryan Carr"
    },
@@ -1531,7 +1535,7 @@
    "37308442": {
     "min": 16,
     "pass_pct": 82,
-    "touches": 19,
+    "touches": 18,
     "duels_t": 4,
     "sh": 3,
     "duels": 2,
@@ -1546,14 +1550,14 @@
     "min": 90,
     "rating": 6.6,
     "touches": 93,
-    "pass": 65,
+    "pass": 67,
     "pass_pct": 89,
     "duels_t": 9,
     "duels": 4,
     "clr": 10,
     "fouls": 2,
     "tkl": 3,
-    "int": 5,
+    "int": 3,
     "sh": 1,
     "yc": 1,
     "side": "away",
@@ -1575,7 +1579,7 @@
    "37649368": {
     "min": 90,
     "rating": 6.81,
-    "pass": 32,
+    "pass": 33,
     "duels_t": 14,
     "fouls": 1,
     "touches": 55,
@@ -1623,11 +1627,11 @@
    "37260590": {
     "min": 90,
     "rating": 6.55,
-    "touches": 67,
+    "touches": 66,
     "pass": 38,
     "pass_pct": 92,
-    "duels_t": 16,
-    "duels": 9,
+    "duels_t": 15,
+    "duels": 8,
     "tkl": 6,
     "clr": 3,
     "fouls": 1,
@@ -1637,8 +1641,8 @@
    },
    "37654354": {
     "min": 84,
-    "pass": 40,
-    "touches": 56,
+    "pass": 39,
+    "touches": 55,
     "rating": 6.89,
     "duels_t": 12,
     "duels": 7,
@@ -1656,14 +1660,16 @@
     "min": 74,
     "touches": 54,
     "rating": 6.84,
-    "pass": 42,
+    "pass": 43,
     "pass_pct": 95,
     "fouls": 2,
-    "duels_t": 4,
+    "duels_t": 5,
     "sh": 3,
-    "kp": 1,
+    "kp": 2,
     "g": 1,
     "sot": 1,
+    "duels": 1,
+    "tkl": 1,
     "side": "away",
     "name": "Killian Phillips"
    }
@@ -2161,5 +2167,5 @@
    }
   ]
  },
- "updated_at": "2026-11-22T17:29:57.653870+00:00"
+ "updated_at": "2026-11-24T01:23:35.853002+00:00"
 }
