@@ -1215,7 +1215,7 @@
   "player_stats": {
    "123659": {
     "min": 90,
-    "rating": 7.25,
+    "rating": 7.21,
     "touches": 93,
     "pass": 77,
     "int": 2,
@@ -1257,7 +1257,7 @@
    },
    "37709508": {
     "min": 71,
-    "rating": 7.27,
+    "rating": 7.3,
     "pass": 16,
     "touches": 27,
     "pass_pct": 81,
@@ -1292,7 +1292,7 @@
     "touches": 69,
     "int": 2,
     "pass": 47,
-    "rating": 7.36,
+    "rating": 7.24,
     "sh": 4,
     "pass_pct": 79,
     "duels": 5,
@@ -1312,7 +1312,7 @@
     "min": 29,
     "pass": 12,
     "pass_pct": 75,
-    "rating": 6.73,
+    "rating": 6.62,
     "duels_t": 5,
     "duels": 2,
     "sh": 1,
@@ -1323,7 +1323,7 @@
    },
    "1712": {
     "min": 90,
-    "rating": 7.28,
+    "rating": 7.27,
     "touches": 90,
     "pass_pct": 95,
     "pass": 74,
@@ -1340,7 +1340,7 @@
     "min": 61,
     "touches": 43,
     "pass": 33,
-    "rating": 7.53,
+    "rating": 7.65,
     "pass_pct": 91,
     "duels_t": 4,
     "duels": 2,
@@ -1396,7 +1396,7 @@
    },
    "8585": {
     "min": 90,
-    "rating": 7.16,
+    "rating": 7.21,
     "int": 2,
     "pass": 59,
     "touches": 74,
@@ -1438,7 +1438,7 @@
    },
    "172960": {
     "min": 71,
-    "rating": 7.68,
+    "rating": 7.7,
     "touches": 51,
     "pass": 35,
     "pass_pct": 73,
@@ -1486,13 +1486,13 @@
     "tkl": 1,
     "duels": 2,
     "duels_t": 2,
-    "rating": 6.5,
+    "rating": 6.53,
     "side": "away",
     "name": "Liam Donnelly"
    },
    "37554466": {
     "min": 90,
-    "rating": 7.34,
+    "rating": 7.28,
     "pass": 89,
     "touches": 111,
     "pass_pct": 99,
@@ -1506,7 +1506,7 @@
    },
    "37631417": {
     "min": 84,
-    "rating": 6.33,
+    "rating": 6.28,
     "pass": 63,
     "pass_pct": 98,
     "clr": 1,
@@ -1548,7 +1548,7 @@
    },
    "9781": {
     "min": 90,
-    "rating": 6.6,
+    "rating": 6.5,
     "touches": 93,
     "pass": 67,
     "pass_pct": 89,
@@ -1578,7 +1578,7 @@
    },
    "37649368": {
     "min": 90,
-    "rating": 6.81,
+    "rating": 6.82,
     "pass": 33,
     "duels_t": 14,
     "fouls": 1,
@@ -1626,7 +1626,7 @@
    },
    "37260590": {
     "min": 90,
-    "rating": 6.55,
+    "rating": 6.46,
     "touches": 66,
     "pass": 38,
     "pass_pct": 92,
@@ -1643,7 +1643,7 @@
     "min": 84,
     "pass": 39,
     "touches": 55,
-    "rating": 6.89,
+    "rating": 6.88,
     "duels_t": 12,
     "duels": 7,
     "pass_pct": 78,
@@ -1659,7 +1659,7 @@
    "37529807": {
     "min": 74,
     "touches": 54,
-    "rating": 6.84,
+    "rating": 7.0,
     "pass": 43,
     "pass_pct": 95,
     "fouls": 2,
@@ -2167,5 +2167,5 @@
    }
   ]
  },
- "updated_at": "2026-11-24T01:23:35.853002+00:00"
+ "updated_at": "2026-11-24T11:49:52.804370+00:00"
 }
