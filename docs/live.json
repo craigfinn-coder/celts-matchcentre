@@ -130,13 +130,13 @@
    "team_id": 284,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/28/284.png",
    "pts": 17,
-   "p": 13,
+   "p": 14,
    "w": 5,
    "d": 2,
-   "l": 6,
-   "gf": 18,
-   "ga": 23,
-   "gd": -5
+   "l": 7,
+   "gf": 19,
+   "ga": 25,
+   "gd": -6
   },
   {
    "pos": 8,
@@ -154,6 +154,20 @@
   },
   {
    "pos": 9,
+   "team": "Hibernian",
+   "team_id": 66,
+   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
+   "pts": 14,
+   "p": 14,
+   "w": 4,
+   "d": 2,
+   "l": 8,
+   "gf": 17,
+   "ga": 22,
+   "gd": -5
+  },
+  {
+   "pos": 10,
    "team": "St. Mirren",
    "team_id": 496,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/16/496.png",
@@ -167,7 +181,7 @@
    "gd": -13
   },
   {
-   "pos": 10,
+   "pos": 11,
    "team": "Motherwell",
    "team_id": 309,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/21/309.png",
@@ -179,20 +193,6 @@
    "gf": 16,
    "ga": 23,
    "gd": -7
-  },
-  {
-   "pos": 11,
-   "team": "Hibernian",
-   "team_id": 66,
-   "logo": "https://cdn.sportmonks.com/images/soccer/teams/2/66.png",
-   "pts": 11,
-   "p": 13,
-   "w": 3,
-   "d": 2,
-   "l": 8,
-   "gf": 15,
-   "ga": 21,
-   "gd": -6
   },
   {
    "pos": 12,
@@ -376,17 +376,17 @@
   },
   {
    "pos": 3,
-   "player": "Cláudio Braga",
-   "team": "Hearts",
-   "team_id": 314,
+   "player": "Ryan Naderi",
+   "team": "Rangers",
+   "team_id": 62,
    "goals": 7
   },
   {
    "pos": 4,
-   "player": "Ryan Naderi",
-   "team": "Rangers",
-   "team_id": 62,
-   "goals": 6
+   "player": "Cláudio Braga",
+   "team": "Hearts",
+   "team_id": 314,
+   "goals": 7
   },
   {
    "pos": 5,
@@ -462,24 +462,24 @@
   },
   {
    "pos": 5,
+   "player": "Djeidi Gassama",
+   "team": "Rangers",
+   "team_id": 62,
+   "assists": 4
+  },
+  {
+   "pos": 6,
    "player": "Enes Alic",
    "team": "St. Johnstone",
    "team_id": 734,
    "assists": 4
   },
   {
-   "pos": 6,
+   "pos": 7,
    "player": "Ryan Naderi",
    "team": "Rangers",
    "team_id": 62,
-   "assists": 3
-  },
-  {
-   "pos": 7,
-   "player": "Owen Eames",
-   "team": "Falkirk",
-   "team_id": 770,
-   "assists": 3
+   "assists": 4
   },
   {
    "pos": 8,
@@ -490,20 +490,21 @@
   },
   {
    "pos": 9,
-   "player": "Kasper Høgh",
-   "team": "Celtic",
-   "team_id": 53,
-   "assists": 3
-  },
-  {
-   "pos": 10,
    "player": "Sabah Kerjota",
    "team": "Hearts",
    "team_id": 314,
    "assists": 3
+  },
+  {
+   "pos": 10,
+   "player": "Kasper Høgh",
+   "team": "Celtic",
+   "team_id": 53,
+   "assists": 3
   }
  ],
  "info": {
+  "referee": "Allard Lindhout",
   "coaches": {
    "away": "Martin O'Neill",
    "home": "João Nuno"
@@ -875,8 +876,8 @@
     "away": 7
    },
    "Duels Won": {
-    "home": 56,
-    "away": 50
+    "home": 55,
+    "away": 49
    },
    "Dribble Attempts": {
     "home": 20,
@@ -1215,7 +1216,7 @@
   "player_stats": {
    "123659": {
     "min": 90,
-    "rating": 7.21,
+    "rating": 7.22,
     "touches": 93,
     "pass": 77,
     "int": 2,
@@ -1292,9 +1293,9 @@
     "touches": 69,
     "int": 2,
     "pass": 47,
-    "rating": 7.24,
+    "rating": 7.26,
     "sh": 4,
-    "pass_pct": 79,
+    "pass_pct": 81,
     "duels": 5,
     "duels_t": 13,
     "fouls": 2,
@@ -1340,7 +1341,7 @@
     "min": 61,
     "touches": 43,
     "pass": 33,
-    "rating": 7.65,
+    "rating": 7.66,
     "pass_pct": 91,
     "duels_t": 4,
     "duels": 2,
@@ -1367,7 +1368,7 @@
    },
    "37714106": {
     "min": 19,
-    "pass_pct": 86,
+    "pass_pct": 100,
     "rating": 6.61,
     "pass": 6,
     "duels": 2,
@@ -1386,7 +1387,7 @@
     "duels_t": 9,
     "pass_pct": 88,
     "touches": 32,
-    "rating": 7.05,
+    "rating": 7.04,
     "clr": 2,
     "fouls": 1,
     "kp": 1,
@@ -1396,7 +1397,7 @@
    },
    "8585": {
     "min": 90,
-    "rating": 7.21,
+    "rating": 7.22,
     "int": 2,
     "pass": 59,
     "touches": 74,
@@ -1423,7 +1424,7 @@
    },
    "37732189": {
     "min": 90,
-    "rating": 6.88,
+    "rating": 6.87,
     "sot": 1,
     "sh": 2,
     "duels": 5,
@@ -1441,7 +1442,7 @@
     "rating": 7.7,
     "touches": 51,
     "pass": 35,
-    "pass_pct": 73,
+    "pass_pct": 77,
     "duels_t": 8,
     "tkl": 3,
     "duels": 6,
@@ -1481,18 +1482,18 @@
    "7160": {
     "touches": 12,
     "min": 6,
-    "pass_pct": 86,
+    "pass_pct": 75,
     "pass": 8,
     "tkl": 1,
     "duels": 2,
     "duels_t": 2,
-    "rating": 6.53,
+    "rating": 6.54,
     "side": "away",
     "name": "Liam Donnelly"
    },
    "37554466": {
     "min": 90,
-    "rating": 7.28,
+    "rating": 7.29,
     "pass": 89,
     "touches": 111,
     "pass_pct": 99,
@@ -1506,9 +1507,9 @@
    },
    "37631417": {
     "min": 84,
-    "rating": 6.28,
+    "rating": 6.27,
     "pass": 63,
-    "pass_pct": 98,
+    "pass_pct": 95,
     "clr": 1,
     "fouls": 1,
     "duels_t": 13,
@@ -1551,7 +1552,7 @@
     "rating": 6.5,
     "touches": 93,
     "pass": 67,
-    "pass_pct": 89,
+    "pass_pct": 90,
     "duels_t": 9,
     "duels": 4,
     "clr": 10,
@@ -1565,7 +1566,7 @@
    },
    "15494": {
     "min": 65,
-    "rating": 6.47,
+    "rating": 6.41,
     "pass": 28,
     "touches": 42,
     "pass_pct": 82,
@@ -1578,7 +1579,7 @@
    },
    "37649368": {
     "min": 90,
-    "rating": 6.82,
+    "rating": 6.83,
     "pass": 33,
     "duels_t": 14,
     "fouls": 1,
@@ -1599,7 +1600,7 @@
     "touches": 10,
     "duels": 1,
     "duels_t": 3,
-    "pass_pct": 63,
+    "pass_pct": 71,
     "rating": 6.45,
     "side": "away",
     "name": "Jake Young"
@@ -1616,7 +1617,7 @@
     "name": "Chris Mochrie"
    },
    "37580336": {
-    "pass_pct": 88,
+    "pass_pct": 87,
     "rating": 6.54,
     "min": 6,
     "pass": 16,
@@ -1643,10 +1644,10 @@
     "min": 84,
     "pass": 39,
     "touches": 55,
-    "rating": 6.88,
+    "rating": 6.87,
     "duels_t": 12,
     "duels": 7,
-    "pass_pct": 78,
+    "pass_pct": 79,
     "clr": 1,
     "tkl": 2,
     "fouls": 3,
@@ -1659,9 +1660,9 @@
    "37529807": {
     "min": 74,
     "touches": 54,
-    "rating": 7.0,
+    "rating": 7.04,
     "pass": 43,
-    "pass_pct": 95,
+    "pass_pct": 93,
     "fouls": 2,
     "duels_t": 5,
     "sh": 3,
@@ -2167,5 +2168,5 @@
    }
   ]
  },
- "updated_at": "2026-11-24T11:49:52.804370+00:00"
+ "updated_at": "2026-11-24T21:44:19.889992+00:00"
 }
