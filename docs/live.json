@@ -59,14 +59,14 @@
    "team": "Rangers",
    "team_id": 62,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/30/62.png",
-   "pts": 30,
-   "p": 13,
-   "w": 9,
+   "pts": 33,
+   "p": 14,
+   "w": 10,
    "d": 3,
    "l": 1,
-   "gf": 23,
-   "ga": 10,
-   "gd": 13
+   "gf": 26,
+   "ga": 12,
+   "gd": 14
   },
   {
    "pos": 3,
@@ -144,13 +144,13 @@
    "team_id": 273,
    "logo": "https://cdn.sportmonks.com/images/soccer/teams/17/273.png",
    "pts": 14,
-   "p": 13,
+   "p": 14,
    "w": 4,
    "d": 2,
-   "l": 7,
-   "gf": 16,
-   "ga": 20,
-   "gd": -4
+   "l": 8,
+   "gf": 18,
+   "ga": 23,
+   "gd": -5
   },
   {
    "pos": 9,
@@ -1216,7 +1216,7 @@
   "player_stats": {
    "123659": {
     "min": 90,
-    "rating": 7.22,
+    "rating": 7.2,
     "touches": 93,
     "pass": 77,
     "int": 2,
@@ -1293,7 +1293,7 @@
     "touches": 69,
     "int": 2,
     "pass": 47,
-    "rating": 7.26,
+    "rating": 7.29,
     "sh": 4,
     "pass_pct": 81,
     "duels": 5,
@@ -1341,7 +1341,7 @@
     "min": 61,
     "touches": 43,
     "pass": 33,
-    "rating": 7.66,
+    "rating": 7.68,
     "pass_pct": 91,
     "duels_t": 4,
     "duels": 2,
@@ -1355,7 +1355,7 @@
    },
    "1008": {
     "min": 90,
-    "rating": 6.88,
+    "rating": 6.87,
     "touches": 63,
     "pass": 50,
     "pass_pct": 86,
@@ -1387,7 +1387,7 @@
     "duels_t": 9,
     "pass_pct": 88,
     "touches": 32,
-    "rating": 7.04,
+    "rating": 7.01,
     "clr": 2,
     "fouls": 1,
     "kp": 1,
@@ -1439,7 +1439,7 @@
    },
    "172960": {
     "min": 71,
-    "rating": 7.7,
+    "rating": 7.71,
     "touches": 51,
     "pass": 35,
     "pass_pct": 77,
@@ -1456,7 +1456,7 @@
    },
    "20692499": {
     "min": 90,
-    "rating": 6.14,
+    "rating": 6.15,
     "touches": 45,
     "pass": 34,
     "saves": 3,
@@ -1467,7 +1467,7 @@
    },
    "1233": {
     "min": 90,
-    "rating": 6.02,
+    "rating": 6.05,
     "pass": 49,
     "touches": 67,
     "pass_pct": 82,
@@ -1493,7 +1493,7 @@
    },
    "37554466": {
     "min": 90,
-    "rating": 7.29,
+    "rating": 7.31,
     "pass": 89,
     "touches": 111,
     "pass_pct": 99,
@@ -1507,7 +1507,7 @@
    },
    "37631417": {
     "min": 84,
-    "rating": 6.27,
+    "rating": 6.24,
     "pass": 63,
     "pass_pct": 95,
     "clr": 1,
@@ -1543,7 +1543,7 @@
     "pass": 11,
     "sot": 1,
     "kp": 1,
-    "rating": 6.99,
+    "rating": 6.95,
     "side": "away",
     "name": "Samuel Ramos"
    },
@@ -1601,7 +1601,7 @@
     "duels": 1,
     "duels_t": 3,
     "pass_pct": 71,
-    "rating": 6.45,
+    "rating": 6.44,
     "side": "away",
     "name": "Jake Young"
    },
@@ -1618,7 +1618,7 @@
    },
    "37580336": {
     "pass_pct": 87,
-    "rating": 6.54,
+    "rating": 6.5,
     "min": 6,
     "pass": 16,
     "touches": 16,
@@ -1660,7 +1660,7 @@
    "37529807": {
     "min": 74,
     "touches": 54,
-    "rating": 7.04,
+    "rating": 7.01,
     "pass": 43,
     "pass_pct": 93,
     "fouls": 2,
@@ -2168,5 +2168,5 @@
    }
   ]
  },
- "updated_at": "2026-11-24T21:44:19.889992+00:00"
+ "updated_at": "2026-11-25T04:42:30.677960+00:00"
 }
