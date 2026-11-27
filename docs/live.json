@@ -424,18 +424,18 @@
     "missed": 5
    },
    {
-    "player": "Malachi Fagan-Walcott",
-    "type": "Groin Injury",
-    "since": "2026-11-08",
-    "until": "2027-01-04",
-    "missed": 3
-   },
-   {
     "player": "Craig Halkett",
     "type": "No Eligibility",
     "since": "2026-09-03",
     "until": "2026-12-18",
     "missed": 16
+   },
+   {
+    "player": "Malachi Fagan-Walcott",
+    "type": "Groin Injury",
+    "since": "2026-11-08",
+    "until": "2027-01-04",
+    "missed": 3
    },
    {
     "player": "Craig Halkett",
@@ -459,18 +459,18 @@
     "missed": 4
    },
    {
-    "player": "Tom Renaud",
+    "player": "Amadou Ba-Sy",
     "type": "No Eligibility",
     "since": "2026-09-03",
     "until": "2026-12-18",
     "missed": 16
    },
    {
-    "player": "Amadou Ba-Sy",
-    "type": "No Eligibility",
-    "since": "2026-09-03",
-    "until": "2026-12-18",
-    "missed": 16
+    "player": "Oisin McEntee",
+    "type": "Calf Problems",
+    "since": "2026-10-18",
+    "until": null,
+    "missed": 9
    }
   ],
   "away": [
@@ -993,7 +993,7 @@
     "away": 0
    },
    "Successful Headers": {
-    "home": 7,
+    "home": 8,
     "away": 9
    },
    "Tackles": {
@@ -1755,7 +1755,7 @@
    "37543798": {
     "pass_pct": 60,
     "pass": 10,
-    "rating": 6.75,
+    "rating": 6.67,
     "min": 90,
     "duels": 6,
     "duels_t": 12,
@@ -2696,5 +2696,5 @@
    }
   ]
  },
- "updated_at": "2026-11-27T10:19:03.313623+00:00"
+ "updated_at": "2026-11-27T19:43:50.374089+00:00"
 }
