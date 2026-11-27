@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:03:15+00:00",
+ "updated": "2026-11-27T01:03:54+00:00",
  "team_id": 53,
  "season": "2026/2027",
  "competitions": [
@@ -107,9 +107,10 @@
      "league": "Europa League",
      "league_id": 5,
      "season": "2026/2027",
-     "sub_apps": 3,
-     "minutes": 150,
-     "apps": 3,
+     "sub_apps": 4,
+     "assists": 1,
+     "minutes": 166,
+     "apps": 4,
      "starts": 2
     },
     {
@@ -131,9 +132,10 @@
     }
    ],
    "total": {
-    "sub_apps": 16,
-    "minutes": 435,
-    "apps": 16,
+    "sub_apps": 17,
+    "assists": 1,
+    "minutes": 451,
+    "apps": 17,
     "starts": 2,
     "yellows": 1
    }
@@ -243,9 +245,9 @@
      "league": "Europa League",
      "league_id": 5,
      "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 168,
-     "apps": 2,
+     "sub_apps": 2,
+     "minutes": 213,
+     "apps": 3,
      "starts": 2
     },
     {
@@ -269,9 +271,9 @@
     }
    ],
    "total": {
-    "sub_apps": 3,
-    "minutes": 1356,
-    "apps": 16,
+    "sub_apps": 4,
+    "minutes": 1401,
+    "apps": 17,
     "starts": 15,
     "yellows": 2
    }
@@ -335,11 +337,11 @@
      "league": "Europa League",
      "league_id": 5,
      "season": "2026/2027",
-     "goals": 3,
-     "sub_apps": 2,
+     "goals": 4,
+     "sub_apps": 3,
      "yellows": 1,
-     "minutes": 289,
-     "apps": 4,
+     "minutes": 320,
+     "apps": 5,
      "starts": 3
     },
     {
@@ -365,10 +367,10 @@
     }
    ],
    "total": {
-    "goals": 14,
-    "sub_apps": 17,
-    "minutes": 1633,
-    "apps": 22,
+    "goals": 15,
+    "sub_apps": 18,
+    "minutes": 1664,
+    "apps": 23,
     "starts": 20,
     "yellows": 1,
     "assists": 6
@@ -457,10 +459,10 @@
      "league": "Europa League",
      "league_id": 5,
      "season": "2026/2027",
-     "sub_apps": 4,
-     "minutes": 184,
-     "apps": 4,
-     "starts": 2
+     "sub_apps": 5,
+     "minutes": 243,
+     "apps": 5,
+     "starts": 3
     },
     {
      "league": "Premiership",
@@ -485,10 +487,10 @@
     }
    ],
    "total": {
-    "minutes": 1136,
-    "apps": 18,
-    "starts": 13,
-    "sub_apps": 15,
+    "minutes": 1195,
+    "apps": 19,
+    "starts": 14,
+    "sub_apps": 16,
     "goals": 3,
     "assists": 3,
     "yellows": 2
@@ -516,6 +518,15 @@
      "starts": 2
     },
     {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "minutes": 82,
+     "apps": 1,
+     "starts": 1
+    },
+    {
      "league": "Premiership",
      "league_id": 501,
      "season": "2026/2027",
@@ -528,11 +539,11 @@
     }
    ],
    "total": {
-    "sub_apps": 9,
+    "sub_apps": 10,
     "assists": 1,
-    "minutes": 631,
-    "apps": 9,
-    "starts": 8,
+    "minutes": 713,
+    "apps": 10,
+    "starts": 9,
     "goals": 2,
     "yellows": 1
    }
@@ -561,9 +572,9 @@
      "league_id": 5,
      "season": "2026/2027",
      "yellows": 1,
-     "minutes": 270,
-     "apps": 3,
-     "starts": 3
+     "minutes": 360,
+     "apps": 4,
+     "starts": 4
     },
     {
      "league": "Premiership",
@@ -589,10 +600,10 @@
    ],
    "total": {
     "sub_apps": 4,
-    "minutes": 1589,
-    "apps": 19,
+    "minutes": 1679,
+    "apps": 20,
     "yellows": 3,
-    "starts": 17,
+    "starts": 18,
     "penalties": 0,
     "goals": 3,
     "assists": 1
@@ -678,9 +689,9 @@
      "league_id": 5,
      "season": "2026/2027",
      "assists": 1,
-     "minutes": 360,
-     "apps": 4,
-     "starts": 4
+     "minutes": 450,
+     "apps": 5,
+     "starts": 5
     },
     {
      "league": "Premiership",
@@ -704,9 +715,9 @@
    ],
    "total": {
     "goals": 2,
-    "minutes": 1890,
-    "apps": 21,
-    "starts": 21,
+    "minutes": 1980,
+    "apps": 22,
+    "starts": 22,
     "assists": 1,
     "sub_apps": 1,
     "yellows": 1
@@ -893,9 +904,9 @@
      "season": "2026/2027",
      "sub_apps": 3,
      "yellows": 1,
-     "minutes": 276,
-     "apps": 4,
-     "starts": 3
+     "minutes": 366,
+     "apps": 5,
+     "starts": 4
     },
     {
      "league": "Premiership",
@@ -919,9 +930,9 @@
    ],
    "total": {
     "sub_apps": 9,
-    "minutes": 1703,
-    "apps": 22,
-    "starts": 19,
+    "minutes": 1793,
+    "apps": 23,
+    "starts": 20,
     "yellows": 6
    }
   },
@@ -950,9 +961,9 @@
      "league_id": 5,
      "season": "2026/2027",
      "assists": 2,
-     "minutes": 360,
-     "apps": 4,
-     "starts": 4
+     "minutes": 450,
+     "apps": 5,
+     "starts": 5
     },
     {
      "league": "Premiership",
@@ -978,9 +989,9 @@
    ],
    "total": {
     "sub_apps": 12,
-    "minutes": 1464,
-    "apps": 19,
-    "starts": 18,
+    "minutes": 1554,
+    "apps": 20,
+    "starts": 19,
     "assists": 7,
     "goals": 1,
     "yellows": 2
@@ -1011,8 +1022,9 @@
      "league_id": 5,
      "season": "2026/2027",
      "sub_apps": 1,
-     "minutes": 24,
-     "apps": 1
+     "minutes": 114,
+     "apps": 2,
+     "starts": 1
     },
     {
      "league": "Premiership",
@@ -1029,10 +1041,10 @@
    "total": {
     "sub_apps": 8,
     "yellows": 2,
-    "minutes": 258,
-    "apps": 9,
-    "goals": 2,
-    "starts": 2
+    "minutes": 348,
+    "apps": 10,
+    "starts": 3,
+    "goals": 2
    }
   },
   "23698076": {
@@ -1050,10 +1062,10 @@
      "league": "Europa League",
      "league_id": 5,
      "season": "2026/2027",
-     "sub_apps": 3,
+     "sub_apps": 4,
      "yellows": 1,
-     "minutes": 114,
-     "apps": 3,
+     "minutes": 145,
+     "apps": 4,
      "starts": 2
     },
     {
@@ -1067,10 +1079,10 @@
     }
    ],
    "total": {
-    "sub_apps": 7,
+    "sub_apps": 8,
     "yellows": 1,
-    "minutes": 237,
-    "apps": 7,
+    "minutes": 268,
+    "apps": 8,
     "starts": 3
    }
   },
@@ -1090,9 +1102,9 @@
      "league_id": 5,
      "season": "2026/2027",
      "penalties": 0,
-     "minutes": 180,
-     "apps": 2,
-     "starts": 2
+     "minutes": 270,
+     "apps": 3,
+     "starts": 3
     },
     {
      "league": "Premiership",
@@ -1114,9 +1126,9 @@
    ],
    "total": {
     "penalties": 0,
-    "minutes": 810,
-    "apps": 9,
-    "starts": 9
+    "minutes": 900,
+    "apps": 10,
+    "starts": 10
    }
   },
   "37714106": {
@@ -1279,10 +1291,10 @@
      "league_id": 5,
      "season": "2026/2027",
      "penalties": 0,
-     "sub_apps": 1,
-     "minutes": 192,
-     "apps": 3,
-     "starts": 2
+     "sub_apps": 2,
+     "minutes": 237,
+     "apps": 4,
+     "starts": 3
     },
     {
      "league": "Premiership",
@@ -1304,11 +1316,11 @@
     }
    ],
    "total": {
-    "sub_apps": 5,
-    "minutes": 717,
-    "apps": 12,
+    "sub_apps": 6,
+    "minutes": 762,
+    "apps": 13,
     "penalties": 0,
-    "starts": 7,
+    "starts": 8,
     "assists": 1
    }
   },
@@ -1335,9 +1347,9 @@
      "league": "Europa League",
      "league_id": 5,
      "season": "2026/2027",
-     "sub_apps": 4,
-     "minutes": 150,
-     "apps": 4,
+     "sub_apps": 5,
+     "minutes": 158,
+     "apps": 5,
      "starts": 2
     },
     {
@@ -1363,9 +1375,9 @@
     }
    ],
    "total": {
-    "sub_apps": 17,
-    "minutes": 591,
-    "apps": 17,
+    "sub_apps": 18,
+    "minutes": 599,
+    "apps": 18,
     "starts": 6,
     "yellows": 1,
     "goals": 1,
@@ -1387,9 +1399,10 @@
      "league": "Europa League",
      "league_id": 5,
      "season": "2026/2027",
-     "sub_apps": 1,
-     "minutes": 33,
-     "apps": 1
+     "sub_apps": 2,
+     "minutes": 92,
+     "apps": 2,
+     "starts": 1
     },
     {
      "league": "Premiership",
@@ -1412,11 +1425,11 @@
     }
    ],
    "total": {
-    "sub_apps": 10,
-    "minutes": 428,
-    "apps": 10,
-    "goals": 1,
-    "starts": 5
+    "sub_apps": 11,
+    "minutes": 487,
+    "apps": 11,
+    "starts": 6,
+    "goals": 1
    }
   },
   "35659846": {
@@ -1459,6 +1472,16 @@
    "captain": false,
    "competitions": [
     {
+     "league": "Europa League",
+     "league_id": 5,
+     "season": "2026/2027",
+     "sub_apps": 1,
+     "yellows": 1,
+     "minutes": 74,
+     "apps": 1,
+     "starts": 1
+    },
+    {
      "league": "Premiership",
      "league_id": 501,
      "season": "2026/2027",
@@ -1471,12 +1494,12 @@
     }
    ],
    "total": {
-    "sub_apps": 6,
-    "assists": 1,
-    "yellows": 1,
-    "minutes": 238,
-    "apps": 6,
-    "starts": 2
+    "sub_apps": 7,
+    "yellows": 2,
+    "minutes": 312,
+    "apps": 7,
+    "starts": 3,
+    "assists": 1
    }
   },
   "38223386": {
