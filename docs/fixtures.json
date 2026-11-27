@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-21T22:14:37+00:00",
+ "updated": "2026-11-27T01:03:55+00:00",
  "season": "2026/27",
  "team_id": 53,
  "record": {
-  "p": 22,
-  "w": 14,
+  "p": 23,
+  "w": 15,
   "d": 1,
   "l": 7,
-  "gf": 46,
-  "ga": 30
+  "gf": 48,
+  "ga": 31
  },
  "fixtures": [
   {
@@ -710,12 +710,18 @@
    "ha": "A",
    "opp": "Torreense",
    "opp_logo": "https://cdn.sportmonks.com/images/soccer/teams/27/7067.png",
-   "state": "NS",
-   "finished": false,
+   "state": "FT",
+   "finished": true,
    "void": false,
-   "score": null,
-   "half_time": null,
-   "result": null,
+   "score": {
+    "home": 1,
+    "away": 2
+   },
+   "half_time": {
+    "home": 1,
+    "away": 1
+   },
+   "result": "W",
    "tv": []
   },
   {
