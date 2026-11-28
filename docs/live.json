@@ -417,13 +417,6 @@
  "sidelined": {
   "home": [
    {
-    "player": "Calvin Miller",
-    "type": "Knee Injury",
-    "since": "2026-11-01",
-    "until": "2027-01-01",
-    "missed": 5
-   },
-   {
     "player": "Craig Halkett",
     "type": "No Eligibility",
     "since": "2026-09-03",
@@ -445,13 +438,6 @@
     "missed": 34
    },
    {
-    "player": "Elton Kabangu",
-    "type": "No Eligibility",
-    "since": "2026-09-03",
-    "until": "2026-12-18",
-    "missed": 16
-   },
-   {
     "player": "Stephen Kingsley",
     "type": "Hamstring Injury",
     "since": "2026-11-05",
@@ -459,7 +445,7 @@
     "missed": 4
    },
    {
-    "player": "Amadou Ba-Sy",
+    "player": "Elton Kabangu",
     "type": "No Eligibility",
     "since": "2026-09-03",
     "until": "2026-12-18",
@@ -471,6 +457,20 @@
     "since": "2026-10-18",
     "until": null,
     "missed": 9
+   },
+   {
+    "player": "Amadou Ba-Sy",
+    "type": "No Eligibility",
+    "since": "2026-09-03",
+    "until": "2026-12-18",
+    "missed": 16
+   },
+   {
+    "player": "Harry Milne",
+    "type": "Knee Injury",
+    "since": "2026-10-21",
+    "until": "2027-07-21",
+    "missed": 8
    }
   ],
   "away": [
@@ -649,7 +649,8 @@
    "NOW",
    "Sky Sports Football",
    "Sky Go UK",
-   "Sky Sports App"
+   "Hearts TV",
+   "Celtic TV"
   ]
  },
  "season_stats": {
@@ -1483,7 +1484,7 @@
    },
    "37563550": {
     "min": 82,
-    "rating": 7.3,
+    "rating": 7.31,
     "sh": 3,
     "touches": 54,
     "pass": 36,
@@ -1605,7 +1606,7 @@
     "min": 16,
     "pass": 8,
     "pass_pct": 87,
-    "rating": 7.25,
+    "rating": 7.24,
     "kp": 2,
     "bcc": 2,
     "a": 1,
@@ -1660,7 +1661,7 @@
    },
    "37537143": {
     "min": 90,
-    "rating": 6.95,
+    "rating": 6.94,
     "pass": 49,
     "pass_pct": 96,
     "clr": 3,
@@ -1737,7 +1738,7 @@
     "name": "Alejandro Alfaro"
    },
    "37543482": {
-    "rating": 6.57,
+    "rating": 6.55,
     "pass": 22,
     "touches": 36,
     "pass_pct": 64,
@@ -1785,7 +1786,7 @@
    },
    "537177": {
     "min": 90,
-    "rating": 6.8,
+    "rating": 6.82,
     "touches": 52,
     "pass_pct": 88,
     "sot": 1,
@@ -2696,5 +2697,5 @@
    }
   ]
  },
- "updated_at": "2026-11-27T19:43:50.374089+00:00"
+ "updated_at": "2026-11-28T11:09:05.559761+00:00"
 }
